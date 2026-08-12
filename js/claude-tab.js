@@ -60,8 +60,8 @@ function renderHoldingsTable(p) {
       const pnlColor = pnlPct > 0 ? "var(--good)" : pnlPct < 0 ? "var(--critical)" : "var(--text-secondary)";
       return `
         <tr>
-          <td>${h.ticker}</td>
-          <td>${h.name}</td>
+          <td title="${h.ticker}">${h.ticker}</td>
+          <td title="${h.name}">${h.name}</td>
           <td class="cell-num">${h.shares}</td>
           <td class="cell-num cell-computed">${h.avgCost.toLocaleString("en-US", { maximumFractionDigits: 2 })} ${h.currency}</td>
           <td class="cell-num cell-computed">${h.lastPrice.toLocaleString("en-US", { maximumFractionDigits: 2 })} ${h.currency}</td>

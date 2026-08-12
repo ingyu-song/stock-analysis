@@ -113,8 +113,8 @@ function renderHoldingsTable(d) {
     const computed = d.holdingsWithValue[i];
     const tr = document.createElement("tr");
     tr.innerHTML = `
-      <td><input data-field="ticker" data-i="${i}" value="${h.ticker}" placeholder="AAPL"></td>
-      <td><input data-field="name" data-i="${i}" value="${h.name}" placeholder="Apple"></td>
+      <td><input data-field="ticker" data-i="${i}" value="${h.ticker}" placeholder="AAPL" title="${h.ticker}"></td>
+      <td><input data-field="name" data-i="${i}" value="${h.name}" placeholder="Apple" title="${h.name}"></td>
       <td>
         <select data-field="currency" data-i="${i}">
           <option value="KRW" ${h.currency === "KRW" ? "selected" : ""}>KRW</option>
@@ -195,6 +195,7 @@ function onHoldingFieldChange(e) {
   const field = e.target.dataset.field;
   const isNumeric = ["shares", "avgCost", "price", "beta"].includes(field);
   state.holdings[i][field] = isNumeric ? Number(e.target.value) : e.target.value;
+  if (field === "ticker" || field === "name") e.target.title = e.target.value;
   saveState(state);
   const d = computeDerived();
   renderStats(d);

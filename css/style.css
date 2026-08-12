@@ -289,23 +289,38 @@ table { border-collapse: collapse; width: 100%; }
 
 /* ---------- tables ---------- */
 .table-wrap { overflow-x: auto; margin: -2px -2px 0; }
-.holdings-table { font-size: 13px; min-width: 640px; }
+.holdings-table { font-size: 13px; }
+#holdingsTable { table-layout: fixed; width: 776px; }
+#claudeHoldingsTable { table-layout: fixed; width: 726px; }
+.holdings-table input[type="number"] { -moz-appearance: textfield; }
+.holdings-table input[type="number"]::-webkit-outer-spin-button,
+.holdings-table input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none; margin: 0;
+}
 .holdings-table th {
   text-align: left; font-weight: 500; color: var(--text-muted);
   font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.04em;
   padding: 6px 8px; border-bottom: 0.5px solid var(--gridline);
-  white-space: nowrap;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
-.holdings-table td { padding: 4px 8px; border-bottom: 0.5px solid var(--gridline); vertical-align: middle; }
+.holdings-table td {
+  padding: 4px 8px; border-bottom: 0.5px solid var(--gridline); vertical-align: middle;
+  overflow: hidden;
+}
 .holdings-table tbody tr:hover { background: var(--bg-chip); }
 .holdings-table input, .holdings-table select {
   border: 0.5px solid transparent; background: transparent; color: var(--text-primary);
   border-radius: var(--radius-xs); padding: 5px 6px; font-size: 13px; width: 100%;
   font-family: var(--font-mono); font-variant-numeric: tabular-nums;
+  overflow: hidden; text-overflow: ellipsis; white-space: nowrap;
 }
 .holdings-table input:hover, .holdings-table select:hover { border-color: var(--border); }
 .holdings-table .cell-num { text-align: right; }
-.holdings-table .cell-computed { color: var(--text-secondary); font-family: var(--font-mono); font-variant-numeric: tabular-nums; white-space: nowrap; }
+.holdings-table .cell-computed {
+  color: var(--text-secondary); font-family: var(--font-mono); font-variant-numeric: tabular-nums;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block;
+}
+.holdings-table td:not(.cell-computed):not(.cell-num) { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .row-remove-btn {
   border: none; background: transparent; color: var(--text-muted); cursor: pointer;
   font-size: 16px; line-height: 1; padding: 4px;
