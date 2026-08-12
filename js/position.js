@@ -26,6 +26,15 @@ function loadState() {
   }
 }
 
+function confirmCurrencyChange(prevCurrency, nextCurrency, amountLabel) {
+  if (prevCurrency === nextCurrency) return true;
+  return confirm(
+    `${amountLabel} 통화를 ${prevCurrency} → ${nextCurrency}로 바꾸면 입력된 숫자는 그대로 유지돼요.\n` +
+    `그 숫자가 ${prevCurrency} 기준 금액이었다면, 통화를 바꾸기 전에 ${nextCurrency} 기준 금액으로 직접 고쳐야 정확해요.\n` +
+    `(안 그러면 환율만큼 그대로 부풀려지거나 줄어들어요.) 계속할까요?`
+  );
+}
+
 function saveState(state) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
 }
@@ -197,16 +206,9 @@ function onHoldingFieldChange(e) {
   if (field === "currency") {
     const prevCurrency = state.holdings[i].currency;
     const nextCurrency = e.target.value;
-    if (prevCurrency !== nextCurrency) {
-      const ok = confirm(
-        `통화를 ${prevCurrency} → ${nextCurrency}로 바꾸면 평단/현재가는 그대로 숫자만 유지돼요.\n` +
-        `지금 입력된 평단/현재가가 ${prevCurrency} 기준 금액이라면, 통화를 바꾸기 전에 그 숫자를 ${nextCurrency} 기준 금액으로 직접 고쳐야 평가액이 정확해요.\n` +
-        `(안 그러면 환율만큼 그대로 부풀려지거나 줄어들어요.) 계속할까요?`
-      );
-      if (!ok) {
-        e.target.value = prevCurrency;
-        return;
-      }
+    if (!confirmCurrencyChange(prevCurrency, nextCurrency, "이 종목의 평단/현재가")) {
+      e.target.value = prevCurrency;
+      return;
     }
   }
 
@@ -236,7 +238,19 @@ export function initPosition() {
   document.getElementById("inputRf").value = state.risk.rf;
 
   document.getElementById("baseCurrency").addEventListener("change", e => {
-    state.baseCurrency = e.target.value;
+    const prev = state.baseCurrency;
+    const next = e.target.value;
+    if (prev !== next) {
+      const ok = confirm(
+        `기준통화를 ${prev} → ${next}로 바꾸면, 지금 ${prev}로 입력된 현금/종목들이 전부 실제로는 ${next} 금액인 것처럼 환율로 재계산돼요.\n` +
+        `개별 종목/현금 통화와 금액을 먼저 맞는 값으로 고쳐놓지 않았다면 Total AUM이 크게 틀어질 수 있어요. 계속할까요?`
+      );
+      if (!ok) {
+        e.target.value = prev;
+        return;
+      }
+    }
+    state.baseCurrency = next;
     persistAndRender();
   });
   document.getElementById("fxRate").addEventListener("input", e => {
@@ -248,7 +262,13 @@ export function initPosition() {
     persistAndRender();
   });
   document.getElementById("cashCurrency").addEventListener("change", e => {
-    state.cashCurrency = e.target.value;
+    const prev = state.cashCurrency;
+    const next = e.target.value;
+    if (!confirmCurrencyChange(prev, next, "현금 보유액")) {
+      e.target.value = prev;
+      return;
+    }
+    state.cashCurrency = next;
     persistAndRender();
   });
   document.getElementById("addHoldingBtn").addEventListener("click", () => {
