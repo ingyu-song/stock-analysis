@@ -376,6 +376,20 @@ table { border-collapse: collapse; width: 100%; }
 .valuation-stat .stat-value { font-size: 26px; }
 .valuation-note { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
 
+/* ---------- import modal ---------- */
+.import-modal {
+  position: fixed; inset: 0; z-index: 50;
+  background: rgba(0,0,0,0.45);
+  display: flex; align-items: center; justify-content: center;
+  padding: 20px;
+}
+.import-modal[hidden] { display: none; }
+.import-modal-inner {
+  background: var(--surface-1); border: 0.5px solid var(--border);
+  border-radius: var(--radius); box-shadow: 0 12px 40px rgba(0,0,0,0.25);
+  padding: 20px 22px; width: 100%; max-width: 640px; max-height: 85vh; overflow-y: auto;
+}
+
 /* ---------- market tab ---------- */
 .sector-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
 .sector-card {

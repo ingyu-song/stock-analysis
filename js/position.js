@@ -251,5 +251,42 @@ export function initPosition() {
     setTimeout(() => renderChart(computeDerived()), 0);
   });
 
+  initImportModal();
   render();
+}
+
+function initImportModal() {
+  const modal = document.getElementById("importModal");
+  const textarea = document.getElementById("importTextarea");
+
+  document.getElementById("importBtn").addEventListener("click", () => {
+    textarea.value = "";
+    modal.hidden = false;
+    textarea.focus();
+  });
+  document.getElementById("importCancelBtn").addEventListener("click", () => {
+    modal.hidden = true;
+  });
+  modal.addEventListener("click", e => {
+    if (e.target === modal) modal.hidden = true;
+  });
+  document.getElementById("importApplyBtn").addEventListener("click", () => {
+    let parsed;
+    try {
+      parsed = JSON.parse(textarea.value);
+    } catch (err) {
+      alert("JSON을 읽을 수 없어요: " + err.message);
+      return;
+    }
+    state = { ...defaultState(), ...parsed };
+    modal.hidden = true;
+    document.getElementById("baseCurrency").value = state.baseCurrency;
+    document.getElementById("fxRate").value = state.fxRate;
+    document.getElementById("cashAmount").value = state.cashAmount;
+    document.getElementById("cashCurrency").value = state.cashCurrency;
+    document.getElementById("inputReturn").value = state.risk.return;
+    document.getElementById("inputVol").value = state.risk.vol;
+    document.getElementById("inputRf").value = state.risk.rf;
+    persistAndRender();
+  });
 }

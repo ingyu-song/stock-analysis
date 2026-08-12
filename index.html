@@ -114,8 +114,23 @@
             <tbody id="holdingsBody"></tbody>
           </table>
         </div>
-        <button class="btn btn-ghost" id="addHoldingBtn">+ 종목 추가</button>
+        <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
+          <button class="btn btn-ghost" id="addHoldingBtn">+ 종목 추가</button>
+          <button class="btn btn-ghost" id="importBtn">JSON 가져오기</button>
+        </div>
         <p class="hint">베타는 지금은 수동 입력이에요. 토스증권 API 연동 후 과거 가격으로 자동 계산할 예정입니다.</p>
+      </div>
+
+      <div id="importModal" class="import-modal" hidden>
+        <div class="import-modal-inner">
+          <div class="card-head"><h2>포지션 JSON 가져오기</h2></div>
+          <p class="hint" style="margin-top:0;">아래에 JSON을 붙여넣고 적용하세요. 이 브라우저의 localStorage에만 저장되고 레포에는 올라가지 않습니다.</p>
+          <textarea id="importTextarea" class="market-note" style="min-height:220px; font-family:var(--font-mono); font-size:12px;"></textarea>
+          <div style="display:flex; gap:8px; margin-top:10px;">
+            <button class="btn" id="importApplyBtn">적용</button>
+            <button class="btn btn-ghost" id="importCancelBtn">취소</button>
+          </div>
+        </div>
       </div>
 
       <div class="card">
