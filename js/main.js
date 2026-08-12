@@ -18,6 +18,11 @@ function initTabs() {
 
   buttons.forEach(b => b.addEventListener("click", () => activate(b.dataset.tab)));
 
+  window.addEventListener("hashchange", () => {
+    const name = location.hash.replace("#", "");
+    if (["position", "analysis", "market"].includes(name)) activate(name);
+  });
+
   const fromHash = location.hash.replace("#", "");
   activate(["position", "analysis", "market"].includes(fromHash) ? fromHash : "position");
 }

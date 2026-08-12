@@ -161,6 +161,7 @@ function renderChart(d) {
     data: { labels, datasets: [{ data: values, backgroundColor: colors, borderWidth: 2, borderColor: cssVar("--surface-1") }] },
     options: {
       cutout: "62%",
+      maintainAspectRatio: false,
       plugins: {
         legend: { position: "bottom", labels: { color: cssVar("--text-secondary"), boxWidth: 10, padding: 12, font: { size: 12 } } },
         tooltip: {

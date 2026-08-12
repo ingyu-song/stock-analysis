@@ -107,6 +107,11 @@ table { border-collapse: collapse; width: 100%; }
   display: flex; align-items: center; gap: 24px;
   padding: 12px 24px;
 }
+@media (max-width: 560px) {
+  .topbar-inner { gap: 10px; padding: 10px 14px; }
+  .brand-name { display: none; }
+  .tab-btn { padding: 7px 10px; font-size: 13px; }
+}
 .brand { display: flex; align-items: baseline; gap: 6px; margin-right: 8px; }
 .brand-mark {
   font-weight: 800; font-size: 15px; letter-spacing: 0.02em;
@@ -115,10 +120,14 @@ table { border-collapse: collapse; width: 100%; }
 }
 .brand-name { font-weight: 650; color: var(--text-secondary); font-size: 14px; }
 
-.tabs { display: flex; gap: 4px; flex: 1; }
+.tabs {
+  display: flex; gap: 4px; flex: 1;
+  overflow-x: auto; scrollbar-width: none; min-width: 0;
+}
+.tabs::-webkit-scrollbar { display: none; }
 .tab-btn {
   border: none; background: transparent; cursor: pointer;
-  padding: 8px 14px; border-radius: 999px;
+  padding: 8px 14px; border-radius: 999px; flex-shrink: 0; white-space: nowrap;
   color: var(--text-secondary); font-weight: 560; font-size: 14px;
   transition: background .15s, color .15s;
 }
@@ -145,6 +154,29 @@ table { border-collapse: collapse; width: 100%; }
 .panel-head-row { display: flex; align-items: flex-end; justify-content: space-between; gap: 16px; flex-wrap: wrap; }
 .panel-head h1 { font-size: 22px; }
 .panel-sub { color: var(--text-secondary); margin-top: 4px; font-size: 14px; }
+
+/* ---------- stock search combobox ---------- */
+.stock-search { position: relative; min-width: 260px; }
+.stock-search input {
+  border: 1px solid var(--border); background: var(--surface-2);
+  color: var(--text-primary); border-radius: 7px;
+  padding: 8px 10px; font-size: 14px; width: 100%;
+}
+.stock-search-results {
+  display: none; position: absolute; top: calc(100% + 4px); left: 0; right: 0;
+  background: var(--surface-2); border: 1px solid var(--border); border-radius: 9px;
+  box-shadow: var(--shadow); max-height: 260px; overflow-y: auto; z-index: 15;
+  padding: 4px;
+}
+.stock-search-results.is-open { display: block; }
+.stock-search-result {
+  display: flex; align-items: center; gap: 8px;
+  padding: 8px 10px; border-radius: 6px; cursor: pointer; font-size: 13.5px;
+}
+.stock-search-result:hover, .stock-search-result.is-active { background: var(--border); }
+.stock-search-result .ticker { font-weight: 650; color: var(--series-1); flex-shrink: 0; }
+.stock-search-result .name { color: var(--text-secondary); }
+.stock-search-empty { padding: 10px; font-size: 13px; color: var(--text-muted); text-align: center; }
 
 .grid-2col {
   display: grid; grid-template-columns: 1.4fr 1fr; gap: 16px;
@@ -239,7 +271,7 @@ table { border-collapse: collapse; width: 100%; }
 .row-remove-btn:hover { color: var(--critical); }
 
 /* ---------- charts ---------- */
-.chart-wrap { position: relative; min-height: 220px; }
+.chart-wrap { position: relative; height: 260px; }
 .chart-empty { text-align: center; color: var(--text-muted); font-size: 13px; padding: 60px 0; display: none; }
 
 /* ---------- risk panel ---------- */
@@ -266,6 +298,15 @@ table { border-collapse: collapse; width: 100%; }
 }
 .section-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 @media (max-width: 860px) { .section-grid { grid-template-columns: 1fr; } }
+
+.mini-chart-wrap { position: relative; height: 200px; }
+.segment-mix-wrap { display: flex; gap: 18px; align-items: center; flex-wrap: wrap; }
+.segment-mix-wrap .mini-chart-wrap { flex: 0 0 180px; height: 180px; width: 180px; }
+.segment-op-list { flex: 1; min-width: 200px; display: flex; flex-direction: column; gap: 6px; }
+.segment-op-row { display: flex; justify-content: space-between; gap: 10px; font-size: 13px; padding: 4px 0; border-bottom: 1px solid var(--gridline); }
+.segment-op-row:last-child { border-bottom: none; }
+.segment-op-row .name { color: var(--text-secondary); }
+.segment-op-row .val { font-variant-numeric: tabular-nums; font-weight: 560; }
 
 .kpi-list, .risk-list, .promise-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 10px; }
 .kpi-list li, .risk-list li { display: flex; gap: 10px; align-items: flex-start; font-size: 13.5px; }
