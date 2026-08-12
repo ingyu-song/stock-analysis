@@ -10,7 +10,6 @@ function defaultState() {
     baseCurrency: "KRW",
     fxRate: 1380,
     cashAmount: 0,
-    cashCurrency: "KRW",
     holdings: [],
     risk: { return: 0, vol: 0, rf: 3.5 },
   };
@@ -69,7 +68,7 @@ function newHoldingRow() {
 }
 
 function computeDerived() {
-  const cashBase = toBase(Number(state.cashAmount) || 0, state.cashCurrency, state);
+  const cashBase = Number(state.cashAmount) || 0;
   const holdingsWithValue = state.holdings.map(h => {
     const value = (Number(h.shares) || 0) * (Number(h.price) || 0);
     const valueBase = toBase(value, h.currency, state);
@@ -232,7 +231,6 @@ export function initPosition() {
   document.getElementById("baseCurrency").value = state.baseCurrency;
   document.getElementById("fxRate").value = state.fxRate;
   document.getElementById("cashAmount").value = state.cashAmount;
-  document.getElementById("cashCurrency").value = state.cashCurrency;
   document.getElementById("inputReturn").value = state.risk.return;
   document.getElementById("inputVol").value = state.risk.vol;
   document.getElementById("inputRf").value = state.risk.rf;
@@ -240,15 +238,9 @@ export function initPosition() {
   document.getElementById("baseCurrency").addEventListener("change", e => {
     const prev = state.baseCurrency;
     const next = e.target.value;
-    if (prev !== next) {
-      const ok = confirm(
-        `기준통화를 ${prev} → ${next}로 바꾸면, 지금 ${prev}로 입력된 현금/종목들이 전부 실제로는 ${next} 금액인 것처럼 환율로 재계산돼요.\n` +
-        `개별 종목/현금 통화와 금액을 먼저 맞는 값으로 고쳐놓지 않았다면 Total AUM이 크게 틀어질 수 있어요. 계속할까요?`
-      );
-      if (!ok) {
-        e.target.value = prev;
-        return;
-      }
+    if (!confirmCurrencyChange(prev, next, "현금 보유액 + Total AUM 표시")) {
+      e.target.value = prev;
+      return;
     }
     state.baseCurrency = next;
     persistAndRender();
@@ -259,16 +251,6 @@ export function initPosition() {
   });
   document.getElementById("cashAmount").addEventListener("input", e => {
     state.cashAmount = Number(e.target.value);
-    persistAndRender();
-  });
-  document.getElementById("cashCurrency").addEventListener("change", e => {
-    const prev = state.cashCurrency;
-    const next = e.target.value;
-    if (!confirmCurrencyChange(prev, next, "현금 보유액")) {
-      e.target.value = prev;
-      return;
-    }
-    state.cashCurrency = next;
     persistAndRender();
   });
   document.getElementById("addHoldingBtn").addEventListener("click", () => {
@@ -321,7 +303,6 @@ function initImportModal() {
     document.getElementById("baseCurrency").value = state.baseCurrency;
     document.getElementById("fxRate").value = state.fxRate;
     document.getElementById("cashAmount").value = state.cashAmount;
-    document.getElementById("cashCurrency").value = state.cashCurrency;
     document.getElementById("inputReturn").value = state.risk.return;
     document.getElementById("inputVol").value = state.risk.vol;
     document.getElementById("inputRf").value = state.risk.rf;

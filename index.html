@@ -66,13 +66,6 @@
           <h2>보유 내역</h2>
           <div class="card-head-actions">
             <label class="inline-field">
-              기준통화
-              <select id="baseCurrency">
-                <option value="KRW">KRW</option>
-                <option value="USD">USD</option>
-              </select>
-            </label>
-            <label class="inline-field">
               USD/KRW
               <input type="number" id="fxRate" value="1380" step="1" style="width:5.5em">
             </label>
@@ -85,13 +78,14 @@
             <input type="number" id="cashAmount" value="0" step="10000">
           </label>
           <label class="inline-field">
-            현금 통화
-            <select id="cashCurrency">
+            기준통화
+            <select id="baseCurrency">
               <option value="KRW">KRW</option>
               <option value="USD">USD</option>
             </select>
           </label>
         </div>
+        <p class="hint" style="margin-top:-4px;">기준통화 = 현금 보유액의 통화이자 Total AUM 표시 통화예요. 종목별 통화가 다르면 USD/KRW 환율로 여기 맞춰 환산돼요.</p>
 
         <div class="table-wrap">
           <table class="holdings-table" id="holdingsTable">
