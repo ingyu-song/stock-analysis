@@ -42,5 +42,22 @@ jobs:
           git config user.name "claude-invest-bot"
           git config user.email "actions@users.noreply.github.com"
           git add data/claude-portfolio.json
-          git diff --cached --quiet && echo "No changes" || git commit -m "Claude monthly investment decision ($(date +%Y-%m-%d))"
-          git push
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "Claude monthly investment decision ($(date +%Y-%m-%d))"
+
+          attempt=1
+          max_attempts=5
+          until git push origin main; do
+            if [ "$attempt" -ge "$max_attempts" ]; then
+              echo "Push failed after $max_attempts attempts — the decision commit is stuck local to this runner and will be lost when it exits."
+              exit 1
+            fi
+            echo "Push rejected (remote moved), pulling and retrying — attempt $attempt/$max_attempts"
+            git pull --rebase origin main
+            attempt=$((attempt + 1))
+            sleep $((RANDOM % 8 + 3))
+          done

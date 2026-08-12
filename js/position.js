@@ -193,6 +193,23 @@ function persistAndRender() {
 function onHoldingFieldChange(e) {
   const i = Number(e.target.dataset.i);
   const field = e.target.dataset.field;
+
+  if (field === "currency") {
+    const prevCurrency = state.holdings[i].currency;
+    const nextCurrency = e.target.value;
+    if (prevCurrency !== nextCurrency) {
+      const ok = confirm(
+        `통화를 ${prevCurrency} → ${nextCurrency}로 바꾸면 평단/현재가는 그대로 숫자만 유지돼요.\n` +
+        `지금 입력된 평단/현재가가 ${prevCurrency} 기준 금액이라면, 통화를 바꾸기 전에 그 숫자를 ${nextCurrency} 기준 금액으로 직접 고쳐야 평가액이 정확해요.\n` +
+        `(안 그러면 환율만큼 그대로 부풀려지거나 줄어들어요.) 계속할까요?`
+      );
+      if (!ok) {
+        e.target.value = prevCurrency;
+        return;
+      }
+    }
+  }
+
   const isNumeric = ["shares", "avgCost", "price", "beta"].includes(field);
   state.holdings[i][field] = isNumeric ? Number(e.target.value) : e.target.value;
   if (field === "ticker" || field === "name") e.target.title = e.target.value;
