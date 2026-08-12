@@ -4,9 +4,31 @@
   "startingAUM": 46500000,
   "cash": 46500000,
   "holdings": [],
-  "decisions": [],
-  "valueHistory": [
-    { "date": "2026-08-12", "totalValue": 46500000, "cash": 46500000, "equityValue": 0 }
+  "decisions": [
+    {
+      "date": "2026-08-12",
+      "portfolioValueBefore": 46500000,
+      "cashBefore": 46500000,
+      "marketView": "[DRY RUN] 파이프라인 테스트용 더미 응답입니다. 실제 API 호출은 이루어지지 않았습니다.",
+      "trades": [],
+      "portfolioValueAfter": 46500000,
+      "cashAfter": 46500000,
+      "dryRun": true
+    }
   ],
-  "lastUpdated": "2026-08-12T00:00:00Z"
+  "valueHistory": [
+    {
+      "date": "2026-08-12",
+      "totalValue": 46500000,
+      "cash": 46500000,
+      "equityValue": 0
+    },
+    {
+      "date": "2026-08-12",
+      "totalValue": 46500000,
+      "cash": 46500000,
+      "equityValue": 0
+    }
+  ],
+  "lastUpdated": "2026-08-12T08:27:16.606259+00:00"
 }
