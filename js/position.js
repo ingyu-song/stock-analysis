@@ -9,6 +9,7 @@ function defaultState() {
   return {
     baseCurrency: "KRW",
     fxRate: 1380,
+    fxRateEUR: 1634,
     cashAmount: 0,
     holdings: [],
     risk: { return: 0, vol: 0, rf: 3.5 },
@@ -44,11 +45,11 @@ function cssVar(name) {
   return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
 }
 
+// baseCurrency is always KRW, so this only ever converts currency -> KRW.
 function toBase(amount, currency, state) {
-  if (currency === state.baseCurrency) return amount;
-  const fx = Number(state.fxRate) || 0;
-  if (currency === "USD" && state.baseCurrency === "KRW") return amount * fx;
-  if (currency === "KRW" && state.baseCurrency === "USD") return fx ? amount / fx : 0;
+  if (currency === "KRW") return amount;
+  if (currency === "USD") return amount * (Number(state.fxRate) || 0);
+  if (currency === "EUR") return amount * (Number(state.fxRateEUR) || 0);
   return amount;
 }
 
@@ -129,6 +130,7 @@ function renderHoldingsTable(d) {
         <select data-field="currency" data-i="${i}">
           <option value="KRW" ${h.currency === "KRW" ? "selected" : ""}>KRW</option>
           <option value="USD" ${h.currency === "USD" ? "selected" : ""}>USD</option>
+          <option value="EUR" ${h.currency === "EUR" ? "selected" : ""}>EUR</option>
         </select>
       </td>
       <td><input class="cell-num" type="number" data-field="shares" data-i="${i}" value="${h.shares}" step="1"></td>
@@ -231,6 +233,7 @@ function onHoldingFieldChange(e) {
 
 export function initPosition() {
   document.getElementById("fxRate").value = state.fxRate;
+  document.getElementById("fxRateEUR").value = state.fxRateEUR;
   document.getElementById("cashAmount").value = state.cashAmount;
   document.getElementById("inputReturn").value = state.risk.return;
   document.getElementById("inputVol").value = state.risk.vol;
@@ -238,6 +241,10 @@ export function initPosition() {
 
   document.getElementById("fxRate").addEventListener("input", e => {
     state.fxRate = Number(e.target.value);
+    persistAndRender();
+  });
+  document.getElementById("fxRateEUR").addEventListener("input", e => {
+    state.fxRateEUR = Number(e.target.value);
     persistAndRender();
   });
   document.getElementById("cashAmount").addEventListener("input", e => {
@@ -292,6 +299,7 @@ function initImportModal() {
     state = { ...defaultState(), ...parsed, baseCurrency: "KRW" };
     modal.hidden = true;
     document.getElementById("fxRate").value = state.fxRate;
+    document.getElementById("fxRateEUR").value = state.fxRateEUR;
     document.getElementById("cashAmount").value = state.cashAmount;
     document.getElementById("inputReturn").value = state.risk.return;
     document.getElementById("inputVol").value = state.risk.vol;
