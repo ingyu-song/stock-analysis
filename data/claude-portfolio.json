@@ -1,0 +1,12 @@
+{
+  "startDate": "2026-08-12",
+  "baseCurrency": "KRW",
+  "startingAUM": 46500000,
+  "cash": 46500000,
+  "holdings": [],
+  "decisions": [],
+  "valueHistory": [
+    { "date": "2026-08-12", "totalValue": 46500000, "cash": 46500000, "equityValue": 0 }
+  ],
+  "lastUpdated": "2026-08-12T00:00:00Z"
+}

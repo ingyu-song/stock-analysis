@@ -23,6 +23,7 @@
       <button class="tab-btn is-active" role="tab" aria-selected="true" data-tab="position">내 포지션</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="analysis">주식 분석</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="market">What's in the Market</button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-tab="claude">클로드 투자</button>
     </nav>
     <button class="theme-toggle" id="themeToggle" aria-label="테마 전환" title="라이트/다크 전환">
       <svg class="icon-sun" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.41-1.41M17.66 6.34l1.41-1.41"/></svg>
@@ -210,6 +211,74 @@
     <div class="card">
       <div class="card-head"><h2>마켓 노트</h2></div>
       <textarea id="marketNote" class="market-note" placeholder="오늘 시장에서 눈에 띄는 것들을 메모하세요…"></textarea>
+    </div>
+
+  </section>
+
+  <!-- ============ TAB 4: 클로드 투자 ============ -->
+  <section class="tab-panel" id="panel-claude" role="tabpanel">
+
+    <div class="panel-head">
+      <h1>클로드 투자</h1>
+      <p class="panel-sub">Claude가 매달 한 번, 펀더멘털 관점으로 점검하고 매매하는 모의투자 포트폴리오. 시작일 <span id="claudeStartDate">–</span>, 시작 AUM <span id="claudeStartAUM">–</span>.</p>
+    </div>
+
+    <div class="stat-grid" id="claudeStats">
+      <div class="stat-tile">
+        <span class="stat-label">Total AUM</span>
+        <span class="stat-value" id="claudeStatAUM">–</span>
+      </div>
+      <div class="stat-tile">
+        <span class="stat-label">시작 대비 수익률</span>
+        <span class="stat-value" id="claudeStatReturn">–</span>
+      </div>
+      <div class="stat-tile">
+        <span class="stat-label">현금 비중</span>
+        <span class="stat-value" id="claudeStatCashPct">–</span>
+      </div>
+      <div class="stat-tile">
+        <span class="stat-label">보유 종목 수</span>
+        <span class="stat-value" id="claudeStatCount">–</span>
+      </div>
+    </div>
+
+    <div class="grid-2col">
+      <div class="card">
+        <div class="card-head"><h2>보유 내역</h2></div>
+        <div class="table-wrap">
+          <table class="holdings-table" id="claudeHoldingsTable">
+            <thead>
+              <tr>
+                <th>티커</th><th>종목명</th><th>수량</th><th>평단</th>
+                <th>현재가</th><th>손익</th><th>평가액</th><th>비중</th>
+              </tr>
+            </thead>
+            <tbody id="claudeHoldingsBody"></tbody>
+          </table>
+        </div>
+      </div>
+      <div class="card">
+        <div class="card-head"><h2>자산 배분</h2></div>
+        <div class="chart-wrap">
+          <canvas id="claudeAllocationChart"></canvas>
+        </div>
+        <p class="chart-empty" id="claudeAllocationEmpty">아직 매매 이력이 없어요.</p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head"><h2>자산 추이</h2></div>
+      <div class="mini-chart-wrap" style="height:220px;">
+        <canvas id="claudeValueChart"></canvas>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h2>의사결정 로그</h2>
+        <span class="badge badge-muted">매월 자동 실행</span>
+      </div>
+      <div id="claudeDecisionLog"></div>
     </div>
 
   </section>

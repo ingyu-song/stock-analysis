@@ -1,0 +1,46 @@
+name: Claude Monthly Investment Decision
+
+on:
+  schedule:
+    # 00:10 UTC on the 1st of every month (= 09:10 KST)
+    - cron: "10 0 1 * *"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (skip the Claude API call, just test the pipeline)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+jobs:
+  invest:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Run Claude investment decision
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python scripts/claude_invest.py --dry-run
+          else
+            python scripts/claude_invest.py
+          fi
+
+      - name: Commit updated portfolio
+        run: |
+          git config user.name "claude-invest-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/claude-portfolio.json
+          git diff --cached --quiet && echo "No changes" || git commit -m "Claude monthly investment decision ($(date +%Y-%m-%d))"
+          git push

@@ -1,6 +1,9 @@
 import { initPosition } from "./position.js";
 import { initAnalysis } from "./analysis.js";
 import { initMarket } from "./market.js";
+import { initClaudeTab } from "./claude-tab.js";
+
+const TAB_NAMES = ["position", "analysis", "market", "claude"];
 
 function initTabs() {
   const buttons = document.querySelectorAll(".tab-btn");
@@ -20,11 +23,11 @@ function initTabs() {
 
   window.addEventListener("hashchange", () => {
     const name = location.hash.replace("#", "");
-    if (["position", "analysis", "market"].includes(name)) activate(name);
+    if (TAB_NAMES.includes(name)) activate(name);
   });
 
   const fromHash = location.hash.replace("#", "");
-  activate(["position", "analysis", "market"].includes(fromHash) ? fromHash : "position");
+  activate(TAB_NAMES.includes(fromHash) ? fromHash : "position");
 }
 
 function initTheme() {
@@ -46,3 +49,4 @@ initTheme();
 initPosition();
 initAnalysis();
 initMarket();
+initClaudeTab();
