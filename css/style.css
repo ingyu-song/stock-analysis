@@ -230,7 +230,10 @@ table { border-collapse: collapse; width: 100%; }
   display: flex; align-items: center; justify-content: space-between;
   gap: 12px; margin-bottom: 14px; flex-wrap: wrap;
 }
-.card-head h2 { font-size: 14px; letter-spacing: -0.1px; }
+.card-head h2 {
+  font-size: 14px; letter-spacing: -0.1px;
+  border-left: 3px solid var(--gold); padding-left: 8px;
+}
 .card-head-actions { display: flex; gap: 14px; }
 
 .stat-grid {
@@ -358,7 +361,7 @@ body.is-col-resizing * { cursor: col-resize !important; }
 }
 .stock-ticker-badge {
   font-family: var(--font-mono); font-weight: 500; font-size: 12px; letter-spacing: 0.02em;
-  background: var(--navy); color: #fff;
+  background: var(--gold); color: #fff;
   padding: 4px 10px; border-radius: var(--radius-xs);
 }
 .stock-title { font-family: var(--font-sans); font-size: 18px; font-weight: 600; letter-spacing: -0.2px; }
