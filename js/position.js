@@ -19,7 +19,9 @@ function loadState() {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return defaultState();
-    return { ...defaultState(), ...JSON.parse(raw) };
+    // baseCurrency is fixed to KRW — never trust a stored/imported value here,
+    // so a stale currency selection can never leave AUM stuck in USD.
+    return { ...defaultState(), ...JSON.parse(raw), baseCurrency: "KRW" };
   } catch {
     return defaultState();
   }
@@ -228,23 +230,12 @@ function onHoldingFieldChange(e) {
 }
 
 export function initPosition() {
-  document.getElementById("baseCurrency").value = state.baseCurrency;
   document.getElementById("fxRate").value = state.fxRate;
   document.getElementById("cashAmount").value = state.cashAmount;
   document.getElementById("inputReturn").value = state.risk.return;
   document.getElementById("inputVol").value = state.risk.vol;
   document.getElementById("inputRf").value = state.risk.rf;
 
-  document.getElementById("baseCurrency").addEventListener("change", e => {
-    const prev = state.baseCurrency;
-    const next = e.target.value;
-    if (!confirmCurrencyChange(prev, next, "현금 보유액 + Total AUM 표시")) {
-      e.target.value = prev;
-      return;
-    }
-    state.baseCurrency = next;
-    persistAndRender();
-  });
   document.getElementById("fxRate").addEventListener("input", e => {
     state.fxRate = Number(e.target.value);
     persistAndRender();
@@ -298,9 +289,8 @@ function initImportModal() {
       alert("JSON을 읽을 수 없어요: " + err.message);
       return;
     }
-    state = { ...defaultState(), ...parsed };
+    state = { ...defaultState(), ...parsed, baseCurrency: "KRW" };
     modal.hidden = true;
-    document.getElementById("baseCurrency").value = state.baseCurrency;
     document.getElementById("fxRate").value = state.fxRate;
     document.getElementById("cashAmount").value = state.cashAmount;
     document.getElementById("inputReturn").value = state.risk.return;
