@@ -75,10 +75,6 @@ function hexToRgba(hex, alpha) {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`;
 }
 
-function statusIcon(status) {
-  return { good: "🟢", warning: "🟡", critical: "🔴" }[status] || "⚪";
-}
-
 let revenueChart = null;
 let priceChart = null;
 let perChart = null;
@@ -184,7 +180,7 @@ function renderStock(key) {
     .map(p => `
       <div class="promise-row">
         <span style="flex:1">${p.item}</span>
-        <span class="status-pill status-${p.status}">${statusIcon(p.status)} ${
+        <span class="status-pill status-${p.status}">${
         p.status === "good" ? "이행 중" : p.status === "warning" ? "지연" : "미이행"
       }</span>
       </div>
