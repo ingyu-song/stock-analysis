@@ -2,6 +2,7 @@ import { initPosition } from "./position.js";
 import { initAnalysis } from "./analysis.js";
 import { initMarket } from "./market.js";
 import { initClaudeTab } from "./claude-tab.js";
+import { makeTableResizable } from "./table-resize.js";
 
 const TAB_NAMES = ["position", "analysis", "market", "claude"];
 
@@ -50,3 +51,6 @@ initPosition();
 initAnalysis();
 initMarket();
 initClaudeTab();
+
+makeTableResizable(document.getElementById("holdingsTable"), "igs-colwidths-holdings");
+makeTableResizable(document.getElementById("claudeHoldingsTable"), "igs-colwidths-claude");

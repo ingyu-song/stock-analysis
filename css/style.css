@@ -290,13 +290,27 @@ table { border-collapse: collapse; width: 100%; }
 /* ---------- tables ---------- */
 .table-wrap { overflow-x: auto; margin: -2px -2px 0; }
 .holdings-table { font-size: 13px; }
-#holdingsTable { table-layout: fixed; width: 776px; }
-#claudeHoldingsTable { table-layout: fixed; width: 726px; }
+#holdingsTable, #claudeHoldingsTable { table-layout: fixed; }
 .holdings-table input[type="number"] { -moz-appearance: textfield; }
 .holdings-table input[type="number"]::-webkit-outer-spin-button,
 .holdings-table input[type="number"]::-webkit-inner-spin-button {
   -webkit-appearance: none; margin: 0;
 }
+
+/* ---------- resizable column handles ---------- */
+.holdings-table th { position: relative; }
+.col-resize-handle {
+  position: absolute; top: 0; right: 0; width: 8px; height: 100%;
+  cursor: col-resize; z-index: 5; touch-action: none;
+}
+.col-resize-handle::after {
+  content: ""; position: absolute; top: 0; bottom: 0; right: 2px; width: 2px;
+  background: transparent;
+}
+.col-resize-handle:hover::after, .col-resize-handle.is-resizing::after { background: var(--navy); }
+.col-resize-handle.is-resizing { background: transparent; }
+body.is-col-resizing { user-select: none; cursor: col-resize; }
+body.is-col-resizing * { cursor: col-resize !important; }
 .holdings-table th {
   text-align: left; font-weight: 500; color: var(--text-muted);
   font-family: var(--font-mono); font-size: 10.5px; letter-spacing: 0.04em;
