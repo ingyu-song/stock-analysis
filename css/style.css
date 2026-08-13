@@ -335,7 +335,7 @@ body.is-col-resizing * { cursor: col-resize !important; }
 .holdings-table .cell-num { text-align: right; }
 .holdings-table .cell-computed {
   color: var(--text-secondary); font-family: var(--font-mono); font-variant-numeric: tabular-nums;
-  white-space: nowrap; overflow: hidden; text-overflow: ellipsis; display: block;
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .holdings-table td:not(.cell-computed):not(.cell-num) { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .row-remove-btn {

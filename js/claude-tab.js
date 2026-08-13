@@ -174,6 +174,16 @@ function renderDecisionLog(p) {
               const statusNote = filled
                 ? ""
                 : ` <span class="hint" style="margin:0;">(${t.status.replace("skipped_", "미체결: ")})</span>`;
+              const targetBlock = filled && t.targetPrice != null
+                ? `
+                <div style="margin:2px 0 6px;">
+                  <span class="status-pill status-${t.expectedUpsidePct >= 0 ? "good" : "critical"}">
+                    1개월 목표가 ${t.targetPrice.toLocaleString("en-US", { maximumFractionDigits: 2 })}
+                    (${t.expectedUpsidePct >= 0 ? "+" : ""}${t.expectedUpsidePct.toFixed(1)}%, ${t.targetPriceDate}까지)
+                  </span>
+                </div>
+                <div class="hint" style="margin:-2px 0 8px;">목표가 근거: ${t.targetPriceRationale || "(제공 안 됨)"}</div>`
+                : "";
               return `
                 <div class="promise-row">
                   <span style="flex:1">
@@ -181,7 +191,8 @@ function renderDecisionLog(p) {
                     ${t.ticker} · ${t.name} ${filled ? `${t.shares}주 @ ${t.price ? t.price.toLocaleString("en-US", { maximumFractionDigits: 2 }) : "-"}` : ""}${statusNote}
                   </span>
                 </div>
-                <div class="hint" style="margin:-4px 0 8px;">${t.rationale}</div>`;
+                <div class="hint" style="margin:-4px 0 8px;">${t.rationale}</div>
+                ${targetBlock}`;
             })
             .join("")
         : `<p class="hint">이번 달은 매매 없이 관망했습니다.</p>`;

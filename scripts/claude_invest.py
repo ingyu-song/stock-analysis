@@ -48,6 +48,17 @@ SYSTEM_PROMPT = """\
 - 현금 보유 자체도 하나의 포지션 선택입니다. 마땅한 기회가 없으면 매수를 \
 강행하지 않습니다.
 
+매수할 때는 반드시 1개월 목표주가(target_price)를 종목의 거래 통화 기준으로 \
+제시하고, 그 목표주가를 어떻게 산출했는지(target_price_rationale) 숫자로 \
+설명 가능한 방법론과 함께 밝히세요. 막연한 감이 아니라 다음과 같은 근거 중 \
+하나 이상을 명시적으로 사용하세요:
+  · 현재 밸류에이션 멀티플이 최근 정상 밴드로 수렴한다고 가정했을 때의 가격
+  · 1개월 내 예정된 구체적 촉매(실적 발표, 신제품 출시, 규제 결정 등)가 \
+반영됐을 때의 가격과 그 촉매가 미치는 영향의 크기
+  · 최근 애널리스트 컨센서스 목표주가를 1개월 시계에 맞게 조정한 값
+1개월은 짧은 기간이므로 지나치게 낙관적인 목표주가를 피하고, 왜 그 정도의 \
+상승/하락이 한 달 안에 현실적으로 일어날 수 있는지 근거를 분명히 하세요.
+
 모든 판단은 반드시 record_decision 도구를 통해 구조화된 형태로 제출하세요. \
 각 매매에는 사업의 질과 밸류에이션에 근거한 구체적인 rationale을 한국어로 \
 작성하세요.
@@ -76,6 +87,14 @@ RECORD_DECISION_TOOL = {
                         "name": {"type": "string", "description": "종목명"},
                         "shares": {"type": "integer", "minimum": 1},
                         "rationale": {"type": "string", "description": "사업 질/밸류에이션 근거 (한국어, 3문장 이상)"},
+                        "target_price": {
+                            "type": "number",
+                            "description": "buy일 때 필수: 1개월 목표주가, 종목 거래 통화 기준 (예: USD 종목이면 달러 금액)",
+                        },
+                        "target_price_rationale": {
+                            "type": "string",
+                            "description": "buy일 때 필수: 목표주가를 어떻게 산출했는지 방법론과 근거 (한국어, 2문장 이상)",
+                        },
                     },
                     "required": ["action", "ticker", "name", "shares", "rationale"],
                 },
@@ -250,7 +269,18 @@ def apply_trades(decision: dict, holdings: list, cash: float, fx: dict):
                     "avgCost": price,
                     "firstBought": datetime.date.today().isoformat(),
                 }
-            applied_trades.append({**t, "shares": shares, "price": price, "status": "filled"})
+
+            target_price = t.pop("target_price", None)
+            target_price_rationale = t.pop("target_price_rationale", None)
+            trade_record = {**t, "shares": shares, "price": price, "status": "filled"}
+            if target_price:
+                trade_record["targetPrice"] = target_price
+                trade_record["targetPriceRationale"] = target_price_rationale
+                trade_record["targetPriceDate"] = (datetime.date.today() + datetime.timedelta(days=30)).isoformat()
+                trade_record["expectedUpsidePct"] = (target_price / price - 1) * 100 if price else None
+            else:
+                print(f"  ! buy {ticker} had no target_price from Claude", file=sys.stderr)
+            applied_trades.append(trade_record)
 
         elif action == "sell":
             existing = holdings_by_ticker.get(ticker)
