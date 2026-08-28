@@ -503,3 +503,17 @@ body.is-col-resizing * { cursor: col-resize !important; }
   padding: 2px 7px; border-radius: var(--radius-xs);
   background: var(--bg-chip); color: var(--text-secondary);
 }
+
+/* ---------- 포지션 업데이트 ---------- */
+a.btn { display: inline-flex; align-items: center; text-decoration: none; }
+.publish-steps {
+  font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted);
+  line-height: 1.9; margin: 0 0 10px; padding-left: 18px;
+}
+.publish-steps b { color: var(--text-primary); font-weight: 600; }
+.btn.has-changes { border-color: var(--gain); color: var(--gain); }
+.btn.has-changes::after {
+  content: ""; width: 5px; height: 5px; border-radius: 50%;
+  background: var(--gain); margin-left: 7px; display: inline-block;
+  vertical-align: middle;
+}

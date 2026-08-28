@@ -118,12 +118,32 @@
         </div>
         <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
           <button class="btn btn-ghost" id="addHoldingBtn">+ 종목 추가</button>
+          <button class="btn" id="publishBtn">포지션 업데이트</button>
           <button class="btn btn-ghost" id="importBtn">JSON 가져오기</button>
-          <button class="btn btn-ghost" id="exportBtn">JSON 내보내기</button>
+          <span class="hint" id="publishStatus" style="margin:0;"></span>
         </div>
-        <p class="hint">보유 내역은 레포의 <code>data/my-portfolio.json</code>에서 불러와요. 그 파일이 갱신되면 다음 접속 때 자동으로 반영되고, 그 전까지 여기서 고친 값은 이 브라우저에 남습니다.<br>
+        <p class="hint">표에서 바로 고칠 수 있어요. 고친 값은 이 브라우저에만 남으니, 다른 기기에도 반영하려면 <b>포지션 업데이트</b>를 눌러 커밋하세요.<br>
         통화를 바꿀 땐 평단/현재가도 그 통화 기준 금액으로 같이 고쳐주세요 — 숫자는 그대로 두고 통화만 바꾸면 환율만큼 평가액이 틀어져요.<br>
         표 헤더 경계선을 드래그하면 칸 너비를 조절할 수 있어요 (더블클릭하면 그 칸만 원래대로).</p>
+      </div>
+
+      <div id="publishModal" class="import-modal" hidden>
+        <div class="import-modal-inner">
+          <div class="card-head"><h2>포지션 업데이트</h2></div>
+          <p class="hint" style="margin-top:0;">지금 화면의 보유 내역을 사이트에 반영합니다. 커밋하면 1~2분 뒤 모든 기기에 적용돼요.</p>
+          <ol class="publish-steps">
+            <li><b>복사</b>로 아래 JSON을 클립보드에 담기</li>
+            <li><b>GitHub에서 열기</b>로 <code>data/my-portfolio.json</code> 편집 화면 열기</li>
+            <li>기존 내용을 전부 지우고 붙여넣기</li>
+            <li><b>Commit changes</b> 누르면 끝</li>
+          </ol>
+          <textarea id="publishTextarea" class="market-note" style="min-height:200px; font-family:var(--font-mono); font-size:12px;" readonly></textarea>
+          <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;">
+            <button class="btn" id="publishCopyBtn">복사</button>
+            <a class="btn btn-ghost" id="publishOpenBtn" href="https://github.com/ingyu-song/stock-analysis/edit/main/data/my-portfolio.json" target="_blank" rel="noopener">GitHub에서 열기</a>
+            <button class="btn btn-ghost" id="publishCancelBtn">닫기</button>
+          </div>
+        </div>
       </div>
 
       <div id="importModal" class="import-modal" hidden>

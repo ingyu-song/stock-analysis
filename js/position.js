@@ -83,6 +83,46 @@ function saveState(state) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
 }
 
+// What counts as "the book" for change detection — view state (scope) and
+// bookkeeping (seededFrom) are deliberately excluded.
+function bookFingerprint(st) {
+  return JSON.stringify({
+    accounts: st.accounts,
+    holdings: st.holdings,
+    fxRate: st.fxRate,
+    fxRateEUR: st.fxRateEUR,
+    risk: st.risk,
+  });
+}
+
+function hasUnpublishedChanges() {
+  if (!state.publishedBook) return false;
+  return bookFingerprint(state) !== state.publishedBook;
+}
+
+function publishTimestamp() {
+  const d = new Date();
+  const pad = n => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())} ${pad(d.getHours())}:${pad(d.getMinutes())}`;
+}
+
+// Every publish gets a fresh minute-precision updatedAt: two updates on the
+// same day must still look different, or browsers already holding the first
+// one would never pick up the second.
+function buildPublishPayload() {
+  const payload = {
+    updatedAt: publishTimestamp(),
+    ...(state.source ? { source: state.source } : {}),
+    baseCurrency: "KRW",
+    fxRate: state.fxRate,
+    fxRateEUR: state.fxRateEUR,
+    accounts: state.accounts,
+    holdings: state.holdings,
+    risk: state.risk,
+  };
+  return JSON.stringify(payload, null, 2) + "\n";
+}
+
 async function fetchPortfolio() {
   try {
     const res = await fetch(PORTFOLIO_URL, { cache: "no-store" });
@@ -101,8 +141,17 @@ function seedFromPortfolio(remote) {
   if (!remote || !remote.updatedAt) return false;
   if (state.seededFrom === remote.updatedAt) return false;
   state = migrate({ ...remote, seededFrom: remote.updatedAt });
+  state.publishedBook = bookFingerprint(state);
   saveState(state);
   return true;
+}
+
+// Pages caches index.html and js/ separately, so a returning visitor can get a
+// stale page with fresh script — every lookup here tolerates a missing node.
+function setText(el, text) { if (el) el.textContent = text; }
+function on(id, event, fn) {
+  const el = document.getElementById(id);
+  if (el) el.addEventListener(event, fn);
 }
 
 function cssVar(name) {
@@ -280,6 +329,19 @@ function renderUpdatedAt() {
   el.title = state.source || "";
 }
 
+function renderPublishState() {
+  const btn = document.getElementById("publishBtn");
+  if (!btn) return;
+  const dirty = hasUnpublishedChanges();
+  btn.classList.toggle("has-changes", dirty);
+  setText(
+    document.getElementById("publishStatus"),
+    dirty
+      ? "이 브라우저에만 있는 변경이 있어요"
+      : state.updatedAt ? `사이트 반영본과 같음 · ${state.updatedAt}` : ""
+  );
+}
+
 function renderAccountCards(d) {
   const grid = document.getElementById("acctGrid");
   const total = { ...d.all, name: "전체", sharePct: 100 };
@@ -346,6 +408,7 @@ function onAccountFieldChange(e) {
   renderHoldingsTable(d);
   renderChart(d);
   renderRiskPanel();
+  renderPublishState();
 }
 
 function renderHoldingsTable(d) {
@@ -453,6 +516,7 @@ function renderRiskPanel() {
 function render() {
   const d = computeDerived();
   renderUpdatedAt();
+  renderPublishState();
   renderScopeBar();
   renderStats(d);
   renderAccountCards(d);
@@ -498,6 +562,7 @@ function onHoldingFieldChange(e) {
   renderAccountCards(d);
   renderChart(d);
   renderRiskPanel();
+  renderPublishState();
 
   // avoid a full table re-render on every keystroke to keep input focus, but
   // still refresh every row — one edit moves every other row's weight too
@@ -570,7 +635,39 @@ export async function initPosition() {
   });
 
   initImportModal();
+  initPublishModal();
   render();
+}
+
+function initPublishModal() {
+  const modal = document.getElementById("publishModal");
+  const textarea = document.getElementById("publishTextarea");
+  if (!modal || !textarea) return;
+
+  on("publishBtn", "click", () => {
+    textarea.value = buildPublishPayload();
+    modal.hidden = false;
+    textarea.focus();
+    textarea.select();
+  });
+
+  on("publishCopyBtn", "click", async e => {
+    const btn = e.currentTarget;
+    textarea.select();
+    try {
+      await navigator.clipboard.writeText(textarea.value);
+      btn.textContent = "복사됨";
+    } catch {
+      // clipboard blocked — the text is selected, so the user can copy it
+      btn.textContent = "Cmd/Ctrl+C";
+    }
+    setTimeout(() => { btn.textContent = "복사"; }, 1800);
+  });
+
+  on("publishCancelBtn", "click", () => { modal.hidden = true; });
+  modal.addEventListener("click", e => {
+    if (e.target === modal) modal.hidden = true;
+  });
 }
 
 function initImportModal() {
@@ -579,30 +676,12 @@ function initImportModal() {
   const title = document.getElementById("importModalTitle");
   const hint = document.getElementById("importModalHint");
 
-  // Pages caches index.html and js/ separately, so a returning visitor can get
-  // a stale page with fresh script. Degrade on a missing node instead of
-  // throwing — one absent button must not take the whole modal down with it.
-  const setText = (el, text) => { if (el) el.textContent = text; };
-  const on = (id, event, fn) => {
-    const el = document.getElementById(id);
-    if (el) el.addEventListener(event, fn);
-  };
-
   on("importBtn", "click", () => {
     setText(title, "포지션 JSON 가져오기");
     setText(hint, "아래에 JSON을 붙여넣고 적용하세요. 이 브라우저의 localStorage에만 저장됩니다.");
     textarea.value = "";
     modal.hidden = false;
     textarea.focus();
-  });
-
-  on("exportBtn", "click", () => {
-    setText(title, "포지션 JSON 내보내기");
-    setText(hint, "이 JSON을 복사해서, 보려는 주소·기기에서 \"JSON 가져오기\"에 붙여넣으면 그대로 옮겨져요.");
-    textarea.value = JSON.stringify(state, null, 2);
-    modal.hidden = false;
-    textarea.focus();
-    textarea.select();
   });
 
   on("copyJsonBtn", "click", async e => {
