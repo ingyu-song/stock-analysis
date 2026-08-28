@@ -66,7 +66,7 @@
       <div class="card">
         <div class="card-head">
           <h2>계좌별 현황</h2>
-          <span class="badge badge-muted">전체 + 계좌별</span>
+          <span class="badge badge-muted" id="dataUpdatedAt">전체 + 계좌별</span>
         </div>
         <div class="acct-grid" id="acctGrid"></div>
       </div>
@@ -121,7 +121,7 @@
           <button class="btn btn-ghost" id="importBtn">JSON 가져오기</button>
           <button class="btn btn-ghost" id="exportBtn">JSON 내보내기</button>
         </div>
-        <p class="hint">보유 내역은 이 브라우저에만 저장돼요. 다른 기기·다른 주소(localhost ↔ github.io)에서 보려면 "JSON 내보내기"로 복사해 그쪽에서 "JSON 가져오기"에 붙여넣으세요.<br>
+        <p class="hint">보유 내역은 레포의 <code>data/my-portfolio.json</code>에서 불러와요. 그 파일이 갱신되면 다음 접속 때 자동으로 반영되고, 그 전까지 여기서 고친 값은 이 브라우저에 남습니다.<br>
         통화를 바꿀 땐 평단/현재가도 그 통화 기준 금액으로 같이 고쳐주세요 — 숫자는 그대로 두고 통화만 바꾸면 환율만큼 평가액이 틀어져요.<br>
         표 헤더 경계선을 드래그하면 칸 너비를 조절할 수 있어요 (더블클릭하면 그 칸만 원래대로).</p>
       </div>

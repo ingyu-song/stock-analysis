@@ -1,4 +1,5 @@
 const STORAGE_KEY = "igs-position-v1";
+const PORTFOLIO_URL = "data/my-portfolio.json";
 
 const SERIES_COLORS = [
   "--series-1", "--series-2", "--series-3", "--series-4",
@@ -80,6 +81,28 @@ function confirmCurrencyChange(prevCurrency, nextCurrency, amountLabel) {
 
 function saveState(state) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(state));
+}
+
+async function fetchPortfolio() {
+  try {
+    const res = await fetch(PORTFOLIO_URL, { cache: "no-store" });
+    if (!res.ok) return null;
+    return await res.json();
+  } catch {
+    // offline, or opened as a file:// page — fall back to whatever is stored
+    return null;
+  }
+}
+
+// The repo file is the source of truth: whenever it carries an updatedAt we
+// have not seeded from yet, it replaces local state. Between updates the
+// user's own edits survive, so tweaking a price here is not wiped on reload.
+function seedFromPortfolio(remote) {
+  if (!remote || !remote.updatedAt) return false;
+  if (state.seededFrom === remote.updatedAt) return false;
+  state = migrate({ ...remote, seededFrom: remote.updatedAt });
+  saveState(state);
+  return true;
 }
 
 function cssVar(name) {
@@ -246,6 +269,12 @@ function accountCardHtml(a, colorVar, isTotal) {
       </div>
     </div>
   `;
+}
+
+function renderUpdatedAt() {
+  const el = document.getElementById("dataUpdatedAt");
+  el.textContent = state.updatedAt ? `${state.updatedAt} 기준` : "전체 + 계좌별";
+  el.title = state.source || "";
 }
 
 function renderAccountCards(d) {
@@ -420,6 +449,7 @@ function renderRiskPanel() {
 
 function render() {
   const d = computeDerived();
+  renderUpdatedAt();
   renderScopeBar();
   renderStats(d);
   renderAccountCards(d);
@@ -486,7 +516,8 @@ function syncTopLevelInputs() {
   document.getElementById("inputRf").value = state.risk.rf;
 }
 
-export function initPosition() {
+export async function initPosition() {
+  seedFromPortfolio(await fetchPortfolio());
   syncTopLevelInputs();
 
   document.getElementById("fxRate").addEventListener("input", e => {
@@ -592,7 +623,9 @@ function initImportModal() {
       alert("JSON을 읽을 수 없어요: " + err.message);
       return;
     }
-    state = migrate(parsed);
+    // keep whatever seededFrom the import carries so a hand-pasted book is not
+    // immediately overwritten by the repo file on the next load
+    state = migrate({ seededFrom: state.seededFrom, ...parsed });
     modal.hidden = true;
     syncTopLevelInputs();
     persistAndRender();
