@@ -272,7 +272,10 @@ function accountCardHtml(a, colorVar, isTotal) {
 }
 
 function renderUpdatedAt() {
+  // Pages caches index.html and js/ separately, so a returning visitor can get
+  // a stale page with fresh script — never let a missing node kill the render
   const el = document.getElementById("dataUpdatedAt");
+  if (!el) return;
   el.textContent = state.updatedAt ? `${state.updatedAt} 기준` : "전체 + 계좌별";
   el.title = state.source || "";
 }
@@ -573,31 +576,37 @@ export async function initPosition() {
 function initImportModal() {
   const modal = document.getElementById("importModal");
   const textarea = document.getElementById("importTextarea");
-
   const title = document.getElementById("importModalTitle");
   const hint = document.getElementById("importModalHint");
 
-  document.getElementById("importBtn").addEventListener("click", () => {
-    title.textContent = "포지션 JSON 가져오기";
-    hint.textContent = "아래에 JSON을 붙여넣고 적용하세요. 이 브라우저의 localStorage에만 저장되고 레포에는 올라가지 않습니다.";
+  // Pages caches index.html and js/ separately, so a returning visitor can get
+  // a stale page with fresh script. Degrade on a missing node instead of
+  // throwing — one absent button must not take the whole modal down with it.
+  const setText = (el, text) => { if (el) el.textContent = text; };
+  const on = (id, event, fn) => {
+    const el = document.getElementById(id);
+    if (el) el.addEventListener(event, fn);
+  };
+
+  on("importBtn", "click", () => {
+    setText(title, "포지션 JSON 가져오기");
+    setText(hint, "아래에 JSON을 붙여넣고 적용하세요. 이 브라우저의 localStorage에만 저장됩니다.");
     textarea.value = "";
     modal.hidden = false;
     textarea.focus();
   });
 
-  // localStorage is per-origin, so localhost and github.io each keep their own
-  // copy — exporting is how a book moves between them (and between devices)
-  document.getElementById("exportBtn").addEventListener("click", () => {
-    title.textContent = "포지션 JSON 내보내기";
-    hint.textContent = "이 JSON을 복사해서, 보려는 주소·기기에서 \"JSON 가져오기\"에 붙여넣으면 그대로 옮겨져요.";
+  on("exportBtn", "click", () => {
+    setText(title, "포지션 JSON 내보내기");
+    setText(hint, "이 JSON을 복사해서, 보려는 주소·기기에서 \"JSON 가져오기\"에 붙여넣으면 그대로 옮겨져요.");
     textarea.value = JSON.stringify(state, null, 2);
     modal.hidden = false;
     textarea.focus();
     textarea.select();
   });
 
-  document.getElementById("copyJsonBtn").addEventListener("click", async () => {
-    const btn = document.getElementById("copyJsonBtn");
+  on("copyJsonBtn", "click", async e => {
+    const btn = e.currentTarget;
     textarea.select();
     try {
       await navigator.clipboard.writeText(textarea.value);
@@ -609,13 +618,14 @@ function initImportModal() {
     }
     setTimeout(() => { btn.textContent = "복사"; }, 1800);
   });
-  document.getElementById("importCancelBtn").addEventListener("click", () => {
-    modal.hidden = true;
-  });
+
+  on("importCancelBtn", "click", () => { modal.hidden = true; });
+
   modal.addEventListener("click", e => {
     if (e.target === modal) modal.hidden = true;
   });
-  document.getElementById("importApplyBtn").addEventListener("click", () => {
+
+  on("importApplyBtn", "click", () => {
     let parsed;
     try {
       parsed = JSON.parse(textarea.value);
