@@ -29,6 +29,9 @@
   --warning:   #633806; --warning-bg:  #faeeda;
   --critical:  #881337; --critical-bg: #ffe4e6;
 
+  /* 손익: 국내 관행대로 이익=적색, 손실=청색 */
+  --gain: #c0264a; --loss: #1152a3;
+
   --series-1: #0c447c; /* blue */
   --series-2: #b8914a; /* gold */
   --series-3: #27500a; /* green */
@@ -68,6 +71,8 @@
     --warning:   #d9b077; --warning-bg:  rgba(184,145,74,0.20);
     --critical:  #ef6c8e; --critical-bg: rgba(190,30,60,0.20);
 
+    --gain: #ef6c8e; --loss: #6fb3f0;
+
     --series-1: #5b9bd9;
     --series-2: #d4af70;
     --series-3: #5fae3a;
@@ -100,6 +105,8 @@
   --good:      #7fc85a; --good-bg:     rgba(39,150,10,0.18);
   --warning:   #d9b077; --warning-bg:  rgba(184,145,74,0.20);
   --critical:  #ef6c8e; --critical-bg: rgba(190,30,60,0.20);
+
+  --gain: #ef6c8e; --loss: #6fb3f0;
 
   --series-1: #5b9bd9;
   --series-2: #d4af70;
@@ -439,4 +446,60 @@ body.is-col-resizing * { cursor: col-resize !important; }
   border: 0.5px solid var(--border); background: var(--surface-2);
   color: var(--text-primary); border-radius: var(--radius-sm); padding: 12px 14px;
   font-family: var(--font-sans); font-size: 13.5px; line-height: 1.6;
+}
+
+/* ---------- 계좌 스코프 / 계좌별 요약 ---------- */
+.scope-bar {
+  display: flex; gap: 4px; margin-bottom: 14px; flex-wrap: wrap;
+  background: var(--surface-2); border: 0.5px solid var(--border);
+  border-radius: var(--radius-sm); padding: 4px; width: fit-content;
+}
+.scope-btn {
+  border: none; background: transparent; cursor: pointer;
+  font-family: var(--font-mono); font-size: 12px; font-weight: 500;
+  letter-spacing: 0.02em; color: var(--text-secondary);
+  padding: 6px 14px; border-radius: var(--radius-xs);
+  transition: all .15s ease;
+}
+.scope-btn:hover { color: var(--text-primary); background: var(--bg-chip); }
+.scope-btn.is-active {
+  background: var(--surface-1); color: var(--text-primary);
+  box-shadow: 0 0 0 0.5px var(--border-strong);
+}
+
+.acct-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+.acct-card {
+  border: 0.5px solid var(--border); border-radius: var(--radius);
+  padding: 14px 16px; background: var(--surface-2);
+  display: flex; flex-direction: column; gap: 10px;
+}
+.acct-card.is-total { background: var(--surface-1); border-color: var(--border-strong); }
+.acct-head { display: flex; align-items: baseline; justify-content: space-between; gap: 8px; }
+.acct-name {
+  font-family: var(--font-mono); font-size: 11.5px; font-weight: 600;
+  letter-spacing: 0.02em; color: var(--text-secondary);
+}
+.acct-share { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); }
+.acct-total {
+  font-family: var(--font-mono); font-size: 19px; font-weight: 500;
+  letter-spacing: -0.01em; color: var(--text-primary);
+}
+.acct-bar { height: 4px; border-radius: 2px; background: var(--gridline); overflow: hidden; }
+.acct-bar > span { display: block; height: 100%; border-radius: 2px; }
+.acct-rows { display: flex; flex-direction: column; gap: 5px; }
+.acct-row {
+  display: flex; justify-content: space-between; gap: 10px;
+  font-family: var(--font-mono); font-size: 12px;
+}
+.acct-row > span:first-child { color: var(--text-muted); }
+.acct-row > span:last-child { color: var(--text-primary); font-variant-numeric: tabular-nums; }
+
+.num-gain { color: var(--gain); }
+.num-loss { color: var(--loss); }
+
+.acct-pill {
+  display: inline-block; max-width: 100%; overflow: hidden; text-overflow: ellipsis;
+  white-space: nowrap; font-family: var(--font-mono); font-size: 10.5px;
+  padding: 2px 7px; border-radius: var(--radius-xs);
+  background: var(--bg-chip); color: var(--text-secondary);
 }
