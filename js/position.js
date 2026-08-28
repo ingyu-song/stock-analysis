@@ -48,10 +48,10 @@ function migrate(raw) {
   delete st.cashAmount;
 
   const ids = new Set(st.accounts.map(a => a.id));
-  st.holdings = (Array.isArray(st.holdings) ? st.holdings : []).map(h => ({
-    ...h,
-    account: ids.has(h.account) ? h.account : st.accounts[0].id,
-  }));
+  st.holdings = (Array.isArray(st.holdings) ? st.holdings : []).map(h => {
+    const { beta, ...rest } = h; // beta was dropped from the model
+    return { ...rest, account: ids.has(h.account) ? h.account : st.accounts[0].id };
+  });
 
   if (st.scope !== "all" && !ids.has(st.scope)) st.scope = "all";
   return st;
@@ -131,7 +131,7 @@ let chart = null;
 
 function newHoldingRow() {
   const account = state.scope === "all" ? state.accounts[0].id : state.scope;
-  return { account, ticker: "", name: "", currency: "KRW", shares: 0, avgCost: 0, price: 0, beta: 1 };
+  return { account, ticker: "", name: "", currency: "KRW", shares: 0, avgCost: 0, price: 0 };
 }
 
 function accountName(id) {
@@ -147,9 +147,6 @@ function aggregate(list, cashBase) {
   const equityBase = list.reduce((s, h) => s + h.valueBase, 0);
   const costBase = list.reduce((s, h) => s + h.costBase, 0);
   const pnlBase = equityBase - costBase;
-  const beta = equityBase > 0
-    ? list.reduce((s, h) => s + (Number(h.beta) || 0) * (h.valueBase / equityBase), 0)
-    : NaN;
   return {
     cashBase,
     equityBase,
@@ -157,7 +154,6 @@ function aggregate(list, cashBase) {
     pnlBase,
     pnlPct: costBase > 0 ? (pnlBase / costBase) * 100 : NaN,
     totalBase: cashBase + equityBase,
-    beta,
     count: list.length,
   };
 }
@@ -317,7 +313,7 @@ function onAccountFieldChange(e) {
   renderAccountCards(d);
   renderHoldingsTable(d);
   renderChart(d);
-  renderRiskPanel(d);
+  renderRiskPanel();
 }
 
 function renderHoldingsTable(d) {
@@ -329,7 +325,7 @@ function renderHoldingsTable(d) {
     const msg = state.holdings.length === 0
       ? `아직 보유 종목이 없어요. "+ 종목 추가"로 시작하세요.`
       : `"${escapeHtml(scopeLabel())}" 계좌에는 보유 종목이 없어요.`;
-    tr.innerHTML = `<td colspan="12" style="text-align:center;color:var(--text-muted);padding:18px 8px;">${msg}</td>`;
+    tr.innerHTML = `<td colspan="11" style="text-align:center;color:var(--text-muted);padding:18px 8px;">${msg}</td>`;
     tbody.appendChild(tr);
     return;
   }
@@ -359,7 +355,6 @@ function renderHoldingsTable(d) {
       <td><input class="cell-num" type="number" data-field="shares" data-i="${i}" value="${h.shares}" step="1"></td>
       <td><input class="cell-num" type="number" data-field="avgCost" data-i="${i}" value="${h.avgCost}" step="0.01"></td>
       <td><input class="cell-num" type="number" data-field="price" data-i="${i}" value="${h.price}" step="0.01"></td>
-      <td><input class="cell-num" type="number" data-field="beta" data-i="${i}" value="${h.beta}" step="0.05"></td>
       <td class="cell-computed">${fmtMoney(row.valueBase, state.baseCurrency)}</td>
       <td class="cell-computed ${pnlClass(row.pnlBase)}">${row.costBase > 0 ? fmtSignedMoney(row.pnlBase) : "–"}</td>
       <td class="cell-computed">${fmtPct(row.weightPct)}</td>
@@ -415,8 +410,7 @@ function renderChart(d) {
   });
 }
 
-function renderRiskPanel(d) {
-  document.getElementById("statBeta").textContent = isFinite(d.scoped.beta) ? d.scoped.beta.toFixed(2) : "–";
+function renderRiskPanel() {
   const ret = Number(state.risk.return) || 0;
   const vol = Number(state.risk.vol) || 0;
   const rf = Number(state.risk.rf) || 0;
@@ -432,7 +426,7 @@ function render() {
   renderAccountFields();
   renderHoldingsTable(d);
   renderChart(d);
-  renderRiskPanel(d);
+  renderRiskPanel();
 }
 
 function persistAndRender() {
@@ -461,7 +455,7 @@ function onHoldingFieldChange(e) {
     return;
   }
 
-  const isNumeric = ["shares", "avgCost", "price", "beta"].includes(field);
+  const isNumeric = ["shares", "avgCost", "price"].includes(field);
   state.holdings[i][field] = isNumeric ? Number(e.target.value) : e.target.value;
   if (field === "ticker" || field === "name") e.target.title = e.target.value;
   saveState(state);
@@ -470,17 +464,17 @@ function onHoldingFieldChange(e) {
   renderStats(d);
   renderAccountCards(d);
   renderChart(d);
-  renderRiskPanel(d);
+  renderRiskPanel();
 
   // avoid a full table re-render on every keystroke to keep input focus, but
   // still refresh every row — one edit moves every other row's weight too
   d.rows.forEach(row => {
     const tr = document.querySelector(`#holdingsBody tr[data-row-i="${row.i}"]`);
     if (!tr) return;
-    tr.children[8].textContent = fmtMoney(row.valueBase, state.baseCurrency);
-    tr.children[9].textContent = row.costBase > 0 ? fmtSignedMoney(row.pnlBase) : "–";
-    tr.children[9].className = `cell-computed ${pnlClass(row.pnlBase)}`;
-    tr.children[10].textContent = fmtPct(row.weightPct);
+    tr.children[7].textContent = fmtMoney(row.valueBase, state.baseCurrency);
+    tr.children[8].textContent = row.costBase > 0 ? fmtSignedMoney(row.pnlBase) : "–";
+    tr.children[8].className = `cell-computed ${pnlClass(row.pnlBase)}`;
+    tr.children[9].textContent = fmtPct(row.weightPct);
   });
 }
 
@@ -503,7 +497,7 @@ export function initPosition() {
     renderAccountCards(d);
     renderHoldingsTable(d);
     renderChart(d);
-    renderRiskPanel(d);
+    renderRiskPanel();
   });
   document.getElementById("fxRateEUR").addEventListener("input", e => {
     state.fxRateEUR = Number(e.target.value);
@@ -513,7 +507,7 @@ export function initPosition() {
     renderAccountCards(d);
     renderHoldingsTable(d);
     renderChart(d);
-    renderRiskPanel(d);
+    renderRiskPanel();
   });
   document.getElementById("addAccountBtn").addEventListener("click", () => {
     state.accounts.push({ id: uid(), name: `계좌 ${state.accounts.length + 1}`, cash: 0 });
@@ -528,7 +522,7 @@ export function initPosition() {
       const key = { inputReturn: "return", inputVol: "vol", inputRf: "rf" }[id];
       state.risk[key] = Number(e.target.value);
       saveState(state);
-      renderRiskPanel(computeDerived());
+      renderRiskPanel();
     });
   });
 
@@ -549,10 +543,40 @@ function initImportModal() {
   const modal = document.getElementById("importModal");
   const textarea = document.getElementById("importTextarea");
 
+  const title = document.getElementById("importModalTitle");
+  const hint = document.getElementById("importModalHint");
+
   document.getElementById("importBtn").addEventListener("click", () => {
+    title.textContent = "포지션 JSON 가져오기";
+    hint.textContent = "아래에 JSON을 붙여넣고 적용하세요. 이 브라우저의 localStorage에만 저장되고 레포에는 올라가지 않습니다.";
     textarea.value = "";
     modal.hidden = false;
     textarea.focus();
+  });
+
+  // localStorage is per-origin, so localhost and github.io each keep their own
+  // copy — exporting is how a book moves between them (and between devices)
+  document.getElementById("exportBtn").addEventListener("click", () => {
+    title.textContent = "포지션 JSON 내보내기";
+    hint.textContent = "이 JSON을 복사해서, 보려는 주소·기기에서 \"JSON 가져오기\"에 붙여넣으면 그대로 옮겨져요.";
+    textarea.value = JSON.stringify(state, null, 2);
+    modal.hidden = false;
+    textarea.focus();
+    textarea.select();
+  });
+
+  document.getElementById("copyJsonBtn").addEventListener("click", async () => {
+    const btn = document.getElementById("copyJsonBtn");
+    textarea.select();
+    try {
+      await navigator.clipboard.writeText(textarea.value);
+      btn.textContent = "복사됨";
+    } catch {
+      // clipboard blocked (insecure origin, permission) — the text is selected,
+      // so fall back to telling the user to copy it themselves
+      btn.textContent = "Cmd/Ctrl+C";
+    }
+    setTimeout(() => { btn.textContent = "복사"; }, 1800);
   });
   document.getElementById("importCancelBtn").addEventListener("click", () => {
     modal.hidden = true;

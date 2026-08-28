@@ -356,7 +356,7 @@ body.is-col-resizing * { cursor: col-resize !important; }
 .chart-empty { text-align: center; color: var(--text-muted); font-family: var(--font-mono); font-size: 12px; padding: 60px 0; display: none; }
 
 /* ---------- risk panel ---------- */
-.risk-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; align-items: start; }
+.risk-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; align-items: start; }
 @media (max-width: 780px) { .risk-grid { grid-template-columns: 1fr; } }
 .risk-metric { display: flex; flex-direction: column; gap: 3px; }
 .risk-inputs { display: flex; flex-direction: column; gap: 10px; }
