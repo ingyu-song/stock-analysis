@@ -3,3 +3,9 @@
 *.local.json
 __pycache__/
 *.pyc
+
+# local dev
+.venv/
+venv/
+.DS_Store
+.claude/settings.local.json
