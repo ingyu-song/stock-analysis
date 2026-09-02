@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-02 18:39",
+  "updatedAt": "2026-09-02 19:35",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1365.83,
-  "fxRateEUR": 1580.0,
+  "fxRate": 1365.38,
+  "fxRateEUR": 1580.1,
   "accounts": [
     {
       "id": "kiwoom",
@@ -92,7 +92,7 @@
       "name": "LVMH 모에헤네시",
       "currency": "EUR",
       "shares": 2,
-      "price": 438.75,
+      "price": 439.05,
       "costKRW": 1551668
     },
     {
