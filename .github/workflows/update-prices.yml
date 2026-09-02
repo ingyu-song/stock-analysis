@@ -1,0 +1,67 @@
+name: Daily Position Prices
+
+on:
+  schedule:
+    # 22:30 UTC Mon-Fri (= 07:30 KST Tue-Sat), an hour or more after the US
+    # close in both EDT and EST, and long after the KRX close the same day
+    - cron: "30 22 * * 1-5"
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: "Dry run (fetch prices, print them, write nothing)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-prices
+  cancel-in-progress: false
+
+jobs:
+  prices:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Refresh prices
+        run: |
+          if [ "${{ inputs.dry_run }}" = "true" ]; then
+            python scripts/update_prices.py --dry-run
+          else
+            python scripts/update_prices.py
+          fi
+
+      - name: Commit refreshed prices
+        if: ${{ inputs.dry_run != true }}
+        run: |
+          git config user.name "price-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/my-portfolio.json
+
+          if git diff --cached --quiet; then
+            echo "Prices unchanged — nothing to commit"
+            exit 0
+          fi
+          git commit -m "Daily price refresh ($(date -u +%Y-%m-%d))"
+
+          attempt=1
+          max_attempts=5
+          until git push origin main; do
+            if [ "$attempt" -ge "$max_attempts" ]; then
+              echo "Push failed after $max_attempts attempts"
+              exit 1
+            fi
+            echo "Push rejected (remote moved), rebasing and retrying — attempt $attempt/$max_attempts"
+            git pull --rebase origin main
+            attempt=$((attempt + 1))
+            sleep $((RANDOM % 8 + 3))
+          done

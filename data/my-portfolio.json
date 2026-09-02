@@ -1,19 +1,25 @@
 {
-  "updatedAt": "2026-08-28",
-  "source": "키움증권 MY페이지 / 미래에셋 종합잔고 (2026-08-28 15:02 KST 기준)",
+  "updatedAt": "2026-09-02 18:39",
+  "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1380,
-  "fxRateEUR": 1609,
+  "fxRate": 1365.83,
+  "fxRateEUR": 1580.0,
   "accounts": [
     {
       "id": "kiwoom",
       "name": "키움 (ISA)",
-      "cash": 9422618
+      "cash": {
+        "KRW": 9422618
+      }
     },
     {
       "id": "mirae",
       "name": "미래에셋",
-      "cash": 7728355
+      "cash": {
+        "KRW": 0,
+        "USD": 5585.93,
+        "EUR": 11.25
+      }
     }
   ],
   "holdings": [
@@ -23,8 +29,8 @@
       "name": "에이피알",
       "currency": "KRW",
       "shares": 10,
-      "avgCost": 399400,
-      "price": 460500
+      "price": 419000.0,
+      "costKRW": 3994000
     },
     {
       "account": "kiwoom",
@@ -32,8 +38,8 @@
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
       "shares": 80,
-      "avgCost": 26845,
-      "price": 26880
+      "price": 26235.0,
+      "costKRW": 2147600
     },
     {
       "account": "kiwoom",
@@ -41,83 +47,82 @@
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
       "shares": 75,
-      "avgCost": 24362,
-      "price": 23925
+      "price": 23500.0,
+      "costKRW": 1827150
     },
     {
       "account": "mirae",
       "ticker": "COIN",
       "name": "코인베이스 글로벌",
-      "currency": "KRW",
+      "currency": "USD",
       "shares": 10,
-      "avgCost": 218611.9,
-      "price": 263250.8
+      "price": 176.82,
+      "costKRW": 2186119
     },
     {
       "account": "mirae",
       "ticker": "CRCL",
       "name": "서클 인터넷 그룹",
-      "currency": "KRW",
+      "currency": "USD",
       "shares": 20,
-      "avgCost": 138495.1,
-      "price": 130079.45
+      "price": 89.48,
+      "costKRW": 2769902
     },
     {
       "account": "mirae",
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
-      "currency": "KRW",
+      "currency": "USD",
       "shares": 8,
-      "avgCost": 278065.88,
-      "price": 314653.25
+      "price": 215.07,
+      "costKRW": 2224527
     },
     {
       "account": "mirae",
       "ticker": "GOOGL",
       "name": "알파벳 A",
-      "currency": "KRW",
+      "currency": "USD",
       "shares": 10,
-      "avgCost": 480797.1,
-      "price": 470199.2
+      "price": 335.02,
+      "costKRW": 4807971
     },
     {
       "account": "mirae",
-      "ticker": "LVMUY",
+      "ticker": "MC.PA",
       "name": "LVMH 모에헤네시",
-      "currency": "KRW",
+      "currency": "EUR",
       "shares": 2,
-      "avgCost": 775834.0,
-      "price": 720058.5
+      "price": 438.75,
+      "costKRW": 1551668
     },
     {
       "account": "mirae",
       "ticker": "PANW",
       "name": "팰로 앨토 네트웍스",
-      "currency": "KRW",
+      "currency": "USD",
       "shares": 10,
-      "avgCost": 510959.5,
-      "price": 528447.9
+      "price": 362.09,
+      "costKRW": 5109595
     },
     {
       "account": "mirae",
       "ticker": "PG",
       "name": "프록터 앤드 갬블",
-      "currency": "KRW",
+      "currency": "USD",
       "shares": 10,
-      "avgCost": 204767.5,
-      "price": 197576.1
+      "price": 146.21,
+      "costKRW": 2047675
     },
     {
       "account": "mirae",
       "ticker": "VIXY",
       "name": "ProShares VIX 단기선물",
-      "currency": "KRW",
+      "currency": "USD",
       "shares": 30,
-      "avgCost": 29716.47,
-      "price": 23948.2
+      "price": 17.8,
+      "costKRW": 891494
     }
   ],
-  "scope": "all",
   "risk": {
     "return": 0,
     "vol": 0,

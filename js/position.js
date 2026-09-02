@@ -1,6 +1,8 @@
 const STORAGE_KEY = "igs-position-v1";
 const PORTFOLIO_URL = "data/my-portfolio.json";
 
+const CURRENCIES = ["KRW", "USD", "EUR"];
+
 const SERIES_COLORS = [
   "--series-1", "--series-2", "--series-3", "--series-4",
   "--series-5", "--series-6", "--series-7", "--series-8",
@@ -12,8 +14,8 @@ function uid() {
 
 function defaultAccounts() {
   return [
-    { id: "kiwoom", name: "키움", cash: 0 },
-    { id: "mirae", name: "미래에셋", cash: 0 },
+    { id: "kiwoom", name: "키움", cash: { KRW: 0 } },
+    { id: "mirae", name: "미래에셋", cash: { KRW: 0 } },
   ];
 }
 
@@ -38,20 +40,31 @@ function migrate(raw) {
   st.accounts = st.accounts.map((a, i) => ({
     id: a.id || uid(),
     name: a.name || `계좌 ${i + 1}`,
-    cash: Number(a.cash) || 0,
+    cash: normaliseCash(a.cash),
   }));
 
   // v1 kept one top-level cash figure; fold it into the first account, but only
   // if no account carries cash yet, so a re-import can't double-count it.
-  if (raw && raw.cashAmount != null && st.accounts.every(a => a.cash === 0)) {
-    st.accounts[0].cash = Number(raw.cashAmount) || 0;
+  if (raw && raw.cashAmount != null && st.accounts.every(a => cashTotal(a.cash, st) === 0)) {
+    st.accounts[0].cash.KRW = Number(raw.cashAmount) || 0;
   }
   delete st.cashAmount;
 
   const ids = new Set(st.accounts.map(a => a.id));
   st.holdings = (Array.isArray(st.holdings) ? st.holdings : []).map(h => {
-    const { beta, ...rest } = h; // beta was dropped from the model
-    return { ...rest, account: ids.has(h.account) ? h.account : st.accounts[0].id };
+    const { beta, avgCost, ...rest } = h;
+    const shares = Number(h.shares) || 0;
+    // avgCost was per-share in the holding's currency; the fixed KRW basis the
+    // brokerage reports is what survives an FX move, so convert once and keep it
+    const costKRW = h.costKRW != null
+      ? Number(h.costKRW) || 0
+      : toBase(shares * (Number(avgCost) || 0), h.currency, st);
+    return {
+      ...rest,
+      currency: CURRENCIES.includes(h.currency) ? h.currency : "KRW",
+      costKRW,
+      account: ids.has(h.account) ? h.account : st.accounts[0].id,
+    };
   });
 
   if (st.scope !== "all" && !ids.has(st.scope)) st.scope = "all";
@@ -140,7 +153,32 @@ async function fetchPortfolio() {
 function seedFromPortfolio(remote) {
   if (!remote || !remote.updatedAt) return false;
   if (state.seededFrom === remote.updatedAt) return false;
-  state = migrate({ ...remote, seededFrom: remote.updatedAt });
+
+  const incoming = migrate({ ...remote, seededFrom: remote.updatedAt });
+
+  // The nightly price refresh lands as a new updatedAt every day, so a plain
+  // overwrite would quietly bin any edit this browser has not published yet.
+  // Prices and FX belong to the refresh; shares, cost, cash and account names
+  // belong to the user — keep theirs and take only the marks.
+  if (hasUnpublishedChanges()) {
+    const fresh = new Map(incoming.holdings.map(h => [`${h.account}|${h.ticker}`, h]));
+    state.holdings = state.holdings.map(h => {
+      const match = fresh.get(`${h.account}|${h.ticker}`);
+      return match ? { ...h, currency: match.currency, price: match.price } : h;
+    });
+    state.fxRate = incoming.fxRate;
+    state.fxRateEUR = incoming.fxRateEUR;
+    state.updatedAt = incoming.updatedAt;
+    state.source = incoming.source;
+    state.seededFrom = incoming.seededFrom;
+    // Baseline against what the site now holds, not the older snapshot: once the
+    // user commits their edits the two agree and the change flag clears itself.
+    state.publishedBook = bookFingerprint(incoming);
+    saveState(state);
+    return true;
+  }
+
+  state = incoming;
   state.publishedBook = bookFingerprint(state);
   saveState(state);
   return true;
@@ -156,6 +194,32 @@ function on(id, event, fn) {
 
 function cssVar(name) {
   return getComputedStyle(document.documentElement).getPropertyValue(name).trim();
+}
+
+function normaliseCash(cash) {
+  // a bare number is the pre-map shape and was always KRW
+  if (typeof cash === "number") return { KRW: cash };
+  const out = {};
+  CURRENCIES.forEach(c => {
+    const v = Number((cash || {})[c]);
+    if (isFinite(v) && v !== 0) out[c] = v;
+  });
+  if (!Object.keys(out).length) out.KRW = 0;
+  return out;
+}
+
+// "$5,585.93 · €11.25" — the balances a daily FX move actually revalues
+function foreignCashNote(cash) {
+  const symbols = { USD: "$", EUR: "€" };
+  return Object.entries(normaliseCash(cash))
+    .filter(([cur, amt]) => cur !== "KRW" && Number(amt))
+    .map(([cur, amt]) => `${symbols[cur] || cur}${Number(amt).toLocaleString("en-US")}`)
+    .join(" · ");
+}
+
+function cashTotal(cash, st) {
+  return Object.entries(normaliseCash(cash))
+    .reduce((sum, [cur, amt]) => sum + toBase(Number(amt) || 0, cur, st), 0);
 }
 
 // baseCurrency is always KRW, so this only ever converts currency -> KRW.
@@ -203,7 +267,7 @@ let chart = null;
 
 function newHoldingRow() {
   const account = state.scope === "all" ? state.accounts[0].id : state.scope;
-  return { account, ticker: "", name: "", currency: "KRW", shares: 0, avgCost: 0, price: 0 };
+  return { account, ticker: "", name: "", currency: "KRW", shares: 0, price: 0, costKRW: 0 };
 }
 
 function accountName(id) {
@@ -234,17 +298,18 @@ function computeDerived() {
   const enriched = state.holdings.map((h, i) => {
     const shares = Number(h.shares) || 0;
     const valueBase = toBase(shares * (Number(h.price) || 0), h.currency, state);
-    const costBase = toBase(shares * (Number(h.avgCost) || 0), h.currency, state);
+    const costBase = Number(h.costKRW) || 0;
     return { ...h, i, valueBase, costBase, pnlBase: valueBase - costBase };
   });
 
-  const totalCash = state.accounts.reduce((s, a) => s + (Number(a.cash) || 0), 0);
+  const totalCash = state.accounts.reduce((s, a) => s + cashTotal(a.cash, state), 0);
   const all = aggregate(enriched, totalCash);
 
   const perAccount = state.accounts.map(a => ({
     id: a.id,
     name: a.name,
-    ...aggregate(enriched.filter(h => h.account === a.id), Number(a.cash) || 0),
+    cashNote: foreignCashNote(a.cash),
+    ...aggregate(enriched.filter(h => h.account === a.id), cashTotal(a.cash, state)),
   })).map(a => ({
     ...a,
     sharePct: all.totalBase > 0 ? (a.totalBase / all.totalBase) * 100 : 0,
@@ -253,11 +318,12 @@ function computeDerived() {
   const inScope = state.scope === "all" ? enriched : enriched.filter(h => h.account === state.scope);
   const scopeCash = state.scope === "all"
     ? totalCash
-    : Number((state.accounts.find(a => a.id === state.scope) || {}).cash) || 0;
+    : cashTotal((state.accounts.find(a => a.id === state.scope) || {}).cash, state);
   const scoped = aggregate(inScope, scopeCash);
 
   const rows = inScope.map(h => ({
     ...h,
+    costPerShare: Number(h.shares) ? Math.round(h.costBase / Number(h.shares)) : 0,
     weightPct: scoped.totalBase > 0 ? (h.valueBase / scoped.totalBase) * 100 : 0,
   }));
 
@@ -308,7 +374,10 @@ function accountCardHtml(a, colorVar, isTotal) {
       <div class="acct-bar"><span style="width:${Math.min(100, isTotal ? 100 : a.sharePct).toFixed(1)}%;background:${colorVar}"></span></div>
       <div class="acct-rows">
         <div class="acct-row"><span>평가금액</span><span>${fmtMoney(a.equityBase, "KRW")}</span></div>
-        <div class="acct-row"><span>예수금</span><span>${fmtMoney(a.cashBase, "KRW")}</span></div>
+        <div class="acct-row">
+          <span>예수금${a.cashNote ? ` <em class="acct-fx">${a.cashNote}</em>` : ""}</span>
+          <span>${fmtMoney(a.cashBase, "KRW")}</span>
+        </div>
         <div class="acct-row"><span>매입금액</span><span>${fmtMoney(a.costBase, "KRW")}</span></div>
         <div class="acct-row">
           <span>평가손익</span>
@@ -360,10 +429,14 @@ function renderAccountFields() {
         계좌명
         <input data-acct-field="name" data-acct="${i}" value="${escapeHtml(a.name)}" placeholder="계좌 이름">
       </label>
-      <label class="inline-field" style="flex:1;">
-        예수금 (KRW)
-        <input class="cell-num" type="number" data-acct-field="cash" data-acct="${i}" value="${a.cash}" step="10000">
-      </label>
+      ${CURRENCIES.map(cur => `
+        <label class="inline-field" style="flex:${cur === "KRW" ? 1.4 : 1};">
+          예수금 ${cur}
+          <input class="cell-num" type="number" data-acct-field="cash" data-acct="${i}"
+                 data-acct-cur="${cur}" value="${Number(a.cash[cur]) || 0}"
+                 step="${cur === "KRW" ? 10000 : 0.01}">
+        </label>
+      `).join("")}
       <button class="row-remove-btn" data-acct-remove="${i}" title="계좌 삭제"
               ${state.accounts.length <= 1 ? "disabled" : ""}>✕</button>
     </div>
@@ -396,7 +469,12 @@ function removeAccount(idx) {
 function onAccountFieldChange(e) {
   const i = Number(e.target.dataset.acct);
   const field = e.target.dataset.acctField;
-  state.accounts[i][field] = field === "cash" ? Number(e.target.value) : e.target.value;
+  if (field === "cash") {
+    const cur = e.target.dataset.acctCur;
+    state.accounts[i].cash = { ...state.accounts[i].cash, [cur]: Number(e.target.value) || 0 };
+  } else {
+    state.accounts[i][field] = e.target.value;
+  }
   saveState(state);
 
   // re-render everything except the account fields themselves, so the input
@@ -448,7 +526,7 @@ function renderHoldingsTable(d) {
         </select>
       </td>
       <td><input class="cell-num" type="number" data-field="shares" data-i="${i}" value="${h.shares}" step="1"></td>
-      <td><input class="cell-num" type="number" data-field="avgCost" data-i="${i}" value="${h.avgCost}" step="0.01"></td>
+      <td><input class="cell-num" type="number" data-field="costPerShare" data-i="${i}" value="${row.costPerShare}" step="1" title="주당 원화 매입단가"></td>
       <td><input class="cell-num" type="number" data-field="price" data-i="${i}" value="${h.price}" step="0.01"></td>
       <td class="cell-computed">${fmtMoney(row.valueBase, state.baseCurrency)}</td>
       <td class="cell-computed ${pnlClass(row.pnlBase)}">${row.costBase > 0 ? fmtSignedMoney(row.pnlBase) : "–"}</td>
@@ -552,11 +630,25 @@ function onHoldingFieldChange(e) {
     return;
   }
 
-  const isNumeric = ["shares", "avgCost", "price"].includes(field);
+  // the table edits a per-share figure but the model stores the total basis
+  if (field === "costPerShare") {
+    state.holdings[i].costKRW = (Number(e.target.value) || 0) * (Number(state.holdings[i].shares) || 0);
+    saveState(state);
+    refreshAfterEdit();
+    return;
+  }
+
+  const isNumeric = ["shares", "price", "costKRW"].includes(field);
   state.holdings[i][field] = isNumeric ? Number(e.target.value) : e.target.value;
   if (field === "ticker" || field === "name") e.target.title = e.target.value;
   saveState(state);
 
+  refreshAfterEdit();
+}
+
+// Repaint everything a single cell edit can move, without rebuilding the table
+// — rebuilding it mid-keystroke would steal focus from the input being typed in.
+function refreshAfterEdit() {
   const d = computeDerived();
   renderStats(d);
   renderAccountCards(d);
@@ -564,8 +656,7 @@ function onHoldingFieldChange(e) {
   renderRiskPanel();
   renderPublishState();
 
-  // avoid a full table re-render on every keystroke to keep input focus, but
-  // still refresh every row — one edit moves every other row's weight too
+  // every row, not just the edited one: one edit moves every other row's weight
   d.rows.forEach(row => {
     const tr = document.querySelector(`#holdingsBody tr[data-row-i="${row.i}"]`);
     if (!tr) return;
@@ -609,7 +700,7 @@ export async function initPosition() {
     renderRiskPanel();
   });
   document.getElementById("addAccountBtn").addEventListener("click", () => {
-    state.accounts.push({ id: uid(), name: `계좌 ${state.accounts.length + 1}`, cash: 0 });
+    state.accounts.push({ id: uid(), name: `계좌 ${state.accounts.length + 1}`, cash: { KRW: 0 } });
     persistAndRender();
   });
   document.getElementById("addHoldingBtn").addEventListener("click", () => {

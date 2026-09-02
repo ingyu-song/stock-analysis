@@ -517,3 +517,4 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
   background: var(--gain); margin-left: 7px; display: inline-block;
   vertical-align: middle;
 }
+.acct-fx { font-style: normal; font-size: 10.5px; color: var(--text-muted); opacity: 0.8; }
