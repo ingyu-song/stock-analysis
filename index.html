@@ -118,6 +118,7 @@
         </div>
         <div style="display:flex; gap:8px; align-items:center; flex-wrap:wrap;">
           <button class="btn btn-ghost" id="addHoldingBtn">+ 종목 추가</button>
+          <button class="btn" id="tradeBtn">매매 입력</button>
           <button class="btn" id="publishBtn">포지션 업데이트</button>
           <button class="btn btn-ghost" id="importBtn">JSON 가져오기</button>
           <span class="hint" id="publishStatus" style="margin:0;"></span>
@@ -127,17 +128,103 @@
         표 헤더 경계선을 드래그하면 칸 너비를 조절할 수 있어요 (더블클릭하면 그 칸만 원래대로).</p>
       </div>
 
+      <div id="tradeModal" class="import-modal" hidden>
+        <div class="import-modal-inner">
+          <div class="card-head"><h2>매매 입력</h2></div>
+          <p class="hint" style="margin-top:0;">체결 내역을 넣으면 수량과 평단을 다시 계산합니다. 매도는 평단을 그대로 두고 매입금액만 비율대로 덜어냅니다.</p>
+
+          <div class="trade-grid">
+            <label class="inline-field">계좌
+              <select id="tradeAccount"></select>
+            </label>
+            <label class="inline-field">종목
+              <select id="tradeHolding"></select>
+            </label>
+            <label class="inline-field">구분
+              <select id="tradeSide">
+                <option value="buy">매수</option>
+                <option value="sell">매도</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="trade-grid" id="tradeNewFields" hidden>
+            <label class="inline-field">티커
+              <input id="tradeTicker" placeholder="AAPL">
+            </label>
+            <label class="inline-field">종목명
+              <input id="tradeName" placeholder="Apple">
+            </label>
+            <label class="inline-field">통화
+              <select id="tradeCurrency">
+                <option value="KRW">KRW</option>
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="trade-grid">
+            <label class="inline-field">수량
+              <input class="cell-num" type="number" id="tradeShares" step="1" min="0" value="0">
+            </label>
+            <label class="inline-field">체결단가 <span id="tradePriceCur" class="acct-fx"></span>
+              <input class="cell-num" type="number" id="tradePrice" step="0.01" min="0" value="0">
+            </label>
+            <label class="inline-field">수수료·세금 <span id="tradeFeeCur" class="acct-fx"></span>
+              <input class="cell-num" type="number" id="tradeFee" step="0.01" min="0" value="0">
+            </label>
+          </div>
+
+          <label class="inline-field" style="flex-direction:row; align-items:center; gap:7px; margin-top:10px;">
+            <input type="checkbox" id="tradeTouchesCash" checked style="width:auto;">
+            예수금도 함께 반영 (매수는 차감, 매도는 가산)
+          </label>
+
+          <p class="trade-preview" id="tradePreview">—</p>
+
+          <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;">
+            <button class="btn" id="tradeApplyBtn">반영</button>
+            <button class="btn btn-ghost" id="tradeCancelBtn" style="margin-top:0;">닫기</button>
+          </div>
+        </div>
+      </div>
+
       <div id="publishModal" class="import-modal" hidden>
         <div class="import-modal-inner">
           <div class="card-head"><h2>포지션 업데이트</h2></div>
-          <p class="hint" style="margin-top:0;">지금 화면의 보유 내역을 사이트에 반영합니다. 커밋하면 1~2분 뒤 모든 기기에 적용돼요.</p>
+          <p class="hint" style="margin-top:0;">지금 화면의 보유 내역을 사이트에 반영합니다. 반영되면 1~2분 뒤 모든 기기에 적용돼요.</p>
+          <div class="gh-box" id="ghBox">
+            <div class="gh-row">
+              <span class="gh-title">GitHub 자동 저장</span>
+              <span class="gh-state" id="ghState">연결 안 됨</span>
+            </div>
+            <div id="ghConnected" hidden>
+              <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+                <button class="btn" id="ghSaveBtn">사이트에 저장</button>
+                <button class="btn btn-ghost" id="ghDisconnectBtn" style="margin-top:0;">연결 해제</button>
+              </div>
+            </div>
+            <div id="ghSetup">
+              <p class="hint" style="margin-top:0;">이 레포에만 <code>Contents: Read and write</code> 권한을 준 fine-grained 토큰을 넣으세요. 토큰은 이 브라우저에만 저장되고 레포에는 올라가지 않습니다.</p>
+              <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
+                <input id="ghToken" type="password" placeholder="github_pat_..." autocomplete="off" spellcheck="false" style="flex:1; min-width:220px;">
+                <button class="btn" id="ghConnectBtn">연결</button>
+                <a class="btn btn-ghost" href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener">토큰 만들기</a>
+              </div>
+            </div>
+            <p class="gh-msg" id="ghMsg"></p>
+          </div>
+
+          <p class="hint" style="margin-bottom:2px;">토큰 없이 직접 커밋하려면:</p>
           <ol class="publish-steps">
             <li><b>복사</b>로 아래 JSON을 클립보드에 담기</li>
             <li><b>GitHub에서 열기</b>로 <code>data/my-portfolio.json</code> 편집 화면 열기</li>
             <li>기존 내용을 전부 지우고 붙여넣기</li>
             <li><b>Commit changes</b> 누르면 끝</li>
           </ol>
-          <textarea id="publishTextarea" class="market-note" style="min-height:200px; font-family:var(--font-mono); font-size:12px;" readonly></textarea>
+
+          <textarea id="publishTextarea" class="market-note" style="min-height:160px; font-family:var(--font-mono); font-size:12px;" readonly></textarea>
           <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;">
             <button class="btn" id="publishCopyBtn">복사</button>
             <a class="btn btn-ghost" id="publishOpenBtn" href="https://github.com/ingyu-song/stock-analysis/edit/main/data/my-portfolio.json" target="_blank" rel="noopener">GitHub에서 열기</a>

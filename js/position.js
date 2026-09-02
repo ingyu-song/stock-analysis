@@ -727,6 +727,8 @@ export async function initPosition() {
 
   initImportModal();
   initPublishModal();
+  initTradeModal();
+  initGithubSave();
   render();
 }
 
@@ -737,6 +739,8 @@ function initPublishModal() {
 
   on("publishBtn", "click", () => {
     textarea.value = buildPublishPayload();
+    renderGhState();
+    setGhMsg("");
     modal.hidden = false;
     textarea.focus();
     textarea.select();
@@ -809,5 +813,353 @@ function initImportModal() {
     modal.hidden = true;
     syncTopLevelInputs();
     persistAndRender();
+  });
+}
+
+/* ---------------- 매매 입력 ---------------- */
+
+const NEW_HOLDING = "__new__";
+
+function tradeCurrencyOf(t) {
+  if (t.isNew) return document.getElementById("tradeCurrency").value;
+  const h = state.holdings[t.idx];
+  return (h && h.currency) || "KRW";
+}
+
+function readTradeForm() {
+  const sel = document.getElementById("tradeHolding").value;
+  const isNew = sel === NEW_HOLDING;
+  const t = {
+    accountId: document.getElementById("tradeAccount").value,
+    isNew,
+    idx: isNew ? -1 : Number(sel),
+    side: document.getElementById("tradeSide").value,
+    shares: Number(document.getElementById("tradeShares").value) || 0,
+    price: Number(document.getElementById("tradePrice").value) || 0,
+    fee: Number(document.getElementById("tradeFee").value) || 0,
+    touchesCash: document.getElementById("tradeTouchesCash").checked,
+    ticker: document.getElementById("tradeTicker").value.trim(),
+    name: document.getElementById("tradeName").value.trim(),
+  };
+  t.currency = tradeCurrencyOf(t);
+  return t;
+}
+
+// Pure: works out what a trade would do without touching state, so the preview
+// and the apply path can never disagree about the numbers.
+function evaluateTrade(t) {
+  if (t.isNew && !t.ticker) return { error: "새 종목의 티커를 입력하세요." };
+  if (t.isNew && t.side === "sell") return { error: "보유하지 않은 종목은 매도할 수 없어요." };
+  if (t.shares <= 0) return { error: "수량을 입력하세요." };
+  if (t.price <= 0) return { error: "체결단가를 입력하세요." };
+
+  const h = t.isNew ? null : state.holdings[t.idx];
+  const beforeShares = h ? Number(h.shares) || 0 : 0;
+  const beforeCost = h ? Number(h.costKRW) || 0 : 0;
+
+  if (t.side === "sell" && t.shares > beforeShares) {
+    return { error: `보유 수량 ${beforeShares}주보다 많이 팔 수 없어요.` };
+  }
+
+  const grossNative = t.shares * t.price;
+  // cash moves in the trade's own currency: a USD buy draws down USD, not won
+  const cashNative = t.side === "buy" ? -(grossNative + t.fee) : grossNative - t.fee;
+
+  // Buying adds what was actually paid, in won, at today's rate. Selling takes
+  // cost out in proportion to the shares leaving, which is what keeps 평단
+  // unchanged on a partial sale.
+  const costDelta = t.side === "buy"
+    ? toBase(grossNative + t.fee, t.currency, state)
+    : -(beforeCost * (t.shares / beforeShares));
+
+  const afterShares = t.side === "buy" ? beforeShares + t.shares : beforeShares - t.shares;
+  const afterCost = afterShares <= 0 ? 0 : beforeCost + costDelta;
+  const realized = t.side === "sell"
+    ? toBase(grossNative - t.fee, t.currency, state) + costDelta
+    : null;
+
+  return {
+    beforeShares, beforeCost, afterShares,
+    afterCost: Math.max(0, afterCost),
+    costDelta, cashNative, realized,
+    perShareBefore: beforeShares ? beforeCost / beforeShares : 0,
+    perShareAfter: afterShares ? (beforeCost + costDelta) / afterShares : 0,
+    closesPosition: afterShares <= 0,
+  };
+}
+
+function fmtNative(amount, currency) {
+  const symbols = { KRW: "₩", USD: "$", EUR: "€" };
+  const digits = currency === "KRW" ? 0 : 2;
+  return `${symbols[currency] || ""}${Number(amount).toLocaleString("en-US", {
+    minimumFractionDigits: digits, maximumFractionDigits: digits,
+  })}`;
+}
+
+function renderTradePreview() {
+  const el = document.getElementById("tradePreview");
+  const t = readTradeForm();
+  const ev = evaluateTrade(t);
+
+  if (ev.error) {
+    el.className = "trade-preview is-error";
+    el.textContent = ev.error;
+    return;
+  }
+
+  const lines = [];
+  if (t.side === "buy") {
+    lines.push(`매수 후 ${ev.afterShares}주 · 평단 ${ev.beforeShares ? `₩${Math.round(ev.perShareBefore).toLocaleString("en-US")} → ` : ""}₩${Math.round(ev.perShareAfter).toLocaleString("en-US")}`);
+    lines.push(`매입금액 +${fmtMoney(ev.costDelta, "KRW")}`);
+  } else {
+    lines.push(ev.closesPosition
+      ? `전량 매도 — 보유 종목에서 빠집니다`
+      : `매도 후 ${ev.afterShares}주 · 평단 ₩${Math.round(ev.perShareAfter).toLocaleString("en-US")} (변동 없음)`);
+    lines.push(`실현손익 ${fmtSignedMoney(ev.realized)}`);
+  }
+  if (t.touchesCash) {
+    lines.push(`예수금 ${t.currency} ${ev.cashNative >= 0 ? "+" : "-"}${fmtNative(Math.abs(ev.cashNative), t.currency)}`);
+  }
+
+  el.className = "trade-preview";
+  el.textContent = lines.join("\n");
+}
+
+function applyTrade(t, ev) {
+  let h;
+  if (t.isNew) {
+    h = {
+      account: t.accountId, ticker: t.ticker, name: t.name || t.ticker,
+      currency: t.currency, shares: 0, price: t.price, costKRW: 0,
+    };
+    state.holdings.push(h);
+  } else {
+    h = state.holdings[t.idx];
+  }
+
+  h.shares = ev.afterShares;
+  h.costKRW = Math.round(ev.afterCost);
+
+  if (t.touchesCash) {
+    const acc = state.accounts.find(a => a.id === t.accountId);
+    if (acc) {
+      const cash = normaliseCash(acc.cash);
+      cash[t.currency] = (Number(cash[t.currency]) || 0) + ev.cashNative;
+      acc.cash = cash;
+    }
+  }
+
+  if (ev.closesPosition) state.holdings = state.holdings.filter(x => x !== h);
+}
+
+function renderTradeAccountOptions() {
+  const sel = document.getElementById("tradeAccount");
+  const keep = sel.value;
+  sel.innerHTML = state.accounts.map(a =>
+    `<option value="${escapeHtml(a.id)}">${escapeHtml(a.name)}</option>`).join("");
+  if (state.accounts.some(a => a.id === keep)) sel.value = keep;
+  else if (state.scope !== "all") sel.value = state.scope;
+}
+
+function renderTradeHoldingOptions() {
+  const sel = document.getElementById("tradeHolding");
+  const accountId = document.getElementById("tradeAccount").value;
+  const keep = sel.value;
+  const opts = state.holdings
+    .map((h, i) => ({ h, i }))
+    .filter(({ h }) => h.account === accountId)
+    .map(({ h, i }) => `<option value="${i}">${escapeHtml(h.name || h.ticker || "?")}</option>`);
+  sel.innerHTML = opts.join("") + `<option value="${NEW_HOLDING}">+ 새 종목</option>`;
+  if (keep && [...sel.options].some(o => o.value === keep)) sel.value = keep;
+  onTradeHoldingChange();
+}
+
+function onTradeHoldingChange() {
+  const isNew = document.getElementById("tradeHolding").value === NEW_HOLDING;
+  document.getElementById("tradeNewFields").hidden = !isNew;
+  const cur = tradeCurrencyOf(readTradeForm());
+  setText(document.getElementById("tradePriceCur"), cur);
+  setText(document.getElementById("tradeFeeCur"), cur);
+  renderTradePreview();
+}
+
+function initTradeModal() {
+  const modal = document.getElementById("tradeModal");
+  if (!modal) return;
+
+  on("tradeBtn", "click", () => {
+    renderTradeAccountOptions();
+    renderTradeHoldingOptions();
+    modal.hidden = false;
+  });
+  on("tradeCancelBtn", "click", () => { modal.hidden = true; });
+  modal.addEventListener("click", e => { if (e.target === modal) modal.hidden = true; });
+
+  on("tradeAccount", "change", renderTradeHoldingOptions);
+  on("tradeHolding", "change", onTradeHoldingChange);
+  on("tradeCurrency", "change", onTradeHoldingChange);
+  ["tradeSide", "tradeShares", "tradePrice", "tradeFee", "tradeTicker", "tradeTouchesCash"]
+    .forEach(id => { on(id, "input", renderTradePreview); on(id, "change", renderTradePreview); });
+
+  on("tradeApplyBtn", "click", () => {
+    const t = readTradeForm();
+    const ev = evaluateTrade(t);
+    if (ev.error) { renderTradePreview(); return; }
+
+    applyTrade(t, ev);
+    persistAndRender();
+    modal.hidden = true;
+
+    document.getElementById("tradeShares").value = 0;
+    document.getElementById("tradePrice").value = 0;
+    document.getElementById("tradeFee").value = 0;
+    document.getElementById("tradeTicker").value = "";
+    document.getElementById("tradeName").value = "";
+  });
+}
+
+/* ---------------- GitHub 자동 저장 ---------------- */
+
+const GH_TOKEN_KEY = "igs-gh-token";
+const GH_REPO = "ingyu-song/stock-analysis";
+const GH_PATH = "data/my-portfolio.json";
+const GH_CONTENTS_URL = `https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`;
+
+function ghToken() {
+  try {
+    return localStorage.getItem(GH_TOKEN_KEY) || "";
+  } catch {
+    return "";
+  }
+}
+
+// btoa() only takes latin-1, and the book is full of Hangul
+function toBase64Utf8(str) {
+  const bytes = new TextEncoder().encode(str);
+  let binary = "";
+  bytes.forEach(b => { binary += String.fromCharCode(b); });
+  return btoa(binary);
+}
+
+function ghFetch(method, url, body) {
+  return fetch(url, {
+    method,
+    headers: {
+      Authorization: `Bearer ${ghToken()}`,
+      Accept: "application/vnd.github+json",
+      "X-GitHub-Api-Version": "2022-11-28",
+      ...(body ? { "Content-Type": "application/json" } : {}),
+    },
+    ...(body ? { body: JSON.stringify(body) } : {}),
+  });
+}
+
+function ghErrorText(status) {
+  if (status === 401) return "토큰이 유효하지 않아요 (만료됐거나 잘못 붙여넣었을 수 있어요).";
+  if (status === 403) return "권한이 부족해요. 토큰에 Contents: Read and write 권한을 주세요.";
+  if (status === 404) return "레포나 파일을 못 찾았어요. 토큰이 이 레포에 접근할 수 있는지 확인하세요.";
+  return `GitHub이 ${status}를 돌려줬어요.`;
+}
+
+function setGhMsg(text, kind) {
+  const el = document.getElementById("ghMsg");
+  if (!el) return;
+  el.textContent = text;
+  el.className = `gh-msg${kind ? ` is-${kind}` : ""}`;
+}
+
+function renderGhState() {
+  const connected = Boolean(ghToken());
+  const state_ = document.getElementById("ghState");
+  if (state_) {
+    state_.textContent = connected ? "연결됨" : "연결 안 됨";
+    state_.className = `gh-state${connected ? " is-on" : ""}`;
+  }
+  const c = document.getElementById("ghConnected");
+  const s = document.getElementById("ghSetup");
+  if (c) c.hidden = !connected;
+  if (s) s.hidden = connected;
+}
+
+async function ghConnect() {
+  const input = document.getElementById("ghToken");
+  const token = input.value.trim();
+  if (!token) return setGhMsg("토큰을 붙여넣으세요.", "error");
+
+  localStorage.setItem(GH_TOKEN_KEY, token);
+  input.value = "";
+  setGhMsg("확인 중...");
+
+  try {
+    const res = await ghFetch("GET", `${GH_CONTENTS_URL}?ref=main`);
+    if (!res.ok) {
+      localStorage.removeItem(GH_TOKEN_KEY);
+      renderGhState();
+      return setGhMsg(ghErrorText(res.status), "error");
+    }
+  } catch {
+    localStorage.removeItem(GH_TOKEN_KEY);
+    renderGhState();
+    return setGhMsg("GitHub에 닿지 못했어요. 네트워크를 확인하세요.", "error");
+  }
+
+  renderGhState();
+  setGhMsg("연결됐어요. 이제 “사이트에 저장”으로 바로 커밋할 수 있어요.", "ok");
+}
+
+async function ghSave() {
+  const btn = document.getElementById("ghSaveBtn");
+  if (btn) { btn.disabled = true; btn.textContent = "저장 중..."; }
+  setGhMsg("저장 중...");
+
+  const payload = buildPublishPayload();
+  const stamp = JSON.parse(payload).updatedAt;
+
+  try {
+    // Re-read the sha each time: the nightly price bot commits to this same
+    // file, so a sha cached from page load would be stale by morning.
+    for (let attempt = 0; attempt < 2; attempt++) {
+      const head = await ghFetch("GET", `${GH_CONTENTS_URL}?ref=main`);
+      if (!head.ok) throw new Error(ghErrorText(head.status));
+      const { sha } = await head.json();
+
+      const put = await ghFetch("PUT", GH_CONTENTS_URL, {
+        message: `Update position from dashboard (${stamp})`,
+        content: toBase64Utf8(payload),
+        sha,
+        branch: "main",
+      });
+
+      if (put.ok) {
+        // We know exactly what the site now holds, so clear the change flag
+        // here instead of waiting for the next load to re-seed.
+        state.updatedAt = stamp;
+        state.seededFrom = stamp;
+        state.publishedBook = bookFingerprint(state);
+        saveState(state);
+        render();
+        setGhMsg(`저장했어요 · ${stamp} — 1~2분 뒤 사이트에 반영돼요.`, "ok");
+        return;
+      }
+      // 409 means something else wrote first; loop re-reads the sha and retries
+      if (put.status !== 409) throw new Error(ghErrorText(put.status));
+    }
+    throw new Error("다른 커밋과 계속 충돌해요. 잠시 뒤 다시 시도해 주세요.");
+  } catch (err) {
+    setGhMsg(err.message || "저장하지 못했어요.", "error");
+  } finally {
+    if (btn) { btn.disabled = false; btn.textContent = "사이트에 저장"; }
+  }
+}
+
+function initGithubSave() {
+  if (!document.getElementById("ghBox")) return;
+  renderGhState();
+  on("ghConnectBtn", "click", ghConnect);
+  on("ghSaveBtn", "click", ghSave);
+  on("ghDisconnectBtn", "click", () => {
+    localStorage.removeItem(GH_TOKEN_KEY);
+    renderGhState();
+    setGhMsg("토큰을 지웠어요.", "");
   });
 }

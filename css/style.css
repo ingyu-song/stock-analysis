@@ -120,6 +120,9 @@
 
 /* ---------- reset / base ---------- */
 * { box-sizing: border-box; }
+/* a display: rule on the element itself outranks the UA's [hidden] default,
+   so any component class would silently defeat el.hidden without this */
+[hidden] { display: none !important; }
 html, body { margin: 0; padding: 0; }
 body {
   background: var(--surface-page);
@@ -518,3 +521,33 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
   vertical-align: middle;
 }
 .acct-fx { font-style: normal; font-size: 10.5px; color: var(--text-muted); opacity: 0.8; }
+
+/* ---------- 매매 입력 / GitHub 저장 ---------- */
+.trade-grid {
+  display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 10px;
+}
+@media (max-width: 640px) { .trade-grid { grid-template-columns: 1fr; } }
+.trade-preview {
+  font-family: var(--font-mono); font-size: 12px; line-height: 1.7;
+  color: var(--text-secondary); background: var(--surface-2);
+  border: 0.5px solid var(--border); border-radius: var(--radius-sm);
+  padding: 10px 12px; margin: 12px 0 0; white-space: pre-line;
+}
+.trade-preview.is-error { color: var(--critical); border-color: var(--critical); }
+
+.gh-box {
+  border: 0.5px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--surface-2); padding: 12px 14px; margin-bottom: 14px;
+}
+.gh-row { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 8px; }
+.gh-title { font-family: var(--font-mono); font-size: 11.5px; font-weight: 600; color: var(--text-secondary); }
+.gh-state { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); }
+.gh-state.is-on { color: var(--good); }
+.gh-msg { font-family: var(--font-mono); font-size: 11.5px; margin: 8px 0 0; color: var(--text-muted); }
+.gh-msg.is-error { color: var(--critical); }
+.gh-msg.is-ok { color: var(--good); }
+.gh-box input[type="password"] {
+  border: 0.5px solid var(--border); background: var(--surface-1);
+  color: var(--text-primary); border-radius: var(--radius-sm);
+  padding: 7px 9px; font-size: 13px; font-family: var(--font-mono);
+}
