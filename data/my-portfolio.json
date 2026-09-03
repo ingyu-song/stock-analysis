@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-03 10:08",
+  "updatedAt": "2026-09-03 14:32",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1361.08,
-  "fxRateEUR": 1575.5,
+  "fxRate": 1359.58,
+  "fxRateEUR": 1576.0,
   "accounts": [
     {
       "id": "kiwoom",
@@ -28,30 +28,30 @@
       "ticker": "278470.KS",
       "name": "에이피알",
       "currency": "KRW",
-      "shares": 10,
-      "price": 423500.0,
-      "costKRW": 3994000,
-      "costNative": 3994000.0
-    },
-    {
-      "account": "kiwoom",
-      "ticker": "379810.KS",
-      "name": "KODEX 미국나스닥100",
-      "currency": "KRW",
-      "shares": 80,
-      "price": 26275.0,
-      "costKRW": 2147600,
-      "costNative": 2147600.0
+      "shares": 1,
+      "price": 393500.0,
+      "costKRW": 399400,
+      "costNative": 399400
     },
     {
       "account": "kiwoom",
       "ticker": "379800.KS",
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
-      "shares": 75,
-      "price": 23540.0,
-      "costKRW": 1827150,
-      "costNative": 1827150.0
+      "shares": 25,
+      "price": 23515.0,
+      "costKRW": 609050,
+      "costNative": 609050
+    },
+    {
+      "account": "kiwoom",
+      "ticker": "379810.KS",
+      "name": "KODEX 미국나스닥100",
+      "currency": "KRW",
+      "shares": 30,
+      "price": 26235.0,
+      "costKRW": 805350,
+      "costNative": 805350
     },
     {
       "account": "mirae",
@@ -60,18 +60,8 @@
       "currency": "USD",
       "shares": 10,
       "price": 174.96,
-      "costKRW": 2186119,
-      "costNative": 1584.14
-    },
-    {
-      "account": "mirae",
-      "ticker": "CRCL",
-      "name": "서클 인터넷 그룹",
-      "currency": "USD",
-      "shares": 20,
-      "price": 88.64,
-      "costKRW": 2769902,
-      "costNative": 2007.18
+      "costKRW": 2167966,
+      "costNative": 1583.8
     },
     {
       "account": "mirae",
@@ -80,38 +70,18 @@
       "currency": "USD",
       "shares": 8,
       "price": 203.42,
-      "costKRW": 2224527,
-      "costNative": 1611.98
+      "costKRW": 2206054,
+      "costNative": 1611.6256
     },
     {
       "account": "mirae",
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
+      "ticker": "AAPL",
+      "name": "애플",
       "currency": "USD",
-      "shares": 10,
-      "price": 337.12,
-      "costKRW": 4807971,
-      "costNative": 3484.04
-    },
-    {
-      "account": "mirae",
-      "ticker": "MC.PA",
-      "name": "LVMH 모에헤네시",
-      "currency": "EUR",
-      "shares": 2,
-      "price": 439.0,
-      "costKRW": 1551668,
-      "costNative": 964.37
-    },
-    {
-      "account": "mirae",
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "currency": "USD",
-      "shares": 10,
-      "price": 328.48,
-      "costKRW": 5109595,
-      "costNative": 3702.61
+      "shares": 5,
+      "price": 324.96,
+      "costKRW": 2205116,
+      "costNative": 1610.94
     },
     {
       "account": "mirae",
@@ -120,8 +90,48 @@
       "currency": "USD",
       "shares": 10,
       "price": 147.64,
-      "costKRW": 2047675,
-      "costNative": 1483.82
+      "costKRW": 2030671,
+      "costNative": 1483.5
+    },
+    {
+      "account": "mirae",
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "currency": "USD",
+      "shares": 10,
+      "price": 337.12,
+      "costKRW": 4768046,
+      "costNative": 3483.28
+    },
+    {
+      "account": "mirae",
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
+      "currency": "EUR",
+      "shares": 2,
+      "price": 439.0,
+      "costKRW": 1539568,
+      "costNative": 964.65
+    },
+    {
+      "account": "mirae",
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "currency": "USD",
+      "shares": 10,
+      "price": 328.48,
+      "costKRW": 5067164,
+      "costNative": 3701.8
+    },
+    {
+      "account": "mirae",
+      "ticker": "CRCL",
+      "name": "서클 인터넷 그룹",
+      "currency": "USD",
+      "shares": 20,
+      "price": 88.64,
+      "costKRW": 2746902,
+      "costNative": 2006.74
     },
     {
       "account": "mirae",
@@ -130,8 +140,8 @@
       "currency": "USD",
       "shares": 30,
       "price": 17.28,
-      "costKRW": 891494,
-      "costNative": 646.01
+      "costKRW": 884091,
+      "costNative": 645.87
     }
   ],
   "risk": {
