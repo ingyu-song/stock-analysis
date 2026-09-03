@@ -1364,9 +1364,11 @@ function initJournal() {
 /* ---------------- 벤치마크 비교 ---------------- */
 
 const BENCH_URL = "data/benchmarks.json";
+const CLAUDE_URL = "data/claude-portfolio.json";
 const BENCH_OPEN_KEY = "igs-bench-open";
 
 let benchData = null;
+let claudeReturnPct = NaN;
 
 function benchOpen() {
   try {
@@ -1374,6 +1376,13 @@ function benchOpen() {
   } catch {
     return false;
   }
+}
+
+// pnlClass() rounds to the nearest won before deciding, which is right for an
+// amount and wrong for a percentage — -0.25% is a real move, not zero
+function pctClass(x) {
+  if (!isFinite(x) || x === 0) return "";
+  return x > 0 ? "num-gain" : "num-loss";
 }
 
 function fmtSignedPctShort(x) {
@@ -1408,36 +1417,35 @@ function renderBenchmarks() {
   const mine = myReturnPct();
   const cells = [
     { label: "내 포트폴리오", value: mine, mine: true },
+    { label: "클로드 투자", value: claudeReturnPct, mine: true },
     ...benchData.items.map(b => ({ label: b.name, value: b.returnPct })),
+    // an FX move is not a return anyone earned, so it stays uncoloured
+    { label: "USD/KRW", value: benchData.fxReturnPct, neutral: true },
   ];
 
   rows.innerHTML = cells.map(c => `
-    <span class="bench-item ${c.mine ? "is-mine" : ""}">
+    <span class="bench-item ${c.mine ? "is-mine" : ""} ${c.neutral ? "is-neutral" : ""}">
       <span class="label">${escapeHtml(c.label)}</span>
-      <span class="value ${pnlClass(c.value)}">${fmtSignedPctShort(c.value)}</span>
+      <span class="value ${c.neutral ? "" : pctClass(c.value)}">${fmtSignedPctShort(c.value)}</span>
     </span>`).join("");
 
   const krw = benchData.items
     .filter(b => b.currency !== "KRW" && isFinite(b.returnPctKRW))
     .map(b => `${b.name} ${fmtSignedPctShort(b.returnPctKRW)}`)
     .join(" · ");
-  const fx = isFinite(benchData.fxReturnPct)
-    ? ` 같은 기간 USD/KRW ${fmtSignedPctShort(benchData.fxReturnPct)}.`
-    : "";
-
   setText(
     document.getElementById("benchNote"),
     `${benchData.startDate} 종가 기준 · ${benchData.updatedAt || "–"} 갱신. ` +
-    `지수는 자국 통화 기준이라 환율이 빠져 있어요 — 원화로 환산하면 ${krw}.${fx} ` +
-    `내 수익률은 매입금액 대비 평가손익이라 기간 수익률과는 계산 방식이 달라요.`
+    `지수는 자국 통화 기준이라 환율이 빠져 있어요 — 원화로 환산하면 ${krw}. ` +
+    `USD/KRW는 수익률이 아니라 같은 기간 환율 변동이라 색을 안 넣었어요. ` +
+    `내 수익률은 매입금액 대비 평가손익이라 기간 수익률과는 계산 방식이 달라요 ` +
+    `(클로드 투자는 시작 AUM 대비라 지수와 같은 기준).`
   );
 
   // collapsed, the strip still carries the one number worth glancing at
   setText(
     document.getElementById("benchPeek"),
-    open ? "" : `내 ${fmtSignedPctShort(mine)} · KOSPI ${fmtSignedPctShort(
-      (benchData.items.find(b => b.key === "kospi") || {}).returnPct
-    )}`
+    open ? "" : `내 ${fmtSignedPctShort(mine)} · 클로드 ${fmtSignedPctShort(claudeReturnPct)}`
   );
 }
 
@@ -1449,8 +1457,12 @@ function initBenchmarks() {
     renderBenchmarks();
   });
 
-  fetchJson(BENCH_URL).then(data => {
-    benchData = data;
+  Promise.all([fetchJson(BENCH_URL), fetchJson(CLAUDE_URL)]).then(([bench, claude]) => {
+    benchData = bench;
+    if (claude && claude.startingAUM) {
+      const equity = (claude.holdings || []).reduce((sum, h) => sum + (h.marketValueKRW || 0), 0);
+      claudeReturnPct = ((claude.cash + equity) / claude.startingAUM - 1) * 100;
+    }
     renderBenchmarks();
   });
 }

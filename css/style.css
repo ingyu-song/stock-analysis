@@ -495,8 +495,14 @@ body.is-col-resizing * { cursor: col-resize !important; }
 .acct-row > span:first-child { color: var(--text-muted); }
 .acct-row > span:last-child { color: var(--text-primary); font-variant-numeric: tabular-nums; }
 
-.num-gain, .holdings-table .cell-computed.num-gain { color: var(--gain); }
-.num-loss, .holdings-table .cell-computed.num-loss { color: var(--loss); }
+/* each of these container rules sets its own colour at two-class specificity,
+   which outranks a bare .num-gain no matter the order — match their weight */
+.num-gain,
+.holdings-table .cell-computed.num-gain,
+.bench-item .value.num-gain { color: var(--gain); }
+.num-loss,
+.holdings-table .cell-computed.num-loss,
+.bench-item .value.num-loss { color: var(--loss); }
 
 .acct-pill {
   display: inline-block; max-width: 100%; overflow: hidden; text-overflow: ellipsis;
@@ -646,3 +652,4 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
 }
 .bench-item.is-mine .label { color: var(--text-secondary); font-weight: 600; }
 .bench-note { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); margin: 10px 0 0; line-height: 1.6; }
+.bench-item.is-neutral { padding-left: 22px; border-left: 0.5px solid var(--gridline); margin-left: -8px; }
