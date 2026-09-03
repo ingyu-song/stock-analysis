@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04 02:39",
+  "updatedAt": "2026-09-04 02:41",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,13 +21,6 @@
           "link": "https://www.nytimes.com/2026/09/03/business/google-antitrust-ad-tech-remedies-analysis.html",
           "publishedAt": "2026-09-04 00:04",
           "outlet": "NYT Business"
-        },
-        {
-          "title": "Fluidstack Hit A $18 Billion Valuation By Helping Build Google and Anthropic’s Data Centers - Forbes",
-          "summary": "Fluidstack Hit A $18 Billion Valuation By Helping Build Google and Anthropic’s Data Centers  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPclFJNzdSVk41ak9WdzNYM2pEQ3dvSFFVTTNtZmFqY1A1UldWMnotRGdXNUtyeU5pTUpfZUl3MUoyaHlIQXRNYmNMb3NxQVVUU1R1OTVLdU9tRnQ2aGtPbHp4OVU5WWVnQjREM2R5T3ljN1BRV3NmVVUxOXRVSmIyTWVucTBTaFlnQ0Q5dUpRaWtZWWxKUkN5Qm5RWC1JM1YwQ2xBdjZJSlBKcXZCRFd1eWp5YkNuU3hIdDBFZA?oc=5",
-          "publishedAt": "2026-09-03 19:30",
-          "outlet": "Forbes Markets"
         }
       ]
     },
@@ -54,19 +47,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-bullish-palo-alto-172136342.html",
           "publishedAt": "2026-09-04 02:21",
           "outlet": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs - digitimes",
-          "summary": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWkNaZ1RXSHplRHl1T3BlX0FwRHk2N2IyMkRTM1E3M2FzN1N1T2FOOFlEMHl2Zkd1UEdfSXE0Si1RVWtTTl9tV2NqVzd2T0ZPMmFNNHUyYUF4cTN3N0lQVXlZNHJVcGgxMERjazZPUDN1aHU3Sk1qMngtZVphRklHaFVLZ3FYS2ZEbm9SWg?oc=5",
-          "publishedAt": "2026-09-03 11:21",
-          "outlet": "DigiTimes"
         }
       ]
     }
