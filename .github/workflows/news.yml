@@ -29,6 +29,10 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install dependencies
+        # news_check.py is stdlib only, but news_rss.py needs feedparser
+        run: pip install feedparser
+
       - name: Fetch coverage news (Naver + global RSS)
         env:
           NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
