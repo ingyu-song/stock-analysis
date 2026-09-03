@@ -1,23 +1,23 @@
 {
-  "updatedAt": "2026-09-03 14:32",
+  "updatedAt": "2026-09-03 14:36",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1359.58,
-  "fxRateEUR": 1576.0,
+  "fxRate": 1359.88,
+  "fxRateEUR": 1576.6,
   "accounts": [
     {
       "id": "kiwoom",
       "name": "키움 (ISA)",
       "cash": {
-        "KRW": 9422618
+        "KRW": 15376108
       }
     },
     {
       "id": "mirae",
       "name": "미래에셋",
       "cash": {
-        "KRW": 0,
-        "USD": 5585.93,
+        "KRW": -3866,
+        "USD": 3970.97,
         "EUR": 11.25
       }
     }
@@ -29,7 +29,7 @@
       "name": "에이피알",
       "currency": "KRW",
       "shares": 1,
-      "price": 393500.0,
+      "price": 390000.0,
       "costKRW": 399400,
       "costNative": 399400
     },
@@ -39,7 +39,7 @@
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
       "shares": 25,
-      "price": 23515.0,
+      "price": 23490.0,
       "costKRW": 609050,
       "costNative": 609050
     },
@@ -49,7 +49,7 @@
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
       "shares": 30,
-      "price": 26235.0,
+      "price": 26200.0,
       "costKRW": 805350,
       "costNative": 805350
     },
