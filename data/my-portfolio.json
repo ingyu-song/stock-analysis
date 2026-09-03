@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-03 14:54",
+  "updatedAt": "2026-09-03 15:06",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1359.88,
-  "fxRateEUR": 1576.9,
+  "fxRate": 1358.78,
+  "fxRateEUR": 1576.1,
   "accounts": [
     {
       "id": "kiwoom",
@@ -39,7 +39,7 @@
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
       "shares": 25,
-      "price": 23490.0,
+      "price": 23500.0,
       "costKRW": 609050,
       "costNative": 609050
     },
@@ -49,7 +49,7 @@
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
       "shares": 30,
-      "price": 26190.0,
+      "price": 26210.0,
       "costKRW": 805350,
       "costNative": 805350
     },

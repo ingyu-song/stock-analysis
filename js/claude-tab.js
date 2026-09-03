@@ -220,7 +220,8 @@ function render(p) {
 }
 
 export function initClaudeTab() {
-  fetch(DATA_URL)
+  // the file is repriced daily now, so a cached copy would show yesterday's mark
+  fetch(DATA_URL, { cache: "no-store" })
     .then(res => res.json())
     .then(p => {
       portfolioData = p;

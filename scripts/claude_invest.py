@@ -348,6 +348,11 @@ def main():
     portfolio["holdings"] = priced_after
     portfolio["cash"] = cash_after
     portfolio["decisions"].append(decision_entry)
+    # update_prices.py marks this portfolio to market every day, so today may
+    # already have a point — the post-rebalance figure is the one that stands
+    portfolio["valueHistory"] = [
+        v for v in portfolio["valueHistory"] if v.get("date") != decision_entry["date"]
+    ]
     portfolio["valueHistory"].append(
         {
             "date": decision_entry["date"],

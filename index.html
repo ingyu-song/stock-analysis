@@ -315,7 +315,27 @@
 
     <div class="panel-head">
       <h1>What's in the Market</h1>
-      <p class="panel-sub">시장 전반 캘린더와 섹터 동향. (구성 중)</p>
+      <p class="panel-sub">내 커버리지 시세와 시장 전반 동향.</p>
+    </div>
+
+    <div class="card">
+      <div class="card-head">
+        <h2>내 커버리지</h2>
+        <span class="badge badge-muted" id="coverageUpdatedAt">–</span>
+      </div>
+      <div class="table-wrap">
+        <table class="holdings-table" id="coverageTable">
+          <colgroup>
+            <col style="width:190px"><col style="width:110px"><col style="width:130px">
+            <col style="width:110px"><col style="width:110px">
+          </colgroup>
+          <thead>
+            <tr><th>종목</th><th>티커</th><th>현재가</th><th>전일대비</th><th>보유</th></tr>
+          </thead>
+          <tbody id="coverageBody"></tbody>
+        </table>
+      </div>
+      <p class="hint">보유 중이거나 보유했던 단일 종목에 직접 지정한 종목을 더한 목록이에요. ETF는 커버리지로 치지 않습니다. 등락률 순으로 정렬됩니다.</p>
     </div>
 
     <div class="grid-2col">
