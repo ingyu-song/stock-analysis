@@ -1288,7 +1288,15 @@ function renderJournal() {
           <span style="margin-left:auto;"><button class="row-remove-btn" data-journal-remove="${e.i}" title="삭제">✕</button></span>
         </div>
         <div class="journal-reason">${escapeHtml(e.reason || "")}</div>
-        ${e.note ? `<div class="journal-note"><b>확인</b> ${escapeHtml(e.note)}</div>` : ""}
+        ${e.note ? `<div class="journal-note"><b>확인</b> ${escapeHtml(e.note)}${
+          Array.isArray(e.sources) && e.sources.length
+            ? `<div class="journal-sources">${e.sources.map(src =>
+                /^https?:\/\//.test(src)
+                  ? `<a href="${escapeHtml(src)}" target="_blank" rel="noopener">${escapeHtml(new URL(src).hostname)}</a>`
+                  : escapeHtml(src)
+              ).join(" · ")}</div>`
+            : ""
+        }</div>` : ""}
       </div>`;
   }).join("");
 
