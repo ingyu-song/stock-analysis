@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-02 19:35",
+  "updatedAt": "2026-09-03 09:25",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1365.38,
-  "fxRateEUR": 1580.1,
+  "fxRate": 1361.08,
+  "fxRateEUR": 1575.5,
   "accounts": [
     {
       "id": "kiwoom",
@@ -29,7 +29,7 @@
       "name": "에이피알",
       "currency": "KRW",
       "shares": 10,
-      "price": 419000.0,
+      "price": 423500.0,
       "costKRW": 3994000
     },
     {
@@ -38,7 +38,7 @@
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
       "shares": 80,
-      "price": 26235.0,
+      "price": 26275.0,
       "costKRW": 2147600
     },
     {
@@ -47,7 +47,7 @@
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
       "shares": 75,
-      "price": 23500.0,
+      "price": 23540.0,
       "costKRW": 1827150
     },
     {
@@ -56,7 +56,7 @@
       "name": "코인베이스 글로벌",
       "currency": "USD",
       "shares": 10,
-      "price": 176.82,
+      "price": 174.96,
       "costKRW": 2186119
     },
     {
@@ -65,7 +65,7 @@
       "name": "서클 인터넷 그룹",
       "currency": "USD",
       "shares": 20,
-      "price": 89.48,
+      "price": 88.64,
       "costKRW": 2769902
     },
     {
@@ -74,7 +74,7 @@
       "name": "크라우드스트라이크",
       "currency": "USD",
       "shares": 8,
-      "price": 215.07,
+      "price": 203.42,
       "costKRW": 2224527
     },
     {
@@ -83,7 +83,7 @@
       "name": "알파벳 A",
       "currency": "USD",
       "shares": 10,
-      "price": 335.02,
+      "price": 337.12,
       "costKRW": 4807971
     },
     {
@@ -92,7 +92,7 @@
       "name": "LVMH 모에헤네시",
       "currency": "EUR",
       "shares": 2,
-      "price": 439.05,
+      "price": 439.0,
       "costKRW": 1551668
     },
     {
@@ -101,7 +101,7 @@
       "name": "팰로 앨토 네트웍스",
       "currency": "USD",
       "shares": 10,
-      "price": 362.09,
+      "price": 328.48,
       "costKRW": 5109595
     },
     {
@@ -110,7 +110,7 @@
       "name": "프록터 앤드 갬블",
       "currency": "USD",
       "shares": 10,
-      "price": 146.21,
+      "price": 147.64,
       "costKRW": 2047675
     },
     {
@@ -119,7 +119,7 @@
       "name": "ProShares VIX 단기선물",
       "currency": "USD",
       "shares": 30,
-      "price": 17.8,
+      "price": 17.28,
       "costKRW": 891494
     }
   ],
