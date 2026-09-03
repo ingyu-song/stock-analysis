@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-04 02:10",
+  "updatedAt": "2026-09-04 02:28",
   "note": "내 커버리지 — 보유 중이거나 보유했던 단일 종목 + 직접 지정한 종목. ETF는 제외.",
   "names": [
     {
@@ -19,7 +19,7 @@
       "ticker": "AAPL",
       "name": "애플",
       "currency": "USD",
-      "price": 328.36,
+      "price": 327.5599,
       "prevClose": 324.74,
       "newsQuery": "애플 AAPL",
       "newsMatch": [
@@ -32,7 +32,7 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "currency": "USD",
-      "price": 341.86,
+      "price": 342.29,
       "prevClose": 338.13,
       "newsQuery": "구글 알파벳 주가",
       "newsMatch": [
@@ -46,7 +46,7 @@
       "ticker": "COIN",
       "name": "코인베이스 글로벌",
       "currency": "USD",
-      "price": 193.2,
+      "price": 193.009,
       "prevClose": 175.48,
       "newsQuery": "코인베이스 COIN",
       "newsMatch": [
@@ -59,7 +59,7 @@
       "ticker": "CRCL",
       "name": "서클 인터넷 그룹",
       "currency": "USD",
-      "price": 102.07,
+      "price": 102.166,
       "prevClose": 88.88,
       "newsQuery": "서클 CRCL",
       "newsMatch": [
@@ -72,7 +72,7 @@
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "currency": "USD",
-      "price": 213.685,
+      "price": 213.19,
       "prevClose": 205.4,
       "newsQuery": "크라우드스트라이크",
       "newsMatch": [
@@ -85,7 +85,7 @@
       "ticker": "PANW",
       "name": "팰로 앨토 네트웍스",
       "currency": "USD",
-      "price": 329.035,
+      "price": 328.7,
       "prevClose": 330.3203,
       "newsQuery": "팔로알토네트웍스",
       "newsMatch": [
@@ -100,7 +100,7 @@
       "ticker": "PG",
       "name": "프록터 앤드 갬블",
       "currency": "USD",
-      "price": 147.83,
+      "price": 147.68,
       "prevClose": 147.35,
       "newsQuery": "프록터앤드갬블 PG",
       "newsMatch": [
@@ -126,7 +126,7 @@
       "ticker": "INTC",
       "name": "인텔",
       "currency": "USD",
-      "price": 90.675,
+      "price": 91.4599,
       "prevClose": 90.269,
       "newsQuery": "인텔 INTC",
       "newsMatch": [
@@ -139,7 +139,7 @@
       "ticker": "GLW",
       "name": "코닝",
       "currency": "USD",
-      "price": 144.63,
+      "price": 145.03,
       "prevClose": 143.74,
       "newsQuery": "코닝",
       "newsMatch": [
@@ -152,7 +152,7 @@
       "ticker": "SONY",
       "name": "소니",
       "currency": "USD",
-      "price": 24.95,
+      "price": 24.9514,
       "prevClose": 24.68,
       "newsQuery": "소니 SONY",
       "newsMatch": [

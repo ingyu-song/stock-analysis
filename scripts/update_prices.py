@@ -27,6 +27,7 @@ DATA = REPO_ROOT / "data"
 POSITION_PATH = DATA / "my-portfolio.json"
 CLAUDE_PATH = DATA / "claude-portfolio.json"
 COVERAGE_PATH = DATA / "coverage.json"
+BENCHMARK_PATH = DATA / "benchmarks.json"
 
 FX_TICKERS = {"USD": "USDKRW=X", "EUR": "EURKRW=X", "SGD": "SGDKRW=X"}
 KST = zoneinfo.ZoneInfo("Asia/Seoul")
@@ -207,6 +208,56 @@ def refresh_coverage(failures, dry_run):
     return True
 
 
+def close_on_or_after(ticker, start):
+    """First close at or after `start`, plus the latest close. Indices skip
+    holidays, so the baseline is the first session on or after the start date."""
+    hist = yf.Ticker(ticker).history(start=start, auto_adjust=False)
+    closes = hist["Close"].dropna() if not hist.empty else None
+    if closes is None or not len(closes):
+        return None, None, None
+    return float(closes.iloc[0]), float(closes.iloc[-1]), str(closes.index[0].date())
+
+
+def refresh_benchmarks(failures, dry_run):
+    book = json.loads(BENCHMARK_PATH.read_text(encoding="utf-8"))
+    start = book["startDate"]
+
+    fx_start, fx_now, _ = close_on_or_after(FX_TICKERS["USD"], start)
+    if fx_start:
+        book["fxStart"] = round(fx_start, 2)
+        book["fxNow"] = round(fx_now, 2)
+        book["fxReturnPct"] = round((fx_now / fx_start - 1) * 100, 2)
+
+    local_fail = 0
+    for b in book["items"]:
+        first, last, first_date = close_on_or_after(b["ticker"], start)
+        if first is None:
+            local_fail += 1
+            failures.append(b["ticker"])
+            print(f"  {b['ticker']:<10} FAILED, keeping {b.get('returnPct')}")
+            continue
+        b["startPrice"] = round(first, 2)
+        b["startDateActual"] = first_date
+        b["price"] = round(last, 2)
+        b["returnPct"] = round((last / first - 1) * 100, 2)
+        # also stored in won terms: the user's own return carries FX, so the
+        # like-for-like figure is here even though the strip shows the headline one
+        if b["currency"] == "KRW" or not fx_start:
+            b["returnPctKRW"] = b["returnPct"]
+        else:
+            b["returnPctKRW"] = round((last * fx_now) / (first * fx_start) * 100 - 100, 2)
+        print(f"  {b['ticker']:<10} {b['name']:<12} {b['returnPct']:+7.2f}%  (원화 {b['returnPctKRW']:+.2f}%)  기준 {first_date}")
+
+    if local_fail >= len(book["items"]):
+        print("  all lookups failed — leaving benchmarks.json alone", file=sys.stderr)
+        return False
+
+    book["updatedAt"] = now_kst().strftime("%Y-%m-%d %H:%M")
+    if not dry_run:
+        BENCHMARK_PATH.write_text(json.dumps(book, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    return True
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="Print the new prices without writing")
@@ -222,11 +273,13 @@ def main():
     ok_claude = refresh_claude(rates, failures, args.dry_run)
     print("\n커버리지...")
     ok_cov = refresh_coverage(failures, args.dry_run)
+    print("\n벤치마크...")
+    ok_bm = refresh_benchmarks(failures, args.dry_run)
 
     if args.dry_run:
         print("\n--dry-run: nothing written")
         return 0
-    if not (ok_pos or ok_claude or ok_cov):
+    if not (ok_pos or ok_claude or ok_cov or ok_bm):
         print("\nEverything failed — nothing written.", file=sys.stderr)
         return 1
 

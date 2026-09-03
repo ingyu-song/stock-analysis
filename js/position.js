@@ -150,9 +150,9 @@ function buildPublishPayload() {
   return JSON.stringify(payload, null, 2) + "\n";
 }
 
-async function fetchPortfolio() {
+async function fetchJson(url) {
   try {
-    const res = await fetch(PORTFOLIO_URL, { cache: "no-store" });
+    const res = await fetch(url, { cache: "no-store" });
     if (!res.ok) return null;
     return await res.json();
   } catch {
@@ -160,6 +160,8 @@ async function fetchPortfolio() {
     return null;
   }
 }
+
+const fetchPortfolio = () => fetchJson(PORTFOLIO_URL);
 
 // The repo file is the source of truth: whenever it carries an updatedAt we
 // have not seeded from yet, it replaces local state. Between updates the
@@ -642,6 +644,7 @@ function render() {
   renderChart(d);
   renderRiskPanel();
   renderJournal();
+  renderBenchmarks();
 }
 
 function persistAndRender() {
@@ -777,6 +780,7 @@ export async function initPosition() {
   initGithubSave();
   initSeedNotice();
   initJournal();
+  initBenchmarks();
   render();
 }
 
@@ -1354,5 +1358,99 @@ function initJournal() {
     document.getElementById("journalTicker").value = "";
     open(false);
     persistAndRender();
+  });
+}
+
+/* ---------------- 벤치마크 비교 ---------------- */
+
+const BENCH_URL = "data/benchmarks.json";
+const BENCH_OPEN_KEY = "igs-bench-open";
+
+let benchData = null;
+
+function benchOpen() {
+  try {
+    return localStorage.getItem(BENCH_OPEN_KEY) === "1";
+  } catch {
+    return false;
+  }
+}
+
+function fmtSignedPctShort(x) {
+  if (!isFinite(x)) return "–";
+  return `${x > 0 ? "+" : ""}${x.toFixed(2)}%`;
+}
+
+// The book's own figure is P&L over cost, not a time-weighted return from the
+// start date — close enough to be the comparison people want, different enough
+// that the note under the row has to say so.
+function myReturnPct() {
+  const d = computeDerived();
+  return d.all.costBase > 0 ? d.all.pnlPct : NaN;
+}
+
+function renderBenchmarks() {
+  const rows = document.getElementById("benchRows");
+  const body = document.getElementById("benchBody");
+  const toggle = document.getElementById("benchToggle");
+  if (!rows || !body || !toggle) return;
+
+  const open = benchOpen();
+  body.hidden = !open;
+  toggle.setAttribute("aria-expanded", String(open));
+
+  if (!benchData || !Array.isArray(benchData.items)) {
+    rows.innerHTML = `<span class="bench-item"><span class="label">벤치마크를 불러오지 못했어요.</span></span>`;
+    setText(document.getElementById("benchPeek"), "");
+    return;
+  }
+
+  const mine = myReturnPct();
+  const cells = [
+    { label: "내 포트폴리오", value: mine, mine: true },
+    ...benchData.items.map(b => ({ label: b.name, value: b.returnPct })),
+  ];
+
+  rows.innerHTML = cells.map(c => `
+    <span class="bench-item ${c.mine ? "is-mine" : ""}">
+      <span class="label">${escapeHtml(c.label)}</span>
+      <span class="value ${pnlClass(c.value)}">${fmtSignedPctShort(c.value)}</span>
+    </span>`).join("");
+
+  const krw = benchData.items
+    .filter(b => b.currency !== "KRW" && isFinite(b.returnPctKRW))
+    .map(b => `${b.name} ${fmtSignedPctShort(b.returnPctKRW)}`)
+    .join(" · ");
+  const fx = isFinite(benchData.fxReturnPct)
+    ? ` 같은 기간 USD/KRW ${fmtSignedPctShort(benchData.fxReturnPct)}.`
+    : "";
+
+  setText(
+    document.getElementById("benchNote"),
+    `${benchData.startDate} 종가 기준 · ${benchData.updatedAt || "–"} 갱신. ` +
+    `지수는 자국 통화 기준이라 환율이 빠져 있어요 — 원화로 환산하면 ${krw}.${fx} ` +
+    `내 수익률은 매입금액 대비 평가손익이라 기간 수익률과는 계산 방식이 달라요.`
+  );
+
+  // collapsed, the strip still carries the one number worth glancing at
+  setText(
+    document.getElementById("benchPeek"),
+    open ? "" : `내 ${fmtSignedPctShort(mine)} · KOSPI ${fmtSignedPctShort(
+      (benchData.items.find(b => b.key === "kospi") || {}).returnPct
+    )}`
+  );
+}
+
+function initBenchmarks() {
+  on("benchToggle", "click", () => {
+    try {
+      localStorage.setItem(BENCH_OPEN_KEY, benchOpen() ? "0" : "1");
+    } catch {}
+    renderBenchmarks();
+  });
+
+  fetchJson(BENCH_URL).then(data => {
+    benchData = data;
+    renderBenchmarks();
   });
 }
