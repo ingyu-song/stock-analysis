@@ -296,7 +296,7 @@ table { border-collapse: collapse; width: 100%; }
   transition: all .15s ease;
 }
 .btn:hover { background: var(--bg-chip); border-color: var(--border-strong); }
-.btn-ghost { background: transparent; margin-top: 10px; color: var(--navy); }
+.btn-ghost { background: transparent; color: var(--navy); }
 .btn-ghost:hover { background: var(--bg-chip); }
 .btn-danger { color: var(--critical); border-color: var(--critical); background: transparent; }
 

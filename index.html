@@ -98,7 +98,7 @@
         </div>
 
         <div class="acct-fields" id="accountFields"></div>
-        <button class="btn btn-ghost" id="addAccountBtn" style="margin-top:0;">+ 계좌 추가</button>
+        <button class="btn btn-ghost" id="addAccountBtn">+ 계좌 추가</button>
         <p class="hint" style="margin-top:6px;">계좌명과 예수금(현금)은 계좌별로 관리돼요. Total AUM은 항상 KRW로만 표시되고, 종목 통화가 KRW가 아니면 위 환율로 환산해서 합산합니다.</p>
 
         <div class="table-wrap">
@@ -137,8 +137,8 @@
 
         <div class="seed-notice" id="seedNotice" hidden>
           <span>사이트에 새 데이터가 들어와서 이 브라우저에만 있던 변경은 대체됐어요.</span>
-          <button class="btn btn-ghost" id="seedRestoreBtn" style="margin-top:0;">되돌리기</button>
-          <button class="btn btn-ghost" id="seedDismissBtn" style="margin-top:0;">확인</button>
+          <button class="btn btn-ghost" id="seedRestoreBtn">되돌리기</button>
+          <button class="btn btn-ghost" id="seedDismissBtn">확인</button>
         </div>
         <p class="hint">표에서 바로 고칠 수 있어요. 고친 값은 이 브라우저에만 남으니, 다른 기기에도 반영하려면 <b>포지션 업데이트</b>를 눌러 커밋하세요.<br>
         통화를 바꿀 땐 평단/현재가도 그 통화 기준 금액으로 같이 고쳐주세요 — 숫자는 그대로 두고 통화만 바꾸면 환율만큼 평가액이 틀어져요.<br>
@@ -148,7 +148,7 @@
       <div id="tradeModal" class="import-modal" hidden>
         <div class="import-modal-inner">
           <div class="card-head"><h2>매매 입력</h2></div>
-          <p class="hint" style="margin-top:0;">체결 내역을 넣으면 수량과 평단을 다시 계산합니다. 매도는 평단을 그대로 두고 매입금액만 비율대로 덜어냅니다.</p>
+          <p class="hint">체결 내역을 넣으면 수량과 평단을 다시 계산합니다. 매도는 평단을 그대로 두고 매입금액만 비율대로 덜어냅니다.</p>
 
           <div class="trade-grid">
             <label class="inline-field">계좌
@@ -209,7 +209,7 @@
 
           <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;">
             <button class="btn" id="tradeApplyBtn">반영</button>
-            <button class="btn btn-ghost" id="tradeCancelBtn" style="margin-top:0;">닫기</button>
+            <button class="btn btn-ghost" id="tradeCancelBtn">닫기</button>
           </div>
         </div>
       </div>
@@ -217,7 +217,7 @@
       <div id="publishModal" class="import-modal" hidden>
         <div class="import-modal-inner">
           <div class="card-head"><h2>포지션 업데이트</h2></div>
-          <p class="hint" style="margin-top:0;">지금 화면의 보유 내역을 사이트에 반영합니다. 반영되면 1~2분 뒤 모든 기기에 적용돼요.</p>
+          <p class="hint">지금 화면의 보유 내역을 사이트에 반영합니다. 반영되면 1~2분 뒤 모든 기기에 적용돼요.</p>
           <div class="gh-box" id="ghBox">
             <div class="gh-row">
               <span class="gh-title">GitHub 자동 저장</span>
@@ -226,11 +226,11 @@
             <div id="ghConnected" hidden>
               <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
                 <button class="btn" id="ghSaveBtn">사이트에 저장</button>
-                <button class="btn btn-ghost" id="ghDisconnectBtn" style="margin-top:0;">연결 해제</button>
+                <button class="btn btn-ghost" id="ghDisconnectBtn">연결 해제</button>
               </div>
             </div>
             <div id="ghSetup">
-              <p class="hint" style="margin-top:0;">이 레포에만 <code>Contents: Read and write</code> 권한을 준 fine-grained 토큰을 넣으세요. 토큰은 이 브라우저에만 저장되고 레포에는 올라가지 않습니다.</p>
+              <p class="hint">이 레포에만 <code>Contents: Read and write</code> 권한을 준 fine-grained 토큰을 넣으세요. 토큰은 이 브라우저에만 저장되고 레포에는 올라가지 않습니다.</p>
               <div style="display:flex; gap:8px; flex-wrap:wrap; align-items:center;">
                 <input id="ghToken" type="password" placeholder="github_pat_..." autocomplete="off" spellcheck="false" style="flex:1; min-width:220px;">
                 <button class="btn" id="ghConnectBtn">연결</button>
@@ -260,12 +260,12 @@
       <div id="importModal" class="import-modal" hidden>
         <div class="import-modal-inner">
           <div class="card-head"><h2 id="importModalTitle">포지션 JSON</h2></div>
-          <p class="hint" style="margin-top:0;" id="importModalHint">아래에 JSON을 붙여넣고 적용하세요. 이 브라우저의 localStorage에만 저장되고 레포에는 올라가지 않습니다.</p>
+          <p class="hint" id="importModalHint">아래에 JSON을 붙여넣고 적용하세요. 이 브라우저의 localStorage에만 저장되고 레포에는 올라가지 않습니다.</p>
           <textarea id="importTextarea" class="market-note" style="min-height:220px; font-family:var(--font-mono); font-size:12px;"></textarea>
           <div style="display:flex; gap:8px; margin-top:10px;">
             <button class="btn" id="importApplyBtn">적용</button>
-            <button class="btn btn-ghost" id="copyJsonBtn" style="margin-top:0;">복사</button>
-            <button class="btn btn-ghost" id="importCancelBtn" style="margin-top:0;">닫기</button>
+            <button class="btn btn-ghost" id="copyJsonBtn">복사</button>
+            <button class="btn btn-ghost" id="importCancelBtn">닫기</button>
           </div>
         </div>
       </div>
@@ -273,7 +273,7 @@
       <div class="card">
         <div class="card-head">
           <h2>매매 기록</h2>
-          <button class="btn btn-ghost" id="journalAddBtn" style="margin-top:0;">+ 기록 추가</button>
+          <button class="btn btn-ghost" id="journalAddBtn">+ 기록 추가</button>
         </div>
 
         <div class="journal-form" id="journalForm" hidden>
@@ -298,7 +298,7 @@
           </label>
           <div style="display:flex; gap:8px; margin-top:10px;">
             <button class="btn" id="journalSaveBtn">기록</button>
-            <button class="btn btn-ghost" id="journalCancelBtn" style="margin-top:0;">취소</button>
+            <button class="btn btn-ghost" id="journalCancelBtn">취소</button>
           </div>
         </div>
 
