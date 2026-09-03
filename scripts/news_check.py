@@ -16,6 +16,7 @@ import html
 import json
 import os
 import re
+import ssl
 import sys
 import urllib.error
 import urllib.parse
@@ -31,6 +32,19 @@ ENV_PATH = REPO_ROOT / ".env"
 API = "https://openapi.naver.com/v1/search/news.json"
 KST = zoneinfo.ZoneInfo("Asia/Seoul")
 TAG_RE = re.compile(r"<[^>]+>")
+
+
+def ssl_context():
+    """Framework Python on macOS ships without a usable root store; certifi is
+    already present as a yfinance dependency, so lean on it when it is there."""
+    try:
+        import certifi
+        return ssl.create_default_context(cafile=certifi.where())
+    except ImportError:
+        return ssl.create_default_context()
+
+
+SSL_CTX = ssl_context()
 
 
 def load_env():
@@ -54,8 +68,15 @@ def search(query, client_id, client_secret, display=15):
         "X-Naver-Client-Id": client_id,
         "X-Naver-Client-Secret": client_secret,
     })
-    with urllib.request.urlopen(req, timeout=15) as res:
+    with urllib.request.urlopen(req, timeout=15, context=SSL_CTX) as res:
         return json.loads(res.read().decode("utf-8"))
+
+
+def mentions(item, terms):
+    """Naver matches body text, so a query for 애플 returns dessert-chain news.
+    Keep only items that actually name the company in the title or summary."""
+    hay = f"{item['title']} {item['summary']}".lower()
+    return any(t.lower() in hay for t in terms)
 
 
 def parse_pub_date(raw):
@@ -99,19 +120,26 @@ def main():
             print(f"  {c['ticker']:<11} 실패: {err}", file=sys.stderr)
             continue
 
+        terms = c.get("newsMatch") or [c["name"]]
         items = []
+        dropped = 0
         for it in data.get("items", []):
             when = parse_pub_date(it.get("pubDate", ""))
             if when and when < cutoff:
                 continue
-            items.append({
+            item = {
                 "title": clean(it.get("title")),
                 "summary": clean(it.get("description")),
                 "link": it.get("originallink") or it.get("link"),
                 "publishedAt": when.strftime("%Y-%m-%d %H:%M") if when else None,
-            })
+            }
+            if not mentions(item, terms):
+                dropped += 1
+                continue
+            items.append(item)
 
-        print(f"  {c['ticker']:<11} {c['name']:<14} {len(items)}건")
+        note = f" (관련 없음 {dropped}건 제외)" if dropped else ""
+        print(f"  {c['ticker']:<11} {c['name']:<14} {len(items)}건{note}")
         for i in items[:3]:
             print(f"      · {i['publishedAt']}  {i['title'][:60]}")
         if items:

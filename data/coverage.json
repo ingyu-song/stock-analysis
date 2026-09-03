@@ -7,84 +7,148 @@
       "name": "에이피알",
       "currency": "KRW",
       "price": 387500.0,
-      "prevClose": 422500.0
+      "prevClose": 422500.0,
+      "newsQuery": "에이피알 메디큐브",
+      "newsMatch": [
+        "에이피알",
+        "메디큐브"
+      ]
     },
     {
       "ticker": "AAPL",
       "name": "애플",
       "currency": "USD",
       "price": 324.96,
-      "prevClose": 325.15
+      "prevClose": 325.15,
+      "newsQuery": "애플 AAPL",
+      "newsMatch": [
+        "애플",
+        "AAPL"
+      ]
     },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "currency": "USD",
       "price": 337.12,
-      "prevClose": 337.2
+      "prevClose": 337.2,
+      "newsQuery": "구글 알파벳 주가",
+      "newsMatch": [
+        "알파벳",
+        "GOOGL",
+        "구글"
+      ]
     },
     {
       "ticker": "COIN",
       "name": "코인베이스 글로벌",
       "currency": "USD",
       "price": 174.96,
-      "prevClose": 176.82
+      "prevClose": 176.82,
+      "newsQuery": "코인베이스 COIN",
+      "newsMatch": [
+        "코인베이스",
+        "COIN"
+      ]
     },
     {
       "ticker": "CRCL",
       "name": "서클 인터넷 그룹",
       "currency": "USD",
       "price": 88.64,
-      "prevClose": 88.98
+      "prevClose": 88.98,
+      "newsQuery": "서클 CRCL",
+      "newsMatch": [
+        "서클",
+        "CRCL"
+      ]
     },
     {
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "currency": "USD",
       "price": 203.42,
-      "prevClose": 214.1959
+      "prevClose": 214.1959,
+      "newsQuery": "크라우드스트라이크",
+      "newsMatch": [
+        "크라우드스트라이크",
+        "CRWD"
+      ]
     },
     {
       "ticker": "PANW",
       "name": "팰로 앨토 네트웍스",
       "currency": "USD",
       "price": 328.48,
-      "prevClose": 355.2001
+      "prevClose": 355.2001,
+      "newsQuery": "팔로알토네트웍스",
+      "newsMatch": [
+        "팔로알토",
+        "팰로앨토",
+        "팰로 앨토",
+        "PANW"
+      ]
     },
     {
       "ticker": "PG",
       "name": "프록터 앤드 갬블",
       "currency": "USD",
       "price": 147.64,
-      "prevClose": 146.3
+      "prevClose": 146.3,
+      "newsQuery": "프록터앤드갬블 PG",
+      "newsMatch": [
+        "프록터",
+        "P&G",
+        "PG)"
+      ]
     },
     {
       "ticker": "MC.PA",
       "name": "LVMH 모에헤네시",
       "currency": "EUR",
       "price": 439.0,
-      "prevClose": 444.6
+      "prevClose": 444.6,
+      "newsQuery": "LVMH 주가",
+      "newsMatch": [
+        "LVMH",
+        "루이비통"
+      ]
     },
     {
       "ticker": "INTC",
       "name": "인텔",
       "currency": "USD",
       "price": 90.05,
-      "prevClose": 88.9
+      "prevClose": 88.9,
+      "newsQuery": "인텔 INTC",
+      "newsMatch": [
+        "인텔",
+        "INTC"
+      ]
     },
     {
       "ticker": "GLW",
       "name": "코닝",
       "currency": "USD",
       "price": 144.13,
-      "prevClose": 144.49
+      "prevClose": 144.49,
+      "newsQuery": "코닝",
+      "newsMatch": [
+        "코닝",
+        "GLW"
+      ]
     },
     {
       "ticker": "SONY",
       "name": "소니",
       "currency": "USD",
       "price": 24.65,
-      "prevClose": 24.92
+      "prevClose": 24.92,
+      "newsQuery": "소니 SONY",
+      "newsMatch": [
+        "소니",
+        "SONY"
+      ]
     }
   ]
 }
