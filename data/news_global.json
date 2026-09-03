@@ -1,13 +1,47 @@
 {
-  "updatedAt": "2026-09-04 02:41",
+  "updatedAt": "2026-09-04 04:56",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Apple tests $327-$330 resistance on fading volume: Live levels",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apple-stuck-below-322-resistance-in-chop-zone-live-levels-93CH-4882984",
+          "publishedAt": "2026-09-04 04:19",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Apple facing $2.7 billion UK lawsuit over 'unfair' app tracking rules - Reuters",
+          "summary": "Apple facing $2.7 billion UK lawsuit over 'unfair' app tracking rules  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHRUNEVSV0hvdVo5bzgtTWk4dVl0REZLQ0RPbWhpMjF1SHNCWE5uRlBNYlJ3N1U4VTVsOVBDQlJvS2dSU0pvd1BEQXkxaGJ5dDV6MDBNN1Ytb1hPYTJJOFl6c3VKODBMRjdXM21IYVJUODQ1Q29uNzBHYUZWSVUzNHVFcjU4RDVEUjlBUmhoeDF3SzN4VkVzTWZCcXp5bTFxR0ZPZ1FDd3VoZ1M2T1ZQWDZhWktKYXR0aUszVjJUY2ZMQ1dY?oc=5",
+          "publishedAt": "2026-09-04 00:20",
+          "outlet": "Reuters Business (via Google News)"
+        },
+        {
+          "title": "Apple rallies as John Ternus takes the helm — how to protect the stock for almost nothing: Alpha Options Playbook",
+          "summary": "",
+          "link": "https://finance.yahoo.com/markets/options/article/apple-rallies-as-john-ternus-takes-the-helm--how-to-protect-the-stock-for-almost-nothing-alpha-options-playbook-100000403.html",
+          "publishedAt": "2026-09-02 19:00",
+          "outlet": "Yahoo Finance"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Alphabet C bear flag 70% complete at $339.73: Hourly levels",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/alphabet-c-breaks-337-support-in-bearish-slide-live-levels-93CH-4882992",
+          "publishedAt": "2026-09-04 04:19",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Widespread AI outage underway",
           "summary": "OpenAI's ChatGPT, Anthropic's Claude, and xAI's Grok are all down Thursday morning, according to the outage company Downdetector. Why it matters: Outages are common, but it's unusual for all three to go down at once, especially as the world increasingly relies on AI models. There have also been reported issues with Google's Gemini, but the company has not issued a confirmed outage notice. Editor's",
@@ -21,32 +55,26 @@
           "link": "https://www.nytimes.com/2026/09/03/business/google-antitrust-ad-tech-remedies-analysis.html",
           "publishedAt": "2026-09-04 00:04",
           "outlet": "NYT Business"
+        },
+        {
+          "title": "Fluidstack Hit A $18 Billion Valuation By Helping Build Google and Anthropic’s Data Centers - Forbes",
+          "summary": "Fluidstack Hit A $18 Billion Valuation By Helping Build Google and Anthropic’s Data Centers  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPclFJNzdSVk41ak9WdzNYM2pEQ3dvSFFVTTNtZmFqY1A1UldWMnotRGdXNUtyeU5pTUpfZUl3MUoyaHlIQXRNYmNMb3NxQVVUU1R1OTVLdU9tRnQ2aGtPbHp4OVU5WWVnQjREM2R5T3ljN1BRV3NmVVUxOXRVSmIyTWVucTBTaFlnQ0Q5dUpRaWtZWWxKUkN5Qm5RWC1JM1YwQ2xBdjZJSlBKcXZCRFd1eWp5YkNuU3hIdDBFZA?oc=5",
+          "publishedAt": "2026-09-03 19:30",
+          "outlet": "Forbes Markets"
         }
       ]
     },
     {
-      "ticker": "CRWD",
-      "name": "크라우드스트라이크",
+      "ticker": "INTC",
+      "name": "인텔",
       "items": [
         {
-          "title": "Jim Cramer Calls CrowdStrike (CRWD) a Cybersecurity Heavy Hitter",
-          "summary": "",
-          "link": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-calls-crowdstrike-crwd-171714906.html",
-          "publishedAt": "2026-09-04 02:17",
-          "outlet": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "Jim Cramer is Bullish on Palo Alto (PANW) After Earnings Report",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-bullish-palo-alto-172136342.html",
-          "publishedAt": "2026-09-04 02:21",
-          "outlet": "Yahoo Finance"
+          "title": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs - digitimes",
+          "summary": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWkNaZ1RXSHplRHl1T3BlX0FwRHk2N2IyMkRTM1E3M2FzN1N1T2FOOFlEMHl2Zkd1UEdfSXE0Si1RVWtTTl9tV2NqVzd2T0ZPMmFNNHUyYUF4cTN3N0lQVXlZNHJVcGgxMERjazZPUDN1aHU3Sk1qMngtZVphRklHaFVLZ3FYS2ZEbm9SWg?oc=5",
+          "publishedAt": "2026-09-03 11:21",
+          "outlet": "DigiTimes"
         }
       ]
     }
