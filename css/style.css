@@ -574,3 +574,28 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
   background: var(--warning-bg); color: var(--warning);
   font-family: var(--font-mono); font-size: 11.5px;
 }
+
+/* ---------- 매매 기록 ---------- */
+.journal-form {
+  border: 0.5px solid var(--border); border-radius: var(--radius-sm);
+  background: var(--surface-2); padding: 14px; margin-bottom: 14px;
+}
+.journal-entry {
+  display: flex; flex-direction: column; gap: 5px;
+  padding: 12px 0; border-bottom: 0.5px solid var(--gridline);
+}
+.journal-entry:last-child { border-bottom: none; }
+.journal-head {
+  display: flex; align-items: baseline; gap: 8px; flex-wrap: wrap;
+  font-family: var(--font-mono); font-size: 11.5px; color: var(--text-muted);
+}
+.journal-name { color: var(--text-primary); font-weight: 600; }
+.journal-fill { color: var(--text-secondary); }
+.journal-reason { font-size: 13.5px; line-height: 1.65; color: var(--text-primary); }
+.journal-note {
+  font-size: 12px; line-height: 1.65; color: var(--text-secondary);
+  border-left: 2px solid var(--border-strong); padding-left: 10px; margin-top: 2px;
+}
+.journal-note b { color: var(--text-primary); font-weight: 600; }
+.journal-empty { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); padding: 14px 0; }
+.journal-entry .row-remove-btn { align-self: flex-start; }

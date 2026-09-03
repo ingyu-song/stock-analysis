@@ -148,5 +148,52 @@
     "return": 0,
     "vol": 0,
     "rf": 3.5
-  }
+  },
+  "journal": [
+    {
+      "date": "2026-09-03",
+      "account": "mirae",
+      "ticker": "AAPL",
+      "name": "애플",
+      "side": "buy",
+      "shares": 5,
+      "price": 322.188,
+      "currency": "USD",
+      "reason": "생태계. 하드웨어와 소프트웨어를 다 쥐고 있는 구조가 앞으로도 계속 승자를 만들 거라고 봄."
+    },
+    {
+      "date": "2026-09-03",
+      "account": "kiwoom",
+      "ticker": "278470.KS",
+      "name": "에이피알",
+      "side": "sell",
+      "shares": 9,
+      "price": null,
+      "currency": "KRW",
+      "reason": "메디큐브 싱가포르 이슈. 규제 건이 연쇄적으로 번져 당분간 악재로 이어질까 우려.",
+      "note": "확인 결과 임상시험 실패가 아니라 색소 문제였음. 홍콩 세관이 7/24 메디큐브 PDRN 핑크 콜라겐 캡슐 크림에서 금지 색소 수단레드 검출 → 싱가포르 HSA가 8월 조사. 다만 8/28 HSA 조사 종료 시점에 에이피알 SG 직수입 물량에서는 미검출, 병행수입사(Venus Beauty) 2개 배치만 회수됐고 배치별 사전 검사 조건으로 판매 재개됨. 즉 매도 근거였던 규제 리스크는 매도 시점에 이미 상당 부분 해소된 상태였음. 9/2~9/3 급락(약 -14%)은 이 건보다 단기 급등 후 외국인·기관 차익실현과 밸류에이션 부담 쪽 설명이 우세하며, 단일 촉발 뉴스는 확인되지 않음."
+    },
+    {
+      "date": "2026-09-03",
+      "account": "kiwoom",
+      "ticker": "379800.KS",
+      "name": "KODEX 미국S&P500",
+      "side": "sell",
+      "shares": 50,
+      "price": null,
+      "currency": "KRW",
+      "reason": "공포탐욕지수(fear & greed)가 슬슬 내려오는 흐름이라 지수 익스포저를 축소. 변동성 인덱스 비중을 높일 예정."
+    },
+    {
+      "date": "2026-09-03",
+      "account": "kiwoom",
+      "ticker": "379810.KS",
+      "name": "KODEX 미국나스닥100",
+      "side": "sell",
+      "shares": 50,
+      "price": null,
+      "currency": "KRW",
+      "reason": "공포탐욕지수(fear & greed)가 슬슬 내려오는 흐름이라 지수 익스포저를 축소. 변동성 인덱스 비중을 높일 예정."
+    }
+  ]
 }

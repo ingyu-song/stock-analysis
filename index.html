@@ -182,6 +182,13 @@
             </label>
           </div>
 
+          <label class="inline-field" style="margin-top:2px;">
+            사유 <span class="acct-fx">왜 샀는지 / 왜 팔았는지</span>
+            <textarea id="tradeReason" class="market-note" rows="3"
+                      style="min-height:64px; font-size:13px;"
+                      placeholder="예: 생태계 락인이 계속 승자를 만든다고 봄"></textarea>
+          </label>
+
           <label class="inline-field" style="flex-direction:row; align-items:center; gap:7px; margin-top:10px;">
             <input type="checkbox" id="tradeTouchesCash" checked style="width:auto;">
             예수금도 함께 반영 (매수는 차감, 매도는 가산)
@@ -250,6 +257,42 @@
             <button class="btn btn-ghost" id="importCancelBtn" style="margin-top:0;">닫기</button>
           </div>
         </div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h2>매매 기록</h2>
+          <button class="btn btn-ghost" id="journalAddBtn" style="margin-top:0;">+ 기록 추가</button>
+        </div>
+
+        <div class="journal-form" id="journalForm" hidden>
+          <div class="trade-grid">
+            <label class="inline-field">날짜
+              <input type="date" id="journalDate">
+            </label>
+            <label class="inline-field">종목 (선택)
+              <input id="journalTicker" placeholder="AAPL 또는 비워두기">
+            </label>
+            <label class="inline-field">구분
+              <select id="journalSide">
+                <option value="note">메모</option>
+                <option value="buy">매수</option>
+                <option value="sell">매도</option>
+              </select>
+            </label>
+          </div>
+          <label class="inline-field">사유
+            <textarea id="journalReason" class="market-note" rows="3" style="min-height:64px; font-size:13px;"
+                      placeholder="판단 근거를 적어두세요"></textarea>
+          </label>
+          <div style="display:flex; gap:8px; margin-top:10px;">
+            <button class="btn" id="journalSaveBtn">기록</button>
+            <button class="btn btn-ghost" id="journalCancelBtn" style="margin-top:0;">취소</button>
+          </div>
+        </div>
+
+        <div id="journalList"></div>
+        <p class="hint">매매 입력에 사유를 적으면 여기에 자동으로 쌓입니다. 기록도 레포에 함께 저장돼요.</p>
       </div>
 
       <div class="card">

@@ -27,6 +27,7 @@ function defaultState() {
     fxRateEUR: 1634,
     accounts: defaultAccounts(),
     holdings: [],
+    journal: [],
     scope: "all",
     risk: { return: 0, vol: 0, rf: 3.5 },
   };
@@ -76,6 +77,8 @@ function migrate(raw) {
     };
   });
 
+  st.journal = Array.isArray(st.journal) ? st.journal : [];
+
   if (st.scope !== "all" && !ids.has(st.scope)) st.scope = "all";
   return st;
 }
@@ -114,6 +117,7 @@ function bookFingerprint(st) {
     fxRate: st.fxRate,
     fxRateEUR: st.fxRateEUR,
     risk: st.risk,
+    journal: st.journal,
   });
 }
 
@@ -140,6 +144,7 @@ function buildPublishPayload() {
     fxRateEUR: state.fxRateEUR,
     accounts: state.accounts,
     holdings: state.holdings,
+    journal: state.journal,
     risk: state.risk,
   };
   return JSON.stringify(payload, null, 2) + "\n";
@@ -636,6 +641,7 @@ function render() {
   renderHoldingsTable(d);
   renderChart(d);
   renderRiskPanel();
+  renderJournal();
 }
 
 function persistAndRender() {
@@ -770,6 +776,7 @@ export async function initPosition() {
   initTradeModal();
   initGithubSave();
   initSeedNotice();
+  initJournal();
   render();
 }
 
@@ -1055,9 +1062,33 @@ function initTradeModal() {
     const ev = evaluateTrade(t);
     if (ev.error) { renderTradePreview(); return; }
 
+    // read the holding before applying — a full sell removes it from the array
+    // and every index after it shifts
+    const traded = t.isNew
+      ? { ticker: t.ticker, name: t.name || t.ticker }
+      : { ticker: state.holdings[t.idx].ticker, name: state.holdings[t.idx].name };
+
     applyTrade(t, ev);
+
+    const reasonEl = document.getElementById("tradeReason");
+    const reason = reasonEl ? reasonEl.value.trim() : "";
+    if (reason) {
+      addJournalEntry({
+        date: todayISO(),
+        account: t.accountId,
+        ticker: traded.ticker,
+        name: traded.name,
+        side: t.side,
+        shares: t.shares,
+        price: t.price,
+        currency: t.currency,
+        reason,
+      });
+    }
+
     persistAndRender();
     modal.hidden = true;
+    if (reasonEl) reasonEl.value = "";
 
     document.getElementById("tradeShares").value = 0;
     document.getElementById("tradePrice").value = 0;
@@ -1210,5 +1241,110 @@ function initGithubSave() {
     localStorage.removeItem(GH_TOKEN_KEY);
     renderGhState();
     setGhMsg("토큰을 지웠어요.", "");
+  });
+}
+
+/* ---------------- 매매 기록 ---------------- */
+
+const SIDE_LABEL = { buy: "매수", sell: "매도", note: "메모" };
+
+function todayISO() {
+  const d = new Date();
+  const pad = n => String(n).padStart(2, "0");
+  return `${d.getFullYear()}-${pad(d.getMonth() + 1)}-${pad(d.getDate())}`;
+}
+
+function journalFill(e) {
+  if (e.side === "note" || !e.shares) return "";
+  const qty = `${Number(e.shares).toLocaleString("en-US")}주`;
+  return e.price ? `${qty} @ ${fmtNative(e.price, e.currency || "KRW")}` : qty;
+}
+
+function renderJournal() {
+  const list = document.getElementById("journalList");
+  if (!list) return;
+
+  const entries = (state.journal || [])
+    .map((e, i) => ({ ...e, i }))
+    .sort((a, b) => (a.date === b.date ? b.i - a.i : (a.date < b.date ? 1 : -1)));
+
+  if (!entries.length) {
+    list.innerHTML = `<p class="journal-empty">아직 기록이 없어요. 매매 입력에 사유를 적거나 "+ 기록 추가"를 눌러 보세요.</p>`;
+    return;
+  }
+
+  list.innerHTML = entries.map(e => {
+    const fill = journalFill(e);
+    const who = e.account ? accountName(e.account) : "";
+    return `
+      <div class="journal-entry">
+        <div class="journal-head">
+          <span>${escapeHtml(e.date || "")}</span>
+          ${who ? `<span>· ${escapeHtml(who)}</span>` : ""}
+          ${e.name || e.ticker ? `<span class="journal-name">· ${escapeHtml(e.name || e.ticker)}</span>` : ""}
+          ${e.ticker && e.name ? `<span>${escapeHtml(e.ticker)}</span>` : ""}
+          <span class="status-pill ${e.side === "buy" ? "status-good" : e.side === "sell" ? "status-critical" : "badge-muted"}">${SIDE_LABEL[e.side] || "메모"}</span>
+          ${fill ? `<span class="journal-fill">${fill}</span>` : ""}
+          <span style="margin-left:auto;"><button class="row-remove-btn" data-journal-remove="${e.i}" title="삭제">✕</button></span>
+        </div>
+        <div class="journal-reason">${escapeHtml(e.reason || "")}</div>
+        ${e.note ? `<div class="journal-note"><b>확인</b> ${escapeHtml(e.note)}</div>` : ""}
+      </div>`;
+  }).join("");
+
+  list.querySelectorAll("[data-journal-remove]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      const idx = Number(btn.dataset.journalRemove);
+      if (!confirm(`이 기록을 삭제할까요?\n\n${(state.journal[idx] || {}).reason || ""}`)) return;
+      state.journal.splice(idx, 1);
+      persistAndRender();
+    });
+  });
+}
+
+function addJournalEntry(entry) {
+  if (!Array.isArray(state.journal)) state.journal = [];
+  state.journal.push(entry);
+}
+
+function initJournal() {
+  const form = document.getElementById("journalForm");
+  if (!form) return;
+
+  const open = show => {
+    form.hidden = !show;
+    if (show) {
+      document.getElementById("journalDate").value = todayISO();
+      document.getElementById("journalReason").focus();
+    }
+  };
+
+  on("journalAddBtn", "click", () => open(form.hidden));
+  on("journalCancelBtn", "click", () => open(false));
+
+  on("journalSaveBtn", "click", () => {
+    const reason = document.getElementById("journalReason").value.trim();
+    if (!reason) {
+      alert("사유를 적어주세요.");
+      return;
+    }
+    const ticker = document.getElementById("journalTicker").value.trim();
+    // a ticker already in the book carries its name and account across
+    const known = state.holdings.find(h => h.ticker.toLowerCase() === ticker.toLowerCase());
+    addJournalEntry({
+      date: document.getElementById("journalDate").value || todayISO(),
+      account: known ? known.account : null,
+      ticker: ticker || null,
+      name: known ? known.name : (ticker || null),
+      side: document.getElementById("journalSide").value,
+      shares: null,
+      price: null,
+      currency: known ? known.currency : null,
+      reason,
+    });
+    document.getElementById("journalReason").value = "";
+    document.getElementById("journalTicker").value = "";
+    open(false);
+    persistAndRender();
   });
 }
