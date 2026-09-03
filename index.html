@@ -123,6 +123,12 @@
           <button class="btn btn-ghost" id="importBtn">JSON 가져오기</button>
           <span class="hint" id="publishStatus" style="margin:0;"></span>
         </div>
+
+        <div class="seed-notice" id="seedNotice" hidden>
+          <span>사이트에 새 데이터가 들어와서 이 브라우저에만 있던 변경은 대체됐어요.</span>
+          <button class="btn btn-ghost" id="seedRestoreBtn" style="margin-top:0;">되돌리기</button>
+          <button class="btn btn-ghost" id="seedDismissBtn" style="margin-top:0;">확인</button>
+        </div>
         <p class="hint">표에서 바로 고칠 수 있어요. 고친 값은 이 브라우저에만 남으니, 다른 기기에도 반영하려면 <b>포지션 업데이트</b>를 눌러 커밋하세요.<br>
         통화를 바꿀 땐 평단/현재가도 그 통화 기준 금액으로 같이 고쳐주세요 — 숫자는 그대로 두고 통화만 바꾸면 환율만큼 평가액이 틀어져요.<br>
         표 헤더 경계선을 드래그하면 칸 너비를 조절할 수 있어요 (더블클릭하면 그 칸만 원래대로).</p>

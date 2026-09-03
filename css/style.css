@@ -566,3 +566,11 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
    input's intrinsic width — that is what pushed this row outside the card */
 .acct-field-row .inline-field { min-width: 0; }
 .acct-field-row input { width: 100%; min-width: 0; }
+
+.seed-notice {
+  display: flex; align-items: center; gap: 10px; flex-wrap: wrap;
+  margin-top: 10px; padding: 9px 12px;
+  border: 0.5px solid var(--warning); border-radius: var(--radius-sm);
+  background: var(--warning-bg); color: var(--warning);
+  font-family: var(--font-mono); font-size: 11.5px;
+}

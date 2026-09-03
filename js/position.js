@@ -1,5 +1,6 @@
 const STORAGE_KEY = "igs-position-v1";
 const PORTFOLIO_URL = "data/my-portfolio.json";
+const BACKUP_KEY = "igs-position-backup";
 
 const CURRENCIES = ["KRW", "USD", "EUR"];
 
@@ -162,31 +163,21 @@ function seedFromPortfolio(remote) {
   if (!remote || !remote.updatedAt) return false;
   if (state.seededFrom === remote.updatedAt) return false;
 
-  const incoming = migrate({ ...remote, seededFrom: remote.updatedAt });
-
-  // The nightly price refresh lands as a new updatedAt every day, so a plain
-  // overwrite would quietly bin any edit this browser has not published yet.
-  // Prices and FX belong to the refresh; shares, cost, cash and account names
-  // belong to the user — keep theirs and take only the marks.
+  // The file is the source of truth, wholesale: holdings list, shares, cost,
+  // cash, account names. An earlier version merged in only prices and kept the
+  // local structure, which left a browser showing the new date against stale
+  // quantities with a newly added holding missing entirely. Silently wrong is
+  // worse than losing an edit, so unpublished work is stashed and announced.
   if (hasUnpublishedChanges()) {
-    const fresh = new Map(incoming.holdings.map(h => [`${h.account}|${h.ticker}`, h]));
-    state.holdings = state.holdings.map(h => {
-      const match = fresh.get(`${h.account}|${h.ticker}`);
-      return match ? { ...h, currency: match.currency, price: match.price } : h;
-    });
-    state.fxRate = incoming.fxRate;
-    state.fxRateEUR = incoming.fxRateEUR;
-    state.updatedAt = incoming.updatedAt;
-    state.source = incoming.source;
-    state.seededFrom = incoming.seededFrom;
-    // Baseline against what the site now holds, not the older snapshot: once the
-    // user commits their edits the two agree and the change flag clears itself.
-    state.publishedBook = bookFingerprint(incoming);
-    saveState(state);
-    return true;
+    try {
+      localStorage.setItem(BACKUP_KEY, JSON.stringify(state));
+      seedReplacedEdits = true;
+    } catch {
+      seedReplacedEdits = false;
+    }
   }
 
-  state = incoming;
+  state = migrate({ ...remote, seededFrom: remote.updatedAt });
   state.publishedBook = bookFingerprint(state);
   saveState(state);
   return true;
@@ -275,6 +266,7 @@ function escapeHtml(s) {
 
 let state = loadState();
 let chart = null;
+let seedReplacedEdits = false;
 
 function newHoldingRow() {
   const account = state.scope === "all" ? state.accounts[0].id : state.scope;
@@ -407,6 +399,34 @@ function renderUpdatedAt() {
   if (!el) return;
   el.textContent = state.updatedAt ? `${state.updatedAt} 기준` : "전체 + 계좌별";
   el.title = state.source || "";
+}
+
+function renderSeedNotice() {
+  const el = document.getElementById("seedNotice");
+  if (el) el.hidden = !seedReplacedEdits;
+}
+
+function initSeedNotice() {
+  on("seedRestoreBtn", "click", () => {
+    let raw = null;
+    try {
+      raw = localStorage.getItem(BACKUP_KEY);
+    } catch {}
+    if (!raw) return;
+    const restored = migrate(JSON.parse(raw));
+    // Carry today's stamp and baseline over, or the next load would judge the
+    // restored book stale and replace it straight back.
+    restored.seededFrom = state.seededFrom;
+    restored.publishedBook = state.publishedBook;
+    state = restored;
+    saveState(state);
+    seedReplacedEdits = false;
+    render();
+  });
+  on("seedDismissBtn", "click", () => {
+    seedReplacedEdits = false;
+    renderSeedNotice();
+  });
 }
 
 function renderPublishState() {
@@ -608,6 +628,7 @@ function render() {
   const d = computeDerived();
   renderUpdatedAt();
   renderPublishState();
+  renderSeedNotice();
   renderScopeBar();
   renderStats(d);
   renderAccountCards(d);
@@ -748,6 +769,7 @@ export async function initPosition() {
   initPublishModal();
   initTradeModal();
   initGithubSave();
+  initSeedNotice();
   render();
 }
 
