@@ -192,15 +192,16 @@ function renderStock(key) {
     .join("");
 
   root.innerHTML = `
-    <div class="stock-header">
-      <span class="stock-ticker-badge">${s.ticker}</span>
-      <span class="stock-title">${s.name}</span>
-      <span class="stock-price">${s.price}</span>
-      <span class="badge badge-muted">${s.sector}</span>
-      <span class="badge badge-muted">${s.asOf}</span>
+    <div class="card">
+      <div class="stock-header">
+        <span class="stock-ticker-badge">${s.ticker}</span>
+        <span class="stock-title">${s.name}</span>
+        <span class="stock-price">${s.price}</span>
+        <span class="badge badge-muted">${s.sector}</span>
+        <span class="badge badge-muted">${s.asOf}</span>
+      </div>
+      <p class="stock-oneliner">${s.oneLiner}</p>
     </div>
-
-    <div class="stock-oneliner">${s.oneLiner}</div>
 
     <div class="section-grid">
       <div class="card">

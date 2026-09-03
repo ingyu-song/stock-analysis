@@ -6,7 +6,6 @@
   --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, 'Apple SD Gothic Neo',
                'Noto Sans KR', 'Pretendard', sans-serif;
   --font-mono: 'DM Mono', 'SF Mono', Menlo, 'Apple SD Gothic Neo', monospace;
-  --font-serif: 'Instrument Serif', serif;
 
   --navy:       #1e2d4f;
   --navy-hover: #2a3a5e;
@@ -123,6 +122,9 @@
 /* a display: rule on the element itself outranks the UA's [hidden] default,
    so any component class would silently defeat el.hidden without this */
 [hidden] { display: none !important; }
+/* browsers default these to their own monospace, which is the one face on the
+   page that was not DM Mono */
+code, kbd, samp, pre { font-family: var(--font-mono); font-size: 0.95em; }
 html, body { margin: 0; padding: 0; }
 body {
   background: var(--surface-page);
@@ -366,22 +368,19 @@ body.is-col-resizing * { cursor: col-resize !important; }
 
 /* ---------- stock analysis one-pager ---------- */
 .stock-header {
-  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
-  margin-bottom: 4px;
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  margin-bottom: 10px;
 }
 .stock-ticker-badge {
-  font-family: var(--font-mono); font-weight: 500; font-size: 12px; letter-spacing: 0.02em;
-  background: var(--gold); color: #fff;
-  padding: 4px 10px; border-radius: var(--radius-xs);
+  font-family: var(--font-mono); font-weight: 500; font-size: 10.5px; letter-spacing: 0.02em;
+  background: var(--bg-chip); color: var(--navy);
+  padding: 3px 9px; border-radius: var(--radius-xs);
 }
-.stock-title { font-family: var(--font-sans); font-size: 18px; font-weight: 600; letter-spacing: -0.2px; }
+.stock-title { font-family: var(--font-sans); font-size: 20px; font-weight: 600; letter-spacing: -0.2px; }
 .stock-price { font-family: var(--font-mono); font-size: 14px; color: var(--text-secondary); }
 .stock-oneliner {
-  margin: 14px 0 18px; padding: 16px 18px; border-radius: var(--radius-xs);
-  background: color-mix(in srgb, var(--navy) 5%, var(--surface-1));
-  border-left: 3px solid var(--gold);
-  font-family: var(--font-serif); font-style: italic;
-  font-size: 18px; line-height: 1.5; color: var(--text-primary);
+  margin: 0; font-family: var(--font-sans);
+  font-size: 13.5px; line-height: 1.7; color: var(--text-secondary);
 }
 .section-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 @media (max-width: 860px) { .section-grid { grid-template-columns: 1fr; } }
@@ -415,7 +414,6 @@ body.is-col-resizing * { cursor: col-resize !important; }
 
 .valuation-compare { display: flex; gap: 24px; margin: 6px 0 14px; flex-wrap: wrap; }
 .valuation-stat { display: flex; flex-direction: column; gap: 2px; }
-.valuation-stat .stat-value { font-size: 26px; }
 .valuation-note { font-size: 13px; color: var(--text-secondary); line-height: 1.6; }
 
 /* ---------- import modal ---------- */
