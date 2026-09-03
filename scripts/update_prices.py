@@ -64,6 +64,21 @@ def quote(ticker):
     return result
 
 
+def next_earnings(ticker):
+    """Next scheduled earnings date, or None. Yahoo returns a list; past dates
+    still show up for names that have already reported, so filter them out."""
+    try:
+        cal = yf.Ticker(ticker).calendar
+        dates = (cal or {}).get("Earnings Date") or []
+        if not isinstance(dates, (list, tuple)):
+            dates = [dates]
+        today = datetime.date.today()
+        upcoming = sorted(d for d in dates if isinstance(d, datetime.date) and d >= today)
+        return upcoming[0].isoformat() if upcoming else None
+    except Exception:
+        return None
+
+
 def round_for(currency, px):
     return round(px, 0 if currency == "KRW" else 4)
 
@@ -174,8 +189,13 @@ def refresh_coverage(failures, dry_run):
         c["price"] = round_for(c["currency"], px)
         if prev:
             c["prevClose"] = round_for(c["currency"], prev)
+        earnings = next_earnings(c["ticker"])
+        if earnings:
+            c["nextEarnings"] = earnings
+        else:
+            c.pop("nextEarnings", None)
         chg = (px / prev - 1) * 100 if prev else float("nan")
-        print(f"  {c['ticker']:<12} {c['price']:>12,.2f} {c['currency']}  {chg:+.2f}%")
+        print(f"  {c['ticker']:<12} {c['price']:>12,.2f} {c['currency']}  {chg:+7.2f}%  실적 {earnings or '-'}")
 
     if local_fail >= len(book["names"]):
         print("  all lookups failed — leaving coverage.json alone", file=sys.stderr)

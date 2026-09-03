@@ -1,14 +1,14 @@
-name: Daily Price Refresh
+name: Hourly Coverage News
 
 on:
   schedule:
-    # 22:30 UTC Mon-Fri (= 07:30 KST Tue-Sat), an hour or more after the US
-    # close in both EDT and EST, and long after the KRX close the same day
-    - cron: "30 22 * * 1-5"
+    # every hour at :17 — GitHub queues cron jobs and the top of the hour is the
+    # busiest slot, so an off-peak minute lands closer to on time
+    - cron: "17 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:
-        description: "Dry run (fetch prices, print them, write nothing)"
+        description: "Dry run (fetch and print, write nothing)"
         type: boolean
         default: false
 
@@ -16,11 +16,11 @@ permissions:
   contents: write
 
 concurrency:
-  group: update-prices
+  group: news
   cancel-in-progress: false
 
 jobs:
-  prices:
+  news:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -29,29 +29,29 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Install dependencies
-        run: pip install -r scripts/requirements.txt
-
-      - name: Refresh prices
+      - name: Fetch coverage news
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
-            python scripts/update_prices.py --dry-run
+            python scripts/news_check.py --dry-run
           else
-            python scripts/update_prices.py
+            python scripts/news_check.py
           fi
 
-      - name: Commit refreshed prices
+      - name: Commit news
         if: ${{ inputs.dry_run != true }}
         run: |
-          git config user.name "price-bot"
+          git config user.name "news-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/my-portfolio.json data/claude-portfolio.json data/coverage.json
+          git add data/news.json
 
           if git diff --cached --quiet; then
-            echo "Prices unchanged — nothing to commit"
+            echo "No new articles — nothing to commit"
             exit 0
           fi
-          git commit -m "Daily price refresh ($(date -u +%Y-%m-%d))"
+          git commit -m "Hourly news refresh ($(date -u +%Y-%m-%dT%H:%MZ))"
 
           attempt=1
           max_attempts=5
@@ -60,7 +60,7 @@ jobs:
               echo "Push failed after $max_attempts attempts"
               exit 1
             fi
-            echo "Push rejected (remote moved), rebasing and retrying — attempt $attempt/$max_attempts"
+            echo "Push rejected (remote moved), rebasing — attempt $attempt/$max_attempts"
             git pull --rebase origin main
             attempt=$((attempt + 1))
             sleep $((RANDOM % 8 + 3))

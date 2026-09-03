@@ -1,10 +1,10 @@
 import { initPosition } from "./position.js";
 import { initAnalysis } from "./analysis.js";
-import { initMarket } from "./market.js";
+import { initWatchlist } from "./watchlist.js";
 import { initClaudeTab } from "./claude-tab.js";
 import { makeTableResizable } from "./table-resize.js";
 
-const TAB_NAMES = ["position", "analysis", "market", "claude"];
+const TAB_NAMES = ["position", "analysis", "watchlist", "claude"];
 
 function initTabs() {
   const buttons = document.querySelectorAll(".tab-btn");
@@ -49,7 +49,7 @@ initTabs();
 initTheme();
 initPosition();
 initAnalysis();
-initMarket();
+initWatchlist();
 initClaudeTab();
 
 makeTableResizable(document.getElementById("holdingsTable"), "igs-colwidths-holdings");

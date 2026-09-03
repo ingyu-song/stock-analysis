@@ -9,41 +9,41 @@ const STOCKS = {
     name: "Sony Group",
     sector: "Consumer Electronics / Entertainment",
     price: "¥3,180",
-    asOf: "샘플 데이터",
+    asOf: "Sample data",
     oneLiner:
-      "게임(플레이스테이션)·음악·영화 IP와 이미지센서 반도체를 함께 파는 회사. " +
-      "하드웨어를 팔아 생태계에 사람을 가두고, 그 위에서 구독·콘텐츠로 반복 수익을 뽑는 구조.",
+      "Sells PlayStation hardware, music and film IP, and image sensors under one roof. " +
+      "Hardware pulls people into the ecosystem; subscriptions and content then earn off them repeatedly.",
     segments: [
       { name: "Game & Network Services", revenuePct: 32, opIncomePct: 22 },
       { name: "Music", revenuePct: 10, opIncomePct: 20 },
       { name: "Pictures", revenuePct: 9, opIncomePct: 10 },
-      { name: "Imaging & Sensing (반도체)", revenuePct: 10, opIncomePct: 17 },
+      { name: "Imaging & Sensing", revenuePct: 10, opIncomePct: 17 },
       { name: "Electronics Products", revenuePct: 20, opIncomePct: 11 },
       { name: "Financial Services", revenuePct: 19, opIncomePct: 20 },
     ],
     kpis: [
-      { label: "PS5 누적 판매 & 소프트웨어 attach rate", status: "good" },
-      { label: "이미지센서 모바일向 점유율 (vs 삼성전기)", status: "warning" },
-      { label: "Music 스트리밍 로열티 수익 성장률", status: "good" },
-      { label: "금융 자회사 분사 이후 홀딩스 밸류에이션", status: "warning" },
+      { label: "PS5 cumulative units & software attach rate", status: "good" },
+      { label: "Mobile image sensor share vs Samsung Electro-Mechanics", status: "warning" },
+      { label: "Music streaming royalty revenue growth", status: "good" },
+      { label: "Holdco valuation after the financial arm spin-off", status: "warning" },
     ],
     promises: [
-      { item: "이미지센서 CAPEX 확대 → 점유율 방어", status: "warning", note: "경쟁사 증설로 목표 지연 가능성 언급" },
-      { item: "게임 부문 서비스형(라이브 서비스) 타이틀 확대", status: "critical", note: "다수 라이브 서비스 게임 개발 중단 발표" },
-      { item: "음악/영화 IP 크로스 라이선싱 확대", status: "good", note: "분기별 목표치 상회" },
+      { item: "Raise image sensor capex to defend share", status: "warning", note: "Flagged a possible delay as rivals add capacity" },
+      { item: "Expand live-service titles in gaming", status: "critical", note: "Cancelled development on several live-service games" },
+      { item: "Widen cross-licensing of music and film IP", status: "good", note: "Ahead of the quarterly target" },
     ],
     valuation: {
       impliedGrowth: "6.8%",
       historicalGrowth: "9.4%",
       note:
-        "현재 주가는 향후 10년 연 6.8% 성장을 반영 (역산 DCF, 샘플 가정치). " +
-        "과거 10년 실제 성장(9.4%)보다 낮은 기대치라 시장이 보수적으로 가격을 매기고 있다는 해석이 가능 — " +
-        "단, WACC·터미널 멀티플 가정에 따라 크게 달라지므로 참고용.",
+        "Today's price implies 6.8% annual growth over the next decade (reverse DCF, sample assumptions). " +
+        "That is below the 9.4% actually delivered over the past ten years, which reads as the market pricing " +
+        "the name conservatively — though the figure swings hard on WACC and terminal multiple, so treat it as indicative.",
     },
     risks: [
-      { text: "이미지센서 경쟁 심화로 마진 압박 (삼성전기, 옴니비전)", severity: "warning" },
-      { text: "게임 부문 라이브 서비스 전략 실패 반복", severity: "critical" },
-      { text: "엔화 변동성이 해외 매출 환산에 미치는 영향", severity: "warning" },
+      { text: "Margin pressure as image sensor competition intensifies (Samsung Electro-Mechanics, OmniVision)", severity: "warning" },
+      { text: "Repeated failures of the live-service strategy in gaming", severity: "critical" },
+      { text: "Yen volatility feeding through to translated overseas revenue", severity: "warning" },
     ],
     priceHistory: [
       ["24-09", 2720], ["24-11", 2865], ["25-01", 2610], ["25-03", 2980],
@@ -100,7 +100,7 @@ function renderRevenuePie(s) {
       maintainAspectRatio: false,
       plugins: {
         legend: { display: false },
-        tooltip: { callbacks: { label: ctx => ` ${ctx.label}: 매출 ${ctx.parsed}%` } },
+        tooltip: { callbacks: { label: ctx => ` ${ctx.label}: ${ctx.parsed}% of revenue` } },
       },
     },
   });
@@ -159,7 +159,7 @@ function renderStock(key) {
   const root = document.getElementById("analysisContent");
   destroyCharts();
   if (!s) {
-    root.innerHTML = `<p class="hint">검색해서 종목을 선택하세요.</p>`;
+    root.innerHTML = `<p class="hint">Search for a company to open its one-pager.</p>`;
     return;
   }
   currentTicker = key;
@@ -168,7 +168,7 @@ function renderStock(key) {
     .map(seg => `
       <div class="segment-op-row">
         <span class="name">${seg.name}</span>
-        <span class="val">영업이익 ${seg.opIncomePct}%</span>
+        <span class="val">${seg.opIncomePct}% of op. income</span>
       </div>`)
     .join("");
 
@@ -181,7 +181,7 @@ function renderStock(key) {
       <div class="promise-row">
         <span style="flex:1">${p.item}</span>
         <span class="status-pill status-${p.status}">${
-        p.status === "good" ? "이행 중" : p.status === "warning" ? "지연" : "미이행"
+        p.status === "good" ? "On track" : p.status === "warning" ? "Slipping" : "Missed"
       }</span>
       </div>
       <div class="hint" style="margin:-4px 0 4px;">${p.note}</div>`)
@@ -204,58 +204,58 @@ function renderStock(key) {
 
     <div class="section-grid">
       <div class="card">
-        <div class="card-head"><h2>수익 구조 (매출 비중)</h2></div>
+        <div class="card-head"><h2>Revenue mix</h2></div>
         <div class="segment-mix-wrap">
           <div class="mini-chart-wrap"><canvas id="segmentPieChart"></canvas></div>
           <div class="segment-op-list">${opIncomeRows}</div>
         </div>
       </div>
       <div class="card">
-        <div class="card-head"><h2>핵심 KPI</h2></div>
+        <div class="card-head"><h2>Key KPIs</h2></div>
         <ul class="kpi-list">${kpiItems}</ul>
       </div>
     </div>
 
     <div class="card">
       <div class="card-head">
-        <h2>가격 &amp; 밸류에이션 추이</h2>
-        <span class="badge badge-muted">${s.asOf} · 실데이터 연동 예정</span>
+        <h2>Price &amp; valuation history</h2>
+        <span class="badge badge-muted">${s.asOf} · live data pending</span>
       </div>
       <div class="section-grid">
         <div>
-          <p class="hint" style="margin:0 0 8px;">주가 추이</p>
+          <p class="hint" style="margin:0 0 8px;">Share price</p>
           <div class="mini-chart-wrap"><canvas id="priceLineChart"></canvas></div>
         </div>
         <div>
-          <p class="hint" style="margin:0 0 8px;">PER 추이 (배)</p>
+          <p class="hint" style="margin:0 0 8px;">P/E (x)</p>
           <div class="mini-chart-wrap"><canvas id="perLineChart"></canvas></div>
         </div>
       </div>
-      <p class="hint">정적 사이트에서는 브라우저가 외부 시세 API를 직접 못 불러와요 (CORS). Toss API 연동 또는 주기적으로 데이터를 받아 JSON으로 커밋하는 방식으로 실데이터로 교체할 예정입니다.</p>
+      <p class="hint">A static site cannot call market data APIs from the browser (CORS). This will be replaced with real data the same way prices are: a scheduled job fetches it and commits JSON the page reads.</p>
     </div>
 
     <div class="card">
-      <div class="card-head"><h2>최근 흐름 · 약속이행 성과표</h2></div>
+      <div class="card-head"><h2>Management scorecard</h2></div>
       ${promiseRows}
     </div>
 
     <div class="section-grid">
       <div class="card">
-        <div class="card-head"><h2>적정 주가 (역발상 DCF)</h2></div>
+        <div class="card-head"><h2>Fair value (reverse DCF)</h2></div>
         <div class="valuation-compare">
           <div class="valuation-stat">
-            <span class="stat-label">현재가 반영 기대성장률</span>
+            <span class="stat-label">Growth implied by price</span>
             <span class="stat-value">${s.valuation.impliedGrowth}</span>
           </div>
           <div class="valuation-stat">
-            <span class="stat-label">과거 10년 실제 성장률</span>
+            <span class="stat-label">Actual 10-year growth</span>
             <span class="stat-value">${s.valuation.historicalGrowth}</span>
           </div>
         </div>
         <p class="valuation-note">${s.valuation.note}</p>
       </div>
       <div class="card">
-        <div class="card-head"><h2>핵심 리스크</h2></div>
+        <div class="card-head"><h2>Key risks</h2></div>
         <ul class="risk-list">${riskItems}</ul>
       </div>
     </div>
@@ -285,7 +285,7 @@ function initStockSearch() {
               <span class="ticker">${s.ticker}</span><span class="name">${s.name}</span>
             </div>`)
           .join("")
-      : `<div class="stock-search-empty">검색 결과 없음</div>`;
+      : `<div class="stock-search-empty">No matches</div>`;
 
     results.querySelectorAll("[data-ticker]").forEach(el => {
       el.addEventListener("click", () => {

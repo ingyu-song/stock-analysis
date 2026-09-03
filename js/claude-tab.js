@@ -36,9 +36,13 @@ function renderStats(p) {
   document.getElementById("claudeStartDate").textContent = p.startDate;
   document.getElementById("claudeStartAUM").textContent = fmtKRW(p.startingAUM);
   document.getElementById("claudeStatAUM").textContent = fmtKRW(totalValue);
+  // the amount, not just the percentage — same shape as the real book's 총손익
+  const pnl = totalValue - p.startingAUM;
   const returnEl = document.getElementById("claudeStatReturn");
-  returnEl.textContent = fmtPct(returnPct, true);
-  returnEl.style.color = returnPct > 0 ? "var(--good)" : returnPct < 0 ? "var(--critical)" : "";
+  const sign = Math.round(pnl) > 0 ? "+" : Math.round(pnl) < 0 ? "-" : "";
+  returnEl.textContent = `${sign}₩${Math.abs(Math.round(pnl)).toLocaleString("en-US")} (${fmtPct(returnPct, true)})`;
+  returnEl.className = `stat-value ${pnl > 0 ? "num-gain" : pnl < 0 ? "num-loss" : ""}`;
+  returnEl.style.color = "";
   document.getElementById("claudeStatCashPct").textContent = totalValue > 0 ? fmtPct((p.cash / totalValue) * 100) : "–";
   document.getElementById("claudeStatCount").textContent = String(p.holdings.length);
 }
