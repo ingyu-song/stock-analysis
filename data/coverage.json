@@ -13,7 +13,11 @@
         "에이피알",
         "메디큐브"
       ],
-      "nextEarnings": "2026-11-05"
+      "nextEarnings": "2026-11-05",
+      "newsAliases": [
+        "Medicube",
+        "APR Corp"
+      ]
     },
     {
       "ticker": "AAPL",
@@ -26,7 +30,11 @@
         "애플",
         "AAPL"
       ],
-      "nextEarnings": "2026-10-30"
+      "nextEarnings": "2026-10-30",
+      "newsAliases": [
+        "Apple",
+        "AAPL"
+      ]
     },
     {
       "ticker": "GOOGL",
@@ -40,7 +48,12 @@
         "GOOGL",
         "구글"
       ],
-      "nextEarnings": "2026-10-29"
+      "nextEarnings": "2026-10-29",
+      "newsAliases": [
+        "Alphabet",
+        "Google",
+        "GOOGL"
+      ]
     },
     {
       "ticker": "COIN",
@@ -53,7 +66,11 @@
         "코인베이스",
         "COIN"
       ],
-      "nextEarnings": "2026-10-30"
+      "nextEarnings": "2026-10-30",
+      "newsAliases": [
+        "Coinbase",
+        "COIN)"
+      ]
     },
     {
       "ticker": "CRCL",
@@ -66,7 +83,12 @@
         "서클",
         "CRCL"
       ],
-      "nextEarnings": "2026-11-11"
+      "nextEarnings": "2026-11-11",
+      "newsAliases": [
+        "Circle Internet",
+        "CRCL",
+        "USDC"
+      ]
     },
     {
       "ticker": "CRWD",
@@ -79,7 +101,11 @@
         "크라우드스트라이크",
         "CRWD"
       ],
-      "nextEarnings": "2026-12-02"
+      "nextEarnings": "2026-12-02",
+      "newsAliases": [
+        "CrowdStrike",
+        "CRWD"
+      ]
     },
     {
       "ticker": "PANW",
@@ -94,7 +120,11 @@
         "팰로 앨토",
         "PANW"
       ],
-      "nextEarnings": "2026-11-20"
+      "nextEarnings": "2026-11-20",
+      "newsAliases": [
+        "Palo Alto Networks",
+        "PANW"
+      ]
     },
     {
       "ticker": "PG",
@@ -108,7 +138,12 @@
         "P&G",
         "PG)"
       ],
-      "nextEarnings": "2026-10-22"
+      "nextEarnings": "2026-10-22",
+      "newsAliases": [
+        "Procter & Gamble",
+        "Procter and Gamble",
+        "P&G"
+      ]
     },
     {
       "ticker": "MC.PA",
@@ -120,6 +155,10 @@
       "newsMatch": [
         "LVMH",
         "루이비통"
+      ],
+      "newsAliases": [
+        "LVMH",
+        "Louis Vuitton"
       ]
     },
     {
@@ -133,7 +172,11 @@
         "인텔",
         "INTC"
       ],
-      "nextEarnings": "2026-10-23"
+      "nextEarnings": "2026-10-23",
+      "newsAliases": [
+        "Intel",
+        "INTC"
+      ]
     },
     {
       "ticker": "GLW",
@@ -146,7 +189,11 @@
         "코닝",
         "GLW"
       ],
-      "nextEarnings": "2026-10-27"
+      "nextEarnings": "2026-10-27",
+      "newsAliases": [
+        "Corning",
+        "GLW"
+      ]
     },
     {
       "ticker": "SONY",
@@ -159,7 +206,11 @@
         "소니",
         "SONY"
       ],
-      "nextEarnings": "2026-11-05"
+      "nextEarnings": "2026-11-05",
+      "newsAliases": [
+        "Sony",
+        "SONY"
+      ]
     }
   ]
 }

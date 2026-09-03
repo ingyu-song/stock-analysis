@@ -1,0 +1,137 @@
+{
+  "_comment": "RSS 소스 목록. ingyu-song/market-news 의 sources.json 기반, 한국 소스는 제외 (네이버는 news_check.py 가 종목별 검색 API로 처리).",
+  "max_items_per_source": 12,
+  "sources": [
+    {
+      "name": "CNBC Markets",
+      "domain": "cnbc.com",
+      "feeds": [
+        "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=20910258"
+      ]
+    },
+    {
+      "name": "CNBC Finance",
+      "domain": "cnbc.com",
+      "feeds": [
+        "https://search.cnbc.com/rs/search/combinedcms/view.xml?partnerId=wrss01&id=10000664"
+      ]
+    },
+    {
+      "name": "WSJ Markets",
+      "domain": "wsj.com",
+      "feeds": [
+        "https://news.google.com/rss/search?q=when:1d+site:wsj.com+markets&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "name": "Yahoo Finance",
+      "domain": "finance.yahoo.com",
+      "feeds": [
+        "https://finance.yahoo.com/news/rssindex"
+      ]
+    },
+    {
+      "name": "Financial Times",
+      "domain": "ft.com",
+      "feeds": [
+        "https://www.ft.com/rss/home"
+      ]
+    },
+    {
+      "name": "The Information",
+      "domain": "theinformation.com",
+      "feeds": [
+        "https://news.google.com/rss/search?q=when:3d+site:theinformation.com&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "name": "Investing.com",
+      "domain": "investing.com",
+      "feeds": [
+        "https://www.investing.com/rss/news_25.rss"
+      ]
+    },
+    {
+      "name": "Business Insider Markets",
+      "domain": "businessinsider.com",
+      "feeds": [
+        "https://markets.businessinsider.com/rss/news"
+      ]
+    },
+    {
+      "name": "The Economist Finance",
+      "domain": "economist.com",
+      "feeds": [
+        "https://www.economist.com/finance-and-economics/rss.xml"
+      ]
+    },
+    {
+      "name": "Forbes Markets",
+      "domain": "forbes.com",
+      "feeds": [
+        "https://news.google.com/rss/search?q=when:1d+site:forbes.com+markets&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "name": "BBC Business",
+      "domain": "bbc.com",
+      "feeds": [
+        "https://feeds.bbci.co.uk/news/business/rss.xml"
+      ]
+    },
+    {
+      "name": "The Guardian Business",
+      "domain": "theguardian.com",
+      "feeds": [
+        "https://www.theguardian.com/uk/business/rss"
+      ]
+    },
+    {
+      "name": "NYT Business",
+      "domain": "nytimes.com",
+      "feeds": [
+        "https://rss.nytimes.com/services/xml/rss/nyt/Business.xml"
+      ]
+    },
+    {
+      "name": "Reuters Business (via Google News)",
+      "domain": "reuters.com",
+      "feeds": [
+        "https://news.google.com/rss/search?q=when:1d+site:reuters.com+business&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "name": "Bloomberg (via Google News)",
+      "domain": "bloomberg.com",
+      "feeds": [
+        "https://news.google.com/rss/search?q=when:1d+site:bloomberg.com+markets&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "name": "Axios",
+      "domain": "axios.com",
+      "feeds": [
+        "https://api.axios.com/feed/"
+      ]
+    },
+    {
+      "name": "DigiTimes",
+      "domain": "digitimes.com",
+      "_note": "Taiwan semiconductor/tech trade press. filter:false — focused industry source, partly Chinese.",
+      "filter": false,
+      "feeds": [
+        "https://news.google.com/rss/search?q=when:3d+site:digitimes.com&hl=en-US&gl=US&ceid=US:en"
+      ]
+    },
+    {
+      "name": "Commercial Times 工商時報",
+      "domain": "ctee.com.tw",
+      "_note": "Taiwanese financial daily — Chinese language. Narrowed to industrial / semiconductor coverage via Google News keywords (半導體 / AI / 晶圓 / 封測 / 記憶體), mirroring the Naver semiconductor-only pattern. filter:false (the English finance filter would drop all of it). pin_bottom keeps it at the end of the board.",
+      "filter": false,
+      "pin_bottom": true,
+      "feeds": [
+        "https://news.google.com/rss/search?q=when:3d+site:ctee.com.tw+(半導體+OR+AI+OR+晶圓+OR+封測+OR+記憶體)&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+      ]
+    }
+  ]
+}

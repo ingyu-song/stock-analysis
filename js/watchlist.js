@@ -79,14 +79,15 @@ function changeClass(pct) {
 }
 
 async function renderBoard() {
-  const [coverage, book, news] = await Promise.all([
+  const [coverage, book, news, newsGlobal] = await Promise.all([
     loadJson("data/coverage.json"),
     loadJson("data/my-portfolio.json"),
     loadJson("data/news.json"),
+    loadJson("data/news_global.json"),
   ]);
   renderCoverage(coverage, book);
   renderCatalysts(coverage);
-  renderNews(news);
+  renderNews([news, newsGlobal]);
 }
 
 function renderCoverage(coverage, book) {
@@ -145,15 +146,23 @@ function timeAgo(iso) {
 
 // Flattened across the whole coverage universe and sorted by time — the useful
 // question is what just happened, not what happened per ticker.
-function renderNews(news) {
+// Korean coverage comes from the Naver search API, global from RSS. They are
+// merged before ranking so the panel answers "what just happened to my names"
+// regardless of which side of the world reported it.
+function renderNews(feeds) {
   const list = document.getElementById("newsList");
   if (!list) return;
 
+  const present = feeds.filter(Boolean);
   const asOf = document.getElementById("newsAsOf");
-  if (asOf) asOf.textContent = news && news.updatedAt ? `${news.updatedAt} 기준` : "–";
+  if (asOf) {
+    const stamps = present.map(f => f.updatedAt).filter(Boolean).sort();
+    asOf.textContent = stamps.length ? `${stamps[stamps.length - 1]} 기준` : "–";
+  }
 
-  const ranked = ((news && news.coverage) || [])
-    .flatMap(c => (c.items || []).map(i => ({ ...i, ticker: c.ticker, name: c.name })))
+  const ranked = present
+    .flatMap(f => (f.coverage || []).flatMap(c =>
+      (c.items || []).map(i => ({ ...i, ticker: c.ticker, name: c.name }))))
     .filter(i => i.publishedAt)
     .sort((a, b) => (a.publishedAt < b.publishedAt ? 1 : -1));
 
@@ -178,6 +187,7 @@ function renderNews(news) {
     <div class="news-item">
       <div class="news-meta">
         <span class="acct-pill">${i.name}</span>
+        ${i.outlet ? `<span>${i.outlet}</span>` : ""}
         <span>${i.publishedAt}</span>
         <span>· ${timeAgo(i.publishedAt)}</span>
       </div>
