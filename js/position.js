@@ -56,13 +56,21 @@ function migrate(raw) {
     const shares = Number(h.shares) || 0;
     // avgCost was per-share in the holding's currency; the fixed KRW basis the
     // brokerage reports is what survives an FX move, so convert once and keep it
+    const currency = CURRENCIES.includes(h.currency) ? h.currency : "KRW";
     const costKRW = h.costKRW != null
       ? Number(h.costKRW) || 0
-      : toBase(shares * (Number(avgCost) || 0), h.currency, st);
+      : toBase(shares * (Number(avgCost) || 0), currency, st);
+    // No native figure stored yet: back it out at today's rate. That is only an
+    // estimate of what was paid, which is exactly why 평단 stays editable.
+    const rate = fxOf(currency, st);
+    const costNative = h.costNative != null
+      ? Number(h.costNative) || 0
+      : (rate ? costKRW / rate : 0);
     return {
       ...rest,
-      currency: CURRENCIES.includes(h.currency) ? h.currency : "KRW",
+      currency,
       costKRW,
+      costNative,
       account: ids.has(h.account) ? h.account : st.accounts[0].id,
     };
   });
@@ -222,12 +230,15 @@ function cashTotal(cash, st) {
     .reduce((sum, [cur, amt]) => sum + toBase(Number(amt) || 0, cur, st), 0);
 }
 
+function fxOf(currency, st) {
+  if (currency === "USD") return Number(st.fxRate) || 0;
+  if (currency === "EUR") return Number(st.fxRateEUR) || 0;
+  return 1;
+}
+
 // baseCurrency is always KRW, so this only ever converts currency -> KRW.
 function toBase(amount, currency, state) {
-  if (currency === "KRW") return amount;
-  if (currency === "USD") return amount * (Number(state.fxRate) || 0);
-  if (currency === "EUR") return amount * (Number(state.fxRateEUR) || 0);
-  return amount;
+  return amount * fxOf(currency, state);
 }
 
 function fmtMoney(amount, currency) {
@@ -267,7 +278,7 @@ let chart = null;
 
 function newHoldingRow() {
   const account = state.scope === "all" ? state.accounts[0].id : state.scope;
-  return { account, ticker: "", name: "", currency: "KRW", shares: 0, price: 0, costKRW: 0 };
+  return { account, ticker: "", name: "", currency: "KRW", shares: 0, price: 0, costKRW: 0, costNative: 0 };
 }
 
 function accountName(id) {
@@ -323,7 +334,7 @@ function computeDerived() {
 
   const rows = inScope.map(h => ({
     ...h,
-    costPerShare: Number(h.shares) ? Math.round(h.costBase / Number(h.shares)) : 0,
+    costPerShare: Number(h.shares) ? (Number(h.costNative) || 0) / Number(h.shares) : 0,
     weightPct: scoped.totalBase > 0 ? (h.valueBase / scoped.totalBase) * 100 : 0,
   }));
 
@@ -424,7 +435,7 @@ function renderAccountCards(d) {
 function renderAccountFields() {
   const wrap = document.getElementById("accountFields");
   wrap.innerHTML = state.accounts.map((a, i) => `
-    <div class="inline-field grow" style="flex-direction:row; gap:8px; align-items:flex-end;">
+    <div class="acct-field-row">
       <label class="inline-field" style="flex:1;">
         계좌명
         <input data-acct-field="name" data-acct="${i}" value="${escapeHtml(a.name)}" placeholder="계좌 이름">
@@ -526,7 +537,9 @@ function renderHoldingsTable(d) {
         </select>
       </td>
       <td><input class="cell-num" type="number" data-field="shares" data-i="${i}" value="${h.shares}" step="1"></td>
-      <td><input class="cell-num" type="number" data-field="costPerShare" data-i="${i}" value="${row.costPerShare}" step="1" title="주당 원화 매입단가"></td>
+      <td><input class="cell-num" type="number" data-field="costPerShare" data-i="${i}"
+                 value="${h.currency === "KRW" ? Math.round(row.costPerShare) : row.costPerShare.toFixed(2)}"
+                 step="${h.currency === "KRW" ? 1 : 0.01}" title="${h.currency} 기준 평균 매입단가"></td>
       <td><input class="cell-num" type="number" data-field="price" data-i="${i}" value="${h.price}" step="0.01"></td>
       <td class="cell-computed">${fmtMoney(row.valueBase, state.baseCurrency)}</td>
       <td class="cell-computed ${pnlClass(row.pnlBase)}">${row.costBase > 0 ? fmtSignedMoney(row.pnlBase) : "–"}</td>
@@ -632,7 +645,13 @@ function onHoldingFieldChange(e) {
 
   // the table edits a per-share figure but the model stores the total basis
   if (field === "costPerShare") {
-    state.holdings[i].costKRW = (Number(e.target.value) || 0) * (Number(state.holdings[i].shares) || 0);
+    const h = state.holdings[i];
+    // Only the native figure moves. costKRW is what the brokerage actually
+    // recorded at the exchange rate on each purchase day, and correcting a
+    // 평단 estimate is no reason to overwrite it — for a KRW listing the two
+    // are the same number, so there it has to follow.
+    h.costNative = (Number(e.target.value) || 0) * (Number(h.shares) || 0);
+    if (h.currency === "KRW") h.costKRW = Math.round(h.costNative);
     saveState(state);
     refreshAfterEdit();
     return;
@@ -856,6 +875,7 @@ function evaluateTrade(t) {
   const h = t.isNew ? null : state.holdings[t.idx];
   const beforeShares = h ? Number(h.shares) || 0 : 0;
   const beforeCost = h ? Number(h.costKRW) || 0 : 0;
+  const beforeCostNative = h ? Number(h.costNative) || 0 : 0;
 
   if (t.side === "sell" && t.shares > beforeShares) {
     return { error: `보유 수량 ${beforeShares}주보다 많이 팔 수 없어요.` };
@@ -868,12 +888,17 @@ function evaluateTrade(t) {
   // Buying adds what was actually paid, in won, at today's rate. Selling takes
   // cost out in proportion to the shares leaving, which is what keeps 평단
   // unchanged on a partial sale.
+  const soldRatio = t.side === "sell" ? t.shares / beforeShares : 0;
   const costDelta = t.side === "buy"
     ? toBase(grossNative + t.fee, t.currency, state)
-    : -(beforeCost * (t.shares / beforeShares));
+    : -(beforeCost * soldRatio);
+  const costDeltaNative = t.side === "buy"
+    ? grossNative + t.fee
+    : -(beforeCostNative * soldRatio);
 
   const afterShares = t.side === "buy" ? beforeShares + t.shares : beforeShares - t.shares;
   const afterCost = afterShares <= 0 ? 0 : beforeCost + costDelta;
+  const afterCostNative = afterShares <= 0 ? 0 : beforeCostNative + costDeltaNative;
   const realized = t.side === "sell"
     ? toBase(grossNative - t.fee, t.currency, state) + costDelta
     : null;
@@ -881,9 +906,10 @@ function evaluateTrade(t) {
   return {
     beforeShares, beforeCost, afterShares,
     afterCost: Math.max(0, afterCost),
-    costDelta, cashNative, realized,
-    perShareBefore: beforeShares ? beforeCost / beforeShares : 0,
-    perShareAfter: afterShares ? (beforeCost + costDelta) / afterShares : 0,
+    afterCostNative: Math.max(0, afterCostNative),
+    costDelta, costDeltaNative, cashNative, realized,
+    perShareBefore: beforeShares ? beforeCostNative / beforeShares : 0,
+    perShareAfter: afterShares ? (beforeCostNative + costDeltaNative) / afterShares : 0,
     closesPosition: afterShares <= 0,
   };
 }
@@ -909,12 +935,12 @@ function renderTradePreview() {
 
   const lines = [];
   if (t.side === "buy") {
-    lines.push(`매수 후 ${ev.afterShares}주 · 평단 ${ev.beforeShares ? `₩${Math.round(ev.perShareBefore).toLocaleString("en-US")} → ` : ""}₩${Math.round(ev.perShareAfter).toLocaleString("en-US")}`);
+    lines.push(`매수 후 ${ev.afterShares}주 · 평단 ${ev.beforeShares ? `${fmtNative(ev.perShareBefore, t.currency)} → ` : ""}${fmtNative(ev.perShareAfter, t.currency)}`);
     lines.push(`매입금액 +${fmtMoney(ev.costDelta, "KRW")}`);
   } else {
     lines.push(ev.closesPosition
       ? `전량 매도 — 보유 종목에서 빠집니다`
-      : `매도 후 ${ev.afterShares}주 · 평단 ₩${Math.round(ev.perShareAfter).toLocaleString("en-US")} (변동 없음)`);
+      : `매도 후 ${ev.afterShares}주 · 평단 ${fmtNative(ev.perShareAfter, t.currency)} (변동 없음)`);
     lines.push(`실현손익 ${fmtSignedMoney(ev.realized)}`);
   }
   if (t.touchesCash) {
@@ -939,6 +965,7 @@ function applyTrade(t, ev) {
 
   h.shares = ev.afterShares;
   h.costKRW = Math.round(ev.afterCost);
+  h.costNative = ev.afterCostNative;
 
   if (t.touchesCash) {
     const acc = state.accounts.find(a => a.id === t.accountId);

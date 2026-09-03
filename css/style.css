@@ -244,7 +244,7 @@ table { border-collapse: collapse; width: 100%; }
   font-size: 14px; letter-spacing: -0.1px;
   border-left: 3px solid var(--gold); padding-left: 8px;
 }
-.card-head-actions { display: flex; gap: 14px; }
+.card-head-actions { display: flex; gap: 14px; flex-wrap: wrap; min-width: 0; }
 
 .stat-grid {
   display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px;
@@ -497,8 +497,8 @@ body.is-col-resizing * { cursor: col-resize !important; }
 .acct-row > span:first-child { color: var(--text-muted); }
 .acct-row > span:last-child { color: var(--text-primary); font-variant-numeric: tabular-nums; }
 
-.num-gain { color: var(--gain); }
-.num-loss { color: var(--loss); }
+.num-gain, .holdings-table .cell-computed.num-gain { color: var(--gain); }
+.num-loss, .holdings-table .cell-computed.num-loss { color: var(--loss); }
 
 .acct-pill {
   display: inline-block; max-width: 100%; overflow: hidden; text-overflow: ellipsis;
@@ -551,3 +551,18 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
   color: var(--text-primary); border-radius: var(--radius-sm);
   padding: 7px 9px; font-size: 13px; font-family: var(--font-mono);
 }
+
+/* ---------- 계좌 입력 줄 ---------- */
+.acct-fields { display: flex; flex-direction: column; gap: 10px; margin-bottom: 12px; }
+.acct-field-row {
+  display: grid; gap: 10px; align-items: end;
+  grid-template-columns: minmax(110px, 1.5fr) repeat(3, minmax(84px, 1fr)) 26px;
+}
+@media (max-width: 760px) {
+  .acct-field-row { grid-template-columns: 1fr 1fr; }
+  .acct-field-row .row-remove-btn { justify-self: start; }
+}
+/* flex/grid items default to min-width:auto and refuse to shrink below their
+   input's intrinsic width — that is what pushed this row outside the card */
+.acct-field-row .inline-field { min-width: 0; }
+.acct-field-row input { width: 100%; min-width: 0; }
