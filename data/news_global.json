@@ -1,22 +1,9 @@
 {
-  "updatedAt": "2026-09-04 07:38",
+  "updatedAt": "2026-09-04 10:02",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Apple facing $2.7 billion UK lawsuit over 'unfair' app tracking rules - reuters.com",
-          "summary": "Apple facing $2.7 billion UK lawsuit over 'unfair' app tracking rules  reuters.com",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHRUNEVSV0hvdVo5bzgtTWk4dVl0REZLQ0RPbWhpMjF1SHNCWE5uRlBNYlJ3N1U4VTVsOVBDQlJvS2dSU0pvd1BEQXkxaGJ5dDV6MDBNN1Ytb1hPYTJJOFl6c3VKODBMRjdXM21IYVJUODQ1Q29uNzBHYUZWSVUzNHVFcjU4RDVEUjlBUmhoeDF3SzN4VkVzTWZCcXp5bTFxR0ZPZ1FDd3VoZ1M2T1ZQWDZhWktKYXR0aUszVjJUY2ZMQ1dY?oc=5",
-          "publishedAt": "2026-09-04 00:20",
-          "outlet": "Reuters Business (via Google News)"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -41,26 +28,6 @@
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPclFJNzdSVk41ak9WdzNYM2pEQ3dvSFFVTTNtZmFqY1A1UldWMnotRGdXNUtyeU5pTUpfZUl3MUoyaHlIQXRNYmNMb3NxQVVUU1R1OTVLdU9tRnQ2aGtPbHp4OVU5WWVnQjREM2R5T3ljN1BRV3NmVVUxOXRVSmIyTWVucTBTaFlnQ0Q5dUpRaWtZWWxKUkN5Qm5RWC1JM1YwQ2xBdjZJSlBKcXZCRFd1eWp5YkNuU3hIdDBFZA?oc=5",
           "publishedAt": "2026-09-03 19:30",
           "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Google defeats US bid to force ad tech sale",
-          "summary": "",
-          "link": "https://finance.yahoo.com/media-advertising/articles/google-defeats-us-bid-force-143055450.html",
-          "publishedAt": "2026-09-02 23:47",
-          "outlet": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "COIN",
-      "name": "코인베이스 글로벌",
-      "items": [
-        {
-          "title": "Coinbase files for SEC approval to offer equity perpetuals",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/coinbase-files-for-sec-approval-to-offer-equity-perpetuals-4888603",
-          "publishedAt": "2026-09-04 06:43",
-          "outlet": "Investing.com"
         }
       ]
     },
@@ -74,19 +41,6 @@
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWkNaZ1RXSHplRHl1T3BlX0FwRHk2N2IyMkRTM1E3M2FzN1N1T2FOOFlEMHl2Zkd1UEdfSXE0Si1RVWtTTl9tV2NqVzd2T0ZPMmFNNHUyYUF4cTN3N0lQVXlZNHJVcGgxMERjazZPUDN1aHU3Sk1qMngtZVphRklHaFVLZ3FYS2ZEbm9SWg?oc=5",
           "publishedAt": "2026-09-03 11:21",
           "outlet": "DigiTimes"
-        }
-      ]
-    },
-    {
-      "ticker": "GLW",
-      "name": "코닝",
-      "items": [
-        {
-          "title": "Corning (GLW) is Well Positioned for Strong Earnings Growth",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/corning-glw-well-positioned-strong-145840474.html",
-          "publishedAt": "2026-09-02 23:58",
-          "outlet": "Yahoo Finance"
         }
       ]
     }
