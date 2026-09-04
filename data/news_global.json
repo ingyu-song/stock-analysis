@@ -1,9 +1,29 @@
 {
-  "updatedAt": "2026-09-04 10:02",
+  "updatedAt": "2026-09-04 14:58",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
+    {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "New iPhone Fold Display Details Emerge Ahead Of Apple Event - Forbes",
+          "summary": "New iPhone Fold Display Details Emerge Ahead Of Apple Event  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQS2tPaDRyN20zeXdoZFNna1RlWHBVcmZ5NGVpTHBxeTNBd3J2NDMyUlVSb2pmTlA5TG1UUnRaUXdxZm4yOWQ2amR0QnVXVlMteF85bUctNWNLTFVoUTRnWk9uelNVN1BBQ3ZoTUJnU2Z4N2x3RzdQVUFRWGNCYzRyWlYxaTh6V2RhNlFTeElpWTJDbTRtc19GVVNUUm4xQ2ZFTVVZUzZCSzNvWkk0MklPYTZULXhQNjRlbzBYLQ?oc=5",
+          "publishedAt": "2026-09-04 03:55",
+          "outlet": "Forbes Markets"
+        },
+        {
+          "title": "Apple facing $2.7 billion UK lawsuit over 'unfair' app tracking rules - Reuters",
+          "summary": "Apple facing $2.7 billion UK lawsuit over 'unfair' app tracking rules  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQaHRUNEVSV0hvdVo5bzgtTWk4dVl0REZLQ0RPbWhpMjF1SHNCWE5uRlBNYlJ3N1U4VTVsOVBDQlJvS2dSU0pvd1BEQXkxaGJ5dDV6MDBNN1Ytb1hPYTJJOFl6c3VKODBMRjdXM21IYVJUODQ1Q29uNzBHYUZWSVUzNHVFcjU4RDVEUjlBUmhoeDF3SzN4VkVzTWZCcXp5bTFxR0ZPZ1FDd3VoZ1M2T1ZQWDZhWktKYXR0aUszVjJUY2ZMQ1dY?oc=5",
+          "publishedAt": "2026-09-04 00:20",
+          "outlet": "Reuters Business (via Google News)"
+        }
+      ]
+    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
