@@ -1,32 +1,19 @@
 {
-  "updatedAt": "2026-09-05 01:26",
+  "updatedAt": "2026-09-05 04:39",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
+      "ticker": "AAPL",
+      "name": "애플",
       "items": [
         {
-          "title": "\"Welcome to the AGI era,\" OpenAI says as GPT-6 Astra debuts",
-          "summary": "OpenAI on Thursday released GPT-6 Astra, which president Greg Brockman called a \"generational leap\" and said could eventually be seen as the arrival of artificial general intelligence, or AGI.Why it matters: Astra pushes AI agents closer to doing complex professional work on their own — while also raising questions about how safely they can be deployed.Driving the news: Brockman says he personally",
-          "link": "https://www.axios.com/2026/09/03/openai-astra-gpt-6-agi-brockman",
-          "publishedAt": "2026-09-04 03:00",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWD",
-      "name": "크라우드스트라이크",
-      "items": [
-        {
-          "title": "Zscaler Falls 4% as FY2027 Growth Guidance Overshadows Earnings Beat; CrowdStrike Slips, Palo Alto Holds Steady",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/zscaler-falls-4-fy2027-growth-160650814.html",
-          "publishedAt": "2026-09-05 01:06",
-          "outlet": "Yahoo Finance"
+          "title": "John Ternus, Apple’s new ‘wicked calm’ CEO",
+          "summary": "Tim Cook’s successor is a product engineer who has spent 25 years at the company and belongs to the generation mentored by Steve Jobs",
+          "link": "https://www.ft.com/content/7347b9fc-ba63-48fb-b06d-b9fe5e9b046a?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-05 02:00",
+          "outlet": "Financial Times"
         }
       ]
     },

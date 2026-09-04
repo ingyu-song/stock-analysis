@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05 01:26",
+  "updatedAt": "2026-09-05 04:39",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -300,6 +300,18 @@
       "query": "코인베이스 COIN",
       "items": [
         {
+          "title": "베이스 토큰화 주식 10종, 아마존·테슬라 더했다",
+          "summary": "베이스(Base) 생태계의 코인베이스($COIN) 토큰화 주식 목록이 기존 4종에서 10종으로 늘었다. 새로 추가된 항목은 아마존($AMZN), 마이크로소프트($MSFT), 스페이스X(SPCXc), 테슬라($TSLA), 샌디스크(SNDKc), 스트레티지($MSTR)다....",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/402684",
+          "publishedAt": "2026-09-05 01:38"
+        },
+        {
+          "title": "코인베이스 주가 10% 급등 192달러, 개별주 무기한선물 신청까지 겹쳤다",
+          "summary": "다만 규제 신청 하나만으로 주가 급등을 전부 설명하기는 어렵다는 지적도 나온다.주가 얼마나, 왜 뛰었나스톡애널리시스(StockAnalysis) 데이터에 따르면 코인베이스(티커 COIN)는 9월 3일 181.44달러에 개장해...",
+          "link": "https://www.wikitree.co.kr/articles/1157361",
+          "publishedAt": "2026-09-05 01:26"
+        },
+        {
           "title": "14억7000만달러 유출, 블록체인 주식 노출 늘었다",
           "summary": "코인베이스($COIN) 같은 거래 인프라 기업과 스테이블코인 관련 기업이 포함되는 구조는 블록체인 주식형 노출이 단일 업종보다 넓게 짜인다는 점을 보여준다. 최근 자료에서도 블록체인 주식 쪽 움직임은...",
           "link": "https://www.tokenpost.kr/news/market/402662",
@@ -376,18 +388,6 @@
           "summary": "3일(현지시간) 오후3시29분 코인베이스글로벌(COIN) 주가는 전일대비 10.35% 상승한 193.07달러에 거래되고 있다. 같은시각 스트래티지(MSTR)는 16.35% 급등한 143.33달러, 라이엇플랫폼즈(RIOT)는 12.45% 오른 20.96달러를...",
           "link": "https://www.edaily.co.kr/News/Read?newsId=01620326645576840&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
           "publishedAt": "2026-09-04 04:59"
-        },
-        {
-          "title": "코인베이스, 머스크 계열사 CFO 출신 앤서니 암스트롱 이사로 선임…이...",
-          "summary": "벤징가(Benzinga)에 따르면 코인베이스 주가(COIN)는 목요일(현지시각) 프리마켓에서 1% 넘게 오르며, 1월 고점인 198달러 부근에서 이어진 8개월간의 하락 추세선 재돌파를 시도했다. 178.72달러 위에서 안착하면...",
-          "link": "https://www.wikitree.co.kr/articles/1157142",
-          "publishedAt": "2026-09-04 00:26"
-        },
-        {
-          "title": "로빈후드(HOOD), 고객 2,800만명 앞세워 온체인 '싹쓸이'...이더리움까지...",
-          "summary": "출시 3주차 하루 활성 주소도 약 32만 4,000개로 코인베이스(Coinbase, COIN)의 베이스(Base)를 앞섰다. 성장의 양축은 밈코인과 토큰화 주식이다. 로빈후드 체인의 토큰 발행 플랫폼 PONS에서는 코딩이나 별도 심사 없이...",
-          "link": "http://coinreaders.com/256423",
-          "publishedAt": "2026-09-04 00:02"
         }
       ]
     },
@@ -585,6 +585,12 @@
       "query": "팔로알토네트웍스",
       "items": [
         {
+          "title": "뉴욕증시 마감 60분 前..3대지수 '하락', 반도체주 '활짝', 애플 '뚝'",
+          "summary": "오라클의 주가는 157.31 달러로 2.12%, 팔로 알토 네트웍스(PANW)의 주가는 334.70 달러로 0.83% 각각 상승 중이나 세일즈포스(CRM) 주가는 260.36 달러로 1.54% 하락 중이다. 위스돔 트리 수석 이코노미스트 제레미 시겔은...",
+          "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=170967",
+          "publishedAt": "2026-09-05 04:38"
+        },
+        {
           "title": "AI스페라, 중동 시장 공략 확대…UAE 중심 파트너 3곳과 협력",
           "summary": "팔로알토 네트웍스·포티넷·OpenCTI·Wazuh 등 40개 이상의 보안 플랫폼과 연동된다. AI스페라는 위협 인텔리전스 플랫폼 크리미널 IP와 AI 기반 위협 노출 관리 솔루션 ‘AITEM’을 바탕으로 국내외 사업 영역을 확대하고...",
           "link": "https://zdnet.co.kr/view/?no=20260904143451",
@@ -667,12 +673,6 @@
           "summary": "시스코(Cisco), 팔로알토네트웍스(Palo Alto Networks), 체크포인트(Check Point) 같은 대형 보안기업은 자체 개발보다 인수를 선호하는 경우가 많다. 히든레이어와 인접·중첩된 영역을 노리는 스타트업 노마(Noma)와...",
           "link": "https://www.wikitree.co.kr/articles/1157136",
           "publishedAt": "2026-09-03 23:50"
-        },
-        {
-          "title": "팔로알토네트웍스(PANW), 실적 대박인데도 9% 급락...72배 몸값에 '발목...",
-          "summary": "팔로알토네트웍스(Palo Alto Networks, PANW)가 예상치를 웃도는 실적을 내고도 주가가 9% 급락했다. 9월 2일(현지시간) 나스닥에 따르면, 팔로알토네트웍스의 2026회계연도 4분기 매출은 전년 대비 34% 증가한 34억달러를...",
-          "link": "http://coinreaders.com/256291",
-          "publishedAt": "2026-09-03 12:36"
         }
       ]
     },
@@ -871,6 +871,12 @@
       "name": "소니",
       "query": "소니 SONY",
       "items": [
+        {
+          "title": "K팝 퍼포먼스의 여정⑤ 일본…K팝의 스핀오프가 시작됐다[레오 강의 K팝...",
+          "summary": "JYP엔터테인먼트(JYP Entertainment)와 일본 소니뮤직(Sony Music)은 ‘니지 프로젝트(Nizi Project)’를 통해 이들을 만들어냈다. 그렇게 니쥬는 일본을 대표하는 걸그룹으로 성장했고, 넥스지는 차세대 글로벌 퍼포먼스...",
+          "link": "https://sports.khan.co.kr/article/202609050308003?pt=nv",
+          "publishedAt": "2026-09-05 03:09"
+        },
         {
           "title": "'비처', 판교 현대백화점에 XR 글래스 체험존…게이밍·업무 생태계 확...",
           "summary": "특히 대표 제품인 '더 비스트'는 58도의 시야각(FOV)과 소니(Sony) Micro-OLED 디스플레이를 탑재해 착용 시 최대 174인치 크기의 대화면을 구현한다. 1200p 해상도와 120Hz 주사율을 지원해 고사양 게이밍 및 고화질 영상...",
