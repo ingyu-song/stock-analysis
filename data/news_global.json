@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05 04:39",
+  "updatedAt": "2026-09-05 07:23",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple iPhone 18 Pro Release Date Schedule: Your Complete September Countdown - Forbes",
+          "summary": "Apple iPhone 18 Pro Release Date Schedule: Your Complete September Countdown  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV1cwemotb3h1eGxJTENDWXhYTjRtZFRYMUZVM0RjbkZTM2Y5aTB1U3AwcTlaaGtCMzlTeHQ0V0NlaU9VZTkzcTFrXzVGWVI2OTZsUjhGX3ZqNWxKakU2TU5qRXVvNTFaeklhS3JBM3daTUVTeUtJYlJlc3VFdUtfaGgzd3M1MFlTUlFQUlJfUExWVktsN00yX1N1ZkdPMXhtbmJVZm1ETWJXemhtZ1Q4MXlFRktsOW5GLXI2NS12REUtaDRxemtv?oc=5",
+          "publishedAt": "2026-09-05 06:00",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "John Ternus, Apple’s new ‘wicked calm’ CEO",
           "summary": "Tim Cook’s successor is a product engineer who has spent 25 years at the company and belongs to the generation mentored by Steve Jobs",
@@ -22,8 +29,8 @@
       "name": "인텔",
       "items": [
         {
-          "title": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs - digitimes",
-          "summary": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs  digitimes",
+          "title": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs - digitimes.com",
+          "summary": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWkNaZ1RXSHplRHl1T3BlX0FwRHk2N2IyMkRTM1E3M2FzN1N1T2FOOFlEMHl2Zkd1UEdfSXE0Si1RVWtTTl9tV2NqVzd2T0ZPMmFNNHUyYUF4cTN3N0lQVXlZNHJVcGgxMERjazZPUDN1aHU3Sk1qMngtZVphRklHaFVLZ3FYS2ZEbm9SWg?oc=5",
           "publishedAt": "2026-09-03 11:21",
           "outlet": "DigiTimes"
