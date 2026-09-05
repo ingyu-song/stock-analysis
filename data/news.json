@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05 14:49",
+  "updatedAt": "2026-09-05 19:41",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -300,6 +300,12 @@
       "query": "코인베이스 COIN",
       "items": [
         {
+          "title": "AI 결제 지갑 권한 통제, 파라가 전면에 세웠다",
+          "summary": "코인베이스($COIN)는 엑스402(x402) 문서에서 엑스402를 HTTP 402 코드를 활용한 결제 프로토콜로 설명했다. 엑스402는 구매자가 API나 디지털 자원 접근 요청 중 가격을 확인하고 결제한 뒤 같은 흐름 안에서 접근...",
+          "link": "https://www.tokenpost.kr/news/ai/402945",
+          "publishedAt": "2026-09-05 15:44"
+        },
+        {
           "title": "모건스탠리 MSBT, 4일간 355.33 BTC 받았다",
           "summary": "온체인 렌즈(Onchain Lens)는 5일 오전 1시5분 한국시간 기준 MSBT가 94.56 BTC를 추가로 누적해 코인베이스($COIN) 프라임에서 인출했다고 밝혔다. 해당 물량의 가치는 754만 달러(약 102억원)로 제시됐다. 이번 수치는...",
           "link": "https://www.tokenpost.kr/news/cryptocurrency/402835",
@@ -382,12 +388,6 @@
           "summary": "8월 이후에는 코인베이스($COIN) 토큰화 주식도 B20 위에 올라왔다. 베이스 공식 블로그는 8월 24일 토큰화 주식이 베이스에서 라이브 상태가 됐다고 밝혔다. 이 자산은 1대1 담보와 규제 보관기관 구조를 기반으로 한다....",
           "link": "https://www.tokenpost.kr/news/blockchain/402190",
           "publishedAt": "2026-09-04 07:04"
-        },
-        {
-          "title": "[美특징주]비트코인 3개월 만에 최고치 돌파…암호화폐 관련주 급등",
-          "summary": "이에 이날 정규장 거래에서 암호화폐 거래소 코인베이스 글로벌(COIN)은 10.14% 강세로 192.70달러까지 오르며 거래를 마쳤다. 또한 비트코인 중심 기업 스트레티지(MSTR)도 전일보다 17.56% 급등하며 144.82달러에...",
-          "link": "https://www.edaily.co.kr/News/Read?newsId=02312406645576840&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-          "publishedAt": "2026-09-04 06:44"
         }
       ]
     },
@@ -698,12 +698,6 @@
           "summary": "지난달 프록터앤드갬블(PG)은 영양보충제 업체 쏜 인수 계획을 발표했다. 인수 규모는 38억달러다. 앞서 올해 초에는 유니레버(UL)가 종합비타민 업체 그런스 인수 계획을 밝힌 바 있다. 네슬레는 프리미엄 비타민...",
           "link": "https://www.newspim.com/news/view/20260902000088",
           "publishedAt": "2026-09-02 08:11"
-        },
-        {
-          "title": "[미국 ETF 히든 챔피언] ㊲ \"AI 거품 터질 때 웃는다\" M7 뺀 XMAG",
-          "summary": "S&P500 종목 가운데 배당귀족주는 67개로, XMAG의 포트폴리오에서 상위권에 이름을 올린 엑손 모빌과 존슨앤드존슨, 월마트, 프록터앤드갬블(PG) 등이 여기에 해당한다. 펀드가 뉴욕증시의 대표적인 성장주인 M7을...",
-          "link": "https://www.newspim.com/news/view/20260831000864",
-          "publishedAt": "2026-08-31 15:44"
         }
       ]
     },
@@ -772,12 +766,6 @@
           "summary": "▲인텔(INTC)은 0.3%, ▲램리서치(LRCX)는 0.45%, ▲텍사스인스트루먼트(TXN)는 0.5% 각각 상승했다. 차오 전략가는 \"인공지능(AI)과 디지털 인프라 같은 구조적인 성장 테마와 연계된 시장 영역을 계속 선호한다\"고 말했다....",
           "link": "https://www.newspim.com/news/view/20260831001081",
           "publishedAt": "2026-08-31 21:50"
-        },
-        {
-          "title": "美 증시, 중동 공포에 랠리 중단...엔비디아(NVDA)·애플(AAPL) 초긴장",
-          "summary": "인텔(Intel, INTC)은 SK하이닉스가 고대역폭메모리(HBM) 베이스 다이 생산에 인텔 파운드리 활용을 검토한다는 보도에 주목받았다. 마이크론 테크놀로지(Micron Technology, MU)는 8월 약 13% 상승했다....",
-          "link": "http://coinreaders.com/255666",
-          "publishedAt": "2026-08-31 18:46"
         }
       ]
     },

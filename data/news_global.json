@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05 14:49",
+  "updatedAt": "2026-09-05 19:41",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple Loop: Final iPhone 18 Pro Details, iPhone Ultra Delays, MacBook Ultra Teased - forbes.com",
+          "summary": "Apple Loop: Final iPhone 18 Pro Details, iPhone Ultra Delays, MacBook Ultra Teased  forbes.com",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQaFRMS3NqOHUwbWYtQVhKUDEwZWtjUXU1T2k3aGFFNVdQdm9LeXEybEhvX0JSZEhiMzdtYTd0WjFXQ3BZNFRLaHNFdTJ1Ry1mQkotdW81NzEzSnJONURGTUN1clhBLXBnQlBlSUxqYkE3SjE4ZDlQX1oweWF3dkZhLWE4NGpySjBfbXhOazZlWmpNUzFXVzBMSXBnSjdUUTV2emRleVkxZnVPdFZkZldkWHdwVHBTVnB3VVdUNDFKOEJhNFJKV0RwTDdQTGhvUmM1ak9jWmFEN0dtN1ktMVpSNUZR?oc=5",
+          "publishedAt": "2026-09-05 03:17",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "John Ternus, Apple’s new ‘wicked calm’ CEO",
           "summary": "Tim Cook’s successor is a product engineer who has spent 25 years at the company and belongs to the generation mentored by Steve Jobs",
@@ -34,13 +41,6 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
-        {
-          "title": "Nvidia’s $5 Billion Intel Bet Was Worth $30 Billion by June. Is the Partnership Still Mispriced?",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-5-billion-intel-bet-213940172.html",
-          "publishedAt": "2026-09-04 06:39",
-          "outlet": "Yahoo Finance"
-        },
         {
           "title": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs - digitimes",
           "summary": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs  digitimes",
