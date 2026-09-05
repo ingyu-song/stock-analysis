@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05 22:53",
+  "updatedAt": "2026-09-06 01:51",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -12,8 +12,15 @@
           "title": "Dow Jones Futures: Nvidia, Micron, Sandisk Flash Buy Signals; Apple, Inflation Reports Ahead",
           "summary": "",
           "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-09-05 21:05",
+          "publishedAt": "2026-09-06 01:28",
           "outlet": "Yahoo Finance"
+        },
+        {
+          "title": "Apple iPhone 18 Pro Release Date Schedule: Your Complete September Countdown - Forbes",
+          "summary": "Apple iPhone 18 Pro Release Date Schedule: Your Complete September Countdown  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNV1cwemotb3h1eGxJTENDWXhYTjRtZFRYMUZVM0RjbkZTM2Y5aTB1U3AwcTlaaGtCMzlTeHQ0V0NlaU9VZTkzcTFrXzVGWVI2OTZsUjhGX3ZqNWxKakU2TU5qRXVvNTFaeklhS3JBM3daTUVTeUtJYlJlc3VFdUtfaGgzd3M1MFlTUlFQUlJfUExWVktsN00yX1N1ZkdPMXhtbmJVZm1ETWJXemhtZ1Q4MXlFRktsOW5GLXI2NS12REUtaDRxemtv?oc=5",
+          "publishedAt": "2026-09-05 06:00",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Apple Loop: Final iPhone 18 Pro Details, iPhone Ultra Delays, MacBook Ultra Teased - Forbes",
@@ -29,24 +36,18 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Why Gabelli’s Global Content & Connectivity Fund Likes Alphabet (GOOGL)",
+          "summary": "",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/why-gabelli-global-content-connectivity-153522934.html",
+          "publishedAt": "2026-09-06 00:35",
+          "outlet": "Yahoo Finance"
+        },
+        {
           "title": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill - The Information",
           "summary": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill  The Information",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUlSeE92RzRMdXFZNjJzQlNNd3pCREFuS0RIeFhCSFhlY2hMdFVsUGkwRkJMWEpuVDlfajh4b1BDQ2VsZWY2dTU4QVJpNDkxWGNDaWthaG9lNzNwckMyRndrR3pRbU9oZ1pGSktoem9KNTM5YzZJZXpXc01uTVZib1l0TUJybHdNWDRPaFEzM2FHOTNpTnc?oc=5",
           "publishedAt": "2026-09-03 22:00",
           "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs - digitimes",
-          "summary": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWkNaZ1RXSHplRHl1T3BlX0FwRHk2N2IyMkRTM1E3M2FzN1N1T2FOOFlEMHl2Zkd1UEdfSXE0Si1RVWtTTl9tV2NqVzd2T0ZPMmFNNHUyYUF4cTN3N0lQVXlZNHJVcGgxMERjazZPUDN1aHU3Sk1qMngtZVphRklHaFVLZ3FYS2ZEbm9SWg?oc=5",
-          "publishedAt": "2026-09-03 11:21",
-          "outlet": "DigiTimes"
         }
       ]
     }
