@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-05 10:02",
+  "updatedAt": "2026-09-05 14:49",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -34,6 +34,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Nvidia’s $5 Billion Intel Bet Was Worth $30 Billion by June. Is the Partnership Still Mispriced?",
+          "summary": "",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/nvidia-5-billion-intel-bet-213940172.html",
+          "publishedAt": "2026-09-04 06:39",
+          "outlet": "Yahoo Finance"
+        },
         {
           "title": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs - digitimes",
           "summary": "Intel pre-funds EMIB-T and CPU capacity, will address DRAM through partners rather than fabs  digitimes",
