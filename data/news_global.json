@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06 06:18",
+  "updatedAt": "2026-09-06 08:56",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -22,11 +22,24 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill - The Information",
-          "summary": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill  The Information",
+          "title": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill - theinformation.com",
+          "summary": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill  theinformation.com",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUlSeE92RzRMdXFZNjJzQlNNd3pCREFuS0RIeFhCSFhlY2hMdFVsUGkwRkJMWEpuVDlfajh4b1BDQ2VsZWY2dTU4QVJpNDkxWGNDaWthaG9lNzNwckMyRndrR3pRbU9oZ1pGSktoem9KNTM5YzZJZXpXc01uTVZib1l0TUJybHdNWDRPaFEzM2FHOTNpTnc?oc=5",
           "publishedAt": "2026-09-03 22:00",
           "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Intel’s AI Tailwinds Are Real. Mizuho Cut the Target Anyway.",
+          "summary": "",
+          "link": "https://finance.yahoo.com/technology/ai/articles/intel-ai-tailwinds-real-mizuho-225825483.html",
+          "publishedAt": "2026-09-06 07:58",
+          "outlet": "Yahoo Finance"
         }
       ]
     }
