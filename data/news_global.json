@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06 13:46",
+  "updatedAt": "2026-09-06 18:29",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "5 big analyst AI moves: iPhone launch to be negative for Apple stock",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-iphone-launch-to-be-negative-for-apple-stock-4890227",
+          "publishedAt": "2026-09-06 16:38",
+          "outlet": "Investing.com"
+        },
         {
           "title": "How Apple’s iPhone 18 Pro Will Change Smartphones Forever - Forbes",
           "summary": "How Apple’s iPhone 18 Pro Will Change Smartphones Forever  Forbes",
