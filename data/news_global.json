@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07 04:15",
+  "updatedAt": "2026-09-07 06:26",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,20 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Dow Jones Futures Eye Iran With Apple, Inflation In Focus; Nvidia, Micron, Sandisk Flash Buy Signals",
+          "summary": "",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-micron-sandisk-buy-signals-apple-inflation-reports/?src=A00220&yptr=yahoo",
+          "publishedAt": "2026-09-07 06:10",
+          "outlet": "Yahoo Finance"
+        },
+        {
+          "title": "Apple (AAPL)’s New Mac Mini and Studio Bet Big on On-Device AI",
+          "summary": "",
+          "link": "https://finance.yahoo.com/technology/ai/articles/apple-aapl-mac-mini-studio-201609665.html",
+          "publishedAt": "2026-09-07 05:16",
+          "outlet": "Yahoo Finance"
+        },
         {
           "title": "KeyBanc warns Apple’s iPhone 18 launch may be a negative catalyst for shares",
           "summary": "",
