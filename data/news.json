@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07 02:06",
+  "updatedAt": "2026-09-07 04:15",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -473,12 +473,6 @@
           "summary": "캐시 우드(Cathie Wood)가 블록(Block Inc., XYZ)과 서클 인터넷 그룹(Circle Internet Group, CRCL)에 약 4,000만달러를 투입했다. 9월 1일(현지시간) 암호화폐 전문 매체 코인게이프에 따르면, 우드가 이끄는 아크...",
           "link": "http://coinreaders.com/256103",
           "publishedAt": "2026-09-02 13:52"
-        },
-        {
-          "title": "코인베이스 4.53% 하락, 미 크립토주 동반 약세",
-          "summary": "코인베이스($COIN), 서클($CRCL), 비트마인($BMNR)은 장중 4~5%대 낙폭을 보이며 비트코인보다 더 크게 흔들렸다. 인베스팅닷컴은 이날 미국 오전 거래에서 코인베이스가 3.8%, 서클이 5.2% 하락했다고 전했다. 같은 날짜...",
-          "link": "https://www.tokenpost.kr/news/market/401666",
-          "publishedAt": "2026-09-02 02:38"
         }
       ]
     },
@@ -742,12 +736,6 @@
           "summary": "엔비디아는 3.21%, 마이크론은 2.43%, 인텔(INTC)은 1.21% 상승했고 필라델피아반도체지수도 0.45% 올랐다. 미국 캘리포니아주 산타클래라에 있는 엔비디아 본사 [사진=블룸버그통신] ◆ 엔비디아 강세·브로드컴은 약세...",
           "link": "https://www.newspim.com/news/view/20260903001261",
           "publishedAt": "2026-09-03 22:32"
-        },
-        {
-          "title": "인텔(INTC), 기술주 투매에 '휘청'...85달러 지지선도 위험",
-          "summary": "인텔(Intel, INTC)이 장전 거래에서 2.94% 밀리며 85달러 지지선까지 몰렸다. 9월 1일(현지시간) 벤징가에 따르면, 인텔의 하락은 개별 악재보다 미국 증시 전반의 매도세와 맞물렸다. 나스닥 선물은 1.37%, S&P 500...",
-          "link": "http://coinreaders.com/256005",
-          "publishedAt": "2026-09-02 03:32"
         }
       ]
     },
@@ -853,6 +841,12 @@
       "name": "소니",
       "query": "소니 SONY",
       "items": [
+        {
+          "title": "소니·워너 등 음악출판사 35곳, 앤트로픽 저작권 소송…3대 음반사 전면...",
+          "summary": "소니뮤직퍼블리싱(Sony Music Publishing)과 워너채플뮤직(Warner Chappell Music) 등 음악 출판사 35곳이 8월 28일(현지시각) 앤트로픽(Anthropic)을 상대로 저작권 침해 소송을 제기했다. 소송은 미국 캘리포니아 북부지방법원에...",
+          "link": "https://www.wikitree.co.kr/articles/1157657",
+          "publishedAt": "2026-09-07 02:30"
+        },
         {
           "title": "K팝 퍼포먼스의 여정⑤ 일본…K팝의 스핀오프가 시작됐다[레오 강의 K팝...",
           "summary": "JYP엔터테인먼트(JYP Entertainment)와 일본 소니뮤직(Sony Music)은 ‘니지 프로젝트(Nizi Project)’를 통해 이들을 만들어냈다. 그렇게 니쥬는 일본을 대표하는 걸그룹으로 성장했고, 넥스지는 차세대 글로벌 퍼포먼스...",
