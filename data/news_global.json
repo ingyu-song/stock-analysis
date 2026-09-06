@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06 08:56",
+  "updatedAt": "2026-09-06 13:46",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,6 +14,13 @@
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOWHFyckJtRkFIaXQ5RTBvbXNHb2VDWnRWazl2UnBKcWlwUFdBanFkMzY4LUU0bUE5cC1Cc0U3WFRvV1NXaGIwRE1HNGJLSENvRXRCbndWU0tKVVo1S0RnTUt5WElmdVY4WEw5cWozMWNEby1wUGVidlc4a1djdTFPZnZDOFBPVTZtcVl6NDRTY1FQVFNwOXRTOHRDTU9FelVGcVVheEVMdFJqenlpcWZNWFRYOFhsQQ?oc=5",
           "publishedAt": "2026-09-06 03:13",
           "outlet": "Forbes Markets"
+        },
+        {
+          "title": "Commentary: Apple shifts to smart vehicle software layer as Ternus era arrives - digitimes",
+          "summary": "Commentary: Apple shifts to smart vehicle software layer as Ternus era arrives  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdlRSZFZOWW1CNEtmS3U3c1ZYVXVTdnBWQ1lCZXBRalRkdHNpRmdJeDJUU2JVODVneE9nV2U5bXUtQXR2Rk9CbnRsVVFxUTBFNnpIY2tZVlQ5YVk3M05xS2xBRU0wby1Ddkw3Rk1leWt1NnVpOG1yX0RJUHFjSmQ1Q2FjSkdUN09LSy1ZemtHY19NNVJQTWxNZWFLcmdpRllFMGo0eXNUZw?oc=5",
+          "publishedAt": "2026-09-04 18:06",
+          "outlet": "DigiTimes"
         }
       ]
     },
@@ -22,8 +29,8 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill - theinformation.com",
-          "summary": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill  theinformation.com",
+          "title": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill - The Information",
+          "summary": "Anthropic Splits From Google, OpenAI Over State AI Safety Bill  The Information",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOWUlSeE92RzRMdXFZNjJzQlNNd3pCREFuS0RIeFhCSFhlY2hMdFVsUGkwRkJMWEpuVDlfajh4b1BDQ2VsZWY2dTU4QVJpNDkxWGNDaWthaG9lNzNwckMyRndrR3pRbU9oZ1pGSktoem9KNTM5YzZJZXpXc01uTVZib1l0TUJybHdNWDRPaFEzM2FHOTNpTnc?oc=5",
           "publishedAt": "2026-09-03 22:00",
           "outlet": "The Information"
@@ -31,15 +38,15 @@
       ]
     },
     {
-      "ticker": "INTC",
-      "name": "인텔",
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
       "items": [
         {
-          "title": "Intel’s AI Tailwinds Are Real. Mizuho Cut the Target Anyway.",
-          "summary": "",
-          "link": "https://finance.yahoo.com/technology/ai/articles/intel-ai-tailwinds-real-mizuho-225825483.html",
-          "publishedAt": "2026-09-06 07:58",
-          "outlet": "Yahoo Finance"
+          "title": "LVMH sheds boom-time gains as luxury ‘feelgood factor’ fades",
+          "summary": "Pandemic-era rally that turned LVMH into Europe’s most valuable company has gone into reverse as investors doubt luxury recovery",
+          "link": "https://www.ft.com/content/02f36de6-b6ce-4a17-a474-bd5fa000f1a1?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-06 13:00",
+          "outlet": "Financial Times"
         }
       ]
     }
