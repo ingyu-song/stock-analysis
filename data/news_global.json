@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08 05:37",
+  "updatedAt": "2026-09-08 08:33",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,18 +9,18 @@
       "name": "애플",
       "items": [
         {
+          "title": "Apple, Oracle and Adobe Dominate the Week - The Information",
+          "summary": "Apple, Oracle and Adobe Dominate the Week  The Information",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR002b1BOUU9tal9yOFh1TWtBNmZhaEVKVzNkTU1XY2dvRVktQ0xwSlluTzY2TmFvaXBfN2VWSXpXcVJTLW40TzlsVllpWkNERzhaTVZuX1FhVEl1bllSR1R1a0NXcmVDaVdQSUZjNktZaGpDQjZWSFZtUExURVlzcDI0T1hTWWFfYjVSRVRwVjQzZw?oc=5",
+          "publishedAt": "2026-09-08 07:01",
+          "outlet": "The Information"
+        },
+        {
           "title": "The World’s Largest Private Weather Company Launches Global Weather App Featuring High-Resolution Forecasts Powered by AI",
           "summary": "<span class=\"byline\">September 7, 2026 -- Weathernews Inc., one of the world's largest private weather information companies, has announced the global release of its \"Weathernews\" app that covers the entire world. The app is available for free download on the Apple App Store and Google Play. The increasing number of abnormal and...",
           "link": "https://markets.businessinsider.com/news/stocks/the-world-s-largest-private-weather-company-launches-global-weather-app-featuring-high-resolution-forecasts-powered-by-ai-1036525338",
           "publishedAt": "2026-09-08 03:40",
           "outlet": "Business Insider Markets"
-        },
-        {
-          "title": "How Apple’s iPhone 18 Pro Will Change Smartphones Forever - forbes.com",
-          "summary": "How Apple’s iPhone 18 Pro Will Change Smartphones Forever  forbes.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeTFVZkJTZDNQU1ZJY0U5NXhBOEdoNF9tWE84NDVTOVE4WE55czB5N1l3eW9ycml5MVNLTnhMT0dhYzRIUThWT0NJczY3eWNhcEQ1Q0ZUWjVfTHJ5elRSSF84bG9LODloenU3SlNnQ1NIRVZIal9LSTdmTlVLS0xaRFF4TXByU1djZlNBRFNraV9SN0ZoZW9aTm9JU0xiRnJwQWdxWlE3SFhVcUlWazF3UW1qZW04Zw?oc=5",
-          "publishedAt": "2026-09-07 08:00",
-          "outlet": "Forbes Markets"
         }
       ]
     },
@@ -43,11 +43,11 @@
           "outlet": "Axios"
         },
         {
-          "title": "Australians will be able to switch off social media algorithms under planned legislation",
-          "summary": "Firms like Meta, Google and TikTok should face \"substantial\" penalties if they don't give the option, minister says.",
-          "link": "https://www.bbc.co.uk/news/articles/cn9wyvxn95vo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-09-07 12:40",
-          "outlet": "BBC Business"
+          "title": "Google Unveils Gemini 3.8 Flash and Fairwind Program: How to Play GOOGL Stock Here",
+          "summary": "",
+          "link": "https://finance.yahoo.com/technology/ai/articles/google-unveils-gemini-3-8-140002406.html",
+          "publishedAt": "2026-09-06 23:00",
+          "outlet": "Yahoo Finance"
         },
         {
           "title": "Google TPU splits training, inference as CPU becomes next focus - Digitimes",
