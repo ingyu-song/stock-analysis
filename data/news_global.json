@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-07 13:49",
+  "updatedAt": "2026-09-07 19:25",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,17 +9,17 @@
       "name": "애플",
       "items": [
         {
+          "title": "Huawei launches new foldable smartphone; Xiaomi and Apple set to follow",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/huawei-launches-new-foldable-smartphone-as-competition-with-xiaomi-apple-heats-up-4890496",
+          "publishedAt": "2026-09-07 18:18",
+          "outlet": "Investing.com"
+        },
+        {
           "title": "How Apple’s iPhone 18 Pro Will Change Smartphones Forever - Forbes",
           "summary": "How Apple’s iPhone 18 Pro Will Change Smartphones Forever  Forbes",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQeTFVZkJTZDNQU1ZJY0U5NXhBOEdoNF9tWE84NDVTOVE4WE55czB5N1l3eW9ycml5MVNLTnhMT0dhYzRIUThWT0NJczY3eWNhcEQ1Q0ZUWjVfTHJ5elRSSF84bG9LODloenU3SlNnQ1NIRVZIal9LSTdmTlVLS0xaRFF4TXByU1djZlNBRFNraV9SN0ZoZW9aTm9JU0xiRnJwQWdxWlE3SFhVcUlWazF3UW1qZW04Zw?oc=5",
           "publishedAt": "2026-09-07 08:00",
-          "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Apple iPhone 18 Pro Release Date Schedule: Your Complete September Countdown - Forbes",
-          "summary": "Apple iPhone 18 Pro Release Date Schedule: Your Complete September Countdown  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPOFlsREg2d21RS0tiWjJJQzBhclMyTnpqVjY5N0xVOGZCcWhWanV5dDFCemM1VmgyMjZWZFowS3dZQzg3b0lvMU9sa0ZHb1VKSU5tQTRlSG9SWDhOVTZrZUdraHVGUlNmcmZOd3lQaXJzR0tFRnJXdWFJMW83OWlqV3ZRYkVsb3U3bFlTQnJPUVZoSWI3YlVNeUU3SG1LNnlBaUdSVFNzbTdaTTlmeVJFUlVId2o3VGloX0hkaTloYXNSVXdyTDAw?oc=5",
-          "publishedAt": "2026-09-06 23:40",
           "outlet": "Forbes Markets"
         }
       ]
@@ -29,8 +29,22 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google TPU splits training, inference as CPU becomes next focus - digitimes.com",
-          "summary": "Google TPU splits training, inference as CPU becomes next focus  digitimes.com",
+          "title": "A growing movement wants AI out of schools",
+          "summary": "America's two largest school districts both imposed sweeping AI bans this past week, hitting the brakes on a technology that's rapidly making its way into classrooms around the country.Why it matters: Research on AI's educational value is mixed. Some studies have found personalized AI tutors can improve learning, while other research has linked AI-assisted essay writing to weaker critical thinking",
+          "link": "https://www.axios.com/2026/09/07/ai-schools-backlash-bans-new-york-los-angeles",
+          "publishedAt": "2026-09-07 19:00",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Australians will be able to switch off social media algorithms under planned legislation",
+          "summary": "Firms like Meta, Google and TikTok should face \"substantial\" penalties if they don't give the option, minister says.",
+          "link": "https://www.bbc.co.uk/news/articles/cn9wyvxn95vo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-09-07 12:40",
+          "outlet": "BBC Business"
+        },
+        {
+          "title": "Google TPU splits training, inference as CPU becomes next focus - Digitimes",
+          "summary": "Google TPU splits training, inference as CPU becomes next focus  Digitimes",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOGZZR1NsNDFFQlJFYWZYTE55MWRHT2w3amEzTHVzajRrbU9TWkIyYkxwY0VEMEtCWXo4bEdsWllaNUFmNk54VWp3MW5zU2w2czU4WUhLaWFFRDBEZkR0U1kxNjBvRlgwbFNyMGcxcHhXYWVvMXo2Y0hFQmVyVjY2Y2dVa2oxTzQ?oc=5",
           "publishedAt": "2026-09-05 08:54",
           "outlet": "DigiTimes"
