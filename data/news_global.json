@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08 23:36",
+  "updatedAt": "2026-09-09 03:45",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,20 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "UK to force Apple and Google to block explicit images on children’s smartphones",
+          "summary": "Lisa Nandy says government will introduce legislation after talks deadline ends without breakthroughApple and Google will be forced to block explicit images on children’s smartphones by law in the UK after talks failed to produce a breakthrough, the government has said.The legislation commitment puts ministers on a collision course with two of the biggest players in Silicon Valley, months after th",
+          "link": "https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation",
+          "publishedAt": "2026-09-09 03:25",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "I Tried The Xiaomi 18 Fold And This Is What I Want From Apple’s Foldable iPhone Ultra - Forbes",
+          "summary": "I Tried The Xiaomi 18 Fold And This Is What I Want From Apple’s Foldable iPhone Ultra  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTEw3eXI3TlhINzA3cTA1TFBkX0o2YXg0enVwYUMwdWZyU29Ca0ktTjJ5VkZPRWlDazdUQWNvWEVPRnVsWUhTdlF4RERQaDRiY3VOREwwQ1R1UUpyWEp3SGRYR0FoU2dBMkRaUWF2UEZ0V2RfTVBQSjBEdlN6OFB0WE5pYlpXZzRtOXI1MUhISzY4SDBNWjZmVlZWZmdmWVNpN2xtZkpWdnB1ME1kVWQ2N2NEd2JQNC1ZV3piQklQYVp4Z2hpb0xDelNDNlRleEJ1MFlfY1R3?oc=5",
+          "publishedAt": "2026-09-08 16:00",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "Apple, Oracle and Adobe Dominate the Week - The Information",
           "summary": "Apple, Oracle and Adobe Dominate the Week  The Information",
@@ -22,11 +36,25 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "A growing movement wants AI out of schools",
-          "summary": "America's two largest school districts both imposed sweeping AI bans this past week, hitting the brakes on a technology that's rapidly making its way into classrooms around the country.Why it matters: Research on AI's educational value is mixed. Some studies have found personalized AI tutors can improve learning, while other research has linked AI-assisted essay writing to weaker critical thinking",
-          "link": "https://www.axios.com/2026/09/07/ai-schools-backlash-bans-new-york-los-angeles",
-          "publishedAt": "2026-09-07 19:00",
-          "outlet": "Axios"
+          "title": "UK to force Apple and Google to block explicit images on children’s smartphones",
+          "summary": "Lisa Nandy says government will introduce legislation after talks deadline ends without breakthroughApple and Google will be forced to block explicit images on children’s smartphones by law in the UK after talks failed to produce a breakthrough, the government has said.The legislation commitment puts ministers on a collision course with two of the biggest players in Silicon Valley, months after th",
+          "link": "https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation",
+          "publishedAt": "2026-09-09 03:25",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "OpenAI CFO Sarah Friar says ChatGPT's ads should be like 'if Google and Meta had a baby'",
+          "summary": "",
+          "link": "https://www.businessinsider.com/openai-cfo-chatgpts-ads-google-and-meta-had-a-baby-2026-9",
+          "publishedAt": "2026-09-09 03:06",
+          "outlet": "Business Insider Markets"
+        },
+        {
+          "title": "EXCLUSIVE: Google warns of lower quality as it revamps Europe search results to avoid EU fines - Reuters",
+          "summary": "EXCLUSIVE: Google warns of lower quality as it revamps Europe search results to avoid EU fines  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUx1SUpiY29kQzBaZ0I0UmVKN0J1UkFoRlRmN0I1c0xwUjZackt2T3BVNHBvSFYwTzg3YUd6VUZlV3JrZ1FYUXVVUVpJWlRqZGN1VTNxUTZVNndVWXNJTkZ5Ui1YVjkyUDZuSW9ZWmNiR1NQYmtfOEhaVVhFWUE0dDROaVBOckhYZ3pvcnFwNXR4M3lkdmpxdUZ5eFRBT01jOGpzR0oyX2t1UHNValpzRmZJOWhnWGc?oc=5",
+          "publishedAt": "2026-09-09 01:36",
+          "outlet": "Reuters Business (via Google News)"
         }
       ]
     },
@@ -34,6 +62,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Intel, AMD among market cap stock movers on Tuesday",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/intel-amd-among-market-cap-stock-movers-on-tuesday-93CH-4892201",
+          "publishedAt": "2026-09-09 03:06",
+          "outlet": "Investing.com"
+        },
         {
           "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
           "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes",
