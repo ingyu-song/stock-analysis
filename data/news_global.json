@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08 13:45",
+  "updatedAt": "2026-09-08 18:46",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Huawei, Xiaomi launch new foldable smartphones ahead of Apple event",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/huawei-launches-new-foldable-smartphone-as-competition-with-xiaomi-apple-heats-up-4890496",
-          "publishedAt": "2026-09-08 10:36",
-          "outlet": "Investing.com"
-        },
         {
           "title": "Apple, Oracle and Adobe Dominate the Week - The Information",
           "summary": "Apple, Oracle and Adobe Dominate the Week  The Information",
@@ -48,6 +41,19 @@
           "link": "https://www.axios.com/2026/09/07/ai-schools-backlash-bans-new-york-los-angeles",
           "publishedAt": "2026-09-07 19:00",
           "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
+          "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
+          "publishedAt": "2026-09-08 15:16",
+          "outlet": "DigiTimes"
         }
       ]
     }
