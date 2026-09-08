@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08 18:46",
+  "updatedAt": "2026-09-08 23:36",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,13 +14,6 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR002b1BOUU9tal9yOFh1TWtBNmZhaEVKVzNkTU1XY2dvRVktQ0xwSlluTzY2TmFvaXBfN2VWSXpXcVJTLW40TzlsVllpWkNERzhaTVZuX1FhVEl1bllSR1R1a0NXcmVDaVdQSUZjNktZaGpDQjZWSFZtUExURVlzcDI0T1hTWWFfYjVSRVRwVjQzZw?oc=5",
           "publishedAt": "2026-09-08 07:01",
           "outlet": "The Information"
-        },
-        {
-          "title": "The World’s Largest Private Weather Company Launches Global Weather App Featuring High-Resolution Forecasts Powered by AI",
-          "summary": "<span class=\"byline\">September 7, 2026 -- Weathernews Inc., one of the world's largest private weather information companies, has announced the global release of its \"Weathernews\" app that covers the entire world. The app is available for free download on the Apple App Store and Google Play. The increasing number of abnormal and...",
-          "link": "https://markets.businessinsider.com/news/stocks/the-world-s-largest-private-weather-company-launches-global-weather-app-featuring-high-resolution-forecasts-powered-by-ai-1036525338",
-          "publishedAt": "2026-09-08 03:40",
-          "outlet": "Business Insider Markets"
         }
       ]
     },
@@ -28,13 +21,6 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
-        {
-          "title": "The World’s Largest Private Weather Company Launches Global Weather App Featuring High-Resolution Forecasts Powered by AI",
-          "summary": "<span class=\"byline\">September 7, 2026 -- Weathernews Inc., one of the world's largest private weather information companies, has announced the global release of its \"Weathernews\" app that covers the entire world. The app is available for free download on the Apple App Store and Google Play. The increasing number of abnormal and...",
-          "link": "https://markets.businessinsider.com/news/stocks/the-world-s-largest-private-weather-company-launches-global-weather-app-featuring-high-resolution-forecasts-powered-by-ai-1036525338",
-          "publishedAt": "2026-09-08 03:40",
-          "outlet": "Business Insider Markets"
-        },
         {
           "title": "A growing movement wants AI out of schools",
           "summary": "America's two largest school districts both imposed sweeping AI bans this past week, hitting the brakes on a technology that's rapidly making its way into classrooms around the country.Why it matters: Research on AI's educational value is mixed. Some studies have found personalized AI tutors can improve learning, while other research has linked AI-assisted essay writing to weaker critical thinking",
@@ -53,6 +39,13 @@
           "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
           "publishedAt": "2026-09-08 15:16",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps - digitimes",
+          "summary": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14RnY0bUZLMDBJOHFsV3NJVy1qcEpkTWhXeGQ0aUdkS1NROU5IX1JrVzdKT0xPTkJzYlR6TUtacElVRFlqWjEwaGF2SGZ1WVJXZ2ZaRVVXNEdNRnUyZzA4aTd5aFZXTFlOenVqWWROTEdFUTJFa0JqT1g1MA?oc=5",
+          "publishedAt": "2026-09-08 13:13",
           "outlet": "DigiTimes"
         }
       ]
