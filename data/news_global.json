@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09 03:45",
+  "updatedAt": "2026-09-09 06:54",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -10,7 +10,7 @@
       "items": [
         {
           "title": "UK to force Apple and Google to block explicit images on children’s smartphones",
-          "summary": "Lisa Nandy says government will introduce legislation after talks deadline ends without breakthroughApple and Google will be forced to block explicit images on children’s smartphones by law in the UK after talks failed to produce a breakthrough, the government has said.The legislation commitment puts ministers on a collision course with two of the biggest players in Silicon Valley, months after th",
+          "summary": "Lisa Nandy says government will introduce legislation after talks end without breakthroughApple and Google will be forced to block explicit images on children’s smartphones by law in the UK after talks failed to produce a breakthrough, the government has said.The legislation commitment puts ministers on a collision course with two of the biggest players in Silicon Valley, months after the governme",
           "link": "https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation",
           "publishedAt": "2026-09-09 03:25",
           "outlet": "The Guardian Business"
@@ -21,13 +21,6 @@
           "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTEw3eXI3TlhINzA3cTA1TFBkX0o2YXg0enVwYUMwdWZyU29Ca0ktTjJ5VkZPRWlDazdUQWNvWEVPRnVsWUhTdlF4RERQaDRiY3VOREwwQ1R1UUpyWEp3SGRYR0FoU2dBMkRaUWF2UEZ0V2RfTVBQSjBEdlN6OFB0WE5pYlpXZzRtOXI1MUhISzY4SDBNWjZmVlZWZmdmWVNpN2xtZkpWdnB1ME1kVWQ2N2NEd2JQNC1ZV3piQklQYVp4Z2hpb0xDelNDNlRleEJ1MFlfY1R3?oc=5",
           "publishedAt": "2026-09-08 16:00",
           "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Apple, Oracle and Adobe Dominate the Week - The Information",
-          "summary": "Apple, Oracle and Adobe Dominate the Week  The Information",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPR002b1BOUU9tal9yOFh1TWtBNmZhaEVKVzNkTU1XY2dvRVktQ0xwSlluTzY2TmFvaXBfN2VWSXpXcVJTLW40TzlsVllpWkNERzhaTVZuX1FhVEl1bllSR1R1a0NXcmVDaVdQSUZjNktZaGpDQjZWSFZtUExURVlzcDI0T1hTWWFfYjVSRVRwVjQzZw?oc=5",
-          "publishedAt": "2026-09-08 07:01",
-          "outlet": "The Information"
         }
       ]
     },
@@ -37,24 +30,23 @@
       "items": [
         {
           "title": "UK to force Apple and Google to block explicit images on children’s smartphones",
-          "summary": "Lisa Nandy says government will introduce legislation after talks deadline ends without breakthroughApple and Google will be forced to block explicit images on children’s smartphones by law in the UK after talks failed to produce a breakthrough, the government has said.The legislation commitment puts ministers on a collision course with two of the biggest players in Silicon Valley, months after th",
+          "summary": "Lisa Nandy says government will introduce legislation after talks end without breakthroughApple and Google will be forced to block explicit images on children’s smartphones by law in the UK after talks failed to produce a breakthrough, the government has said.The legislation commitment puts ministers on a collision course with two of the biggest players in Silicon Valley, months after the governme",
           "link": "https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation",
           "publishedAt": "2026-09-09 03:25",
           "outlet": "The Guardian Business"
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "items": [
         {
-          "title": "OpenAI CFO Sarah Friar says ChatGPT's ads should be like 'if Google and Meta had a baby'",
+          "title": "Palo Alto Networks Delivers Strong FCF Margins - Is PANW Stock Set to Rise?",
           "summary": "",
-          "link": "https://www.businessinsider.com/openai-cfo-chatgpts-ads-google-and-meta-had-a-baby-2026-9",
-          "publishedAt": "2026-09-09 03:06",
-          "outlet": "Business Insider Markets"
-        },
-        {
-          "title": "EXCLUSIVE: Google warns of lower quality as it revamps Europe search results to avoid EU fines - Reuters",
-          "summary": "EXCLUSIVE: Google warns of lower quality as it revamps Europe search results to avoid EU fines  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNcUx1SUpiY29kQzBaZ0I0UmVKN0J1UkFoRlRmN0I1c0xwUjZackt2T3BVNHBvSFYwTzg3YUd6VUZlV3JrZ1FYUXVVUVpJWlRqZGN1VTNxUTZVNndVWXNJTkZ5Ui1YVjkyUDZuSW9ZWmNiR1NQYmtfOEhaVVhFWUE0dDROaVBOckhYZ3pvcnFwNXR4M3lkdmpxdUZ5eFRBT01jOGpzR0oyX2t1UHNValpzRmZJOWhnWGc?oc=5",
-          "publishedAt": "2026-09-09 01:36",
-          "outlet": "Reuters Business (via Google News)"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-delivers-strong-133002503.html",
+          "publishedAt": "2026-09-07 22:30",
+          "outlet": "Yahoo Finance"
         }
       ]
     },
@@ -62,13 +54,6 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
-        {
-          "title": "Intel, AMD among market cap stock movers on Tuesday",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/intel-amd-among-market-cap-stock-movers-on-tuesday-93CH-4892201",
-          "publishedAt": "2026-09-09 03:06",
-          "outlet": "Investing.com"
-        },
         {
           "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
           "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes",
