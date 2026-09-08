@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-08 08:33",
+  "updatedAt": "2026-09-08 13:45",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Huawei, Xiaomi launch new foldable smartphones ahead of Apple event",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/huawei-launches-new-foldable-smartphone-as-competition-with-xiaomi-apple-heats-up-4890496",
+          "publishedAt": "2026-09-08 10:36",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Apple, Oracle and Adobe Dominate the Week - The Information",
           "summary": "Apple, Oracle and Adobe Dominate the Week  The Information",
@@ -41,20 +48,6 @@
           "link": "https://www.axios.com/2026/09/07/ai-schools-backlash-bans-new-york-los-angeles",
           "publishedAt": "2026-09-07 19:00",
           "outlet": "Axios"
-        },
-        {
-          "title": "Google Unveils Gemini 3.8 Flash and Fairwind Program: How to Play GOOGL Stock Here",
-          "summary": "",
-          "link": "https://finance.yahoo.com/technology/ai/articles/google-unveils-gemini-3-8-140002406.html",
-          "publishedAt": "2026-09-06 23:00",
-          "outlet": "Yahoo Finance"
-        },
-        {
-          "title": "Google TPU splits training, inference as CPU becomes next focus - Digitimes",
-          "summary": "Google TPU splits training, inference as CPU becomes next focus  Digitimes",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPOGZZR1NsNDFFQlJFYWZYTE55MWRHT2w3amEzTHVzajRrbU9TWkIyYkxwY0VEMEtCWXo4bEdsWllaNUFmNk54VWp3MW5zU2w2czU4WUhLaWFFRDBEZkR0U1kxNjBvRlgwbFNyMGcxcHhXYWVvMXo2Y0hFQmVyVjY2Y2dVa2oxTzQ?oc=5",
-          "publishedAt": "2026-09-05 08:54",
-          "outlet": "DigiTimes"
         }
       ]
     }
