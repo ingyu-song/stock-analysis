@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09 09:19",
+  "updatedAt": "2026-09-09 15:02",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "UK to force Apple and Google to block explicit images on children’s smartphones",
-          "summary": "Lisa Nandy says government will introduce legislation after talks end without breakthroughApple and Google will be forced to block explicit images on children’s smartphones by law in the UK after talks failed to produce a breakthrough, the government has said.The legislation commitment puts ministers on a collision course with two of the biggest players in Silicon Valley, months after the governme",
-          "link": "https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation",
-          "publishedAt": "2026-09-09 03:25",
-          "outlet": "The Guardian Business"
-        },
         {
           "title": "I Tried The Xiaomi 18 Fold And This Is What I Want From Apple’s Foldable iPhone Ultra - Forbes",
           "summary": "I Tried The Xiaomi 18 Fold And This Is What I Want From Apple’s Foldable iPhone Ultra  Forbes",
@@ -29,11 +22,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "UK to force Apple and Google to block explicit images on children’s smartphones",
-          "summary": "Lisa Nandy says government will introduce legislation after talks end without breakthroughApple and Google will be forced to block explicit images on children’s smartphones by law in the UK after talks failed to produce a breakthrough, the government has said.The legislation commitment puts ministers on a collision course with two of the biggest players in Silicon Valley, months after the governme",
-          "link": "https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation",
-          "publishedAt": "2026-09-09 03:25",
-          "outlet": "The Guardian Business"
+          "title": "AI borrowing boom shakes up Swiss credit market",
+          "summary": "Bonds from the likes of Alphabet and Amazon have accounted for more than a quarter of Swiss franc corporate issuance this year",
+          "link": "https://www.ft.com/content/fb189d81-e5ce-4aba-8707-53c88dae6e60?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-09 13:00",
+          "outlet": "Financial Times"
         }
       ]
     },
