@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09 06:54",
+  "updatedAt": "2026-09-09 09:19",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -34,19 +34,6 @@
           "link": "https://www.theguardian.com/technology/2026/sep/08/uk-apple-google-explicit-images-children-smartphones-lisa-nandy-legislation",
           "publishedAt": "2026-09-09 03:25",
           "outlet": "The Guardian Business"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "Palo Alto Networks Delivers Strong FCF Margins - Is PANW Stock Set to Rise?",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-networks-delivers-strong-133002503.html",
-          "publishedAt": "2026-09-07 22:30",
-          "outlet": "Yahoo Finance"
         }
       ]
     },
