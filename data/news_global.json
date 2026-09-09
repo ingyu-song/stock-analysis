@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09 15:02",
+  "updatedAt": "2026-09-09 20:30",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,18 @@
       "name": "애플",
       "items": [
         {
-          "title": "I Tried The Xiaomi 18 Fold And This Is What I Want From Apple’s Foldable iPhone Ultra - Forbes",
-          "summary": "I Tried The Xiaomi 18 Fold And This Is What I Want From Apple’s Foldable iPhone Ultra  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNTEw3eXI3TlhINzA3cTA1TFBkX0o2YXg0enVwYUMwdWZyU29Ca0ktTjJ5VkZPRWlDazdUQWNvWEVPRnVsWUhTdlF4RERQaDRiY3VOREwwQ1R1UUpyWEp3SGRYR0FoU2dBMkRaUWF2UEZ0V2RfTVBQSjBEdlN6OFB0WE5pYlpXZzRtOXI1MUhISzY4SDBNWjZmVlZWZmdmWVNpN2xtZkpWdnB1ME1kVWQ2N2NEd2JQNC1ZV3piQklQYVp4Z2hpb0xDelNDNlRleEJ1MFlfY1R3?oc=5",
-          "publishedAt": "2026-09-08 16:00",
-          "outlet": "Forbes Markets"
+          "title": "Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due",
+          "summary": "",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo",
+          "publishedAt": "2026-09-09 20:12",
+          "outlet": "Yahoo Finance"
+        },
+        {
+          "title": "Apple expected to unveil folding iPhone as new CEO takes center stage",
+          "summary": "The new model will serve as the first big test for John Ternus, who took the role last weekAll eyes are on Apple’s annual fall announcement of new products this afternoon, where the company is expected to unveil the most significant change to the iPhone since the smartphone’s introduction in 2007.Unlike previous iterations, the new iPhone is expected to fold, opening and closing like a passport to",
+          "link": "https://www.theguardian.com/technology/2026/sep/08/apple-new-folding-iphone",
+          "publishedAt": "2026-09-09 15:00",
+          "outlet": "The Guardian Business"
         }
       ]
     },
@@ -22,11 +29,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "AI borrowing boom shakes up Swiss credit market",
-          "summary": "Bonds from the likes of Alphabet and Amazon have accounted for more than a quarter of Swiss franc corporate issuance this year",
-          "link": "https://www.ft.com/content/fb189d81-e5ce-4aba-8707-53c88dae6e60?syn-25a6b1a6=1",
-          "publishedAt": "2026-09-09 13:00",
-          "outlet": "Financial Times"
+          "title": "Google Warns that EU-Mandated Changes Worsen User Experience - theinformation.com",
+          "summary": "Google Warns that EU-Mandated Changes Worsen User Experience  theinformation.com",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUWMtS29oRGFFd0V2Yld0UU4tcHl1RzF5bEN0VTlBV1ZUMlFwXzExeE50NU1zcW53QzdTZUgtQzF5dkpheFFva3F5d3FMWXBsRWJYWkdlUEV1TUphckRBSGd6OV9iS2w4Z08wYXFiQkQwTG8yU21jempxbDZOYkVhWmhXZU91OFRERk5selZSc1NFZ2RCWG0yanZqM3g?oc=5",
+          "publishedAt": "2026-09-09 15:22",
+          "outlet": "The Information"
         }
       ]
     },
