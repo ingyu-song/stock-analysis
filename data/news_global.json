@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10 01:43",
+  "updatedAt": "2026-09-10 04:49",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,10 +9,38 @@
       "name": "애플",
       "items": [
         {
+          "title": "Apple joins foldable phone race with $1,999 passport-shaped iPhone Duo",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apple-expected-to-unveil-first-folding-phone-with-new-ceo-ternus-in-command-4893058",
+          "publishedAt": "2026-09-10 04:30",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Apple unveils folding iPhone Duo as new CEO takes center stage",
+          "summary": "The passport-size iPhone Duo serves as the first big test for John Ternus, who took over for Tim Cook last weekApple has unveiled the iPhone Duo, the company’s first foldable phone and the most significant change to the iPhone since the smartphone’s introduction in 2007.The nearly $2,000 device takes inspiration from Apple iPads and combines it with the portability and features of iPhones. When op",
+          "link": "https://www.theguardian.com/technology/2026/sep/08/apple-new-folding-iphone",
+          "publishedAt": "2026-09-10 03:45",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Foldable iPhone will cost $1,999 as Apple raises smartphone prices",
+          "summary": "Pro and Max models will be $100 more expensive than last year’s versions as the company faces supply chain pressures",
+          "link": "https://www.ft.com/content/dea481e8-d30b-4cbb-b535-5ff219c4e546?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-10 03:39",
+          "outlet": "Financial Times"
+        },
+        {
+          "title": "Apple's new boss starts with big gamble on costly first folding iPhone",
+          "summary": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
+          "link": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-09-10 03:39",
+          "outlet": "BBC Business"
+        },
+        {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
           "summary": "These are the stocks posting the largest moves midday.",
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html",
-          "publishedAt": "2026-09-10 00:43",
+          "publishedAt": "2026-09-10 02:41",
           "outlet": "CNBC Finance"
         },
         {
@@ -21,13 +49,6 @@
           "link": "https://www.businessinsider.com/apple-iphone-ultra-event-today-live-updates-2026-9",
           "publishedAt": "2026-09-10 00:30",
           "outlet": "Business Insider Markets"
-        },
-        {
-          "title": "A $2,000 Foldable iPhone? Here’s What Could Be Announced At Apple’s Launch Event Today - forbes.com",
-          "summary": "A $2,000 Foldable iPhone? Here’s What Could Be Announced At Apple’s Launch Event Today  forbes.com",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeU8tQURXeEpLSDM1cjZTSlpWTGk2cHg1bEhSb1VodmlaY2VFeHJfVDg0MFVjY1BMOHNqencyYTJsRzQ3dWJhakR5REZZMmpVZTZWLTdmMmJmZldEeDlLMG9ZckxVTDRJV3ZqWHhVUE1jSHFCMkJpTE1PYmhoVDA3aUQ3cFF5RmJQWHVqQXEwUmZ0NmhiZ2hsT0p2cWJjeHNHUXRlVW9vQkF2Smp6aFlndlAxR3l2NlloNUxfS1ZR?oc=5",
-          "publishedAt": "2026-09-09 23:55",
-          "outlet": "Forbes Markets"
         },
         {
           "title": "Stocks making the biggest moves premarket: Apple, Casey's General Store, Signet Jewelers & more",
@@ -42,6 +63,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Alphabet C breaks down near $328, $315 in sight: Live levels",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/alphabet-c-tests-329-support-in-descending-triangle-live-levels-93CH-4891938",
+          "publishedAt": "2026-09-10 04:18",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Google to invest $15 billion in AI infrastructure and buy nuclear power in Finland - Reuters",
           "summary": "Google to invest $15 billion in AI infrastructure and buy nuclear power in Finland  Reuters",
