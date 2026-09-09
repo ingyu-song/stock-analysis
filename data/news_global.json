@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10 04:49",
+  "updatedAt": "2026-09-10 07:35",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,32 +9,46 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple joins foldable phone race with $1,999 passport-shaped iPhone Duo",
+          "title": "As Apple prepares to make a splash, a brief history of foldable phones - Reuters",
+          "summary": "As Apple prepares to make a splash, a brief history of foldable phones  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONXFBSFBWSWRTZlJRS3RSU0p1RFo5MldCdzNVdG9JMjZOT0xFSllKMlRPLTVfZkZSM2xqRDlZYmRkUnEySWwwTmRmRHQyaF82eVNieTlPVjZ5OUkyOWJFVllfSExTd2NNamtSVmtGSWF2SGhoc0U2RzI4TmRhM3VGWGFnX2Y5VXlVb2xHM2NWOFBaaHRRU2ZTdmRSbjZTTldBaHpHRXNLZjJKVWh4aTg3RmFEeHhWcVZt?oc=5",
+          "publishedAt": "2026-09-10 06:13",
+          "outlet": "Reuters Business (via Google News)"
+        },
+        {
+          "title": "As Apple prepares to make a splash, a brief history of foldable phones",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/apple-expected-to-unveil-first-folding-phone-with-new-ceo-ternus-in-command-4893058",
-          "publishedAt": "2026-09-10 04:30",
+          "link": "https://www.investing.com/news/stock-market-news/as-apple-prepares-to-make-a-splash-a-brief-history-of-foldable-phones-4894599",
+          "publishedAt": "2026-09-10 06:06",
           "outlet": "Investing.com"
         },
         {
-          "title": "Apple unveils folding iPhone Duo as new CEO takes center stage",
-          "summary": "The passport-size iPhone Duo serves as the first big test for John Ternus, who took over for Tim Cook last weekApple has unveiled the iPhone Duo, the company’s first foldable phone and the most significant change to the iPhone since the smartphone’s introduction in 2007.The nearly $2,000 device takes inspiration from Apple iPads and combines it with the portability and features of iPhones. When op",
-          "link": "https://www.theguardian.com/technology/2026/sep/08/apple-new-folding-iphone",
-          "publishedAt": "2026-09-10 03:45",
-          "outlet": "The Guardian Business"
-        },
-        {
-          "title": "Foldable iPhone will cost $1,999 as Apple raises smartphone prices",
-          "summary": "Pro and Max models will be $100 more expensive than last year’s versions as the company faces supply chain pressures",
-          "link": "https://www.ft.com/content/dea481e8-d30b-4cbb-b535-5ff219c4e546?syn-25a6b1a6=1",
-          "publishedAt": "2026-09-10 03:39",
-          "outlet": "Financial Times"
+          "title": "Apple Introduces Foldable iPhone - WSJ",
+          "summary": "Apple Introduces Foldable iPhone  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUy1pUDlfRE5lUEt6UUUxNjVMOWdsMWF5dnlsNVNRWmFwQ0ZXZjFueWIzYkREXzBIUVZ2Q0U0TnpnWmlCVDE3VFpFWm5TeEVqSVFwa2NOSFlsOHdTU0JlTE5oWWx3UEpCRFcySWhEU0JkcFlmNXkyclI5ZlRFU2ZlZ3JB?oc=5",
+          "publishedAt": "2026-09-10 05:25",
+          "outlet": "WSJ Markets"
         },
         {
           "title": "Apple's new boss starts with big gamble on costly first folding iPhone",
           "summary": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
           "link": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-09-10 03:39",
+          "publishedAt": "2026-09-10 05:00",
           "outlet": "BBC Business"
+        },
+        {
+          "title": "Foldable iPhone Duo will cost $1,999 as Apple raises smartphone prices",
+          "summary": "Pro and Max models will be $100 more expensive than last year’s versions as the company faces supply chain pressures",
+          "link": "https://www.ft.com/content/dea481e8-d30b-4cbb-b535-5ff219c4e546?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-10 04:46",
+          "outlet": "Financial Times"
+        },
+        {
+          "title": "Apple unveils folding iPhone Duo as new CEO takes center stage",
+          "summary": "The passport-size iPhone Duo serves as the first big test for John Ternus, who took over for Tim Cook last weekApple has unveiled the iPhone Duo, the company’s first foldable phone and the most significant change to the iPhone since the smartphone’s introduction in 2007.The nearly $2,000 device takes inspiration from iPads’ wide screens and combines them with the portability and camera features of",
+          "link": "https://www.theguardian.com/technology/2026/sep/08/apple-new-folding-iphone",
+          "publishedAt": "2026-09-10 03:45",
+          "outlet": "The Guardian Business"
         },
         {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
@@ -44,38 +58,18 @@
           "outlet": "CNBC Finance"
         },
         {
-          "title": "Apple event live updates: New CEO John Ternus expected to reveal first foldable iPhone",
-          "summary": "",
-          "link": "https://www.businessinsider.com/apple-iphone-ultra-event-today-live-updates-2026-9",
-          "publishedAt": "2026-09-10 00:30",
-          "outlet": "Business Insider Markets"
-        },
-        {
           "title": "Stocks making the biggest moves premarket: Apple, Casey's General Store, Signet Jewelers & more",
           "summary": "These are the stocks posting the largest moves premarket.",
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
           "publishedAt": "2026-09-09 21:00",
           "outlet": "CNBC Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
-        {
-          "title": "Alphabet C breaks down near $328, $315 in sight: Live levels",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/alphabet-c-tests-329-support-in-descending-triangle-live-levels-93CH-4891938",
-          "publishedAt": "2026-09-10 04:18",
-          "outlet": "Investing.com"
         },
         {
-          "title": "Google to invest $15 billion in AI infrastructure and buy nuclear power in Finland - Reuters",
-          "summary": "Google to invest $15 billion in AI infrastructure and buy nuclear power in Finland  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcGlWeGFlRDRYZVowU2Y0Y0FJTlRmQW5ubjJwNGcxb3NsQnRBUVo5eWtMdnhoSlAzM0FKdlJHWkpJR2lxZUZHcWg5cFBqb1NxNm9Ma0MwR3AweEZpUEFTZ1JRZ3pjSDN6V2VOdE1nUjhBQU1PdlJ5Z29xSDloZHZOOExRbHotYVlRUDd0X2tpa2JVR3U1NTBHc3VhZkYzMDN4ZE9KWl9lZnFBZzkwZEE?oc=5",
-          "publishedAt": "2026-09-10 00:03",
-          "outlet": "Reuters Business (via Google News)"
+          "title": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient - digitimes.com",
+          "summary": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient  digitimes.com",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15MzlZYXZWMGpTdzVIZ2pza3RxSnhvQzhSUDEyTnZyUXdEem1oSEVKTnZQTUpoYWxISGtDWGF6Q3Z1dVdBV0ZEdEswUmVJV2VpdXp3UUF3eHZwRzB2OXlSNlVLUERtdlJmZ3FjQzRnMGZJak1pZ0lab0szaHdDNWs?oc=5",
+          "publishedAt": "2026-09-09 13:22",
+          "outlet": "DigiTimes"
         }
       ]
     },
@@ -84,15 +78,15 @@
       "name": "인텔",
       "items": [
         {
-          "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
-          "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes",
+          "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes.com",
+          "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
           "publishedAt": "2026-09-08 15:16",
           "outlet": "DigiTimes"
         },
         {
-          "title": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps - digitimes",
-          "summary": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps  digitimes",
+          "title": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps - digitimes.com",
+          "summary": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14RnY0bUZLMDBJOHFsV3NJVy1qcEpkTWhXeGQ0aUdkS1NROU5IX1JrVzdKT0xPTkJzYlR6TUtacElVRFlqWjEwaGF2SGZ1WVJXZ2ZaRVVXNEdNRnUyZzA4aTd5aFZXTFlOenVqWWROTEdFUTJFa0JqT1g1MA?oc=5",
           "publishedAt": "2026-09-08 13:13",
           "outlet": "DigiTimes"
