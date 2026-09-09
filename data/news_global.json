@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-09 20:30",
+  "updatedAt": "2026-09-10 01:43",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,18 +9,32 @@
       "name": "애플",
       "items": [
         {
-          "title": "Dow Jones Futures Fall As Oil Prices Push Stocks Toward Breaking Point; Apple iPhone Event Due",
-          "summary": "",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-oil-prices-amd-hpe-new-buys-apple-iphone-event/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-09-09 20:12",
-          "outlet": "Yahoo Finance"
+          "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
+          "summary": "These are the stocks posting the largest moves midday.",
+          "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html",
+          "publishedAt": "2026-09-10 00:43",
+          "outlet": "CNBC Finance"
         },
         {
-          "title": "Apple expected to unveil folding iPhone as new CEO takes center stage",
-          "summary": "The new model will serve as the first big test for John Ternus, who took the role last weekAll eyes are on Apple’s annual fall announcement of new products this afternoon, where the company is expected to unveil the most significant change to the iPhone since the smartphone’s introduction in 2007.Unlike previous iterations, the new iPhone is expected to fold, opening and closing like a passport to",
-          "link": "https://www.theguardian.com/technology/2026/sep/08/apple-new-folding-iphone",
-          "publishedAt": "2026-09-09 15:00",
-          "outlet": "The Guardian Business"
+          "title": "Apple event live updates: New CEO John Ternus expected to reveal first foldable iPhone",
+          "summary": "",
+          "link": "https://www.businessinsider.com/apple-iphone-ultra-event-today-live-updates-2026-9",
+          "publishedAt": "2026-09-10 00:30",
+          "outlet": "Business Insider Markets"
+        },
+        {
+          "title": "A $2,000 Foldable iPhone? Here’s What Could Be Announced At Apple’s Launch Event Today - forbes.com",
+          "summary": "A $2,000 Foldable iPhone? Here’s What Could Be Announced At Apple’s Launch Event Today  forbes.com",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPeU8tQURXeEpLSDM1cjZTSlpWTGk2cHg1bEhSb1VodmlaY2VFeHJfVDg0MFVjY1BMOHNqencyYTJsRzQ3dWJhakR5REZZMmpVZTZWLTdmMmJmZldEeDlLMG9ZckxVTDRJV3ZqWHhVUE1jSHFCMkJpTE1PYmhoVDA3aUQ3cFF5RmJQWHVqQXEwUmZ0NmhiZ2hsT0p2cWJjeHNHUXRlVW9vQkF2Smp6aFlndlAxR3l2NlloNUxfS1ZR?oc=5",
+          "publishedAt": "2026-09-09 23:55",
+          "outlet": "Forbes Markets"
+        },
+        {
+          "title": "Stocks making the biggest moves premarket: Apple, Casey's General Store, Signet Jewelers & more",
+          "summary": "These are the stocks posting the largest moves premarket.",
+          "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
+          "publishedAt": "2026-09-09 21:00",
+          "outlet": "CNBC Finance"
         }
       ]
     },
@@ -29,11 +43,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google Warns that EU-Mandated Changes Worsen User Experience - theinformation.com",
-          "summary": "Google Warns that EU-Mandated Changes Worsen User Experience  theinformation.com",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQUWMtS29oRGFFd0V2Yld0UU4tcHl1RzF5bEN0VTlBV1ZUMlFwXzExeE50NU1zcW53QzdTZUgtQzF5dkpheFFva3F5d3FMWXBsRWJYWkdlUEV1TUphckRBSGd6OV9iS2w4Z08wYXFiQkQwTG8yU21jempxbDZOYkVhWmhXZU91OFRERk5selZSc1NFZ2RCWG0yanZqM3g?oc=5",
-          "publishedAt": "2026-09-09 15:22",
-          "outlet": "The Information"
+          "title": "Google to invest $15 billion in AI infrastructure and buy nuclear power in Finland - Reuters",
+          "summary": "Google to invest $15 billion in AI infrastructure and buy nuclear power in Finland  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNcGlWeGFlRDRYZVowU2Y0Y0FJTlRmQW5ubjJwNGcxb3NsQnRBUVo5eWtMdnhoSlAzM0FKdlJHWkpJR2lxZUZHcWg5cFBqb1NxNm9Ma0MwR3AweEZpUEFTZ1JRZ3pjSDN6V2VOdE1nUjhBQU1PdlJ5Z29xSDloZHZOOExRbHotYVlRUDd0X2tpa2JVR3U1NTBHc3VhZkYzMDN4ZE9KWl9lZnFBZzkwZEE?oc=5",
+          "publishedAt": "2026-09-10 00:03",
+          "outlet": "Reuters Business (via Google News)"
         }
       ]
     },
