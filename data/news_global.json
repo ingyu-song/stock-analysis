@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11 04:45",
+  "updatedAt": "2026-09-11 07:38",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple nears $328.90 resistance in tight 5h standoff: Live levels",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/apple-trapped-in-neutral-zone-near-315-hourly-levels-93CH-4891933",
-          "publishedAt": "2026-09-11 04:18",
-          "outlet": "Investing.com"
+          "title": "Apple’s New iPhone Duo Is Here. How Do Consumer Technology Journalists Review It?",
+          "summary": "Here’s the process for vetting new smartphones and gadgets at The Times and Wirecutter.",
+          "link": "https://www.nytimes.com/2026/09/10/insider/apple-iphone-duo-tech-reviews-journalists.html",
+          "publishedAt": "2026-09-11 05:56",
+          "outlet": "NYT Business"
         },
         {
           "title": "Stocks making the biggest moves premarket: Macy's, Meta, Apple, Novartis and more",
@@ -37,18 +37,18 @@
           "outlet": "Axios"
         },
         {
-          "title": "Apple Introduces Foldable iPhone - WSJ",
-          "summary": "Apple Introduces Foldable iPhone  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUy1pUDlfRE5lUEt6UUUxNjVMOWdsMWF5dnlsNVNRWmFwQ0ZXZjFueWIzYkREXzBIUVZ2Q0U0TnpnWmlCVDE3VFpFWm5TeEVqSVFwa2NOSFlsOHdTU0JlTE5oWWx3UEpCRFcySWhEU0JkcFlmNXkyclI5ZlRFU2ZlZ3JB?oc=5",
-          "publishedAt": "2026-09-10 05:25",
-          "outlet": "WSJ Markets"
-        },
-        {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
           "summary": "These are the stocks posting the largest moves midday.",
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html",
           "publishedAt": "2026-09-10 02:41",
           "outlet": "CNBC Finance"
+        },
+        {
+          "title": "Apple's Rally Pressures New CEO to Deliver on Foldable iPhone",
+          "summary": "",
+          "link": "https://finance.yahoo.com/video/apples-rally-pressures-ceo-deliver-145430259.html",
+          "publishedAt": "2026-09-09 23:54",
+          "outlet": "Yahoo Finance"
         },
         {
           "title": "Stocks making the biggest moves premarket: Apple, Casey's General Store, Signet Jewelers & more",
@@ -77,13 +77,6 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
-        {
-          "title": "Alphabet C stalls at $330 amid bear flag tension: Live levels",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/alphabet-c-tests-329-support-in-descending-triangle-live-levels-93CH-4891938",
-          "publishedAt": "2026-09-11 04:19",
-          "outlet": "Investing.com"
-        },
         {
           "title": "We're living in an AI twilight zone",
           "summary": "Two seemingly contradictory realities are true at once:Most people find AI only modestly useful, a more clever Google search.Many people building AI or using it obsessively worry it could severely damage or destroy humanity.Why it matters: We're living in an AI twilight zone. For many, the technology is simultaneously underwhelming in daily use and terrifying in its trajectory.The gap between thes",
