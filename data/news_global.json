@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11 01:29",
+  "updatedAt": "2026-09-11 04:45",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple nears $328.90 resistance in tight 5h standoff: Live levels",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apple-trapped-in-neutral-zone-near-315-hourly-levels-93CH-4891933",
+          "publishedAt": "2026-09-11 04:18",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Stocks making the biggest moves premarket: Macy's, Meta, Apple, Novartis and more",
           "summary": "These are the stocks posting the largest moves in the premarket.",
@@ -37,13 +44,6 @@
           "outlet": "WSJ Markets"
         },
         {
-          "title": "Apple Event 2026: We’re Live Tracking The New iPhone 18 Pro, The iPhone Duo And More - Forbes",
-          "summary": "Apple Event 2026: We’re Live Tracking The New iPhone 18 Pro, The iPhone Duo And More  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRnBFUnItQV9OMU9oUFZfc3lfS0laN1RRX0NtWjN1QWNRaktaR0QydFk0S0szbmtoMjJHWXZfV0ZSNGJWWkhScEJfVlI2ZmZYRUp0UnViS2g2SEJYaW5Obmh2dks5NENkZEJBazJNbHZyVWZJdFNaWGpnWjE3TjlnZTlucDByRjd0RFZqbTNtMWpYMHJwX0doR2FjcVNuUEtCZTJr?oc=5",
-          "publishedAt": "2026-09-10 03:38",
-          "outlet": "Forbes Markets"
-        },
-        {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
           "summary": "These are the stocks posting the largest moves midday.",
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html",
@@ -63,6 +63,13 @@
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUNLbmVuaDNYTzZFUHdRTm1Dc2JOZ0M4SDg1d0h6V0ROV01ZdTFHb2Y0MlB0T1RLRFZYelFERTVZYkhzNHVRZHlFT2dWcjlGSnJNTWRVX2NjQkNKR3VSWEtHVTRoQ0o1ak1CTmVFNE95QXlUZWd1THhjcVl3QVVvUnhsZnpaVVg2aGdON0k0RWFzR1lCZkRPMWR2SQ?oc=5",
           "publishedAt": "2026-09-09 18:10",
           "outlet": "DigiTimes"
+        },
+        {
+          "title": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient - digitimes",
+          "summary": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15MzlZYXZWMGpTdzVIZ2pza3RxSnhvQzhSUDEyTnZyUXdEem1oSEVKTnZQTUpoYWxISGtDWGF6Q3Z1dVdBV0ZEdEswUmVJV2VpdXp3UUF3eHZwRzB2OXlSNlVLUERtdlJmZ3FjQzRnMGZJak1pZ0lab0szaHdDNWs?oc=5",
+          "publishedAt": "2026-09-09 13:22",
+          "outlet": "DigiTimes"
         }
       ]
     },
@@ -70,6 +77,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Alphabet C stalls at $330 amid bear flag tension: Live levels",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/alphabet-c-tests-329-support-in-descending-triangle-live-levels-93CH-4891938",
+          "publishedAt": "2026-09-11 04:19",
+          "outlet": "Investing.com"
+        },
         {
           "title": "We're living in an AI twilight zone",
           "summary": "Two seemingly contradictory realities are true at once:Most people find AI only modestly useful, a more clever Google search.Many people building AI or using it obsessively worry it could severely damage or destroy humanity.Why it matters: We're living in an AI twilight zone. For many, the technology is simultaneously underwhelming in daily use and terrifying in its trajectory.The gap between thes",
@@ -90,6 +104,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Governments are turning to Claude to automate spying",
+          "summary": "State-run surveillance operations around the world are using Claude to streamline their operations, Anthropic said in a threat report released Thursday.Why it matters: The barriers for governments interested in spying on dissidents, politicians, journalists and human rights activists are getting lower as AI models get more powerful. Zoom in: Anthropic found people linked to governments in Mali, Ch",
+          "link": "https://www.axios.com/2026/09/10/anthropic-claude-government-surveillance-threats",
+          "publishedAt": "2026-09-11 02:00",
+          "outlet": "Axios"
+        },
         {
           "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
           "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes",

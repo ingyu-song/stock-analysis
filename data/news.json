@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11 01:29",
+  "updatedAt": "2026-09-11 04:45",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -106,6 +106,24 @@
       "query": "애플 AAPL",
       "items": [
         {
+          "title": "뉴욕증시 마감 1시간 前...4대지수 '하락', 애플 '급등' vs 오라클 '뚝'",
+          "summary": "이 시각 애플(APPLE INC, AAPL)의 주가는 325.36 달러로 3.18%나 치솟으며 다우존스, 나스닥, S&P500 지수 하락폭을 줄여주고 있다. 애플은 하루 전 아이폰 18 프로 등 신제품을 공개한 가운데 전일엔 정규장에서 주가가...",
+          "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=171158",
+          "publishedAt": "2026-09-11 04:36"
+        },
+        {
+          "title": "로빈후드 체인 최근 24시간 DEX 거래량 17억8300만달러",
+          "summary": "로빈후드는 엔비디아(NVDA)와 애플(AAPL) 등 주식 토큰을 24시간 거래할 수 있다고 설명했다. 유니스왑·라이트너·아커스 등 여러 거래 환경을 통해 토큰화 주식과 디지털 자산을 거래하는 구조다. 다만 거래 자산별...",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/406015",
+          "publishedAt": "2026-09-11 04:16"
+        },
+        {
+          "title": "[TODAY애플]2000달러 폴더블 ‘아이폰 듀오’ 공개…주가 2%↑",
+          "summary": "애플(AAPL)이 첫 폴더블 스마트폰 ‘아이폰 듀오’를 공개하며 주가가 상승하고 있다. 10일(현지시간) 오후12시25분 현재 애플 주가는 전일대비 1.57% 오른 320.37달러를 기록 중이다. 배런스에 따르면 애플은 연례 신제품...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=01302166645579136&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "publishedAt": "2026-09-11 01:30"
+        },
+        {
           "title": "합성 주식에 밈코인 결합…복합 위험 가능성 거론",
           "summary": "거래 대상에는 애플(AAPL), 엔비디아(NVDA), 인텔(INTC), 게임스톱(GME) 등이 포함됐다. 비트쿼리는 GME 티커를 사용하는 계약이 361개였으며, 이 가운데 354개는 실제 게임스톱 토큰이 아닌 별도 토큰이었다고 밝혔다. 이는 주식...",
           "link": "https://www.tokenpost.kr/news/cryptocurrency/405955",
@@ -166,34 +184,16 @@
           "publishedAt": "2026-09-10 08:32"
         },
         {
-          "title": "[미국 특징주] 애플워치에 대화 요약 기능…AI 웨어러블 시장 대응",
-          "summary": "애플(AAPL)이 인공지능(AI) 기반 오디오 기능과 신규 기능을 애플워치 등 주요 기기에 추가해 빠르게 성장하는 AI 웨어러블 시장 공략에 나섰다. 애플은 수요일 미국 캘리포니아주 쿠퍼티노에서 열린 신제품 행사에서...",
-          "link": "https://www.newspim.com/news/view/20260910000084",
-          "publishedAt": "2026-09-10 08:10"
-        },
-        {
           "title": "[미국 특징주] 애플 신제품 행사서 나온 핵심 6가지 요약",
           "summary": "다음은 애플(AAPL)이 최초의 폴더블 스마트폰인 아이폰 듀오를 비롯한 신제품을 공개한 연례 9월 하드웨어 행사에서 나온 6가지 핵심 내용이다. 1. 애플은 인공지능(AI) 시대의 핵심 기기로 아이폰을...",
           "link": "https://www.newspim.com/news/view/20260910000083",
           "publishedAt": "2026-09-10 08:10"
         },
         {
-          "title": "한국 오전 4시..OIL & 美국채금리 '뛰고', 미국증시 '위축', 메타 '급등'",
-          "summary": "이 시각 빅테크 종목인 APPLE INC(AAPL)의 주가는 316.55 달러로 0.10% 상승 중이다. 이날 애플은 아이폰 18프로 등 신제품을 공개했지만 장중 주가는 크게 오르지 못하고 있다. 이 시각 다른 빅테크 종목 중에선 META...",
-          "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=171116",
-          "publishedAt": "2026-09-10 04:42"
-        },
-        {
-          "title": "애플(AAPL), 신임 CEO 테스트...폴더블 아이폰으로 랠리 이어갈까?",
-          "summary": "애플(Apple, AAPL)의 여름 랠리가 신임 최고경영자에게 첫 시험대를 안겼다. 시장의 시선은 폴더블 아이폰 흥행과 높은 주가 부담을 동시에 넘어설 수 있는지에 쏠린다. 9월 9일(현지시간) 블룸버그에 따르면, 애플...",
-          "link": "http://coinreaders.com/257419",
-          "publishedAt": "2026-09-10 01:46"
-        },
-        {
-          "title": "[TODAY애플]아이폰 신제품 공개 앞두고 관망세…주가 약세",
-          "summary": "아이폰 제조업체 애플(AAPL)이 신제품 공개 행사를 앞두고 투자자들의 관망세가 짙어지며 주가가 하락하고 있다. 9일(현지시간) 오후12시4분 애플 주가는 전일대비 0.96% 내린 313.23달러에 거래 중이다. CNBC에 따르면...",
-          "link": "https://www.edaily.co.kr/News/Read?newsId=01279206645578808&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-          "publishedAt": "2026-09-10 01:18"
+          "title": "[미국 특징주] 애플워치에 대화 요약 기능…AI 웨어러블 시장 대응",
+          "summary": "애플(AAPL)이 인공지능(AI) 기반 오디오 기능과 신규 기능을 애플워치 등 주요 기기에 추가해 빠르게 성장하는 AI 웨어러블 시장 공략에 나섰다. 애플은 수요일 미국 캘리포니아주 쿠퍼티노에서 열린 신제품 행사에서...",
+          "link": "https://www.newspim.com/news/view/20260910000084",
+          "publishedAt": "2026-09-10 08:10"
         }
       ]
     },
@@ -384,6 +384,12 @@
       "name": "서클 인터넷 그룹",
       "query": "서클 CRCL",
       "items": [
+        {
+          "title": "35개국 수수료 없는 송금…누 홀딩스, USDC·EURC 계정 출시",
+          "summary": "당시 누 홀딩스는 서클($CRCL)과 협력해 브라질 이용자의 디지털 달러 접근성을 확대한다고 밝혔다. 이번에는 USDC를 거래 대상에 그치지 않고 계정 잔액과 해외 송금 수단으로 활용하는 방식으로 서비스 범위를...",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/406012",
+          "publishedAt": "2026-09-11 04:10"
+        },
         {
           "title": "PURR 1.58% 하락, 장전 암호화폐주 7종목 약세",
           "summary": "서클(CRCL)은 1.19%, 코인베이스(COIN)는 0.46%, 비트마인(BMNR)은 0.41% 내렸다. 샤프링크 게이밍(SBET)은 0.12%, 로빈후드($HOOD)는 0.62% 떨어졌다. 이번 수치는 BIT(bit.com) 시세 데이터를 바탕으로 집계됐다. 블록비트는...",
@@ -799,6 +805,12 @@
       "query": "코닝",
       "items": [
         {
+          "title": "[美특징주]30년 만기 모기지 금리 7% 돌파…주택건설주 동반 하락",
+          "summary": "가정용 가구 소매업체인 윌리엄스-소노마(WSM) 역시 1.73%(3.94달러) 하락한 223.58달러, 오웬스코닝(OC)은 1.86%(2.39달러) 빠진 126.28달러를 기록 중이다. 이밖에 홈디포도 1.53% 밀리고 있다. 스테이트 스트리트...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=01321846645579136&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "publishedAt": "2026-09-11 02:33"
+        },
+        {
           "title": "유티아이, 북미 고객사 폴더블 스마트폰 출시에 UTG 양산 본격화",
           "summary": "한편 유티아이는 2대 주주인 코닝과의 전략적 협력 관계를 맺고 있다. 코닝은 소재 기술와 글로벌 사업 노하우를 보유하고 있다. 기존에 소재 및 생산 협력 관계를 맺고 있던 양사는 UFG 기술과 폴더블 글라스 등...",
           "link": "https://www.mt.co.kr/stock/2026/09/10/2026091009394692194",
@@ -881,12 +893,6 @@
           "summary": "나스닥지수의 상대적 선방은 반도체 회사 퀄컴과 유리 제조업체 코닝이 AI(인공지능) 구축과 관련해 대형... 코닝은 버라이즌과 AI 연결망 구축울 위해 수십억달러 규모의 광섬유 케이블 공급 계약을 체결했다고 밝혔다....",
           "link": "https://www.mt.co.kr/world/2026/09/09/2026090915434432653",
           "publishedAt": "2026-09-09 18:05"
-        },
-        {
-          "title": "[급등락주 짚어보기] 코스닥 6개 종목 상한가⋯美 광통신ㆍ양자컴퓨팅...",
-          "summary": "미국 통신사 버라이즌과 반도체·유리 소재 기업 코닝이 대규모 광섬유 공급 계약을 체결했다는 소식이 호재로 작용했다. 이에 따라 광케이블과 위성통신 장비 등 통신 네트워크 장비를 생산하는 머큐리에 매수세가...",
-          "link": "https://www.etoday.co.kr/news/view/2623716",
-          "publishedAt": "2026-09-09 17:52"
         }
       ]
     },
