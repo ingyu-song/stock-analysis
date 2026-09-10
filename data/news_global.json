@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10 07:35",
+  "updatedAt": "2026-09-10 10:08",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,24 +9,24 @@
       "name": "애플",
       "items": [
         {
-          "title": "As Apple prepares to make a splash, a brief history of foldable phones - Reuters",
-          "summary": "As Apple prepares to make a splash, a brief history of foldable phones  Reuters",
+          "title": "As Apple prepares to make a splash, a brief history of foldable phones - reuters.com",
+          "summary": "As Apple prepares to make a splash, a brief history of foldable phones  reuters.com",
           "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONXFBSFBWSWRTZlJRS3RSU0p1RFo5MldCdzNVdG9JMjZOT0xFSllKMlRPLTVfZkZSM2xqRDlZYmRkUnEySWwwTmRmRHQyaF82eVNieTlPVjZ5OUkyOWJFVllfSExTd2NNamtSVmtGSWF2SGhoc0U2RzI4TmRhM3VGWGFnX2Y5VXlVb2xHM2NWOFBaaHRRU2ZTdmRSbjZTTldBaHpHRXNLZjJKVWh4aTg3RmFEeHhWcVZt?oc=5",
-          "publishedAt": "2026-09-10 06:13",
+          "publishedAt": "2026-09-10 08:00",
           "outlet": "Reuters Business (via Google News)"
         },
         {
-          "title": "As Apple prepares to make a splash, a brief history of foldable phones",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/as-apple-prepares-to-make-a-splash-a-brief-history-of-foldable-phones-4894599",
-          "publishedAt": "2026-09-10 06:06",
-          "outlet": "Investing.com"
+          "title": "Foldable iPhone Duo will cost $1,999 as Apple raises smartphone prices",
+          "summary": "Pro and Max models will be $100 more expensive than last year’s versions as the company faces supply chain pressures",
+          "link": "https://www.ft.com/content/dea481e8-d30b-4cbb-b535-5ff219c4e546?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-10 07:51",
+          "outlet": "Financial Times"
         },
         {
           "title": "Apple Introduces Foldable iPhone - WSJ",
           "summary": "Apple Introduces Foldable iPhone  WSJ",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUy1pUDlfRE5lUEt6UUUxNjVMOWdsMWF5dnlsNVNRWmFwQ0ZXZjFueWIzYkREXzBIUVZ2Q0U0TnpnWmlCVDE3VFpFWm5TeEVqSVFwa2NOSFlsOHdTU0JlTE5oWWx3UEpCRFcySWhEU0JkcFlmNXkyclI5ZlRFU2ZlZ3JB?oc=5",
-          "publishedAt": "2026-09-10 05:25",
+          "publishedAt": "2026-09-10 05:28",
           "outlet": "WSJ Markets"
         },
         {
@@ -37,11 +37,11 @@
           "outlet": "BBC Business"
         },
         {
-          "title": "Foldable iPhone Duo will cost $1,999 as Apple raises smartphone prices",
-          "summary": "Pro and Max models will be $100 more expensive than last year’s versions as the company faces supply chain pressures",
-          "link": "https://www.ft.com/content/dea481e8-d30b-4cbb-b535-5ff219c4e546?syn-25a6b1a6=1",
-          "publishedAt": "2026-09-10 04:46",
-          "outlet": "Financial Times"
+          "title": "A $2,000 Foldable iPhone? Here’s What Was Announced At Apple’s Launch Event Today - Forbes",
+          "summary": "A $2,000 Foldable iPhone? Here’s What Was Announced At Apple’s Launch Event Today  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPVU5kaU5rT0NYa2dTdldYUmJPYjIwUXd1c1VwMmdvOGtlcGpZb3diQ1Z0T1pJVEJOc0p0cmNZcmRxQmQtUk5JNHIyTUcxYmx1NGVVOVZBOUxvMFh1cG1oZkszWWNqWmVLeDg2Z0NzQ01oLUQ1WnAwaE90OUx1c2p4cHBhTkNwWlJHUUYtMG9UMG1BbV90Wi1Ec2JTSDdrQVU2RHhYVA?oc=5",
+          "publishedAt": "2026-09-10 04:40",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Apple unveils folding iPhone Duo as new CEO takes center stage",
@@ -65,11 +65,24 @@
           "outlet": "CNBC Finance"
         },
         {
-          "title": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient - digitimes.com",
-          "summary": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient  digitimes.com",
+          "title": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient - digitimes",
+          "summary": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient  digitimes",
           "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15MzlZYXZWMGpTdzVIZ2pza3RxSnhvQzhSUDEyTnZyUXdEem1oSEVKTnZQTUpoYWxISGtDWGF6Q3Z1dVdBV0ZEdEswUmVJV2VpdXp3UUF3eHZwRzB2OXlSNlVLUERtdlJmZ3FjQzRnMGZJak1pZ0lab0szaHdDNWs?oc=5",
           "publishedAt": "2026-09-09 13:22",
           "outlet": "DigiTimes"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "Scoop: Anthropic whistleblower gave up his equity to leave the company",
+          "summary": "Anthropic researcher Jacob Coxon quit his job due to concerns about the safety of AI two months before his equity would have vested, he told Axios.Why it matters: The disclosure raises the stakes on Coxon's now mega-viral resignation from the AI lab, which laid out the broad view that the tech could end humanity.What they're saying: \"I no longer have anything to gain by juicing up Anthropic's valu",
+          "link": "https://www.axios.com/2026/09/09/anthropic-researcher-ai-warning-interview",
+          "publishedAt": "2026-09-10 08:14",
+          "outlet": "Axios"
         }
       ]
     },
@@ -78,15 +91,15 @@
       "name": "인텔",
       "items": [
         {
-          "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes.com",
-          "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes.com",
+          "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
+          "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
           "publishedAt": "2026-09-08 15:16",
           "outlet": "DigiTimes"
         },
         {
-          "title": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps - digitimes.com",
-          "summary": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps  digitimes.com",
+          "title": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps - digitimes",
+          "summary": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps  digitimes",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14RnY0bUZLMDBJOHFsV3NJVy1qcEpkTWhXeGQ0aUdkS1NROU5IX1JrVzdKT0xPTkJzYlR6TUtacElVRFlqWjEwaGF2SGZ1WVJXZ2ZaRVVXNEdNRnUyZzA4aTd5aFZXTFlOenVqWWROTEdFUTJFa0JqT1g1MA?oc=5",
           "publishedAt": "2026-09-08 13:13",
           "outlet": "DigiTimes"
