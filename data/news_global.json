@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-10 20:27",
+  "updatedAt": "2026-09-11 01:29",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Stocks making the biggest moves premarket: Macy's, Meta, Apple, Novartis and more",
+          "summary": "These are the stocks posting the largest moves in the premarket.",
+          "link": "https://www.cnbc.com/2026/09/10/stocks-making-the-biggest-moves-premarket-.html",
+          "publishedAt": "2026-09-10 20:54",
+          "outlet": "CNBC Finance"
+        },
         {
           "title": "Apple's new boss starts with big gamble on £1,999 first folding iPhone",
           "summary": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
@@ -23,18 +30,18 @@
           "outlet": "Axios"
         },
         {
-          "title": "'Welcome to Foldables': Samsung braces for Apple's foldable iPhone challenge - Reuters",
-          "summary": "'Welcome to Foldables': Samsung braces for Apple's foldable iPhone challenge  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQUm5OUVNzU0prMDh0b1hlUVBlOVdqQkRRZkliaUhEMUpWZ05NVXdFNVlHZzRBV1dIRGMybWE3OUljdnpYOUJTRTlfYW5PV2s1WkpEMWFJQVdDVXFtanRxSl9ScUV0YWFUVGxiSnZPOEt5VXZUWVg1VmlxNGc3Z3doNEw2a1lwNEpjR0stVWEydzJYN3JmUS1zaTdUNng2QXNEanplZ2tjaVVoaldkRENBV0MxOWtFYXJMMTJEOTd2X0lpRGdx?oc=5",
-          "publishedAt": "2026-09-10 14:28",
-          "outlet": "Reuters Business (via Google News)"
-        },
-        {
           "title": "Apple Introduces Foldable iPhone - WSJ",
           "summary": "Apple Introduces Foldable iPhone  WSJ",
           "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOUy1pUDlfRE5lUEt6UUUxNjVMOWdsMWF5dnlsNVNRWmFwQ0ZXZjFueWIzYkREXzBIUVZ2Q0U0TnpnWmlCVDE3VFpFWm5TeEVqSVFwa2NOSFlsOHdTU0JlTE5oWWx3UEpCRFcySWhEU0JkcFlmNXkyclI5ZlRFU2ZlZ3JB?oc=5",
           "publishedAt": "2026-09-10 05:25",
           "outlet": "WSJ Markets"
+        },
+        {
+          "title": "Apple Event 2026: We’re Live Tracking The New iPhone 18 Pro, The iPhone Duo And More - Forbes",
+          "summary": "Apple Event 2026: We’re Live Tracking The New iPhone 18 Pro, The iPhone Duo And More  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNRnBFUnItQV9OMU9oUFZfc3lfS0laN1RRX0NtWjN1QWNRaktaR0QydFk0S0szbmtoMjJHWXZfV0ZSNGJWWkhScEJfVlI2ZmZYRUp0UnViS2g2SEJYaW5Obmh2dks5NENkZEJBazJNbHZyVWZJdFNaWGpnWjE3TjlnZTlucDByRjd0RFZqbTNtMWpYMHJwX0doR2FjcVNuUEtCZTJr?oc=5",
+          "publishedAt": "2026-09-10 03:38",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
@@ -56,20 +63,6 @@
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUNLbmVuaDNYTzZFUHdRTm1Dc2JOZ0M4SDg1d0h6V0ROV01ZdTFHb2Y0MlB0T1RLRFZYelFERTVZYkhzNHVRZHlFT2dWcjlGSnJNTWRVX2NjQkNKR3VSWEtHVTRoQ0o1ak1CTmVFNE95QXlUZWd1THhjcVl3QVVvUnhsZnpaVVg2aGdON0k0RWFzR1lCZkRPMWR2SQ?oc=5",
           "publishedAt": "2026-09-09 18:10",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient - digitimes",
-          "summary": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15MzlZYXZWMGpTdzVIZ2pza3RxSnhvQzhSUDEyTnZyUXdEem1oSEVKTnZQTUpoYWxISGtDWGF6Q3Z1dVdBV0ZEdEswUmVJV2VpdXp3UUF3eHZwRzB2OXlSNlVLUERtdlJmZ3FjQzRnMGZJak1pZ0lab0szaHdDNWs?oc=5",
-          "publishedAt": "2026-09-09 13:22",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Tech stocks today: Apple kicks off new era Wednesday, Anthropic S1 watch",
-          "summary": "",
-          "link": "https://finance.yahoo.com/technology/live/tech-stocks-today-apple-kicks-off-new-era-wednesday-anthropic-s1-watch-125343211.html",
-          "publishedAt": "2026-09-08 21:53",
-          "outlet": "Yahoo Finance"
         }
       ]
     },
