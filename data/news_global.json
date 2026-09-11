@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12 04:46",
+  "updatedAt": "2026-09-12 07:38",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple Claims Meta Played ‘Central Role’ In DOJ iPhone Antitrust Investigation - Forbes",
+          "summary": "Apple Claims Meta Played ‘Central Role’ In DOJ iPhone Antitrust Investigation  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNkEya2MzakxNV1lqbERfSzNCX2JWd1BETExmWXhuVUhnMnVUMWJXR1QwVWp5VTRqdFNTNGpxYTZBUm9NcndMRE5DRVBKTjlfeGotTk82azFUWlBEeU9rd096TzljVmhWTGNycDBwdHR6VVlpRVhmd2JET1FZQjd3Qm1IcnJDWjAyRE5JN203bmFxNlk4bC1NTkVRTXR4T09IOEpQdzhLRmtUUk9jX2xiZnJpWXl3Zw?oc=5",
+          "publishedAt": "2026-09-12 01:14",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
           "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
@@ -21,13 +28,6 @@
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS1ZfdnJmaHhFNG1WSXFTSGptVnRBbmVRdHBfRmt1U1lueGg4ZVd6SU5mTkNwZThDeGxoRG8wa1Q2UE1UYVBmYXNHalFKY0ppZGZOTGhtYV9RUHZtWnhiLTdsWVRYd1ozenAxTkQ1UXNCQks5aGpVeFp2YThKQnZUbjF6OG10cFVIVzRRaUk3eXJldVNjQkE?oc=5",
           "publishedAt": "2026-09-11 13:21",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Apple’s New iPhone Duo Is Here. How Do Consumer Technology Journalists Review It?",
-          "summary": "Here’s the process for vetting new smartphones and gadgets at The Times and Wirecutter.",
-          "link": "https://www.nytimes.com/2026/09/10/insider/apple-iphone-duo-tech-reviews-journalists.html",
-          "publishedAt": "2026-09-11 05:56",
-          "outlet": "NYT Business"
         },
         {
           "title": "Stocks making the biggest moves premarket: Macy's, Meta, Apple, Novartis and more",
@@ -78,18 +78,24 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Alphabet C consolidates in Ichimoku cloud: Live levels",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/alphabet-c-tests-329-support-in-descending-triangle-live-levels-93CH-4891938",
-          "publishedAt": "2026-09-12 04:18",
-          "outlet": "Investing.com"
-        },
-        {
           "title": "How AI makes biological research more dangerous",
           "summary": "This week's dire warnings about unchecked artificial intelligence destroying humanity are refocusing attention on how models already are being used in dangerous bioscience experiments — and the lack of safeguards.Why it matters: There's growing alarm about emerging risks from advances like AI-designed viruses. But it's hard to erect guardrails when there's no ironclad way of even knowing how some ",
           "link": "https://www.axios.com/2026/09/11/ai-warnings-biological-research-dangerous",
           "publishedAt": "2026-09-11 18:30",
           "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "name": "코닝",
+      "items": [
+        {
+          "title": "Corning stock dips on filing for $2 billion equity distribution program",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/corning-stock-dips-on-filing-for-2-billion-equity-distribution-program-4898477",
+          "publishedAt": "2026-09-12 06:14",
+          "outlet": "Investing.com"
         }
       ]
     }
