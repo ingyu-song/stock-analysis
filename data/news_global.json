@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11 20:28",
+  "updatedAt": "2026-09-12 01:33",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,6 +9,20 @@
       "name": "애플",
       "items": [
         {
+          "title": "Stock Market Today: Dow Rallies On Surprise Inflation Data; Apple Jumps, Nears All-Time High (Live Coverage)",
+          "summary": "",
+          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo",
+          "publishedAt": "2026-09-12 01:03",
+          "outlet": "Yahoo Finance"
+        },
+        {
+          "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
+          "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
+          "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
+          "publishedAt": "2026-09-11 23:30",
+          "outlet": "CNBC Finance"
+        },
+        {
           "title": "Apple's new chip packaging boosts A20 Pro AI power, pushing MediaTek, Qualcomm to follow suit - digitimes",
           "summary": "Apple's new chip packaging boosts A20 Pro AI power, pushing MediaTek, Qualcomm to follow suit  digitimes",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS1ZfdnJmaHhFNG1WSXFTSGptVnRBbmVRdHBfRmt1U1lueGg4ZVd6SU5mTkNwZThDeGxoRG8wa1Q2UE1UYVBmYXNHalFKY0ppZGZOTGhtYV9RUHZtWnhiLTdsWVRYd1ozenAxTkQ1UXNCQks5aGpVeFp2YThKQnZUbjF6OG10cFVIVzRRaUk3eXJldVNjQkE?oc=5",
@@ -16,18 +30,11 @@
           "outlet": "DigiTimes"
         },
         {
-          "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
-          "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
-          "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
-          "publishedAt": "2026-09-11 11:05",
-          "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Apple’s foldable iPhone poses a $1,999 question: Who is it for? - Reuters",
-          "summary": "Apple’s foldable iPhone poses a $1,999 question: Who is it for?  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcVhTTkNyYVpzVHVfMlBkSThSRUNEVGstVEZ3WkRISGZ4bUxBZUhIZnhURGVqNmlVenltRDBGYUpQUDI1UXJ0YklPY1JYV0Z5TjdrMTdqd00waVp1QngxUnhsWnVhdDdJcXllUmlGVkQwRE4xNEI2bUtCNmFKYWlJMFRiZGNiZ2Q4cU5zWTNnNXpxaW5hd2d0eWthZFNuMjRkYXBNWFdEWDNXaWI5VGlMNmVoVQ?oc=5",
-          "publishedAt": "2026-09-11 08:40",
-          "outlet": "Reuters Business (via Google News)"
+          "title": "Apple makes the hinge, not the screen, the centerpiece of its first foldable - digitimes",
+          "summary": "Apple makes the hinge, not the screen, the centerpiece of its first foldable  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYW91OW8teVZSNVhFd2U2TzdGNUx2NGF4THhCd0JfY3Vsdmh3OXptb0VRU3UwTk8ycC1JSlNRZFN2eFB3TzQ1S0JvV0x1Smw0WGhIUjc3dXpIekdKSjhHVGZkWWR1VzJsUTNiWWhEMGROMnJsMmp1TGk2SWxZSmUwWEVwd2xQRFZkMnpKeUpn?oc=5",
+          "publishedAt": "2026-09-11 09:31",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Apple’s New iPhone Duo Is Here. How Do Consumer Technology Journalists Review It?",
@@ -82,19 +89,6 @@
           "summary": "This week's dire warnings about unchecked artificial intelligence destroying humanity are refocusing attention on how models already are being used in dangerous bioscience experiments — and the lack of safeguards.Why it matters: There's growing alarm about emerging risks from advances like AI-designed viruses. But it's hard to erect guardrails when there's no ironclad way of even knowing how some ",
           "link": "https://www.axios.com/2026/09/11/ai-warnings-biological-research-dangerous",
           "publishedAt": "2026-09-11 18:30",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "Governments are turning to Claude to automate spying",
-          "summary": "State-run surveillance operations around the world are using Claude to streamline their operations, Anthropic said in a threat report released Thursday.Why it matters: The barriers for governments interested in spying on dissidents, politicians, journalists and human rights activists are getting lower as AI models get more powerful. Zoom in: Anthropic found people linked to governments in Mali, Ch",
-          "link": "https://www.axios.com/2026/09/10/anthropic-claude-government-surveillance-threats",
-          "publishedAt": "2026-09-11 02:00",
           "outlet": "Axios"
         }
       ]
