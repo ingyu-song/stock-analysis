@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12 01:33",
+  "updatedAt": "2026-09-12 04:46",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Stock Market Today: Dow Rallies On Surprise Inflation Data; Apple Jumps, Nears All-Time High (Live Coverage)",
-          "summary": "",
-          "link": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-cpi-inflation-report-oracle-stock-orcl/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-09-12 01:03",
-          "outlet": "Yahoo Finance"
-        },
         {
           "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
           "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
@@ -27,13 +20,6 @@
           "summary": "Apple's new chip packaging boosts A20 Pro AI power, pushing MediaTek, Qualcomm to follow suit  digitimes",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS1ZfdnJmaHhFNG1WSXFTSGptVnRBbmVRdHBfRmt1U1lueGg4ZVd6SU5mTkNwZThDeGxoRG8wa1Q2UE1UYVBmYXNHalFKY0ppZGZOTGhtYV9RUHZtWnhiLTdsWVRYd1ozenAxTkQ1UXNCQks5aGpVeFp2YThKQnZUbjF6OG10cFVIVzRRaUk3eXJldVNjQkE?oc=5",
           "publishedAt": "2026-09-11 13:21",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Apple makes the hinge, not the screen, the centerpiece of its first foldable - digitimes",
-          "summary": "Apple makes the hinge, not the screen, the centerpiece of its first foldable  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYW91OW8teVZSNVhFd2U2TzdGNUx2NGF4THhCd0JfY3Vsdmh3OXptb0VRU3UwTk8ycC1JSlNRZFN2eFB3TzQ1S0JvV0x1Smw0WGhIUjc3dXpIekdKSjhHVGZkWWR1VzJsUTNiWWhEMGROMnJsMmp1TGk2SWxZSmUwWEVwd2xQRFZkMnpKeUpn?oc=5",
-          "publishedAt": "2026-09-11 09:31",
           "outlet": "DigiTimes"
         },
         {
@@ -56,6 +42,13 @@
           "link": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-09-10 18:32",
           "outlet": "BBC Business"
+        },
+        {
+          "title": "Apple's John Ternus puts iPhone at AI center stage - digitimes",
+          "summary": "Apple's John Ternus puts iPhone at AI center stage  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVUk1bFdFb2J2VGFBNnFmWmxlemNvX1BXaG5sWmJfeXdKSTJjMFNadUVvZHppdjJlOV9kS3BDMkRJTlduc18zd3VfUjA3UDZFd2Fld1dYcndGNThxQ2xpU3RjT25HMFU5OXlsdUNOc19Kak5wYUNYRnFVM0UxRm5yeGdueEdrTXRJS3lMQnpPd0xvUQ?oc=5",
+          "publishedAt": "2026-09-10 12:38",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
@@ -84,6 +77,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Alphabet C consolidates in Ichimoku cloud: Live levels",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/alphabet-c-tests-329-support-in-descending-triangle-live-levels-93CH-4891938",
+          "publishedAt": "2026-09-12 04:18",
+          "outlet": "Investing.com"
+        },
         {
           "title": "How AI makes biological research more dangerous",
           "summary": "This week's dire warnings about unchecked artificial intelligence destroying humanity are refocusing attention on how models already are being used in dangerous bioscience experiments — and the lack of safeguards.Why it matters: There's growing alarm about emerging risks from advances like AI-designed viruses. But it's hard to erect guardrails when there's no ironclad way of even knowing how some ",
