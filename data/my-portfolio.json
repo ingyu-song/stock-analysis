@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11 13:26",
+  "updatedAt": "2026-09-11 14:40",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1343.28,
@@ -18,7 +18,7 @@
       "cash": {
         "KRW": -3866,
         "USD": 7180.82,
-        "EUR": 423.91
+        "EUR": 828.73
       }
     }
   ],
@@ -132,16 +132,6 @@
       "price": 18.16,
       "costKRW": 884091,
       "costNative": 645.87
-    },
-    {
-      "account": "mirae",
-      "ticker": "MC.PA",
-      "name": "LVMH 모에헤네시",
-      "currency": "EUR",
-      "shares": 1,
-      "price": 406.5,
-      "costKRW": 769784,
-      "costNative": 482.325
     }
   ],
   "risk": {
@@ -198,6 +188,54 @@
       "price": null,
       "currency": "KRW",
       "reason": "공포탐욕지수(fear & greed)가 슬슬 내려오는 흐름이라 지수 익스포저를 축소. 변동성 인덱스 비중을 높일 예정."
+    },
+    {
+      "date": "2026-09-08",
+      "account": "kiwoom",
+      "ticker": "278470.KS",
+      "name": "에이피알",
+      "side": "sell",
+      "shares": 1,
+      "price": 377000,
+      "currency": "KRW",
+      "returnPct": -5.61,
+      "reason": "잔량 1주 정리. 사유는 9/3 매도 때와 같음 — 메디큐브 싱가포르 이슈가 연쇄 악재로 이어질 우려."
+    },
+    {
+      "date": "2026-09-09",
+      "account": "mirae",
+      "ticker": "COIN",
+      "name": "코인베이스 글로벌",
+      "side": "sell",
+      "shares": 10,
+      "price": 176.31,
+      "currency": "USD",
+      "returnPct": 11.32,
+      "reason": "코인 테마 관련 CLARITY Act가 지연된다는 뉴스 때문에 매도."
+    },
+    {
+      "date": "2026-09-09",
+      "account": "mirae",
+      "ticker": "CRCL",
+      "name": "서클 인터넷 그룹",
+      "side": "sell",
+      "shares": 10,
+      "price": 93.7,
+      "currency": "USD",
+      "returnPct": -6.61,
+      "reason": "코인베이스와 같은 이유(CLARITY Act 지연 뉴스). 코인 관련해서 그래도 수익을 받으면서 매도하고 싶어서 서클 10주는 남겨둠."
+    },
+    {
+      "date": "2026-09-09",
+      "account": "mirae",
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
+      "side": "sell",
+      "shares": 1,
+      "price": 412.68,
+      "currency": "EUR",
+      "returnPct": -14.44,
+      "reason": "유럽 쪽 금리가 높은 상태에서 단기 촉매(short-term catalyst)가 없다고 봄. 1주씩 나눠서 매도."
     }
   ]
 }

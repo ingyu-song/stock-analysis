@@ -1274,7 +1274,12 @@ function todayISO() {
 function journalFill(e) {
   if (e.side === "note" || !e.shares) return "";
   const qty = `${Number(e.shares).toLocaleString("en-US")}주`;
-  return e.price ? `${qty} @ ${fmtNative(e.price, e.currency || "KRW")}` : qty;
+  const fill = e.price ? `${qty} @ ${fmtNative(e.price, e.currency || "KRW")}` : qty;
+  // a sell's return is the number the user actually quotes back, so it is kept
+  // as reported rather than recomputed from a price that may be derived
+  return isFinite(e.returnPct)
+    ? `${fill} <span class="${pctClass(e.returnPct)}">${fmtSignedPctShort(e.returnPct)}</span>`
+    : fill;
 }
 
 function renderJournal() {
