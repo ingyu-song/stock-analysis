@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11 07:38",
+  "updatedAt": "2026-09-11 10:09",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,20 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
+          "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
+          "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
+          "publishedAt": "2026-09-11 09:19",
+          "outlet": "CNBC Finance"
+        },
+        {
+          "title": "Analysis-Apple’s foldable iPhone poses a $1,999 question: Who is it for?",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/analysisapples-foldable-iphone-poses-a-1999-question-who-is-it-for-4897085",
+          "publishedAt": "2026-09-11 08:42",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Apple’s New iPhone Duo Is Here. How Do Consumer Technology Journalists Review It?",
           "summary": "Here’s the process for vetting new smartphones and gadgets at The Times and Wirecutter.",
@@ -44,25 +58,11 @@
           "outlet": "CNBC Finance"
         },
         {
-          "title": "Apple's Rally Pressures New CEO to Deliver on Foldable iPhone",
-          "summary": "",
-          "link": "https://finance.yahoo.com/video/apples-rally-pressures-ceo-deliver-145430259.html",
-          "publishedAt": "2026-09-09 23:54",
-          "outlet": "Yahoo Finance"
-        },
-        {
           "title": "Stocks making the biggest moves premarket: Apple, Casey's General Store, Signet Jewelers & more",
           "summary": "These are the stocks posting the largest moves premarket.",
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
           "publishedAt": "2026-09-09 21:00",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Samsung, LG secure roles as key suppliers for Apple's foldable iPhone - digitimes",
-          "summary": "Samsung, LG secure roles as key suppliers for Apple's foldable iPhone  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUNLbmVuaDNYTzZFUHdRTm1Dc2JOZ0M4SDg1d0h6V0ROV01ZdTFHb2Y0MlB0T1RLRFZYelFERTVZYkhzNHVRZHlFT2dWcjlGSnJNTWRVX2NjQkNKR3VSWEtHVTRoQ0o1ak1CTmVFNE95QXlUZWd1THhjcVl3QVVvUnhsZnpaVVg2aGdON0k0RWFzR1lCZkRPMWR2SQ?oc=5",
-          "publishedAt": "2026-09-09 18:10",
-          "outlet": "DigiTimes"
         },
         {
           "title": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient - digitimes",
