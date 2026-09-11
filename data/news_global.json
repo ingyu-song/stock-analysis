@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11 10:09",
+  "updatedAt": "2026-09-11 15:04",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -12,15 +12,15 @@
           "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
           "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
           "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
-          "publishedAt": "2026-09-11 09:19",
+          "publishedAt": "2026-09-11 11:05",
           "outlet": "CNBC Finance"
         },
         {
-          "title": "Analysis-Apple’s foldable iPhone poses a $1,999 question: Who is it for?",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/analysisapples-foldable-iphone-poses-a-1999-question-who-is-it-for-4897085",
-          "publishedAt": "2026-09-11 08:42",
-          "outlet": "Investing.com"
+          "title": "Apple’s foldable iPhone poses a $1,999 question: Who is it for? - Reuters",
+          "summary": "Apple’s foldable iPhone poses a $1,999 question: Who is it for?  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcVhTTkNyYVpzVHVfMlBkSThSRUNEVGstVEZ3WkRISGZ4bUxBZUhIZnhURGVqNmlVenltRDBGYUpQUDI1UXJ0YklPY1JYV0Z5TjdrMTdqd00waVp1QngxUnhsWnVhdDdJcXllUmlGVkQwRE4xNEI2bUtCNmFKYWlJMFRiZGNiZ2Q4cU5zWTNnNXpxaW5hd2d0eWthZFNuMjRkYXBNWFdEWDNXaWI5VGlMNmVoVQ?oc=5",
+          "publishedAt": "2026-09-11 08:40",
+          "outlet": "Reuters Business (via Google News)"
         },
         {
           "title": "Apple’s New iPhone Duo Is Here. How Do Consumer Technology Journalists Review It?",
@@ -63,6 +63,13 @@
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
           "publishedAt": "2026-09-09 21:00",
           "outlet": "CNBC Finance"
+        },
+        {
+          "title": "Samsung, LG secure roles as key suppliers for Apple's foldable iPhone - digitimes",
+          "summary": "Samsung, LG secure roles as key suppliers for Apple's foldable iPhone  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUNLbmVuaDNYTzZFUHdRTm1Dc2JOZ0M4SDg1d0h6V0ROV01ZdTFHb2Y0MlB0T1RLRFZYelFERTVZYkhzNHVRZHlFT2dWcjlGSnJNTWRVX2NjQkNKR3VSWEtHVTRoQ0o1ak1CTmVFNE95QXlUZWd1THhjcVl3QVVvUnhsZnpaVVg2aGdON0k0RWFzR1lCZkRPMWR2SQ?oc=5",
+          "publishedAt": "2026-09-09 18:10",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient - digitimes",
@@ -109,13 +116,6 @@
           "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
           "publishedAt": "2026-09-08 15:16",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps - digitimes",
-          "summary": "Intel CPU prices reportedly rising 10% again as Qualcomm and MediaTek target IPC and IoT gaps  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE14RnY0bUZLMDBJOHFsV3NJVy1qcEpkTWhXeGQ0aUdkS1NROU5IX1JrVzdKT0xPTkJzYlR6TUtacElVRFlqWjEwaGF2SGZ1WVJXZ2ZaRVVXNEdNRnUyZzA4aTd5aFZXTFlOenVqWWROTEdFUTJFa0JqT1g1MA?oc=5",
-          "publishedAt": "2026-09-08 13:13",
           "outlet": "DigiTimes"
         }
       ]
