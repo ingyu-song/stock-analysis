@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11 14:40",
+  "updatedAt": "2026-09-11 15:20",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1343.28,
@@ -81,7 +81,7 @@
       "shares": 50,
       "price": 23.52,
       "costNative": 1173.25,
-      "costKRW": 1570043
+      "costKRW": 1571228
     },
     {
       "account": "mirae",
@@ -236,6 +236,65 @@
       "currency": "EUR",
       "returnPct": -14.44,
       "reason": "유럽 쪽 금리가 높은 상태에서 단기 촉매(short-term catalyst)가 없다고 봄. 1주씩 나눠서 매도."
+    },
+    {
+      "date": "2026-09-08",
+      "account": "kiwoom",
+      "ticker": "080220.KQ",
+      "name": "제주반도체",
+      "side": "buy",
+      "shares": 5,
+      "price": 75600,
+      "currency": "KRW",
+      "reason": "한국 중소형주 중에서 relative valuation으로 레거시 메모리 하는 곳을 찾고 싶었고, 그러다 찾은 게 제주반도체. 아직 밸류가 싼 것 같아서 매수."
+    },
+    {
+      "date": "2026-09-08",
+      "account": "mirae",
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "side": "sell",
+      "shares": 5,
+      "price": 336.59,
+      "currency": "USD",
+      "returnPct": -9.13,
+      "reason": "GPT Astra 때문에 제미나이 관련 내러티브가 더 안 좋아질 거라고 생각.",
+      "note": "-9.13%는 달러 가격으로는 이 기간에 나올 수 없는 수치다 (9/3~9/10 최저가 $327.74 → 달러 기준 최대 -5.9%). 원화 기준 수익률로 보인다. 달러 예수금 변화(9/3 3,970.97 → 9/11 7,180.82)에서 다른 매매를 빼고 역산하면 주당 약 $336.59, 달러 기준 -3.37%이고, 이 가격이 거래 범위에 들어가는 날은 9/8뿐이다. 매수 이후 원화가 강세였던 만큼 원화로 본 손실이 더 크다. 날짜와 체결가는 이 추정에 따른 것."
+    },
+    {
+      "date": "2026-09-09",
+      "account": "mirae",
+      "ticker": "SONY",
+      "name": "소니 그룹 (ADR)",
+      "side": "buy",
+      "shares": 50,
+      "price": 23.465,
+      "currency": "USD",
+      "reason": "일본에 무슨 일이 일어났는지는 모르겠는데 최근에 또 떨어져 있길래 매수. 원래 같으면 본주를 매수할 텐데 ADR밖에 못 사서 ADR로 삼."
+    },
+    {
+      "date": "2026-09-10",
+      "account": "mirae",
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
+      "side": "sell",
+      "shares": 1,
+      "price": 404.82,
+      "currency": "EUR",
+      "returnPct": -16.07,
+      "reason": "유럽 쪽 금리가 높은 상태에서 단기 촉매(short-term catalyst)가 없다고 봄. 나머지 1주 매도.",
+      "note": "날짜는 추정. €404.82는 9/9 저가(€408.75)보다 낮아 9/9 체결일 수 없고, 9/11 12:18 잔고 화면에서 대금이 아직 유로 예수금에 없었는데 그 시각엔 9/11 유럽장이 열리기 전이었다 → 9/10."
+    },
+    {
+      "date": "2026-09-11",
+      "account": "kiwoom",
+      "ticker": "379800.KS",
+      "name": "KODEX 미국S&P500",
+      "side": "buy",
+      "shares": 25,
+      "price": 23100,
+      "currency": "KRW",
+      "reason": "미국 금리가 폭등하면서 시장이 overfearing하고 있다는 생각. 분할매수로 모아갈 계획."
     }
   ]
 }
