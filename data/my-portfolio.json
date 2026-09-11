@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11 15:20",
+  "updatedAt": "2026-09-11 15:45",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1343.28,
@@ -9,7 +9,7 @@
       "id": "kiwoom",
       "name": "키움 (ISA)",
       "cash": {
-        "KRW": 14796695
+        "KRW": 14278495
       }
     },
     {
@@ -48,10 +48,10 @@
       "ticker": "379810.KS",
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
-      "shares": 30,
+      "shares": 50,
       "price": 25865.0,
-      "costKRW": 805350,
-      "costNative": 805350
+      "costKRW": 1323550,
+      "costNative": 1323550
     },
     {
       "account": "mirae",
@@ -295,6 +295,17 @@
       "price": 23100,
       "currency": "KRW",
       "reason": "미국 금리가 폭등하면서 시장이 overfearing하고 있다는 생각. 분할매수로 모아갈 계획."
+    },
+    {
+      "date": "2026-09-11",
+      "account": "kiwoom",
+      "ticker": "379810.KS",
+      "name": "KODEX 미국나스닥100",
+      "side": "buy",
+      "shares": 20,
+      "price": 25910,
+      "currency": "KRW",
+      "reason": "S&P500 추가매수와 같은 이유 — 미국 금리가 폭등하면서 시장이 overfearing하고 있다는 생각. 분할매수로 모아갈 계획."
     }
   ]
 }
