@@ -425,6 +425,19 @@ function initSeedNotice() {
     // restored book stale and replace it straight back.
     restored.seededFrom = state.seededFrom;
     restored.publishedBook = state.publishedBook;
+    // The backup holds whatever marks it had when it was stashed. Restoring is
+    // about getting the user's edits back, not yesterday's prices — so every
+    // holding the site also carries takes today's mark. Holdings that exist only
+    // in this browser keep their typed price until published, since no job
+    // prices what it has never seen.
+    const fresh = new Map(state.holdings.map(h => [`${h.account}|${h.ticker}`, h]));
+    restored.holdings.forEach(h => {
+      const match = fresh.get(`${h.account}|${h.ticker}`);
+      if (match) h.price = match.price;
+    });
+    restored.fxRate = state.fxRate;
+    restored.fxRateEUR = state.fxRateEUR;
+    restored.updatedAt = state.updatedAt;
     state = restored;
     saveState(state);
     seedReplacedEdits = false;
