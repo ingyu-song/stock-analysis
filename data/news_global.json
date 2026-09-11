@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-11 15:04",
+  "updatedAt": "2026-09-11 20:28",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple's new chip packaging boosts A20 Pro AI power, pushing MediaTek, Qualcomm to follow suit - digitimes",
+          "summary": "Apple's new chip packaging boosts A20 Pro AI power, pushing MediaTek, Qualcomm to follow suit  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS1ZfdnJmaHhFNG1WSXFTSGptVnRBbmVRdHBfRmt1U1lueGg4ZVd6SU5mTkNwZThDeGxoRG8wa1Q2UE1UYVBmYXNHalFKY0ppZGZOTGhtYV9RUHZtWnhiLTdsWVRYd1ozenAxTkQ1UXNCQks5aGpVeFp2YThKQnZUbjF6OG10cFVIVzRRaUk3eXJldVNjQkE?oc=5",
+          "publishedAt": "2026-09-11 13:21",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
           "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
@@ -44,13 +51,6 @@
           "outlet": "BBC Business"
         },
         {
-          "title": "Elon Musk's X is the AI community group chat",
-          "summary": "Elon Musk bought Twitter saying civilization needed a \"common digital town square.\" Four years later, it's more like a live group chat for Silicon Valley's AI obsessives.Why it matters: Two years ago, X was fighting off competition from a slew of new entrants. Today, it remains relevant by becoming more niche.The people making AI news are often debating it, explaining it and occasionally breaking ",
-          "link": "https://www.axios.com/2026/09/10/elon-musk-x-ai-community-group-chat",
-          "publishedAt": "2026-09-10 18:20",
-          "outlet": "Axios"
-        },
-        {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
           "summary": "These are the stocks posting the largest moves midday.",
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html",
@@ -63,13 +63,6 @@
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
           "publishedAt": "2026-09-09 21:00",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Samsung, LG secure roles as key suppliers for Apple's foldable iPhone - digitimes",
-          "summary": "Samsung, LG secure roles as key suppliers for Apple's foldable iPhone  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNZUNLbmVuaDNYTzZFUHdRTm1Dc2JOZ0M4SDg1d0h6V0ROV01ZdTFHb2Y0MlB0T1RLRFZYelFERTVZYkhzNHVRZHlFT2dWcjlGSnJNTWRVX2NjQkNKR3VSWEtHVTRoQ0o1ak1CTmVFNE95QXlUZWd1THhjcVl3QVVvUnhsZnpaVVg2aGdON0k0RWFzR1lCZkRPMWR2SQ?oc=5",
-          "publishedAt": "2026-09-09 18:10",
-          "outlet": "DigiTimes"
         },
         {
           "title": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient - digitimes",
@@ -85,17 +78,10 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "We're living in an AI twilight zone",
-          "summary": "Two seemingly contradictory realities are true at once:Most people find AI only modestly useful, a more clever Google search.Many people building AI or using it obsessively worry it could severely damage or destroy humanity.Why it matters: We're living in an AI twilight zone. For many, the technology is simultaneously underwhelming in daily use and terrifying in its trajectory.The gap between thes",
-          "link": "https://www.axios.com/2026/09/10/ai-anthropic-warning-humanity",
-          "publishedAt": "2026-09-10 18:44",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Scoop: Anthropic whistleblower gave up his equity to leave the company",
-          "summary": "Anthropic researcher Jacob Coxon quit his job due to concerns about the safety of AI two months before his equity would have vested, he told Axios.Why it matters: The disclosure raises the stakes on Coxon's now mega-viral resignation from the AI lab, which laid out the broad view that the tech could end humanity.What they're saying: \"I no longer have anything to gain by juicing up Anthropic's valu",
-          "link": "https://www.axios.com/2026/09/09/anthropic-researcher-ai-warning-interview",
-          "publishedAt": "2026-09-10 08:14",
+          "title": "How AI makes biological research more dangerous",
+          "summary": "This week's dire warnings about unchecked artificial intelligence destroying humanity are refocusing attention on how models already are being used in dangerous bioscience experiments — and the lack of safeguards.Why it matters: There's growing alarm about emerging risks from advances like AI-designed viruses. But it's hard to erect guardrails when there's no ironclad way of even knowing how some ",
+          "link": "https://www.axios.com/2026/09/11/ai-warnings-biological-research-dangerous",
+          "publishedAt": "2026-09-11 18:30",
           "outlet": "Axios"
         }
       ]
@@ -110,13 +96,6 @@
           "link": "https://www.axios.com/2026/09/10/anthropic-claude-government-surveillance-threats",
           "publishedAt": "2026-09-11 02:00",
           "outlet": "Axios"
-        },
-        {
-          "title": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline - digitimes",
-          "summary": "ASML lines up Intel, TSMC and Samsung behind 12-inch masks — TSMC alone sets a timeline  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOeG9LV1F6YUwyeVY4Q0lkWVpnT2tOQjk4WE1vRW9fY3R1YlB5V0QzeFNoLVhXdkt0RFBEcHZ0QjVodlIwZXhucDV3dGdSUVZXQTBCdENiSjV5b3dHTE0yLXRmWTNoNFAtc0ZzTzNIeDNBdndBd0dObTNTdDFHamRfTlU5U3E0N0djeUR2Vnhvaw?oc=5",
-          "publishedAt": "2026-09-08 15:16",
-          "outlet": "DigiTimes"
         }
       ]
     }
