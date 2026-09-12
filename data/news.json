@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12 10:11",
+  "updatedAt": "2026-09-12 14:53",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -455,18 +455,6 @@
           "summary": "서클($CRCL)이 크로스체인 전송 프로토콜 CCTP에 수수료 선납 기능을 추가했다. 개발자는 출발 체인의 네이티브 가스 토큰이나 유에스디코인(USDC)으로 수수료를 미리 낼 수 있다. 이번 기능으로 개발자는 도착...",
           "link": "https://www.tokenpost.kr/news/blockchain/404536",
           "publishedAt": "2026-09-09 00:24"
-        },
-        {
-          "title": "로빈후드(HOOD) 소송 경고에도...캐시 우드, 360만달러 베팅",
-          "summary": "우드는 서클 인터넷 그룹(Circle Internet Group, CRCL), 불리시(Bullish, BLSH), 블록(Block Inc., XYZ), 비트마인 이머전 테크놀로지스(BitMine Immersion Technologies, BMNR) 등 암호화폐 관련주도 거래해왔다. 이번 매수는...",
-          "link": "http://coinreaders.com/256838",
-          "publishedAt": "2026-09-07 13:36"
-        },
-        {
-          "title": "[美 주간탑] 씨엔에이치 인더스트리얼, 주가 23.2%↑... 주가상승률 상위...",
-          "summary": "이 밖에 블룸 에너지(BE), 샌디스크(SNDK), 로빈훗 마케츠(HOOD), 서클 인터넷 그룹(CRCL)의 상승률도 높았다. 주가상승률 상위 종목 가운데 투자매력 V점수가 80점 이상인 종목은 XP(XP), 마이크론 테크놀로지...",
-          "link": "https://www.itooza.com/common/iview.php?no=2026090712260155905",
-          "publishedAt": "2026-09-07 12:28"
         }
       ]
     },
@@ -741,18 +729,6 @@
           "summary": "리치몬트그룹의 주가는 최근 6개월간 28% 올라 시가총액이 1000억유로(약 156조 3000억원)를 넘어섰다. LVMH 그룹의 주얼리 브랜드인 티파니앤코와 이탈리아 명품 주얼리·시계 브랜드 불가리 등의 수요도 꾸준했다....",
           "link": "https://www.fnnews.com/news/202609071431255294",
           "publishedAt": "2026-09-07 15:14"
-        },
-        {
-          "title": "비싸진 명품에 중산층 6000만명 떠났다…LVMH 시총도 반토막",
-          "summary": "까르띠에와 반클리프 아펠 등을 보유한 스위스 명품그룹 리치몬트의 주가는 최근 6개월간 28% 상승해 시가총액이 1000억유로를 넘어섰다. LVMH 산하 티파니와 불가리 등 주얼리 브랜드의 수요도 견조했다. 핸드백...",
-          "link": "https://www.newsis.com/view/NISX20260907_0003778957",
-          "publishedAt": "2026-09-07 11:56"
-        },
-        {
-          "title": "“올리면 더 잘 팔릴 줄 알았다”…루이비통 제국, 시총 절반 날아간 이...",
-          "summary": "LVMH는 지난해 2019년 대비 50% 이상 증가한 178억유로의 영업이익을 거뒀지만, 주가는 하락세를 면치 못하고 있다. LVMH는 루이비통, 디올 등 명품 브랜드를 거느리고 있는 프랑스에 본사를 둔 기업이다. 이처럼 주가가...",
-          "link": "https://www.mk.co.kr/article/12145830",
-          "publishedAt": "2026-09-07 10:27"
         }
       ]
     },
@@ -780,15 +756,15 @@
           "publishedAt": "2026-09-11 09:32"
         },
         {
-          "title": "[미국 특징주] \"인텔이 지분 보유한 알테라, 이르면 연내 IPO\"",
-          "summary": "실버레이크와 인텔(INTC)이 지분을 보유한 반도체 업체 알테라가 2026년 이르면 20억달러 이상을 조달할 수 있는 기업공개(IPO)를 준비하고 있다고 이 사안에 정통한 소식통들이 전했다. 최근 몇 년간 반도체 업계...",
-          "link": "https://www.newspim.com/news/view/20260911000067",
-          "publishedAt": "2026-09-11 08:02"
-        },
-        {
           "title": "[미국 특징주] \"마이크로소프트, 데이터센터 연산 용량 3배 확대 계획\"",
           "summary": "이 시설은 엔비디아(NVDA)가 주로 공급하는 AI 칩이 아니라 인텔(INTC) 등의 서버를 활용한 범용 중앙처리장치(CPU) 기반 컴퓨팅에 중점을 둘 예정이다. 인공지능(AI) 붐이 시작된 지 3년이 넘었지만 마이크로소프트의...",
           "link": "https://www.newspim.com/news/view/20260911000068",
+          "publishedAt": "2026-09-11 08:02"
+        },
+        {
+          "title": "[미국 특징주] \"인텔이 지분 보유한 알테라, 이르면 연내 IPO\"",
+          "summary": "실버레이크와 인텔(INTC)이 지분을 보유한 반도체 업체 알테라가 2026년 이르면 20억달러 이상을 조달할 수 있는 기업공개(IPO)를 준비하고 있다고 이 사안에 정통한 소식통들이 전했다. 최근 몇 년간 반도체 업계...",
+          "link": "https://www.newspim.com/news/view/20260911000067",
           "publishedAt": "2026-09-11 08:02"
         },
         {
@@ -1002,12 +978,6 @@
           "summary": "또 \"넷플릭스·디즈니·소니·NBC·유니버설 등 전 세계 박스오피스·스트리밍... platforms leading the global box office and streaming markets, including Netflix, Disney, Sony, NBC, and Universal.\"",
           "link": "http://www.breaknews.com/1234744",
           "publishedAt": "2026-09-07 17:48"
-        },
-        {
-          "title": "‘스파이더맨: 브랜드 뉴 데이’, 전 세계 역대 박스오피스 3위..24억 달...",
-          "summary": "7일 배급사 소니 픽쳐스에 따르면, <스파이더맨: 브랜드 뉴 데이>는 누적 관객수... According to distributor Sony Pictures on the 7th, *Spider-Man: A Brand New Day* has surpassed 8.79 million...",
-          "link": "http://www.breaknews.com/1234571",
-          "publishedAt": "2026-09-07 14:40"
         }
       ]
     },
@@ -1016,6 +986,12 @@
       "name": "제주반도체",
       "query": "제주반도체",
       "items": [
+        {
+          "title": "제주반도체 주가 7만5천원대 마감 변동성 확대",
+          "summary": "11일 KRX 마감 기준, 네이버페이 증권에 따르면 제주반도체는 9월 11일 장 마감 기준 75,200원에 거래를 마치며 전일 대비 3,600원 하락했다. 이는 4.57%의 등락률을 기록한 수치이다. 시가는 75,700원에...",
+          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16190776",
+          "publishedAt": "2026-09-12 12:22"
+        },
         {
           "title": "[주간 코스닥 기관] 주성엔지니어링 사들이고 알테오젠 내던졌다",
           "summary": "제주반도체와 티씨케이도 기관 매수 대상에 올랐다. 가비아와 로보티즈, 인텍플러스, RF머트리얼즈 역시 기관 순매수 상위 종목에 포함되면서 기관의 자금이 반도체를 중심으로 하면서도 일부 AI·로봇·클라우드...",

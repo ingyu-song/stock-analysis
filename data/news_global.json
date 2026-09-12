@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12 10:12",
+  "updatedAt": "2026-09-12 14:53",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,46 @@
       "name": "애플",
       "items": [
         {
+          "title": "Apple Loop: iPhone 18 Pro Arrives, Apple Watch’s Ears, iPhone Duo’s UI - Forbes",
+          "summary": "Apple Loop: iPhone 18 Pro Arrives, Apple Watch’s Ears, iPhone Duo’s UI  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ2pyWWYxMnNDbVRfSlJldkRxaE9jZ0ZrN1VOdFk2enNjdUMxaWJmYTFVeEJTQXZKcmNZOWl6S1BwSjhvXzVaLTkzV2VEWHJmc3lxQkxNVkJNX2FLbjI0SXNlWkUxcjlJMmtPa0FFMFNnRGpTRVpMMnBYM0VZSHBVLTJ4cFhiaC1xZV9BeDR1Tl9jcWRHZUNpci03WmtmaDNPbEVLX0NWS0hhVWtMWXEtQ0hTemZKSS1XS2dNUXVaaEVWelBTSFZzcU9udmpJTU0?oc=5",
+          "publishedAt": "2026-09-12 07:29",
+          "outlet": "Forbes Markets"
+        },
+        {
+          "title": "Apple Claims Meta Played ‘Central Role’ In DOJ iPhone Antitrust Investigation - Forbes",
+          "summary": "Apple Claims Meta Played ‘Central Role’ In DOJ iPhone Antitrust Investigation  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNkEya2MzakxNV1lqbERfSzNCX2JWd1BETExmWXhuVUhnMnVUMWJXR1QwVWp5VTRqdFNTNGpxYTZBUm9NcndMRE5DRVBKTjlfeGotTk82azFUWlBEeU9rd096TzljVmhWTGNycDBwdHR6VVlpRVhmd2JET1FZQjd3Qm1IcnJDWjAyRE5JN203bmFxNlk4bC1NTkVRTXR4T09IOEpQdzhLRmtUUk9jX2xiZnJpWXl3Zw?oc=5",
+          "publishedAt": "2026-09-12 01:14",
+          "outlet": "Forbes Markets"
+        },
+        {
           "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
           "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
           "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
           "publishedAt": "2026-09-11 23:30",
           "outlet": "CNBC Finance"
+        },
+        {
+          "title": "Apple's new chip packaging boosts A20 Pro AI power, pushing MediaTek, Qualcomm to follow suit - digitimes",
+          "summary": "Apple's new chip packaging boosts A20 Pro AI power, pushing MediaTek, Qualcomm to follow suit  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS1ZfdnJmaHhFNG1WSXFTSGptVnRBbmVRdHBfRmt1U1lueGg4ZVd6SU5mTkNwZThDeGxoRG8wa1Q2UE1UYVBmYXNHalFKY0ppZGZOTGhtYV9RUHZtWnhiLTdsWVRYd1ozenAxTkQ1UXNCQks5aGpVeFp2YThKQnZUbjF6OG10cFVIVzRRaUk3eXJldVNjQkE?oc=5",
+          "publishedAt": "2026-09-11 13:21",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "iPhone Duo leads Apple's new lineup as market stays split - digitimes",
+          "summary": "iPhone Duo leads Apple's new lineup as market stays split  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTVZ0MnJKQ3lCNG95SG44SDZJVW4zM1ZhMnFTd1Jnal9DaWlIWHJ5TVlmS3lwX1ZCT0hHYXJZeUQ3LV9uTmRFUDRfN3BtVUktQklaXzNKb3ZkWTNBUWt5Z2xLQmVtUFUtVnVCYXJoUGgzcDc2a3ZMUF9JYmVKREZmeGo2N1ZIaEhWV2lOWg?oc=5",
+          "publishedAt": "2026-09-11 10:49",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Apple makes the hinge, not the screen, the centerpiece of its first foldable - digitimes",
+          "summary": "Apple makes the hinge, not the screen, the centerpiece of its first foldable  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYW91OW8teVZSNVhFd2U2TzdGNUx2NGF4THhCd0JfY3Vsdmh3OXptb0VRU3UwTk8ycC1JSlNRZFN2eFB3TzQ1S0JvV0x1Smw0WGhIUjc3dXpIekdKSjhHVGZkWWR1VzJsUTNiWWhEMGROMnJsMmp1TGk2SWxZSmUwWEVwd2xQRFZkMnpKeUpn?oc=5",
+          "publishedAt": "2026-09-11 09:31",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Stocks making the biggest moves premarket: Macy's, Meta, Apple, Novartis and more",
@@ -28,6 +63,13 @@
           "link": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-09-10 18:32",
           "outlet": "BBC Business"
+        },
+        {
+          "title": "Apple's John Ternus puts iPhone at AI center stage - digitimes",
+          "summary": "Apple's John Ternus puts iPhone at AI center stage  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVUk1bFdFb2J2VGFBNnFmWmxlemNvX1BXaG5sWmJfeXdKSTJjMFNadUVvZHppdjJlOV9kS3BDMkRJTlduc18zd3VfUjA3UDZFd2Fld1dYcndGNThxQ2xpU3RjT25HMFU5OXlsdUNOc19Kak5wYUNYRnFVM0UxRm5yeGdueEdrTXRJS3lMQnpPd0xvUQ?oc=5",
+          "publishedAt": "2026-09-10 12:38",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
@@ -55,19 +97,6 @@
           "link": "https://www.axios.com/2026/09/11/ai-warnings-biological-research-dangerous",
           "publishedAt": "2026-09-11 18:30",
           "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "Palo Alto (PANW) Reports 63% NGS ARR Growth but a $282M GAAP Net Loss. Can Platform Expansion Absorb Acquisition Costs?",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-panw-reports-63-173118350.html",
-          "publishedAt": "2026-09-11 02:31",
-          "outlet": "Yahoo Finance"
         }
       ]
     }
