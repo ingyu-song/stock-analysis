@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13 02:14",
+  "updatedAt": "2026-09-13 04:26",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -300,6 +300,12 @@
       "query": "코인베이스 COIN",
       "items": [
         {
+          "title": "Base 토큰화 주식, 26일간 거래대금 2억6258만달러",
+          "summary": "Base의 토큰화 주식은 코인베이스($COIN)가 발행하고 실제 주식을 규제 대상 수탁기관에 1대1로 보관하는 구조다. 토큰은 Base의 B20 표준을 따르며, 적격 관할권의 미국 외 이용자가 지갑에 보관하고 거래할 수 있다....",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/407025",
+          "publishedAt": "2026-09-13 03:06"
+        },
+        {
           "title": "“조금 오르는가 싶더니 또 이러네”…고유가 금리인상에 무너진 비트코...",
           "summary": "이날 뉴욕증시에서 코인베이스(COIN), 서클(CRCL), 스트래티지(MSTR) 등 가상자산 관련주도 나흘 연속 하락하며 이날 각각 3% 안팎으로 밀렸다. 다만 파생상품 시장에서는 연말 상승 기대가 완전히 꺾인 것은 아니라는...",
           "link": "https://www.mk.co.kr/article/12150964",
@@ -382,12 +388,6 @@
           "summary": "서클(CRCL)은 1.19%, 코인베이스(COIN)는 0.46%, 비트마인(BMNR)은 0.41% 내렸다. 샤프링크 게이밍(SBET)은 0.12%, 로빈후드($HOOD)는 0.62% 떨어졌다. 이번 수치는 BIT(bit.com) 시세 데이터를 바탕으로 집계됐다. 블록비트는...",
           "link": "https://www.tokenpost.kr/news/market/405713",
           "publishedAt": "2026-09-10 17:28"
-        },
-        {
-          "title": "비트코인 양자보안 논의 본격화…자산 이전도 검토",
-          "summary": "코인베이스($COIN)가 비트코인(BTC)의 양자컴퓨터 대응을 위해 개발자와 암호학자, 기관 수탁사, 하드웨어 지갑 전문가를 모아 자산 이전 방안을 논의했다. 핵심 의제는 양자내성 서명 기술을 비트코인에 적용하는 방식과...",
-          "link": "https://www.tokenpost.kr/news/blockchain/405346",
-          "publishedAt": "2026-09-10 00:30"
         }
       ]
     },
@@ -561,6 +561,12 @@
       "query": "팔로알토네트웍스",
       "items": [
         {
+          "title": "'꿈의 운동화' 나이키, 신으면 으쓱했는데…18년만에 추락",
+          "summary": "대신 델테크놀로지스, 팔로알토네트웍스, 아리스타네트웍스, 샌디스크 등 기술 기업 4곳이 새로 편입됩니다. S&P100은 S&P500 구성 종목 가운데 기업 규모와 주식 거래의 편의성, 업종별 균형 등을 고려해 100개 기업을...",
+          "link": "https://biz.sbs.co.kr/article_hub/20000334104?division=NAVER",
+          "publishedAt": "2026-09-13 04:00"
+        },
+        {
           "title": "18년 만에 S&P100 밀려난 나이키…美 증시 '간판주' 교체 가속",
           "summary": "대신 델테크놀로지스와 팔로알토네트웍스, 아리스타네트웍스, 샌디스크가 새로 편입된다. 제외 종목은 경기소비재와 필수소비재, 부동산, 산업재에 걸쳐 있는 반면 신규 편입 종목은 모두 IT 기업이다. 이번...",
           "link": "https://www.newsway.co.kr/news/view?ud=2026091116482610938",
@@ -643,12 +649,6 @@
           "summary": "델 테크놀로지스, 아리스타 네트웍스, 팔로알토 네트웍스, 샌디스크, 4곳 모두 정보기술 기업입니다. 델은 AI 서버, 아리스타는 AI 데이터센터 네트워크 장비, 팔로알토는 사이버보안, 샌디스크는 플래시 메모리, 전부...",
           "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8658414&ref=A",
           "publishedAt": "2026-09-09 06:57"
-        },
-        {
-          "title": "\"침몰하는 배\"...나이키(NKE), 18년 만에 우량주 명단서 탈락",
-          "summary": "델 테크놀로지스(Dell Technologies, DELL), 팔로알토 네트웍스(Palo Alto Networks, PANW), 아리스타 네트웍스(Arista Networks, ANET), 샌디스크(SanDisk, SNDK)가 새로 편입된다. 나이키와 함께 허니웰 에어로스페이스(Honeywell...",
-          "link": "http://coinreaders.com/257179",
-          "publishedAt": "2026-09-09 02:32"
         }
       ]
     },
