@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13 04:27",
+  "updatedAt": "2026-09-13 07:21",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,46 @@
       "name": "애플",
       "items": [
         {
+          "title": "Key deals this week: META, ADI, BSP, AAPL, and more",
+          "summary": "",
+          "link": "https://seekingalpha.com/news/4642267-key-deals-this-week-meta-adi-bsp-aapl-and-more?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
+          "publishedAt": "2026-09-13 04:15",
+          "outlet": "Business Insider Markets"
+        },
+        {
+          "title": "Apple’s foldable iPhone poses a $1,999 question: Who is it for? - Reuters",
+          "summary": "Apple’s foldable iPhone poses a $1,999 question: Who is it for?  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcVhTTkNyYVpzVHVfMlBkSThSRUNEVGstVEZ3WkRISGZ4bUxBZUhIZnhURGVqNmlVenltRDBGYUpQUDI1UXJ0YklPY1JYV0Z5TjdrMTdqd00waVp1QngxUnhsWnVhdDdJcXllUmlGVkQwRE4xNEI2bUtCNmFKYWlJMFRiZGNiZ2Q4cU5zWTNnNXpxaW5hd2d0eWthZFNuMjRkYXBNWFdEWDNXaWI5VGlMNmVoVQ?oc=5",
+          "publishedAt": "2026-09-12 12:51",
+          "outlet": "Reuters Business (via Google News)"
+        },
+        {
+          "title": "Apple Loop: iPhone 18 Pro Arrives, Apple Watch’s Ears, iPhone Duo’s UI - Forbes",
+          "summary": "Apple Loop: iPhone 18 Pro Arrives, Apple Watch’s Ears, iPhone Duo’s UI  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ2pyWWYxMnNDbVRfSlJldkRxaE9jZ0ZrN1VOdFk2enNjdUMxaWJmYTFVeEJTQXZKcmNZOWl6S1BwSjhvXzVaLTkzV2VEWHJmc3lxQkxNVkJNX2FLbjI0SXNlWkUxcjlJMmtPa0FFMFNnRGpTRVpMMnBYM0VZSHBVLTJ4cFhiaC1xZV9BeDR1Tl9jcWRHZUNpci03WmtmaDNPbEVLX0NWS0hhVWtMWXEtQ0hTemZKSS1XS2dNUXVaaEVWelBTSFZzcU9udmpJTU0?oc=5",
+          "publishedAt": "2026-09-12 07:29",
+          "outlet": "Forbes Markets"
+        },
+        {
           "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
           "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
           "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
           "publishedAt": "2026-09-11 23:30",
           "outlet": "CNBC Finance"
+        },
+        {
+          "title": "iPhone Duo leads Apple's new lineup as market stays split - digitimes",
+          "summary": "iPhone Duo leads Apple's new lineup as market stays split  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTVZ0MnJKQ3lCNG95SG44SDZJVW4zM1ZhMnFTd1Jnal9DaWlIWHJ5TVlmS3lwX1ZCT0hHYXJZeUQ3LV9uTmRFUDRfN3BtVUktQklaXzNKb3ZkWTNBUWt5Z2xLQmVtUFUtVnVCYXJoUGgzcDc2a3ZMUF9JYmVKREZmeGo2N1ZIaEhWV2lOWg?oc=5",
+          "publishedAt": "2026-09-11 10:49",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Apple makes the hinge, not the screen, the centerpiece of its first foldable - digitimes",
+          "summary": "Apple makes the hinge, not the screen, the centerpiece of its first foldable  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPYW91OW8teVZSNVhFd2U2TzdGNUx2NGF4THhCd0JfY3Vsdmh3OXptb0VRU3UwTk8ycC1JSlNRZFN2eFB3TzQ1S0JvV0x1Smw0WGhIUjc3dXpIekdKSjhHVGZkWWR1VzJsUTNiWWhEMGROMnJsMmp1TGk2SWxZSmUwWEVwd2xQRFZkMnpKeUpn?oc=5",
+          "publishedAt": "2026-09-11 09:31",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Stocks making the biggest moves premarket: Macy's, Meta, Apple, Novartis and more",
@@ -28,6 +63,13 @@
           "link": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-09-10 18:32",
           "outlet": "BBC Business"
+        },
+        {
+          "title": "Apple's John Ternus puts iPhone at AI center stage - digitimes",
+          "summary": "Apple's John Ternus puts iPhone at AI center stage  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVUk1bFdFb2J2VGFBNnFmWmxlemNvX1BXaG5sWmJfeXdKSTJjMFNadUVvZHppdjJlOV9kS3BDMkRJTlduc18zd3VfUjA3UDZFd2Fld1dYcndGNThxQ2xpU3RjT25HMFU5OXlsdUNOc19Kak5wYUNYRnFVM0UxRm5yeGdueEdrTXRJS3lMQnpPd0xvUQ?oc=5",
+          "publishedAt": "2026-09-10 12:38",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
@@ -50,18 +92,24 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google's Historic 396 MW Clean Energy Deal Just Changed the Game for 1 AI Power Play",
-          "summary": "",
-          "link": "https://finance.yahoo.com/energy/articles/googles-historic-396-mw-clean-190500123.html",
-          "publishedAt": "2026-09-13 04:05",
-          "outlet": "Yahoo Finance"
-        },
-        {
           "title": "The world reconsiders America",
           "summary": "America is shedding its status as the default choice for foreign governments to park money, buy weapons and send students.Why it matters: Even modest shifts away from the U.S. could chip away at advantages that have helped sustain American economic and geopolitical power for decades.Driving the news: The Netherlands moved 86 tons of gold out of the U.S. and Canada last week, citing the move as a h",
           "link": "https://www.axios.com/2026/09/12/us-world-relationships-gold-tourism",
           "publishedAt": "2026-09-12 20:30",
           "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "items": [
+        {
+          "title": "Palo Alto Networks (PANW)’s AI Growth Faces a Higher Valuation Bar",
+          "summary": "",
+          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-panw-ai-215116717.html",
+          "publishedAt": "2026-09-13 06:51",
+          "outlet": "Yahoo Finance"
         }
       ]
     }
