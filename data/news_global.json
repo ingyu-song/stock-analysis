@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12 07:38",
+  "updatedAt": "2026-09-12 10:12",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,25 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple Claims Meta Played ‘Central Role’ In DOJ iPhone Antitrust Investigation - Forbes",
-          "summary": "Apple Claims Meta Played ‘Central Role’ In DOJ iPhone Antitrust Investigation  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQNkEya2MzakxNV1lqbERfSzNCX2JWd1BETExmWXhuVUhnMnVUMWJXR1QwVWp5VTRqdFNTNGpxYTZBUm9NcndMRE5DRVBKTjlfeGotTk82azFUWlBEeU9rd096TzljVmhWTGNycDBwdHR6VVlpRVhmd2JET1FZQjd3Qm1IcnJDWjAyRE5JN203bmFxNlk4bC1NTkVRTXR4T09IOEpQdzhLRmtUUk9jX2xiZnJpWXl3Zw?oc=5",
-          "publishedAt": "2026-09-12 01:14",
-          "outlet": "Forbes Markets"
-        },
-        {
           "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
           "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
           "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
           "publishedAt": "2026-09-11 23:30",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Apple's new chip packaging boosts A20 Pro AI power, pushing MediaTek, Qualcomm to follow suit - digitimes",
-          "summary": "Apple's new chip packaging boosts A20 Pro AI power, pushing MediaTek, Qualcomm to follow suit  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOS1ZfdnJmaHhFNG1WSXFTSGptVnRBbmVRdHBfRmt1U1lueGg4ZVd6SU5mTkNwZThDeGxoRG8wa1Q2UE1UYVBmYXNHalFKY0ppZGZOTGhtYV9RUHZtWnhiLTdsWVRYd1ozenAxTkQ1UXNCQks5aGpVeFp2YThKQnZUbjF6OG10cFVIVzRRaUk3eXJldVNjQkE?oc=5",
-          "publishedAt": "2026-09-11 13:21",
-          "outlet": "DigiTimes"
         },
         {
           "title": "Stocks making the biggest moves premarket: Macy's, Meta, Apple, Novartis and more",
@@ -44,13 +30,6 @@
           "outlet": "BBC Business"
         },
         {
-          "title": "Apple's John Ternus puts iPhone at AI center stage - digitimes",
-          "summary": "Apple's John Ternus puts iPhone at AI center stage  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNVUk1bFdFb2J2VGFBNnFmWmxlemNvX1BXaG5sWmJfeXdKSTJjMFNadUVvZHppdjJlOV9kS3BDMkRJTlduc18zd3VfUjA3UDZFd2Fld1dYcndGNThxQ2xpU3RjT25HMFU5OXlsdUNOc19Kak5wYUNYRnFVM0UxRm5yeGdueEdrTXRJS3lMQnpPd0xvUQ?oc=5",
-          "publishedAt": "2026-09-10 12:38",
-          "outlet": "DigiTimes"
-        },
-        {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
           "summary": "These are the stocks posting the largest moves midday.",
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html",
@@ -63,13 +42,6 @@
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
           "publishedAt": "2026-09-09 21:00",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient - digitimes",
-          "summary": "Apple yields to memory suppliers in historic strategy shift, with Kioxia tipped as NAND long-term agreement recipient  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15MzlZYXZWMGpTdzVIZ2pza3RxSnhvQzhSUDEyTnZyUXdEem1oSEVKTnZQTUpoYWxISGtDWGF6Q3Z1dVdBV0ZEdEswUmVJV2VpdXp3UUF3eHZwRzB2OXlSNlVLUERtdlJmZ3FjQzRnMGZJak1pZ0lab0szaHdDNWs?oc=5",
-          "publishedAt": "2026-09-09 13:22",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -87,15 +59,15 @@
       ]
     },
     {
-      "ticker": "GLW",
-      "name": "코닝",
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
       "items": [
         {
-          "title": "Corning stock dips on filing for $2 billion equity distribution program",
+          "title": "Palo Alto (PANW) Reports 63% NGS ARR Growth but a $282M GAAP Net Loss. Can Platform Expansion Absorb Acquisition Costs?",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/corning-stock-dips-on-filing-for-2-billion-equity-distribution-program-4898477",
-          "publishedAt": "2026-09-12 06:14",
-          "outlet": "Investing.com"
+          "link": "https://finance.yahoo.com/markets/stocks/articles/palo-alto-panw-reports-63-173118350.html",
+          "publishedAt": "2026-09-11 02:31",
+          "outlet": "Yahoo Finance"
         }
       ]
     }
