@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13 07:21",
+  "updatedAt": "2026-09-13 10:05",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,20 +14,6 @@
           "link": "https://seekingalpha.com/news/4642267-key-deals-this-week-meta-adi-bsp-aapl-and-more?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
           "publishedAt": "2026-09-13 04:15",
           "outlet": "Business Insider Markets"
-        },
-        {
-          "title": "Apple’s foldable iPhone poses a $1,999 question: Who is it for? - Reuters",
-          "summary": "Apple’s foldable iPhone poses a $1,999 question: Who is it for?  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNcVhTTkNyYVpzVHVfMlBkSThSRUNEVGstVEZ3WkRISGZ4bUxBZUhIZnhURGVqNmlVenltRDBGYUpQUDI1UXJ0YklPY1JYV0Z5TjdrMTdqd00waVp1QngxUnhsWnVhdDdJcXllUmlGVkQwRE4xNEI2bUtCNmFKYWlJMFRiZGNiZ2Q4cU5zWTNnNXpxaW5hd2d0eWthZFNuMjRkYXBNWFdEWDNXaWI5VGlMNmVoVQ?oc=5",
-          "publishedAt": "2026-09-12 12:51",
-          "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "Apple Loop: iPhone 18 Pro Arrives, Apple Watch’s Ears, iPhone Duo’s UI - Forbes",
-          "summary": "Apple Loop: iPhone 18 Pro Arrives, Apple Watch’s Ears, iPhone Duo’s UI  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPQ2pyWWYxMnNDbVRfSlJldkRxaE9jZ0ZrN1VOdFk2enNjdUMxaWJmYTFVeEJTQXZKcmNZOWl6S1BwSjhvXzVaLTkzV2VEWHJmc3lxQkxNVkJNX2FLbjI0SXNlWkUxcjlJMmtPa0FFMFNnRGpTRVpMMnBYM0VZSHBVLTJ4cFhiaC1xZV9BeDR1Tl9jcWRHZUNpci03WmtmaDNPbEVLX0NWS0hhVWtMWXEtQ0hTemZKSS1XS2dNUXVaaEVWelBTSFZzcU9udmpJTU0?oc=5",
-          "publishedAt": "2026-09-12 07:29",
-          "outlet": "Forbes Markets"
         },
         {
           "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
@@ -101,14 +87,14 @@
       ]
     },
     {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
       "items": [
         {
-          "title": "Palo Alto Networks (PANW)’s AI Growth Faces a Higher Valuation Bar",
+          "title": "Did Repeat Buyers Tell You CrowdStrike Stock Would Run?",
           "summary": "",
-          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-panw-ai-215116717.html",
-          "publishedAt": "2026-09-13 06:51",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/did-repeat-buyers-tell-crowdstrike-184347748.html",
+          "publishedAt": "2026-09-12 03:43",
           "outlet": "Yahoo Finance"
         }
       ]
