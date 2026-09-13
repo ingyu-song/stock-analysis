@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-13 15:16",
+  "updatedAt": "2026-09-13 21:04",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "‘Cheap iPhone deal’: warning over scam sites selling latest Apple mobiles",
-          "summary": "Criminals exploit demand for iPhone 18 Pro and foldable Duo to trick people eager to get their hands on oneApple has just launched a range of new iPhones, including a foldable handset, just as you decide it is time to replace your own ageing mobile. But you balk at the £1,199 price tag for the cheapest of the new options.Searching online for a better price with the words “cheap”, “iPhone” and “dea",
-          "link": "https://www.theguardian.com/money/2026/sep/13/cheap-iphone-18-pro-duo-deal-price-scam-sites-apple-mobiles",
-          "publishedAt": "2026-09-13 15:00",
-          "outlet": "The Guardian Business"
-        },
         {
           "title": "Key deals this week: META, ADI, BSP, AAPL, and more",
           "summary": "",
@@ -51,24 +44,10 @@
           "outlet": "CNBC Finance"
         },
         {
-          "title": "Apple's new boss starts with big gamble on £1,999 first folding iPhone",
-          "summary": "Apple showed off at an event the first major design change to the iPhone in almost 20 years.",
-          "link": "https://www.bbc.co.uk/news/articles/clyjd1jnd03o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-09-10 18:32",
-          "outlet": "BBC Business"
-        },
-        {
           "title": "Stocks making the biggest moves midday: Meta, Centerspace, Apple, Casey's General Stores, Signet & more",
           "summary": "These are the stocks posting the largest moves midday.",
           "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-midday-meta-csr-aapl-casy-sig.html",
           "publishedAt": "2026-09-10 02:41",
-          "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Stocks making the biggest moves premarket: Apple, Casey's General Store, Signet Jewelers & more",
-          "summary": "These are the stocks posting the largest moves premarket.",
-          "link": "https://www.cnbc.com/2026/09/09/stocks-making-the-biggest-moves-premarket-aapl-casy-sig.html",
-          "publishedAt": "2026-09-09 21:00",
           "outlet": "CNBC Finance"
         }
       ]
@@ -83,6 +62,32 @@
           "link": "https://www.axios.com/2026/09/12/us-world-relationships-gold-tourism",
           "publishedAt": "2026-09-12 20:30",
           "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "CRCL",
+      "name": "서클 인터넷 그룹",
+      "items": [
+        {
+          "title": "MoneyGram Launched a Visa Card That Spends USDC. Ripple’s Former Partner Chose Circle",
+          "summary": "",
+          "link": "https://finance.yahoo.com/markets/crypto/articles/moneygram-launched-visa-card-spends-110414409.html",
+          "publishedAt": "2026-09-12 20:04",
+          "outlet": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "SONY",
+      "name": "소니",
+      "items": [
+        {
+          "title": "Sony’s Now Making Decisions Specifically To Avoid Another ‘Concord’ - Forbes",
+          "summary": "Sony’s Now Making Decisions Specifically To Avoid Another ‘Concord’  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMkplVHFKQzRtRjhQM2pEcVlYLU55WlpLd0pFclFoVF9TaVN1d0FRWU96TkhnODlYMDZyWkpKS2ZUb0FFeEpvbmFPVDRFVlhncl9sdFlTM1d6UTRPUmV4WldxU0cxcjlvTjU0X3ExZm5Yd081LS13Sm1sNWo3UzlQZk1lbVRDYm44Mm1fRFJDcUhNOE4wMjFRWXFFVjY0OUlzNkJmT0M2LTh0cGo2X2VoczIyT0Jhdw?oc=5",
+          "publishedAt": "2026-09-13 00:24",
+          "outlet": "Forbes Markets"
         }
       ]
     }
