@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14 04:30",
+  "updatedAt": "2026-09-14 07:27",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Key deals this week: META, ADI, BSP, AAPL, and more",
-          "summary": "",
-          "link": "https://seekingalpha.com/news/4642267-key-deals-this-week-meta-adi-bsp-aapl-and-more?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-          "publishedAt": "2026-09-13 04:15",
-          "outlet": "Business Insider Markets"
+          "title": "Apple foldable plans drive new demand for Japanese smartphone parts makers - digitimes",
+          "summary": "Apple foldable plans drive new demand for Japanese smartphone parts makers  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUkU0a0FkSDNnWWZkWW4zNkhMekZ1Y25SQzZyTW5KYkFScW1jRlpTZ3FHdXBPamtoTlctSE5UbmROVUlKZkZiRU1HUkMxM19xYWxvRUl1NUwyTXd0NDhCbU9EaFdCcXpsM3NFLXdEZGs0WGk1d0E2eGtxemFrbUNvMVp1UExlU2NweG1saTdXazVoRTk3endIbnBVSQ?oc=5",
+          "publishedAt": "2026-09-12 10:20",
+          "outlet": "DigiTimes"
         },
         {
           "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
@@ -88,13 +88,6 @@
           "summary": "",
           "link": "https://finance.yahoo.com/technology/ai/articles/intel-intc-winning-cpu-shortage-191052125.html",
           "publishedAt": "2026-09-14 04:10",
-          "outlet": "Yahoo Finance"
-        },
-        {
-          "title": "AMD and Intel’s Shared AI Instructions Reach GCC. Can Software Cooperation Strengthen Both Stocks?",
-          "summary": "",
-          "link": "https://finance.yahoo.com/technology/ai/articles/amd-intel-shared-ai-instructions-165917161.html",
-          "publishedAt": "2026-09-14 01:59",
           "outlet": "Yahoo Finance"
         }
       ]
