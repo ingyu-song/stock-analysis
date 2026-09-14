@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12 09:25",
+  "updatedAt": "2026-09-14 22:32",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1341.05,
@@ -17,7 +17,7 @@
       "name": "미래에셋",
       "cash": {
         "KRW": -3866,
-        "USD": 7180.82,
+        "USD": 2623.81,
         "EUR": 828.73
       }
     }
@@ -68,20 +68,20 @@
       "ticker": "AAPL",
       "name": "애플",
       "currency": "USD",
-      "shares": 5,
+      "shares": 15,
       "price": 332.27,
-      "costKRW": 2205116,
-      "costNative": 1610.94
+      "costKRW": 6696954,
+      "costNative": 4942.2
     },
     {
       "account": "mirae",
       "ticker": "SONY",
       "name": "소니 그룹 (ADR)",
       "currency": "USD",
-      "shares": 50,
+      "shares": 100,
       "price": 23.9,
-      "costNative": 1173.25,
-      "costKRW": 1571228
+      "costNative": 2399.0,
+      "costKRW": 3224017
     },
     {
       "account": "mirae",
@@ -306,6 +306,28 @@
       "price": 25910,
       "currency": "KRW",
       "reason": "S&P500 추가매수와 같은 이유 — 미국 금리가 폭등하면서 시장이 overfearing하고 있다는 생각. 분할매수로 모아갈 계획."
+    },
+    {
+      "date": "2026-09-14",
+      "account": "mirae",
+      "ticker": "AAPL",
+      "name": "애플",
+      "side": "buy",
+      "shares": 10,
+      "price": 333.13,
+      "currency": "USD",
+      "reason": "매매 입력으로 직접 반영, 사유 확인 필요."
+    },
+    {
+      "date": "2026-09-14",
+      "account": "mirae",
+      "ticker": "SONY",
+      "name": "소니 그룹 (ADR)",
+      "side": "buy",
+      "shares": 50,
+      "price": 24.52,
+      "currency": "USD",
+      "reason": "매매 입력으로 직접 반영, 사유 확인 필요."
     }
   ]
 }
