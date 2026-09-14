@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14 23:09",
+  "updatedAt": "2026-09-15 04:26",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -106,6 +106,18 @@
       "query": "애플 AAPL",
       "items": [
         {
+          "title": "S&P500 30% 조정 가능성…AI 거품 ‘말기’ 경고",
+          "summary": "다음 날에는 애플($AAPL)의 시가총액이 3600억달러(약 483조4800억원) 줄어든 반면 아마존($AMZN)은 3880억달러(약 521조84억원) 증가했다. 아카디안 애셋 매니지먼트(Acadian Asset Management) 자료에서 미국 개별 종목의 등락...",
+          "link": "https://www.tokenpost.kr/news/ai/407803",
+          "publishedAt": "2026-09-15 01:14"
+        },
+        {
+          "title": "[미국 특징주] 머스크의 xAI, 애플 상대 반독점 소송 취하…오픈AI 향한...",
+          "summary": "일론 머스크가 이끄는 xAI와 X코퍼레이션이 애플(AAPL)을 상대로 제기했던 반독점 소송을 원만히 해결했다고 밝혔다. 앞서 두 회사는 애플이 다른 챗봇 개발사들을 배제하고 오픈AI의 챗GPT만 우대했다며 애플을...",
+          "link": "https://www.newspim.com/news/view/20260915000009",
+          "publishedAt": "2026-09-15 01:03"
+        },
+        {
           "title": "아이폰, 15년 전 156BTC였는데 지금은 0.015BTC...비트코인 구매력 99.99% ...",
           "summary": "애플(Apple, AAPL)은 지난 8일 첫 폴더블 아이폰인 아이폰 듀오를 공개했다. 시작 가격은 2,000달러이며 7.6인치 내부 디스플레이를 갖췄다. 아이폰 18 프로와 프로 맥스의 시작 가격은 각각 1,200달러와 1...",
           "link": "http://coinreaders.com/258104",
@@ -182,18 +194,6 @@
           "summary": "로빈후드는 엔비디아(NVDA)와 애플(AAPL) 등 주식 토큰을 24시간 거래할 수 있다고 설명했다. 유니스왑·라이트너·아커스 등 여러 거래 환경을 통해 토큰화 주식과 디지털 자산을 거래하는 구조다. 다만 거래 자산별...",
           "link": "https://www.tokenpost.kr/news/cryptocurrency/406015",
           "publishedAt": "2026-09-11 04:16"
-        },
-        {
-          "title": "[TODAY애플]2000달러 폴더블 ‘아이폰 듀오’ 공개…주가 2%↑",
-          "summary": "애플(AAPL)이 첫 폴더블 스마트폰 ‘아이폰 듀오’를 공개하며 주가가 상승하고 있다. 10일(현지시간) 오후12시25분 현재 애플 주가는 전일대비 1.57% 오른 320.37달러를 기록 중이다. 배런스에 따르면 애플은 연례 신제품...",
-          "link": "https://www.edaily.co.kr/News/Read?newsId=01302166645579136&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-          "publishedAt": "2026-09-11 01:30"
-        },
-        {
-          "title": "합성 주식에 밈코인 결합…복합 위험 가능성 거론",
-          "summary": "거래 대상에는 애플(AAPL), 엔비디아(NVDA), 인텔(INTC), 게임스톱(GME) 등이 포함됐다. 비트쿼리는 GME 티커를 사용하는 계약이 361개였으며, 이 가운데 354개는 실제 게임스톱 토큰이 아닌 별도 토큰이었다고 밝혔다. 이는 주식...",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/405955",
-          "publishedAt": "2026-09-11 00:48"
         }
       ]
     },
@@ -202,6 +202,12 @@
       "name": "알파벳 A",
       "query": "구글 알파벳 주가",
       "items": [
+        {
+          "title": "월가에 몰아치는 3가지 폭풍[박신영의 개장전 요것만]",
+          "summary": "구글과 메타 주가는 오히려 올라 AI 개발 속도 조절론이 확산됐지만 이날 구글의 모회사 알파벳과 메타 주가는 오히려 상승했습니다. 반도체와 AI 인프라 관련주가 크게 떨어진 것과는 대조적인 움직임입니다....",
+          "link": "https://www.hankyung.com/article/202609144293i",
+          "publishedAt": "2026-09-15 00:06"
+        },
         {
           "title": "“구글팔고 ‘이 주식’ 375억원 매수했다”…돈나무 언니가 베팅한 AI ...",
           "summary": "구글 모회사 알파벳 주식을 팔고 인공지능(AI)에 베팅한 것이다. 14일(현지시간) 미국 금융투자정보 전문... 알파벳 주식만큼 메타 비중을 늘린 셈이다. 우드 CEO가 메타에 베팅한 시점도 눈길을 끈다. 메타 주가는...",
@@ -285,12 +291,6 @@
           "summary": "11일(현지시간) 뉴욕증시에서 엔비디아와 마이크론 주가는 약보합으로 마감했다. 필라델피아반도체지수가 1.8%, SK하이닉스 ADR 0.9%, 대만 TSMC는 1,2% 반등했다. 빅테크주들도 강세를 이어갔다. 구글 모회사 알파벳이...",
           "link": "http://www.beyondpost.co.kr/view.php?ud=202609120607062572aaae0046f_30",
           "publishedAt": "2026-09-12 06:16"
-        },
-        {
-          "title": "[美증시 특징주] 국제유가 하락, 델·HPE 폭등에 기술주 '활기'…아마존...",
-          "summary": "10%, 구글 알파벳은 1.90% 각각 뛰었다. 메타는 1% 올랐으며 엔비디아와 테슬라는 강보합권에서 움직이고... 서버업체들의 주가가 수요 폭발로 급등하면서 투자분위기가 개선됐기 때문으로 보인다. 오라클이 전날...",
-          "link": "https://www.mediapen.com/news/view/1123066",
-          "publishedAt": "2026-09-12 04:46"
         }
       ]
     },
@@ -299,6 +299,30 @@
       "name": "코인베이스 글로벌",
       "query": "코인베이스 COIN",
       "items": [
+        {
+          "title": "코인베이스, 이용자에 클래리티 법안 지지 촉구",
+          "summary": "오데일리는 코인베이스($COIN)가 이용자들에게 상원의원들에게 클래리티 법안 지지 의사를 전달해 달라고 촉구했다고 보도했다.",
+          "link": "https://www.tokenpost.kr/news/breaking/407844",
+          "publishedAt": "2026-09-15 02:46"
+        },
+        {
+          "title": "코인베이스($COIN), 장중 10.02% 올라 191.88달러",
+          "summary": "코인베이스($COIN) 주가가 장중 10.02% 상승해 191.88달러로 집계됐다. PANews는 15일 바이낸스 시세를 인용해 코인베이스 주가가 이같이 표시됐다고 보도했다.",
+          "link": "https://www.tokenpost.kr/news/breaking/407837",
+          "publishedAt": "2026-09-15 02:26"
+        },
+        {
+          "title": "160만 BTC 노출…거래소 양자 대응은 주소 관리부터",
+          "summary": "코인베이스($COIN)는 9일 스탠퍼드대와 Localhost Research가 참여한 비공개 ‘Post-Quantum Bitcoin Workshop’을 열었다. 비트코인 개발자와 암호학자, 기관 수탁업체, 하드웨어 지갑 전문가 등이 참석했지만 특정 서명...",
+          "link": "https://www.tokenpost.kr/news/blockchain/407824",
+          "publishedAt": "2026-09-15 01:56"
+        },
+        {
+          "title": "코인베이스 7.44%·스트래티지 3.33% 상승",
+          "summary": "미국 증시에서 가상자산 관련주가 시장 흐름과 반대로 움직인 가운데 코인베이스($COIN) 주가가 7.44%, 스트래티지($MSTR) 주가가 3.33% 오른 것으로 집계됐다. 블록비트는 미국 증시에서 코인베이스($COIN)와...",
+          "link": "https://www.tokenpost.kr/news/breaking/407720",
+          "publishedAt": "2026-09-14 23:12"
+        },
         {
           "title": "불리시 24시간 8.91% 상승…미 가상자산주 혼조",
           "summary": "상승 종목 가운데 코인베이스($COIN)는 7.67%, 서클($CRCL)은 5.81%, 스트래티지($MSTR)는 4.11% 올랐다. 샤프링크게이밍($SBET)은 3.59%, 비트마인($BMNR)은 2.97%, 스트라이브($ASST)는 1.70% 상승했다. 비트고($BTGO)는 1.57%, 제미니...",
@@ -364,30 +388,6 @@
           "summary": "한 지갑이 241만 LINK를 코인베이스($COIN)로 옮기는 흐름도 함께 관찰됐다. 크립토브리핑은 온체인 데이터를 바탕으로 대형 지갑의 추가 확보 물량을 약 1036만 LINK로 집계했다. 당시 평가액은 약 1억2000만달러(약...",
           "link": "https://www.tokenpost.kr/news/cryptocurrency/407124",
           "publishedAt": "2026-09-13 16:16"
-        },
-        {
-          "title": "SPCXc 하루 660만달러 거래…유동성 검증 과제",
-          "summary": "코인베이스($COIN)의 토큰화 스페이스X 주식 SPCXc가 하루 약 660만달러(약 89억원)의 탈중앙화거래소(DEX) 거래량을 기록한 것으로 제시됐다. 토큰화 주식의 24시간 거래 가능성이 주목받았지만, 거래량만으로...",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/407066",
-          "publishedAt": "2026-09-13 15:38"
-        },
-        {
-          "title": "비트코인(BTC) 거래에 '초파리 뇌'가?...코인베이스 CEO \"첫날 1달러 수익...",
-          "summary": "9월 11일(현지시간) 유투데이에 따르면, 코인베이스(Coinbase, COIN) 소프트웨어 엔지니어 알렉스 워머스(Alex Wormuth)는 성체 수컷 초파리의 신경 연결 구조를 구현한 시뮬레이션에 100달러를 맡겨 비트코인을...",
-          "link": "http://coinreaders.com/257918",
-          "publishedAt": "2026-09-13 07:02"
-        },
-        {
-          "title": "Base 토큰화 주식, 26일간 거래대금 2억6258만달러",
-          "summary": "Base의 토큰화 주식은 코인베이스($COIN)가 발행하고 실제 주식을 규제 대상 수탁기관에 1대1로 보관하는 구조다. 토큰은 Base의 B20 표준을 따르며, 적격 관할권의 미국 외 이용자가 지갑에 보관하고 거래할 수 있다....",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/407025",
-          "publishedAt": "2026-09-13 03:06"
-        },
-        {
-          "title": "“조금 오르는가 싶더니 또 이러네”…고유가 금리인상에 무너진 비트코...",
-          "summary": "이날 뉴욕증시에서 코인베이스(COIN), 서클(CRCL), 스트래티지(MSTR) 등 가상자산 관련주도 나흘 연속 하락하며 이날 각각 3% 안팎으로 밀렸다. 다만 파생상품 시장에서는 연말 상승 기대가 완전히 꺾인 것은 아니라는...",
-          "link": "https://www.mk.co.kr/article/12150964",
-          "publishedAt": "2026-09-12 06:41"
         }
       ]
     },
@@ -463,6 +463,18 @@
       "name": "크라우드스트라이크",
       "query": "크라우드스트라이크",
       "items": [
+        {
+          "title": "美 증시, 중간선거 앞 ‘약세 구간’…AI·유가 겹쳤다",
+          "summary": "반대로 그동안 AI가 기존 사업을 대체할 것이라는 우려로 압박받았던 크라우드스트라이크, 팔로알토네트웍스, 워크데이 등 사이버보안·소프트웨어 업체 주가는 상승했다. AI 발전속도가 느려질 경우 기존 소프트웨어...",
+          "link": "https://www.g-enews.com/view.php?ud=2026091419534340379a1f309431_1",
+          "publishedAt": "2026-09-15 03:02"
+        },
+        {
+          "title": "[美특징주]팔로알토 등 사이버 보안주 동반 랠리…AI 속도 조절론 수혜...",
+          "summary": "크라우드스트라이크(CRWD) 역시 15.28%(31.60달러) 뛴 238.34달러를, 옥타(OKTA)도 11.85%(19.73달러) 상승한 186.35달러를 기록하고 있다. 지스케일러(ZS) 역시 15.38% 강세다. 주말간 다리오 아모데이 앤스로픽 최고경영자...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=01243126645580448&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "publishedAt": "2026-09-15 02:15"
+        },
         {
           "title": "내부자 매도 106억달러(약 14조2358억원)…집계 기준 따라 비율 달랐다",
           "summary": "citeturn2view3turn2view4 조지 커츠(George Kurtz) 크라우드스트라이크($CRWD) CEO의 신고에는 10b5-1 계획에 따른 거래라는 표시가 포함됐다. 신고에는 8월 31일과 9월 1일 여러 차례의 매도 내역이 담겨 있어, 사전에 정한...",
@@ -540,18 +552,6 @@
           "summary": "주요 편입 종목은 팔로알토네트웍스, 크라우드스트라이크, 포티넷, 시스코, 브로드컴 등이다. 실적 전망도 우호적이다. 보고서에 따르면 CIBR 편입 종목들은 매출과 이익 추정치가 꾸준히 상향되고 있으며...",
           "link": "https://www.mk.co.kr/article/12150437",
           "publishedAt": "2026-09-13 09:01"
-        },
-        {
-          "title": "'몸값 2조 달러' 앤트로픽 상장 임박…증시 블랙홀 되나",
-          "summary": "현재 미 증시에서 팔란티어, 크라우드스트라이크 등 AI 연관 기업들이 30배 이상의 평가를 받고 있다는 점을 감안하면 고평가로 단정 짓기는 어렵다. 그러나 흥행 여부는 별개다. 가장 큰 위협은 1위 사업자인 오픈AI의...",
-          "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1723981",
-          "publishedAt": "2026-09-12 06:00"
-        },
-        {
-          "title": "[DD퇴근길] 아이폰 200만원 시대…이통3사 ‘체감가격’ 경쟁",
-          "summary": "엔비디아는 이미 크라우드스트라이크·시스코·팔란티어 등과 협력하고 있으며 자체 네모트론(Nemotron) 모델도 활용하고 있습니다. 눈여겨볼 대목은 AI 인프라 투자가 모델 학습 중심에서 보안·자율주행·로봇...",
-          "link": "https://www.ddaily.co.kr/page/view/2026091116395726944",
-          "publishedAt": "2026-09-11 17:01"
         }
       ]
     },
@@ -560,6 +560,18 @@
       "name": "팰로 앨토 네트웍스",
       "query": "팔로알토네트웍스",
       "items": [
+        {
+          "title": "美 증시, 중간선거 앞 ‘약세 구간’…AI·유가 겹쳤다",
+          "summary": "반대로 그동안 AI가 기존 사업을 대체할 것이라는 우려로 압박받았던 크라우드스트라이크, 팔로알토네트웍스, 워크데이 등 사이버보안·소프트웨어 업체 주가는 상승했다. AI 발전속도가 느려질 경우 기존 소프트웨어...",
+          "link": "https://www.g-enews.com/view.php?ud=2026091419534340379a1f309431_1",
+          "publishedAt": "2026-09-15 03:02"
+        },
+        {
+          "title": "[美특징주]팔로알토 등 사이버 보안주 동반 랠리…AI 속도 조절론 수혜...",
+          "summary": "14일(현지시간) 오후 12시47분 현재 팔로알토네트웍스(PANW)는 전 거래일 대비 13.80%(45.63달러) 오른 376.28달러에 거래되고 있다. 크라우드스트라이크(CRWD) 역시 15.28%(31.60달러) 뛴 238.34달러를, 옥타(OKTA)도 11.85%(19....",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=01243126645580448&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "publishedAt": "2026-09-15 02:15"
+        },
         {
           "title": "뉴욕증시 개장 전 특징주...팔로알토·크라우드스트라이크·마라톤페트...",
           "summary": "인텔 로고 [사진=블룸버그통신] ▶ 상승 종목 ◆ 팔로알토 네트웍스(PANW) 사이버보안 업체 팔로알토 네트웍스는 개장 전 거래에서 4% 넘게 상승했다. 일론 머스크와 다리오 아모데이, 샘 올트먼 등 AI 업계 주요...",
@@ -637,18 +649,6 @@
           "summary": "삼성SDS 캠퍼스 (사진=삼성SDS) 소프트웨어·통신 부문 상위권에는 IBM(2위), 라쿠텐(4위), 팔로알토네트웍스(5위), SAP(6위), TCS(7위) 등 글로벌 IT 기업들이 이름을 올렸다. 국내 기업 중에서는 네이버가 8위를 기록해...",
           "link": "https://www.edaily.co.kr/News/Read?newsId=02191046645580120&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
           "publishedAt": "2026-09-14 09:06"
-        },
-        {
-          "title": "오픈AI ‘아스트라’ 출시에...신한證 “사이버보안 ETF 주목”",
-          "summary": "주요 편입 종목은 팔로알토네트웍스, 크라우드스트라이크, 포티넷, 시스코, 브로드컴 등이다. 실적 전망도 우호적이다. 보고서에 따르면 CIBR 편입 종목들은 매출과 이익 추정치가 꾸준히 상향되고 있으며...",
-          "link": "https://www.mk.co.kr/article/12150437",
-          "publishedAt": "2026-09-13 09:01"
-        },
-        {
-          "title": "'꿈의 운동화' 나이키, 신으면 으쓱했는데…18년만에 추락",
-          "summary": "대신 델테크놀로지스, 팔로알토네트웍스, 아리스타네트웍스, 샌디스크 등 기술 기업 4곳이 새로 편입됩니다. S&P100은 S&P500 구성 종목 가운데 기업 규모와 주식 거래의 편의성, 업종별 균형 등을 고려해 100개 기업을...",
-          "link": "https://biz.sbs.co.kr/article_hub/20000334104?division=NAVER",
-          "publishedAt": "2026-09-13 04:00"
         }
       ]
     },
@@ -714,15 +714,15 @@
       "query": "인텔 INTC",
       "items": [
         {
-          "title": "[美특징주]'반도체주 위기'에 소프트웨어주 '강세'…크라우드스트라이...",
-          "summary": "인텔(INTC)와 마벨 테크놀로지(MRVL)은 각각 5.7%와 7.15% 급락 중이며, AMD(AMD와 마이크론 테크놀로지(MU)도 5% 전후로 밀리고 있다. 지난 12일 다리오 아모데이 앤트로픽 최고경영자(CEO)는 첨단 AI 성능 향상 속도를...",
-          "link": "https://www.edaily.co.kr/News/Read?newsId=04618246645580120&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
-          "publishedAt": "2026-09-14 22:38"
-        },
-        {
           "title": "바이낸스 RWA 선물 확장, 하이퍼리퀴드 수수료 경쟁",
           "summary": "바이낸스는 2026년 3월 금·은·테슬라($TSLA)·인텔($INTC)·ETF 지수 등을 기초자산으로 삼는 전통자산 무기한선물을 선보였다. 이 상품은 USDT로 결제하며 만기가 없고 24시간 거래가 가능하다. 무기한선물은 기초자산을 직접...",
           "link": "https://www.tokenpost.kr/news/cryptocurrency/407690",
+          "publishedAt": "2026-09-14 22:38"
+        },
+        {
+          "title": "[美특징주]'반도체주 위기'에 소프트웨어주 '강세'…크라우드스트라이...",
+          "summary": "인텔(INTC)와 마벨 테크놀로지(MRVL)은 각각 5.7%와 7.15% 급락 중이며, AMD(AMD와 마이크론 테크놀로지(MU)도 5% 전후로 밀리고 있다. 지난 12일 다리오 아모데이 앤트로픽 최고경영자(CEO)는 첨단 AI 성능 향상 속도를...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=04618246645580120&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
           "publishedAt": "2026-09-14 22:38"
         },
         {
@@ -811,6 +811,12 @@
       "query": "코닝",
       "items": [
         {
+          "title": "[美특징주]코닝, 시기·물량 미정 20억달러 유상증자 소식에 급락",
+          "summary": "대규모 유상증자 계획을 밝힌 코닝(GLW) 주가가 하락 중이다. 14일(현지시간) 오후 12시55분 현재 코닝은 전 거래일 대비 12.32%(20.50달러) 내린 145.90달러에 거래되고 있다. 코닝은 지난 11일 골드만삭스와 시가총액...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=01249686645580448&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "publishedAt": "2026-09-15 02:10"
+        },
+        {
           "title": "코닝 9% 넘게 하락…미국 광통신주 집단 약세",
           "summary": "미국 증시 개장 초 광통신 관련주가 일제히 약세를 보인 가운데 코닝 주가가 9% 넘게 하락했다. 오데일리는 미국 광통신주가 개장 초 집단적으로 크게 하락했다고 보도했다.",
           "link": "https://www.tokenpost.kr/news/breaking/407697",
@@ -893,12 +899,6 @@
           "summary": "한편 유티아이는 2대 주주인 코닝과의 전략적 협력 관계를 맺고 있다. 코닝은 소재 기술와 글로벌 사업 노하우를 보유하고 있다. 기존에 소재 및 생산 협력 관계를 맺고 있던 양사는 UFG 기술과 폴더블 글라스 등...",
           "link": "https://www.mt.co.kr/stock/2026/09/10/2026091009394692194",
           "publishedAt": "2026-09-10 11:32"
-        },
-        {
-          "title": "美 재즈 색소포니스트 스콧 해밀턴, 내달 첫 공식 내한공연",
-          "summary": "해밀턴을 필두로 쳇 베이커의 마지막 피아니스트로 알려진 롭 반 바벨(피아노), 빈센트 코닝(기타), 프랑스 반 헤스트(베이스)로 구성된 롭 반 바벨 트리오와 현악 앙상블이 호흡을 맞춰 정통 스윙의 깊이와...",
-          "link": "https://www.newsis.com/view/NISX20260907_0003778430",
-          "publishedAt": "2026-09-10 11:04"
         }
       ]
     },

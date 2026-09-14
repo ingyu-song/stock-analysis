@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14 23:09",
+  "updatedAt": "2026-09-15 04:26",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,13 +14,6 @@
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUkU0a0FkSDNnWWZkWW4zNkhMekZ1Y25SQzZyTW5KYkFScW1jRlpTZ3FHdXBPamtoTlctSE5UbmROVUlKZkZiRU1HUkMxM19xYWxvRUl1NUwyTXd0NDhCbU9EaFdCcXpsM3NFLXdEZGs0WGk1d0E2eGtxemFrbUNvMVp1UExlU2NweG1saTdXazVoRTk3endIbnBVSQ?oc=5",
           "publishedAt": "2026-09-12 10:20",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "The iPhone Duo enters China’s crowded foldable market — and faces a price test",
-          "summary": "Chinese netizens focused on the price of Apple’s iPhone Duo, as cheaper Xiaomi and Huawei foldables raise value comparisons and muddle the foldable's reception.",
-          "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
-          "publishedAt": "2026-09-11 23:30",
-          "outlet": "CNBC Finance"
         }
       ]
     },
@@ -53,7 +46,7 @@
           "title": "Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body - The Information",
           "summary": "Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body  The Information",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUtGTGdnVXR2Z0d1QTJ0X0xET2tmTllHRmVYVVZ6Z01WcklGWU9YUWRIRU12QXZFMlJtQkg2ZTNEOUdaQ20wNXE2dE1rbE1mMzdkN0NMS05uUmk2Y3RtdS1ERUlsWVBwTUF5YXdKcWh2QXptbG85ZWE3Z1UteEFleEZYb1AwYkR2bjBNcHZR?oc=5",
-          "publishedAt": "2026-09-14 04:16",
+          "publishedAt": "2026-09-14 04:22",
           "outlet": "The Information"
         },
         {
@@ -69,6 +62,13 @@
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "items": [
+        {
+          "title": "Stocks making the biggest moves midday: Zscaler, CrowdStrike, Marvell Technology, Rum Group & more",
+          "summary": "These are some of the stocks posting the largest moves midday.",
+          "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-midday-zs-crwd-mrvl-rum.html",
+          "publishedAt": "2026-09-15 03:32",
+          "outlet": "CNBC Finance"
+        },
         {
           "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
           "summary": "These are the stocks posting the largest moves premarket.",
