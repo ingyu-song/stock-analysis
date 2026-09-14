@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14 22:32",
+  "updatedAt": "2026-09-14 22:36",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1341.05,
@@ -17,7 +17,7 @@
       "name": "미래에셋",
       "cash": {
         "KRW": -3866,
-        "USD": 2623.81,
+        "USD": 4919.4,
         "EUR": 828.73
       }
     }
@@ -58,10 +58,10 @@
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "currency": "USD",
-      "shares": 8,
+      "shares": 6,
       "price": 206.74,
-      "costKRW": 2206054,
-      "costNative": 1611.6256
+      "costKRW": 1654540,
+      "costNative": 1208.7192
     },
     {
       "account": "mirae",
@@ -108,10 +108,10 @@
       "ticker": "PANW",
       "name": "팰로 앨토 네트웍스",
       "currency": "USD",
-      "shares": 10,
+      "shares": 5,
       "price": 330.65,
-      "costKRW": 5067164,
-      "costNative": 3701.8
+      "costKRW": 2533582,
+      "costNative": 1850.9
     },
     {
       "account": "mirae",
@@ -316,7 +316,7 @@
       "shares": 10,
       "price": 333.13,
       "currency": "USD",
-      "reason": "매매 입력으로 직접 반영, 사유 확인 필요."
+      "reason": "다른 빅테크들이 부진할 때 애플은 굳건하게 있을 거라고 봄. 현재 사이버 보안 관련 종목이 뜨고 있는데 변동성이 심하게 될 것 같아서, 소프트웨어 말고 하드웨어를 매수함."
     },
     {
       "date": "2026-09-14",
@@ -327,7 +327,31 @@
       "shares": 50,
       "price": 24.52,
       "currency": "USD",
-      "reason": "매매 입력으로 직접 반영, 사유 확인 필요."
+      "reason": "모델을 봤는데, ADR과 6758의 차이가 거의 없는 모습. 아직도 50% 가량의 업사이드가 남아있는 가격이라 매수."
+    },
+    {
+      "date": "2026-09-14",
+      "account": "mirae",
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
+      "side": "sell",
+      "shares": 2,
+      "price": 232.02,
+      "currency": "USD",
+      "returnPct": 15.17,
+      "reason": "오늘 사이버보안주가 거의 10% 가까이 뛰어서 한번 수익실현하고 팔로알토 비중을 줄이고 싶었음. 앞으로 각광받을 업계는 크라우드스트라이크라고 생각해서 그쪽 비중은 남겨둠. 앞으로 관련 보안주 중 업사이드가 분명하지만 under the radar인 종목을 찾을 예정."
+    },
+    {
+      "date": "2026-09-14",
+      "account": "mirae",
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "side": "sell",
+      "shares": 5,
+      "price": 366.31,
+      "currency": "USD",
+      "returnPct": -1.05,
+      "reason": "오늘 사이버보안주가 거의 10% 가까이 뛰어서 한번 수익실현하고 팔로알토 비중을 줄이고 싶었음. 앞으로 각광받을 업계는 크라우드스트라이크라고 생각해서 그쪽 비중은 남겨둠. 앞으로 관련 보안주 중 업사이드가 분명하지만 under the radar인 종목을 찾을 예정."
     }
   ]
 }
