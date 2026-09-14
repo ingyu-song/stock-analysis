@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-14 15:23",
+  "updatedAt": "2026-09-14 23:09",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,20 +21,6 @@
           "link": "https://www.cnbc.com/2026/09/11/the-iphone-duo-enters-chinas-crowded-foldable-market.html",
           "publishedAt": "2026-09-11 23:30",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Memory makers gain the upper hand as Apple's iPhones pay the price - digitimes",
-          "summary": "Memory makers gain the upper hand as Apple's iPhones pay the price  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1JaVl5V3NyYlMwM2l0cXZmY0wwRG11QlNQT2d3dnk5bnFrdWhKMzFYSXhXQy1SenRvLUF6aTQ0dmVFZlJlYklURGRpZ0JiMkhWcGVadXo5M0ZpU2NLYkRfYmtwcEE4NzVielE?oc=5",
-          "publishedAt": "2026-09-11 17:26",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Stocks making the biggest moves premarket: Macy's, Meta, Apple, Novartis and more",
-          "summary": "These are the stocks posting the largest moves in the premarket.",
-          "link": "https://www.cnbc.com/2026/09/10/stocks-making-the-biggest-moves-premarket-.html",
-          "publishedAt": "2026-09-10 20:54",
-          "outlet": "CNBC Finance"
         }
       ]
     },
@@ -42,6 +28,27 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "I worked at Google DeepMind. You should listen to the warnings about AI | Alex Turner",
+          "summary": "We must stop companies from allowing AI to self-improve into an uncontrollable level of intelligence Major AI lab CEOs advocated for slowing the pace of AI development this weekend. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should be demanding that our governments protect us from the catastrophe of out-of-control AI.This July",
+          "link": "https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings",
+          "publishedAt": "2026-09-14 21:00",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Washington's AI paralysis: Let 'er rip vs. hit the brakes",
+          "summary": "President Trump is as all-in on AI as a politician could be: all gas, no brakes, and zero interest in hand-wringing about dystopian risks or public disdain.Democrats are as conflicted on AI as a party could be: skeptical of the labs, spooked by their warnings, but split on whether to shut it all down.Why it matters: This staggering divide makes consensus on federal AI regulation almost unimaginabl",
+          "link": "https://www.axios.com/2026/09/14/trump-ai-safety-regulations-congress",
+          "publishedAt": "2026-09-14 18:52",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes",
+          "summary": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYTYyVWpzcGZzNXp4alI0TVZGSjVQejBFQ1l4X0t4TEVadnBCZkx4dzBBVWtnOW5OTHYtd1dWTDNuenFlSVJsME5vVzFMYlRxWVMzSmRUZUlGTHZ0c3h2WUoyelN1UGJLYUxpX0lYWHFPRTVCWlloRjZBejlaaURxeGVaSzVFYnpBYWZqVnZnRjg?oc=5",
+          "publishedAt": "2026-09-14 11:01",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body - The Information",
           "summary": "Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body  The Information",
@@ -55,33 +62,39 @@
           "link": "https://www.axios.com/2026/09/13/ai-labs-regulation-safety",
           "publishedAt": "2026-09-13 21:56",
           "outlet": "Axios"
-        },
-        {
-          "title": "Google Just Dropped a Bombshell on AI Spending — Alphabet’s $200 Billion AI Bet Is Starting to Pay Off Big",
-          "summary": "",
-          "link": "https://finance.yahoo.com/technology/ai/articles/google-just-dropped-bombshell-ai-185617741.html",
-          "publishedAt": "2026-09-13 03:56",
-          "outlet": "Yahoo Finance"
-        },
-        {
-          "title": "The world reconsiders America",
-          "summary": "America is shedding its status as the default choice for foreign governments to park money, buy weapons and send students.Why it matters: Even modest shifts away from the U.S. could chip away at advantages that have helped sustain American economic and geopolitical power for decades.Driving the news: The Netherlands moved 86 tons of gold out of the U.S. and Canada last week, citing the move as a h",
-          "link": "https://www.axios.com/2026/09/12/us-world-relationships-gold-tourism",
-          "publishedAt": "2026-09-12 20:30",
-          "outlet": "Axios"
         }
       ]
     },
     {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
       "items": [
         {
-          "title": "Palo Alto Networks (PANW)’s AI Growth Faces a Higher Valuation Bar",
-          "summary": "",
-          "link": "https://finance.yahoo.com/technology/ai/articles/palo-alto-networks-panw-ai-215116717.html",
-          "publishedAt": "2026-09-13 06:51",
-          "outlet": "Yahoo Finance"
+          "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
+          "summary": "These are the stocks posting the largest moves premarket.",
+          "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-premarket-intc-mrvl-crwd.html",
+          "publishedAt": "2026-09-14 21:36",
+          "outlet": "CNBC Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
+          "summary": "These are the stocks posting the largest moves premarket.",
+          "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-premarket-intc-mrvl-crwd.html",
+          "publishedAt": "2026-09-14 21:36",
+          "outlet": "CNBC Finance"
+        },
+        {
+          "title": "Weekly news roundup: HBM4 strain, Intel price hikes and the next AI infrastructure buildout - digitimes",
+          "summary": "Weekly news roundup: HBM4 strain, Intel price hikes and the next AI infrastructure buildout  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ0NUZjNkczVuVzBDcjZhbUlBeXE1RDhjUXNPYXJFRHR4a3FVWGE5SmtBZ1ROa250U1h2cnZYOWZuQmlMYjRQR1cyajdYUW9rUHN2NUZ6SEJBRHl5TkwzZ2NtWk1XcTh1SXRFcmFLQnRuM21rbXJJMXV1bWwtdnl2aUhHcmxfdw?oc=5",
+          "publishedAt": "2026-09-14 09:40",
+          "outlet": "DigiTimes"
         }
       ]
     }
