@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16 03:15",
+  "updatedAt": "2026-09-16 06:29",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -12,7 +12,7 @@
           "title": "With Emmys Haul, Apple Joins the Big Leagues of TV",
           "summary": "The tech giant took home the most trophies this year, breaking the chokehold HBO and Netflix have had on the awards for more than two decades.",
           "link": "https://www.nytimes.com/2026/09/15/business/media/apple-emmys-widows-bay.html",
-          "publishedAt": "2026-09-16 02:04",
+          "publishedAt": "2026-09-16 03:26",
           "outlet": "NYT Business"
         }
       ]
@@ -22,22 +22,8 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Former Google DeepMind researcher says he resigned because 'I earnestly believe that AI has the potential to kill us all'",
-          "summary": "",
-          "link": "https://www.businessinsider.com/google-deepmind-researcher-resigns-ai-kill-humans-2026-9",
-          "publishedAt": "2026-09-16 00:36",
-          "outlet": "Business Insider Markets"
-        },
-        {
-          "title": "Why a swift AI pause is unlikely: No one trusts AI companies",
-          "summary": "Most agree the AI industry needs oversight.The critical barrier: Few really trust the industry, or the safety advocates who come from inside the house.Why it matters: Factions in the Trump administration, business executives wary of competitive threats, and advocates for cheaper, more customizable \"open\" models fear that new regulatory hurdles will offer frontier AI companies too much power.What t",
-          "link": "https://www.axios.com/2026/09/15/ai-trust-safety-anthropic-openai",
-          "publishedAt": "2026-09-15 18:00",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes",
-          "summary": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  digitimes",
+          "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes.com",
+          "summary": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYTYyVWpzcGZzNXp4alI0TVZGSjVQejBFQ1l4X0t4TEVadnBCZkx4dzBBVWtnOW5OTHYtd1dWTDNuenFlSVJsME5vVzFMYlRxWVMzSmRUZUlGTHZ0c3h2WUoyelN1UGJLYUxpX0lYWHFPRTVCWlloRjZBejlaaURxeGVaSzVFYnpBYWZqVnZnRjg?oc=5",
           "publishedAt": "2026-09-14 11:01",
           "outlet": "DigiTimes"
@@ -48,13 +34,6 @@
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "items": [
-        {
-          "title": "Crowdstrike and Illumina among market cap stock movers on Tuesday",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/crowdstrike-and-illumina-among-market-cap-stock-movers-on-tuesday-93CH-4902377",
-          "publishedAt": "2026-09-16 03:06",
-          "outlet": "Investing.com"
-        },
         {
           "title": "Stocks making the biggest moves midday: Zscaler, CrowdStrike, Marvell Technology, Rum Group & more",
           "summary": "These are some of the stocks posting the largest moves midday.",
@@ -72,22 +51,28 @@
       ]
     },
     {
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
+      "items": [
+        {
+          "title": "L'Oreal steals French stock market crown from LVMH - reuters.com",
+          "summary": "L'Oreal steals French stock market crown from LVMH  reuters.com",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNN0tMb2QxSEFUNm1ZdGw5UVhUcEZVTmx6TzVKTDNWQnFfbmNraDctaTlxaU5VY1J3VEZjRk9Ra1lld283cFRqTFI5RzNRSmNZODFhaWJZSXJSTUVGUzMwV00tMXhsbDV6Zk5rd3piYWhRc2Q5VTRuMFpCa0dLUXp3b05NZDFuaXk4Y1F0TlhFRDI1a2JBdm1rV0xxRkx6elNwSDVuQ0N5cHk?oc=5",
+          "publishedAt": "2026-09-16 01:13",
+          "outlet": "Reuters Business (via Google News)"
+        }
+      ]
+    },
+    {
       "ticker": "INTC",
       "name": "인텔",
       "items": [
         {
-          "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes",
-          "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes",
+          "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes.com",
+          "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0RNUHdtM2htY3pwWFAwa3d4eGJIcG5GNnN5aFZVbEpOWk14NGlZWWhmZGZmVFhsR0JLcFJHb0F2dWZCSDAtbjNNR1U3RnlYczVEQ1daNmY3UkJMajU0YjBpTzFkQ3lPZ2NjWjFWUzd3ajgtTkpTdGM2N1BUbl95MklpWVVrT2s?oc=5",
           "publishedAt": "2026-09-16 01:15",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Delos Data, a chip startup founded by Intel veterans, raises $100 million for AI networks - reuters.com",
-          "summary": "Delos Data, a chip startup founded by Intel veterans, raises $100 million for AI networks  reuters.com",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMUpwdm5VMU9vRHllRDBiTm8wVXNCU0ZZT0dUZFNDdFNoLXNPN1BaNXVlSTBpMC1sSmh5YkRYZkI1Tk1aOFNJa042T3VzQjJqdFBHSEJTejlvNXdoWU83QlFGVkpINE4xeUZyV1paYTNCSUE4cktrRjNVZ1poUUw4VDZJV04tSDlzU1hlc1ZERGdTZTFPZGR1eGZsbkdObmhoNFJjM0lKdjZBVzBUbHdLYzMyTzdfWmZZV00wa2NmcEtTSTg?oc=5",
-          "publishedAt": "2026-09-15 22:03",
-          "outlet": "Reuters Business (via Google News)"
         },
         {
           "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
