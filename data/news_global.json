@@ -1,13 +1,33 @@
 {
-  "updatedAt": "2026-09-15 22:38",
+  "updatedAt": "2026-09-16 03:15",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "With Emmys Haul, Apple Joins the Big Leagues of TV",
+          "summary": "The tech giant took home the most trophies this year, breaking the chokehold HBO and Netflix have had on the awards for more than two decades.",
+          "link": "https://www.nytimes.com/2026/09/15/business/media/apple-emmys-widows-bay.html",
+          "publishedAt": "2026-09-16 02:04",
+          "outlet": "NYT Business"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Former Google DeepMind researcher says he resigned because 'I earnestly believe that AI has the potential to kill us all'",
+          "summary": "",
+          "link": "https://www.businessinsider.com/google-deepmind-researcher-resigns-ai-kill-humans-2026-9",
+          "publishedAt": "2026-09-16 00:36",
+          "outlet": "Business Insider Markets"
+        },
         {
           "title": "Why a swift AI pause is unlikely: No one trusts AI companies",
           "summary": "Most agree the AI industry needs oversight.The critical barrier: Few really trust the industry, or the safety advocates who come from inside the house.Why it matters: Factions in the Trump administration, business executives wary of competitive threats, and advocates for cheaper, more customizable \"open\" models fear that new regulatory hurdles will offer frontier AI companies too much power.What t",
@@ -16,25 +36,11 @@
           "outlet": "Axios"
         },
         {
-          "title": "I worked at Google DeepMind. You should listen to the warnings about AI | Alex Turner",
-          "summary": "We must stop companies from allowing AI to self-improve into an uncontrollable level of intelligence Major AI lab CEOs advocated for slowing the pace of AI development this weekend. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should be demanding that our governments protect us from the catastrophe of out-of-control AI.This July",
-          "link": "https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings",
-          "publishedAt": "2026-09-14 21:00",
-          "outlet": "The Guardian Business"
-        },
-        {
           "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes",
           "summary": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  digitimes",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYTYyVWpzcGZzNXp4alI0TVZGSjVQejBFQ1l4X0t4TEVadnBCZkx4dzBBVWtnOW5OTHYtd1dWTDNuenFlSVJsME5vVzFMYlRxWVMzSmRUZUlGTHZ0c3h2WUoyelN1UGJLYUxpX0lYWHFPRTVCWlloRjZBejlaaURxeGVaSzVFYnpBYWZqVnZnRjg?oc=5",
           "publishedAt": "2026-09-14 11:01",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body - The Information",
-          "summary": "Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body  The Information",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUtGTGdnVXR2Z0d1QTJ0X0xET2tmTllHRmVYVVZ6Z01WcklGWU9YUWRIRU12QXZFMlJtQkg2ZTNEOUdaQ20wNXE2dE1rbE1mMzdkN0NMS05uUmk2Y3RtdS1ERUlsWVBwTUF5YXdKcWh2QXptbG85ZWE3Z1UteEFleEZYb1AwYkR2bjBNcHZR?oc=5",
-          "publishedAt": "2026-09-14 04:16",
-          "outlet": "The Information"
         }
       ]
     },
@@ -42,6 +48,13 @@
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "items": [
+        {
+          "title": "Crowdstrike and Illumina among market cap stock movers on Tuesday",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/crowdstrike-and-illumina-among-market-cap-stock-movers-on-tuesday-93CH-4902377",
+          "publishedAt": "2026-09-16 03:06",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Stocks making the biggest moves midday: Zscaler, CrowdStrike, Marvell Technology, Rum Group & more",
           "summary": "These are some of the stocks posting the largest moves midday.",
@@ -62,6 +75,20 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes",
+          "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0RNUHdtM2htY3pwWFAwa3d4eGJIcG5GNnN5aFZVbEpOWk14NGlZWWhmZGZmVFhsR0JLcFJHb0F2dWZCSDAtbjNNR1U3RnlYczVEQ1daNmY3UkJMajU0YjBpTzFkQ3lPZ2NjWjFWUzd3ajgtTkpTdGM2N1BUbl95MklpWVVrT2s?oc=5",
+          "publishedAt": "2026-09-16 01:15",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Delos Data, a chip startup founded by Intel veterans, raises $100 million for AI networks - reuters.com",
+          "summary": "Delos Data, a chip startup founded by Intel veterans, raises $100 million for AI networks  reuters.com",
+          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQMUpwdm5VMU9vRHllRDBiTm8wVXNCU0ZZT0dUZFNDdFNoLXNPN1BaNXVlSTBpMC1sSmh5YkRYZkI1Tk1aOFNJa042T3VzQjJqdFBHSEJTejlvNXdoWU83QlFGVkpINE4xeUZyV1paYTNCSUE4cktrRjNVZ1poUUw4VDZJV04tSDlzU1hlc1ZERGdTZTFPZGR1eGZsbkdObmhoNFJjM0lKdjZBVzBUbHdLYzMyTzdfWmZZV00wa2NmcEtTSTg?oc=5",
+          "publishedAt": "2026-09-15 22:03",
+          "outlet": "Reuters Business (via Google News)"
+        },
         {
           "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
           "summary": "These are the stocks posting the largest moves premarket.",
