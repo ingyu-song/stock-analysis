@@ -1,22 +1,9 @@
 {
-  "updatedAt": "2026-09-15 08:11",
+  "updatedAt": "2026-09-15 10:32",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Apple foldable plans drive new demand for Japanese smartphone parts makers - digitimes",
-          "summary": "Apple foldable plans drive new demand for Japanese smartphone parts makers  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUkU0a0FkSDNnWWZkWW4zNkhMekZ1Y25SQzZyTW5KYkFScW1jRlpTZ3FHdXBPamtoTlctSE5UbmROVUlKZkZiRU1HUkMxM19xYWxvRUl1NUwyTXd0NDhCbU9EaFdCcXpsM3NFLXdEZGs0WGk1d0E2eGtxemFrbUNvMVp1UExlU2NweG1saTdXazVoRTk3endIbnBVSQ?oc=5",
-          "publishedAt": "2026-09-12 10:20",
-          "outlet": "DigiTimes"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -27,13 +14,6 @@
           "link": "https://www.theguardian.com/technology/2026/sep/14/google-deepmind-ai-warnings",
           "publishedAt": "2026-09-14 21:00",
           "outlet": "The Guardian Business"
-        },
-        {
-          "title": "Washington's AI paralysis: Let 'er rip vs. hit the brakes",
-          "summary": "President Trump is as all-in on AI as a politician could be: all gas, no brakes, and zero interest in hand-wringing about dystopian risks or public disdain.Democrats are as conflicted on AI as a party could be: skeptical of the labs, spooked by their warnings, but split on whether to shut it all down.Why it matters: This staggering divide makes consensus on federal AI regulation almost unimaginabl",
-          "link": "https://www.axios.com/2026/09/14/trump-ai-safety-regulations-congress",
-          "publishedAt": "2026-09-14 18:52",
-          "outlet": "Axios"
         },
         {
           "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes",
