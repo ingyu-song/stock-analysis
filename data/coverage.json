@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-09-12 09:25",
+  "updatedAt": "2026-09-15 09:45",
   "note": "내 커버리지 — 보유 중이거나 보유했던 단일 종목 + 직접 지정한 종목. ETF는 제외.",
   "names": [
     {
       "ticker": "278470.KS",
       "name": "에이피알",
       "currency": "KRW",
-      "price": 372000.0,
-      "prevClose": 361000.0,
+      "price": 363500.0,
+      "prevClose": 368000.0,
       "newsQuery": "에이피알 메디큐브",
       "newsMatch": [
         "에이피알",
@@ -23,8 +23,8 @@
       "ticker": "AAPL",
       "name": "애플",
       "currency": "USD",
-      "price": 332.27,
-      "prevClose": 325.7986,
+      "price": 333.08,
+      "prevClose": 332.55,
       "newsQuery": "애플 AAPL",
       "newsMatch": [
         "애플",
@@ -40,8 +40,8 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "currency": "USD",
-      "price": 338.5,
-      "prevClose": 331.1999,
+      "price": 349.39,
+      "prevClose": 338.3895,
       "newsQuery": "구글 알파벳 주가",
       "newsMatch": [
         "알파벳",
@@ -59,8 +59,8 @@
       "ticker": "COIN",
       "name": "코인베이스 글로벌",
       "currency": "USD",
-      "price": 175.26,
-      "prevClose": 170.6,
+      "price": 191.45,
+      "prevClose": 175.0,
       "newsQuery": "코인베이스 COIN",
       "newsMatch": [
         "코인베이스",
@@ -76,8 +76,8 @@
       "ticker": "CRCL",
       "name": "서클 인터넷 그룹",
       "currency": "USD",
-      "price": 90.6,
-      "prevClose": 89.43,
+      "price": 97.42,
+      "prevClose": 90.9,
       "newsQuery": "서클 CRCL",
       "newsMatch": [
         "서클",
@@ -94,8 +94,8 @@
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "currency": "USD",
-      "price": 206.74,
-      "prevClose": 209.1089,
+      "price": 235.38,
+      "prevClose": 206.4099,
       "newsQuery": "크라우드스트라이크",
       "newsMatch": [
         "크라우드스트라이크",
@@ -111,8 +111,8 @@
       "ticker": "PANW",
       "name": "팰로 앨토 네트웍스",
       "currency": "USD",
-      "price": 330.65,
-      "prevClose": 337.6,
+      "price": 373.94,
+      "prevClose": 330.85,
       "newsQuery": "팔로알토네트웍스",
       "newsMatch": [
         "팔로알토",
@@ -130,8 +130,8 @@
       "ticker": "PG",
       "name": "프록터 앤드 갬블",
       "currency": "USD",
-      "price": 145.27,
-      "prevClose": 142.97,
+      "price": 146.13,
+      "prevClose": 145.0157,
       "newsQuery": "프록터앤드갬블 PG",
       "newsMatch": [
         "프록터",
@@ -149,8 +149,8 @@
       "ticker": "MC.PA",
       "name": "LVMH 모에헤네시",
       "currency": "EUR",
-      "price": 415.3,
-      "prevClose": 407.9,
+      "price": 417.45,
+      "prevClose": 414.8,
       "newsQuery": "LVMH 주가",
       "newsMatch": [
         "LVMH",
@@ -165,8 +165,8 @@
       "ticker": "INTC",
       "name": "인텔",
       "currency": "USD",
-      "price": 102.94,
-      "prevClose": 99.18,
+      "price": 97.19,
+      "prevClose": 103.05,
       "newsQuery": "인텔 INTC",
       "newsMatch": [
         "인텔",
@@ -182,8 +182,8 @@
       "ticker": "GLW",
       "name": "코닝",
       "currency": "USD",
-      "price": 166.4,
-      "prevClose": 160.3,
+      "price": 143.6,
+      "prevClose": 162.3,
       "newsQuery": "코닝",
       "newsMatch": [
         "코닝",
@@ -199,8 +199,8 @@
       "ticker": "SONY",
       "name": "소니",
       "currency": "USD",
-      "price": 23.9,
-      "prevClose": 23.19,
+      "price": 24.47,
+      "prevClose": 23.8984,
       "newsQuery": "소니 SONY",
       "newsMatch": [
         "소니",
@@ -216,8 +216,8 @@
       "ticker": "080220.KQ",
       "name": "제주반도체",
       "currency": "KRW",
-      "price": 75200.0,
-      "prevClose": 78800.0,
+      "price": 71400.0,
+      "prevClose": 70700.0,
       "newsQuery": "제주반도체",
       "newsMatch": [
         "제주반도체"
