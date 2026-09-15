@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15 16:49",
+  "updatedAt": "2026-09-15 22:38",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Why a swift AI pause is unlikely: No one trusts AI companies",
+          "summary": "Most agree the AI industry needs oversight.The critical barrier: Few really trust the industry, or the safety advocates who come from inside the house.Why it matters: Factions in the Trump administration, business executives wary of competitive threats, and advocates for cheaper, more customizable \"open\" models fear that new regulatory hurdles will offer frontier AI companies too much power.What t",
+          "link": "https://www.axios.com/2026/09/15/ai-trust-safety-anthropic-openai",
+          "publishedAt": "2026-09-15 18:00",
+          "outlet": "Axios"
+        },
         {
           "title": "I worked at Google DeepMind. You should listen to the warnings about AI | Alex Turner",
           "summary": "We must stop companies from allowing AI to self-improve into an uncontrollable level of intelligence Major AI lab CEOs advocated for slowing the pace of AI development this weekend. They are right to be concerned: the field runs an extremely dangerous race towards superintelligent AI. We can and should be demanding that our governments protect us from the catastrophe of out-of-control AI.This July",
@@ -26,7 +33,7 @@
           "title": "Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body - The Information",
           "summary": "Anthropic, OpenAI, Google Quietly Discussed an AI Safety Standards Body  The Information",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNeUtGTGdnVXR2Z0d1QTJ0X0xET2tmTllHRmVYVVZ6Z01WcklGWU9YUWRIRU12QXZFMlJtQkg2ZTNEOUdaQ20wNXE2dE1rbE1mMzdkN0NMS05uUmk2Y3RtdS1ERUlsWVBwTUF5YXdKcWh2QXptbG85ZWE3Z1UteEFleEZYb1AwYkR2bjBNcHZR?oc=5",
-          "publishedAt": "2026-09-14 04:22",
+          "publishedAt": "2026-09-14 04:16",
           "outlet": "The Information"
         }
       ]
@@ -61,13 +68,6 @@
           "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-premarket-intc-mrvl-crwd.html",
           "publishedAt": "2026-09-14 21:36",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Weekly news roundup: HBM4 strain, Intel price hikes and the next AI infrastructure buildout - digitimes",
-          "summary": "Weekly news roundup: HBM4 strain, Intel price hikes and the next AI infrastructure buildout  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZ0NUZjNkczVuVzBDcjZhbUlBeXE1RDhjUXNPYXJFRHR4a3FVWGE5SmtBZ1ROa250U1h2cnZYOWZuQmlMYjRQR1cyajdYUW9rUHN2NUZ6SEJBRHl5TkwzZ2NtWk1XcTh1SXRFcmFLQnRuM21rbXJJMXV1bWwtdnl2aUhHcmxfdw?oc=5",
-          "publishedAt": "2026-09-14 09:40",
-          "outlet": "DigiTimes"
         }
       ]
     }
