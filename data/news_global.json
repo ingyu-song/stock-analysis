@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17 02:04",
+  "updatedAt": "2026-09-17 05:12",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Dow Jones Tech Titan Apple, Nvidia Chipmaker TSMC, AMD, Bloom Energy In Or Near Buy Zones",
-          "summary": "",
-          "link": "https://www.investors.com/stock-lists/stocks-near-a-buy-zone/dow-jones-apple-stock-aapl-nvidia-chipmaker-tsm-amd-bloom/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-09-17 01:10",
-          "outlet": "Yahoo Finance"
-        },
         {
           "title": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech - The Information",
           "summary": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech  The Information",
@@ -29,10 +22,10 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google agrees biggest carbon-removal deal yet, aims to scale new model",
+          "title": "Banks provide $22 billion loan for Blackstone and Alphabet AI venture - Bloomberg",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/google-agrees-biggest-carbonremoval-deal-yet-aims-to-scale-new-model-4903605",
-          "publishedAt": "2026-09-17 01:25",
+          "link": "https://www.investing.com/news/stock-market-news/banks-provide-22-billion-loan-for-blackstone-and-alphabet-ai-venture--bloomberg-93CH-4904384",
+          "publishedAt": "2026-09-17 04:42",
           "outlet": "Investing.com"
         },
         {
@@ -50,8 +43,8 @@
           "outlet": "Axios"
         },
         {
-          "title": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months - digitimes",
-          "summary": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months  digitimes",
+          "title": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months - digitimes.com",
+          "summary": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVVYzR2k4XzJiNjZvM241WWFRTzFTN1N2aDJab0w1ZThWSjNob2ZBVlVSWlU3bzhyaVN1eXpzYTF5M3UxNVY1VkFZcjh6ZlFUdVRIdld2NlJqaldWX3p2U2NGalgzdVZZeXQ1N3kza1FwV2wxbV83NGtrdlNYSlFoLUMxZ2xHSy1tZTZtLWhfNk8zRHM?oc=5",
           "publishedAt": "2026-09-16 17:55",
           "outlet": "DigiTimes"
@@ -64,8 +57,8 @@
           "outlet": "The Information"
         },
         {
-          "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes",
-          "summary": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  digitimes",
+          "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes.com",
+          "summary": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYTYyVWpzcGZzNXp4alI0TVZGSjVQejBFQ1l4X0t4TEVadnBCZkx4dzBBVWtnOW5OTHYtd1dWTDNuenFlSVJsME5vVzFMYlRxWVMzSmRUZUlGTHZ0c3h2WUoyelN1UGJLYUxpX0lYWHFPRTVCWlloRjZBejlaaURxeGVaSzVFYnpBYWZqVnZnRjg?oc=5",
           "publishedAt": "2026-09-14 11:01",
           "outlet": "DigiTimes"
@@ -82,13 +75,6 @@
           "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-midday-zs-crwd-mrvl-rum.html",
           "publishedAt": "2026-09-15 03:32",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
-          "summary": "These are the stocks posting the largest moves premarket.",
-          "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-premarket-intc-mrvl-crwd.html",
-          "publishedAt": "2026-09-14 21:36",
-          "outlet": "CNBC Finance"
         }
       ]
     },
@@ -104,18 +90,11 @@
           "outlet": "The Information"
         },
         {
-          "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes",
-          "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes",
+          "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes.com",
+          "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0RNUHdtM2htY3pwWFAwa3d4eGJIcG5GNnN5aFZVbEpOWk14NGlZWWhmZGZmVFhsR0JLcFJHb0F2dWZCSDAtbjNNR1U3RnlYczVEQ1daNmY3UkJMajU0YjBpTzFkQ3lPZ2NjWjFWUzd3ajgtTkpTdGM2N1BUbl95MklpWVVrT2s?oc=5",
           "publishedAt": "2026-09-16 01:15",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Stocks making the biggest moves premarket: Intel, Marvell, CrowdStrike & more",
-          "summary": "These are the stocks posting the largest moves premarket.",
-          "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-premarket-intc-mrvl-crwd.html",
-          "publishedAt": "2026-09-14 21:36",
-          "outlet": "CNBC Finance"
         }
       ]
     }
