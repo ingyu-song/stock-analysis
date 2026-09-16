@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16 09:26",
+  "updatedAt": "2026-09-16 15:06",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,6 +21,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "What Anthropic's AI Slowdown Call Could Mean For Cloud Giants Amazon, Microsoft, Google",
+          "summary": "",
+          "link": "https://www.investors.com/news/technology/anthropic-ai-slowdown-amazon-microsoft-google/?src=A00220&yptr=yahoo",
+          "publishedAt": "2026-09-15 03:01",
+          "outlet": "Yahoo Finance"
+        },
         {
           "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes",
           "summary": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  digitimes",
@@ -54,6 +61,20 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "SK Hynix in talks with Intel over US memory-chip production - Reuters",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/sk-hynix-in-talks-with-intel-over-us-memorychip-production--reuters-4902891",
+          "publishedAt": "2026-09-16 14:48",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Exclusive-SK Hynix in talks with Intel about deal to make memory chips in the US for the first time, sources say",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/exclusivesk-hynix-in-talks-with-intel-about-deal-to-make-memory-chips-in-the-us-for-the-first-time-sources-say-4902886",
+          "publishedAt": "2026-09-16 14:42",
+          "outlet": "Investing.com"
+        },
         {
           "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes",
           "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes",
