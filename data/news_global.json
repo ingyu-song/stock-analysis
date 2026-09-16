@@ -1,32 +1,33 @@
 {
-  "updatedAt": "2026-09-16 15:06",
+  "updatedAt": "2026-09-16 20:43",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "With Emmys Haul, Apple Joins the Big Leagues of TV",
-          "summary": "The tech giant took home the most trophies this year, breaking the chokehold HBO and Netflix have had on the awards for more than two decades.",
-          "link": "https://www.nytimes.com/2026/09/15/business/media/apple-emmys-widows-bay.html",
-          "publishedAt": "2026-09-16 03:26",
-          "outlet": "NYT Business"
-        }
-      ]
-    },
-    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
-          "title": "What Anthropic's AI Slowdown Call Could Mean For Cloud Giants Amazon, Microsoft, Google",
-          "summary": "",
-          "link": "https://www.investors.com/news/technology/anthropic-ai-slowdown-amazon-microsoft-google/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-09-15 03:01",
-          "outlet": "Yahoo Finance"
+          "title": "An aging Congress attempts to regulate AI without using it",
+          "summary": "Members of Congress and governors are under increasing pressure to regulate AI, but more than two dozen of them who spoke with Axios said they don't use the technology or have rarely done so.Why it matters: That striking admission — particularly among older, influential lawmakers — comes amid calls for an AI slowdown and warnings within the industry that it could end humanity if left unchecked.Cri",
+          "link": "https://www.axios.com/2026/09/16/lawmakers-regulate-ai-without-using-it",
+          "publishedAt": "2026-09-16 18:30",
+          "outlet": "Axios"
+        },
+        {
+          "title": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months - digitimes",
+          "summary": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVVYzR2k4XzJiNjZvM241WWFRTzFTN1N2aDJab0w1ZThWSjNob2ZBVlVSWlU3bzhyaVN1eXpzYTF5M3UxNVY1VkFZcjh6ZlFUdVRIdld2NlJqaldWX3p2U2NGalgzdVZZeXQ1N3kza1FwV2wxbV83NGtrdlNYSlFoLUMxZ2xHSy1tZTZtLWhfNk8zRHM?oc=5",
+          "publishedAt": "2026-09-16 17:55",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Two Google DeepMind AI Researchers Resign Over Safety - The Information",
+          "summary": "Two Google DeepMind AI Researchers Resign Over Safety  The Information",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeVdIUmJiNllaNlRYVWdqSUxuNEVZOGEwM3pEejBCcUthZ0xwYTVNY1l5TXNINnF5MEU4VmUydmNab1k0SDIxU0tFLWZWMWpGa29yRkpka1VOUEljMGpadUNaQzBsQ1pMc3Iza3c0WG0yY0dUWHRweTlhTVZRU21EdDEweXhCSHJWc0lNb3M5cFpURlE?oc=5",
+          "publishedAt": "2026-09-16 12:26",
+          "outlet": "The Information"
         },
         {
           "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes",
@@ -62,17 +63,10 @@
       "name": "인텔",
       "items": [
         {
-          "title": "SK Hynix in talks with Intel over US memory-chip production - Reuters",
+          "title": "Premarket movers: Intel jumps on SK Hynix memory-chip talks,  J.B. Hunt slides",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/sk-hynix-in-talks-with-intel-over-us-memorychip-production--reuters-4902891",
-          "publishedAt": "2026-09-16 14:48",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "Exclusive-SK Hynix in talks with Intel about deal to make memory chips in the US for the first time, sources say",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/exclusivesk-hynix-in-talks-with-intel-about-deal-to-make-memory-chips-in-the-us-for-the-first-time-sources-say-4902886",
-          "publishedAt": "2026-09-16 14:42",
+          "link": "https://www.investing.com/news/stock-market-news/premarket-movers-intel-jumps-on-sk-hynix-memorychip-talks--jb-hunt-slides-4903429",
+          "publishedAt": "2026-09-16 20:11",
           "outlet": "Investing.com"
         },
         {
