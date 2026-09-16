@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17 05:12",
+  "updatedAt": "2026-09-17 07:59",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -22,10 +22,17 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Banks provide $22 billion loan for Blackstone and Alphabet AI venture - Bloomberg",
+          "title": "Google should relax ad tech rules, appoint antitrust monitor, US judge finds",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/banks-provide-22-billion-loan-for-blackstone-and-alphabet-ai-venture--bloomberg-93CH-4904384",
-          "publishedAt": "2026-09-17 04:42",
+          "link": "https://www.investing.com/news/stock-market-news/google-should-appoint-antitrust-compliance-officer-us-judge-says-in-ad-tech-case-4904639",
+          "publishedAt": "2026-09-17 07:37",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Banks provide $22 billion chip loan to Blackstone, Alphabet AI cloud venture, source says",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/banks-provide-22-billion-chip-loan-to-blackstone-alphabet-cloud-venture-bloomberg-news-reports-4904543",
+          "publishedAt": "2026-09-17 07:06",
           "outlet": "Investing.com"
         },
         {
@@ -43,8 +50,8 @@
           "outlet": "Axios"
         },
         {
-          "title": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months - digitimes.com",
-          "summary": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months  digitimes.com",
+          "title": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months - digitimes",
+          "summary": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months  digitimes",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVVYzR2k4XzJiNjZvM241WWFRTzFTN1N2aDJab0w1ZThWSjNob2ZBVlVSWlU3bzhyaVN1eXpzYTF5M3UxNVY1VkFZcjh6ZlFUdVRIdld2NlJqaldWX3p2U2NGalgzdVZZeXQ1N3kza1FwV2wxbV83NGtrdlNYSlFoLUMxZ2xHSy1tZTZtLWhfNk8zRHM?oc=5",
           "publishedAt": "2026-09-16 17:55",
           "outlet": "DigiTimes"
@@ -57,8 +64,8 @@
           "outlet": "The Information"
         },
         {
-          "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes.com",
-          "summary": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  digitimes.com",
+          "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes",
+          "summary": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  digitimes",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYTYyVWpzcGZzNXp4alI0TVZGSjVQejBFQ1l4X0t4TEVadnBCZkx4dzBBVWtnOW5OTHYtd1dWTDNuenFlSVJsME5vVzFMYlRxWVMzSmRUZUlGTHZ0c3h2WUoyelN1UGJLYUxpX0lYWHFPRTVCWlloRjZBejlaaURxeGVaSzVFYnpBYWZqVnZnRjg?oc=5",
           "publishedAt": "2026-09-14 11:01",
           "outlet": "DigiTimes"
@@ -90,8 +97,8 @@
           "outlet": "The Information"
         },
         {
-          "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes.com",
-          "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes.com",
+          "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes",
+          "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0RNUHdtM2htY3pwWFAwa3d4eGJIcG5GNnN5aFZVbEpOWk14NGlZWWhmZGZmVFhsR0JLcFJHb0F2dWZCSDAtbjNNR1U3RnlYczVEQ1daNmY3UkJMajU0YjBpTzFkQ3lPZ2NjWjFWUzd3ajgtTkpTdGM2N1BUbl95MklpWVVrT2s?oc=5",
           "publishedAt": "2026-09-16 01:15",
           "outlet": "DigiTimes"
