@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17 07:59",
+  "updatedAt": "2026-09-17 10:29",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -25,29 +25,8 @@
           "title": "Google should relax ad tech rules, appoint antitrust monitor, US judge finds",
           "summary": "",
           "link": "https://www.investing.com/news/stock-market-news/google-should-appoint-antitrust-compliance-officer-us-judge-says-in-ad-tech-case-4904639",
-          "publishedAt": "2026-09-17 07:37",
+          "publishedAt": "2026-09-17 09:48",
           "outlet": "Investing.com"
-        },
-        {
-          "title": "Banks provide $22 billion chip loan to Blackstone, Alphabet AI cloud venture, source says",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/banks-provide-22-billion-chip-loan-to-blackstone-alphabet-cloud-venture-bloomberg-news-reports-4904543",
-          "publishedAt": "2026-09-17 07:06",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "An aging Congress attempts to regulate AI without using it",
-          "summary": "Members of Congress and governors are under increasing pressure to regulate AI, but more than two dozen of them who spoke with Axios said they don't use the technology or have rarely done so.Why it matters: That striking admission — particularly among older, influential lawmakers — comes amid calls for an AI slowdown and warnings within the industry that it could end humanity if left unchecked.Cri",
-          "link": "https://www.axios.com/2026/09/16/lawmakers-regulate-ai-without-using-it",
-          "publishedAt": "2026-09-16 18:30",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Tech giants launch flexible-power coalition for data centers",
-          "summary": "A new coalition launched Wednesday is seeking a triple win for a data center industry that lately has struggled to notch any wins at all.The big picture: Tech giants Google and Nvidia are partnering with startup Emerald AI to back data centers that can flex their power demand — a strategy they say could curb electricity prices, mollify angry neighbors and grow the economy with more AI infrastructu",
-          "link": "https://www.axios.com/2026/09/16/tech-giants-launch-flexible-power-coalition-data-centers",
-          "publishedAt": "2026-09-16 18:00",
-          "outlet": "Axios"
         },
         {
           "title": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months - digitimes",
@@ -99,7 +78,7 @@
         {
           "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes",
           "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0RNUHdtM2htY3pwWFAwa3d4eGJIcG5GNnN5aFZVbEpOWk14NGlZWWhmZGZmVFhsR0JLcFJHb0F2dWZCSDAtbjNNR1U3RnlYczVEQ1daNmY3UkJMajU0YjBpTzFkQ3lPZ2NjWjFWUzd3ajgtTkpTdGM2N1BUbl95MklpWVVrT2s?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWFlxYWlKNGhPa182MEkxZEJCMFBweEM4U19jdFlDNlQ2M2FvNXJZMmc1UHZ1LXMyOVRXZjZLb1k3bWNmV3BWMm9ncDMtcml0OHBiZ3g5MllFelEybXhOQ0tjaFpYREJlRjFCazl5enFlNkVkSEtXaFhyejVwSkk4ZzBqTXB1R2pS?oc=5",
           "publishedAt": "2026-09-16 01:15",
           "outlet": "DigiTimes"
         }
