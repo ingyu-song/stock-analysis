@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17 16:45",
+  "updatedAt": "2026-09-17 22:33",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,13 +21,6 @@
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMHdQT2Zxd0JVbjFqZzExRndyakw5Q0loY1cwYTR1dk9xNDRXMmdyWlh4bWNkQmFDTU5wUFhvZ3NmVlV2b285TXoyN1RMbGt4RXpwMllPSDFyWThld2RMWEdyTWpzN01ManE1UFpYTDZmeGhod3c0QXJTcE1KZ2VuNkZfTVlQYzlyUTdicFhVcHh0RnU2X0QtWUhDX1p1a1dSNnNKN0ZxOGdoa2s?oc=5",
           "publishedAt": "2026-09-16 22:00",
           "outlet": "The Information"
-        },
-        {
-          "title": "Apple's foldable debut set to further widen Samsung Display's OLED lead - digitimes",
-          "summary": "Apple's foldable debut set to further widen Samsung Display's OLED lead  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSlVUR0UtaHZycjlzQndHbnpNaTRGQUlyeUlEMEllX0N3Vy15RGdWSVdRZVJpRnhnTWFjV2FZV2hZVHFVQWdUb1NuNUNwc3lhZnNGZnAtU1hNNGF6RWVpWEcwYW9fd0tIRk9qNXNLb0xOZllNSzdTVjMxLTJ6dWIxVE9vU09VLUlob3c?oc=5",
-          "publishedAt": "2026-09-15 18:21",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -36,24 +29,25 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "AI's imminent hacking threat is hiding in plain sight",
+          "summary": "An unprecedented wave of AI-powered, human-driven cyberattacks is coming, security experts say — and it's a far more urgent risk than theoretical conversations about AI wiping out humanity.Why it matters: The great September AI panic — which spread from boardrooms to Congress to American households in the last week — may have missed the point.Powerful models with advanced cybersecurity capabilitie",
+          "link": "https://www.axios.com/2026/09/17/ai-cyber-doomsday-hacking-threats",
+          "publishedAt": "2026-09-17 18:00",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes",
+          "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONlJxT2xHNlJZb3JkY3Y5TzYxQUVxbEdxWGU0MGJYUG1RYlBUU003c3oxNkZnMUJCclIzNm1LUFBOVDVraG14bFN1UjMwOUVpRkZKUGRTcVJLLVBfb1cxRmc5VHNrSktyZW9sM09mb1FtSGRKZGZObDlueU5OMmdwTEFnYWp4RjNLNVE?oc=5",
+          "publishedAt": "2026-09-17 10:58",
+          "outlet": "DigiTimes"
+        },
+        {
           "title": "Two Google DeepMind AI Researchers Resign Over Safety - The Information",
           "summary": "Two Google DeepMind AI Researchers Resign Over Safety  The Information",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeVdIUmJiNllaNlRYVWdqSUxuNEVZOGEwM3pEejBCcUthZ0xwYTVNY1l5TXNINnF5MEU4VmUydmNab1k0SDIxU0tFLWZWMWpGa29yRkpka1VOUEljMGpadUNaQzBsQ1pMc3Iza3c0WG0yY0dUWHRweTlhTVZRU21EdDEweXhCSHJWc0lNb3M5cFpURlE?oc=5",
           "publishedAt": "2026-09-16 12:26",
           "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWD",
-      "name": "크라우드스트라이크",
-      "items": [
-        {
-          "title": "Stocks making the biggest moves midday: Zscaler, CrowdStrike, Marvell Technology, Rum Group & more",
-          "summary": "These are some of the stocks posting the largest moves midday.",
-          "link": "https://www.cnbc.com/2026/09/14/stocks-making-the-biggest-moves-midday-zs-crwd-mrvl-rum.html",
-          "publishedAt": "2026-09-15 03:32",
-          "outlet": "CNBC Finance"
         }
       ]
     },
@@ -69,9 +63,16 @@
           "outlet": "DigiTimes"
         },
         {
+          "title": "SK Hynix in Talks With Intel to Make Memory Chips in the U.S. - The Information",
+          "summary": "SK Hynix in Talks With Intel to Make Memory Chips in the U.S.  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRnlQeU1FaEhaczFiQXdkTDlBRmN3U2JOajRLTi1uU3pIT2ZLWnVNaFAtUE4yaVpSTjdoVmRTcVFyR1NnWlRrRzN5cWUzR3l0eUZFVjhlVFNraGtJWFp1YzZSWmFTRFE1NndnN0c0X3REMHQxcU53UWhKVjAwSEtoTEUwR2s0TjBmN2c0?oc=5",
+          "publishedAt": "2026-09-16 18:49",
+          "outlet": "The Information"
+        },
+        {
           "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes",
           "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0RNUHdtM2htY3pwWFAwa3d4eGJIcG5GNnN5aFZVbEpOWk14NGlZWWhmZGZmVFhsR0JLcFJHb0F2dWZCSDAtbjNNR1U3RnlYczVEQ1daNmY3UkJMajU0YjBpTzFkQ3lPZ2NjWjFWUzd3ajgtTkpTdGM2N1BUbl95MklpWVVrT2s?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWFlxYWlKNGhPa182MEkxZEJCMFBweEM4U19jdFlDNlQ2M2FvNXJZMmc1UHZ1LXMyOVRXZjZLb1k3bWNmV3BWMm9ncDMtcml0OHBiZ3g5MllFelEybXhOQ0tjaFpYREJlRjFCazl5enFlNkVkSEtXaFhyejVwSkk4ZzBqTXB1R2pS?oc=5",
           "publishedAt": "2026-09-16 01:15",
           "outlet": "DigiTimes"
         }
