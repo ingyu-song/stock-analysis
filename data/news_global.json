@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17 10:29",
+  "updatedAt": "2026-09-17 16:45",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,25 @@
       "name": "애플",
       "items": [
         {
+          "title": "Apple’s most valuable product isn’t the iPhone",
+          "summary": "Markets were signalling discomfort even before the latest wave of worries about existential risk",
+          "link": "https://www.ft.com/content/f5325951-7049-4d3a-97e4-cbe34f9058d8?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-17 13:00",
+          "outlet": "Financial Times"
+        },
+        {
           "title": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech - The Information",
           "summary": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech  The Information",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMHdQT2Zxd0JVbjFqZzExRndyakw5Q0loY1cwYTR1dk9xNDRXMmdyWlh4bWNkQmFDTU5wUFhvZ3NmVlV2b285TXoyN1RMbGt4RXpwMllPSDFyWThld2RMWEdyTWpzN01ManE1UFpYTDZmeGhod3c0QXJTcE1KZ2VuNkZfTVlQYzlyUTdicFhVcHh0RnU2X0QtWUhDX1p1a1dSNnNKN0ZxOGdoa2s?oc=5",
           "publishedAt": "2026-09-16 22:00",
           "outlet": "The Information"
+        },
+        {
+          "title": "Apple's foldable debut set to further widen Samsung Display's OLED lead - digitimes",
+          "summary": "Apple's foldable debut set to further widen Samsung Display's OLED lead  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQSlVUR0UtaHZycjlzQndHbnpNaTRGQUlyeUlEMEllX0N3Vy15RGdWSVdRZVJpRnhnTWFjV2FZV2hZVHFVQWdUb1NuNUNwc3lhZnNGZnAtU1hNNGF6RWVpWEcwYW9fd0tIRk9qNXNLb0xOZllNSzdTVjMxLTJ6dWIxVE9vU09VLUlob3c?oc=5",
+          "publishedAt": "2026-09-15 18:21",
+          "outlet": "DigiTimes"
         }
       ]
     },
@@ -22,32 +36,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google should relax ad tech rules, appoint antitrust monitor, US judge finds",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/google-should-appoint-antitrust-compliance-officer-us-judge-says-in-ad-tech-case-4904639",
-          "publishedAt": "2026-09-17 09:48",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months - digitimes",
-          "summary": "DIGITIMES Insight: Google outlines AI compute expansion, speeds TPU cycle to 6 months  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVVYzR2k4XzJiNjZvM241WWFRTzFTN1N2aDJab0w1ZThWSjNob2ZBVlVSWlU3bzhyaVN1eXpzYTF5M3UxNVY1VkFZcjh6ZlFUdVRIdld2NlJqaldWX3p2U2NGalgzdVZZeXQ1N3kza1FwV2wxbV83NGtrdlNYSlFoLUMxZ2xHSy1tZTZtLWhfNk8zRHM?oc=5",
-          "publishedAt": "2026-09-16 17:55",
-          "outlet": "DigiTimes"
-        },
-        {
           "title": "Two Google DeepMind AI Researchers Resign Over Safety - The Information",
           "summary": "Two Google DeepMind AI Researchers Resign Over Safety  The Information",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeVdIUmJiNllaNlRYVWdqSUxuNEVZOGEwM3pEejBCcUthZ0xwYTVNY1l5TXNINnF5MEU4VmUydmNab1k0SDIxU0tFLWZWMWpGa29yRkpka1VOUEljMGpadUNaQzBsQ1pMc3Iza3c0WG0yY0dUWHRweTlhTVZRU21EdDEweXhCSHJWc0lNb3M5cFpURlE?oc=5",
           "publishedAt": "2026-09-16 12:26",
           "outlet": "The Information"
-        },
-        {
-          "title": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues - digitimes",
-          "summary": "Google TPU pays back investment in 1 year, creating upside for MediaTek, Broadcom ASIC revenues  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPYTYyVWpzcGZzNXp4alI0TVZGSjVQejBFQ1l4X0t4TEVadnBCZkx4dzBBVWtnOW5OTHYtd1dWTDNuenFlSVJsME5vVzFMYlRxWVMzSmRUZUlGTHZ0c3h2WUoyelN1UGJLYUxpX0lYWHFPRTVCWlloRjZBejlaaURxeGVaSzVFYnpBYWZqVnZnRjg?oc=5",
-          "publishedAt": "2026-09-14 11:01",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -69,16 +62,16 @@
       "name": "인텔",
       "items": [
         {
-          "title": "SK Hynix in Talks With Intel to Make Memory Chips in the U.S. - The Information",
-          "summary": "SK Hynix in Talks With Intel to Make Memory Chips in the U.S.  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRnlQeU1FaEhaczFiQXdkTDlBRmN3U2JOajRLTi1uU3pIT2ZLWnVNaFAtUE4yaVpSTjdoVmRTcVFyR1NnWlRrRzN5cWUzR3l0eUZFVjhlVFNraGtJWFp1YzZSWmFTRFE1NndnN0c0X3REMHQxcU53UWhKVjAwSEtoTEUwR2s0TjBmN2c0?oc=5",
-          "publishedAt": "2026-09-16 18:49",
-          "outlet": "The Information"
+          "title": "SK Hynix reportedly eyes Intel Ohio plant for US memory production - digitimes",
+          "summary": "SK Hynix reportedly eyes Intel Ohio plant for US memory production  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGZHdUJUQUgxQnpjcnM1elFrWXo2SXZHNmVDNTQwa0tHMlhCempUNjBnYm82c1hIMC1rYk5XNDhEdFBfbDlpMkp3d01uektabXNGeG5Ca1VBVzdtTFZYSGJvVWRZTUtKRy1qTnRuRnBtY0t2XzRPd1R5TlFJa0JzRUl0alFFRkhBWVVPX3pBLXl0aG5EZTdNRENQTVQ5d0VXcXhEd0o2V24?oc=5",
+          "publishedAt": "2026-09-17 09:07",
+          "outlet": "DigiTimes"
         },
         {
           "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes",
           "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWFlxYWlKNGhPa182MEkxZEJCMFBweEM4U19jdFlDNlQ2M2FvNXJZMmc1UHZ1LXMyOVRXZjZLb1k3bWNmV3BWMm9ncDMtcml0OHBiZ3g5MllFelEybXhOQ0tjaFpYREJlRjFCazl5enFlNkVkSEtXaFhyejVwSkk4ZzBqTXB1R2pS?oc=5",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNV0RNUHdtM2htY3pwWFAwa3d4eGJIcG5GNnN5aFZVbEpOWk14NGlZWWhmZGZmVFhsR0JLcFJHb0F2dWZCSDAtbjNNR1U3RnlYczVEQ1daNmY3UkJMajU0YjBpTzFkQ3lPZ2NjWjFWUzd3ajgtTkpTdGM2N1BUbl95MklpWVVrT2s?oc=5",
           "publishedAt": "2026-09-16 01:15",
           "outlet": "DigiTimes"
         }
