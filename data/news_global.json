@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18 03:18",
+  "updatedAt": "2026-09-18 07:14",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple’s most valuable product isn’t the iPhone",
-          "summary": "Markets were signalling discomfort even before the latest wave of worries about existential risk",
-          "link": "https://www.ft.com/content/f5325951-7049-4d3a-97e4-cbe34f9058d8?syn-25a6b1a6=1",
-          "publishedAt": "2026-09-17 13:00",
-          "outlet": "Financial Times"
+          "title": "Apple Watch Rival Garmin Traverses Rocky Road Toward Buy Range",
+          "summary": "",
+          "link": "https://www.investors.com/research/breakout-stocks-technical-analysis/garmin-stock-apple-watch-rival-buy-range/?src=A00220&yptr=yahoo",
+          "publishedAt": "2026-09-16 23:37",
+          "outlet": "Yahoo Finance"
         },
         {
           "title": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech - The Information",
@@ -21,6 +21,13 @@
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMHdQT2Zxd0JVbjFqZzExRndyakw5Q0loY1cwYTR1dk9xNDRXMmdyWlh4bWNkQmFDTU5wUFhvZ3NmVlV2b285TXoyN1RMbGt4RXpwMllPSDFyWThld2RMWEdyTWpzN01ManE1UFpYTDZmeGhod3c0QXJTcE1KZ2VuNkZfTVlQYzlyUTdicFhVcHh0RnU2X0QtWUhDX1p1a1dSNnNKN0ZxOGdoa2s?oc=5",
           "publishedAt": "2026-09-16 22:00",
           "outlet": "The Information"
+        },
+        {
+          "title": "iPhone Duo's identity shapes Apple's foldable strategy - digitimes",
+          "summary": "iPhone Duo's identity shapes Apple's foldable strategy  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUHhaWkZRbk5NbHp0b0ZjRnpCazlzSnZJVl9Ka29UTkJvTFV4eVRHZ2pkLW1FYWVDQ3ROczV3NFRTZC1lRWpkXzRuSVcxZkhoR2hjTFRna1RuNHpYWndwbkxFMTQzalgtdUZTbHIxbDlKd2VNelN2VVN3SUU2d293WWtUUEl3LUE4akcySW9B?oc=5",
+          "publishedAt": "2026-09-16 01:30",
+          "outlet": "DigiTimes"
         }
       ]
     },
@@ -34,13 +41,6 @@
           "link": "https://www.axios.com/2026/09/17/ai-cyber-doomsday-hacking-threats",
           "publishedAt": "2026-09-17 18:00",
           "outlet": "Axios"
-        },
-        {
-          "title": "What the Anthropic IPO Means for Amazon and Alphabet Investors",
-          "summary": "",
-          "link": "https://finance.yahoo.com/technology/ai/articles/anthropic-ipo-means-amazon-alphabet-081700518.html",
-          "publishedAt": "2026-09-16 17:17",
-          "outlet": "Yahoo Finance"
         },
         {
           "title": "Two Google DeepMind AI Researchers Resign Over Safety - The Information",
