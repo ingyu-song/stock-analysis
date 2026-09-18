@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18 07:14",
+  "updatedAt": "2026-09-18 09:27",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,13 +9,6 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple Watch Rival Garmin Traverses Rocky Road Toward Buy Range",
-          "summary": "",
-          "link": "https://www.investors.com/research/breakout-stocks-technical-analysis/garmin-stock-apple-watch-rival-buy-range/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-09-16 23:37",
-          "outlet": "Yahoo Finance"
-        },
-        {
           "title": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech - The Information",
           "summary": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech  The Information",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMHdQT2Zxd0JVbjFqZzExRndyakw5Q0loY1cwYTR1dk9xNDRXMmdyWlh4bWNkQmFDTU5wUFhvZ3NmVlV2b285TXoyN1RMbGt4RXpwMllPSDFyWThld2RMWEdyTWpzN01ManE1UFpYTDZmeGhod3c0QXJTcE1KZ2VuNkZfTVlQYzlyUTdicFhVcHh0RnU2X0QtWUhDX1p1a1dSNnNKN0ZxOGdoa2s?oc=5",
@@ -23,10 +16,10 @@
           "outlet": "The Information"
         },
         {
-          "title": "iPhone Duo's identity shapes Apple's foldable strategy - digitimes",
-          "summary": "iPhone Duo's identity shapes Apple's foldable strategy  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUHhaWkZRbk5NbHp0b0ZjRnpCazlzSnZJVl9Ka29UTkJvTFV4eVRHZ2pkLW1FYWVDQ3ROczV3NFRTZC1lRWpkXzRuSVcxZkhoR2hjTFRna1RuNHpYWndwbkxFMTQzalgtdUZTbHIxbDlKd2VNelN2VVN3SUU2d293WWtUUEl3LUE4akcySW9B?oc=5",
-          "publishedAt": "2026-09-16 01:30",
+          "title": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor - digitimes",
+          "summary": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRzZqaXNmR3hlQUF1T2xSOFZ6RWxPWTExVmFGRGhFWFhCLWtCUDZ3UGJiVGx6UGdxYzZDeEJnclBKYTFsdmYwclB5WTRMX0RaNjhtUWZiTGtSTEFwamMzNWdxZ0dLM0kxTlNrWkdTdEJ0TkFLdDdVZmhOVlAwdlVjQkZEQVhCSGstc2QtdlpB?oc=5",
+          "publishedAt": "2026-09-16 13:19",
           "outlet": "DigiTimes"
         }
       ]
@@ -36,11 +29,18 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "AI's imminent hacking threat is hiding in plain sight",
-          "summary": "An unprecedented wave of AI-powered, human-driven cyberattacks is coming, security experts say — and it's a far more urgent risk than theoretical conversations about AI wiping out humanity.Why it matters: The great September AI panic — which spread from boardrooms to Congress to American households in the last week — may have missed the point.Powerful models with advanced cybersecurity capabilitie",
-          "link": "https://www.axios.com/2026/09/17/ai-cyber-doomsday-hacking-threats",
-          "publishedAt": "2026-09-17 18:00",
-          "outlet": "Axios"
+          "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes",
+          "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONlJxT2xHNlJZb3JkY3Y5TzYxQUVxbEdxWGU0MGJYUG1RYlBUU003c3oxNkZnMUJCclIzNm1LUFBOVDVraG14bFN1UjMwOUVpRkZKUGRTcVJLLVBfb1cxRmc5VHNrSktyZW9sM09mb1FtSGRKZGZObDlueU5OMmdwTEFnYWp4RjNLNVE?oc=5",
+          "publishedAt": "2026-09-17 10:58",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Alphabet (GOOG) Surges 24% as Revenue Growth Soars — But Is $190 Billion in Capex Too Much?",
+          "summary": "",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-surges-24-revenue-123012360.html",
+          "publishedAt": "2026-09-16 21:30",
+          "outlet": "Yahoo Finance"
         },
         {
           "title": "Two Google DeepMind AI Researchers Resign Over Safety - The Information",
