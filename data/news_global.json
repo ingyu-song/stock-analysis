@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18 14:59",
+  "updatedAt": "2026-09-18 20:23",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,10 +9,10 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple Pay eyes India rollout with Axis Bank, sources say",
+          "title": "Italian Apple store employees strike on iPhone18 Pro launch day",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/apple-pay-eyes-india-rollout-with-axis-bank-sources-say-4906675",
-          "publishedAt": "2026-09-18 14:18",
+          "link": "https://www.investing.com/news/stock-market-news/italian-apple-store-employees-strike-on-iphone18-pro-launch-day-4907012",
+          "publishedAt": "2026-09-18 19:32",
           "outlet": "Investing.com"
         },
         {
@@ -27,6 +27,13 @@
           "summary": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor  digitimes",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRzZqaXNmR3hlQUF1T2xSOFZ6RWxPWTExVmFGRGhFWFhCLWtCUDZ3UGJiVGx6UGdxYzZDeEJnclBKYTFsdmYwclB5WTRMX0RaNjhtUWZiTGtSTEFwamMzNWdxZ0dLM0kxTlNrWkdTdEJ0TkFLdDdVZmhOVlAwdlVjQkZEQVhCSGstc2QtdlpB?oc=5",
           "publishedAt": "2026-09-16 13:19",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "iPhone Duo's identity shapes Apple's foldable strategy - digitimes",
+          "summary": "iPhone Duo's identity shapes Apple's foldable strategy  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUHhaWkZRbk5NbHp0b0ZjRnpCazlzSnZJVl9Ka29UTkJvTFV4eVRHZ2pkLW1FYWVDQ3ROczV3NFRTZC1lRWpkXzRuSVcxZkhoR2hjTFRna1RuNHpYWndwbkxFMTQzalgtdUZTbHIxbDlKd2VNelN2VVN3SUU2d293WWtUUEl3LUE4akcySW9B?oc=5",
+          "publishedAt": "2026-09-16 01:30",
           "outlet": "DigiTimes"
         }
       ]
@@ -68,19 +75,6 @@
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWFlxYWlKNGhPa182MEkxZEJCMFBweEM4U19jdFlDNlQ2M2FvNXJZMmc1UHZ1LXMyOVRXZjZLb1k3bWNmV3BWMm9ncDMtcml0OHBiZ3g5MllFelEybXhOQ0tjaFpYREJlRjFCazl5enFlNkVkSEtXaFhyejVwSkk4ZzBqTXB1R2pS?oc=5",
           "publishedAt": "2026-09-16 01:15",
           "outlet": "DigiTimes"
-        }
-      ]
-    },
-    {
-      "ticker": "GLW",
-      "name": "코닝",
-      "items": [
-        {
-          "title": "Here Is How to Play Corning Stock After Its Dilution Scare",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/play-corning-stock-dilution-scare-174734596.html",
-          "publishedAt": "2026-09-17 02:47",
-          "outlet": "Yahoo Finance"
         }
       ]
     }
