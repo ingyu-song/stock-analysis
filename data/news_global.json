@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18 09:27",
+  "updatedAt": "2026-09-18 14:59",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple Pay eyes India rollout with Axis Bank, sources say",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apple-pay-eyes-india-rollout-with-axis-bank-sources-say-4906675",
+          "publishedAt": "2026-09-18 14:18",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech - The Information",
           "summary": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech  The Information",
@@ -34,20 +41,6 @@
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONlJxT2xHNlJZb3JkY3Y5TzYxQUVxbEdxWGU0MGJYUG1RYlBUU003c3oxNkZnMUJCclIzNm1LUFBOVDVraG14bFN1UjMwOUVpRkZKUGRTcVJLLVBfb1cxRmc5VHNrSktyZW9sM09mb1FtSGRKZGZObDlueU5OMmdwTEFnYWp4RjNLNVE?oc=5",
           "publishedAt": "2026-09-17 10:58",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Alphabet (GOOG) Surges 24% as Revenue Growth Soars — But Is $190 Billion in Capex Too Much?",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/alphabet-goog-surges-24-revenue-123012360.html",
-          "publishedAt": "2026-09-16 21:30",
-          "outlet": "Yahoo Finance"
-        },
-        {
-          "title": "Two Google DeepMind AI Researchers Resign Over Safety - The Information",
-          "summary": "Two Google DeepMind AI Researchers Resign Over Safety  The Information",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQeVdIUmJiNllaNlRYVWdqSUxuNEVZOGEwM3pEejBCcUthZ0xwYTVNY1l5TXNINnF5MEU4VmUydmNab1k0SDIxU0tFLWZWMWpGa29yRkpka1VOUEljMGpadUNaQzBsQ1pMc3Iza3c0WG0yY0dUWHRweTlhTVZRU21EdDEweXhCSHJWc0lNb3M5cFpURlE?oc=5",
-          "publishedAt": "2026-09-16 12:26",
-          "outlet": "The Information"
         }
       ]
     },
@@ -75,6 +68,19 @@
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWFlxYWlKNGhPa182MEkxZEJCMFBweEM4U19jdFlDNlQ2M2FvNXJZMmc1UHZ1LXMyOVRXZjZLb1k3bWNmV3BWMm9ncDMtcml0OHBiZ3g5MllFelEybXhOQ0tjaFpYREJlRjFCazl5enFlNkVkSEtXaFhyejVwSkk4ZzBqTXB1R2pS?oc=5",
           "publishedAt": "2026-09-16 01:15",
           "outlet": "DigiTimes"
+        }
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "name": "코닝",
+      "items": [
+        {
+          "title": "Here Is How to Play Corning Stock After Its Dilution Scare",
+          "summary": "",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/play-corning-stock-dilution-scare-174734596.html",
+          "publishedAt": "2026-09-17 02:47",
+          "outlet": "Yahoo Finance"
         }
       ]
     }
