@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18 20:23",
+  "updatedAt": "2026-09-19 01:29",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Italian Apple store employees strike on iPhone18 Pro launch day",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/italian-apple-store-employees-strike-on-iphone18-pro-launch-day-4907012",
-          "publishedAt": "2026-09-18 19:32",
-          "outlet": "Investing.com"
+          "title": "Why Sydney Sweeney's nude ad struck such a nerve with women athletes",
+          "summary": "A sports-betting ad featuring a semi-nude Sydney Sweeney triggered a backlash across women's sports, with female athletes flooding social media with a countermessage: This is what women in sports actually look like. The big picture: Ads have long sexualized women, but the Novig ad's appeal to the male gaze hit differently at a moment when female athletes have cultural cachet and the platforms to p",
+          "link": "https://www.axios.com/2026/09/18/novig-sydney-sweeney-ad-backlash-women-in-sports",
+          "publishedAt": "2026-09-18 23:36",
+          "outlet": "Axios"
         },
         {
           "title": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech - The Information",
@@ -23,17 +23,10 @@
           "outlet": "The Information"
         },
         {
-          "title": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor - digitimes",
-          "summary": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor  digitimes",
+          "title": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor - digitimes.com",
+          "summary": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRzZqaXNmR3hlQUF1T2xSOFZ6RWxPWTExVmFGRGhFWFhCLWtCUDZ3UGJiVGx6UGdxYzZDeEJnclBKYTFsdmYwclB5WTRMX0RaNjhtUWZiTGtSTEFwamMzNWdxZ0dLM0kxTlNrWkdTdEJ0TkFLdDdVZmhOVlAwdlVjQkZEQVhCSGstc2QtdlpB?oc=5",
           "publishedAt": "2026-09-16 13:19",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "iPhone Duo's identity shapes Apple's foldable strategy - digitimes",
-          "summary": "iPhone Duo's identity shapes Apple's foldable strategy  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPUHhaWkZRbk5NbHp0b0ZjRnpCazlzSnZJVl9Ka29UTkJvTFV4eVRHZ2pkLW1FYWVDQ3ROczV3NFRTZC1lRWpkXzRuSVcxZkhoR2hjTFRna1RuNHpYWndwbkxFMTQzalgtdUZTbHIxbDlKd2VNelN2VVN3SUU2d293WWtUUEl3LUE4akcySW9B?oc=5",
-          "publishedAt": "2026-09-16 01:30",
           "outlet": "DigiTimes"
         }
       ]
@@ -43,8 +36,8 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes",
-          "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes",
+          "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes.com",
+          "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONlJxT2xHNlJZb3JkY3Y5TzYxQUVxbEdxWGU0MGJYUG1RYlBUU003c3oxNkZnMUJCclIzNm1LUFBOVDVraG14bFN1UjMwOUVpRkZKUGRTcVJLLVBfb1cxRmc5VHNrSktyZW9sM09mb1FtSGRKZGZObDlueU5OMmdwTEFnYWp4RjNLNVE?oc=5",
           "publishedAt": "2026-09-17 10:58",
           "outlet": "DigiTimes"
@@ -56,8 +49,8 @@
       "name": "인텔",
       "items": [
         {
-          "title": "SK Hynix reportedly eyes Intel Ohio plant for US memory production - digitimes",
-          "summary": "SK Hynix reportedly eyes Intel Ohio plant for US memory production  digitimes",
+          "title": "SK Hynix reportedly eyes Intel Ohio plant for US memory production - digitimes.com",
+          "summary": "SK Hynix reportedly eyes Intel Ohio plant for US memory production  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGZHdUJUQUgxQnpjcnM1elFrWXo2SXZHNmVDNTQwa0tHMlhCempUNjBnYm82c1hIMC1rYk5XNDhEdFBfbDlpMkp3d01uektabXNGeG5Ca1VBVzdtTFZYSGJvVWRZTUtKRy1qTnRuRnBtY0t2XzRPd1R5TlFJa0JzRUl0alFFRkhBWVVPX3pBLXl0aG5EZTdNRENQTVQ5d0VXcXhEd0o2V24?oc=5",
           "publishedAt": "2026-09-17 09:07",
           "outlet": "DigiTimes"
@@ -68,13 +61,6 @@
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNRnlQeU1FaEhaczFiQXdkTDlBRmN3U2JOajRLTi1uU3pIT2ZLWnVNaFAtUE4yaVpSTjdoVmRTcVFyR1NnWlRrRzN5cWUzR3l0eUZFVjhlVFNraGtJWFp1YzZSWmFTRFE1NndnN0c0X3REMHQxcU53UWhKVjAwSEtoTEUwR2s0TjBmN2c0?oc=5",
           "publishedAt": "2026-09-16 18:49",
           "outlet": "The Information"
-        },
-        {
-          "title": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies - digitimes",
-          "summary": "DIGITIMES Insight: Intel may lack a price edge over TSMC on SK Hynix HBM base dies  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOWFlxYWlKNGhPa182MEkxZEJCMFBweEM4U19jdFlDNlQ2M2FvNXJZMmc1UHZ1LXMyOVRXZjZLb1k3bWNmV3BWMm9ncDMtcml0OHBiZ3g5MllFelEybXhOQ0tjaFpYREJlRjFCazl5enFlNkVkSEtXaFhyejVwSkk4ZzBqTXB1R2pS?oc=5",
-          "publishedAt": "2026-09-16 01:15",
-          "outlet": "DigiTimes"
         }
       ]
     }
