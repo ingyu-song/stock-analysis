@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18 09:33",
+  "updatedAt": "2026-09-18 14:21",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1382.08,
@@ -9,7 +9,7 @@
       "id": "kiwoom",
       "name": "키움 (ISA)",
       "cash": {
-        "KRW": 14278495
+        "KRW": 12926495
       }
     },
     {
@@ -48,10 +48,10 @@
       "ticker": "379810.KS",
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
-      "shares": 50,
+      "shares": 100,
       "price": 26875.0,
-      "costKRW": 1323550,
-      "costNative": 1323550
+      "costKRW": 2675550,
+      "costNative": 2675550
     },
     {
       "account": "mirae",
@@ -352,6 +352,17 @@
       "currency": "USD",
       "returnPct": -1.05,
       "reason": "오늘 사이버보안주가 거의 10% 가까이 뛰어서 한번 수익실현하고 팔로알토 비중을 줄이고 싶었음. 앞으로 각광받을 업계는 크라우드스트라이크라고 생각해서 그쪽 비중은 남겨둠. 앞으로 관련 보안주 중 업사이드가 분명하지만 under the radar인 종목을 찾을 예정."
+    },
+    {
+      "date": "2026-09-18",
+      "account": "kiwoom",
+      "ticker": "379810.KS",
+      "name": "KODEX 미국나스닥100",
+      "side": "buy",
+      "shares": 50,
+      "price": 27040,
+      "currency": "KRW",
+      "reason": "금리는 높고 고유가·고물가 상황인 데다 현재 시장에 공포심리까지 있어서, 슬슬 지수 분할매수를 시작해도 될 시점이라고 판단. 키움 계좌는 앞으로도 단일 종목은 한두 개만 유지하고 나머지는 지수 분할매수 용도로 쓸 예정."
     }
   ]
 }
