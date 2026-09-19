@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19 07:37",
+  "updatedAt": "2026-09-19 10:14",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -16,8 +16,8 @@
           "outlet": "Axios"
         },
         {
-          "title": "How Martinelli’s Turned The Champagne Of Apple Cider Into A $500 Million Family Business - forbes.com",
-          "summary": "How Martinelli’s Turned The Champagne Of Apple Cider Into A $500 Million Family Business  forbes.com",
+          "title": "How Martinelli’s Turned The Champagne Of Apple Cider Into A $500 Million Family Business - Forbes",
+          "summary": "How Martinelli’s Turned The Champagne Of Apple Cider Into A $500 Million Family Business  Forbes",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSk9RQk83OVJ2b2RMal9MaGpzb3QyQ3hPdVFFMmViSmVnVVVIV2R6TXE1Vnc2aDZPY0NJLW52enlrZTFzOEM3M3FwZG84bVFkdTdtVEVBM3RyRS10T0ZiV083MFVzQWY5ZzkzRWNHekhRWW9zLWJpc2R2SHVsV3I1SF8yRGd0SkxhVGhvQ0xIS0hmS0hjdjVRQ1RUdWtMMVRMcFAzRzZhV21zeFlGRkRFMkhwN2QySlNvSUJ0alI1QzdRU2ZtZWk1WFc3NmVlT0UzSUxlWnRFRQ?oc=5",
           "publishedAt": "2026-09-18 19:00",
           "outlet": "Forbes Markets"
@@ -30,8 +30,8 @@
           "outlet": "The Information"
         },
         {
-          "title": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor - digitimes.com",
-          "summary": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor  digitimes.com",
+          "title": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor - digitimes",
+          "summary": "Apple reportedly accepts Samsung's 1Q27 memory hike, raising the 2027 smartphone cost floor  digitimes",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRzZqaXNmR3hlQUF1T2xSOFZ6RWxPWTExVmFGRGhFWFhCLWtCUDZ3UGJiVGx6UGdxYzZDeEJnclBKYTFsdmYwclB5WTRMX0RaNjhtUWZiTGtSTEFwamMzNWdxZ0dLM0kxTlNrWkdTdEJ0TkFLdDdVZmhOVlAwdlVjQkZEQVhCSGstc2QtdlpB?oc=5",
           "publishedAt": "2026-09-16 13:19",
           "outlet": "DigiTimes"
@@ -43,15 +43,22 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Gemini hacked three companies in first known breakout by Google’s AI, WSJ reports",
+          "title": "Gemini hacked three companies in first known breakout by Google’s AI",
           "summary": "",
           "link": "https://www.investing.com/news/stock-market-news/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-wsj-reports-4907962",
-          "publishedAt": "2026-09-19 07:30",
+          "publishedAt": "2026-09-19 09:00",
           "outlet": "Investing.com"
         },
         {
-          "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes.com",
-          "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes.com",
+          "title": "Google is the latest AI lab with a security testing mishap",
+          "summary": "Google's Gemini AI model broke into three companies' systems using basic hacking techniques during model testing earlier this year. Why it matters: Google was one of the only AI labs that hadn't yet publicly disclosed a security breach involving their agents during routine pre-deployment testing. Driving the news: Google confirmed the three incidents, which happened in May, on Friday. The incident",
+          "link": "https://www.axios.com/2026/09/19/google-safety-incidents-testing-hacks",
+          "publishedAt": "2026-09-19 09:00",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes",
+          "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONlJxT2xHNlJZb3JkY3Y5TzYxQUVxbEdxWGU0MGJYUG1RYlBUU003c3oxNkZnMUJCclIzNm1LUFBOVDVraG14bFN1UjMwOUVpRkZKUGRTcVJLLVBfb1cxRmc5VHNrSktyZW9sM09mb1FtSGRKZGZObDlueU5OMmdwTEFnYWp4RjNLNVE?oc=5",
           "publishedAt": "2026-09-17 10:58",
           "outlet": "DigiTimes"
@@ -63,8 +70,8 @@
       "name": "인텔",
       "items": [
         {
-          "title": "SK Hynix reportedly eyes Intel Ohio plant for US memory production - digitimes.com",
-          "summary": "SK Hynix reportedly eyes Intel Ohio plant for US memory production  digitimes.com",
+          "title": "SK Hynix reportedly eyes Intel Ohio plant for US memory production - digitimes",
+          "summary": "SK Hynix reportedly eyes Intel Ohio plant for US memory production  digitimes",
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGZHdUJUQUgxQnpjcnM1elFrWXo2SXZHNmVDNTQwa0tHMlhCempUNjBnYm82c1hIMC1rYk5XNDhEdFBfbDlpMkp3d01uektabXNGeG5Ca1VBVzdtTFZYSGJvVWRZTUtKRy1qTnRuRnBtY0t2XzRPd1R5TlFJa0JzRUl0alFFRkhBWVVPX3pBLXl0aG5EZTdNRENQTVQ5d0VXcXhEd0o2V24?oc=5",
           "publishedAt": "2026-09-17 09:07",
           "outlet": "DigiTimes"
