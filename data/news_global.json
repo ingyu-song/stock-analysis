@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19 23:28",
+  "updatedAt": "2026-09-20 03:05",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -61,19 +61,6 @@
           "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONlJxT2xHNlJZb3JkY3Y5TzYxQUVxbEdxWGU0MGJYUG1RYlBUU003c3oxNkZnMUJCclIzNm1LUFBOVDVraG14bFN1UjMwOUVpRkZKUGRTcVJLLVBfb1cxRmc5VHNrSktyZW9sM09mb1FtSGRKZGZObDlueU5OMmdwTEFnYWp4RjNLNVE?oc=5",
           "publishedAt": "2026-09-17 10:58",
-          "outlet": "DigiTimes"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "SK Hynix reportedly eyes Intel Ohio plant for US memory production - digitimes",
-          "summary": "SK Hynix reportedly eyes Intel Ohio plant for US memory production  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQWGZHdUJUQUgxQnpjcnM1elFrWXo2SXZHNmVDNTQwa0tHMlhCempUNjBnYm82c1hIMC1rYk5XNDhEdFBfbDlpMkp3d01uektabXNGeG5Ca1VBVzdtTFZYSGJvVWRZTUtKRy1qTnRuRnBtY0t2XzRPd1R5TlFJa0JzRUl0alFFRkhBWVVPX3pBLXl0aG5EZTdNRENQTVQ5d0VXcXhEd0o2V24?oc=5",
-          "publishedAt": "2026-09-17 09:07",
           "outlet": "DigiTimes"
         }
       ]
