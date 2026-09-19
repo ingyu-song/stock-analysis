@@ -1,9 +1,22 @@
 {
-  "updatedAt": "2026-09-20 05:46",
+  "updatedAt": "2026-09-20 08:11",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
+    {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More - Forbes",
+          "summary": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbDBzWVBoM1lGOE1HUXU0RmE3cHNNODBuNHRnUDdlLUFKc09xYl9yMmFpUEkybV9DaUNfaXhnN213Z1pIRlQ2VzhBNlNZdFdiclNzak5GZ2RCLWY3UFV5eXFRUHl4QWxPMldSVGx6SlRWTUNqc1NYWEFlQWcyVlBVRVVCUnpxaGlsZnloOGZnVm5Jdk5PTGV0ZmpKQ3FRa3pWbHd1UFlRaXhsYlRhZmltQlNtOUgxS3lJaXplcFRycUgyMVcyZkRHdGh2UHBGY3NZSUVSanlHTzNRYUN3UmpBekp6NGFMbjJC?oc=5",
+          "publishedAt": "2026-09-20 07:34",
+          "outlet": "Forbes Markets"
+        }
+      ]
+    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -23,13 +36,6 @@
           "outlet": "Financial Times"
         },
         {
-          "title": "Google says its Gemini AI model hacked three other companies",
-          "summary": "Disclosure comes after OpenAI and Anthropic hacks amid fears that tech firms unable to control powerful AI models  In a first for Google, the company confirmed that its AI model, Gemini, breached the security of three other companies in May. The hacks occurred during a cybersecurity evaluation by AI-security firm Irregular.Irregular, an Israel-based startup that scrutinizes the security of advance",
-          "link": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
-          "publishedAt": "2026-09-19 09:53",
-          "outlet": "The Guardian Business"
-        },
-        {
           "title": "Google is the latest AI lab with a security testing mishap",
           "summary": "Google's Gemini AI model broke into three companies' systems using basic hacking techniques during model testing earlier this year. Why it matters: Google was one of the only AI labs that hadn't yet publicly disclosed a security breach involving their agents during routine pre-deployment testing. Driving the news: Google confirmed the three incidents, which happened in May, on Friday. The incident",
           "link": "https://www.axios.com/2026/09/19/google-safety-incidents-testing-hacks",
@@ -42,13 +48,6 @@
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWEx0QXpLMHg0MXZUZHE0RklaRzljTi1aRlRSTkx4cTR0M1hqaVFmcGdUVDlUN2RVU2E4R193TE45MmFhaG52Vm5ZTXdXQ3hSZkdIRDVHaEEtdy1JSk8xOUE3NmNXVFVWZzhoYVVLZEZzWlpZTHkzZWN3TnlLaTEtYjdfaHNROF91akE?oc=5",
           "publishedAt": "2026-09-19 08:22",
           "outlet": "The Information"
-        },
-        {
-          "title": "Gemini hacked three companies in first known breakout by Google's AI - Reuters",
-          "summary": "Gemini hacked three companies in first known breakout by Google's AI  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYjRxWW5lRUMxeVNSMGFTaFl3Um9XLXBNZzhENWpxTlBFOEYxbTJrd25DMURFaGg2ZmtWRXZhWVpMSDA0SndYOC1qY0FiQnpPeEYzOHZZblFCU1NmbFN4Vno1WlRQaEpmVV9aandkTkZvSzR3SExfMDRPNnpyd0pGN1VYVFVzMmlZd1ZBNjMtblJuRFZ5VUxOemxLRWJ2Zkkyd1ZJMXQzZ2pYWkRzdmt5bU5QUDQ0YVBDZFZOag?oc=5",
-          "publishedAt": "2026-09-19 07:25",
-          "outlet": "Reuters Business (via Google News)"
         },
         {
           "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes",
