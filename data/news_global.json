@@ -1,26 +1,20 @@
 {
-  "updatedAt": "2026-09-20 03:05",
+  "updatedAt": "2026-09-20 05:46",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Why Sydney Sweeney's nude ad struck such a nerve with women athletes",
-          "summary": "A sports-betting ad featuring a semi-nude Sydney Sweeney triggered a backlash across women's sports, with female athletes flooding social media with a countermessage: This is what women in sports actually look like. The big picture: Ads have long sexualized women, but the Novig ad's appeal to the male gaze hit differently at a moment when female athletes have cultural cachet and the platforms to p",
-          "link": "https://www.axios.com/2026/09/18/novig-sydney-sweeney-ad-backlash-women-in-sports",
-          "publishedAt": "2026-09-18 23:36",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
+          "summary": "President Trump announced Saturday he is creating an \"AI Force\" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regulation.Why it matters: The White House isn't backing down from its laissez-faire  approach to AI, even as the industry's biggest leaders call for stronger safety rules and as public ",
+          "link": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
+          "publishedAt": "2026-09-20 04:20",
+          "outlet": "Axios"
+        },
         {
           "title": "Google’s Gemini hacked three companies in new AI safety incident",
           "summary": "Breakout during training exercises follows instances at rivals OpenAI and Anthropic as concerns grow over safety of frontier systems",
@@ -43,8 +37,8 @@
           "outlet": "Axios"
         },
         {
-          "title": "Google’s Gemini Model Hacks Companies During Test - The Information",
-          "summary": "Google’s Gemini Model Hacks Companies During Test  The Information",
+          "title": "Google’s Gemini Model Hacks Companies During Test - theinformation.com",
+          "summary": "Google’s Gemini Model Hacks Companies During Test  theinformation.com",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWEx0QXpLMHg0MXZUZHE0RklaRzljTi1aRlRSTkx4cTR0M1hqaVFmcGdUVDlUN2RVU2E4R193TE45MmFhaG52Vm5ZTXdXQ3hSZkdIRDVHaEEtdy1JSk8xOUE3NmNXVFVWZzhoYVVLZEZzWlpZTHkzZWN3TnlLaTEtYjdfaHNROF91akE?oc=5",
           "publishedAt": "2026-09-19 08:22",
           "outlet": "The Information"
