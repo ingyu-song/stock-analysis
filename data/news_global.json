@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-19 14:59",
+  "updatedAt": "2026-09-19 20:07",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -16,13 +16,6 @@
           "outlet": "Axios"
         },
         {
-          "title": "How Martinelli’s Turned The Champagne Of Apple Cider Into A $500 Million Family Business - Forbes",
-          "summary": "How Martinelli’s Turned The Champagne Of Apple Cider Into A $500 Million Family Business  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNSk9RQk83OVJ2b2RMal9MaGpzb3QyQ3hPdVFFMmViSmVnVVVIV2R6TXE1Vnc2aDZPY0NJLW52enlrZTFzOEM3M3FwZG84bVFkdTdtVEVBM3RyRS10T0ZiV083MFVzQWY5ZzkzRWNHekhRWW9zLWJpc2R2SHVsV3I1SF8yRGd0SkxhVGhvQ0xIS0hmS0hjdjVRQ1RUdWtMMVRMcFAzRzZhV21zeFlGRkRFMkhwN2QySlNvSUJ0alI1QzdRU2ZtZWk1WFc3NmVlT0UzSUxlWnRFRQ?oc=5",
-          "publishedAt": "2026-09-18 19:00",
-          "outlet": "Forbes Markets"
-        },
-        {
           "title": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech - The Information",
           "summary": "Apple Considers Return to Server Market, Has Talked With Nvidia to Use Network Tech  The Information",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNMHdQT2Zxd0JVbjFqZzExRndyakw5Q0loY1cwYTR1dk9xNDRXMmdyWlh4bWNkQmFDTU5wUFhvZ3NmVlV2b285TXoyN1RMbGt4RXpwMllPSDFyWThld2RMWEdyTWpzN01ManE1UFpYTDZmeGhod3c0QXJTcE1KZ2VuNkZfTVlQYzlyUTdicFhVcHh0RnU2X0QtWUhDX1p1a1dSNnNKN0ZxOGdoa2s?oc=5",
@@ -36,13 +29,6 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "不只OpenAI！Google Gemini自主駭入3家企業系統 AI資安測試為何越界？ - 工商時報",
-          "summary": "不只OpenAI！Google Gemini自主駭入3家企業系統 AI資安測試為何越界？  工商時報",
-          "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9pc1Q5WnlfZWFFV0hUazNGQ3NaYmdtWmdlamI2ZFdyVjhWb1BQN1VnNkJmOFlWTTcweGZqQll6cXg1SWJ6RmRtc2FoM3pHNzNfeHZUQVZVc1IyR1AwY05J?oc=5",
-          "publishedAt": "2026-09-19 13:20",
-          "outlet": "Commercial Times 工商時報"
-        },
-        {
           "title": "Google’s Gemini hacked three companies in new AI safety incident",
           "summary": "Breakout during training exercises follows instances at rivals OpenAI and Anthropic as concerns grow over safety of frontier systems",
           "link": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189?syn-25a6b1a6=1",
@@ -50,11 +36,11 @@
           "outlet": "Financial Times"
         },
         {
-          "title": "Gemini hacked three companies in first known breakout by Google’s AI",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/gemini-hacked-three-companies-in-first-known-breakout-by-googles-ai-wsj-reports-4907962",
-          "publishedAt": "2026-09-19 09:00",
-          "outlet": "Investing.com"
+          "title": "Google says its Gemini AI model hacked three other companies",
+          "summary": "Disclosure comes after OpenAI and Anthropic hacks amid fears that tech firms unable to control powerful AI models  In a first for Google, the company confirmed that its AI model, Gemini, breached the security of three other companies in May. The hacks occurred during a cybersecurity evaluation by AI-security firm Irregular.Irregular, an Israel-based startup that scrutinizes the security of advance",
+          "link": "https://www.theguardian.com/technology/2026/sep/18/google-gemini-ai-hack",
+          "publishedAt": "2026-09-19 09:53",
+          "outlet": "The Guardian Business"
         },
         {
           "title": "Google is the latest AI lab with a security testing mishap",
@@ -64,44 +50,11 @@
           "outlet": "Axios"
         },
         {
-          "title": "Gemini hacked three companies in first known breakout by Google's AI - Reuters",
-          "summary": "Gemini hacked three companies in first known breakout by Google's AI  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOYjRxWW5lRUMxeVNSMGFTaFl3Um9XLXBNZzhENWpxTlBFOEYxbTJrd25DMURFaGg2ZmtWRXZhWVpMSDA0SndYOC1qY0FiQnpPeEYzOHZZblFCU1NmbFN4Vno1WlRQaEpmVV9aandkTkZvSzR3SExfMDRPNnpyd0pGN1VYVFVzMmlZd1ZBNjMtblJuRFZ5VUxOemxLRWJ2Zkkyd1ZJMXQzZ2pYWkRzdmt5bU5QUDQ0YVBDZFZOag?oc=5",
-          "publishedAt": "2026-09-19 08:56",
-          "outlet": "Reuters Business (via Google News)"
-        },
-        {
           "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes",
           "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONlJxT2xHNlJZb3JkY3Y5TzYxQUVxbEdxWGU0MGJYUG1RYlBUU003c3oxNkZnMUJCclIzNm1LUFBOVDVraG14bFN1UjMwOUVpRkZKUGRTcVJLLVBfb1cxRmc5VHNrSktyZW9sM09mb1FtSGRKZGZObDlueU5OMmdwTEFnYWp4RjNLNVE?oc=5",
           "publishedAt": "2026-09-17 10:58",
           "outlet": "DigiTimes"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWD",
-      "name": "크라우드스트라이크",
-      "items": [
-        {
-          "title": "Jim Cramer Highlights CrowdStrike (CRWD) as AI Security Concerns Lift Cybersecurity Stocks",
-          "summary": "",
-          "link": "https://finance.yahoo.com/technology/ai/articles/jim-cramer-highlights-crowdstrike-crwd-215812820.html",
-          "publishedAt": "2026-09-18 06:58",
-          "outlet": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "Jim Cramer Prefers Palo Alto (PANW) Over SentinelOne (S)",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-prefers-palo-alto-220330487.html",
-          "publishedAt": "2026-09-18 07:03",
-          "outlet": "Yahoo Finance"
         }
       ]
     },
