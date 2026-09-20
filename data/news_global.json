@@ -1,9 +1,29 @@
 {
-  "updatedAt": "2026-09-20 10:14",
+  "updatedAt": "2026-09-20 15:24",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
+    {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Apple’s Tim Cook sees Australia’s social media curbs as ’world-leading’, PM says",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apples-tim-cook-sees-australias-social-media-curbs-as-worldleading-pm-says-4908128",
+          "publishedAt": "2026-09-20 10:06",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More - Forbes",
+          "summary": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbDBzWVBoM1lGOE1HUXU0RmE3cHNNODBuNHRnUDdlLUFKc09xYl9yMmFpUEkybV9DaUNfaXhnN213Z1pIRlQ2VzhBNlNZdFdiclNzak5GZ2RCLWY3UFV5eXFRUHl4QWxPMldSVGx6SlRWTUNqc1NYWEFlQWcyVlBVRVVCUnpxaGlsZnloOGZnVm5Jdk5PTGV0ZmpKQ3FRa3pWbHd1UFlRaXhsYlRhZmltQlNtOUgxS3lJaXplcFRycUgyMVcyZkRHdGh2UHBGY3NZSUVSanlHTzNRYUN3UmpBekp6NGFMbjJC?oc=5",
+          "publishedAt": "2026-09-20 04:48",
+          "outlet": "Forbes Markets"
+        }
+      ]
+    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -14,13 +34,6 @@
           "link": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
           "publishedAt": "2026-09-20 04:20",
           "outlet": "Axios"
-        },
-        {
-          "title": "Google’s Gemini hacked three companies in new AI safety incident",
-          "summary": "Breakout during training exercises follows instances at rivals OpenAI and Anthropic as concerns grow over safety of frontier systems",
-          "link": "https://www.ft.com/content/158740d1-fde7-4dbc-a282-5830c3201189?syn-25a6b1a6=1",
-          "publishedAt": "2026-09-19 10:29",
-          "outlet": "Financial Times"
         },
         {
           "title": "Google is the latest AI lab with a security testing mishap",
@@ -35,12 +48,38 @@
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWEx0QXpLMHg0MXZUZHE0RklaRzljTi1aRlRSTkx4cTR0M1hqaVFmcGdUVDlUN2RVU2E4R193TE45MmFhaG52Vm5ZTXdXQ3hSZkdIRDVHaEEtdy1JSk8xOUE3NmNXVFVWZzhoYVVLZEZzWlpZTHkzZWN3TnlLaTEtYjdfaHNROF91akE?oc=5",
           "publishedAt": "2026-09-19 08:22",
           "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Is Nvidia Or Intel Stock The Better Buy Heading Into Year End? - Forbes",
+          "summary": "Is Nvidia Or Intel Stock The Better Buy Heading Into Year End?  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd3hBeWZ0aEY5Nk1IVUtYcUFaeVdWQjZrR0ZuNzZ0MGN4NjByLVVWMFRwVVVLRVF3Y1VmdTYxZ3lSOXpDdEJMXy1CbXhORFJZUDVVT21hSW55VjJMVkZudXlmbFhNVmg0U0JaazRQMWJGY2RoNjVXNHFxZ0FNcjlpYWJrc2JXbkk5NnF1b0phQ0c1RFdNUU15NHBfbw?oc=5",
+          "publishedAt": "2026-09-19 19:30",
+          "outlet": "Forbes Markets"
+        }
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "name": "코닝",
+      "items": [
+        {
+          "title": "Corning to raise display glass substrate prices 15% from 4Q26 - digitimes",
+          "summary": "Corning to raise display glass substrate prices 15% from 4Q26  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazdTR2V4ZVNUU2d4Mmttbi1mU19kVUo2c2piQ2tTS1U2QkNkZkZVUUFOR1R6Q1FKX1hFU1MtU0s2N3RBN1IzRzc4SDlYS2Z2NmpHc25pTERjMVNmaDhsZmlfRlFqS2Iyc185LU9Wc1R3dk5lRGhDT3VtZUtHLWpvb25fQjhlR05XZkdDeWZmVzhOSU80SUlMdnNB?oc=5",
+          "publishedAt": "2026-09-18 16:45",
+          "outlet": "DigiTimes"
         },
         {
-          "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes.com",
-          "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes.com",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONlJxT2xHNlJZb3JkY3Y5TzYxQUVxbEdxWGU0MGJYUG1RYlBUU003c3oxNkZnMUJCclIzNm1LUFBOVDVraG14bFN1UjMwOUVpRkZKUGRTcVJLLVBfb1cxRmc5VHNrSktyZW9sM09mb1FtSGRKZGZObDlueU5OMmdwTEFnYWp4RjNLNVE?oc=5",
-          "publishedAt": "2026-09-17 10:58",
+          "title": "FIT hedges its AI optics bets with Corning EBO, TSMC co-packaging talks - digitimes",
+          "summary": "FIT hedges its AI optics bets with Corning EBO, TSMC co-packaging talks  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZTE1czFnUERuZDJOeHgxcjRVbVpRVmhGZnYxTTFVdHRTenZJbjNnaFZVQXJWV2xIWEV3OFdGeU01M0Q5NzBYMDFieTVkeWZUeDkxNGxmQjhMMURBTzZKSWVvanFXeUsxTURlVk9UTmtHNTZLRjNEOXVldU91R1lpRmQxLUVMVVl5OG5F?oc=5",
+          "publishedAt": "2026-09-18 09:22",
           "outlet": "DigiTimes"
         }
       ]
