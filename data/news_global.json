@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21 04:30",
+  "updatedAt": "2026-09-21 07:30",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,13 +21,6 @@
           "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTUJnR1EzS1lNTHZiU1RIcTlkZGs0WjFzelNoQjRBTGV3RF84czJyb3dQeldRaExyYlRPOTlpMXZQa2t1czVWRWVKLW5GTEtDREJLZWpCckFSZ1VKaUxUQXVpc2NJVlhwYWk3bjk2SG5NMXp4MjhzVHVaQ0pTTm92a2hIZHd5SUo1YVVmR2puTHM1c3pFcTFKUGFPS0x6UTJ1MzVUXy00SnQwOWpIOE9oMWVtejYxWWhSSHNoZU52RWp6TWo5dkRUbmNaRnNodw?oc=5",
           "publishedAt": "2026-09-20 10:04",
           "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More - Forbes",
-          "summary": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbDBzWVBoM1lGOE1HUXU0RmE3cHNNODBuNHRnUDdlLUFKc09xYl9yMmFpUEkybV9DaUNfaXhnN213Z1pIRlQ2VzhBNlNZdFdiclNzak5GZ2RCLWY3UFV5eXFRUHl4QWxPMldSVGx6SlRWTUNqc1NYWEFlQWcyVlBVRVVCUnpxaGlsZnloOGZnVm5Jdk5PTGV0ZmpKQ3FRa3pWbHd1UFlRaXhsYlRhZmltQlNtOUgxS3lJaXplcFRycUgyMVcyZkRHdGh2UHBGY3NZSUVSanlHTzNRYUN3UmpBekp6NGFMbjJC?oc=5",
-          "publishedAt": "2026-09-20 04:48",
-          "outlet": "Forbes Markets"
         }
       ]
     },
@@ -35,6 +28,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Amazon (AMZN)’s Debut Sterling Bond Sale Prices Bigger, But Demand Cools from Alphabet’s",
+          "summary": "",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-debut-sterling-bond-215111018.html",
+          "publishedAt": "2026-09-21 06:51",
+          "outlet": "Yahoo Finance"
+        },
         {
           "title": "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
           "summary": "President Trump announced Saturday he is creating an \"AI Force\" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regulation.Why it matters: The White House isn't backing down from its laissez-faire  approach to AI, even as the industry's biggest leaders call for stronger safety rules and as public ",
