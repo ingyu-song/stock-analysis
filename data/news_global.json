@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-20 15:24",
+  "updatedAt": "2026-09-20 21:26",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,25 @@
       "name": "애플",
       "items": [
         {
+          "title": "The tech battle to build your AI assistant",
+          "summary": "The long-promised personal AI assistant is finally arriving, with a suddenly crowded field of agents offering to run pieces of your everyday life.Why it matters: For years, tech's \"personal assistants\" were little more than voice-controlled search boxes. Rapid advances in AI are finally giving them the memory, judgment and autonomy to act on our behalf.Catch up fast: Chatbots answer questions. AI ",
+          "link": "https://www.axios.com/2026/09/20/ai-assistant-openai-meta-muse-instinct-grok-apple",
+          "publishedAt": "2026-09-20 21:22",
+          "outlet": "Axios"
+        },
+        {
           "title": "Apple’s Tim Cook sees Australia’s social media curbs as ’world-leading’, PM says",
           "summary": "",
           "link": "https://www.investing.com/news/stock-market-news/apples-tim-cook-sees-australias-social-media-curbs-as-worldleading-pm-says-4908128",
           "publishedAt": "2026-09-20 10:06",
           "outlet": "Investing.com"
+        },
+        {
+          "title": "Apple's Tim Cook sees Australia's social media curbs as 'world-leading', PM says - Reuters",
+          "summary": "Apple's Tim Cook sees Australia's social media curbs as 'world-leading', PM says  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTUJnR1EzS1lNTHZiU1RIcTlkZGs0WjFzelNoQjRBTGV3RF84czJyb3dQeldRaExyYlRPOTlpMXZQa2t1czVWRWVKLW5GTEtDREJLZWpCckFSZ1VKaUxUQXVpc2NJVlhwYWk3bjk2SG5NMXp4MjhzVHVaQ0pTTm92a2hIZHd5SUo1YVVmR2puTHM1c3pFcTFKUGFPS0x6UTJ1MzVUXy00SnQwOWpIOE9oMWVtejYxWWhSSHNoZU52RWp6TWo5dkRUbmNaRnNodw?oc=5",
+          "publishedAt": "2026-09-20 10:04",
+          "outlet": "Reuters Business (via Google News)"
         },
         {
           "title": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More - Forbes",
@@ -36,6 +50,13 @@
           "outlet": "Axios"
         },
         {
+          "title": "Google's Gemini AI hacked three companies in security test",
+          "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
+          "link": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-09-19 22:39",
+          "outlet": "BBC Business"
+        },
+        {
           "title": "Google is the latest AI lab with a security testing mishap",
           "summary": "Google's Gemini AI model broke into three companies' systems using basic hacking techniques during model testing earlier this year. Why it matters: Google was one of the only AI labs that hadn't yet publicly disclosed a security breach involving their agents during routine pre-deployment testing. Driving the news: Google confirmed the three incidents, which happened in May, on Friday. The incident",
           "link": "https://www.axios.com/2026/09/19/google-safety-incidents-testing-hacks",
@@ -48,19 +69,6 @@
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWEx0QXpLMHg0MXZUZHE0RklaRzljTi1aRlRSTkx4cTR0M1hqaVFmcGdUVDlUN2RVU2E4R193TE45MmFhaG52Vm5ZTXdXQ3hSZkdIRDVHaEEtdy1JSk8xOUE3NmNXVFVWZzhoYVVLZEZzWlpZTHkzZWN3TnlLaTEtYjdfaHNROF91akE?oc=5",
           "publishedAt": "2026-09-19 08:22",
           "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "Is Nvidia Or Intel Stock The Better Buy Heading Into Year End? - Forbes",
-          "summary": "Is Nvidia Or Intel Stock The Better Buy Heading Into Year End?  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPd3hBeWZ0aEY5Nk1IVUtYcUFaeVdWQjZrR0ZuNzZ0MGN4NjByLVVWMFRwVVVLRVF3Y1VmdTYxZ3lSOXpDdEJMXy1CbXhORFJZUDVVT21hSW55VjJMVkZudXlmbFhNVmg0U0JaazRQMWJGY2RoNjVXNHFxZ0FNcjlpYWJrc2JXbkk5NnF1b0phQ0c1RFdNUU15NHBfbw?oc=5",
-          "publishedAt": "2026-09-19 19:30",
-          "outlet": "Forbes Markets"
         }
       ]
     },
