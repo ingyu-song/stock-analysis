@@ -1,22 +1,9 @@
 {
-  "updatedAt": "2026-09-20 08:11",
+  "updatedAt": "2026-09-20 10:14",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More - Forbes",
-          "summary": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxQbDBzWVBoM1lGOE1HUXU0RmE3cHNNODBuNHRnUDdlLUFKc09xYl9yMmFpUEkybV9DaUNfaXhnN213Z1pIRlQ2VzhBNlNZdFdiclNzak5GZ2RCLWY3UFV5eXFRUHl4QWxPMldSVGx6SlRWTUNqc1NYWEFlQWcyVlBVRVVCUnpxaGlsZnloOGZnVm5Jdk5PTGV0ZmpKQ3FRa3pWbHd1UFlRaXhsYlRhZmltQlNtOUgxS3lJaXplcFRycUgyMVcyZkRHdGh2UHBGY3NZSUVSanlHTzNRYUN3UmpBekp6NGFMbjJC?oc=5",
-          "publishedAt": "2026-09-20 07:34",
-          "outlet": "Forbes Markets"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -43,15 +30,15 @@
           "outlet": "Axios"
         },
         {
-          "title": "Google’s Gemini Model Hacks Companies During Test - theinformation.com",
-          "summary": "Google’s Gemini Model Hacks Companies During Test  theinformation.com",
+          "title": "Google’s Gemini Model Hacks Companies During Test - The Information",
+          "summary": "Google’s Gemini Model Hacks Companies During Test  The Information",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWEx0QXpLMHg0MXZUZHE0RklaRzljTi1aRlRSTkx4cTR0M1hqaVFmcGdUVDlUN2RVU2E4R193TE45MmFhaG52Vm5ZTXdXQ3hSZkdIRDVHaEEtdy1JSk8xOUE3NmNXVFVWZzhoYVVLZEZzWlpZTHkzZWN3TnlLaTEtYjdfaHNROF91akE?oc=5",
           "publishedAt": "2026-09-19 08:22",
           "outlet": "The Information"
         },
         {
-          "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes",
-          "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes",
+          "title": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag - digitimes.com",
+          "summary": "Google reportedly weighs CoWoS backup for 2027 TPU as EMIB-T substrate yields lag  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONlJxT2xHNlJZb3JkY3Y5TzYxQUVxbEdxWGU0MGJYUG1RYlBUU003c3oxNkZnMUJCclIzNm1LUFBOVDVraG14bFN1UjMwOUVpRkZKUGRTcVJLLVBfb1cxRmc5VHNrSktyZW9sM09mb1FtSGRKZGZObDlueU5OMmdwTEFnYWp4RjNLNVE?oc=5",
           "publishedAt": "2026-09-17 10:58",
           "outlet": "DigiTimes"
