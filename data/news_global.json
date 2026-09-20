@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21 01:51",
+  "updatedAt": "2026-09-21 04:30",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,20 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Prediction: Even With the $1,999 Price Tag, Apple's Foldable iPhone Duo Will Be a Hit and Apple Will Join Nvidia in the $5 Trillion Club.",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/prediction-even-1-999-price-163700612.html",
-          "publishedAt": "2026-09-21 01:37",
-          "outlet": "Yahoo Finance"
-        },
-        {
-          "title": "Jim Cramer sends strong signal to Apple stock investors",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-sends-strong-signal-163300406.html",
-          "publishedAt": "2026-09-21 01:33",
-          "outlet": "Yahoo Finance"
-        },
         {
           "title": "The tech battle to build your AI assistant",
           "summary": "The long-promised personal AI assistant is finally arriving, with a suddenly crowded field of agents offering to run pieces of your everyday life.Why it matters: For years, tech's \"personal assistants\" were little more than voice-controlled search boxes. Rapid advances in AI are finally giving them the memory, judgment and autonomy to act on our behalf.Catch up fast: Chatbots answer questions. AI ",
