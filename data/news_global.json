@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21 07:30",
+  "updatedAt": "2026-09-21 10:11",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,18 +9,18 @@
       "name": "애플",
       "items": [
         {
+          "title": "Why Apple Is Betting on Foldable iPhones - The Information",
+          "summary": "Why Apple Is Betting on Foldable iPhones  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uZkI0M19tNTFuTmxwYU9MY2Zrc3VXbEp0SkNUSmFxTmJkRWtEOVZ3RDFNWFpYWDMzQ3VGU2hSQlhmVTdNbHM5ZDJtcHBxd3NHckduT0VWWjE0YmpmeTh3MXFRb3ZIbXFNTllVM2VQUmxNYjBYN3N0WjJR?oc=5",
+          "publishedAt": "2026-09-21 00:01",
+          "outlet": "The Information"
+        },
+        {
           "title": "The tech battle to build your AI assistant",
           "summary": "The long-promised personal AI assistant is finally arriving, with a suddenly crowded field of agents offering to run pieces of your everyday life.Why it matters: For years, tech's \"personal assistants\" were little more than voice-controlled search boxes. Rapid advances in AI are finally giving them the memory, judgment and autonomy to act on our behalf.Catch up fast: Chatbots answer questions. AI ",
           "link": "https://www.axios.com/2026/09/20/ai-assistant-openai-meta-muse-instinct-grok-apple",
           "publishedAt": "2026-09-20 21:22",
           "outlet": "Axios"
-        },
-        {
-          "title": "Apple's Tim Cook sees Australia's social media curbs as 'world-leading', PM says - Reuters",
-          "summary": "Apple's Tim Cook sees Australia's social media curbs as 'world-leading', PM says  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOTUJnR1EzS1lNTHZiU1RIcTlkZGs0WjFzelNoQjRBTGV3RF84czJyb3dQeldRaExyYlRPOTlpMXZQa2t1czVWRWVKLW5GTEtDREJLZWpCckFSZ1VKaUxUQXVpc2NJVlhwYWk3bjk2SG5NMXp4MjhzVHVaQ0pTTm92a2hIZHd5SUo1YVVmR2puTHM1c3pFcTFKUGFPS0x6UTJ1MzVUXy00SnQwOWpIOE9oMWVtejYxWWhSSHNoZU52RWp6TWo5dkRUbmNaRnNodw?oc=5",
-          "publishedAt": "2026-09-20 10:04",
-          "outlet": "Reuters Business (via Google News)"
         }
       ]
     },
@@ -28,13 +28,6 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
-        {
-          "title": "Amazon (AMZN)’s Debut Sterling Bond Sale Prices Bigger, But Demand Cools from Alphabet’s",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/amazon-amzn-debut-sterling-bond-215111018.html",
-          "publishedAt": "2026-09-21 06:51",
-          "outlet": "Yahoo Finance"
-        },
         {
           "title": "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
           "summary": "President Trump announced Saturday he is creating an \"AI Force\" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regulation.Why it matters: The White House isn't backing down from its laissez-faire  approach to AI, even as the industry's biggest leaders call for stronger safety rules and as public ",
@@ -74,13 +67,6 @@
           "summary": "Corning to raise display glass substrate prices 15% from 4Q26  digitimes",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazdTR2V4ZVNUU2d4Mmttbi1mU19kVUo2c2piQ2tTS1U2QkNkZkZVUUFOR1R6Q1FKX1hFU1MtU0s2N3RBN1IzRzc4SDlYS2Z2NmpHc25pTERjMVNmaDhsZmlfRlFqS2Iyc185LU9Wc1R3dk5lRGhDT3VtZUtHLWpvb25fQjhlR05XZkdDeWZmVzhOSU80SUlMdnNB?oc=5",
           "publishedAt": "2026-09-18 16:45",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "FIT hedges its AI optics bets with Corning EBO, TSMC co-packaging talks - digitimes",
-          "summary": "FIT hedges its AI optics bets with Corning EBO, TSMC co-packaging talks  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPZTE1czFnUERuZDJOeHgxcjRVbVpRVmhGZnYxTTFVdHRTenZJbjNnaFZVQXJWV2xIWEV3OFdGeU01M0Q5NzBYMDFieTVkeWZUeDkxNGxmQjhMMURBTzZKSWVvanFXeUsxTURlVk9UTmtHNTZLRjNEOXVldU91R1lpRmQxLUVMVVl5OG5F?oc=5",
-          "publishedAt": "2026-09-18 09:22",
           "outlet": "DigiTimes"
         }
       ]
