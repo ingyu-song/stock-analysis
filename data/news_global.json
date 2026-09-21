@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21 23:16",
+  "updatedAt": "2026-09-22 04:34",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,25 @@
       "name": "애플",
       "items": [
         {
+          "title": "Apple boxed in double top zone near ATH: Live levels",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apple-coils-below-ath-resistance-at-34457-live-levels-93CH-4909302",
+          "publishedAt": "2026-09-22 04:18",
+          "outlet": "Investing.com"
+        },
+        {
           "title": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains - digitimes",
           "summary": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains  digitimes",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN0RfV1dNUDNGYlBUUjBtb1RTY0VzRFVLNnl6NFQ2T0VHVGJETW1PRUR3eEQtNk8yc0tnVVpmMWZac1NBVHVnZEw5MWZQaWEzYnhNR1FaTUhQZnd1dG1EMnBESi1ZSV81ckV6cWotZGpWaW94MkFNZGpHU1pIbHJKbHBlT3RlbFdza1ZwSE5HZmF1V1IyMFBz?oc=5",
           "publishedAt": "2026-09-21 16:15",
           "outlet": "DigiTimes"
+        },
+        {
+          "title": "Jim Cramer sends strong signal to Apple stock investors",
+          "summary": "",
+          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-sends-strong-signal-163300406.html",
+          "publishedAt": "2026-09-21 01:33",
+          "outlet": "Yahoo Finance"
         },
         {
           "title": "The tech battle to build your AI assistant",
@@ -29,25 +43,18 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Alphabet C tests $354 resistance on 5h chart: Live levels",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/alphabet-tests-354-resistance-after-325-double-bottom-live-93CH-4909305",
+          "publishedAt": "2026-09-22 04:19",
+          "outlet": "Investing.com"
+        },
+        {
           "title": "Google fined more than €400m by Irish regulator over its use of location data",
           "summary": "Watchdog says users may have been unaware their information was used to target adverts or infer their interestsGoogle has been fined more than €400m (£345m) over the way it processed users’ location data, following claims that the tech giant had manipulated users into agreeing to be constantly tracked on their mobile phones.The fine, imposed by Ireland’s Data Protection Commission (DPC), comes aft",
           "link": "https://www.theguardian.com/technology/2026/sep/21/google-is-fined-more-than-400m-by-irish-regulator-over-its-use-of-location-data",
           "publishedAt": "2026-09-21 19:57",
           "outlet": "The Guardian Business"
-        },
-        {
-          "title": "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
-          "summary": "President Trump announced Saturday he is creating an \"AI Force\" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regulation.Why it matters: The White House isn't backing down from its laissez-faire  approach to AI, even as the industry's biggest leaders call for stronger safety rules and as public ",
-          "link": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
-          "publishedAt": "2026-09-20 04:20",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Google’s Gemini Model Hacks Companies During Test - The Information",
-          "summary": "Google’s Gemini Model Hacks Companies During Test  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWEx0QXpLMHg0MXZUZHE0RklaRzljTi1aRlRSTkx4cTR0M1hqaVFmcGdUVDlUN2RVU2E4R193TE45MmFhaG52Vm5ZTXdXQ3hSZkdIRDVHaEEtdy1JSk8xOUE3NmNXVFVWZzhoYVVLZEZzWlpZTHkzZWN3TnlLaTEtYjdfaHNROF91akE?oc=5",
-          "publishedAt": "2026-09-19 08:22",
-          "outlet": "The Information"
         }
       ]
     }
