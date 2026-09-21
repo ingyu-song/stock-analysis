@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-21 15:26",
+  "updatedAt": "2026-09-21 23:16",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Why Apple Is Betting on Foldable iPhones - The Information",
-          "summary": "Why Apple Is Betting on Foldable iPhones  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uZkI0M19tNTFuTmxwYU9MY2Zrc3VXbEp0SkNUSmFxTmJkRWtEOVZ3RDFNWFpYWDMzQ3VGU2hSQlhmVTdNbHM5ZDJtcHBxd3NHckduT0VWWjE0YmpmeTh3MXFRb3ZIbXFNTllVM2VQUmxNYjBYN3N0WjJR?oc=5",
-          "publishedAt": "2026-09-21 00:01",
-          "outlet": "The Information"
+          "title": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains - digitimes",
+          "summary": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN0RfV1dNUDNGYlBUUjBtb1RTY0VzRFVLNnl6NFQ2T0VHVGJETW1PRUR3eEQtNk8yc0tnVVpmMWZac1NBVHVnZEw5MWZQaWEzYnhNR1FaTUhQZnd1dG1EMnBESi1ZSV81ckV6cWotZGpWaW94MkFNZGpHU1pIbHJKbHBlT3RlbFdza1ZwSE5HZmF1V1IyMFBz?oc=5",
+          "publishedAt": "2026-09-21 16:15",
+          "outlet": "DigiTimes"
         },
         {
           "title": "The tech battle to build your AI assistant",
@@ -29,24 +29,17 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Google fined more than €400m by Irish regulator over its use of location data",
+          "summary": "Watchdog says users may have been unaware their information was used to target adverts or infer their interestsGoogle has been fined more than €400m (£345m) over the way it processed users’ location data, following claims that the tech giant had manipulated users into agreeing to be constantly tracked on their mobile phones.The fine, imposed by Ireland’s Data Protection Commission (DPC), comes aft",
+          "link": "https://www.theguardian.com/technology/2026/sep/21/google-is-fined-more-than-400m-by-irish-regulator-over-its-use-of-location-data",
+          "publishedAt": "2026-09-21 19:57",
+          "outlet": "The Guardian Business"
+        },
+        {
           "title": "Trump wants a new AI czar and an \"AI Force\" modeled on Space Force",
           "summary": "President Trump announced Saturday he is creating an \"AI Force\" modeled on the Space Force and will soon name a new AI czar, doubling down on his push to accelerate artificial intelligence development with limited regulation.Why it matters: The White House isn't backing down from its laissez-faire  approach to AI, even as the industry's biggest leaders call for stronger safety rules and as public ",
           "link": "https://www.axios.com/2026/09/19/trump-ai-czar-space-force-safety",
           "publishedAt": "2026-09-20 04:20",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Google's Gemini AI hacked three companies in security test",
-          "summary": "The AI model accessed the internet and guessed credentials to three websites, a Google official told the BBC.",
-          "link": "https://www.bbc.co.uk/news/articles/c607l0k72rlvo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-09-19 22:39",
-          "outlet": "BBC Business"
-        },
-        {
-          "title": "Google is the latest AI lab with a security testing mishap",
-          "summary": "Google's Gemini AI model broke into three companies' systems using basic hacking techniques during model testing earlier this year. Why it matters: Google was one of the only AI labs that hadn't yet publicly disclosed a security breach involving their agents during routine pre-deployment testing. Driving the news: Google confirmed the three incidents, which happened in May, on Friday. The incident",
-          "link": "https://www.axios.com/2026/09/19/google-safety-incidents-testing-hacks",
-          "publishedAt": "2026-09-19 09:00",
           "outlet": "Axios"
         },
         {
@@ -55,19 +48,6 @@
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOWEx0QXpLMHg0MXZUZHE0RklaRzljTi1aRlRSTkx4cTR0M1hqaVFmcGdUVDlUN2RVU2E4R193TE45MmFhaG52Vm5ZTXdXQ3hSZkdIRDVHaEEtdy1JSk8xOUE3NmNXVFVWZzhoYVVLZEZzWlpZTHkzZWN3TnlLaTEtYjdfaHNROF91akE?oc=5",
           "publishedAt": "2026-09-19 08:22",
           "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "GLW",
-      "name": "코닝",
-      "items": [
-        {
-          "title": "Corning to raise display glass substrate prices 15% from 4Q26 - digitimes",
-          "summary": "Corning to raise display glass substrate prices 15% from 4Q26  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNazdTR2V4ZVNUU2d4Mmttbi1mU19kVUo2c2piQ2tTS1U2QkNkZkZVUUFOR1R6Q1FKX1hFU1MtU0s2N3RBN1IzRzc4SDlYS2Z2NmpHc25pTERjMVNmaDhsZmlfRlFqS2Iyc185LU9Wc1R3dk5lRGhDT3VtZUtHLWpvb25fQjhlR05XZkdDeWZmVzhOSU80SUlMdnNB?oc=5",
-          "publishedAt": "2026-09-18 16:45",
-          "outlet": "DigiTimes"
         }
       ]
     }
