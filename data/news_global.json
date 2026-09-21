@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22 04:34",
+  "updatedAt": "2026-09-22 08:20",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Apple boxed in double top zone near ATH: Live levels",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/apple-coils-below-ath-resistance-at-34457-live-levels-93CH-4909302",
-          "publishedAt": "2026-09-22 04:18",
-          "outlet": "Investing.com"
-        },
         {
           "title": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains - digitimes",
           "summary": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains  digitimes",
@@ -28,13 +21,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-sends-strong-signal-163300406.html",
           "publishedAt": "2026-09-21 01:33",
           "outlet": "Yahoo Finance"
-        },
-        {
-          "title": "The tech battle to build your AI assistant",
-          "summary": "The long-promised personal AI assistant is finally arriving, with a suddenly crowded field of agents offering to run pieces of your everyday life.Why it matters: For years, tech's \"personal assistants\" were little more than voice-controlled search boxes. Rapid advances in AI are finally giving them the memory, judgment and autonomy to act on our behalf.Catch up fast: Chatbots answer questions. AI ",
-          "link": "https://www.axios.com/2026/09/20/ai-assistant-openai-meta-muse-instinct-grok-apple",
-          "publishedAt": "2026-09-20 21:22",
-          "outlet": "Axios"
         }
       ]
     },
@@ -43,18 +29,37 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Alphabet C tests $354 resistance on 5h chart: Live levels",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/alphabet-tests-354-resistance-after-325-double-bottom-live-93CH-4909305",
-          "publishedAt": "2026-09-22 04:19",
-          "outlet": "Investing.com"
-        },
-        {
           "title": "Google fined more than €400m by Irish regulator over its use of location data",
           "summary": "Watchdog says users may have been unaware their information was used to target adverts or infer their interestsGoogle has been fined more than €400m (£345m) over the way it processed users’ location data, following claims that the tech giant had manipulated users into agreeing to be constantly tracked on their mobile phones.The fine, imposed by Ireland’s Data Protection Commission (DPC), comes aft",
           "link": "https://www.theguardian.com/technology/2026/sep/21/google-is-fined-more-than-400m-by-irish-regulator-over-its-use-of-location-data",
           "publishedAt": "2026-09-21 19:57",
           "outlet": "The Guardian Business"
+        }
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
+      "items": [
+        {
+          "title": "CrowdStrike and Okta Trade at Big Premiums Despite Unproven AI Payoff - The Information",
+          "summary": "CrowdStrike and Okta Trade at Big Premiums Despite Unproven AI Payoff  The Information",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUmVNX2pJVWQwTEtzRUNReGtaNEhhaElsQ3VmaU1aeHpsUmRsdGJUUzVmLWJtZlJIZm9BLVdKQWdTcjRfODVscDBZS0hFa0RqQ1VhYWI3dGlCTnUzOHFBdDBZOXRlcVdEekFZZFhxSTNFSE9WMmtLanBPaGpyTzRyUVotSHRkbmJFajdyUUMtU1BCM1kzbVJHTmxDWlhIUDh1aDJESA?oc=5",
+          "publishedAt": "2026-09-21 22:31",
+          "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Intel reportedly in talks with AUO on advanced packaging - digitimes",
+          "summary": "Intel reportedly in talks with AUO on advanced packaging  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbVZaS2JfckI2TWxPNmVsTUVlZ083WFpRZlFyVGUxMk92em9lVi1RZHBGUk4teVJGX3MyMjFhOEJPeTNBWVVza3JtMmNaZGNpWXNxbjFTeXljSHZjWEVMWmxEN242TmU3Q0NuREdZd3R6eEtQS2locWEtZHVvMG1UNVJpZXZDYTlheEE?oc=5",
+          "publishedAt": "2026-09-21 11:28",
+          "outlet": "DigiTimes"
         }
       ]
     }
