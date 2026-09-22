@@ -1,36 +1,9 @@
 {
-  "updatedAt": "2026-09-23 03:58",
+  "updatedAt": "2026-09-23 07:15",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "With new Macs, Apple aims to take on Microsoft, Nvidia in a rush to lower AI costs",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/with-new-macs-apple-aims-to-take-on-microsoft-nvidia-in-a-rush-to-lower-ai-costs-4910955",
-          "publishedAt": "2026-09-23 03:27",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "iPhone Duo Hands-On: Apple’s First Foldable Phone Is All About The Software Smarts - Forbes",
-          "summary": "iPhone Duo Hands-On: Apple’s First Foldable Phone Is All About The Software Smarts  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOZWlSWUJSZDVIR0t3XzB1WUl2SUFkemVrYTNhZFc3RXNRTHpmMUJhbm00VWtQZmZKUmh0TUgzWmlDaUdERXhvZW1rQUZBSEx6UmcxNDBOaGtkSFptTjF4ZWtoVWQ5MHFZQmpGdWVaQUNFc3RfczNBZmFzNVh5UmxNalo5UHRaSmJsS1N6UlVGdW02bFRKb3J2VERJczBtR3Z2aE1NdE9HbFBCeFhPaXQyTlNJTGFWYXVHT0poZFNIcENKU1dzREQ5UkJ3eHl3Zzlu?oc=5",
-          "publishedAt": "2026-09-22 04:47",
-          "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Why Apple Is Betting on Foldable iPhones - The Information",
-          "summary": "Why Apple Is Betting on Foldable iPhones  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uZkI0M19tNTFuTmxwYU9MY2Zrc3VXbEp0SkNUSmFxTmJkRWtEOVZ3RDFNWFpYWDMzQ3VGU2hSQlhmVTdNbHM5ZDJtcHBxd3NHckduT0VWWjE0YmpmeTh3MXFRb3ZIbXFNTllVM2VQUmxNYjBYN3N0WjJR?oc=5",
-          "publishedAt": "2026-09-21 00:01",
-          "outlet": "The Information"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -41,6 +14,13 @@
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVm44QjhOQlVHdFN5NVBQZzYyeG5rUUYwNC1KdWUyNGQ4TERNZHVkZUhRV3oySnIxOFhhV1JTQ1ZHUWt3RzQ4UXkzSENuVTdyQVNCR01WZjd4YUp5OGRfcXVqbEpLN09zeU9heHRXZjRqQW5rS0o3ODctVnFoUEQ5aDlRbVZIYXVtUGw2WXNzQWdBbk9MdTdaNW9UOXh2emRS?oc=5",
           "publishedAt": "2026-09-22 21:00",
           "outlet": "Forbes Markets"
+        },
+        {
+          "title": "AI staff complain of mental toll over fears of threat to society",
+          "summary": "Top researchers at Aisi, OpenAI, Anthropic and Google DeepMind report burnout and stress over developing powerful AI",
+          "link": "https://www.ft.com/content/60870960-f433-48ca-bc2c-708686a69ae7?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-22 20:27",
+          "outlet": "Financial Times"
         },
         {
           "title": "The AI doomsday fear hidden in self-improving AI",
