@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22 08:20",
+  "updatedAt": "2026-09-22 14:05",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -16,11 +16,11 @@
           "outlet": "DigiTimes"
         },
         {
-          "title": "Jim Cramer sends strong signal to Apple stock investors",
-          "summary": "",
-          "link": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-sends-strong-signal-163300406.html",
-          "publishedAt": "2026-09-21 01:33",
-          "outlet": "Yahoo Finance"
+          "title": "Why Apple Is Betting on Foldable iPhones - The Information",
+          "summary": "Why Apple Is Betting on Foldable iPhones  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uZkI0M19tNTFuTmxwYU9MY2Zrc3VXbEp0SkNUSmFxTmJkRWtEOVZ3RDFNWFpYWDMzQ3VGU2hSQlhmVTdNbHM5ZDJtcHBxd3NHckduT0VWWjE0YmpmeTh3MXFRb3ZIbXFNTllVM2VQUmxNYjBYN3N0WjJR?oc=5",
+          "publishedAt": "2026-09-21 00:01",
+          "outlet": "The Information"
         }
       ]
     },
@@ -28,6 +28,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "AI staff complain of mental toll over fears of threat to society",
+          "summary": "Top researchers at Aisi, OpenAI, Anthropic and Google DeepMind report burnout and stress over developing powerful AI",
+          "link": "https://www.ft.com/content/60870960-f433-48ca-bc2c-708686a69ae7?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-22 13:00",
+          "outlet": "Financial Times"
+        },
         {
           "title": "Google fined more than €400m by Irish regulator over its use of location data",
           "summary": "Watchdog says users may have been unaware their information was used to target adverts or infer their interestsGoogle has been fined more than €400m (£345m) over the way it processed users’ location data, following claims that the tech giant had manipulated users into agreeing to be constantly tracked on their mobile phones.The fine, imposed by Ireland’s Data Protection Commission (DPC), comes aft",
