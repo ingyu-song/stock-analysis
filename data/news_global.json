@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-22 14:05",
+  "updatedAt": "2026-09-22 19:03",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,15 +9,15 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains - digitimes",
-          "summary": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains  digitimes",
+          "title": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains - digitimes.com",
+          "summary": "Apple, Xiaomi, Qualcomm each eye edge AI ecosystem gains  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNN0RfV1dNUDNGYlBUUjBtb1RTY0VzRFVLNnl6NFQ2T0VHVGJETW1PRUR3eEQtNk8yc0tnVVpmMWZac1NBVHVnZEw5MWZQaWEzYnhNR1FaTUhQZnd1dG1EMnBESi1ZSV81ckV6cWotZGpWaW94MkFNZGpHU1pIbHJKbHBlT3RlbFdza1ZwSE5HZmF1V1IyMFBz?oc=5",
           "publishedAt": "2026-09-21 16:15",
           "outlet": "DigiTimes"
         },
         {
-          "title": "Why Apple Is Betting on Foldable iPhones - The Information",
-          "summary": "Why Apple Is Betting on Foldable iPhones  The Information",
+          "title": "Why Apple Is Betting on Foldable iPhones - theinformation.com",
+          "summary": "Why Apple Is Betting on Foldable iPhones  theinformation.com",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1uZkI0M19tNTFuTmxwYU9MY2Zrc3VXbEp0SkNUSmFxTmJkRWtEOVZ3RDFNWFpYWDMzQ3VGU2hSQlhmVTdNbHM5ZDJtcHBxd3NHckduT0VWWjE0YmpmeTh3MXFRb3ZIbXFNTllVM2VQUmxNYjBYN3N0WjJR?oc=5",
           "publishedAt": "2026-09-21 00:01",
           "outlet": "The Information"
@@ -29,18 +29,18 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "\"The last invention that man need ever make\": The risk of self-improving AI",
+          "summary": "Of the various ways experts fear AI could kill us all, one is slowly moving closer to reality: AI learning to make itself unstoppable.Why it matters: Recursive Self Improvement, the ability of an AI model to build better versions of itself without human guidance, could make increasingly capable systems harder for humans to control.The RSI threshold doesn't represent danger by itself, but a lack of",
+          "link": "https://www.axios.com/2026/09/22/ai-rsi-meaning-recursive-self-improvement-doom",
+          "publishedAt": "2026-09-22 18:00",
+          "outlet": "Axios"
+        },
+        {
           "title": "AI staff complain of mental toll over fears of threat to society",
           "summary": "Top researchers at Aisi, OpenAI, Anthropic and Google DeepMind report burnout and stress over developing powerful AI",
           "link": "https://www.ft.com/content/60870960-f433-48ca-bc2c-708686a69ae7?syn-25a6b1a6=1",
           "publishedAt": "2026-09-22 13:00",
           "outlet": "Financial Times"
-        },
-        {
-          "title": "Google fined more than €400m by Irish regulator over its use of location data",
-          "summary": "Watchdog says users may have been unaware their information was used to target adverts or infer their interestsGoogle has been fined more than €400m (£345m) over the way it processed users’ location data, following claims that the tech giant had manipulated users into agreeing to be constantly tracked on their mobile phones.The fine, imposed by Ireland’s Data Protection Commission (DPC), comes aft",
-          "link": "https://www.theguardian.com/technology/2026/sep/21/google-is-fined-more-than-400m-by-irish-regulator-over-its-use-of-location-data",
-          "publishedAt": "2026-09-21 19:57",
-          "outlet": "The Guardian Business"
         }
       ]
     },
@@ -49,8 +49,8 @@
       "name": "크라우드스트라이크",
       "items": [
         {
-          "title": "CrowdStrike and Okta Trade at Big Premiums Despite Unproven AI Payoff - The Information",
-          "summary": "CrowdStrike and Okta Trade at Big Premiums Despite Unproven AI Payoff  The Information",
+          "title": "CrowdStrike and Okta Trade at Big Premiums Despite Unproven AI Payoff - theinformation.com",
+          "summary": "CrowdStrike and Okta Trade at Big Premiums Despite Unproven AI Payoff  theinformation.com",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUmVNX2pJVWQwTEtzRUNReGtaNEhhaElsQ3VmaU1aeHpsUmRsdGJUUzVmLWJtZlJIZm9BLVdKQWdTcjRfODVscDBZS0hFa0RqQ1VhYWI3dGlCTnUzOHFBdDBZOXRlcVdEekFZZFhxSTNFSE9WMmtLanBPaGpyTzRyUVotSHRkbmJFajdyUUMtU1BCM1kzbVJHTmxDWlhIUDh1aDJESA?oc=5",
           "publishedAt": "2026-09-21 22:31",
           "outlet": "The Information"
@@ -62,8 +62,8 @@
       "name": "인텔",
       "items": [
         {
-          "title": "Intel reportedly in talks with AUO on advanced packaging - digitimes",
-          "summary": "Intel reportedly in talks with AUO on advanced packaging  digitimes",
+          "title": "Intel reportedly in talks with AUO on advanced packaging - digitimes.com",
+          "summary": "Intel reportedly in talks with AUO on advanced packaging  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbVZaS2JfckI2TWxPNmVsTUVlZ083WFpRZlFyVGUxMk92em9lVi1RZHBGUk4teVJGX3MyMjFhOEJPeTNBWVVza3JtMmNaZGNpWXNxbjFTeXljSHZjWEVMWmxEN242TmU3Q0NuREdZd3R6eEtQS2locWEtZHVvMG1UNVJpZXZDYTlheEE?oc=5",
           "publishedAt": "2026-09-21 11:28",
           "outlet": "DigiTimes"
