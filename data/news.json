@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23 07:14",
+  "updatedAt": "2026-09-23 09:41",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -8,6 +8,12 @@
       "name": "에이피알",
       "query": "에이피알 메디큐브",
       "items": [
+        {
+          "title": "에이피알, AI 국제 인증 2종 획득…경영시스템·제품 신뢰성 검증",
+          "summary": "에이피알은 넴코로부터 제품에 적용된 AI 기능에 대한 검증을 거쳐 해당 인증을 획득했다. 인증 대상은 메디큐브 에이지알(AGE-R)의 '부스터 프로 X2' AI 케어 모드다. 해당 기능은 피부 상태와 누적 사용 이력 등을...",
+          "link": "https://www.thepublic.kr/news/articleView.html?idxno=319763",
+          "publishedAt": "2026-09-23 08:16"
+        },
         {
           "title": "'화장품과 제약 사이' 새로운 경쟁 무대 생겼다 [최기자의 뷰티 인사이...",
           "summary": "에이피알 역시 메디큐브를 중심으로 에너지 기반 의료기기와 스킨부스터 등을 준비하며 홈뷰티를 넘어 전문 시술 시장으로 사업 영역을 확대하는 움직임을 보이고 있다. 이는 단순한 사업 다각화와는 차이가 있다. 화장품...",
@@ -91,12 +97,6 @@
           "summary": "이번 인증 대상은 메디큐브 에이지알(AGE-R) ‘부스터 프로 X2’의 AI 케어 모드다. AI 케어 모드는 피부 상태와 누적 사용 이력 등을 분석해 이용자에게 맞춤형 관리 루틴과 자극 강도를 추천한다. 에이피알은 단일...",
           "link": "https://www.joongang.co.kr/article/25464110",
           "publishedAt": "2026-09-22 15:55"
-        },
-        {
-          "title": "에이피알, 뷰티업계 첫 'AI 국제인증' 2종 획득",
-          "summary": "한편 에이피알은 올해 2분기 연결 기준 매출 7675억3300만원을 기록했다. 이는 전년 동기 대비 134.2% 증가한 규모다. 메디큐브는 올해 1·2분기 아마존 프라임데이 뷰티 카테고리에서 연속 1위를 기록했다.",
-          "link": "https://www.ajunews.com/view/20260922104142374",
-          "publishedAt": "2026-09-22 15:40"
         }
       ]
     },
@@ -105,6 +105,12 @@
       "name": "애플",
       "query": "애플 AAPL",
       "items": [
+        {
+          "title": "퀄컴, 온디바이스 AI 스마트폰 칩 2종 공개",
+          "summary": "애플($AAPL)도 최근 아이폰을 온디바이스 AI 처리를 지원하는 '지능형 개인 허브'로 설명했다. 퀄컴은 고성능 칩셋을 탑재한 안드로이드 스마트폰 역시 클라우드 연결 없이 AI 모델을 처리하는 'AI 허브' 역할을 할 수...",
+          "link": "https://www.tokenpost.kr/news/ai/412443",
+          "publishedAt": "2026-09-23 07:32"
+        },
         {
           "title": "[미국 특징주] 애플, 신형 맥으로 MS·엔비디아에 도전장…\"AI 비용 낮춘...",
           "summary": "애플(종목코드: AAPL)이 22일(현지시간)부터 새 데스크톱 컴퓨터 출하를 시작하면서, 회사 경영진은 기업 구매자들을 상대로 이례적인 마케팅 논리를 내세우고 있다. 데이터센터를 임대하는 것보다 더 저렴하다는...",
@@ -188,12 +194,6 @@
           "summary": "이 밖에 마이크론 테크놀로지(MU), 스페이스X(SPCX), 샌디스크(SNDK), 애플(AAPL) 등도 거래대금이 많았다. 거래대금 상위 종목 가운데 투자매력 V점수가 80점 이상인 종목은 마이크론 테크놀로지(MU)...",
           "link": "https://www.itooza.com/common/iview.php?no=2026092110395137356",
           "publishedAt": "2026-09-21 10:42"
-        },
-        {
-          "title": "'아이폰18 효과'…에버코어 ISI, 애플 목표주가 380달러로 상향",
-          "summary": "이장원 선임기자 = 에버코어 ISI는 신형 아이폰 출시 주기에 따른 실적 모멘텀을 근거로 애플(NAS:AAPL)의 목표주가를 기존 365달러에서 380달러로 상향 조정했다. 투자의견은 '시장수익률 상회(Outperform)'를 유지했다....",
-          "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4435815",
-          "publishedAt": "2026-09-21 07:44"
         }
       ]
     },
@@ -203,7 +203,7 @@
       "query": "구글 알파벳 주가",
       "items": [
         {
-          "title": "미국증시 다우지수 '홀로 하락'..필수소비주 '활짝' vs 금융주 '뚝'",
+          "title": "미국증시 다우지수 '홀로 부진'..필수소비주 '활짝' vs 금융주 '뚝'",
           "summary": "22%) 구글의 모기업 알파벳A(-1.07%) 골드만삭스(GS, -1.03%) 마이크로소프트(MSFT, -0.72%) IBM(-0.24%) 등의 주가는 급락 및 하락하며 다우존스 지수 내림세를 이끌었다. 이날엔 제이피모간 체이스, 아메리칸 익스프레스...",
           "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=171632",
           "publishedAt": "2026-09-23 06:56"
@@ -300,6 +300,30 @@
       "query": "코인베이스 COIN",
       "items": [
         {
+          "title": "피델리티 전략가, 비트코인(BTC) 대세 상승 선언...\"4년 랠리 열렸다\"",
+          "summary": "시장의 탐욕 및 공포 지수는 '극단적 탐욕' 단계로 치솟았고, 미국 최대 가상자산 거래소 코인베이스(Coinbase Global Inc., COIN)의 브라이언 암스트롱(Brian Armstrong) 최고경영자가 2030년까지 비트코인이 30만~40만 달러에...",
+          "link": "http://coinreaders.com/259757",
+          "publishedAt": "2026-09-23 08:32"
+        },
+        {
+          "title": "코인베이스($COIN)서 713 BTC 미상 지갑 이동",
+          "summary": "코인베이스($COIN) 기관 계정에서 비트코인(BTC) 713개가 신규 미상 지갑으로 이동한 것으로 관측됐다. 해당 물량의 가치는 6165만8211달러(약 848억원)다. Whale Alert X 계정은 22일 이 거래를 게시했다....",
+          "link": "https://www.tokenpost.kr/news/breaking/412450",
+          "publishedAt": "2026-09-23 07:40"
+        },
+        {
+          "title": "코인베이스, AI 에이전트 주식 거래 지원 시작",
+          "summary": "코인베이스(Coinbase)( $COIN)가 AI 에이전트의 주식 거래 지원을 시작했다. AI 에이전트는 가상자산 현물·파생상품뿐 아니라 주식과 일부 파생상품도 거래할 수 있게 됐다. 코인베이스는 9월 1일 공개한 8월 제품...",
+          "link": "https://www.tokenpost.kr/news/breaking/412441",
+          "publishedAt": "2026-09-23 07:32"
+        },
+        {
+          "title": "31억5000만달러 토큰화 주식…아치 렌딩 담보대출 진입 예고",
+          "summary": "코인베이스($COIN)의 B20 주식 토큰은 8월 Base에서 출시됐다. 해당 상품에는 탈중앙화금융(DeFi) 대출과 차입에 활용할 수 있도록 가격 정보를 제공하는 인프라가 적용됐다. 토큰화 주식의 활용처는 보유와 거래에서 대출...",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/412437",
+          "publishedAt": "2026-09-23 07:30"
+        },
+        {
           "title": "2만333ETH, 코인베이스 기관 계정으로 이동",
           "summary": "이더리움(ETH) 2만333개가 미확인 지갑에서 코인베이스($COIN) 기관 계정으로 이동했다는 게시물이 22일 나왔다. 웨일 얼럿(Whale Alert) X 계정은 해당 물량의 가치를 5596만3358달러(약 770억원)로 표시했다. 이번...",
           "link": "https://www.tokenpost.kr/news/breaking/412405",
@@ -364,30 +388,6 @@
           "summary": "리치먼드 연은의 제조업 지수도 발표된다. 한편 비트코인은 7개월 만의 최고치에서 1.3% 하락했다. 이에 ▲스트래티지(MSTR)와 ▲코인베이스(COIN) 등 암호화폐 관련주도 개장 전 거래에서 약세를 보였다.",
           "link": "https://www.newspim.com/news/view/20260922001251",
           "publishedAt": "2026-09-22 21:41"
-        },
-        {
-          "title": "618 BTC, 731억원 규모 코인베이스로 이동 관측",
-          "summary": "웨일 얼럿(Whale Alert) X 계정은 22일 해당 거래를 알리며 618 BTC의 가치를 5315만3812달러(약 731억원)로 표시했다. 게시물에는 송금 주체가 미확인 지갑, 수신처가 코인베이스($COIN)로 적혔다.",
-          "link": "https://www.tokenpost.kr/news/breaking/412127",
-          "publishedAt": "2026-09-22 17:48"
-        },
-        {
-          "title": "CEA 인더스트리 4.11% 하락…미 가상자산주 장전 약세",
-          "summary": "코인베이스($COIN)는 195.55달러로 2.74% 하락했다. 샤프링크게이밍($SBET)은 9.71달러로 2.71%, 로빈후드($HOOD)는 120.40달러로 2.35% 내렸다. 스트래티지는 비트코인 보유 전략을 중심으로 움직이는 기업이다....",
-          "link": "https://www.tokenpost.kr/news/market/412119",
-          "publishedAt": "2026-09-22 17:20"
-        },
-        {
-          "title": "월가 큰손, 이더리움(ETH) 시장 장악력 저격...\"시장 표준 될 일 절대 없...",
-          "summary": "써클인터넷그룹(Circle Internet Group, CRCL)과 코인베이스(Coinbase Global, COIN), 로빈후드(Robinhood Markets, HOOD) 등 가상자산 인프라 기업에 집중 투자해 온 오리어리는 앞서 가상자산의 다음 대세는 S&P 500 내 다양한...",
-          "link": "http://coinreaders.com/259614",
-          "publishedAt": "2026-09-22 16:52"
-        },
-        {
-          "title": "코인베이스서 공모주까지 산다…미국 개인 투자자 IPO 문턱 낮아지나",
-          "summary": "9월 22일(현지시간) 투자 전문매체 FX스트릿에 따르면, 코인베이스(COIN)는 자사 앱을 통해 자격을 갖춘 미국 개인 투자자가 일부 IPO의 주식 배정을 신청할 수 있는 서비스를 시작했다. 투자자는 기업이 공개시장에...",
-          "link": "http://coinreaders.com/259609",
-          "publishedAt": "2026-09-22 16:20"
         }
       ]
     },
@@ -494,6 +494,18 @@
       "query": "크라우드스트라이크",
       "items": [
         {
+          "title": "\"메타 AI 비서 '뮤즈' 돌풍…AI 수익화 청신호\"<NH투자證>",
+          "summary": "네트워크 및 결제·계정 권한을 보호하는 사이버보안의 중요성이 커질 것\"이라고 전망했다. NH투자증권은 관련 유망 종목으로 AMD와 인텔 및 루멘텀홀딩스·크라우드스트라이크홀딩스·팔로알토네트웍스를 제시했다.",
+          "link": "https://www.news2day.co.kr/article/20260923500072",
+          "publishedAt": "2026-09-23 09:14"
+        },
+        {
+          "title": "우리넷, '차세대 양자암호 표준' 선점…\"팔로알토·크라우드스트라이크...",
+          "summary": "김홍식 하나증권 연구원은 \"AI가 고도로 발전하면서 사이버보안이 AI의 다음 활용처로 급부상 중\"이라며 \"미국의 사이버보안 관련주인 클라우드플레어, 팔로알토 네트웍스, 크라우드스트라이크가 주목받고 있다....",
+          "link": "http://www.newsprime.co.kr/news/article.html?no=748805",
+          "publishedAt": "2026-09-23 08:02"
+        },
+        {
           "title": "[서학개미 안테나] 캐시 우드, 메타 513억원어치 쓸어담았다…바이오·...",
           "summary": "캐시 우드가 이끄는 아크인베스트가 메타플랫폼을 대거 사들이는 동시에 크라우드스트라이크를 매도하며 포트폴리오 조정에 나섰다. 인공지능(AI)과 혁신 기술에 대한 투자를 이어가는 가운데 바이오·여행...",
           "link": "https://www.ebn.co.kr/news/articleView.html?idxno=1725335",
@@ -558,24 +570,6 @@
           "summary": "IT 보안 업체 크라우드스트라이크가 관측한 기존 사례에서는 공개된 취약점이 실제 공격에 활용되기까지 2~6일이 걸렸다. 하지만 올해 상반기에는 보안 취약점과 이를 악용하는 방법을 보여주는 개념 증명(PoC)이...",
           "link": "https://www.chosun.com/economy/tech_it/2026/09/20/SED6WYB6VVHIZJWQUAXTRLWXLQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
           "publishedAt": "2026-09-20 10:59"
-        },
-        {
-          "title": "신한자산운용, 'SOL 미국AI소프트웨어' 수익률 두각",
-          "summary": "최근 6개월 성과 기여 상위 종목은 통합 AI 보안 플랫폼 기업 팔로알토네트웍스(6개월 수익률 121.68%), 엔드포인트 보안 전문기업 크라우드스트라이크(126.85%), 네트워크·방화벽에 AI를 결합한 포티넷(107.53%)이 차지했다...",
-          "link": "http://www.bizwnews.com/news/articleView.html?idxno=146792",
-          "publishedAt": "2026-09-20 10:34"
-        },
-        {
-          "title": "AI 시대 다음 수혜주는 어디?…AI ETF, 메모리·소부장으로 확장 중",
-          "summary": "메타와 아마존을 비롯해 크라우드스트라이크, 데이터독, 델 테크놀로지 등 연산과 네트워크, 데이터, 보안 분야 기업도 포트폴리오에 포함한다. 주요 비상장 AI 기업이 증시에 입성할 경우 이를 포트폴리오에...",
-          "link": "https://www.theguru.co.kr/news/article.html?no=107175",
-          "publishedAt": "2026-09-20 00:02"
-        },
-        {
-          "title": "젠슨황이 점 찍은 ‘이것’…AI 개발 늦춘다는데 15% 뛰었다 [투자360]",
-          "summary": "주요 편입 종목으로는 옥타, 크라우드스트라이크, 팔로알토네트웍스, 포티넷 등이 있다. 최근 일주일간 크라우드스트라이크와 팔로알토네트웍스는 각각 18%, 13% 급등했다. 포티넷도 10% 상승했다. 기업용 컴퓨터·서버...",
-          "link": "https://biz.heraldcorp.com/article/10878802?ref=naver",
-          "publishedAt": "2026-09-19 20:30"
         }
       ]
     },
@@ -584,6 +578,30 @@
       "name": "팰로 앨토 네트웍스",
       "query": "팔로알토네트웍스",
       "items": [
+        {
+          "title": "메타 '뮤즈' 돌풍이 던진 질문…AI는 어디까지 들어갈 수 있나",
+          "summary": "니케시 아로라(Nikesh Arora) 팔로알토네트웍스 CEO는 X에 \"시간문제일 뿐 애플과 구글도 뮤즈 같은 서비스를 내놓을 것이고 틱톡이나 주요 AI 기업도 뛰어들 수 있다\"고 전망했다. 이어 \"모든 서비스·마켓플레이스·커머스...",
+          "link": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=54133",
+          "publishedAt": "2026-09-23 09:36"
+        },
+        {
+          "title": "[특징주] 양자암호·컴퓨터株, 장 초반 강세… 증권가 “AI 보안 필수재...",
+          "summary": "이 연구원은 “최근 AI가 고도로 발전하면서 사이버 보안이 AI의 다음 활용처로 급부상 중”이라며 “미국의 사이버보안 관련주인 클라우드플레어, 팔로알토 네트웍스, 크라우드 스트라이크가 주목받고 있는데...",
+          "link": "https://biz.chosun.com/stock/stock_general/2026/09/23/INGJSH4RTVHALKF22WDRGQAKGQ/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "publishedAt": "2026-09-23 09:32"
+        },
+        {
+          "title": "\"메타 AI 비서 '뮤즈' 돌풍…AI 수익화 청신호\"<NH투자證>",
+          "summary": "네트워크 및 결제·계정 권한을 보호하는 사이버보안의 중요성이 커질 것\"이라고 전망했다. NH투자증권은 관련 유망 종목으로 AMD와 인텔 및 루멘텀홀딩스·크라우드스트라이크홀딩스·팔로알토네트웍스를 제시했다.",
+          "link": "https://www.news2day.co.kr/article/20260923500072",
+          "publishedAt": "2026-09-23 09:14"
+        },
+        {
+          "title": "우리넷, '차세대 양자암호 표준' 선점…\"팔로알토·크라우드스트라이크...",
+          "summary": "김홍식 하나증권 연구원은 \"AI가 고도로 발전하면서 사이버보안이 AI의 다음 활용처로 급부상 중\"이라며 \"미국의 사이버보안 관련주인 클라우드플레어, 팔로알토 네트웍스, 크라우드스트라이크가 주목받고 있다....",
+          "link": "http://www.newsprime.co.kr/news/article.html?no=748805",
+          "publishedAt": "2026-09-23 08:02"
+        },
         {
           "title": "[미국 특징주] 팔로알토, 앤스로픽·오픈AI와 손잡아 \"AI로 해킹 막는다...",
           "summary": "팔로알토 네트웍스(종목코드: PANW)가 22일(현지시간) 앤스로픽과 오픈AI의 첨단 AI 모델을 활용해 기업 시스템 전반의 보안 취약점을 찾아내는 새로운 사이버보안 서비스를 기업 고객 대상으로 출시한다고...",
@@ -649,30 +667,6 @@
           "summary": "(SMTC), 팔로 알토 네트웍스(PANW), 샌디스크(SNDK), 옥타(OKTA), 팩트셋 리서치 시스템스(FDS), 포티넷(FTNT), UMC ADR(UMC), AMD(AMD), 다이나트레이스(DT), 크리도 테크놀로지 그룹 홀딩(CRDO), 메틀러 톨레도 인터내셔널...",
           "link": "https://www.itooza.com/common/iview.php?no=2026092110410439218",
           "publishedAt": "2026-09-21 10:42"
-        },
-        {
-          "title": "[ETF 열전] 반도체 밖으로 번진 AI…메디컬AI 20%·사이버보안 14% 질주",
-          "summary": "이에 크라우드스트라이크와 팔로알토네트웍스, 옥타 등 주요 사이버보안주가 동반 강세를 보였다. 크라우드스트라이크는 집계 기간 15% 안팎, 팔로알토네트웍스도 10% 안팎 상승했다. AI 투자 테마가 반도체에서...",
-          "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=854370",
-          "publishedAt": "2026-09-21 10:00"
-        },
-        {
-          "title": "비트코인 8만 달러 돌파에 관련주 급등…철강주는 실적 우려에 약세-[美...",
-          "summary": "샌디스크, S&P100 편입 앞두고 매수세 유입 샌디스크 (SNDK)는 델과 팔로알토 네트웍스, 아리스타 네트웍스와 함께 현지시간 21일 월요일 장 시작 전 S&P100 지수에 편입된다. 거래일 기준으로 편입을 하루 앞두면서...",
-          "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202609210015&t=NN",
-          "publishedAt": "2026-09-21 07:09"
-        },
-        {
-          "title": "돈 벌 시간 좀 벌자…9조달러 AI 투자의 역설",
-          "summary": "접근권한·데이터 보호·행동 감시를 담당하는 팔로알토네트웍스·크라우드스트라이크·옥타·지스케일러 등이 주목받을 수 있다. 반면 AI 서버·데이터센터·전력·냉각으로 이어지는 인프라 투자 체인은...",
-          "link": "https://www.joongang.co.kr/article/25463465",
-          "publishedAt": "2026-09-21 00:02"
-        },
-        {
-          "title": "돈 쏟아부으면서 “속도 늦추자”…1.2경원 AI 투자 전쟁의 역설 [GMC]",
-          "summary": "접근권한·데이터 보호·행동 감시를 담당하는 팔로알토네트웍스·크라우드스트라이크·옥타·지스케일러 등이 주목받을 수 있다. 반면 모델 학습 주기가 길어지면 AI 서버·데이터센터·전력·냉각으로 이어지는...",
-          "link": "https://www.joongang.co.kr/article/25463398",
-          "publishedAt": "2026-09-20 16:52"
         }
       ]
     },
@@ -864,8 +858,8 @@
           "publishedAt": "2026-09-23 00:43"
         },
         {
-          "title": "BOE, IPC서 '15:1 종횡비' TGV 유리 코어 기판 전시",
-          "summary": "코닝이 BOE 자체 연례행사 IPC 2026에서 TGV 유리 코어 기판을 전시했다. 코닝은 BOE와 디스플레이, 반도체 유리기판 등에서 협력 중이다. (사진=지디넷코리아) 코닝도 IPC 2026에서 자사 TGV 유리 코어 기판을...",
+          "title": "[단독] BOE, '15:1 종횡비' TGV 유리 코어 기판 첫 공개",
+          "summary": "코닝도 IPC 2026에서 자사 TGV 유리 코어 기판을 전시했다. 코닝은 BOE와 디스플레이 패널은 물론 반도체 패키지 유리기판 분야에서도 협력 중이다. 코닝이 전시한 TGV 유리 코어 기판 원장 크기는 510x515mm다. 회로를...",
           "link": "https://zdnet.co.kr/view/?no=20260922233454",
           "publishedAt": "2026-09-23 00:00"
         },
@@ -925,6 +919,18 @@
       "query": "소니 SONY",
       "items": [
         {
+          "title": "콘진원, 독일 리퍼반 페스티벌서 한국 뮤지션 유럽 진출 지원",
+          "summary": "유니버설 뮤직(Universal Music Group), 소니 뮤직(Sony Music), 콘코드 뮤직 퍼블리싱(Concord Music Publishing), 코발트 뮤직(Kobalt Music), 원 피닉스 라이브(One Fiinix Live) 관계자 등이 국내 참가사와 해외 진출 방안을...",
+          "link": "https://www.etoday.co.kr/news/view/2628943",
+          "publishedAt": "2026-09-23 09:30"
+        },
+        {
+          "title": "콘진원, '글로벌 200여 명 결집'... 독일 리퍼반 페스티벌서 K-음악 입지...",
+          "summary": "지난 17일부터 양일간 열린 기업 간 거래(B2B) 프로그램에서는 유니버설 뮤직(Universal Music Group)과 소니 뮤직(Sony Music)을 비롯한 글로벌 대형 음반사들이 자리해 구체적인 비즈니스 협력 방안을 논의했다. 이와 함께...",
+          "link": "https://www.newsworker.co.kr/news/articleView.html?idxno=505755",
+          "publishedAt": "2026-09-23 08:16"
+        },
+        {
           "title": "규빈, 日 활동 가속도 붙인다…신곡 ‘Everybody!!’ 10월 9일 발매→현...",
           "summary": "규빈은 지난 6월 일본 소니뮤직레이블즈(Sony Music Labels) 산하 에픽레코즈 재팬(Epic Records Japan)을 통해 ‘You Light Up My Life’를 발표하며 일본 메이저 데뷔했다. 해당 곡은 일본 ABEMA 오리지널 연애...",
           "link": "https://mhnse.com/news/articleView.html?idxno=1557189",
@@ -966,18 +972,6 @@
           "summary": "또 IR 참가기업 중 올릭스, 제주반도체 등 희망 기업 7개사는 IR센터에서 기업 소개 시간을 가진다. 발표와 강연 세션은 코스닥 시장에 관심 있는 투자자라면 누구나 참가할 수 있다. IR 세션은 한국IR협의회 홈페이지를...",
           "link": "https://biz.chosun.com/stock/stock_general/2026/09/22/GCVDUEKP5NB2DLGKYR3C6WKVEM/?utm_source=naver&utm_medium=original&utm_campaign=biz",
           "publishedAt": "2026-09-22 18:23"
-        },
-        {
-          "title": "한국거래소, 내달 6~7일 '코스닥 데이'…정책·산업 전망·기업 IR",
-          "summary": "이와 별도로 스피어와 SFA, 엘앤씨바이오, 오스코텍, 리가켐바이오, 올릭스, 제주반도체 등 7개 기업은 KRX IR 센터에서 별도 기업 설명회를 진행한다. 발표와 강연 세션은 코스닥시장에 관심 있는 투자자라면 무료로...",
-          "link": "https://www.news1.kr/finance/general-stock/6299443",
-          "publishedAt": "2026-09-22 17:58"
-        },
-        {
-          "title": "거래소, 내달 6~7일 '코스닥 데이' 개최…현안·투자 정보 제공",
-          "summary": "올릭스와 제주반도체 등 7개사는 한국거래소 IR센터에서 기업설명회를 엽니다. 발표와 강연은 누구나 무료로 참가할 수 있으며, IR 프로그램은 한국IR협의회 홈페이지를 통해 신청할 수 있습니다. 거래소는 \"이번 행사를...",
-          "link": "http://www.yonhapnewstv.co.kr/news/AKR20260922173849TKR",
-          "publishedAt": "2026-09-22 17:39"
         }
       ]
     }
