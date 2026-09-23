@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24 05:27",
+  "updatedAt": "2026-09-24 08:46",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,24 +9,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "How More Pieces Are Falling Into Place For Google's Nvidia AI Chip Challenge",
+          "title": "Ex-Google safety chief warns AI could harm children more than social media did",
           "summary": "",
-          "link": "https://www.investors.com/news/technology/google-stock-tpu-blackstone-cloud-growth-nvidia/?src=A00220&yptr=yahoo",
-          "publishedAt": "2026-09-22 21:00",
-          "outlet": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "Intel reportedly in talks with AUO on advanced packaging - digitimes",
-          "summary": "Intel reportedly in talks with AUO on advanced packaging  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbVZaS2JfckI2TWxPNmVsTUVlZ083WFpRZlFyVGUxMk92em9lVi1RZHBGUk4teVJGX3MyMjFhOEJPeTNBWVVza3JtMmNaZGNpWXNxbjFTeXljSHZjWEVMWmxEN242TmU3Q0NuREdZd3R6eEtQS2locWEtZHVvMG1UNVJpZXZDYTlheEE?oc=5",
-          "publishedAt": "2026-09-21 11:28",
-          "outlet": "DigiTimes"
+          "link": "https://www.investing.com/news/stock-market-news/exgoogle-safety-chief-warns-ai-could-harm-children-more-than-social-media-did-4911398",
+          "publishedAt": "2026-09-24 07:54",
+          "outlet": "Investing.com"
         }
       ]
     }
