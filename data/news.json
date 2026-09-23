@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23 15:03",
+  "updatedAt": "2026-09-23 20:45",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -8,6 +8,24 @@
       "name": "에이피알",
       "query": "에이피알 메디큐브",
       "items": [
+        {
+          "title": "미국 다음은 멕시코…K뷰티·푸드 '1.8조달러 시장' 노크",
+          "summary": "에이피알의 뷰티 브랜드 ‘메디큐브’ 역시 미국 아마존에서 K뷰티 상위권을 유지하고 있다. 미국 시장에서 브랜드를 키운 업체들이 다음 성장 지역으로 유럽과 중남미를 동시에 공략하는 구조다. ▲K라면 수출 216...",
+          "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202609230159&t=NN",
+          "publishedAt": "2026-09-23 17:34"
+        },
+        {
+          "title": "뷰티업계 부는 AI 바람…체험·진단 서비스로 소비자 접점 넓힌다",
+          "summary": "에이피알은 최근 국제표준인 ISO/IEC 42001과 노르웨이 넴코(Nemko)의 AI Trust Mark를 획득했다고 밝혔다. 메디큐브 에이지알의 ‘부스터 프로 X2’ AI 케어 모드에는 피부 컨디션과 누적 사용 이력을 분석해 맞춤형 케어...",
+          "link": "https://www.segye.com/newsView/20260922514370?OutUrl=naver",
+          "publishedAt": "2026-09-23 17:02"
+        },
+        {
+          "title": "[더벨][Company Watch] ‘조각투자’ 알티너스, 뷰티 진출…브랜드·플랫...",
+          "summary": "에이피알은 메디큐브 화장품에서 뷰티 디바이스로 제품군을 확장한 데 이어 ‘에이지알’ 앱을 통해 기기 연동과 맞춤형 홈케어 루틴을 제공하고 있다. 브랜드와 제품 판매에 그치지 않고 앱에서 고객의 이용 데이터를...",
+          "link": "https://www.thebell.co.kr/free/content/ArticleView.asp?key=202609211334159120102579",
+          "publishedAt": "2026-09-23 15:42"
+        },
         {
           "title": "美 쫙 깔린 K뷰티, 연말 쇼핑 대목 '유통망 효과' 기대",
           "summary": "에이피알의 메디큐브는 지난 4월부터 미국 타겟 1500여개 매장에서 판매되고 있다.월마트도 미국 전역 수천 개 점포에서 K뷰티를 선보이고 있다. 메디큐브는 지난 6월 약 3000개 월마트 매장에 진출했고, 토니모리는...",
@@ -79,24 +97,6 @@
           "summary": "에이피알의 이번 AI Trust Mark 획득은 뷰티 업계에서 세계 최초로 AI 제품 신뢰성 인증을 확보했다는 점에서 의미가 크다. 이번 인증을 부여받은 대상은 메디큐브 에이지알(AGE-R)의 '부스터 프로 X2' AI 케어 모드다....",
           "link": "http://www.financialreview.co.kr/news/articleView.html?idxno=45057",
           "publishedAt": "2026-09-22 16:52"
-        },
-        {
-          "title": "에이피알, AI 국제 인증 2종 획득…뷰티 디바이스 신뢰성 검증",
-          "summary": "에이피알에 따르면 뷰티 업계에서 AI Trust Mark를 획득한 것은 세계 최초다. 인증 대상은 메디큐브 에이지알(AGE-R) '부스터 프로 X2'의 AI 케어 모드다. 피부 상태와 누적 사용 이력 등을 분석해 맞춤형 관리 과정과 자극...",
-          "link": "https://www.ngetnews.com/news/articleView.html?idxno=553625",
-          "publishedAt": "2026-09-22 16:46"
-        },
-        {
-          "title": "AI 뷰티 키우는 에이피알, 기술 넘어 신뢰 챙긴다",
-          "summary": "에이피알이 AI를 앞세운 뷰티테크 경쟁에서 기술력뿐 아니라 신뢰성 확보에 속도를 내고 있다. AI... 인증 대상은 메디큐브 에이지알(AGE-R) 부스터 프로 X2의 AI 케어 모드다. 피부 컨디션과 누적 사용 이력을 분석해...",
-          "link": "https://www.sidae.com/article/2026092215003149549",
-          "publishedAt": "2026-09-22 16:42"
-        },
-        {
-          "title": "\"AI워싱 우려 불식\" 에이피알, 뷰티업계 세계 최초 'AI국제인증' 획득",
-          "summary": "에이피알의 이번 AI Trust Mark 획득은 뷰티 업계에서 세계 최초로 AI 제품 신뢰성 인증을 확보했다는 점에서 의미가 크다. 이번 인증을 부여받은 대상은 메디큐브 에이지알(AGE-R)의 '부스터 프로 X2' AI 케어 모드다....",
-          "link": "https://www.catchnews.kr/news/articleView.html?idxno=128731",
-          "publishedAt": "2026-09-22 16:34"
         }
       ]
     },
@@ -105,6 +105,12 @@
       "name": "애플",
       "query": "애플 AAPL",
       "items": [
+        {
+          "title": "팀 드레이퍼, 애플(AAPL)·메타(META) 강력 비판...\"비트코인(BTC) 담아라...",
+          "summary": "미국의 억만장자 벤처 투자자 팀 드레이퍼(Tim Draper)가 애플(Apple, AAPL)과 메타 플랫폼스(Meta Platforms, META) 등 글로벌 빅테크 기업들이 비트코인(Bitcoin, BTC)을 준비자산으로 보유하지 않는 행태를 직격했다.정부의 방만한...",
+          "link": "http://coinreaders.com/259852",
+          "publishedAt": "2026-09-23 19:02"
+        },
         {
           "title": "[로빈후드 온체인] 뮤즈북 보유 지갑이 하루 새 3017개 늘어...퀀텀 컴퓨...",
           "summary": "반대로 SPDR S&P 500 ETF(SPY) 521개, 애플(AAPL) 428개, 알파벳 A주(GOOGL) 269개가 줄었다. 발행 주식 수는 메타(META)에서 153만달러어치가 새로 찍혀 얹혀 있던 물량의 21.5%만큼 늘었다. 마이크론(MU)에서는...",
@@ -188,12 +194,6 @@
           "summary": "애플($AAPL)이 첫 폴더블 아이폰 듀오를 공개하고 아이폰을 인공지능 시대의 ‘지능형 개인 허브’로 제시했다. 아이폰 듀오의 미국 출고가는 256GB 기준 1999달러(약 277만원)다. 애플은 9일 아이폰 듀오를 발표했다....",
           "link": "https://www.tokenpost.kr/news/tech/411691",
           "publishedAt": "2026-09-21 23:18"
-        },
-        {
-          "title": "애플·구글, 스테이블코인·RWA 인재 잇따라 채용",
-          "summary": "애플($AAPL)과 구글($GOOGL)이 스테이블코인과 토큰화 예금, 실물연계자산(RWA) 관련 경험을 갖춘 인재 채용에 나섰다. 애플은 소비자 금융상품 전략을, 구글은 아시아태평양 지역 웹3 클라우드 인프라를 담당할 인력을...",
-          "link": "https://www.tokenpost.kr/news/tech/411387",
-          "publishedAt": "2026-09-21 15:14"
         }
       ]
     },
@@ -300,6 +300,24 @@
       "query": "코인베이스 COIN",
       "items": [
         {
+          "title": "110만달러 암호화폐 추적…AI 피싱 서비스 이블토큰스 적발",
+          "summary": "코인베이스($COIN)는 22일 블로그에서 이블토큰스가 탈취한 메일함의 관계망을 분석하고 결제를 통제하는 인물을 식별했다고 밝혔다. 코인베이스는 2025년 10월부터 2026년 6월까지 트론 주소 4곳에서 이블토큰스...",
+          "link": "https://www.tokenpost.kr/news/breaking/412810",
+          "publishedAt": "2026-09-23 19:26"
+        },
+        {
+          "title": "코인베이스 2500억달러 수탁망, 양자내성 전환 검토",
+          "summary": "약 2500억달러(약 338조원) 규모의 기관 디지털 자산을 수탁하는 코인베이스($COIN)가 양자컴퓨터 위협에 대응하기 위한 수탁 인프라 재설계를 검토하고 있다. 예후다 린델(Yehuda Lindell) 코인베이스 암호학 책임자는...",
+          "link": "https://www.tokenpost.kr/news/blockchain/412756",
+          "publishedAt": "2026-09-23 17:42"
+        },
+        {
+          "title": "로빈후드체인 주식 토큰, 30일 거래량 14조원",
+          "summary": "토큰 터미널은 로빈후드($HOOD)와 코인베이스($COIN)가 발행한 주식 토큰의 최근 30일 현물 DEX 거래량을 114억달러(약 15조4000억원)로 집계했다. 이 가운데 로빈후드체인이 104억달러를 차지했다. 엔비디아 주식 토큰의...",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/412741",
+          "publishedAt": "2026-09-23 17:18"
+        },
+        {
           "title": "코인베이스 CEO, USDC 보상은 예금이자와 다르다",
           "summary": "코인베이스($COIN) 브라이언 암스트롱(Brian Armstrong) CEO가 USDC 보상은 은행 예금이자와 다르다고 주장했다. 스테이블코인 보상 규제를 둘러싼 가상자산 업계와 은행권의 논쟁도 이어지고 있다. 암스트롱은...",
           "link": "https://www.tokenpost.kr/news/breaking/412620",
@@ -370,24 +388,6 @@
           "summary": "코인베이스($COIN)에서 비트코인(BTC) 2684개가 지갑으로 이동했다는 온체인 관측이 나왔다. 웨일 얼럿(Whale Alert) X 계정은 22일 해당 비트코인이 미확인 지갑으로 이동했으며, 이동 규모는...",
           "link": "https://www.tokenpost.kr/news/breaking/412373",
           "publishedAt": "2026-09-23 01:22"
-        },
-        {
-          "title": "927 BTC, 코인베이스로 8017만달러 이동",
-          "summary": "927개 비트코인(BTC)이 코인베이스($COIN)로 이동한 거래가 포착됐다. 거래 규모는 8017만2655달러(약 1103억원)로 표시됐다. 웨일 얼럿(Whale Alert) X 계정은 22일 해당 비트코인 거래를 게시했다. 게시물에는 송금...",
-          "link": "https://www.tokenpost.kr/news/breaking/412364",
-          "publishedAt": "2026-09-23 01:06"
-        },
-        {
-          "title": "Base TVL 62억달러 보고…DeFiLlama는 58억달러",
-          "summary": "Base는 코인베이스($COIN)가 육성하는 이더리움(ETH) 레이어2 네트워크다. 코인베이스는 Base를 이더리움 메인넷보다 낮은 수수료와 빠른 거래를 제공하는 개발 환경으로 설명하고 있다. 낮은 수수료와 이용 편의성이...",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/412352",
-          "publishedAt": "2026-09-23 00:42"
-        },
-        {
-          "title": "685 BTC, 미상 지갑서 코인베이스로 이동 관측",
-          "summary": "685 BTC(약 5890만달러·약 810억원)가 미상 지갑에서 코인베이스($COIN)로 이동했다는 온체인 관측이 나왔다. Whale Alert X 계정은 22일 685 BTC가 미상 지갑에서 코인베이스로 이동했다고 전했다. 게시물은...",
-          "link": "https://www.tokenpost.kr/news/breaking/412332",
-          "publishedAt": "2026-09-23 00:06"
         }
       ]
     },
@@ -494,6 +494,12 @@
       "query": "크라우드스트라이크",
       "items": [
         {
+          "title": "[투자의 창] 금리로 검증된 AI의 흐름",
+          "summary": "실제 대표적 보안 기업인 크라우드스트라이크의 최근 분기 매출은 26% 증가했고 신규 계약 규모도 51% 늘었다. AI는 이제 소수 기업이 기술의 한계를 끌어올리던 단계에서 산업 전반으로 활용 범위가 넓어지는 단계로...",
+          "link": "https://www.sedaily.com/article/20094636?ref=naver",
+          "publishedAt": "2026-09-23 17:03"
+        },
+        {
           "title": "\"메타 AI 비서 '뮤즈' 돌풍…AI 수익화 청신호\"<NH투자證>",
           "summary": "네트워크 및 결제·계정 권한을 보호하는 사이버보안의 중요성이 커질 것\"이라고 전망했다. NH투자증권은 관련 유망 종목으로 AMD와 인텔 및 루멘텀홀딩스·크라우드스트라이크홀딩스·팔로알토네트웍스를 제시했다.",
           "link": "https://www.news2day.co.kr/article/20260923500072",
@@ -558,18 +564,6 @@
           "summary": "SOL 미국AI소프트웨어의 상승세를 견인한 것은 비중 3위 종목 팰로앨토네트웍스와 4위 종목 크라우드스트라이크다. 둘 다 보안 소프트웨어 전문 기업이다. 두 기업은 지난주 테크업계에서 AI 속도 조절론이...",
           "link": "https://www.mk.co.kr/article/12157512",
           "publishedAt": "2026-09-20 17:15"
-        },
-        {
-          "title": "돈 쏟아부으면서 “속도 늦추자”…1.2경원 AI 투자 전쟁의 역설 [GMC]",
-          "summary": "접근권한·데이터 보호·행동 감시를 담당하는 팔로알토네트웍스·크라우드스트라이크·옥타·지스케일러 등이 주목받을 수 있다. 반면 모델 학습 주기가 길어지면 AI 서버·데이터센터·전력·냉각으로 이어지는...",
-          "link": "https://www.joongang.co.kr/article/25463398",
-          "publishedAt": "2026-09-20 16:52"
-        },
-        {
-          "title": "AI 해킹 시대의 반전... 해킹 속도 빨라졌지만, 보안 뚫리는 이유는 여전...",
-          "summary": "IT 보안 업체 크라우드스트라이크가 관측한 기존 사례에서는 공개된 취약점이 실제 공격에 활용되기까지 2~6일이 걸렸다. 하지만 올해 상반기에는 보안 취약점과 이를 악용하는 방법을 보여주는 개념 증명(PoC)이...",
-          "link": "https://www.chosun.com/economy/tech_it/2026/09/20/SED6WYB6VVHIZJWQUAXTRLWXLQ/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
-          "publishedAt": "2026-09-20 10:59"
         }
       ]
     },
@@ -661,12 +655,6 @@
           "summary": "21일 업계에 따르면, 미국 이동통신사 버라이즌이 주도하는 6G 혁신 포럼(6GIF)이 최근 AWS, 엔비디아, 인텔, 시스코, 키사이트 테크놀로지스, 미디어텍, 팔로알토 네트웍스, 로데슈바르츠, 비아비 솔루션스 등 9개사를...",
           "link": "https://www.newspim.com/news/view/20260921000616",
           "publishedAt": "2026-09-21 13:21"
-        },
-        {
-          "title": "[美 주간탑] 루브릭, 주가 23.1%↑... 주가상승률 상위 20선",
-          "summary": "(SMTC), 팔로 알토 네트웍스(PANW), 샌디스크(SNDK), 옥타(OKTA), 팩트셋 리서치 시스템스(FDS), 포티넷(FTNT), UMC ADR(UMC), AMD(AMD), 다이나트레이스(DT), 크리도 테크놀로지 그룹 홀딩(CRDO), 메틀러 톨레도 인터내셔널...",
-          "link": "https://www.itooza.com/common/iview.php?no=2026092110410439218",
-          "publishedAt": "2026-09-21 10:42"
         }
       ]
     },
@@ -761,6 +749,12 @@
       "query": "인텔 INTC",
       "items": [
         {
+          "title": "구글 TPU 공급망 조사서 A등급 기업 4곳",
+          "summary": "인텔($INTC)은 EMIB 패키징 적용 가능성이 검토된 단계로 양산 여부가 확인되지 않았고, 마이크론($MU)도 TPU용 HBM과 DRAM 설계 수주가 검증되지 않은 기업으로 분류됐다. AI 에이전트의 확산은 모델 추론뿐 아니라...",
+          "link": "https://www.tokenpost.kr/news/ai/412690",
+          "publishedAt": "2026-09-23 15:16"
+        },
+        {
           "title": "메타 '뮤즈' 효과… AI 투자 중심축, B2B에서 'B2C'로 옮겨간다",
           "summary": "JP모건은 뮤즈의 인기가 서버용 CPU 수요를 견인하고 있다며 인텔(NAS:INTC)과 AMD(NAS:AMD), 암 홀딩스(NAS:ARM), 마이크론(NAS:MU) 등 주요 반도체 제조업체들의 주가에도 호재로 작용할 것으로 예측했다. 뮤즈의 빠른 확산은...",
           "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436271",
@@ -843,12 +837,6 @@
           "summary": "인텔($INTC) 주가가 21일(현지시간) 12% 급등하며 AMD($AMD)와 Arm($ARM) 등 CPU 관련주도 동반 상승했다. CNBC는 메타($META)의 개인용 AI 에이전트 ‘뮤즈(Muse)’에 대한 관심이 CPU 수요 기대를 키우며 인텔 주가 상승...",
           "link": "https://www.tokenpost.kr/news/breaking/411816",
           "publishedAt": "2026-09-22 03:44"
-        },
-        {
-          "title": "AMD 시총 1조달러 첫 돌파…SOX 3.7% 상승",
-          "summary": "AMD($AMD)는 장중 시가총액 1조달러를 넘어섰고, 인텔($INTC)과 Arm Holdings($ARM)도 두 자릿수 상승률을 기록했다. 상승 배경으로는 AI 인프라 수요와 미·중 정상회담을 앞둔 외교 개선 기대가 거론됐다. AI 관련 반도체...",
-          "link": "https://www.tokenpost.kr/news/market/411815",
-          "publishedAt": "2026-09-22 03:42"
         }
       ]
     },
@@ -980,6 +968,12 @@
       "query": "제주반도체",
       "items": [
         {
+          "title": "[코스닥 외국인] AI 반도체에 외국인 돈 몰렸다…주성엔지니어링·SFA반...",
+          "summary": "주성엔지니어링과 테스를 비롯해 SFA반도체, 엑시콘, HPSP, 심텍, 원익홀딩스, 오킨스전자, 파두, 동진쎄미켐, 제주반도체, 인텍플러스, 메가터치, 뉴파워프라즈마, 피에스케이홀딩스 등이 순매수 목록에 이름을 올렸다....",
+          "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490072",
+          "publishedAt": "2026-09-23 15:52"
+        },
+        {
           "title": "제주반도체 7만6600원 강세…2분기 영업익 1219억원",
           "summary": "제주반도체가 코스닥 시장에서 상승하고 있다. 저전력 메모리 수요와 가격 상승으로 상반기 실적이 크게 개선된 가운데 주가는 7만원대 중반에서 움직이고 있다. 23일 오후 2시11분 기준 제주반도체는 전...",
           "link": "https://www.job-post.co.kr/news/articleView.html?idxno=229109",
@@ -990,12 +984,6 @@
           "summary": "초저전력 메모리 반도체 설계 전문인 제주반도체는 온디바이스 AI 기기 탑재 증가 기대감으로 오름세를 나타내고 있으며, 큐알티, 에이디테크놀로지, 오픈엣지테크놀로지도 동반 상승 흐름을 타고 있다. 일부...",
           "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490007",
           "publishedAt": "2026-09-23 13:50"
-        },
-        {
-          "title": "제주반도체 주가, 9월 23일 장중 76,600원 1.32% 상승",
-          "summary": "23일 오전 10시 40분 기준, 네이버페이 증권에 따르면 제주반도체 주가가 지난 종가 대비 1.32% 상승한 76,600원에 거래되고 있다. 이는 지난 종가 75,600원보다 1,000원 오른 수치이다. 주가는 77,400원으로...",
-          "link": "https://www.topstarnews.net/news/articleView.html?idxno=16208396",
-          "publishedAt": "2026-09-23 10:42"
         }
       ]
     }
