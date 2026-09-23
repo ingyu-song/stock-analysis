@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23 09:41",
+  "updatedAt": "2026-09-23 15:03",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,25 +9,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Ex-Google safety chief warns AI could harm children more than social media did",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/exgoogle-safety-chief-warns-ai-could-harm-children-more-than-social-media-did-4911398",
-          "publishedAt": "2026-09-23 07:48",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "Google Is Giving Away ‘The Android Of Robotics’ - forbes.com",
-          "summary": "Google Is Giving Away ‘The Android Of Robotics’  forbes.com",
+          "title": "Google Is Giving Away ‘The Android Of Robotics’ - Forbes",
+          "summary": "Google Is Giving Away ‘The Android Of Robotics’  Forbes",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNVm44QjhOQlVHdFN5NVBQZzYyeG5rUUYwNC1KdWUyNGQ4TERNZHVkZUhRV3oySnIxOFhhV1JTQ1ZHUWt3RzQ4UXkzSENuVTdyQVNCR01WZjd4YUp5OGRfcXVqbEpLN09zeU9heHRXZjRqQW5rS0o3ODctVnFoUEQ5aDlRbVZIYXVtUGw2WXNzQWdBbk9MdTdaNW9UOXh2emRS?oc=5",
           "publishedAt": "2026-09-22 21:00",
           "outlet": "Forbes Markets"
-        },
-        {
-          "title": "AI staff complain of mental toll over fears of threat to society",
-          "summary": "Top researchers at Aisi, OpenAI, Anthropic and Google DeepMind report burnout and stress over developing powerful AI",
-          "link": "https://www.ft.com/content/60870960-f433-48ca-bc2c-708686a69ae7?syn-25a6b1a6=1",
-          "publishedAt": "2026-09-22 20:27",
-          "outlet": "Financial Times"
         },
         {
           "title": "The AI doomsday fear hidden in self-improving AI",
@@ -35,19 +21,6 @@
           "link": "https://www.axios.com/2026/09/22/ai-rsi-meaning-recursive-self-improvement-doom",
           "publishedAt": "2026-09-22 18:00",
           "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWD",
-      "name": "크라우드스트라이크",
-      "items": [
-        {
-          "title": "CrowdStrike and Okta Trade at Big Premiums Despite Unproven AI Payoff - The Information",
-          "summary": "CrowdStrike and Okta Trade at Big Premiums Despite Unproven AI Payoff  The Information",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQUmVNX2pJVWQwTEtzRUNReGtaNEhhaElsQ3VmaU1aeHpsUmRsdGJUUzVmLWJtZlJIZm9BLVdKQWdTcjRfODVscDBZS0hFa0RqQ1VhYWI3dGlCTnUzOHFBdDBZOXRlcVdEekFZZFhxSTNFSE9WMmtLanBPaGpyTzRyUVotSHRkbmJFajdyUUMtU1BCM1kzbVJHTmxDWlhIUDh1aDJESA?oc=5",
-          "publishedAt": "2026-09-21 22:31",
-          "outlet": "The Information"
         }
       ]
     },
