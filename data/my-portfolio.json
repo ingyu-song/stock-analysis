@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-23 09:48",
+  "updatedAt": "2026-09-24 09:39",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1348.68,
-  "fxRateEUR": 1542.9,
+  "fxRate": 1368.1,
+  "fxRateEUR": 1555.9,
   "accounts": [
     {
       "id": "kiwoom",
@@ -29,7 +29,7 @@
       "name": "제주반도체",
       "currency": "KRW",
       "shares": 5,
-      "price": 78800.0,
+      "price": 77600.0,
       "costKRW": 378000,
       "costNative": 378000
     },
@@ -39,7 +39,7 @@
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
       "shares": 50,
-      "price": 23610.0,
+      "price": 23810.0,
       "costKRW": 1186550,
       "costNative": 1186550
     },
@@ -49,7 +49,7 @@
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
       "shares": 100,
-      "price": 27445.0,
+      "price": 27665.0,
       "costKRW": 2675550,
       "costNative": 2675550
     },
@@ -59,7 +59,7 @@
       "name": "크라우드스트라이크",
       "currency": "USD",
       "shares": 6,
-      "price": 250.06,
+      "price": 262.49,
       "costKRW": 1654540,
       "costNative": 1208.7192
     },
@@ -69,7 +69,7 @@
       "name": "애플",
       "currency": "USD",
       "shares": 15,
-      "price": 339.75,
+      "price": 337.02,
       "costKRW": 6696954,
       "costNative": 4942.2
     },
@@ -79,7 +79,7 @@
       "name": "소니 그룹 (ADR)",
       "currency": "USD",
       "shares": 100,
-      "price": 23.42,
+      "price": 23.2,
       "costNative": 2399.0,
       "costKRW": 3224017
     },
@@ -89,7 +89,7 @@
       "name": "프록터 앤드 갬블",
       "currency": "USD",
       "shares": 10,
-      "price": 148.22,
+      "price": 147.39,
       "costKRW": 2030671,
       "costNative": 1483.5
     },
@@ -99,7 +99,7 @@
       "name": "알파벳 A",
       "currency": "USD",
       "shares": 5,
-      "price": 351.16,
+      "price": 337.83,
       "costKRW": 2384023,
       "costNative": 1741.64
     },
@@ -109,7 +109,7 @@
       "name": "팰로 앨토 네트웍스",
       "currency": "USD",
       "shares": 5,
-      "price": 374.57,
+      "price": 393.3,
       "costKRW": 2533582,
       "costNative": 1850.9
     },
@@ -119,7 +119,7 @@
       "name": "서클 인터넷 그룹",
       "currency": "USD",
       "shares": 10,
-      "price": 94.59,
+      "price": 91.72,
       "costKRW": 1373451,
       "costNative": 1003.37
     },
@@ -129,7 +129,7 @@
       "name": "ProShares VIX 단기선물",
       "currency": "USD",
       "shares": 30,
-      "price": 16.48,
+      "price": 16.79,
       "costKRW": 884091,
       "costNative": 645.87
     }
