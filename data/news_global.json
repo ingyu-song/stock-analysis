@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25 00:11",
+  "updatedAt": "2026-09-25 04:14",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,13 +14,6 @@
           "link": "https://www.axios.com/2026/09/23/meta-muse-ai-hardware-handheld-glasses",
           "publishedAt": "2026-09-24 09:15",
           "outlet": "Axios"
-        },
-        {
-          "title": "Hands-on with Meta's next VR headset",
-          "summary": "Meta's new virtual reality glasses take a big step toward being something an average person might be willing to wear, ditching much of the bulk as well as the need for handheld controllers.Why it matters: Unlike Meta's Ray-Bans, its VR devices have struggled to break out of their gamer niche and into the mainstream.Yes, but: In order to slim them down, the new Meta VR Glasses require a wired \"puck",
-          "link": "https://www.axios.com/2026/09/23/hands-on-with-metas-next-vr-headset",
-          "publishedAt": "2026-09-24 08:46",
-          "outlet": "Axios"
         }
       ]
     },
@@ -28,6 +21,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Google, OpenAI and Anthropic AI Safety Group Takes Shape - The Information",
+          "summary": "Google, OpenAI and Anthropic AI Safety Group Takes Shape  The Information",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmgyX1dTWG0yMEZFb2RRTmNReFM1aVFxa3Vid2hqWmMzU1hQQTNBR0p3MXlJWWZadUEtZHpvWUtiUnluMHRkNHNsZjViU1Y2MUZKdExNdjg0cDlIbFltWEc5bHdySEMyakJvQUhfSTFGSXQ2Wk1EaVJIOTNCRWNZZzhhZUJ2SEdlM2luUmh2ekxhRlBjMkE?oc=5",
+          "publishedAt": "2026-09-24 22:00",
+          "outlet": "The Information"
+        },
         {
           "title": "Scoop: Trump allies open new front on Anthropic CEO as face of AI \"doomerism\"",
           "summary": "President Trump's allies are targeting Anthropic CEO Dario Amodei as the face of AI \"doomerism\" and a founding father of the effective altruism movement that's come under increasing political fire.Why it matters: The attacks signal that Anthropic could remain a Trump target as his allies push back on Amodei's AI safety warnings amid the midterm elections. Trump surrogates see Amodei as an easy foi",
@@ -43,20 +43,6 @@
           "outlet": "Axios"
         },
         {
-          "title": "Hands-on with Meta's next VR headset",
-          "summary": "Meta's new virtual reality glasses take a big step toward being something an average person might be willing to wear, ditching much of the bulk as well as the need for handheld controllers.Why it matters: Unlike Meta's Ray-Bans, its VR devices have struggled to break out of their gamer niche and into the mainstream.Yes, but: In order to slim them down, the new Meta VR Glasses require a wired \"puck",
-          "link": "https://www.axios.com/2026/09/23/hands-on-with-metas-next-vr-headset",
-          "publishedAt": "2026-09-24 08:46",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Zuckerberg Overtakes Google’s Brin As World’s Fifth-Wealthiest As Muse Fuels Meta Rally - Forbes",
-          "summary": "Zuckerberg Overtakes Google’s Brin As World’s Fifth-Wealthiest As Muse Fuels Meta Rally  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPbHJycjBNNUxzdzItTUFDZVgxMU94RU9menRHQUZRMlJFN1lycHpieTlBb3IzUWpCdmhONU0xbGFQM2UzZjZlYy1sUGlDRUM3c1F4V2VXU1dRZzRWZ1M5TzRrRVhvY1QtbklXbzNVVHpKaF9XRmRlaFhuUnJRMXI1ZTl3U0h2bnhTWUttTmUyM0RyQm0zdXBuaUc4d2dVMW9GTk8xdGpSclJKanp1Y0ZIOWxpZ0h3ekJVeVhjeVh6ZktqSVE0NzRreF9UbkM0ekp3QVE4OA?oc=5",
-          "publishedAt": "2026-09-24 03:18",
-          "outlet": "Forbes Markets"
-        },
-        {
           "title": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives - digitimes",
           "summary": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives  digitimes",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWHZLOVF2eG10MnBzU29UQk9hS2loNVJER20zVU12czh4SHJZRUw3dlRlTDRNcWw0c0JDZGU1blJjODR2WmpvcWNsOWZicmpnTXpDQUtQbm9iOGhsLVBXZTc5ZzBkYWM0U0tkTG96QkV4cUxOY3RtOEVUMkNJZUxXYWk5d2tlMy0wMnZGZHZXU05LVEc5dGdwRnVR?oc=5",
@@ -69,13 +55,6 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
-        {
-          "title": "Intel overbought near $125.91 resistance: Live levels",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/intel-breaks-11918-fib-resistance-at-overbought-rsi-live-levels-93CH-4909300",
-          "publishedAt": "2026-09-24 23:17",
-          "outlet": "Investing.com"
-        },
         {
           "title": "SK Hynix Is Eyeing Intel’s (INTC) Ohio Site. Why Micron (MU) Should Pay Attention",
           "summary": "",
@@ -102,6 +81,19 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/lumentum-jumped-nearly-10-while-041957023.html",
           "publishedAt": "2026-09-23 13:19",
           "outlet": "Yahoo Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "SONY",
+      "name": "소니",
+      "items": [
+        {
+          "title": "Letterboxd Sees Acquisition Interest From A24, Sony and the New York Times",
+          "summary": "A24, Sony and The New York Times Company all registered their interest in acquiring the cinephile’s paradise.",
+          "link": "https://www.nytimes.com/2026/09/24/business/media/letterboxd-sale-sony-a24-nyt.html",
+          "publishedAt": "2026-09-25 02:49",
+          "outlet": "NYT Business"
         }
       ]
     }
