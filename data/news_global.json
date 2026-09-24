@@ -1,19 +1,46 @@
 {
-  "updatedAt": "2026-09-24 08:46",
+  "updatedAt": "2026-09-24 13:58",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Mark Zuckerberg predicts Muse will become a \"personal superintelligence\" for billions.",
+          "summary": "Meta on Wednesday debuted \"Muse Charm,\" a new, keychain-sized AI handheld device it will use to bring its viral Muse assistant to the masses.Why it matters: Meta's has raced ahead of OpenAI, Apple and other companies that are racing to build a new crop of small AI devices, revving up the massive market interest that Muse has generated in the market.\"We've packed a lot of technology in this little ",
+          "link": "https://www.axios.com/2026/09/23/meta-muse-ai-hardware-handheld-glasses",
+          "publishedAt": "2026-09-24 09:15",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Hands-on with Meta's next VR headset",
+          "summary": "Meta's new virtual reality glasses take a big step toward being something an average person might be willing to wear, ditching much of the bulk as well as the need for handheld controllers.Why it matters: Unlike Meta's Ray-Bans, its VR devices have struggled to break out of their gamer niche and into the mainstream.Yes, but: In order to slim down the size, the new Meta VR glasses require a wired \"",
+          "link": "https://www.axios.com/2026/09/23/hands-on-with-metas-next-vr-headset",
+          "publishedAt": "2026-09-24 08:46",
+          "outlet": "Axios"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Ex-Google safety chief warns AI could harm children more than social media did",
+          "title": "Google nears release of Gemini 4 AI model, DeepMind head tells The Information",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/exgoogle-safety-chief-warns-ai-could-harm-children-more-than-social-media-did-4911398",
-          "publishedAt": "2026-09-24 07:54",
+          "link": "https://www.investing.com/news/stock-market-news/google-nears-release-of-gemini-4-ai-model-deepmind-head-tells-the-information-93CH-4914393",
+          "publishedAt": "2026-09-24 12:31",
           "outlet": "Investing.com"
+        },
+        {
+          "title": "Hands-on with Meta's next VR headset",
+          "summary": "Meta's new virtual reality glasses take a big step toward being something an average person might be willing to wear, ditching much of the bulk as well as the need for handheld controllers.Why it matters: Unlike Meta's Ray-Bans, its VR devices have struggled to break out of their gamer niche and into the mainstream.Yes, but: In order to slim down the size, the new Meta VR glasses require a wired \"",
+          "link": "https://www.axios.com/2026/09/23/hands-on-with-metas-next-vr-headset",
+          "publishedAt": "2026-09-24 08:46",
+          "outlet": "Axios"
         }
       ]
     }
