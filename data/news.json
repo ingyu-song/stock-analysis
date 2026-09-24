@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24 13:58",
+  "updatedAt": "2026-09-24 19:06",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -8,6 +8,12 @@
       "name": "에이피알",
       "query": "에이피알 메디큐브",
       "items": [
+        {
+          "title": "존재감 드러내는 K-뷰티…美 넘어 멕시코 공략",
+          "summary": "에이피알의 메디큐브도 세포라와 얼타뷰티, 샘스클럽 등 현지 유통망에서 판매되고 있다. 화장품 업계 관계자는 \"뷰티 기업들이 지난 7월 한-브라질 비즈니스라운드테이블에 대거 참석한 데 이어 대한민국...",
+          "link": "https://www.jnilbo.com/news/articleView.html?idxno=90000068589",
+          "publishedAt": "2026-09-24 18:03"
+        },
         {
           "title": "외교무대서도 존재감 드러내는 K-뷰티…美 넘어 멕시코 공략",
           "summary": "에이피알의 메디큐브도 세포라와 얼타뷰티, 샘스클럽 등 현지 유통망에서 판매되고 있다. 화장품 업계 관계자는 \"뷰티 기업들이 지난 7월 한-브라질 비즈니스라운드테이블에 대거 참석한 데 이어 대한민국...",
@@ -91,12 +97,6 @@
           "summary": "에이피알의 메디큐브는 'TXA 흔적 토닝 세럼', 'TXA 캡슐 크림' 등을 선보였으며 아누아도 '나이아신아마이드 10 TXA 4 다크 스팟 코렉팅 세럼', '나이아신아마이드 5 TXA 브라이트닝 패드' 등을 판매 중이다. 이외에도...",
           "link": "https://www.sisajournal-e.com/news/articleView.html?idxno=423873",
           "publishedAt": "2026-09-22 17:08"
-        },
-        {
-          "title": "뷰티업계 최초…에이피알, AI 관리·제품 신뢰성 국제 인증",
-          "summary": "에이피알은 메디큐브 에이지알(AGE-R) '부스터 프로 X2'에 적용된 'AI 케어 모드'로 해당 인증을 받았다. AI 케어 모드는 이용자의 피부 컨디션과 누적 사용 이력 등을 분석해 맞춤형 케어 루틴과 자극 강도를...",
-          "link": "http://www.joseilbo.com/news/news_read.php?uid=576233&class=17&grp=",
-          "publishedAt": "2026-09-22 17:03"
         }
       ]
     },
@@ -204,7 +204,7 @@
       "items": [
         {
           "title": "AI 투자 나선 트럼프와 펠로시, ‘종목 취향’은 완전히 달랐다",
-          "summary": "마이크로소프트, 구글(알파벳), 아마존, 애플 등 빅테크 기업 주식이 많이 담겨 있다. 반면 공화당 ETF에는... 6월 말까지 가파르게 주가가 올랐던 마이크론 주식을 팔아서 수익을 실현한 의원들이 많았던 셈이다....",
+          "summary": "마이크로소프트, 구글(알파벳), 아마존, 애플 등 빅테크 기업 주식이 많이 담겨 있다. 반면 공화당 ETF에는... 6월 말까지 가파르게 주가가 올랐던 마이크론 주식을 팔아서 수익을 실현한 의원들이 많았던 셈이다. 모든...",
           "link": "https://www.chosun.com/economy/weeklybiz/2026/09/24/L3C67UUK7FB33NM2WGAF5NOKOA/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
           "publishedAt": "2026-09-24 12:01"
         },
@@ -300,6 +300,12 @@
       "query": "코인베이스 COIN",
       "items": [
         {
+          "title": "코인베이스 사칭해 1600만달러 탈취한 23세, 최대 12년형",
+          "summary": "코인베이스($COIN) 이용자 약 100명을 속여 가상자산 약 1600만달러(약 218억원)를 가로챈 23세 남성이 미국에서 징역 4~12년을 선고받았다. 브루클린 지방검찰청은 23일 로널드 스펙터가 코인베이스 직원을 사칭해...",
+          "link": "https://www.tokenpost.kr/news/breaking/413385",
+          "publishedAt": "2026-09-24 16:32"
+        },
+        {
           "title": "\"AI에이전트간 거래가 가상자산 수요 텃밭\"…블랙록이 본 미래",
           "summary": "코인베이스의 x402 프로토콜은 과거 웹에서 거의 사용되지 않았던 ‘HTTP 402: Payment Required’ 코드를... Arc에서는 USD Coin(USDC)이 네트워크 가스 자산으로 사용된다. 블랙록은 스테이블코인 활동이 증가하면 블록체인...",
           "link": "https://www.edaily.co.kr/News/Read?newsId=01918806645583400&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
@@ -336,15 +342,15 @@
           "publishedAt": "2026-09-24 04:36"
         },
         {
-          "title": "코인베이스서 비트코인 1647개 외부 지갑으로 이동",
-          "summary": "비트코인(BTC) 1647개가 코인베이스($COIN)에서 외부 지갑으로 이동했다. 거래 규모는 1억3863만달러(약 1877억원)로 표시됐다. Whale Alert X 계정은 23일 게시물에서 해당 비트코인 이동 내역을 전했다. 게시물에는...",
-          "link": "https://www.tokenpost.kr/news/breaking/413102",
-          "publishedAt": "2026-09-24 03:34"
-        },
-        {
           "title": "코인베이스, 미국 개인투자자 IPO 배정 신청 개시",
           "summary": "코인베이스($COIN)가 미국 내 자격을 갖춘 개인투자자에게 IPO 주식 배정 신청을 받기 시작했다. 첫 지원 종목은 스마트 링 제조사 오라의 IPO다. 코인베이스는 21일 공식 블로그에서 이용자가 상장 전 공모가로 주식...",
           "link": "https://www.tokenpost.kr/news/breaking/413103",
+          "publishedAt": "2026-09-24 03:34"
+        },
+        {
+          "title": "코인베이스서 비트코인 1647개 외부 지갑으로 이동",
+          "summary": "비트코인(BTC) 1647개가 코인베이스($COIN)에서 외부 지갑으로 이동했다. 거래 규모는 1억3863만달러(약 1877억원)로 표시됐다. Whale Alert X 계정은 23일 게시물에서 해당 비트코인 이동 내역을 전했다. 게시물에는...",
+          "link": "https://www.tokenpost.kr/news/breaking/413102",
           "publishedAt": "2026-09-24 03:34"
         },
         {
@@ -382,12 +388,6 @@
           "summary": "609비트코인(BTC)이 미확인 지갑에서 코인베이스($COIN)로 이동한 것으로 관측됐다. 거래 가치는 5213만5695달러(약 706억원)다. Whale Alert는 23일 X 게시물에서 해당 거래를 전했다. 거래가 실제 매도나 추가...",
           "link": "https://www.tokenpost.kr/news/breaking/412892",
           "publishedAt": "2026-09-23 21:48"
-        },
-        {
-          "title": "라운드테이블, 코인베이스 연동 USDC 플랫폼 출시…트러스 합류",
-          "summary": "라운드테이블($RTB)이 코인베이스($COIN)와 연동한 USDC 기반 미디어 결제 플랫폼을 출시했다. 리즈 트러스(Liz Truss) 전 영국 총리도 라운드테이블 이사회에 합류했다. 라운드테이블은 9월 18일 미국 증권거래위원회...",
-          "link": "https://www.tokenpost.kr/news/breaking/412874",
-          "publishedAt": "2026-09-23 21:26"
         }
       ]
     },
@@ -494,6 +494,12 @@
       "query": "크라우드스트라이크",
       "items": [
         {
+          "title": "[NOW 2027] 방어자에게 유리한 AI ··· 사람과 협력해 더 강력해진다",
+          "summary": "크라우드스트라이크가 2026년 상반기 관찰한 PoC 취약점 악용 사례의 88%가 공개 후 48시간 이내에 발생했다. 기존에는 몇 주에서 몇 달까지 걸리던 시간을 AI를 활용해 획기적으로 단축시킨 것이다. 중국 연계 공격...",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214705",
+          "publishedAt": "2026-09-24 14:50"
+        },
+        {
           "title": "옥타, AI 에이전트용 런타임 게이트웨이 추가",
           "summary": "옥타는 3월 공개한 에이전트 보안 프레임워크 생태계 확장 일환으로 AWS·크라우드스트라이크·구글 클라우드 등 11개 업체와 블루프린트 얼라이언스를 선보였다. 블루프린트 얼라이언스에는 데이터브릭스, 도커, 러버블...",
           "link": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=702906",
@@ -552,12 +558,6 @@
           "summary": "※ 주간 신고가 기업 델 테크놀로지스(DELL), 매러선 페트롤리엄(MPC), 발레로 에너지(VLO), HF 싱클레어(DINO), 셈텍(SMTC), 프론트라인(FRO), 포티넷(FTNT), 필립스 66(PSX), 옥타(OKTA), 크라우드스트라이크 홀딩스(CRWD)...",
           "link": "https://www.itooza.com/common/iview.php?no=2026092110402438792",
           "publishedAt": "2026-09-21 10:42"
-        },
-        {
-          "title": "[ETF 열전] 반도체 밖으로 번진 AI…메디컬AI 20%·사이버보안 14% 질주",
-          "summary": "이에 크라우드스트라이크와 팔로알토네트웍스, 옥타 등 주요 사이버보안주가 동반 강세를 보였다. 크라우드스트라이크는 집계 기간 15% 안팎, 팔로알토네트웍스도 10% 안팎 상승했다. AI 투자 테마가 반도체에서...",
-          "link": "https://www.newsworks.co.kr/news/articleView.html?idxno=854370",
-          "publishedAt": "2026-09-21 10:00"
         }
       ]
     },
@@ -566,6 +566,24 @@
       "name": "팰로 앨토 네트웍스",
       "query": "팔로알토네트웍스",
       "items": [
+        {
+          "title": "\"사스포칼립스 끝이 보인다\"…월가, 소프트웨어주 다시 담는 이유 [딥씨...",
+          "summary": "현지시간 21일 종가 기준 팔로알토네트웍스는 연초 대비 107%, 데이터독은 83%, 스노우플레이크는 56% 올랐습니다. 반면 향후 수익 전망치에서 실망을 안겼던 인튜이트는 51%, 허브스팟은 44%, 어도비는 31%, 오토데스크는 24...",
+          "link": "http://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202609230024&t=NN",
+          "publishedAt": "2026-09-24 18:00"
+        },
+        {
+          "title": "서학개미 순매수 1위는 ‘반도체 3배 인버스’…7351만달러",
+          "summary": "개별 종목 가운데 순매수결제액이 가장 많았던 종목은 사이버보안 업체 팔로알토네트웍스였다. 팔로알토네트웍스의 순매수결제액은 4318만8800달러로 전체 2위를 기록했다. 매수결제액이 4347만9046달러에...",
+          "link": "http://www.kjdaily.com/article.php?aid=1790233429687603276",
+          "publishedAt": "2026-09-24 16:06"
+        },
+        {
+          "title": "[NOW 2027] 방어자에게 유리한 AI ··· 사람과 협력해 더 강력해진다",
+          "summary": "프론티어 AI 모델 연결해 분석·의사결정 능력 강화 AI SOC의 이상에 가장 가까운 모델이 팔로알토 네트웍스의 '코어텍스 XSIAM(Cortex XSIAM)'이다. 에이전트 기반 SOC인 XSIAM은 에이전틱 AI '코어텍스 에이전틱스(Cortex...",
+          "link": "https://www.datanet.co.kr/news/articleView.html?idxno=214705",
+          "publishedAt": "2026-09-24 14:50"
+        },
         {
           "title": "[추석 없는 미국주식(중)] M7이 전부?…우주·보안·양자도 있다",
           "summary": "우주·위성통신 기업 스페이스X와 보안업체 팔로알토네트웍스, 양자컴퓨팅 기업 아이온큐가 최근 한 달 순매수 상위권에 이름을 올렸다. 사업 확장에 따른 투자 부담과 AI 보안 수요, 인수를 통한 매출 확대를 각각...",
@@ -631,24 +649,6 @@
           "summary": "이에 앤트로픽은 모델을 일반에 공개하지 않고 AWS, 애플, 시스코, 구글, 마이크로소프트, 엔비디아, 팔로알토 네트웍스, 리눅스 재단 등 파트너들이 참여하는 프로젝트 글래스윙을 통해 제한적으로 제공하고 있다....",
           "link": "https://www.dailysecu.com/news/articleView.html?idxno=208573",
           "publishedAt": "2026-09-22 17:42"
-        },
-        {
-          "title": "AI 감속론 무색…S&P100도 기술주 재편",
-          "summary": "지난 4일 S&P DJI의 지수위원회는 지수 편입 종목을 조정하며 델 테크놀로지, 팔로알토, 아리스타 네트웍스, 샌디스크의 편입을 발표했다. 반대로 허니웰 에어로스페이스, 나이키, 사이먼 프로퍼티 그룹, 콜게이트...",
-          "link": "https://www.sidae.com/article/2026092209264150724",
-          "publishedAt": "2026-09-22 16:50"
-        },
-        {
-          "title": "[生기업TALK] 신한자산운용, 글로벌 생태계 합류하며 글로벌 기준 맞춘...",
-          "summary": "최근 6개월 성과 기여 상위 종목은 통합 AI 보안 플랫폼 기업 팔로알토네트웍스(6개월 수익률 121.68%), 엔드포인트 보안 전문기업 크라우드스트라이크(126.85%), 네트워크·방화벽에 AI를 결합한 포티넷(107.53%)이 차지했다....",
-          "link": "http://www.sisacast.kr/news/articleView.html?idxno=99807",
-          "publishedAt": "2026-09-22 10:30"
-        },
-        {
-          "title": "SG \"AI 투자 다음 수혜주는 사이버보안\"…이익 성장·밸류에이션 매력",
-          "summary": "SG는 그러면서 사이버보안 종목 중 팔로알토 네트웍스(NAS·PANW)와 크라우드스트라이크(NAS·CRWD), 클라우드플레어(NYS·NET), 포티넷(NAS·FTNT), 지스케일러(NAS·ZS), 체크포인트 소프트웨어(NAS·CHKP), 옥타(NAS·OKTA)...",
-          "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436018",
-          "publishedAt": "2026-09-22 08:50"
         }
       ]
     },
@@ -722,12 +722,6 @@
           "summary": "20일 인베스팅닷컴에 따르면 프랑스 파리증시에서 LVMH 주가는 지난 17일(현지시간) 412.30유로로 올해 초 641.80유로 대비 35.76% 폭락했다. 2017년 이후 처음으로 시가총액 1위 자리를 내줬다. 유럽 시가총액 상위 10개...",
           "link": "https://biz.heraldcorp.com/article/10879433?ref=naver",
           "publishedAt": "2026-09-20 09:41"
-        },
-        {
-          "title": "세계 1위 명품 제국의 ‘추락’…中 애국 소비·중동 전쟁에 ‘가격 인...",
-          "summary": "19일 인베스팅닷컴에 따르면 프랑스 파리증시에서 LVMH 주가는 지난 17일(현지시간) 412.30유로로 올해 초 641.80유로 대비 35.76% 하락했다. 코로나19 엔데믹 이후 보복 소비에 힘입어 2023년 유럽 기업 최초로 시가총액 5000억...",
-          "link": "https://www.sedaily.com/article/20092692?ref=naver",
-          "publishedAt": "2026-09-19 14:01"
         }
       ]
     },
@@ -966,12 +960,6 @@
           "summary": "주성엔지니어링과 테스를 비롯해 SFA반도체, 엑시콘, HPSP, 심텍, 원익홀딩스, 오킨스전자, 파두, 동진쎄미켐, 제주반도체, 인텍플러스, 메가터치, 뉴파워프라즈마, 피에스케이홀딩스 등이 순매수 목록에 이름을 올렸다....",
           "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=490072",
           "publishedAt": "2026-09-23 15:52"
-        },
-        {
-          "title": "제주반도체 7만6600원 강세…2분기 영업익 1219억원",
-          "summary": "제주반도체가 코스닥 시장에서 상승하고 있다. 저전력 메모리 수요와 가격 상승으로 상반기 실적이 크게 개선된 가운데 주가는 7만원대 중반에서 움직이고 있다. 23일 오후 2시11분 기준 제주반도체는 전...",
-          "link": "https://www.job-post.co.kr/news/articleView.html?idxno=229109",
-          "publishedAt": "2026-09-23 14:26"
         }
       ]
     }

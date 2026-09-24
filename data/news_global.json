@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24 13:58",
+  "updatedAt": "2026-09-24 19:06",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -29,11 +29,18 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google nears release of Gemini 4 AI model, DeepMind head tells The Information",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/google-nears-release-of-gemini-4-ai-model-deepmind-head-tells-the-information-93CH-4914393",
-          "publishedAt": "2026-09-24 12:31",
-          "outlet": "Investing.com"
+          "title": "Scoop: Trump allies open new front on Anthropic CEO as face of AI \"doomerism\"",
+          "summary": "President Trump's allies are targeting Anthropic CEO Dario Amodei as the face of AI \"doomerism\" and a founding father of the effective altruism movement that's come under increasing political fire.Why it matters: The attacks signal that Anthropic could remain a Trump target as his allies push back on Amodei's AI safety warnings amid the midterm elections. Trump surrogates see Amodei as an easy foi",
+          "link": "https://www.axios.com/2026/09/24/trump-anthropic-ai-doomerism-dario-amodei",
+          "publishedAt": "2026-09-24 18:00",
+          "outlet": "Axios"
+        },
+        {
+          "title": "OpenAI agents breached Australian portal, attempted other hacks in routine data collection.",
+          "summary": "OpenAI's autonomous agents breached an Australian Medicare portal and probed other public data sites in May and June after being stymied in routine data-collection efforts.Why it matters: The new incidents, which were revealed by security researchers and Australian officials Wednesday, indicate that the scope of rogue AI activity may be greater than what's been publicly acknowledged.The agents too",
+          "link": "https://www.axios.com/2026/09/24/openai-agents-australia-data-breach",
+          "publishedAt": "2026-09-24 14:46",
+          "outlet": "Axios"
         },
         {
           "title": "Hands-on with Meta's next VR headset",
@@ -41,6 +48,20 @@
           "link": "https://www.axios.com/2026/09/23/hands-on-with-metas-next-vr-headset",
           "publishedAt": "2026-09-24 08:46",
           "outlet": "Axios"
+        },
+        {
+          "title": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives - digitimes",
+          "summary": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWHZLOVF2eG10MnBzU29UQk9hS2loNVJER20zVU12czh4SHJZRUw3dlRlTDRNcWw0c0JDZGU1blJjODR2WmpvcWNsOWZicmpnTXpDQUtQbm9iOGhsLVBXZTc5ZzBkYWM0U0tkTG96QkV4cUxOY3RtOEVUMkNJZUxXYWk5d2tlMy0wMnZGZHZXU05LVEc5dGdwRnVR?oc=5",
+          "publishedAt": "2026-09-23 16:06",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Broadcom Just Named Its Next AI Customer. It Isn’t Google.",
+          "summary": "",
+          "link": "https://finance.yahoo.com/technology/ai/articles/broadcom-just-named-next-ai-222044865.html",
+          "publishedAt": "2026-09-23 07:20",
+          "outlet": "Yahoo Finance"
         }
       ]
     }
