@@ -1,13 +1,40 @@
 {
-  "updatedAt": "2026-09-26 03:41",
+  "updatedAt": "2026-09-26 07:26",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Inside Trump's \"super intelligence\" naming problem",
+          "summary": "President Trump is pushing world leaders and U.S. agencies to rename AI \"super intelligence.\"Why it matters: \"Superintelligence\" already has a distinct meaning in AI — and is fueling debates over whether the most advanced systems should be slowed or stopped.The big picture: Superintelligence — broadly, AI that surpasses human cognition — has become both an industry ambition and the focus of effort",
+          "link": "https://www.axios.com/2026/09/25/trump-ai-super-intelligence-tech-definition",
+          "publishedAt": "2026-09-26 03:10",
+          "outlet": "Axios"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Inside Trump's \"super intelligence\" naming problem",
+          "summary": "President Trump is pushing world leaders and U.S. agencies to rename AI \"super intelligence.\"Why it matters: \"Superintelligence\" already has a distinct meaning in AI — and is fueling debates over whether the most advanced systems should be slowed or stopped.The big picture: Superintelligence — broadly, AI that surpasses human cognition — has become both an industry ambition and the focus of effort",
+          "link": "https://www.axios.com/2026/09/25/trump-ai-super-intelligence-tech-definition",
+          "publishedAt": "2026-09-26 03:10",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Google, OpenAI and Anthropic AI Safety Group Takes Shape - The Information",
+          "summary": "Google, OpenAI and Anthropic AI Safety Group Takes Shape  The Information",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmgyX1dTWG0yMEZFb2RRTmNReFM1aVFxa3Vid2hqWmMzU1hQQTNBR0p3MXlJWWZadUEtZHpvWUtiUnluMHRkNHNsZjViU1Y2MUZKdExNdjg0cDlIbFltWEc5bHdySEMyakJvQUhfSTFGSXQ2Wk1EaVJIOTNCRWNZZzhhZUJ2SEdlM2luUmh2ekxhRlBjMkE?oc=5",
+          "publishedAt": "2026-09-24 22:03",
+          "outlet": "The Information"
+        },
         {
           "title": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives - digitimes",
           "summary": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives  digitimes",
