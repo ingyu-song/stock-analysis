@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-25 16:54",
+  "updatedAt": "2026-09-25 22:53",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -106,6 +106,12 @@
       "query": "애플 AAPL",
       "items": [
         {
+          "title": "쿠코인, 애플·로빈후드 등 토큰화 주식 4종 현물거래",
+          "summary": "쿠코인(KuCoin)이 애플($AAPL)·로빈후드($HOOD)·스트래티지($MSTR)·스페이스X를 기반으로 한 토큰화 주식 4종의 현물거래를 지원한다. 쿠코인은 9월 23일 오후 11시 30분(한국시간)부터 애플 xStock(AAPLX)과...",
+          "link": "https://www.tokenpost.kr/news/breaking/414033",
+          "publishedAt": "2026-09-25 18:36"
+        },
+        {
           "title": "130명 넘은 만찬 초청자…미 빅테크, 시진핑과 한자리",
           "summary": "팀 쿡(Tim Cook) 애플($AAPL) 이사회 의장, 사티아 나델라(Satya Nadella) 마이크로소프트($MSFT) CEO, 순다르 피차이(Sundar Pichai) 알파벳($GOOGL) CEO도 초청 대상에 포함됐다. 블룸버그는 미국 측 초청자 가운데 기술기업과...",
           "link": "https://www.tokenpost.kr/news/international/413884",
@@ -188,12 +194,6 @@
           "summary": "애플(종목코드: AAPL)이 22일(현지시간)부터 새 데스크톱 컴퓨터 출하를 시작하면서, 회사 경영진은 기업 구매자들을 상대로 이례적인 마케팅 논리를 내세우고 있다. 데이터센터를 임대하는 것보다 더 저렴하다는...",
           "link": "https://www.newspim.com/news/view/20260923000005",
           "publishedAt": "2026-09-23 00:14"
-        },
-        {
-          "title": "[미국 특징주] 엔비디아 밸류에이션 '뚝'…이익 성장 지속성에 경고음",
-          "summary": "엔비디아 주가는 2026년 들어 22% 올라, '매그니피센트 7' 대형 기술주 가운데 25% 상승한 애플(AAPL)에 이어 두 번째로 높은 상승률을 기록하고 있다. 그러나 다른 반도체 기업들과 비교하면 상승폭은 초라한 수준이다....",
-          "link": "https://www.newspim.com/news/view/20260923000002",
-          "publishedAt": "2026-09-23 00:05"
         }
       ]
     },
@@ -300,6 +300,18 @@
       "query": "코인베이스 COIN",
       "items": [
         {
+          "title": "샤프링크 CEO \"AI 에이전트, 1.4조 달러 월가 수수료 없앤다\"",
+          "summary": "비자(Visa)와 페이팔(PayPal), 코인베이스(Coinbase, COIN)뿐만 아니라 JP모건(JPMorgan)과 블랙록(BlackRock) 등 글로벌 금융 거인들이 에이전트 결제망 선점에 뛰어들었다. 금융 결제 권력이 중개기관에서 AI 의사결정...",
+          "link": "http://coinreaders.com/260161",
+          "publishedAt": "2026-09-25 22:02"
+        },
+        {
+          "title": "비트마인 2.32% 상승…미 가상자산주 7종목 동반 상승",
+          "summary": "샤프링크게이밍($SBET)은 1.11%, 코인베이스($COIN)는 1.07%, 서클($CRCL)은 1.01% 올랐다. PURR는 1.28% 상승했다. 비트마인과 서클의 상승률 차이는 1.31%포인트다. 이날 수치는 미국 증시 정규장 개장 전 거래에서...",
+          "link": "https://www.tokenpost.kr/news/market/414080",
+          "publishedAt": "2026-09-25 20:22"
+        },
+        {
           "title": "건당 5센트…AI 에이전트, 글래스노드 데이터 결제",
           "summary": "결제 네트워크는 코인베이스($COIN)의 레이어2 네트워크인 베이스(Base)다. 코인베이스 계정을 보유한 이용자는 Coinbase for Agents를 통해 계정 잔액의 USDC를 사용할 수 있으며, 별도 지갑 이용자는 베이스 계정에...",
           "link": "https://www.tokenpost.kr/news/cryptocurrency/413775",
@@ -376,18 +388,6 @@
           "summary": "트럼프 대통령의 투자 계좌가 7월 코인베이스($COIN)와 스트래티지($MSTR) 주식을 매수하고 마라 홀딩스($MARA)와 클린스파크($CLSK) 주식을 매도한 것으로 나타났다. 미국 정부 윤리실(OGE)이 공개한...",
           "link": "https://www.tokenpost.kr/news/breaking/413127",
           "publishedAt": "2026-09-24 05:16"
-        },
-        {
-          "title": "x402, 비트코인 라이트닝 결제 규격 포함",
-          "summary": "x402는 코인베이스($COIN)가 처음 개발한 결제 프로토콜이다. x402는 웹 서비스가 HTTP 상태 코드인 ‘402 결제 필요’를 반환하면 클라이언트가 결제 정보를 확인한 뒤 자동으로 결제를 완료하고 요청을 다시 보내는...",
-          "link": "https://www.tokenpost.kr/news/blockchain/413115",
-          "publishedAt": "2026-09-24 04:36"
-        },
-        {
-          "title": "코인베이스서 비트코인 1647개 외부 지갑으로 이동",
-          "summary": "비트코인(BTC) 1647개가 코인베이스($COIN)에서 외부 지갑으로 이동했다. 거래 규모는 1억3863만달러(약 1877억원)로 표시됐다. Whale Alert X 계정은 23일 게시물에서 해당 비트코인 이동 내역을 전했다. 게시물에는...",
-          "link": "https://www.tokenpost.kr/news/breaking/413102",
-          "publishedAt": "2026-09-24 03:34"
         }
       ]
     },
@@ -396,6 +396,12 @@
       "name": "서클 인터넷 그룹",
       "query": "서클 CRCL",
       "items": [
+        {
+          "title": "비트마인 2.32% 상승…미 가상자산주 7종목 동반 상승",
+          "summary": "샤프링크게이밍($SBET)은 1.11%, 코인베이스($COIN)는 1.07%, 서클($CRCL)은 1.01% 올랐다. PURR는 1.28% 상승했다. 비트마인과 서클의 상승률 차이는 1.31%포인트다. 이날 수치는 미국 증시 정규장 개장 전 거래에서...",
+          "link": "https://www.tokenpost.kr/news/market/414080",
+          "publishedAt": "2026-09-25 20:22"
+        },
         {
           "title": "솔라나에 2억5000만 USDC 발행…7억5000만달러 공급 확대",
           "summary": "서클($CRCL)이 솔라나(SOL)에서 2억5000만 유에스디코인(USDC)을 발행했다. 같은 시기 테더(USDT) 발행분까지 합치면 솔라나에 추가된 스테이블코인 공급 규모는 7억5000만달러(약 1조267억원)다. Whale Alert 거래...",
@@ -479,12 +485,6 @@
           "summary": "04% 상승했고, 샤프링크($SBET)는 9.94달러로 5.78% 올랐다고 보도했다. 코인베이스($COIN)는 203.99달러로 5.09%, 서클($CRCL)은 97.23달러로 5.94%, 로빈후드($HOOD)는 124.70달러로 4.07% 상승한 것으로 나타났다.",
           "link": "https://www.tokenpost.kr/news/breaking/411519",
           "publishedAt": "2026-09-21 18:48"
-        },
-        {
-          "title": "VVV 시총 14억8000만달러…AI 3위 보도",
-          "summary": "서클 인터넷 그룹($CRCL)은 AI 에이전트가 서비스를 검색하고 유에스디코인(USDC)으로 결제할 수 있는 Agent Marketplace를 운영하고 있다. 크립토브리핑은 베니스가 이 장터의 서비스 제공자로 추가됐다고 보도했지만...",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/411454",
-          "publishedAt": "2026-09-21 17:38"
         }
       ]
     },

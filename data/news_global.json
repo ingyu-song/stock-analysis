@@ -1,37 +1,36 @@
 {
-  "updatedAt": "2026-09-25 16:55",
+  "updatedAt": "2026-09-25 22:53",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Bernstein sees downside risk to Apple’s December quarter results",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/bernstein-sees-downside-risk-to-apples-december-quarter-results-4917595",
+          "publishedAt": "2026-09-25 22:09",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Apple delays 20th-anniversary iPhone display upgrades - digitimes.com",
+          "summary": "Apple delays 20th-anniversary iPhone display upgrades  digitimes.com",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNMXlrbFpyckVZUDVobllWc20zaE1GOVlpOHhfay1lSHVhRHl2OUliSy1iYVZwdGlOd0RjU01SdHhNWmJTN2FIbmdTMTNiVGk1dnFfYTBsX0g4OHB3S1RmNnhkT28zV2VXZEFiWjBvRG1aX3VsZ3lQMWJVS3pUUjZSby1pekRnbmVTd0syWTZXZFY5dw?oc=5",
+          "publishedAt": "2026-09-23 10:25",
+          "outlet": "DigiTimes"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google, OpenAI and Anthropic AI Safety Group Takes Shape - The Information",
-          "summary": "Google, OpenAI and Anthropic AI Safety Group Takes Shape  The Information",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmgyX1dTWG0yMEZFb2RRTmNReFM1aVFxa3Vid2hqWmMzU1hQQTNBR0p3MXlJWWZadUEtZHpvWUtiUnluMHRkNHNsZjViU1Y2MUZKdExNdjg0cDlIbFltWEc5bHdySEMyakJvQUhfSTFGSXQ2Wk1EaVJIOTNCRWNZZzhhZUJ2SEdlM2luUmh2ekxhRlBjMkE?oc=5",
-          "publishedAt": "2026-09-24 22:00",
-          "outlet": "The Information"
-        },
-        {
-          "title": "Scoop: Trump allies open new front on Anthropic CEO as face of AI \"doomerism\"",
-          "summary": "President Trump's allies are targeting Anthropic CEO Dario Amodei as the face of AI \"doomerism\" and a founding father of the effective altruism movement that's come under increasing political fire.Why it matters: The attacks signal that Anthropic could remain a Trump target as his allies push back on Amodei's AI safety warnings amid the midterm elections. Trump surrogates see Amodei as an easy foi",
-          "link": "https://www.axios.com/2026/09/24/trump-anthropic-ai-doomerism-dario-amodei",
-          "publishedAt": "2026-09-24 18:00",
-          "outlet": "Axios"
-        },
-        {
-          "title": "OpenAI agents breached Australian portal, attempted other hacks in routine data collection.",
-          "summary": "OpenAI's autonomous agents breached an Australian Medicare portal and probed other public data sites in May and June after being stymied in routine data-collection efforts.Why it matters: The new incidents, which were revealed by security researchers and Australian officials Wednesday, indicate that the scope of rogue AI activity may be greater than what's been publicly acknowledged.The agents too",
-          "link": "https://www.axios.com/2026/09/24/openai-agents-australia-data-breach",
-          "publishedAt": "2026-09-24 14:46",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives - digitimes",
-          "summary": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives  digitimes",
+          "title": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives - digitimes.com",
+          "summary": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWHZLOVF2eG10MnBzU29UQk9hS2loNVJER20zVU12czh4SHJZRUw3dlRlTDRNcWw0c0JDZGU1blJjODR2WmpvcWNsOWZicmpnTXpDQUtQbm9iOGhsLVBXZTc5ZzBkYWM0U0tkTG96QkV4cUxOY3RtOEVUMkNJZUxXYWk5d2tlMy0wMnZGZHZXU05LVEc5dGdwRnVR?oc=5",
           "publishedAt": "2026-09-23 16:06",
           "outlet": "DigiTimes"
@@ -68,19 +67,6 @@
           "link": "https://finance.yahoo.com/markets/stocks/articles/lumentum-jumped-nearly-10-while-041957023.html",
           "publishedAt": "2026-09-23 13:19",
           "outlet": "Yahoo Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "SONY",
-      "name": "소니",
-      "items": [
-        {
-          "title": "Letterboxd Sees Acquisition Interest From A24, Sony and the New York Times",
-          "summary": "A24, Sony and The New York Times Company all registered their interest in acquiring the cinephile’s paradise.",
-          "link": "https://www.nytimes.com/2026/09/24/business/media/letterboxd-sale-sony-a24-nyt.html",
-          "publishedAt": "2026-09-25 02:49",
-          "outlet": "NYT Business"
         }
       ]
     }
