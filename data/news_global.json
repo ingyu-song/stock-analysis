@@ -1,22 +1,9 @@
 {
-  "updatedAt": "2026-09-25 07:30",
+  "updatedAt": "2026-09-25 10:35",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Mark Zuckerberg predicts Muse will become a \"personal superintelligence\" for billions.",
-          "summary": "Meta on Wednesday debuted \"Muse Charm,\" a new, keychain-sized AI handheld device it will use to bring its viral Muse assistant to the masses.Why it matters: Meta has raced ahead of OpenAI, Apple and other companies that are working on a new crop of small AI devices, revving up the massive interest Muse has generated in the market.\"We've packed a lot of technology in this little guy,\" Chief Executi",
-          "link": "https://www.axios.com/2026/09/23/meta-muse-ai-hardware-handheld-glasses",
-          "publishedAt": "2026-09-24 09:15",
-          "outlet": "Axios"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -43,8 +30,8 @@
           "outlet": "Axios"
         },
         {
-          "title": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives - digitimes.com",
-          "summary": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives  digitimes.com",
+          "title": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives - digitimes",
+          "summary": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives  digitimes",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWHZLOVF2eG10MnBzU29UQk9hS2loNVJER20zVU12czh4SHJZRUw3dlRlTDRNcWw0c0JDZGU1blJjODR2WmpvcWNsOWZicmpnTXpDQUtQbm9iOGhsLVBXZTc5ZzBkYWM0U0tkTG96QkV4cUxOY3RtOEVUMkNJZUxXYWk5d2tlMy0wMnZGZHZXU05LVEc5dGdwRnVR?oc=5",
           "publishedAt": "2026-09-23 16:06",
           "outlet": "DigiTimes"
