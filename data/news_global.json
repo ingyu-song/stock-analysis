@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26 16:48",
+  "updatedAt": "2026-09-26 22:10",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,13 +21,6 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
-        {
-          "title": "ShinyHunters hackers expanded attacks on Oracle’s PeopleSoft, Google says",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/shinyhunters-hackers-expanded-attacks-on-oracles-peoplesoft-google-says-4918395",
-          "publishedAt": "2026-09-26 11:13",
-          "outlet": "Investing.com"
-        },
         {
           "title": "Inside Trump's \"super intelligence\" naming problem",
           "summary": "President Trump is pushing world leaders and U.S. agencies to rename AI \"super intelligence.\"Why it matters: \"Superintelligence\" already has a distinct meaning in AI — and is fueling debates over whether the most advanced systems should be slowed or stopped.The big picture: Superintelligence — broadly, AI that surpasses human cognition — has become both an industry ambition and the focus of effort",
