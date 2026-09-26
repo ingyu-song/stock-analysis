@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26 10:38",
+  "updatedAt": "2026-09-26 16:48",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -22,6 +22,13 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "ShinyHunters hackers expanded attacks on Oracle’s PeopleSoft, Google says",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/shinyhunters-hackers-expanded-attacks-on-oracles-peoplesoft-google-says-4918395",
+          "publishedAt": "2026-09-26 11:13",
+          "outlet": "Investing.com"
+        },
+        {
           "title": "Inside Trump's \"super intelligence\" naming problem",
           "summary": "President Trump is pushing world leaders and U.S. agencies to rename AI \"super intelligence.\"Why it matters: \"Superintelligence\" already has a distinct meaning in AI — and is fueling debates over whether the most advanced systems should be slowed or stopped.The big picture: Superintelligence — broadly, AI that surpasses human cognition — has become both an industry ambition and the focus of effort",
           "link": "https://www.axios.com/2026/09/25/trump-ai-super-intelligence-tech-definition",
@@ -36,18 +43,18 @@
           "outlet": "The Information"
         },
         {
+          "title": "Anthropic joins OpenAI, Google DeepMind in Singapore - digitimes",
+          "summary": "Anthropic joins OpenAI, Google DeepMind in Singapore  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVU81MWY5U2NDeW4yYVd5UWhmZDNfZlJueEhYbTVuRGdHczBwMHducG42Mjlqc2d6V295TGIxSUx5REFlTXVzQzZxenp4aUhjOW9vMFREYkVnUDlnZkdyd3RHdHhPV3NaUDVhclZ3ZGFDOVJuMFNGMzl5VERBZS1Qa3k0SXhEd3A1cXVROUN5SXVfZjVt?oc=5",
+          "publishedAt": "2026-09-24 11:55",
+          "outlet": "DigiTimes"
+        },
+        {
           "title": "Google Nears Release of Flagship Gemini 4 AI Model - The Information",
           "summary": "Google Nears Release of Flagship Gemini 4 AI Model  The Information",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNXh3OWdvQ3NBQ240aUxVR2NOd0hsMTZITHFpQjFuZlhQMU5ZeWpfaHdNd21lZVlyRzZzcUo5OUhJVEcwVnlFWjkwSENSdkdqb1NMMUFMaWE0a2lwbkw2Z25rMFBUYXZWOTk4VEU0dnRhTWk5YkQ5bkx3VmROWV9pYm5FRVZ0MnlKV0Rqell0LWU?oc=5",
           "publishedAt": "2026-09-24 11:15",
           "outlet": "The Information"
-        },
-        {
-          "title": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives - digitimes",
-          "summary": "Qualcomm and Google eye Agentic AI, expand partnership to GoogleBook, automotives  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOWHZLOVF2eG10MnBzU29UQk9hS2loNVJER20zVU12czh4SHJZRUw3dlRlTDRNcWw0c0JDZGU1blJjODR2WmpvcWNsOWZicmpnTXpDQUtQbm9iOGhsLVBXZTc5ZzBkYWM0U0tkTG96QkV4cUxOY3RtOEVUMkNJZUxXYWk5d2tlMy0wMnZGZHZXU05LVEc5dGdwRnVR?oc=5",
-          "publishedAt": "2026-09-23 16:06",
-          "outlet": "DigiTimes"
         }
       ]
     },
