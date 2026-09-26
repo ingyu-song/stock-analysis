@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26 22:10",
+  "updatedAt": "2026-09-27 02:14",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "US jury says Apple owes record $5.7 billion in haptic technology patent case",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/us-jury-says-apple-owes-record-57-billion-in-haptic-technology-patent-case-4918591",
+          "publishedAt": "2026-09-26 23:36",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Inside Trump's \"super intelligence\" naming problem",
           "summary": "President Trump is pushing world leaders and U.S. agencies to rename AI \"super intelligence.\"Why it matters: \"Superintelligence\" already has a distinct meaning in AI — and is fueling debates over whether the most advanced systems should be slowed or stopped.The big picture: Superintelligence — broadly, AI that surpasses human cognition — has become both an industry ambition and the focus of effort",
@@ -21,6 +28,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "ShinyHunters hackers expanded attacks on Oracle’s PeopleSoft, Google says",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/shinyhunters-hackers-expanded-attacks-on-oracles-peoplesoft-google-says-4918395",
+          "publishedAt": "2026-09-26 11:13",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Inside Trump's \"super intelligence\" naming problem",
           "summary": "President Trump is pushing world leaders and U.S. agencies to rename AI \"super intelligence.\"Why it matters: \"Superintelligence\" already has a distinct meaning in AI — and is fueling debates over whether the most advanced systems should be slowed or stopped.The big picture: Superintelligence — broadly, AI that surpasses human cognition — has become both an industry ambition and the focus of effort",
@@ -36,13 +50,6 @@
           "outlet": "The Information"
         },
         {
-          "title": "Anthropic joins OpenAI, Google DeepMind in Singapore - digitimes",
-          "summary": "Anthropic joins OpenAI, Google DeepMind in Singapore  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPVU81MWY5U2NDeW4yYVd5UWhmZDNfZlJueEhYbTVuRGdHczBwMHducG42Mjlqc2d6V295TGIxSUx5REFlTXVzQzZxenp4aUhjOW9vMFREYkVnUDlnZkdyd3RHdHhPV3NaUDVhclZ3ZGFDOVJuMFNGMzl5VERBZS1Qa3k0SXhEd3A1cXVROUN5SXVfZjVt?oc=5",
-          "publishedAt": "2026-09-24 11:55",
-          "outlet": "DigiTimes"
-        },
-        {
           "title": "Google Nears Release of Flagship Gemini 4 AI Model - The Information",
           "summary": "Google Nears Release of Flagship Gemini 4 AI Model  The Information",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNXh3OWdvQ3NBQ240aUxVR2NOd0hsMTZITHFpQjFuZlhQMU5ZeWpfaHdNd21lZVlyRzZzcUo5OUhJVEcwVnlFWjkwSENSdkdqb1NMMUFMaWE0a2lwbkw2Z25rMFBUYXZWOTk4VEU0dnRhTWk5YkQ5bkx3VmROWV9pYm5FRVZ0MnlKV0Rqell0LWU?oc=5",
@@ -55,6 +62,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Interview: Intel director talks physical AI, business models, and robotics' future - digitimes",
+          "summary": "Interview: Intel director talks physical AI, business models, and robotics' future  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2UyeFRka0lpcjlvcDAyYWlJNVRsTnpJeW56RThFeVdOLTN5YU1rZFZ2eHhqMlV3cWFTaHVlZjJTTnR6OS1jbG9lZ1pVbDBhb29QYnFBQTRBUWQ1cy1jbGJ0alRVeFhiT1RrWVB0aG5IMU1NcDFFYzBwN1I3U2JhbEdSZE9LZXBaVHNJY1h2N1IzWmNPdmVKVXVn?oc=5",
+          "publishedAt": "2026-09-25 09:54",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "SK Hynix Is Eyeing Intel’s (INTC) Ohio Site. Why Micron (MU) Should Pay Attention",
           "summary": "",
