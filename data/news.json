@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27 23:06",
+  "updatedAt": "2026-09-28 03:28",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -8,6 +8,12 @@
       "name": "에이피알",
       "query": "에이피알 메디큐브",
       "items": [
+        {
+          "title": "“피부 관리 홈케어 시장은 좁다” 병원용 미용 기기 노리는 K뷰티",
+          "summary": "에이피알은 화장품 브랜드 ‘메디큐브’와 홈케어 기기 브랜드 ‘에이지알(AGE-R)’을 내세워, 작년에만 매출 1조5273억원을 올린, 이 시장의 신흥 강자다. 이 회사 관계자는 “피부과에서 에이피알의 전문 기기로 관리를...",
+          "link": "https://www.chosun.com/economy/market_trend/2026/09/28/XNRAH27PT5A7RC5VYDRRYXDY44/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+          "publishedAt": "2026-09-28 00:34"
+        },
         {
           "title": "K뷰티, 외국인 관광객 사로잡으러 홍대로",
           "summary": "뷰티 기기와 화장품으로 유명한 에이피알(APR)은 자사 브랜드 '메디큐브'의 첫 단독 매장을 홍대 상권에서 운영하고 있다. 이 회사 관계자는 \"홍대 상권은 쇼핑, 음식, 엔터테인먼트 등 다양한 콘텐츠가 밀집돼 외국인...",
@@ -91,12 +97,6 @@
           "summary": "에이피알은 넴코로부터 제품에 적용된 AI 기능에 대한 검증을 거쳐 해당 인증을 획득했다. 인증 대상은 메디큐브 에이지알(AGE-R)의 '부스터 프로 X2' AI 케어 모드다. 해당 기능은 피부 상태와 누적 사용 이력 등을...",
           "link": "https://www.thepublic.kr/news/articleView.html?idxno=319763",
           "publishedAt": "2026-09-23 08:16"
-        },
-        {
-          "title": "'화장품과 제약 사이' 새로운 경쟁 무대 생겼다 [최기자의 뷰티 인사이...",
-          "summary": "에이피알 역시 메디큐브를 중심으로 에너지 기반 의료기기와 스킨부스터 등을 준비하며 홈뷰티를 넘어 전문 시술 시장으로 사업 영역을 확대하는 움직임을 보이고 있다. 이는 단순한 사업 다각화와는 차이가 있다. 화장품...",
-          "link": "https://www.meconomynews.com/news/articleView.html?idxno=201907",
-          "publishedAt": "2026-09-23 00:00"
         }
       ]
     },
@@ -105,6 +105,12 @@
       "name": "애플",
       "query": "애플 AAPL",
       "items": [
+        {
+          "title": "트럼프, 앤트로픽 CEO와 백악관 비공개 만찬 추진",
+          "summary": "당시 만찬에는 샘 알트먼(Sam Altman) 오픈AI CEO, 젠슨 황(Jensen Huang) 엔비디아($NVDA) CEO, 마크 저커버그(Mark Zuckerberg) 메타($META) CEO, 팀 쿡(Tim Cook) 애플($AAPL) 이사회 의장 등이 참석했다. 미국 빅테크와 월가...",
+          "link": "https://www.tokenpost.kr/news/ai/414800",
+          "publishedAt": "2026-09-28 00:38"
+        },
         {
           "title": "애플, 아이폰 햅틱 특허 침해 인정돼 패소…57억달러 배상 판결",
           "summary": "애플(NAS:AAPL)이 아이폰과 애플워치 등에 적용된 진동(햅틱) 기술 특허를 침해해 57억달러(약 7조8천억원)가 넘는 손해배상금을 지급하게 됐다. 26일(현지시간) CNBC에 따르면 미국 샌디에이고 연방법원 배심원단은 햅틱...",
@@ -188,12 +194,6 @@
           "summary": "애플이 최근 출시한 M6·M5 프로 칩 탑재 맥 미니에서 스토리지 관련 두 가지 아쉬운 변화가 확인됐다.... 유튜버 AAPL Ch.가 블랙매직의 디스크 스피드 테스트 벤치마크 도구로 측정한 결과, 이 차이가 수치로...",
           "link": "https://www.wikitree.co.kr/articles/1161743",
           "publishedAt": "2026-09-23 23:10"
-        },
-        {
-          "title": "팀 드레이퍼, 애플(AAPL)·메타(META) 강력 비판...\"비트코인(BTC) 담아라...",
-          "summary": "미국의 억만장자 벤처 투자자 팀 드레이퍼(Tim Draper)가 애플(Apple, AAPL)과 메타 플랫폼스(Meta Platforms, META) 등 글로벌 빅테크 기업들이 비트코인(Bitcoin, BTC)을 준비자산으로 보유하지 않는 행태를 직격했다.정부의 방만한...",
-          "link": "http://coinreaders.com/259852",
-          "publishedAt": "2026-09-23 19:02"
         }
       ]
     },
@@ -300,6 +300,24 @@
       "query": "코인베이스 COIN",
       "items": [
         {
+          "title": "cbETH·stETH, SEC 직접 분류 안 해…ETH 환급은 별도 절차",
+          "summary": "FAQ는 코인베이스($COIN)의 cbETH와 리도의 stETH를 상품명으로 직접 분류하지 않았다. 개별 토큰의 판단은 소유권 구조와 발행·환급 방식 등 구체적인 사실관계에 따라 달라질 수 있다는 의미다. cbETH의 환급은 코인베이스...",
+          "link": "https://www.tokenpost.kr/news/policy/414806",
+          "publishedAt": "2026-09-28 01:10"
+        },
+        {
+          "title": "이더리움 8600달러 시나리오…코인베이스, IPO 공모주 신청 기능 추가",
+          "summary": "코인베이스($COIN)의 IPO 공모주 배정 기능, 스트래티지($MSTR) 거래, 폴리마켓 결제 사기 의혹도 주요 이슈로 떠올랐다. ◇ 이더리움 8600달러 시나리오 피터 브랜트(Peter Brandt)는 9월 21일 X에 장기 차트를 게시하며...",
+          "link": "https://www.tokenpost.kr/news/briefing/414801",
+          "publishedAt": "2026-09-28 00:40"
+        },
+        {
+          "title": "라이엇, 코인베이스 대출 2억달러 상환…비트코인 5,821개 담보 해제",
+          "summary": "라이엇 플랫폼스($RIOT)가 코인베이스($COIN) 대출 2억달러(약 2714억원)를 상환하고 담보로 잡혔던 비트코인(BTC) 5,821개를 풀었다. 비인크립토는 해제된 비트코인이 약 4억9400만달러(약 6704억원) 상당이라고 보도했다....",
+          "link": "https://www.tokenpost.kr/news/breaking/414799",
+          "publishedAt": "2026-09-28 00:24"
+        },
+        {
           "title": "오우라, 공모 상한 22억달러…청약 4배 몰려",
           "summary": "코인베이스($COIN)가 적격 이용자에게 오우라 IPO 청약을 지원한 사실도 본지가 앞서 보도했다. 이번 공모에서 실제로 오우라에 유입되는 금액은 신주 발행분인 약 5억9400만달러다. AI 데이터센터 전력...",
           "link": "https://www.tokenpost.kr/news/briefing/414769",
@@ -370,24 +388,6 @@
           "summary": "샤프링크게이밍($SBET)은 1.11%, 코인베이스($COIN)는 1.07%, 서클($CRCL)은 1.01% 올랐다. PURR는 1.28% 상승했다. 비트마인과 서클의 상승률 차이는 1.31%포인트다. 이날 수치는 미국 증시 정규장 개장 전 거래에서...",
           "link": "https://www.tokenpost.kr/news/market/414080",
           "publishedAt": "2026-09-25 20:22"
-        },
-        {
-          "title": "건당 5센트…AI 에이전트, 글래스노드 데이터 결제",
-          "summary": "결제 네트워크는 코인베이스($COIN)의 레이어2 네트워크인 베이스(Base)다. 코인베이스 계정을 보유한 이용자는 Coinbase for Agents를 통해 계정 잔액의 USDC를 사용할 수 있으며, 별도 지갑 이용자는 베이스 계정에...",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/413775",
-          "publishedAt": "2026-09-25 05:20"
-        },
-        {
-          "title": "\"보안 직원 사칭\"...코인베이스 이용자 울린 사기꾼, 징역 12년형",
-          "summary": "미국 가상자산 거래소 코인베이스(Coinbase, COIN) 이용자들을 사칭 사기로 속여 1,600만 달러에 달하는 가상자산을 가로챈 20대 남성이 징역형을 선고받았다. 9월 24일(현지시간) 가상자산 전문 매체 유투데이에 따르면...",
-          "link": "http://coinreaders.com/260056",
-          "publishedAt": "2026-09-25 02:02"
-        },
-        {
-          "title": "XRP 2억2422만달러 거래량, 업비트가 코인베이스 앞서",
-          "summary": "리플(XRP)의 하루 현물 거래량이 업비트에서 코인베이스($COIN)를 웃돌았다. 업비트가 코인베이스를 앞섰지만 바이낸스보다는 적어 특정 시점의 거래량 우위로 해석해야 한다. 코인글래스는 집계 시점 기준 업비트의...",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/413703",
-          "publishedAt": "2026-09-25 01:36"
         }
       ]
     },
@@ -646,7 +646,7 @@
           "publishedAt": "2026-09-26 06:01"
         },
         {
-          "title": "아르노家, LVMH 지배구조 단일화…디올 주가 17% 급등",
+          "title": "아르노家, LVMH 지배구조 대수술…디올 17% 급등",
           "summary": "시장에서는 LVMH보다 크리스찬 디올 주가가 훨씬 크게 움직였다. 9월 24일 오전 파리 증시에서 크리스찬 디올 주가는 한때 17.42% 상승했다. 같은 날 LVMH의 장중 상승폭은 최대 1.2% 수준이었다. 주가 차이를 만든...",
           "link": "http://www.ktnews.com/news/articleView.html?idxno=148845",
           "publishedAt": "2026-09-25 23:10"
@@ -705,12 +705,6 @@
           "summary": "JP모건은 뮤즈의 인기가 서버용 CPU 수요를 견인하고 있다며 인텔(NAS:INTC)과 AMD(NAS:AMD), 암 홀딩스(NAS:ARM), 마이크론(NAS:MU) 등 주요 반도체 제조업체들의 주가에도 호재로 작용할 것으로 예측했다. 뮤즈의 빠른 확산은...",
           "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4436271",
           "publishedAt": "2026-09-23 10:06"
-        },
-        {
-          "title": "[미국 특징주] 엔비디아 밸류에이션 '뚝'…이익 성장 지속성에 경고음",
-          "summary": "반도체 지수는 올해 들어 거의 76% 상승했으며, 메모리 반도체 기업 마이크론 테크놀로지(MU)와 엔비디아의 경쟁사인 인텔(INTC), AMD(AMD)가 각각 180% 넘게 오르며 상승세를 주도했다. 엔비디아는 이 지수 구성 종목 중...",
-          "link": "https://www.newspim.com/news/view/20260923000002",
-          "publishedAt": "2026-09-23 00:05"
         }
       ]
     },
@@ -766,18 +760,6 @@
           "summary": "당시 행사에는 하워드 러트닉 미 상무장관을 비롯한 정·관계 인사와 정의선 현대차그룹 회장, 코닝·어플라이드머티리얼즈 등 글로벌 기업 경영진 250여명이 참석했다. 이 회장은 이들과 교류하며 이건희 컬렉션을 한미...",
           "link": "https://www.newspim.com/news/view/20260923000748",
           "publishedAt": "2026-09-23 14:37"
-        },
-        {
-          "title": "[중국 특징주] BOE, 스크린 넘어 광전 융합으로…향후 20년 청사진 공개",
-          "summary": "이날 행사에서는 BOE가 화남이공대학, 국제반도체장비재료협회(SEMI), 중국광학광전자산업협회 액정분회, AMD, 하이신, TPV테크놀로지, 코닝, 인스타360 등과 함께 '빛으로 미래를 건설하자'는 산업 이니셔티브도...",
-          "link": "https://www.newspim.com/news/view/20260923000021",
-          "publishedAt": "2026-09-23 00:43"
-        },
-        {
-          "title": "[단독] BOE, '15:1 종횡비' TGV 유리 코어 기판 첫 공개",
-          "summary": "코닝도 IPC 2026에서 자사 TGV 유리 코어 기판을 전시했다. 코닝은 BOE와 디스플레이 패널은 물론 반도체 패키지 유리기판 분야에서도 협력 중이다. 코닝이 전시한 TGV 유리 코어 기판 원장 크기는 510x515mm다. 회로를...",
-          "link": "https://zdnet.co.kr/view/?no=20260922233454",
-          "publishedAt": "2026-09-23 00:00"
         }
       ]
     },

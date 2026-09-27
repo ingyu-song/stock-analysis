@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27 23:06",
+  "updatedAt": "2026-09-28 03:28",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -18,16 +18,22 @@
       ]
     },
     {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "Scoop: Anthropic's Dario Amodei to have White House dinner with Trump",
+          "summary": "President Trump plans to host Anthropic CEO Dario Amodei at a private White House dinner on Sunday evening, sources familiar told Axios.Why it matters: The dinner —the first one-on-one meeting between the two— is an indication of thawing relations between Anthropic and the administration, whose officials and allies have had longstanding tensions.Driving the news:  Trump and House Speaker Mike John",
+          "link": "https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite",
+          "publishedAt": "2026-09-28 00:26",
+          "outlet": "Axios"
+        }
+      ]
+    },
+    {
       "ticker": "INTC",
       "name": "인텔",
       "items": [
-        {
-          "title": "Interview: Intel director talks physical AI, business models, and robotics' future - digitimes",
-          "summary": "Interview: Intel director talks physical AI, business models, and robotics' future  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPQ2UyeFRka0lpcjlvcDAyYWlJNVRsTnpJeW56RThFeVdOLTN5YU1rZFZ2eHhqMlV3cWFTaHVlZjJTTnR6OS1jbG9lZ1pVbDBhb29QYnFBQTRBUWQ1cy1jbGJ0alRVeFhiT1RrWVB0aG5IMU1NcDFFYzBwN1I3U2JhbEdSZE9LZXBaVHNJY1h2N1IzWmNPdmVKVXVn?oc=5",
-          "publishedAt": "2026-09-25 09:54",
-          "outlet": "DigiTimes"
-        },
         {
           "title": "SK Hynix Is Eyeing Intel’s (INTC) Ohio Site. Why Micron (MU) Should Pay Attention",
           "summary": "",
