@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27 10:31",
+  "updatedAt": "2026-09-27 17:17",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -36,13 +36,6 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "ShinyHunters hackers expanded attacks on Oracle’s PeopleSoft, Google says",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/shinyhunters-hackers-expanded-attacks-on-oracles-peoplesoft-google-says-4918395",
-          "publishedAt": "2026-09-26 11:13",
-          "outlet": "Investing.com"
-        },
-        {
           "title": "Inside Trump's \"super intelligence\" naming problem",
           "summary": "President Trump is pushing world leaders and U.S. agencies to rename AI \"super intelligence.\"Why it matters: \"Superintelligence\" already has a distinct meaning in AI — and is fueling debates over whether the most advanced systems should be slowed or stopped.The big picture: Superintelligence — broadly, AI that surpasses human cognition — has become both an industry ambition and the focus of effort",
           "link": "https://www.axios.com/2026/09/25/trump-ai-super-intelligence-tech-definition",
@@ -55,13 +48,19 @@
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmgyX1dTWG0yMEZFb2RRTmNReFM1aVFxa3Vid2hqWmMzU1hQQTNBR0p3MXlJWWZadUEtZHpvWUtiUnluMHRkNHNsZjViU1Y2MUZKdExNdjg0cDlIbFltWEc5bHdySEMyakJvQUhfSTFGSXQ2Wk1EaVJIOTNCRWNZZzhhZUJ2SEdlM2luUmh2ekxhRlBjMkE?oc=5",
           "publishedAt": "2026-09-24 22:00",
           "outlet": "The Information"
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
+      "items": [
         {
-          "title": "Google Nears Release of Flagship Gemini 4 AI Model - The Information",
-          "summary": "Google Nears Release of Flagship Gemini 4 AI Model  The Information",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPNXh3OWdvQ3NBQ240aUxVR2NOd0hsMTZITHFpQjFuZlhQMU5ZeWpfaHdNd21lZVlyRzZzcUo5OUhJVEcwVnlFWjkwSENSdkdqb1NMMUFMaWE0a2lwbkw2Z25rMFBUYXZWOTk4VEU0dnRhTWk5YkQ5bkx3VmROWV9pYm5FRVZ0MnlKV0Rqell0LWU?oc=5",
-          "publishedAt": "2026-09-24 11:15",
-          "outlet": "The Information"
+          "title": "Armani to kick off stake sale talks with LVMH and L’Oréal",
+          "summary": "Fashion company to meet French groups and EssilorLuxottica in accordance with wishes of late founder Giorgio Armani",
+          "link": "https://www.ft.com/content/8dd0d877-5254-48d5-ae33-c181bf9d3c64?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-27 13:00",
+          "outlet": "Financial Times"
         }
       ]
     },
