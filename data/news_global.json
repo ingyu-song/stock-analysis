@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27 17:17",
+  "updatedAt": "2026-09-27 23:06",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,58 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Forget The Next MacBook Pro, Apple Has Something Much More Desirable - forbes.com",
-          "summary": "Forget The Next MacBook Pro, Apple Has Something Much More Desirable  forbes.com",
+          "title": "Forget The Next MacBook Pro, Apple Has Something Much More Desirable - Forbes",
+          "summary": "Forget The Next MacBook Pro, Apple Has Something Much More Desirable  Forbes",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQ29POUtIOUJ4VlJ0anZ0YklLOWZQU21uTUJNWXJhNHUtZEVrUHBvb3paV2lIcEo2RVlWbkFyOXZXeWFhdU5YVFpNc0wyTFFlMTA3UFA5UFhJWGRrUlhpTzE5eDVoZU9Cc2hpcHRjQ25KcEp1U0dMUFVLRmhlMlBqT1hGMkVfa3ZpRUF4NkpEczdoN2puQlo1SFh4V200T2sy?oc=5",
           "publishedAt": "2026-09-27 03:30",
           "outlet": "Forbes Markets"
-        },
-        {
-          "title": "US jury says Apple owes record $5.7 billion in haptic technology patent case",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/us-jury-says-apple-owes-record-57-billion-in-haptic-technology-patent-case-4918591",
-          "publishedAt": "2026-09-26 23:36",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "Inside Trump's \"super intelligence\" naming problem",
-          "summary": "President Trump is pushing world leaders and U.S. agencies to rename AI \"super intelligence.\"Why it matters: \"Superintelligence\" already has a distinct meaning in AI — and is fueling debates over whether the most advanced systems should be slowed or stopped.The big picture: Superintelligence — broadly, AI that surpasses human cognition — has become both an industry ambition and the focus of effort",
-          "link": "https://www.axios.com/2026/09/25/trump-ai-super-intelligence-tech-definition",
-          "publishedAt": "2026-09-26 03:10",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
-        {
-          "title": "Inside Trump's \"super intelligence\" naming problem",
-          "summary": "President Trump is pushing world leaders and U.S. agencies to rename AI \"super intelligence.\"Why it matters: \"Superintelligence\" already has a distinct meaning in AI — and is fueling debates over whether the most advanced systems should be slowed or stopped.The big picture: Superintelligence — broadly, AI that surpasses human cognition — has become both an industry ambition and the focus of effort",
-          "link": "https://www.axios.com/2026/09/25/trump-ai-super-intelligence-tech-definition",
-          "publishedAt": "2026-09-26 03:10",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Google, OpenAI and Anthropic AI Safety Group Takes Shape - The Information",
-          "summary": "Google, OpenAI and Anthropic AI Safety Group Takes Shape  The Information",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPRmgyX1dTWG0yMEZFb2RRTmNReFM1aVFxa3Vid2hqWmMzU1hQQTNBR0p3MXlJWWZadUEtZHpvWUtiUnluMHRkNHNsZjViU1Y2MUZKdExNdjg0cDlIbFltWEc5bHdySEMyakJvQUhfSTFGSXQ2Wk1EaVJIOTNCRWNZZzhhZUJ2SEdlM2luUmh2ekxhRlBjMkE?oc=5",
-          "publishedAt": "2026-09-24 22:00",
-          "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "MC.PA",
-      "name": "LVMH 모에헤네시",
-      "items": [
-        {
-          "title": "Armani to kick off stake sale talks with LVMH and L’Oréal",
-          "summary": "Fashion company to meet French groups and EssilorLuxottica in accordance with wishes of late founder Giorgio Armani",
-          "link": "https://www.ft.com/content/8dd0d877-5254-48d5-ae33-c181bf9d3c64?syn-25a6b1a6=1",
-          "publishedAt": "2026-09-27 13:00",
-          "outlet": "Financial Times"
         }
       ]
     },
