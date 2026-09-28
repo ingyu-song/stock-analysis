@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-26 09:44",
+  "updatedAt": "2026-09-28 12:19",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1355.28,
@@ -9,7 +9,7 @@
       "id": "kiwoom",
       "name": "키움 (ISA)",
       "cash": {
-        "KRW": 12926495
+        "KRW": 11560995
       }
     },
     {
@@ -48,10 +48,10 @@
       "ticker": "379810.KS",
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
-      "shares": 100,
+      "shares": 150,
       "price": 27665.0,
-      "costKRW": 2675550,
-      "costNative": 2675550
+      "costKRW": 4041050,
+      "costNative": 4041050
     },
     {
       "account": "mirae",
@@ -363,6 +363,17 @@
       "price": 27040,
       "currency": "KRW",
       "reason": "금리는 높고 고유가·고물가 상황인 데다 현재 시장에 공포심리까지 있어서, 슬슬 지수 분할매수를 시작해도 될 시점이라고 판단. 키움 계좌는 앞으로도 단일 종목은 한두 개만 유지하고 나머지는 지수 분할매수 용도로 쓸 예정."
+    },
+    {
+      "date": "2026-09-28",
+      "account": "kiwoom",
+      "ticker": "379810.KS",
+      "name": "KODEX 미국나스닥100",
+      "side": "buy",
+      "shares": 50,
+      "price": 27310,
+      "currency": "KRW",
+      "reason": "추가매수."
     }
   ]
 }
