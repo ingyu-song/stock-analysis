@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-28 16:00",
+  "updatedAt": "2026-09-29 00:34",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple ordered to pay $5.7bn after losing vibration tech patent suit",
+          "summary": "Audio firm Taction Technology claimed Apple infringed its patents for tech used to power device vibrations.",
+          "link": "https://www.bbc.co.uk/news/articles/c6je85n2vyleo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-09-28 20:16",
+          "outlet": "BBC Business"
+        },
         {
           "title": "AOC test-runs a Senate bid in upstate New York",
           "summary": "BUFFALO, N.Y. — Alexandria Ocasio-Cortez's flirtation with a 2028 Senate bid is getting real — more real than the presidential buzz around her might suggest.She's barnstorming through upstate New York, meeting with local officials, and kicking off a voter turnout program that could help her collect valuable data for a possible Senate campaign.Why it matters: Whether the House member from New York ",
@@ -21,6 +28,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "\"Window for action may close\" if AI begins improving itself, AI pioneers warn",
+          "summary": "Some of the world's foremost AI researchers and policy leaders — including at OpenAI, Anthropic and Microsoft — are warning that AI's growing ability to automate its own development could rapidly speed up its progress.Why it matters: Such a rapid scale-up in capabilities would leave governments and institutions with little time to prepare for or respond to the consequences, they say.In one scenari",
+          "link": "https://www.axios.com/2026/09/28/ai-pioneers-intelligence-explosion",
+          "publishedAt": "2026-09-29 00:00",
+          "outlet": "Axios"
+        },
         {
           "title": "Scoop: Anthropic's Dario Amodei to have White House dinner with Trump",
           "summary": "President Trump plans to host Anthropic CEO Dario Amodei at a private White House dinner on Sunday evening, sources familiar told Axios.Why it matters: The dinner —the first one-on-one meeting between the two— is an indication of thawing relations between Anthropic and the administration, whose officials and allies have had longstanding tensions.Driving the news:  Trump and House Speaker Mike John",
