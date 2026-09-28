@@ -168,7 +168,8 @@ def refresh_claude(rates, failures, dry_run):
     book["valueHistory"] = history
     book["lastUpdated"] = now_kst().isoformat()
 
-    ret = (total / book["startingAUM"] - 1) * 100 if book.get("startingAUM") else 0
+    invested = book.get("startingAUM", 0) + sum(f.get("amountKRW", 0) for f in book.get("cashFlows", []))
+    ret = (total / invested - 1) * 100 if invested else 0
     print(f"  AUM {total:,.0f} KRW ({ret:+.2f}% vs 시작)")
 
     if not dry_run:

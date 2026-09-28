@@ -2,7 +2,7 @@
   "startDate": "2026-08-12",
   "baseCurrency": "KRW",
   "startingAUM": 46500000,
-  "cash": 17039.80483922735,
+  "cash": 162289.80483922735,
   "holdings": [
     {
       "ticker": "MSFT",
@@ -11,20 +11,20 @@
       "shares": 18,
       "avgCost": 503.80999755859375,
       "firstBought": "2026-08-12",
-      "lastPrice": 516.17,
-      "lastPriceDate": "2026-09-26",
-      "marketValueKRW": 12591987.796799999
+      "lastPrice": 516.1699829101562,
+      "lastPriceDate": "2026-09-28",
+      "marketValueKRW": 12606202.701221922
     },
     {
       "ticker": "005930.KS",
       "name": "삼성전자",
       "currency": "KRW",
-      "shares": 131,
+      "shares": 128,
       "avgCost": 255500.0,
       "firstBought": "2026-08-12",
-      "lastPrice": 285500.0,
-      "lastPriceDate": "2026-09-26",
-      "marketValueKRW": 37400500.0
+      "lastPrice": 271750.0,
+      "lastPriceDate": "2026-09-28",
+      "marketValueKRW": 34784000.0
     },
     {
       "ticker": "D05.SI",
@@ -33,9 +33,9 @@
       "shares": 2,
       "avgCost": 75.87000274658203,
       "firstBought": "2026-08-12",
-      "lastPrice": 78.0,
-      "lastPriceDate": "2026-09-26",
-      "marketValueKRW": 165461.40000000002
+      "lastPrice": 78.44000244140625,
+      "lastPriceDate": "2026-09-28",
+      "marketValueKRW": 166482.62998168945
     }
   ],
   "decisions": [
@@ -86,6 +86,28 @@
       "portfolioValueAfter": 46500000,
       "cashAfter": 17040,
       "dryRun": false
+    },
+    {
+      "date": "2026-09-28",
+      "type": "withdrawal",
+      "portfolioValueBefore": 48388975,
+      "cashBefore": 17040,
+      "marketView": "리밸런싱 결정이 아니라 출금 처리입니다. 실제 계좌에서 670,000원이 출금돼 모의 포트폴리오도 같은 금액을 줄였습니다. 현금이 17,040원뿐이라 부족분은 가장 비중이 큰 삼성전자를 정수 주 단위로 최소한(3주)만 매도해 충당했습니다. 투자 판단이 아니며, 수익률 기준금액(순투입)도 같은 금액만큼 줄여서 수익률에는 영향을 주지 않습니다.",
+      "trades": [
+        {
+          "action": "sell",
+          "ticker": "005930.KS",
+          "name": "삼성전자",
+          "shares": 3,
+          "rationale": "출금 재원 마련용 기계적 매도. 보유 종목 중 비중이 가장 커서(72%) 여기서 줄이는 것이 집중도 면에서도 부담이 적음. 종목에 대한 견해 변화는 없음.",
+          "price": 271750.0,
+          "status": "filled"
+        }
+      ],
+      "portfolioValueAfter": 47718975,
+      "cashAfter": 162290,
+      "dryRun": false,
+      "withdrawalKRW": 670000
     }
   ],
   "valueHistory": [
@@ -214,7 +236,20 @@
       "totalValue": 50174989.00163923,
       "cash": 17039.80483922735,
       "equityValue": 50157949.1968
+    },
+    {
+      "date": "2026-09-28",
+      "totalValue": 47718975.13604283,
+      "cash": 162289.80483922735,
+      "equityValue": 47556685.33120361
     }
   ],
-  "lastUpdated": "2026-09-26T09:44:13.092015+09:00"
+  "lastUpdated": "2026-09-28T13:25:26.805720+09:00",
+  "cashFlows": [
+    {
+      "date": "2026-09-28",
+      "amountKRW": -670000,
+      "note": "실제 계좌에서 출금한 금액을 모의 포트폴리오에도 반영. 수익률 기준(순투입)에서 같은 금액을 뺀다."
+    }
+  ]
 }

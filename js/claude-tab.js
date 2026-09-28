@@ -29,15 +29,24 @@ function computeTotals(p) {
   return { equityValue, totalValue };
 }
 
+// A withdrawal is money leaving, not money lost — so returns are measured
+// against what is still invested, not the original starting AUM.
+function investedKRW(p) {
+  return p.startingAUM + (p.cashFlows || []).reduce((s, f) => s + (Number(f.amountKRW) || 0), 0);
+}
+
 function renderStats(p) {
   const { equityValue, totalValue } = computeTotals(p);
-  const returnPct = ((totalValue - p.startingAUM) / p.startingAUM) * 100;
+  const invested = investedKRW(p);
+  const returnPct = ((totalValue - invested) / invested) * 100;
 
   document.getElementById("claudeStartDate").textContent = p.startDate;
-  document.getElementById("claudeStartAUM").textContent = fmtKRW(p.startingAUM);
+  document.getElementById("claudeStartAUM").textContent = invested !== p.startingAUM
+    ? `${fmtKRW(p.startingAUM)} (출금 반영 순투입 ${fmtKRW(invested)})`
+    : fmtKRW(p.startingAUM);
   document.getElementById("claudeStatAUM").textContent = fmtKRW(totalValue);
   // the amount, not just the percentage — same shape as the real book's 총손익
-  const pnl = totalValue - p.startingAUM;
+  const pnl = totalValue - invested;
   const returnEl = document.getElementById("claudeStatReturn");
   const sign = Math.round(pnl) > 0 ? "+" : Math.round(pnl) < 0 ? "-" : "";
   returnEl.textContent = `${sign}₩${Math.abs(Math.round(pnl)).toLocaleString("en-US")} (${fmtPct(returnPct, true)})`;
@@ -207,6 +216,7 @@ function renderDecisionLog(p) {
             <span class="badge badge-muted">${d.date}</span>
             <span class="hint" style="margin:0;">AUM ${fmtKRW(d.portfolioValueBefore)} → ${fmtKRW(d.portfolioValueAfter)}</span>
             ${d.dryRun ? '<span class="badge badge-muted">DRY RUN</span>' : ""}
+            ${d.type === "withdrawal" ? '<span class="badge badge-muted">출금</span>' : ""}
           </div>
           <p style="font-size:13.5px; line-height:1.6; margin-bottom:10px;">${d.marketView}</p>
           ${tradeRows}

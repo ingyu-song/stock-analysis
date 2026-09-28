@@ -173,6 +173,11 @@ def build_prompt(portfolio: dict, priced_holdings: list, cash: float) -> str:
     lines = [
         f"오늘 날짜: {datetime.date.today().isoformat()}",
         f"시작 AUM: {portfolio['startingAUM']:,.0f}원 ({portfolio['startDate']})",
+        *(
+            [f"누적 출금: {-sum(f['amountKRW'] for f in portfolio['cashFlows']):,.0f}원 — 수익률은 출금을 뺀 순투입 "
+             f"{portfolio['startingAUM'] + sum(f['amountKRW'] for f in portfolio['cashFlows']):,.0f}원 기준"]
+            if portfolio.get("cashFlows") else []
+        ),
         f"현재 총자산(AUM): {total_value:,.0f}원",
         f"현금: {cash:,.0f}원 ({(cash/total_value*100 if total_value else 0):.1f}%)",
         "",

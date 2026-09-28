@@ -1479,7 +1479,8 @@ function initBenchmarks() {
     benchData = bench;
     if (claude && claude.startingAUM) {
       const equity = (claude.holdings || []).reduce((sum, h) => sum + (h.marketValueKRW || 0), 0);
-      claudeReturnPct = ((claude.cash + equity) / claude.startingAUM - 1) * 100;
+      const invested = claude.startingAUM + (claude.cashFlows || []).reduce((s, f) => s + (Number(f.amountKRW) || 0), 0);
+      claudeReturnPct = ((claude.cash + equity) / invested - 1) * 100;
     }
     renderBenchmarks();
   });
