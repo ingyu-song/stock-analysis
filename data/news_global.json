@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29 00:34",
+  "updatedAt": "2026-09-29 07:06",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,13 +14,6 @@
           "link": "https://www.bbc.co.uk/news/articles/c6je85n2vyleo?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-09-28 20:16",
           "outlet": "BBC Business"
-        },
-        {
-          "title": "AOC test-runs a Senate bid in upstate New York",
-          "summary": "BUFFALO, N.Y. — Alexandria Ocasio-Cortez's flirtation with a 2028 Senate bid is getting real — more real than the presidential buzz around her might suggest.She's barnstorming through upstate New York, meeting with local officials, and kicking off a voter turnout program that could help her collect valuable data for a possible Senate campaign.Why it matters: Whether the House member from New York ",
-          "link": "https://www.axios.com/2026/09/27/aoc-tests-senate-bid-new-york",
-          "publishedAt": "2026-09-28 06:45",
-          "outlet": "Axios"
         }
       ]
     },
@@ -34,12 +27,18 @@
           "link": "https://www.axios.com/2026/09/28/ai-pioneers-intelligence-explosion",
           "publishedAt": "2026-09-29 00:00",
           "outlet": "Axios"
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
         {
-          "title": "Scoop: Anthropic's Dario Amodei to have White House dinner with Trump",
-          "summary": "President Trump plans to host Anthropic CEO Dario Amodei at a private White House dinner on Sunday evening, sources familiar told Axios.Why it matters: The dinner —the first one-on-one meeting between the two— is an indication of thawing relations between Anthropic and the administration, whose officials and allies have had longstanding tensions.Driving the news:  Trump and House Speaker Mike John",
-          "link": "https://www.axios.com/2026/09/27/anthropic-trump-dario-amodei-dinner-invite",
-          "publishedAt": "2026-09-28 00:26",
+          "title": "Nvidia says new tool can contain rogue AI agents in \"milliseconds\"",
+          "summary": "Nvidia is deploying a new tool that it says can be used to prevent and contain rogue and potentially dangerous AI agents.Why it matters: The world's largest chip company has resisted calls to slow AI development over safety fears — arguing now that technological guardrails can keep rogue AI agents under control.Driving the news: Nvidia debuted the Nvidia Open Agent Safety Platform, which includes ",
+          "link": "https://www.axios.com/2026/09/28/nvidia-ai-agent-safety",
+          "publishedAt": "2026-09-29 06:20",
           "outlet": "Axios"
         }
       ]
