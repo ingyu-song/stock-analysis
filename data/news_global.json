@@ -1,18 +1,99 @@
 {
-  "updatedAt": "2026-09-29 17:38",
+  "updatedAt": "2026-09-30 00:57",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Apple’s new CEO moves to overhaul company to run faster and leaner, Bloomberg News reports",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apples-new-ceo-moves-to-overhaul-company-to-run-faster-and-leaner-bloomberg-news-reports-4923118",
+          "publishedAt": "2026-09-30 00:30",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Apple's foldable iPhone Duo faces low yields ahead of October launch - digitimes",
+          "summary": "Apple's foldable iPhone Duo faces low yields ahead of October launch  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSzhoc0RUNFUtbTg0ck1kQXVwSWdYcWVrSjMxcVA1YzR5NmtLSzAtZ1Z6MHhQdHZEX3lxc09qbU80RlB3RFhDY3UwSlA3Y1ZOOV9WRmh4UWpZREZBMWR5WHh6bVcxSkRrbmVPRS10RVNWSmdPajFYWjN2aHpKUkNYYndkN3N1Nnp2OUdpWUN3Skd0VzNH?oc=5",
+          "publishedAt": "2026-09-29 10:38",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Apple iOS 27.0.1 Out Now: Core Bug Fixes Land For All iPhone Users - Forbes",
+          "summary": "Apple iOS 27.0.1 Out Now: Core Bug Fixes Land For All iPhone Users  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWk1oZnpjLWxYa2dXWGFfSUZpVWJjaFNjSXpUM2dqTTY2MWpHLWdpOS1ON3JuRTFMaUVDVldOVVFURU1DX2FyTnJhSFF6WVpPaVh5N3ZqRWdZZnFxYVk4YnN4SlEtOGpZRDNybFNnVDhnVGxpNkxJMlcxNjg1c01qUTJSMUZuLVdVNjNDTmY3OHFEMF9PdEZXV1UtMmN0WDZXdUV1bU9UQ0RTczE5d2VCR29ONjRqUU5Cd29leXhWMG9WRXVFUW40bW13?oc=5",
+          "publishedAt": "2026-09-29 03:00",
+          "outlet": "Forbes Markets"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
-          "title": "\"Window for action may close\" if AI begins improving itself, AI pioneers warn",
-          "summary": "Some of the world's foremost AI researchers and policy leaders — including at OpenAI, Anthropic and Microsoft — are warning that AI's growing ability to automate its own development could rapidly speed up its progress.Why it matters: Such a rapid scale-up in capabilities would leave governments and institutions with little time to prepare for or respond to the consequences, they say.In one scenari",
-          "link": "https://www.axios.com/2026/09/28/ai-pioneers-intelligence-explosion",
-          "publishedAt": "2026-09-29 00:00",
+          "title": "Google challenges EU orders to open up to AI, search-engine rivals",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/google-challenges-eu-orders-to-open-up-to-ai-searchengine-rivals-4921578",
+          "publishedAt": "2026-09-30 00:36",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Exclusive: Full list of attendees at White House AI lunch",
+          "summary": "A host of industry titans and Washington power players are slated to meet with President Trump and House Speaker Mike Johnson on Tuesday for a crucial meeting on AI as calls for government intervention mount. Why it matters: The Trump administration wants to take a hands off approach and rely on the industry's own expertise to set guardrails. A list of RSVPs obtained by Axios shows 31 confirmed at",
+          "link": "https://www.axios.com/2026/09/29/trump-ai-meeting-list-ceos-johnson",
+          "publishedAt": "2026-09-29 22:40",
+          "outlet": "Axios"
+        },
+        {
+          "title": "The future is AI vs. AI",
+          "summary": "More AI is the surest solution to an emerging AI security crisis, industry execs and researchers say.Why it matters: The revelation in Axios that researchers are investigating tens of thousands of problematic AI security incidents — rather than the dozens that had been publicly revealed — raised questions about whether AI leaders have control over their technology.Nvidia CEO Jensen Huang sought to",
+          "link": "https://www.axios.com/2026/09/29/the-future-is-ai-vs-ai",
+          "publishedAt": "2026-09-29 18:50",
+          "outlet": "Axios"
+        },
+        {
+          "title": "The AI industry's contradictions take center stage in Washington, Silicon Valley",
+          "summary": "In Washington, DC and San Francisco this week, the promise of AI will be front and center — even as warnings about the dangers of the technology swirl in the background.Why it matters: The country is struggling to reconcile alarming AI disclosures from the same industry players eager to show off their latest, most advanced tech.Meanwhile in Washington, administration officials hold deep-seated ske",
+          "link": "https://www.axios.com/2026/09/29/washington-ai-regulation-openai-devday-anthropic",
+          "publishedAt": "2026-09-29 18:00",
+          "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
+      "items": [
+        {
+          "title": "The future is AI vs. AI",
+          "summary": "More AI is the surest solution to an emerging AI security crisis, industry execs and researchers say.Why it matters: The revelation in Axios that researchers are investigating tens of thousands of problematic AI security incidents — rather than the dozens that had been publicly revealed — raised questions about whether AI leaders have control over their technology.Nvidia CEO Jensen Huang sought to",
+          "link": "https://www.axios.com/2026/09/29/the-future-is-ai-vs-ai",
+          "publishedAt": "2026-09-29 18:50",
+          "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "items": [
+        {
+          "title": "Exclusive: Full list of attendees at White House AI lunch",
+          "summary": "A host of industry titans and Washington power players are slated to meet with President Trump and House Speaker Mike Johnson on Tuesday for a crucial meeting on AI as calls for government intervention mount. Why it matters: The Trump administration wants to take a hands off approach and rely on the industry's own expertise to set guardrails. A list of RSVPs obtained by Axios shows 31 confirmed at",
+          "link": "https://www.axios.com/2026/09/29/trump-ai-meeting-list-ceos-johnson",
+          "publishedAt": "2026-09-29 22:40",
+          "outlet": "Axios"
+        },
+        {
+          "title": "The future is AI vs. AI",
+          "summary": "More AI is the surest solution to an emerging AI security crisis, industry execs and researchers say.Why it matters: The revelation in Axios that researchers are investigating tens of thousands of problematic AI security incidents — rather than the dozens that had been publicly revealed — raised questions about whether AI leaders have control over their technology.Nvidia CEO Jensen Huang sought to",
+          "link": "https://www.axios.com/2026/09/29/the-future-is-ai-vs-ai",
+          "publishedAt": "2026-09-29 18:50",
           "outlet": "Axios"
         }
       ]
