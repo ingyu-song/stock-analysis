@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30 00:57",
+  "updatedAt": "2026-09-30 05:52",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple’s new CEO moves to overhaul company to run faster and leaner, Bloomberg News reports",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/apples-new-ceo-moves-to-overhaul-company-to-run-faster-and-leaner-bloomberg-news-reports-4923118",
-          "publishedAt": "2026-09-30 00:30",
-          "outlet": "Investing.com"
+          "title": "Meet OpenAI's \"dots\" — a new AI assistant meant to take on Meta's Muse.",
+          "summary": "OpenAI launched dots, its take on the AI assistant and an answer to Meta's Muse, a personal agent that has gone viral and moved markets since its release.Why it matters: ChatGPT defined the chatbot era, but that status will have to be earned again as the world shifts from talking with AI to making it go out and do things.What they're saying: \"This is the real deal version of AI we've always imagin",
+          "link": "https://www.axios.com/2026/09/29/openai-dots-ai-assistant-devday",
+          "publishedAt": "2026-09-30 02:15",
+          "outlet": "Axios"
         },
         {
           "title": "Apple's foldable iPhone Duo faces low yields ahead of October launch - digitimes",
@@ -21,13 +21,6 @@
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSzhoc0RUNFUtbTg0ck1kQXVwSWdYcWVrSjMxcVA1YzR5NmtLSzAtZ1Z6MHhQdHZEX3lxc09qbU80RlB3RFhDY3UwSlA3Y1ZOOV9WRmh4UWpZREZBMWR5WHh6bVcxSkRrbmVPRS10RVNWSmdPajFYWjN2aHpKUkNYYndkN3N1Nnp2OUdpWUN3Skd0VzNH?oc=5",
           "publishedAt": "2026-09-29 10:38",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Apple iOS 27.0.1 Out Now: Core Bug Fixes Land For All iPhone Users - Forbes",
-          "summary": "Apple iOS 27.0.1 Out Now: Core Bug Fixes Land For All iPhone Users  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNWk1oZnpjLWxYa2dXWGFfSUZpVWJjaFNjSXpUM2dqTTY2MWpHLWdpOS1ON3JuRTFMaUVDVldOVVFURU1DX2FyTnJhSFF6WVpPaVh5N3ZqRWdZZnFxYVk4YnN4SlEtOGpZRDNybFNnVDhnVGxpNkxJMlcxNjg1c01qUTJSMUZuLVdVNjNDTmY3OHFEMF9PdEZXV1UtMmN0WDZXdUV1bU9UQ0RTczE5d2VCR29ONjRqUU5Cd29leXhWMG9WRXVFUW40bW13?oc=5",
-          "publishedAt": "2026-09-29 03:00",
-          "outlet": "Forbes Markets"
         }
       ]
     },
@@ -35,13 +28,6 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
-        {
-          "title": "Google challenges EU orders to open up to AI, search-engine rivals",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/google-challenges-eu-orders-to-open-up-to-ai-searchengine-rivals-4921578",
-          "publishedAt": "2026-09-30 00:36",
-          "outlet": "Investing.com"
-        },
         {
           "title": "Exclusive: Full list of attendees at White House AI lunch",
           "summary": "A host of industry titans and Washington power players are slated to meet with President Trump and House Speaker Mike Johnson on Tuesday for a crucial meeting on AI as calls for government intervention mount. Why it matters: The Trump administration wants to take a hands off approach and rely on the industry's own expertise to set guardrails. A list of RSVPs obtained by Axios shows 31 confirmed at",
@@ -94,19 +80,6 @@
           "summary": "More AI is the surest solution to an emerging AI security crisis, industry execs and researchers say.Why it matters: The revelation in Axios that researchers are investigating tens of thousands of problematic AI security incidents — rather than the dozens that had been publicly revealed — raised questions about whether AI leaders have control over their technology.Nvidia CEO Jensen Huang sought to",
           "link": "https://www.axios.com/2026/09/29/the-future-is-ai-vs-ai",
           "publishedAt": "2026-09-29 18:50",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "Nvidia says new tool can contain rogue AI agents in \"milliseconds\"",
-          "summary": "Nvidia is deploying a new tool that it says can be used to prevent and contain rogue and potentially dangerous AI agents.Why it matters: The world's largest chip company has resisted calls to slow AI development over safety fears — arguing now that technological guardrails can keep rogue AI agents under control.Driving the news: Nvidia debuted the Nvidia Open Agent Safety Platform, which includes ",
-          "link": "https://www.axios.com/2026/09/28/nvidia-ai-agent-safety",
-          "publishedAt": "2026-09-29 06:20",
           "outlet": "Axios"
         }
       ]
