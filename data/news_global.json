@@ -1,22 +1,9 @@
 {
-  "updatedAt": "2026-09-29 07:06",
+  "updatedAt": "2026-09-29 11:02",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Apple ordered to pay $5.7bn after losing vibration tech patent suit",
-          "summary": "Audio firm Taction Technology claimed Apple infringed its patents for tech used to power device vibrations.",
-          "link": "https://www.bbc.co.uk/news/articles/c6je85n2vyleo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-09-28 20:16",
-          "outlet": "BBC Business"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
