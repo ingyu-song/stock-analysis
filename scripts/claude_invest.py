@@ -236,10 +236,12 @@ def ask_claude(prompt: str) -> str:
     client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
     response = client.messages.create(
         model="claude-sonnet-5",
-        max_tokens=2048,
+        max_tokens=4096,
         system=SYSTEM_PROMPT,
         messages=[{"role": "user", "content": prompt}],
     )
+    if response.stop_reason == "max_tokens":
+        print("  ! response hit max_tokens and was truncated", file=__import__("sys").stderr)
     return "".join(b.text for b in response.content if b.type == "text").strip()
 
 
