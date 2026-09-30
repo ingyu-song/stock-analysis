@@ -167,7 +167,9 @@ def price_holdings(holdings: list, fx: dict) -> list:
     return priced
 
 
-def build_prompt(portfolio: dict, priced_holdings: list, cash: float) -> str:
+def build_context_lines(portfolio: dict, priced_holdings: list, cash: float) -> list:
+    """Shared with the --ask consult path, so a question is answered against the
+    same picture of the book the monthly decision would see."""
     equity_value = sum(h["marketValueKRW"] for h in priced_holdings)
     total_value = cash + equity_value
     lines = [
@@ -202,12 +204,43 @@ def build_prompt(portfolio: dict, priced_holdings: list, cash: float) -> str:
             for t in d["trades"]:
                 lines.append(f"    · {t['action']} {t['ticker']} {t['shares']}주 — {t['rationale'][:80]}")
 
+    return lines
+
+
+def build_prompt(portfolio: dict, priced_holdings: list, cash: float) -> str:
+    lines = build_context_lines(portfolio, priced_holdings, cash)
     lines.append("")
     lines.append(
         "이번 달 포트폴리오를 점검하고, record_decision 도구로 매매 결정을 제출하세요. "
         "매매가 필요 없다고 판단되면 trades를 빈 배열로 제출해도 됩니다."
     )
     return "\n".join(lines)
+
+
+def build_consult_prompt(portfolio: dict, priced_holdings: list, cash: float, question: str) -> str:
+    lines = build_context_lines(portfolio, priced_holdings, cash)
+    lines.append("")
+    lines.append(
+        "아래는 이 포트폴리오를 운용하는 사람이 직접 묻는 질문입니다. 도구 호출 없이, "
+        "위 맥락(투자 철학·현재 보유·직전 결정 이력)에 비추어 한국어로 답하세요. "
+        "이건 상담일 뿐 매매 지시가 아니니 record_decision을 호출하지 마세요."
+    )
+    lines.append(f"질문: {question}")
+    return "\n".join(lines)
+
+
+def ask_claude(prompt: str) -> str:
+    """Read-only consult: no tools, so nothing can be applied even by accident."""
+    import anthropic
+
+    client = anthropic.Anthropic(api_key=os.environ["ANTHROPIC_API_KEY"])
+    response = client.messages.create(
+        model="claude-sonnet-5",
+        max_tokens=2048,
+        system=SYSTEM_PROMPT,
+        messages=[{"role": "user", "content": prompt}],
+    )
+    return "".join(b.text for b in response.content if b.type == "text").strip()
 
 
 def call_claude(prompt: str) -> dict:
@@ -324,6 +357,7 @@ def apply_trades(decision: dict, holdings: list, cash: float, fx: dict):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--dry-run", action="store_true", help="Skip the Claude API call; use a canned decision")
+    parser.add_argument("--ask", metavar="QUESTION", help="Read-only: ask Claude something about the current book instead of running a decision. Writes nothing.")
     args = parser.parse_args()
 
     portfolio = load_portfolio()
@@ -337,6 +371,15 @@ def main():
     equity_before = sum(h["marketValueKRW"] for h in priced_holdings)
     total_before = cash_before + equity_before
     print(f"  AUM before: {total_before:,.0f} KRW (cash {cash_before:,.0f}, equity {equity_before:,.0f})")
+
+    if args.ask:
+        print("Asking Claude (read-only, nothing will be written)...")
+        prompt = build_consult_prompt(portfolio, priced_holdings, cash_before, args.ask)
+        answer = ask_claude(prompt)
+        print("\n----- ANSWER -----")
+        print(answer)
+        print("----- END -----")
+        return
 
     prompt = build_prompt(portfolio, priced_holdings, cash_before)
 

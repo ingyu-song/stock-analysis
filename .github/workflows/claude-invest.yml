@@ -10,6 +10,10 @@ on:
         description: "Dry run (skip the Claude API call, just test the pipeline)"
         type: boolean
         default: false
+      question:
+        description: "Optional: ask Claude something read-only about the current book instead of running a decision (ignores dry_run, writes nothing)"
+        type: string
+        default: ""
 
 permissions:
   contents: write
@@ -27,7 +31,14 @@ jobs:
       - name: Install dependencies
         run: pip install -r scripts/requirements.txt
 
+      - name: Ask Claude (read-only)
+        if: ${{ inputs.question != '' }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/claude_invest.py --ask "${{ inputs.question }}"
+
       - name: Run Claude investment decision
+        if: ${{ inputs.question == '' }}
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: |
@@ -38,6 +49,7 @@ jobs:
           fi
 
       - name: Commit updated portfolio
+        if: ${{ inputs.question == '' }}
         run: |
           git config user.name "claude-invest-bot"
           git config user.email "actions@users.noreply.github.com"
