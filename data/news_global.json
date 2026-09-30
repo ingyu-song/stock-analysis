@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30 09:32",
+  "updatedAt": "2026-09-30 15:48",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -29,11 +29,18 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google pays 100 publishers for AI-powered search content- The Information",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/google-pays-100-publishers-for-aipowered-search-content-the-information-93CH-4923899",
-          "publishedAt": "2026-09-30 08:54",
-          "outlet": "Investing.com"
+          "title": "AI industry moves to thwart data centre backlash ahead of US midterms",
+          "summary": "AI Infrastructure Coalition, whose members include Google, Meta and Microsoft, unveils commitments to cover energy costs and minimise water usage",
+          "link": "https://www.ft.com/content/9705f5bf-bc06-481d-b2a3-1299463074b8?syn-25a6b1a6=1",
+          "publishedAt": "2026-09-30 13:01",
+          "outlet": "Financial Times"
+        },
+        {
+          "title": "Google Is Paying About 100 Digital Publishers for AI Overviews - The Information",
+          "summary": "Google Is Paying About 100 Digital Publishers for AI Overviews  The Information",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS1lIS01OajkzU3ZZYVRYYXVTVHp6dlJzTExTei00MWVBWTdDVFV1QmI2ZlkteklnNGZ1cGtGZDhnMDFkNTZpSy1DX216cTd2VzZrWWpEZGFxREdqLWJ4TjA1RXkweF9ZanRIS290enpZOVBJQnFLdFBIbTVfNEk5RnJsTHhGeG1DRmdvMjh1bU0zVFU?oc=5",
+          "publishedAt": "2026-09-30 08:09",
+          "outlet": "The Information"
         },
         {
           "title": "Trump, top AI leaders agree to voluntary ​AI ​standards",
@@ -61,19 +68,6 @@
           "link": "https://www.axios.com/2026/09/29/trump-ai-meeting-list-ceos-johnson",
           "publishedAt": "2026-09-29 22:40",
           "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "GLW",
-      "name": "코닝",
-      "items": [
-        {
-          "title": "AT&T signs over $3 billion fiber deal with Corning as data demand surges - reuters.com",
-          "summary": "AT&T signs over $3 billion fiber deal with Corning as data demand surges  reuters.com",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQLTFBWVFQaDBka0NCQzJEb3Q1STFOQy1pSDFYTVhBaWt5Y3NGa0xiUGpYNDlES0xFdFN5S2ZBa3l2WFgxc2NxQk5DUkZaSFdVSGpDZkx5a0Jqc24tMGkxRURkSURrZGRnNVRZdjhkM3NhY3FiOFVvc2tVUnpWWXJXTTd1dzFac3NObDE4TWQ2RVpvZ0Q4VVFJVlBtRDFlMjdkX1lXal9fVF9TUF95bXg5RjdUNGpFdk1rRV9WQWNVUGFiTFdx?oc=5",
-          "publishedAt": "2026-09-29 22:31",
-          "outlet": "Reuters Business (via Google News)"
         }
       ]
     }
