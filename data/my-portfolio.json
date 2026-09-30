@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30 13:45",
+  "updatedAt": "2026-09-30 12:49",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1356.12,
@@ -405,7 +405,7 @@
       "shares": 1,
       "price": 1011000,
       "currency": "KRW",
-      "reason": "사유 확인 필요."
+      "reason": "한화에어로스페이스를 새로 커버리지에 넣고 분석을 시작하는 단계라, 일단 1주만 매수."
     }
   ]
 }
