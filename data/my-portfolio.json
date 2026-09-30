@@ -1,15 +1,15 @@
 {
-  "updatedAt": "2026-09-30 10:23",
+  "updatedAt": "2026-09-30 13:45",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1356.48,
-  "fxRateEUR": 1538.1,
+  "fxRate": 1356.12,
+  "fxRateEUR": 1535.4,
   "accounts": [
     {
       "id": "kiwoom",
       "name": "키움 (ISA)",
       "cash": {
-        "KRW": 11560995
+        "KRW": 10549995
       }
     },
     {
@@ -29,7 +29,7 @@
       "name": "제주반도체",
       "currency": "KRW",
       "shares": 5,
-      "price": 78700.0,
+      "price": 77400.0,
       "costKRW": 378000,
       "costNative": 378000
     },
@@ -39,7 +39,7 @@
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
       "shares": 50,
-      "price": 23565.0,
+      "price": 23535.0,
       "costKRW": 1186550,
       "costNative": 1186550
     },
@@ -49,7 +49,7 @@
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
       "shares": 150,
-      "price": 27345.0,
+      "price": 27280.0,
       "costKRW": 4041050,
       "costNative": 4041050
     },
@@ -132,6 +132,16 @@
       "price": 16.68,
       "costKRW": 884091,
       "costNative": 645.87
+    },
+    {
+      "account": "kiwoom",
+      "ticker": "012450.KS",
+      "name": "한화에어로스페이스",
+      "currency": "KRW",
+      "shares": 1,
+      "price": 1011000.0,
+      "costKRW": 1011000,
+      "costNative": 1011000
     }
   ],
   "risk": {
@@ -385,6 +395,17 @@
       "price": null,
       "currency": "EUR",
       "reason": "유로 예수금 중 670,000원어치를 원화로 환전해 이체(출금)함."
+    },
+    {
+      "date": "2026-09-30",
+      "account": "kiwoom",
+      "ticker": "012450.KS",
+      "name": "한화에어로스페이스",
+      "side": "buy",
+      "shares": 1,
+      "price": 1011000,
+      "currency": "KRW",
+      "reason": "사유 확인 필요."
     }
   ]
 }
