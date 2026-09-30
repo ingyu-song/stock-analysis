@@ -1,32 +1,40 @@
 {
-  "updatedAt": "2026-10-01 04:26",
+  "updatedAt": "2026-10-01 08:55",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "AI agents have a normal-people problem",
-          "summary": "AI companies are staking their future on the mass adoption of agents, hoping that they can solve the annoyances of modern life — email, travel bookings, online purchases.Why it matters: The frenzy around Meta's Muse shows there's serious consumer curiosity about the technology. But most Americans live life beyond a computer screen and find much of their meaning outside of the 9-5. There's little e",
-          "link": "https://www.axios.com/2026/09/30/ai-agents-adoption-meta-muse",
-          "publishedAt": "2026-09-30 18:30",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Google releases most advanced Gemini AI model",
+          "summary": "Tech giant hopes ‘Argon’ will help it re-establish itself at the frontier of artificial intelligence",
+          "link": "https://www.ft.com/content/46194a0b-a0e4-42cc-ad40-0df753492768?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-01 06:21",
+          "outlet": "Financial Times"
+        },
+        {
           "title": "Google Wants Hollywood to Stop Being So Afraid of Technology",
           "summary": "100 Zeros, a collaboration between Google and Range Media Partners, aims to give the tech giant a foothold in movies, TV and emerging forms of entertainment.",
           "link": "https://www.nytimes.com/2026/09/30/business/media/google-hollywood-krya-sedgwick.html",
-          "publishedAt": "2026-10-01 00:16",
+          "publishedAt": "2026-10-01 06:18",
           "outlet": "NYT Business"
+        },
+        {
+          "title": "Ask Trump's AI chatbot who won in 2020. You might not get an answer.",
+          "summary": "The Trump administration's new AI service gave users conflicting responses to politically sensitive questions Tuesday and Wednesday: sometimes answering them and sometimes refusing.The big picture: As the Trump administration increasingly uses AI and answers the public's questions through America.gov, statements carrying the government's authority are shaped by models, instructions and guardrails ",
+          "link": "https://www.axios.com/2026/09/30/trump-america-gov-ai-chatbot-conflicting-answers",
+          "publishedAt": "2026-10-01 05:47",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Google unveils long-awaited Gemini 4",
+          "summary": "Google is unveiling its long-awaited next-generation AI model, Gemini 4 Argon, to a small group of cybersecurity partners, the company said Wednesday. Why it matters: Gemini 4 arrives after a long gap at the top of Google's model lineup, in which the company kept rolling out smaller, cheaper Flash models while rivals OpenAI and Anthropic sprinted forward.  State of play: Google says Gemini 4 Argon",
+          "link": "https://www.axios.com/2026/09/30/google-gemini-4",
+          "publishedAt": "2026-10-01 05:21",
+          "outlet": "Axios"
         },
         {
           "title": "Behind’s Anthropic’s Eye-Watering $42 Billion Loss Sits Google And Amazon’s Massive Stake - Forbes",
@@ -34,20 +42,6 @@
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQjNiemJudVhnSVNvZ3RPbmhJb0ZVZ0wyVDVKaFoxeVdzcGxfZ05vdDA3T3JVRTdacDBjUm0wNE5pandJejFaaVAyeEhHc0NHc19JTHZKdGdKdHVNenZaOWpveWRnMERpbmtoRFh6SmxIMVN6bWdESVdUZE9hZFc0TlFQR283ZGZ6QUFsTm5JUHc1VmJlOUJpODNHUjNLM3pxcF93ZHhQN2dwcFRlRS12WXh5WmdOZUVscEdNNVlVWlJtWVBoX2x3?oc=5",
           "publishedAt": "2026-09-30 23:02",
           "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Trump's AI \"constitution\" crowns day of accelerating ambition",
-          "summary": "With America's tech titans crowded around a single White House table Tuesday, President Trump extracted what he called a \"morally binding\" compact on AI safety.The terms were simple: Press ahead, project optimism and police yourselves.Why it matters: The White House Accord on Super Intelligence, signed by OpenAI, Anthropic, Google, Meta, xAI and Nvidia, formalizes industry self-regulation as Washi",
-          "link": "https://www.axios.com/2026/09/30/ai-constitution-trump-white-house",
-          "publishedAt": "2026-09-30 18:33",
-          "outlet": "Axios"
-        },
-        {
-          "title": "AI agents have a normal-people problem",
-          "summary": "AI companies are staking their future on the mass adoption of agents, hoping that they can solve the annoyances of modern life — email, travel bookings, online purchases.Why it matters: The frenzy around Meta's Muse shows there's serious consumer curiosity about the technology. But most Americans live life beyond a computer screen and find much of their meaning outside of the 9-5. There's little e",
-          "link": "https://www.axios.com/2026/09/30/ai-agents-adoption-meta-muse",
-          "publishedAt": "2026-09-30 18:30",
-          "outlet": "Axios"
         },
         {
           "title": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use - digitimes",
