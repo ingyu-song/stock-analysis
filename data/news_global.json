@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30 05:52",
+  "updatedAt": "2026-09-30 09:32",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -29,37 +29,24 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Google pays 100 publishers for AI-powered search content- The Information",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/google-pays-100-publishers-for-aipowered-search-content-the-information-93CH-4923899",
+          "publishedAt": "2026-09-30 08:54",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Trump, top AI leaders agree to voluntary ​AI ​standards",
+          "summary": "President Trump said Tuesday that top AI executives agreed to voluntary standards aimed at increasing industry oversight.Why it matters: The agreement puts AI companies at the center of policing their own technology as pressure grows for stronger safeguards.Driving the news: Trump and Speaker Mike Johnson announced Tuesday afternoon that several AI titans signed a voluntary agreement, which they c",
+          "link": "https://www.axios.com/2026/09/29/trump-ai-voluntary-safety-white-house-zuckerberg",
+          "publishedAt": "2026-09-30 05:50",
+          "outlet": "Axios"
+        },
+        {
           "title": "Exclusive: Full list of attendees at White House AI lunch",
           "summary": "A host of industry titans and Washington power players are slated to meet with President Trump and House Speaker Mike Johnson on Tuesday for a crucial meeting on AI as calls for government intervention mount. Why it matters: The Trump administration wants to take a hands off approach and rely on the industry's own expertise to set guardrails. A list of RSVPs obtained by Axios shows 31 confirmed at",
           "link": "https://www.axios.com/2026/09/29/trump-ai-meeting-list-ceos-johnson",
           "publishedAt": "2026-09-29 22:40",
-          "outlet": "Axios"
-        },
-        {
-          "title": "The future is AI vs. AI",
-          "summary": "More AI is the surest solution to an emerging AI security crisis, industry execs and researchers say.Why it matters: The revelation in Axios that researchers are investigating tens of thousands of problematic AI security incidents — rather than the dozens that had been publicly revealed — raised questions about whether AI leaders have control over their technology.Nvidia CEO Jensen Huang sought to",
-          "link": "https://www.axios.com/2026/09/29/the-future-is-ai-vs-ai",
-          "publishedAt": "2026-09-29 18:50",
-          "outlet": "Axios"
-        },
-        {
-          "title": "The AI industry's contradictions take center stage in Washington, Silicon Valley",
-          "summary": "In Washington, DC and San Francisco this week, the promise of AI will be front and center — even as warnings about the dangers of the technology swirl in the background.Why it matters: The country is struggling to reconcile alarming AI disclosures from the same industry players eager to show off their latest, most advanced tech.Meanwhile in Washington, administration officials hold deep-seated ske",
-          "link": "https://www.axios.com/2026/09/29/washington-ai-regulation-openai-devday-anthropic",
-          "publishedAt": "2026-09-29 18:00",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWD",
-      "name": "크라우드스트라이크",
-      "items": [
-        {
-          "title": "The future is AI vs. AI",
-          "summary": "More AI is the surest solution to an emerging AI security crisis, industry execs and researchers say.Why it matters: The revelation in Axios that researchers are investigating tens of thousands of problematic AI security incidents — rather than the dozens that had been publicly revealed — raised questions about whether AI leaders have control over their technology.Nvidia CEO Jensen Huang sought to",
-          "link": "https://www.axios.com/2026/09/29/the-future-is-ai-vs-ai",
-          "publishedAt": "2026-09-29 18:50",
           "outlet": "Axios"
         }
       ]
@@ -74,13 +61,19 @@
           "link": "https://www.axios.com/2026/09/29/trump-ai-meeting-list-ceos-johnson",
           "publishedAt": "2026-09-29 22:40",
           "outlet": "Axios"
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "name": "코닝",
+      "items": [
         {
-          "title": "The future is AI vs. AI",
-          "summary": "More AI is the surest solution to an emerging AI security crisis, industry execs and researchers say.Why it matters: The revelation in Axios that researchers are investigating tens of thousands of problematic AI security incidents — rather than the dozens that had been publicly revealed — raised questions about whether AI leaders have control over their technology.Nvidia CEO Jensen Huang sought to",
-          "link": "https://www.axios.com/2026/09/29/the-future-is-ai-vs-ai",
-          "publishedAt": "2026-09-29 18:50",
-          "outlet": "Axios"
+          "title": "AT&T signs over $3 billion fiber deal with Corning as data demand surges - reuters.com",
+          "summary": "AT&T signs over $3 billion fiber deal with Corning as data demand surges  reuters.com",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQLTFBWVFQaDBka0NCQzJEb3Q1STFOQy1pSDFYTVhBaWt5Y3NGa0xiUGpYNDlES0xFdFN5S2ZBa3l2WFgxc2NxQk5DUkZaSFdVSGpDZkx5a0Jqc24tMGkxRURkSURrZGRnNVRZdjhkM3NhY3FiOFVvc2tVUnpWWXJXTTd1dzFac3NObDE4TWQ2RVpvZ0Q4VVFJVlBtRDFlMjdkX1lXal9fVF9TUF95bXg5RjdUNGpFdk1rRV9WQWNVUGFiTFdx?oc=5",
+          "publishedAt": "2026-09-29 22:31",
+          "outlet": "Reuters Business (via Google News)"
         }
       ]
     }
