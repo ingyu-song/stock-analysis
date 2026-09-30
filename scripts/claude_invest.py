@@ -224,8 +224,24 @@ def call_claude(prompt: str) -> dict:
     )
     for block in response.content:
         if block.type == "tool_use" and block.name == "record_decision":
+            validate_decision(block.input)
             return block.input
     raise RuntimeError("Claude did not return a record_decision tool call")
+
+
+def validate_decision(decision: dict) -> None:
+    """Guards against a tool call whose input didn't split cleanly into fields —
+    seen once (2026-09-30) as a market_view containing the entire trades payload
+    as trailing text, with trades left empty. That got committed silently
+    because nothing checked it; fail loudly instead so a bad run is visible."""
+    mv = decision.get("market_view", "")
+    markers = ("<parameter", "</market_view>", "record_decision")
+    if len(mv) > 800 or any(m in mv for m in markers):
+        raise RuntimeError(
+            f"market_view looks corrupted ({len(mv)} chars"
+            + (f", contains {[m for m in markers if m in mv]}" if any(m in mv for m in markers) else "")
+            + ") — the response likely didn't split into fields correctly. Refusing to commit it."
+        )
 
 
 def mock_decision() -> dict:
