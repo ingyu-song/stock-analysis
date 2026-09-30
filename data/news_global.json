@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30 22:49",
+  "updatedAt": "2026-10-01 04:26",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -22,6 +22,20 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Google Wants Hollywood to Stop Being So Afraid of Technology",
+          "summary": "100 Zeros, a collaboration between Google and Range Media Partners, aims to give the tech giant a foothold in movies, TV and emerging forms of entertainment.",
+          "link": "https://www.nytimes.com/2026/09/30/business/media/google-hollywood-krya-sedgwick.html",
+          "publishedAt": "2026-10-01 00:16",
+          "outlet": "NYT Business"
+        },
+        {
+          "title": "Behind’s Anthropic’s Eye-Watering $42 Billion Loss Sits Google And Amazon’s Massive Stake - Forbes",
+          "summary": "Behind’s Anthropic’s Eye-Watering $42 Billion Loss Sits Google And Amazon’s Massive Stake  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQjNiemJudVhnSVNvZ3RPbmhJb0ZVZ0wyVDVKaFoxeVdzcGxfZ05vdDA3T3JVRTdacDBjUm0wNE5pandJejFaaVAyeEhHc0NHc19JTHZKdGdKdHVNenZaOWpveWRnMERpbmtoRFh6SmxIMVN6bWdESVdUZE9hZFc0TlFQR283ZGZ6QUFsTm5JUHc1VmJlOUJpODNHUjNLM3pxcF93ZHhQN2dwcFRlRS12WXh5WmdOZUVscEdNNVlVWlJtWVBoX2x3?oc=5",
+          "publishedAt": "2026-09-30 23:02",
+          "outlet": "Forbes Markets"
+        },
+        {
           "title": "Trump's AI \"constitution\" crowns day of accelerating ambition",
           "summary": "With America's tech titans crowded around a single White House table Tuesday, President Trump extracted what he called a \"morally binding\" compact on AI safety.The terms were simple: Press ahead, project optimism and police yourselves.Why it matters: The White House Accord on Super Intelligence, signed by OpenAI, Anthropic, Google, Meta, xAI and Nvidia, formalizes industry self-regulation as Washi",
           "link": "https://www.axios.com/2026/09/30/ai-constitution-trump-white-house",
@@ -36,18 +50,31 @@
           "outlet": "Axios"
         },
         {
-          "title": "AI industry moves to thwart data centre backlash ahead of US midterms",
-          "summary": "AI Infrastructure Coalition, whose members include Google, Meta and Microsoft, unveils commitments to cover energy costs and minimise water usage",
-          "link": "https://www.ft.com/content/9705f5bf-bc06-481d-b2a3-1299463074b8?syn-25a6b1a6=1",
-          "publishedAt": "2026-09-30 13:01",
-          "outlet": "Financial Times"
+          "title": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use - digitimes",
+          "summary": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSmFMc2kxc18zMEVTNHlucE9pb1hFaS1WZU5KWWY4VGJsRWhhdnVsTWE4Y1dVZDE0OS1YdnA3VFJJc1Z0QW9IZUNORE9obnNQVTlDWGRlZjBhQjBwV1RtRnBfNW5uS2VGSTFIc2FlZmp2eFdESF82VGtTdnRxMzFvMExYZGl2Sjktbjl5NQ?oc=5",
+          "publishedAt": "2026-09-30 17:42",
+          "outlet": "DigiTimes"
         },
         {
-          "title": "Trump and top AI leaders agree to voluntary ​AI ​standards",
-          "summary": "President Trump said Tuesday that top AI executives agreed to voluntary standards aimed at increasing industry oversight.Why it matters: The agreement puts AI companies at the center of policing their own technology as pressure grows for stronger safeguards.Driving the news: Trump and Speaker Mike Johnson announced Tuesday afternoon that several AI titans signed a voluntary agreement, which they c",
-          "link": "https://www.axios.com/2026/09/29/trump-ai-voluntary-safety-white-house-zuckerberg",
-          "publishedAt": "2026-09-30 05:50",
-          "outlet": "Axios"
+          "title": "Google Is Paying About 100 Digital Publishers for AI Overviews - The Information",
+          "summary": "Google Is Paying About 100 Digital Publishers for AI Overviews  The Information",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS1lIS01OajkzU3ZZYVRYYXVTVHp6dlJzTExTei00MWVBWTdDVFV1QmI2ZlkteklnNGZ1cGtGZDhnMDFkNTZpSy1DX216cTd2VzZrWWpEZGFxREdqLWJ4TjA1RXkweF9ZanRIS290enpZOVBJQnFLdFBIbTVfNEk5RnJsTHhGeG1DRmdvMjh1bU0zVFU?oc=5",
+          "publishedAt": "2026-09-30 08:09",
+          "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "GLW",
+      "name": "코닝",
+      "items": [
+        {
+          "title": "AT&T and Corning strike more than US$3 billion fiber supply deal - digitimes",
+          "summary": "AT&T and Corning strike more than US$3 billion fiber supply deal  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPUVlpeHhRRFZVZ28yakl2UVYteHFTMmlSY0lOcDVZQVJvTkNETE16VEgyTEx2ZU1EOEQ5NEJ1MVoza3JsaklmQUxEcEV2WkxQYU5rMXhUb3ZTcTk4TGtScDJDN1JHUG9ZbXhDNlpLd0sxeWtydk5EWG5pYlFFRFFoZ0lVU002WWNjSS1qRWprVHJEeHM0V1h0QWRUeWxEOG1NOXFJcUlB?oc=5",
+          "publishedAt": "2026-09-30 12:06",
+          "outlet": "DigiTimes"
         }
       ]
     }
