@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30 15:48",
+  "updatedAt": "2026-09-30 22:49",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,18 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Meet OpenAI's \"dots\" — a new AI assistant meant to take on Meta's Muse.",
-          "summary": "OpenAI launched dots, its take on the AI assistant and an answer to Meta's Muse, a personal agent that has gone viral and moved markets since its release.Why it matters: ChatGPT defined the chatbot era, but that status will have to be earned again as the world shifts from talking with AI to making it go out and do things.What they're saying: \"This is the real deal version of AI we've always imagin",
-          "link": "https://www.axios.com/2026/09/29/openai-dots-ai-assistant-devday",
-          "publishedAt": "2026-09-30 02:15",
+          "title": "AI agents have a normal-people problem",
+          "summary": "AI companies are staking their future on the mass adoption of agents, hoping that they can solve the annoyances of modern life — email, travel bookings, online purchases.Why it matters: The frenzy around Meta's Muse shows there's serious consumer curiosity about the technology. But most Americans live life beyond a computer screen and find much of their meaning outside of the 9-5. There's little e",
+          "link": "https://www.axios.com/2026/09/30/ai-agents-adoption-meta-muse",
+          "publishedAt": "2026-09-30 18:30",
           "outlet": "Axios"
-        },
-        {
-          "title": "Apple's foldable iPhone Duo faces low yields ahead of October launch - digitimes",
-          "summary": "Apple's foldable iPhone Duo faces low yields ahead of October launch  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQSzhoc0RUNFUtbTg0ck1kQXVwSWdYcWVrSjMxcVA1YzR5NmtLSzAtZ1Z6MHhQdHZEX3lxc09qbU80RlB3RFhDY3UwSlA3Y1ZOOV9WRmh4UWpZREZBMWR5WHh6bVcxSkRrbmVPRS10RVNWSmdPajFYWjN2aHpKUkNYYndkN3N1Nnp2OUdpWUN3Skd0VzNH?oc=5",
-          "publishedAt": "2026-09-29 10:38",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -29,6 +22,20 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Trump's AI \"constitution\" crowns day of accelerating ambition",
+          "summary": "With America's tech titans crowded around a single White House table Tuesday, President Trump extracted what he called a \"morally binding\" compact on AI safety.The terms were simple: Press ahead, project optimism and police yourselves.Why it matters: The White House Accord on Super Intelligence, signed by OpenAI, Anthropic, Google, Meta, xAI and Nvidia, formalizes industry self-regulation as Washi",
+          "link": "https://www.axios.com/2026/09/30/ai-constitution-trump-white-house",
+          "publishedAt": "2026-09-30 18:33",
+          "outlet": "Axios"
+        },
+        {
+          "title": "AI agents have a normal-people problem",
+          "summary": "AI companies are staking their future on the mass adoption of agents, hoping that they can solve the annoyances of modern life — email, travel bookings, online purchases.Why it matters: The frenzy around Meta's Muse shows there's serious consumer curiosity about the technology. But most Americans live life beyond a computer screen and find much of their meaning outside of the 9-5. There's little e",
+          "link": "https://www.axios.com/2026/09/30/ai-agents-adoption-meta-muse",
+          "publishedAt": "2026-09-30 18:30",
+          "outlet": "Axios"
+        },
+        {
           "title": "AI industry moves to thwart data centre backlash ahead of US midterms",
           "summary": "AI Infrastructure Coalition, whose members include Google, Meta and Microsoft, unveils commitments to cover energy costs and minimise water usage",
           "link": "https://www.ft.com/content/9705f5bf-bc06-481d-b2a3-1299463074b8?syn-25a6b1a6=1",
@@ -36,37 +43,10 @@
           "outlet": "Financial Times"
         },
         {
-          "title": "Google Is Paying About 100 Digital Publishers for AI Overviews - The Information",
-          "summary": "Google Is Paying About 100 Digital Publishers for AI Overviews  The Information",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS1lIS01OajkzU3ZZYVRYYXVTVHp6dlJzTExTei00MWVBWTdDVFV1QmI2ZlkteklnNGZ1cGtGZDhnMDFkNTZpSy1DX216cTd2VzZrWWpEZGFxREdqLWJ4TjA1RXkweF9ZanRIS290enpZOVBJQnFLdFBIbTVfNEk5RnJsTHhGeG1DRmdvMjh1bU0zVFU?oc=5",
-          "publishedAt": "2026-09-30 08:09",
-          "outlet": "The Information"
-        },
-        {
-          "title": "Trump, top AI leaders agree to voluntary ​AI ​standards",
+          "title": "Trump and top AI leaders agree to voluntary ​AI ​standards",
           "summary": "President Trump said Tuesday that top AI executives agreed to voluntary standards aimed at increasing industry oversight.Why it matters: The agreement puts AI companies at the center of policing their own technology as pressure grows for stronger safeguards.Driving the news: Trump and Speaker Mike Johnson announced Tuesday afternoon that several AI titans signed a voluntary agreement, which they c",
           "link": "https://www.axios.com/2026/09/29/trump-ai-voluntary-safety-white-house-zuckerberg",
           "publishedAt": "2026-09-30 05:50",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Exclusive: Full list of attendees at White House AI lunch",
-          "summary": "A host of industry titans and Washington power players are slated to meet with President Trump and House Speaker Mike Johnson on Tuesday for a crucial meeting on AI as calls for government intervention mount. Why it matters: The Trump administration wants to take a hands off approach and rely on the industry's own expertise to set guardrails. A list of RSVPs obtained by Axios shows 31 confirmed at",
-          "link": "https://www.axios.com/2026/09/29/trump-ai-meeting-list-ceos-johnson",
-          "publishedAt": "2026-09-29 22:40",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "Exclusive: Full list of attendees at White House AI lunch",
-          "summary": "A host of industry titans and Washington power players are slated to meet with President Trump and House Speaker Mike Johnson on Tuesday for a crucial meeting on AI as calls for government intervention mount. Why it matters: The Trump administration wants to take a hands off approach and rely on the industry's own expertise to set guardrails. A list of RSVPs obtained by Axios shows 31 confirmed at",
-          "link": "https://www.axios.com/2026/09/29/trump-ai-meeting-list-ceos-johnson",
-          "publishedAt": "2026-09-29 22:40",
           "outlet": "Axios"
         }
       ]
