@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01 22:26",
+  "updatedAt": "2026-10-02 04:36",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,17 +9,24 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Citi says Gemini 4 launch removes “key overhang” from Google shares",
+          "title": "Alphabet C trapped between $325 support and $340 resistance: Live",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/citi-says-gemini-4-launch-removes-key-overhang-from-google-shares-4927499",
-          "publishedAt": "2026-10-01 22:03",
+          "link": "https://www.investing.com/news/stock-market-news/alphabet-c-tests-33690-support-below-ichimoku-cloud-live-levels-93CH-4920694",
+          "publishedAt": "2026-10-02 04:18",
           "outlet": "Investing.com"
+        },
+        {
+          "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
+          "summary": "Tech company releases Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackersGoogle on Wednesday said it would withhold its most powerful artificial intelligence model from the public for now, releasing Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers.“Safely releasing frontier capabilities at this level requires a phased a",
+          "link": "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
+          "publishedAt": "2026-10-02 01:47",
+          "outlet": "The Guardian Business"
         },
         {
           "title": "Stocks making the biggest moves premarket: Alphabet, Accenture, Rocket Lab, Micron and more",
           "summary": "These are the stocks posting the largest moves in the premarket.",
           "link": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-premarket-googl-acn-rklb-mu.html",
-          "publishedAt": "2026-10-01 21:43",
+          "publishedAt": "2026-10-02 00:14",
           "outlet": "CNBC Finance"
         },
         {
@@ -35,27 +42,6 @@
           "link": "https://www.axios.com/2026/09/30/trump-america-gov-ai-chatbot-conflicting-answers",
           "publishedAt": "2026-10-01 05:47",
           "outlet": "Axios"
-        },
-        {
-          "title": "Google unveils long-awaited Gemini 4",
-          "summary": "Google is unveiling its long-awaited next-generation AI model, Gemini 4 Argon, to a small group of cybersecurity partners, the company said Wednesday. Why it matters: Gemini 4 arrives after a long gap at the top of Google's model lineup, in which the company kept rolling out smaller, cheaper Flash models while rivals OpenAI and Anthropic sprinted forward.  State of play: Google says Gemini 4 Argon",
-          "link": "https://www.axios.com/2026/09/30/google-gemini-4",
-          "publishedAt": "2026-10-01 05:21",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Google asks EU court to suspend order to open up to AI chatbots, search engine rivals - reuters.com",
-          "summary": "Google asks EU court to suspend order to open up to AI chatbots, search engine rivals  reuters.com",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONnNtRVF3cTN2WHcyR1JTUDRpc3NocUVoS2tIRzdsancybUZIWUZ3dXBYWTlBUkdDYlJPaVV5NzF2bGFRWDJIY3NkVG1uZl8tNkFHQnd2Mm1HQlFVdWNGb1BWVUU5TGFRbHV6OFRrTmRkek5kTXlsSHExb3luOWpuMU9DVkpqOWwxMjhjbVRCNi03ZWRWTU85TFUzdFR5NFA4eXdPR1lkZUJpc3RFUzh6bUxoQlpGZVRqY2lISA?oc=5",
-          "publishedAt": "2026-10-01 02:36",
-          "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "Google And Amazon Are The Reason For Anthropic’s Eye-Watering $42 Billion Loss - Forbes",
-          "summary": "Google And Amazon Are The Reason For Anthropic’s Eye-Watering $42 Billion Loss  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOQjNiemJudVhnSVNvZ3RPbmhJb0ZVZ0wyVDVKaFoxeVdzcGxfZ05vdDA3T3JVRTdacDBjUm0wNE5pandJejFaaVAyeEhHc0NHc19JTHZKdGdKdHVNenZaOWpveWRnMERpbmtoRFh6SmxIMVN6bWdESVdUZE9hZFc0TlFQR283ZGZ6QUFsTm5JUHc1VmJlOUJpODNHUjNLM3pxcF93ZHhQN2dwcFRlRS12WXh5WmdOZUVscEdNNVlVWlJtWVBoX2x3?oc=5",
-          "publishedAt": "2026-09-30 23:02",
-          "outlet": "Forbes Markets"
         },
         {
           "title": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use - digitimes",
