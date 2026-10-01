@@ -1,39 +1,33 @@
 {
-  "updatedAt": "2026-10-01 15:03",
+  "updatedAt": "2026-10-01 22:26",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Big Tech out-lobbies European companies in Brussels",
-          "summary": "US corporations including Google, Apple and Amazon use their influence to push back against EU digital bloc rules",
-          "link": "https://www.ft.com/content/817f40f7-d4ac-43ee-beaf-12cfac08c621?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-01 13:00",
-          "outlet": "Financial Times"
-        }
-      ]
-    },
-    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Big Tech out-lobbies European companies in Brussels",
-          "summary": "US corporations including Google, Apple and Amazon use their influence to push back against EU digital bloc rules",
-          "link": "https://www.ft.com/content/817f40f7-d4ac-43ee-beaf-12cfac08c621?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-01 13:00",
-          "outlet": "Financial Times"
+          "title": "Citi says Gemini 4 launch removes “key overhang” from Google shares",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/citi-says-gemini-4-launch-removes-key-overhang-from-google-shares-4927499",
+          "publishedAt": "2026-10-01 22:03",
+          "outlet": "Investing.com"
         },
         {
-          "title": "Google Wants Hollywood to Stop Being So Afraid of Technology",
-          "summary": "100 Zeros, a collaboration between Google and Range Media Partners, aims to give the tech giant a foothold in movies, TV and emerging forms of entertainment.",
-          "link": "https://www.nytimes.com/2026/09/30/business/media/google-hollywood-krya-sedgwick.html",
-          "publishedAt": "2026-10-01 06:18",
-          "outlet": "NYT Business"
+          "title": "Stocks making the biggest moves premarket: Alphabet, Accenture, Rocket Lab, Micron and more",
+          "summary": "These are the stocks posting the largest moves in the premarket.",
+          "link": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-premarket-googl-acn-rklb-mu.html",
+          "publishedAt": "2026-10-01 21:43",
+          "outlet": "CNBC Finance"
+        },
+        {
+          "title": "Trump and CEOs try to shed AI's toxic branding",
+          "summary": "The great AI rebranding is on, led by President Trump and tech titans like Nvidia CEO Jensen Huang, who are embracing an alternative term: \"Superintelligence,\" or SI.Why it matters: Leaders in D.C. and Silicon Valley are worried the public backlash against AI and data centers will hamper the development of this staggeringly powerful and existentially dangerous technology. The new label is part of ",
+          "link": "https://www.axios.com/2026/10/01/superintelligence-si-ai-trump",
+          "publishedAt": "2026-10-01 18:35",
+          "outlet": "Axios"
         },
         {
           "title": "Ask Trump's AI chatbot who won in 2020. You might not get an answer.",
@@ -50,8 +44,8 @@
           "outlet": "Axios"
         },
         {
-          "title": "Google asks EU court to suspend order to open up to AI chatbots, search engine rivals - Reuters",
-          "summary": "Google asks EU court to suspend order to open up to AI chatbots, search engine rivals  Reuters",
+          "title": "Google asks EU court to suspend order to open up to AI chatbots, search engine rivals - reuters.com",
+          "summary": "Google asks EU court to suspend order to open up to AI chatbots, search engine rivals  reuters.com",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxONnNtRVF3cTN2WHcyR1JTUDRpc3NocUVoS2tIRzdsancybUZIWUZ3dXBYWTlBUkdDYlJPaVV5NzF2bGFRWDJIY3NkVG1uZl8tNkFHQnd2Mm1HQlFVdWNGb1BWVUU5TGFRbHV6OFRrTmRkek5kTXlsSHExb3luOWpuMU9DVkpqOWwxMjhjbVRCNi03ZWRWTU85TFUzdFR5NFA4eXdPR1lkZUJpc3RFUzh6bUxoQlpGZVRqY2lISA?oc=5",
           "publishedAt": "2026-10-01 02:36",
           "outlet": "Reuters Business (via Google News)"
@@ -69,13 +63,6 @@
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSmFMc2kxc18zMEVTNHlucE9pb1hFaS1WZU5KWWY4VGJsRWhhdnVsTWE4Y1dVZDE0OS1YdnA3VFJJc1Z0QW9IZUNORE9obnNQVTlDWGRlZjBhQjBwV1RtRnBfNW5uS2VGSTFIc2FlZmp2eFdESF82VGtTdnRxMzFvMExYZGl2Sjktbjl5NQ?oc=5",
           "publishedAt": "2026-09-30 17:42",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Google Is Paying About 100 Digital Publishers for AI Overviews - The Information",
-          "summary": "Google Is Paying About 100 Digital Publishers for AI Overviews  The Information",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOS1lIS01OajkzU3ZZYVRYYXVTVHp6dlJzTExTei00MWVBWTdDVFV1QmI2ZlkteklnNGZ1cGtGZDhnMDFkNTZpSy1DX216cTd2VzZrWWpEZGFxREdqLWJ4TjA1RXkweF9ZanRIS290enpZOVBJQnFLdFBIbTVfNEk5RnJsTHhGeG1DRmdvMjh1bU0zVFU?oc=5",
-          "publishedAt": "2026-09-30 08:09",
-          "outlet": "The Information"
         }
       ]
     }
