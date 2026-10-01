@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02 04:36",
+  "updatedAt": "2026-10-02 08:56",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
-        {
-          "title": "Alphabet C trapped between $325 support and $340 resistance: Live",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/alphabet-c-tests-33690-support-below-ichimoku-cloud-live-levels-93CH-4920694",
-          "publishedAt": "2026-10-02 04:18",
-          "outlet": "Investing.com"
-        },
         {
           "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
           "summary": "Tech company releases Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackersGoogle on Wednesday said it would withhold its most powerful artificial intelligence model from the public for now, releasing Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers.“Safely releasing frontier capabilities at this level requires a phased a",
@@ -30,22 +23,8 @@
           "outlet": "CNBC Finance"
         },
         {
-          "title": "Trump and CEOs try to shed AI's toxic branding",
-          "summary": "The great AI rebranding is on, led by President Trump and tech titans like Nvidia CEO Jensen Huang, who are embracing an alternative term: \"Superintelligence,\" or SI.Why it matters: Leaders in D.C. and Silicon Valley are worried the public backlash against AI and data centers will hamper the development of this staggeringly powerful and existentially dangerous technology. The new label is part of ",
-          "link": "https://www.axios.com/2026/10/01/superintelligence-si-ai-trump",
-          "publishedAt": "2026-10-01 18:35",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Ask Trump's AI chatbot who won in 2020. You might not get an answer.",
-          "summary": "The Trump administration's new AI service gave users conflicting responses to politically sensitive questions Tuesday and Wednesday: sometimes answering them and sometimes refusing.The big picture: As the Trump administration increasingly uses AI and answers the public's questions through America.gov, statements carrying the government's authority are shaped by models, instructions and guardrails ",
-          "link": "https://www.axios.com/2026/09/30/trump-america-gov-ai-chatbot-conflicting-answers",
-          "publishedAt": "2026-10-01 05:47",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use - digitimes",
-          "summary": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use  digitimes",
+          "title": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use - digitimes.com",
+          "summary": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use  digitimes.com",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSmFMc2kxc18zMEVTNHlucE9pb1hFaS1WZU5KWWY4VGJsRWhhdnVsTWE4Y1dVZDE0OS1YdnA3VFJJc1Z0QW9IZUNORE9obnNQVTlDWGRlZjBhQjBwV1RtRnBfNW5uS2VGSTFIc2FlZmp2eFdESF82VGtTdnRxMzFvMExYZGl2Sjktbjl5NQ?oc=5",
           "publishedAt": "2026-09-30 17:42",
           "outlet": "DigiTimes"
