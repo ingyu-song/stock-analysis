@@ -1,9 +1,22 @@
 {
-  "updatedAt": "2026-10-03 03:28",
+  "updatedAt": "2026-10-03 08:01",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
+    {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Apple says it will flag AI requests for Mac data after Meta’s Muse draws complaints",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apple-says-it-will-flag-ai-requests-for-mac-data-after-metas-muse-draws-complaints-4930505",
+          "publishedAt": "2026-10-03 07:48",
+          "outlet": "Investing.com"
+        }
+      ]
+    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -13,13 +26,6 @@
           "summary": "A small cadre of elite AI researchers is wielding extraordinary influence inside OpenAI and other leading companies, challenging executives, shaping policy and complicating negotiations with Washington.Why it matters: As a safety crisis has unfolded across the industry, it's an open question who is doing more to shape the national AI debate — top researchers or the executives they report to.The re",
           "link": "https://www.axios.com/2026/10/02/openai-anthropic-ai-researchers-rebellion",
           "publishedAt": "2026-10-02 18:30",
-          "outlet": "Axios"
-        },
-        {
-          "title": "\"We're not asking for charity\": Wikimedia CEO calls out AI for unpaid data use",
-          "summary": "Wikipedia is starting to feel the effects of the AI-driven shift in how people find information, with page views falling 8% in the latest year, new Wikimedia Foundation CEO Bernadette Meehan tells Axios.Why it matters: Wikipedia is a crucial source of information for AI models, but those same models increasingly allow people to get Wikipedia-derived information without ever visiting the site — pot",
-          "link": "https://www.axios.com/2026/10/02/wikipedia-ceo-ai-traffic-loss",
-          "publishedAt": "2026-10-02 18:00",
           "outlet": "Axios"
         },
         {
