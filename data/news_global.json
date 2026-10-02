@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02 08:56",
+  "updatedAt": "2026-10-02 14:46",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -23,8 +23,15 @@
           "outlet": "CNBC Finance"
         },
         {
-          "title": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use - digitimes.com",
-          "summary": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use  digitimes.com",
+          "title": "Google Unveils Gemini 4 Argon, Pricing It Well Below Rivals - The Information",
+          "summary": "Google Unveils Gemini 4 Argon, Pricing It Well Below Rivals  The Information",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbEMtMk5rVF81QzJ0VDBSdVlxbENpV3lvcEYycUxWSWtxTUl4YjZJQ2QtQjZ3SW1TaXlNNGNHYVhlZkZnWmNWMzc4RFJEdW1JSHhWVWVIWEYxcGZCVGF5QlZvRUZ0T1RDX2s3RVd6QURrZXJwc1pxOTdJY2wwMGRfOW8ydTl2TnBlQjZraGZCM0o2cTZn?oc=5",
+          "publishedAt": "2026-10-01 08:03",
+          "outlet": "The Information"
+        },
+        {
+          "title": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use - digitimes",
+          "summary": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use  digitimes",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSmFMc2kxc18zMEVTNHlucE9pb1hFaS1WZU5KWWY4VGJsRWhhdnVsTWE4Y1dVZDE0OS1YdnA3VFJJc1Z0QW9IZUNORE9obnNQVTlDWGRlZjBhQjBwV1RtRnBfNW5uS2VGSTFIc2FlZmp2eFdESF82VGtTdnRxMzFvMExYZGl2Sjktbjl5NQ?oc=5",
           "publishedAt": "2026-09-30 17:42",
           "outlet": "DigiTimes"
