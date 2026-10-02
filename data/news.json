@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02 21:44",
+  "updatedAt": "2026-10-03 03:28",
   "windowDays": 5,
   "source": "네이버 뉴스 검색 API",
   "coverage": [
@@ -75,15 +75,15 @@
           "publishedAt": "2026-10-01 10:16"
         },
         {
-          "title": "에이피알, 메디큐브 ‘로즈마리 PDRN 헤어케어’로 UAE 프리미엄 살롱 공...",
-          "summary": "▲ 에이피알 제공 에이피알은 메디큐브가 아랍에미리트(UAE)의 프리미엄 웰니스 살롱 체인인 ‘타라 로즈 살롱(TARA ROSE SALON)’과 손잡고 지난달 24일 현지 뷰티 인플루언서와 미디어 관계자들을 대상으로 론칭 쇼케이스를...",
-          "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065575025894912",
-          "publishedAt": "2026-10-01 10:14"
-        },
-        {
           "title": "메디큐브, UAE '타라 로즈 살롱'과 협업… 중동 인플루언서 공략 나선다",
           "summary": "글로벌 뷰티 기업 에이피알(대표이사 김병훈)의 메디큐브가 UAE의 대표적인 럭셔리 살롱 체인과의 공동 프로모션을 발판으로 현지 기능성 헤어케어 시장의 주도권 확보에 돌입했다. 에이피알은 UAE 현지 웰니스 뷰티 살롱...",
           "link": "http://www.sisunnews.co.kr/news/articleView.html?idxno=246946",
+          "publishedAt": "2026-10-01 10:14"
+        },
+        {
+          "title": "에이피알, 메디큐브 ‘로즈마리 PDRN 헤어케어’로 UAE 프리미엄 살롱 공...",
+          "summary": "▲ 에이피알 제공 에이피알은 메디큐브가 아랍에미리트(UAE)의 프리미엄 웰니스 살롱 체인인 ‘타라 로즈 살롱(TARA ROSE SALON)’과 손잡고 지난달 24일 현지 뷰티 인플루언서와 미디어 관계자들을 대상으로 론칭 쇼케이스를...",
+          "link": "https://www.megaeconomy.co.kr/news/newsview.php?ncode=1065575025894912",
           "publishedAt": "2026-10-01 10:14"
         },
         {
@@ -458,10 +458,10 @@
       "query": "크라우드스트라이크",
       "items": [
         {
-          "title": "대출·송금 돕던 AI가 '해커'로 … \"내 통장 털릴라\" 소비자 불안",
-          "summary": "글로벌 사이버 보안업체 크라우드스트라이크에 따르면 최초 침입 이후 다른 시스템으로 이동하는 데 걸리는 평균 시간은 29분이며, 가장 짧은 사례는 27초에 불과했다. 최근 금융권이 주목하는 AI의 공격 방식은...",
-          "link": "https://www.mk.co.kr/article/12167401",
-          "publishedAt": "2026-10-02 17:25"
+          "title": "美고용 쇼크에 금리인상 우려↓…나스닥 1%대 상승 출발",
+          "summary": "CNBC에 따르면 엔비디아, 크라우드스트라이크, 팔로알토네트웍스, AMD 주가는 장중 사상 최고치를 기록했다. 인텔과 AMD는 각각 3% 넘게 상승했다. 린지 로스너 골드만삭스자산운용 채권투자 책임자는 “오늘의 약한...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=06789606645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "publishedAt": "2026-10-02 23:12"
         },
         {
           "title": "3분기 반도체 울고 소프트웨어주 웃었다…짐 크레이머가 찍은 더 오를 ...",
@@ -555,6 +555,12 @@
       "query": "팔로알토네트웍스",
       "items": [
         {
+          "title": "美고용 쇼크에 금리인상 우려↓…나스닥 1%대 상승 출발",
+          "summary": "CNBC에 따르면 엔비디아, 크라우드스트라이크, 팔로알토네트웍스, AMD 주가는 장중 사상 최고치를 기록했다. 인텔과 AMD는 각각 3% 넘게 상승했다. 린지 로스너 골드만삭스자산운용 채권투자 책임자는 “오늘의 약한...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=06789606645608984&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "publishedAt": "2026-10-02 23:12"
+        },
+        {
           "title": "포춘500 인사책임자들이 말한 AI 시대 생존 조건",
           "summary": "팔로알토 네트웍스(Palo Alto Networks)의 다니엘 곤잘레스(Danielle Gonzalez) 최고인사책임자도 이런 변화를 현장에서 보고 있다. 회사는 직원들이 직접 시험해볼 수 있도록 노트북LM, 클로드, 제미나이 등을 제공했다. 자체...",
           "link": "https://www.fortunekorea.co.kr/news/articleView.html?idxno=54277",
@@ -631,12 +637,6 @@
           "summary": "사이버보안 기업 팔로알토 네트웍스에도 7589만달러, 스페이스X는 4869만달러, 스트래티지는 4047만달러, 클라우드플레어에는 3946만달러가 유입됐다. 이뿐만 아니라 미국 우량 배당주에 투자하는 슈왑 미국 배당주...",
           "link": "http://www.metroseoul.co.kr/article/20260930500311",
           "publishedAt": "2026-09-30 14:42"
-        },
-        {
-          "title": "문 다 막으니 벽 뚫는 10대 같다…통제 벗어나는 AI, AI가 감시한다",
-          "summary": "팔로알토네트웍스도 여러 AI 모델을 활용해 보안 취약점을 찾아내고 수정 방안을 제시하는 서비스를 최근 출시했다. AI가 AI를 감시하는 만큼 추가적인 연산 부담도 생긴다. 브래드 개스트워스 서큘러 테크놀로지 글로벌...",
-          "link": "https://www.newsis.com/view/NISX20260930_0003807956",
-          "publishedAt": "2026-09-30 10:26"
         }
       ]
     },
@@ -688,6 +688,12 @@
       "name": "인텔",
       "query": "인텔 INTC",
       "items": [
+        {
+          "title": "[AI MY 뉴스] 뉴욕 반도체주 프리뷰...美 고용 쇼크에 엔비디아 등 반도...",
+          "summary": "엔비디아(NVDA)를 비롯해 어드밴스트 마이크로 디바이시스(AMD), 브로드컴(AVGO), 인텔(INTC) 등 주요 반도체주는 개장 전 거래에서 일제히 상승하고 있다. 반면 데이터 저장장치 업체들은 급락하고 있다. 일본 도시바가 AI...",
+          "link": "https://www.newspim.com/news/view/20261002001313",
+          "publishedAt": "2026-10-02 22:22"
+        },
         {
           "title": "[미국 ETF 히든 챔피언] (56) 에이전틱 AI 시대 CPU 수혜 펀드는",
           "summary": "주도주인 인텔(INTC)과 AMD(AMD)의 편입 비중이 세 배 이상 차이나는 것으로 확인됐다. 9월30일 포트폴리오를 기준으로 SOXX가 인텔과 AMD를 각각 9.26%와 9.23% 편입해 두 종목의 비중이 18.49%로 집계됐다. SMH의...",
@@ -771,12 +777,6 @@
           "summary": "인공지능(AI) 안전성 우려가 다시 부각되면서 인텔(INTC)과 샌디스크(SNDK) 마벨테크놀로지(MRVL) 블룸에너지(BE) 등 AI 관련주가 동반 급락하고 있다. 28일(현지시간) 오전11시5분 현재 인텔 주가는 전거래일 대비 6.42...",
           "link": "https://www.edaily.co.kr/News/Read?newsId=01321846645585040&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
           "publishedAt": "2026-09-29 01:35"
-        },
-        {
-          "title": "퀄컴($QCOM) 6.96%·인텔($INTC) 4.62% 하락",
-          "summary": "퀄컴($QCOM)이 6.96%, 인텔($INTC)이 4.62% 하락하는 등 미국 반도체주가 동반 약세를 보였다는 보도가 나왔다. 블록비트는 28일 퀄컴과 인텔의 하락 소식을 전했다.",
-          "link": "https://www.tokenpost.kr/news/breaking/415256",
-          "publishedAt": "2026-09-28 23:42"
         }
       ]
     },
@@ -914,6 +914,12 @@
       "query": "제주반도체",
       "items": [
         {
+          "title": "삼성전자·SK하이닉스 등 반도체주에 9.1조 거래",
+          "summary": "이미지=아이클릭아트<2일 주식 거래대금 상위 50개 종목 분석> -거래대금 상위 50개 중 반도체주 9조1459억원…59.3% 차지 -SK하이닉스 3조7411억원·삼성전자 3조1674억원 거래 -제주반도체·주성엔지니어링·HPSP 등도...",
+          "link": "http://www.kjdaily.com/article.php?aid=1790950518688178276",
+          "publishedAt": "2026-10-02 23:16"
+        },
+        {
           "title": "코스피 7000선 회복···기관 매수에 0.46% 상승 마감",
           "summary": "에코프로는 4.47%, 로보티즈는 4.89%, 제주반도체는 4.76% 상승했다. 반면 ISC는 8.24%, 이오테크닉스는 5.67%, HPSP는 5.07% 하락했다. 이날 서울 외환시장에서 원·달러 환율은 전 거래일보다 7.8원 내린 1350.6원에...",
           "link": "http://www.enewstoday.co.kr/news/articleView.html?idxno=2476846",
@@ -974,6 +980,24 @@
       "name": "한화에어로스페이스",
       "query": "한화에어로스페이스",
       "items": [
+        {
+          "title": "1조9000억원 투입되는 KF-21 공대공 미사일, LIG·한화 공동개발 유력",
+          "summary": "LIG 디펜스&에어로스페이스(LIG D&A)와 한화에어로스페이스가 한국형 전투기 KF-21 보라매에 탑재할 첫 국산 장거리 공대공 미사일 개발사업의 핵심 분야를 나눠 맡게될 전망이다. 유럽산에 의존하는 KF-21의 장거리...",
+          "link": "https://www.chosun.com/economy/industry-company/2026/10/03/SCCI2PBDCRELZNO57NHV7MKQD4/?utm_source=naver&utm_medium=referral&utm_campaign=naver-news",
+          "publishedAt": "2026-10-03 00:49"
+        },
+        {
+          "title": "정의당 대전시당, 한화에어로스페이스 경영진 엄벌 촉구",
+          "summary": "정의당 대전시당(위원장 조선기, 이하 시당)이 한화에어로스페이스 경영진 엄벌을 촉구하고 나섰다. 시당은 2일 '473건의 산안법 위반과 반복되는 폭발 참사! 안전을 내팽개친 한화에어로스페이스와 경영진을 엄벌하고...",
+          "link": "https://www.newstnt.com/news/articleView.html?idxno=721396",
+          "publishedAt": "2026-10-02 23:56"
+        },
+        {
+          "title": "LIG D&A, 1.9조 KF-21 장거리 공대공 유도탄 개발 주도",
+          "summary": "나머지 시제 가운데 기체구조와 추진기관 분야에서는 한화에어로스페이스가 1순위에 올랐다. 현재 KF-21은 유럽 MBDA가 개발한 장거리 공대공 미사일 '미티어'를 운용한다. 군은 국산 유도탄을 개발해 장거리...",
+          "link": "https://www.thelec.kr/news/articleView.html?idxno=63221",
+          "publishedAt": "2026-10-02 22:42"
+        },
         {
           "title": "한화에어로스페이스, 협력사 글로벌 진출 지원 ‘투트랙’ 가동",
           "summary": "쿠키뉴스=강종효 기자 | 한화에어로스페이스가 국내 협력사의 해외시장 진출을 지원하기 위해 ‘동반진출’과 ‘현지화’ 투트랙 전략을 추진한다. 한화에어로스페이스는 29일 창원 그랜드 머큐어 앰배서더에서 59개...",
@@ -1045,24 +1069,6 @@
           "summary": "가장 주목을 받았던 체계개발(체계종합) 과제에서는 LIGD&A가, 추진기관 및 기체구조 개발 과제에서는 한화에어로스페이스가 각각 평가 결과 1순위로 선정됐다. LIGD&A는 체계개발을 포함한 5개 과제에서 1순위에 올랐다....",
           "link": "https://www.businesspost.co.kr/BP?command=article_view&num=448582",
           "publishedAt": "2026-10-02 17:34"
-        },
-        {
-          "title": "한화시스템 장거리 지대공 유도무기 최초 수출 기대감, 양기원 '우주·A...",
-          "summary": "한화시스템은 한화그룹이 지난 7월 발표한 55조 원 규모의 우주·AI 투자 계획에서 한화에어로스페이스와 함께 실시간 전장 데이터 자체 생성과 위성통신 자국화를 추진한다. 초저궤도 합성개구레이다(SAR) 위성, 우주 AI...",
-          "link": "https://www.businesspost.co.kr/BP?command=article_view&num=448558",
-          "publishedAt": "2026-10-02 17:30"
-        },
-        {
-          "title": "7000 탈환한 코스피, 美 고용지표·삼전실적 변수",
-          "summary": "한화에어로스페이스가 3%대, LIG디펜스앤에어로스페이스, 한화시스템 등이 4%대 상승했다. KF-21 유도탄 체계개발 사업자 선정 소식 또한 방산업종 호재로 작용했다. 5거래일 연속 질주를 이어갔던 코스닥은 이날 하락...",
-          "link": "https://www.mt.co.kr/stock/2026/10/02/2026100216393151389",
-          "publishedAt": "2026-10-02 17:29"
-        },
-        {
-          "title": "1.9조 미사일 사업…엔진은 한화·시스템은 LIG",
-          "summary": "핵심 기술로 꼽힌 추진기관 분야에서는 한화에어로스페이스가 우세했고, 체계종합 분야에서는 LIG디펜스앤에어로스페이스(LIG D&A)가 앞선 것으로 확인됐다. 1조9000억원이 투입되는 차세대 공대공 미사일 사업을 양대...",
-          "link": "https://www.mk.co.kr/article/12167408",
-          "publishedAt": "2026-10-02 17:29"
         }
       ]
     }
