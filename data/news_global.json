@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-02 14:46",
+  "updatedAt": "2026-10-02 21:45",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,18 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google rolls out new Gemini AI model but restricts access over safety concerns",
-          "summary": "Tech company releases Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackersGoogle on Wednesday said it would withhold its most powerful artificial intelligence model from the public for now, releasing Gemini 4 Argon only to a vetted group of cybersecurity experts to avoid misuse by hackers.“Safely releasing frontier capabilities at this level requires a phased a",
-          "link": "https://www.theguardian.com/technology/2026/oct/01/google-releases-gemini-model-restrictions",
-          "publishedAt": "2026-10-02 01:47",
-          "outlet": "The Guardian Business"
+          "title": "Inside the AI industry's grassroots rebellion, led by elite researchers at frontier companies",
+          "summary": "A small cadre of elite AI researchers is wielding extraordinary influence inside OpenAI and other leading companies, challenging executives, shaping policy and complicating negotiations with Washington.Why it matters: As a safety crisis has unfolded across the industry, it's an open question who is doing more to shape the national AI debate — top researchers or the executives they report to.The re",
+          "link": "https://www.axios.com/2026/10/02/openai-anthropic-ai-researchers-rebellion",
+          "publishedAt": "2026-10-02 18:30",
+          "outlet": "Axios"
+        },
+        {
+          "title": "\"We're not asking for charity\": Wikimedia CEO calls out AI for unpaid data use",
+          "summary": "Wikipedia is starting to feel the effects of the AI-driven shift in how people find information, with page views falling 8% in the latest year, new Wikimedia Foundation CEO Bernadette Meehan tells Axios.Why it matters: Wikipedia is a crucial source of information for AI models, but those same models increasingly allow people to get Wikipedia-derived information without ever visiting the site — pot",
+          "link": "https://www.axios.com/2026/10/02/wikipedia-ceo-ai-traffic-loss",
+          "publishedAt": "2026-10-02 18:00",
+          "outlet": "Axios"
         },
         {
           "title": "Stocks making the biggest moves premarket: Alphabet, Accenture, Rocket Lab, Micron and more",
