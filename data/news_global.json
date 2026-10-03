@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03 08:01",
+  "updatedAt": "2026-10-03 11:03",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,6 +14,13 @@
           "link": "https://www.investing.com/news/stock-market-news/apple-says-it-will-flag-ai-requests-for-mac-data-after-metas-muse-draws-complaints-4930505",
           "publishedAt": "2026-10-03 07:48",
           "outlet": "Investing.com"
+        },
+        {
+          "title": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints - Reuters",
+          "summary": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVjBOX2tiblNKM3pNUVJ2VzViQzZobDRCQk5pbk1Nai1vUlNDTG94a2JIRDNYSU96Mm1DTnZjWE5LbW9MbXh1RGtXUnEzRXJHOGx2Y1JmdlVBMGpuRGZkMUlZc0hGSUoxVTAyMWdpQmNPSndSTXFHVHhzMnRYaUdqdVY2NW5kY2l4V2IyN0pmNlgxR0JuUjdCRW5ZejBtU3NpdXhtdkJQNDE0c3k5b25wWXBHZE5tMjRnNU1leTJZZUJPWk0zOHZLdHhmNUl5OXBKLXlkNktR?oc=5",
+          "publishedAt": "2026-10-03 07:43",
+          "outlet": "Reuters Business (via Google News)"
         }
       ]
     },
@@ -21,13 +28,6 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
-        {
-          "title": "Inside the AI industry's grassroots rebellion, led by elite researchers at frontier companies",
-          "summary": "A small cadre of elite AI researchers is wielding extraordinary influence inside OpenAI and other leading companies, challenging executives, shaping policy and complicating negotiations with Washington.Why it matters: As a safety crisis has unfolded across the industry, it's an open question who is doing more to shape the national AI debate — top researchers or the executives they report to.The re",
-          "link": "https://www.axios.com/2026/10/02/openai-anthropic-ai-researchers-rebellion",
-          "publishedAt": "2026-10-02 18:30",
-          "outlet": "Axios"
-        },
         {
           "title": "Stocks making the biggest moves premarket: Alphabet, Accenture, Rocket Lab, Micron and more",
           "summary": "These are the stocks posting the largest moves in the premarket.",
