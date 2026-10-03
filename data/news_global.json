@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03 17:13",
+  "updatedAt": "2026-10-03 22:28",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple Loop: iPhone Duo Dates, Fixing The AirPods5, MacBook Pro Details - Forbes",
+          "summary": "Apple Loop: iPhone Duo Dates, Fixing The AirPods5, MacBook Pro Details  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNc0VoamdWSnE0elJ6YUVhTUpSaUVHcUo4Yk1GOXkxTE95RjlEVG1BeUNjTndTWnBNczJPa3ZXV2RiNUIwQ3QxUkMwMHJYQkU5V1lNZlB3ZER3Z3pPN0lZUUJnVWwzVXhlZ1c4ZXBqQk93eldiMmVBVGxvUGRNSUxJNF9sMmE0MkIxdzVYNnFCeTV4eDNXYnJJa0hxZDZQSUpoRzZCTWIyTm1jdmJmbnlHN1p3RDhRR0wybmVPNDNQbXRVZzJDb2Z5eE1sVi1RN2NTd1BzcA?oc=5",
+          "publishedAt": "2026-10-03 08:27",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "Apple says it will flag AI requests for Mac data after Meta’s Muse draws complaints",
           "summary": "",
@@ -34,13 +41,6 @@
           "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbEMtMk5rVF81QzJ0VDBSdVlxbENpV3lvcEYycUxWSWtxTUl4YjZJQ2QtQjZ3SW1TaXlNNGNHYVhlZkZnWmNWMzc4RFJEdW1JSHhWVWVIWEYxcGZCVGF5QlZvRUZ0T1RDX2s3RVd6QURrZXJwc1pxOTdJY2wwMGRfOW8ydTl2TnBlQjZraGZCM0o2cTZn?oc=5",
           "publishedAt": "2026-10-01 08:03",
           "outlet": "The Information"
-        },
-        {
-          "title": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use - digitimes",
-          "summary": "Netlist challenges Micron, Nvidia, Broadcom, Google over alleged HBM patent use  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQSmFMc2kxc18zMEVTNHlucE9pb1hFaS1WZU5KWWY4VGJsRWhhdnVsTWE4Y1dVZDE0OS1YdnA3VFJJc1Z0QW9IZUNORE9obnNQVTlDWGRlZjBhQjBwV1RtRnBfNW5uS2VGSTFIc2FlZmp2eFdESF82VGtTdnRxMzFvMExYZGl2Sjktbjl5NQ?oc=5",
-          "publishedAt": "2026-09-30 17:42",
-          "outlet": "DigiTimes"
         }
       ]
     }
