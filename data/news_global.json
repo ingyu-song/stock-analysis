@@ -1,13 +1,47 @@
 {
-  "updatedAt": "2026-10-04 15:59",
+  "updatedAt": "2026-10-04 22:15",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Own a mobile phone? Then you’re paying the ‘app tax’. It’s a racket and it’s time the UK faced Apple and Google down | Chi Onwurah",
+          "summary": "A deep-seated duopoly allows the tech giants to exploit the public and developers. But the regulator has powers to stop this abuse – it should use themChi Onwurah is the Labour MP for Newcastle upon Tyne Central and West and chair of the parliamentary science, innovation and technology committeeDebates around big tech and digital regulation can sometimes feel distant from the everyday concerns of ",
+          "link": "https://www.theguardian.com/commentisfree/2026/oct/04/app-tax-google-apple-smartphone-duopoly-cma",
+          "publishedAt": "2026-10-04 18:00",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Apple MacBook Pro Release Schedule: What To Expect When - forbes.com",
+          "summary": "Apple MacBook Pro Release Schedule: What To Expect When  forbes.com",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPdV8teWtLb3ZCcnBZRTF5cTducHVyRnlsanR5cF9BMnhYWEd5d1EySHROX1N2UEpfdnVUQ1dvbThGVnBPUGdzZDJneDFWM3d0S1k1RXNJdDMtWllsNVU1Y0RHWmJJX2I4a3p3alFOTXdrVklWV2RvTXFLczliZkZ6a0ZOdXJNWlFSSzl6clI1bHZqRTUxTWY3TExWS2hYdWE0YWt4TFd3b2ROUWN4cTQzUTJIY00?oc=5",
+          "publishedAt": "2026-10-04 00:40",
+          "outlet": "Forbes Markets"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Scoop: A powerful new model from startup Reflection is set to shake up the AI race",
+          "summary": "A closely watched Nvidia-backed startup called Reflection is preparing to shake up the AI race with a powerful open-weight system that could threaten Chinese upstarts and U.S. AI giants alike.Why it matters: The marriage of an American open-weight model and Nvidia GPUs would give individuals and companies a new, cheaper alternative to Anthropic, OpenAI and Google.Open models, designed to compete w",
+          "link": "https://www.axios.com/2026/10/04/reflection-open-weight-ai",
+          "publishedAt": "2026-10-04 21:49",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Own a mobile phone? Then you’re paying the ‘app tax’. It’s a racket and it’s time the UK faced Apple and Google down | Chi Onwurah",
+          "summary": "A deep-seated duopoly allows the tech giants to exploit the public and developers. But the regulator has powers to stop this abuse – it should use themChi Onwurah is the Labour MP for Newcastle upon Tyne Central and West and chair of the parliamentary science, innovation and technology committeeDebates around big tech and digital regulation can sometimes feel distant from the everyday concerns of ",
+          "link": "https://www.theguardian.com/commentisfree/2026/oct/04/app-tax-google-apple-smartphone-duopoly-cma",
+          "publishedAt": "2026-10-04 18:00",
+          "outlet": "The Guardian Business"
+        },
         {
           "title": "‘They call every week’: the phishing attacks targeting past victims",
           "summary": "Scammers reuse personal details harvested from fake Esta websites – and texts and calls can keep arriving for monthsWhen the British actor Lisa Riley was preparing to travel to the US last year, she applied online for an Esta so she would not need a visa. After finding the site through a Google search she filled in her passport, bank and personal details and waited for the confirmation, which norm",
@@ -35,6 +69,32 @@
           "link": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-premarket-googl-acn-rklb-mu.html",
           "publishedAt": "2026-10-02 00:14",
           "outlet": "CNBC Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "PG",
+      "name": "프록터 앤드 갬블",
+      "items": [
+        {
+          "title": "P.&G.’s Chief on Whether Brand Loyalty Is Enough When Prices Keep Climbing",
+          "summary": "Procter & Gamble’s new boss, Shailesh Jejurikar, talks about how the company is thinking about higher costs, what gets passed on to consumers and how A.I. helps it compete.",
+          "link": "https://www.nytimes.com/2026/10/04/business/procter-gamble-shailesh-jejurikar.html",
+          "publishedAt": "2026-10-04 18:01",
+          "outlet": "NYT Business"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "DIGITIMES Insight: Intel, TSMC, Samsung converge on backside power — packaging becomes the next divide - digitimes",
+          "summary": "DIGITIMES Insight: Intel, TSMC, Samsung converge on backside power — packaging becomes the next divide  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVjIzNWlKbzRLMWlHREJYc19VWGRvZWVpWHNwdmZUUVdQaHFGWldhX2VjMzdrMkt5cXozWlBUaE1udHVBRXNId2J2ZjhoZ3ZXZElQb2V2SXNhMFF2WDV0X25GTEZ0cWQ0NzR0ai1DenZiRkdQS3VmZDBqSk9YT09MQ2RqWVRsWTd0OTRYRWN1eVRjbDhZYUE?oc=5",
+          "publishedAt": "2026-10-02 12:21",
+          "outlet": "DigiTimes"
         }
       ]
     }
