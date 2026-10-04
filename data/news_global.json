@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04 09:42",
+  "updatedAt": "2026-10-04 15:59",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "‘They call every week’: the phishing attacks targeting past victims",
+          "summary": "Scammers reuse personal details harvested from fake Esta websites – and texts and calls can keep arriving for monthsWhen the British actor Lisa Riley was preparing to travel to the US last year, she applied online for an Esta so she would not need a visa. After finding the site through a Google search she filled in her passport, bank and personal details and waited for the confirmation, which norm",
+          "link": "https://www.theguardian.com/money/2026/oct/04/repeat-phishing-attacks-target-past-scam-victims",
+          "publishedAt": "2026-10-04 15:00",
+          "outlet": "The Guardian Business"
+        },
         {
           "title": "OpenAI's Altman: Ascribing religion to models a \"safety issue\"",
           "summary": "OpenAI CEO Sam Altman on Saturday took a veiled shot at Anthropic and its work on the soul of AI, saying he was \"very uncomfortable\" with the idea of attributing some kind of religious power to models. Why it matters: It's yet another point of division between Altman and his former colleague Dario Amodei, whose company has reportedly pursued  scholars across faiths to make the case for moral, cons",
