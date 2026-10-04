@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-05 02:40",
+  "updatedAt": "2026-10-05 06:34",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,18 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Own a mobile phone? Then you’re paying the ‘app tax’. It’s a racket and it’s time the UK faced Apple and Google down | Chi Onwurah",
-          "summary": "A deep-seated duopoly allows the tech giants to exploit the public and developers. But the regulator has powers to stop this abuse – it should use themChi Onwurah is the Labour MP for Newcastle upon Tyne Central and West and chair of the parliamentary science, innovation and technology committeeDebates around big tech and digital regulation can sometimes feel distant from the everyday concerns of ",
-          "link": "https://www.theguardian.com/commentisfree/2026/oct/04/app-tax-google-apple-smartphone-duopoly-cma",
-          "publishedAt": "2026-10-04 18:00",
-          "outlet": "The Guardian Business"
-        },
-        {
-          "title": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More - Forbes",
-          "summary": "What To Watch This Weekend: New Shows And Movies To Stream On Netflix, Hulu, Prime Video, Apple TV And More  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxOVGhWTVdvNzRUb0FiX1U1UVh4MER3ZzgydUd4Ny1DOVdCbTlMcFFabFppeHB4M2UwUzN1d21PcHNDcE02TFhHRlI1ejhVZFlWeVYxSWdCajBIY1oxLU9EZkF2VnZsWUluMlJTbFpvOGRva3Jyb2VzVllFaXBkanVlZ2RYR0M3cG0tOFk1Z1ZvMlBEUUd1NUlEb3lxTWR4ZGcwbzU2eERDcTVoMXdQSHNFN283S3FBV1oxV2E2R0F3ZjBpNFc1aGlYb1dpbVIzRTJFRFQyZUQtZ2YxdTgtUDJ5R3EzaHJPZ1Fr?oc=5",
-          "publishedAt": "2026-10-04 07:26",
-          "outlet": "Forbes Markets"
+          "title": "In Robotics, Google Goes Android to Tesla’s Apple - The Information",
+          "summary": "In Robotics, Google Goes Android to Tesla’s Apple  The Information",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVlHMWJKMEdEOW1mQ2x2MzBNMnYxOWtuWWlzN1hpRG84czBDN3RsdFVZdWZMWkh2U3ljcEtHUkt1X1NyZ0FkU1U3blJrN0xTb2tVQktoWkRHLWRRUTM5dkg5cTFXLXEzVzZRMGZqSUxQQ0tSN2VLNmMwZVg3OXdRUmdwRENFQ1k3YXItYWV3R01sWDJUOHV5YU12dw?oc=5",
+          "publishedAt": "2026-10-02 06:50",
+          "outlet": "The Information"
         }
       ]
     },
@@ -34,13 +27,6 @@
           "link": "https://www.axios.com/2026/10/04/reflection-open-weight-ai",
           "publishedAt": "2026-10-04 21:49",
           "outlet": "Axios"
-        },
-        {
-          "title": "Own a mobile phone? Then you’re paying the ‘app tax’. It’s a racket and it’s time the UK faced Apple and Google down | Chi Onwurah",
-          "summary": "A deep-seated duopoly allows the tech giants to exploit the public and developers. But the regulator has powers to stop this abuse – it should use themChi Onwurah is the Labour MP for Newcastle upon Tyne Central and West and chair of the parliamentary science, innovation and technology committeeDebates around big tech and digital regulation can sometimes feel distant from the everyday concerns of ",
-          "link": "https://www.theguardian.com/commentisfree/2026/oct/04/app-tax-google-apple-smartphone-duopoly-cma",
-          "publishedAt": "2026-10-04 18:00",
-          "outlet": "The Guardian Business"
         },
         {
           "title": "‘They call every week’: the phishing attacks targeting past victims",
@@ -57,10 +43,10 @@
           "outlet": "Axios"
         },
         {
-          "title": "Federal Court Dismisses Publishers’ Suits Over Google’s AI Overviews - The Information",
-          "summary": "Federal Court Dismisses Publishers’ Suits Over Google’s AI Overviews  The Information",
-          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLWVuZmZuVjZVZVdGUENzNm4yMVB1SXJyeXJZeTlWeE1CSXY1N09kT244UEp0Z3VzalY5UWdWVW9ISG4tX3AxcDRzcFhRbnJ4RjZWX1l2ajFzZFMxWVBwMWtrRUVzbXZ3b1A2dUhGOWM3RHdRUmJRVDZyOVF4R1k2Q0wwX1BXYTNDeHpya3hEYVVDQTNCWEs2b0N4dE85SXl6VmZLRg?oc=5",
-          "publishedAt": "2026-10-02 03:24",
+          "title": "In Robotics, Google Goes Android to Tesla’s Apple - The Information",
+          "summary": "In Robotics, Google Goes Android to Tesla’s Apple  The Information",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQUVlHMWJKMEdEOW1mQ2x2MzBNMnYxOWtuWWlzN1hpRG84czBDN3RsdFVZdWZMWkh2U3ljcEtHUkt1X1NyZ0FkU1U3blJrN0xTb2tVQktoWkRHLWRRUTM5dkg5cTFXLXEzVzZRMGZqSUxQQ0tSN2VLNmMwZVg3OXdRUmdwRENFQ1k3YXItYWV3R01sWDJUOHV5YU12dw?oc=5",
+          "publishedAt": "2026-10-02 06:50",
           "outlet": "The Information"
         },
         {
