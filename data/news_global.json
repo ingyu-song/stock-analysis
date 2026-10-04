@@ -1,36 +1,9 @@
 {
-  "updatedAt": "2026-10-04 06:23",
+  "updatedAt": "2026-10-04 09:42",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Apple Loop: iPhone Duo Dates, Fixing The AirPods5, MacBook Pro Details - Forbes",
-          "summary": "Apple Loop: iPhone Duo Dates, Fixing The AirPods5, MacBook Pro Details  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNc0VoamdWSnE0elJ6YUVhTUpSaUVHcUo4Yk1GOXkxTE95RjlEVG1BeUNjTndTWnBNczJPa3ZXV2RiNUIwQ3QxUkMwMHJYQkU5V1lNZlB3ZER3Z3pPN0lZUUJnVWwzVXhlZ1c4ZXBqQk93eldiMmVBVGxvUGRNSUxJNF9sMmE0MkIxdzVYNnFCeTV4eDNXYnJJa0hxZDZQSUpoRzZCTWIyTm1jdmJmbnlHN1p3RDhRR0wybmVPNDNQbXRVZzJDb2Z5eE1sVi1RN2NTd1BzcA?oc=5",
-          "publishedAt": "2026-10-03 08:27",
-          "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints - Reuters",
-          "summary": "Apple says it will flag AI requests for Mac data after Meta's Muse draws complaints  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQVjBOX2tiblNKM3pNUVJ2VzViQzZobDRCQk5pbk1Nai1vUlNDTG94a2JIRDNYSU96Mm1DTnZjWE5LbW9MbXh1RGtXUnEzRXJHOGx2Y1JmdlVBMGpuRGZkMUlZc0hGSUoxVTAyMWdpQmNPSndSTXFHVHhzMnRYaUdqdVY2NW5kY2l4V2IyN0pmNlgxR0JuUjdCRW5ZejBtU3NpdXhtdkJQNDE0c3k5b25wWXBHZE5tMjRnNU1leTJZZUJPWk0zOHZLdHhmNUl5OXBKLXlkNktR?oc=5",
-          "publishedAt": "2026-10-03 07:43",
-          "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "Apple iPhone 18 Pro Max AT&T Glitch Requires Device Replacements - Bloomberg.com",
-          "summary": "Apple iPhone 18 Pro Max AT&T Glitch Requires Device Replacements  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQZDVNaGQxRVg3Mmo3STJkSDFuaElEbjNuN1J4Q0ZKY0x4ZGRQZk9iRzU2eDRSS0JPZ1dqaHlZOTNNNnRGZUJkSUNLWXlyT2NrSXoteXROX042SDZNeXhhYnhBbE51M1pSNmZaMzg4T24wVFZFNWdxU0l5RFJsbVJBSkVxeFlIQlhuSmZSREludUMwYl9HV243SFJEbHVwWWRRb2hxckNEWllZNkR3bDZpcHhNd1Y5QQ?oc=5",
-          "publishedAt": "2026-10-03 07:01",
-          "outlet": "Bloomberg (via Google News)"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -43,18 +16,18 @@
           "outlet": "Axios"
         },
         {
+          "title": "Federal Court Dismisses Publishers’ Suits Over Google’s AI Overviews - The Information",
+          "summary": "Federal Court Dismisses Publishers’ Suits Over Google’s AI Overviews  The Information",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOLWVuZmZuVjZVZVdGUENzNm4yMVB1SXJyeXJZeTlWeE1CSXY1N09kT244UEp0Z3VzalY5UWdWVW9ISG4tX3AxcDRzcFhRbnJ4RjZWX1l2ajFzZFMxWVBwMWtrRUVzbXZ3b1A2dUhGOWM3RHdRUmJRVDZyOVF4R1k2Q0wwX1BXYTNDeHpya3hEYVVDQTNCWEs2b0N4dE85SXl6VmZLRg?oc=5",
+          "publishedAt": "2026-10-02 03:24",
+          "outlet": "The Information"
+        },
+        {
           "title": "Stocks making the biggest moves premarket: Alphabet, Accenture, Rocket Lab, Micron and more",
           "summary": "These are the stocks posting the largest moves in the premarket.",
           "link": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-premarket-googl-acn-rklb-mu.html",
           "publishedAt": "2026-10-02 00:14",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Google Unveils Gemini 4 Argon, Pricing It Well Below Rivals - The Information",
-          "summary": "Google Unveils Gemini 4 Argon, Pricing It Well Below Rivals  The Information",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQbEMtMk5rVF81QzJ0VDBSdVlxbENpV3lvcEYycUxWSWtxTUl4YjZJQ2QtQjZ3SW1TaXlNNGNHYVhlZkZnWmNWMzc4RFJEdW1JSHhWVWVIWEYxcGZCVGF5QlZvRUZ0T1RDX2s3RVd6QURrZXJwc1pxOTdJY2wwMGRfOW8ydTl2TnBlQjZraGZCM0o2cTZn?oc=5",
-          "publishedAt": "2026-10-01 08:03",
-          "outlet": "The Information"
         }
       ]
     }
