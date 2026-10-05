@@ -1,9 +1,22 @@
 {
-  "updatedAt": "2026-10-05 10:00",
+  "updatedAt": "2026-10-05 16:08",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
+    {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Apple MacBook Pro Release Schedule: What To Expect When - Forbes",
+          "summary": "Apple MacBook Pro Release Schedule: What To Expect When  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaV93ek5sNHdyZTVYZWQ2RDVLNDA4N2JsZWZWdmRaUEh0T1h6SVlRWmxwa3BkX040WF9uSk1jVnZJOExXenRvbGpJZHRyTUtmU0ExLWN4UXJoZ19lLWEzcnd2NXhfSFNXaW03TW9NZk81QVQ2eVN3Q0FVZk01Tmp6VUhwVVQzTjBELXlSSGRDUDlyTDB1RE1uYUlEVmJSSDdjX3RSUDh2TVRYemRXY3cyN2JPYlM?oc=5",
+          "publishedAt": "2026-10-05 09:09",
+          "outlet": "Forbes Markets"
+        }
+      ]
+    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -41,19 +54,6 @@
           "link": "https://www.nytimes.com/2026/10/04/business/procter-gamble-shailesh-jejurikar.html",
           "publishedAt": "2026-10-05 07:01",
           "outlet": "NYT Business"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "DIGITIMES Insight: Intel, TSMC, Samsung converge on backside power — packaging becomes the next divide - digitimes",
-          "summary": "DIGITIMES Insight: Intel, TSMC, Samsung converge on backside power — packaging becomes the next divide  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOVjIzNWlKbzRLMWlHREJYc19VWGRvZWVpWHNwdmZUUVdQaHFGWldhX2VjMzdrMkt5cXozWlBUaE1udHVBRXNId2J2ZjhoZ3ZXZElQb2V2SXNhMFF2WDV0X25GTEZ0cWQ0NzR0ai1DenZiRkdQS3VmZDBqSk9YT09MQ2RqWVRsWTd0OTRYRWN1eVRjbDhZYUE?oc=5",
-          "publishedAt": "2026-10-02 12:21",
-          "outlet": "DigiTimes"
         }
       ]
     }
