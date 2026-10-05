@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06 01:07",
+  "updatedAt": "2026-10-06 07:42",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,51 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "App-makers are having a blast with the iPhone Duo, turning it into a retro Walkman",
-          "summary": "The iPhone Duo isn't even out yet but developers are already having fun with the new design, creating apps that turn Apple's first foldable smartphone into everything from an accordion to a retro Walkman.Why it matters: Clever apps that couldn't exist on a traditional iPhone could help persuade early adopters to fork over nearly $2,000 for Apple's first foldable.Flashback: It's reminiscent of the ",
-          "link": "https://www.axios.com/2026/10/05/apple-iphone-duo-foldable-walkman-app",
-          "publishedAt": "2026-10-05 18:00",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
-        {
-          "title": "App-makers are having a blast with the iPhone Duo, turning it into a retro Walkman",
-          "summary": "The iPhone Duo isn't even out yet but developers are already having fun with the new design, creating apps that turn Apple's first foldable smartphone into everything from an accordion to a retro Walkman.Why it matters: Clever apps that couldn't exist on a traditional iPhone could help persuade early adopters to fork over nearly $2,000 for Apple's first foldable.Flashback: It's reminiscent of the ",
-          "link": "https://www.axios.com/2026/10/05/apple-iphone-duo-foldable-walkman-app",
-          "publishedAt": "2026-10-05 18:00",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Scoop: A powerful new model from startup Reflection is set to shake up the AI race",
-          "summary": "A closely watched Nvidia-backed startup called Reflection is preparing to shake up the AI race with a powerful open-weight system that could threaten Chinese upstarts and U.S. AI giants alike.Why it matters: The marriage of an American open-weight model and Nvidia GPUs would give individuals and companies a new, cheaper alternative to Anthropic, OpenAI and Google.Open models, designed to compete w",
-          "link": "https://www.axios.com/2026/10/04/reflection-open-weight-ai",
-          "publishedAt": "2026-10-04 21:49",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Stocks making the biggest moves premarket: Alphabet, Accenture, Rocket Lab, Micron and more",
-          "summary": "These are the stocks posting the largest moves in the premarket.",
-          "link": "https://www.cnbc.com/2026/10/01/stocks-making-the-biggest-moves-premarket-googl-acn-rklb-mu.html",
-          "publishedAt": "2026-10-02 00:14",
-          "outlet": "CNBC Finance"
-        }
-      ]
-    },
-    {
-      "ticker": "SONY",
-      "name": "소니",
-      "items": [
-        {
-          "title": "App-makers are having a blast with the iPhone Duo, turning it into a retro Walkman",
-          "summary": "The iPhone Duo isn't even out yet but developers are already having fun with the new design, creating apps that turn Apple's first foldable smartphone into everything from an accordion to a retro Walkman.Why it matters: Clever apps that couldn't exist on a traditional iPhone could help persuade early adopters to fork over nearly $2,000 for Apple's first foldable.Flashback: It's reminiscent of the ",
-          "link": "https://www.axios.com/2026/10/05/apple-iphone-duo-foldable-walkman-app",
-          "publishedAt": "2026-10-05 18:00",
-          "outlet": "Axios"
+          "title": "Apple MacBook Pro Release Schedule: What To Expect When - Forbes",
+          "summary": "Apple MacBook Pro Release Schedule: What To Expect When  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOaV93ek5sNHdyZTVYZWQ2RDVLNDA4N2JsZWZWdmRaUEh0T1h6SVlRWmxwa3BkX040WF9uSk1jVnZJOExXenRvbGpJZHRyTUtmU0ExLWN4UXJoZ19lLWEzcnd2NXhfSFNXaW03TW9NZk81QVQ2eVN3Q0FVZk01Tmp6VUhwVVQzTjBELXlSSGRDUDlyTDB1RE1uYUlEVmJSSDdjX3RSUDh2TVRYemRXY3cyN2JPYlM?oc=5",
+          "publishedAt": "2026-10-05 09:09",
+          "outlet": "Forbes Markets"
         }
       ]
     }
