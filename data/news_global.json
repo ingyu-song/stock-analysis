@@ -1,7 +1,28 @@
 {
-  "updatedAt": "2026-10-06 12:03",
+  "updatedAt": "2026-10-06 19:27",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
-  "coverage": []
+  "coverage": [
+    {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "Inside Trump's new AI playbook",
+          "summary": "President Trump's newly minted \"Super Intelligence\" task force faces a daunting mandate: reconcile fiercely divided cabinet factions to forge a tech policy that keeps pace with the blistering AI race.Why it matters: The task force brings the administration's scattered AI work under one roof, but it also makes it likely that any new rules will be forged in the crossfire of competing internal camps.",
+          "link": "https://www.axios.com/2026/10/06/trump-ai-strategy-task-force",
+          "publishedAt": "2026-10-06 18:00",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers - The Information",
+          "summary": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNajc3UklCU3FBSTZiVW9jSno4OHZvTGtXekt3eUlNLXhWR3VKX3YxRWRoYi1RVWhPek52bGV2LTRfZTZ2d2JHcWhjQktOUWxRZmFnTEstOUMwWHdZeGJIRVdKQzdqaE5UR3A2ay0tbmVSbXh1d2lqLTE0U0dkSHhJVlFDemczZmRQQzZ4bkRsTHlCT1JSNTBsTktZMGVON0VETnJ1VGVvN2hWdkZJWjBYQnI4bWdmaVBORDdN?oc=5",
+          "publishedAt": "2026-10-06 00:00",
+          "outlet": "The Information"
+        }
+      ]
+    }
+  ]
 }
