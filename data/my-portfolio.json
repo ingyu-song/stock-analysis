@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06 11:22",
+  "updatedAt": "2026-10-06 13:38",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1343.28,
@@ -9,7 +9,7 @@
       "id": "kiwoom",
       "name": "키움 (ISA)",
       "cash": {
-        "KRW": 10549995
+        "KRW": 7987495
       }
     },
     {
@@ -38,20 +38,20 @@
       "ticker": "379800.KS",
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
-      "shares": 50,
+      "shares": 100,
       "price": 23585.0,
-      "costKRW": 1186550,
-      "costNative": 1186550
+      "costKRW": 2365300,
+      "costNative": 2365300
     },
     {
       "account": "kiwoom",
       "ticker": "379810.KS",
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
-      "shares": 150,
+      "shares": 200,
       "price": 27670.0,
-      "costKRW": 4041050,
-      "costNative": 4041050
+      "costKRW": 5424800,
+      "costNative": 5424800
     },
     {
       "account": "mirae",
@@ -406,6 +406,28 @@
       "price": 1011000,
       "currency": "KRW",
       "reason": "한화에어로스페이스를 새로 커버리지에 넣고 분석을 시작하는 단계라, 일단 1주만 매수."
+    },
+    {
+      "date": "2026-10-06",
+      "account": "kiwoom",
+      "ticker": "379800.KS",
+      "name": "KODEX 미국S&P500",
+      "side": "buy",
+      "shares": 50,
+      "price": 23575,
+      "currency": "KRW",
+      "reason": "추가매수."
+    },
+    {
+      "date": "2026-10-06",
+      "account": "kiwoom",
+      "ticker": "379810.KS",
+      "name": "KODEX 미국나스닥100",
+      "side": "buy",
+      "shares": 50,
+      "price": 27675,
+      "currency": "KRW",
+      "reason": "추가매수."
     }
   ]
 }
