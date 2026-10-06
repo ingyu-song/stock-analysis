@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07 02:15",
+  "updatedAt": "2026-10-07 06:43",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,20 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Black Hills stock surges 5% on $1.8B Google data center deal",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/black-hills-stock-surges-5-on-18b-google-data-center-deal-4935314",
+          "publishedAt": "2026-10-07 06:29",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Google told to halt work on datacentres in Finland over environmental concerns",
+          "summary": "Order on two construction sites comes after Google failed to carry out environmental impact assessmentsGoogle has been ordered to temporarily stop work on two datacentres in Finland after failing to do the necessary environmental impact assessments on its construction sites.The planned datacentres in Muhos and Kajanni are part of a €13bn (£11bn) project across multiple sites in northern Finland by",
+          "link": "https://www.theguardian.com/technology/2026/oct/06/google-datacentres-finland-temporary-halt-environmental-impact-assessment",
+          "publishedAt": "2026-10-07 03:02",
+          "outlet": "The Guardian Business"
+        },
         {
           "title": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers - The Information",
           "summary": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers  The Information",
@@ -27,6 +41,19 @@
           "link": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-premarket-constellation-energy-option-care-health-lennar-pg-and-more.html",
           "publishedAt": "2026-10-06 20:50",
           "outlet": "CNBC Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "SONY",
+      "name": "소니",
+      "items": [
+        {
+          "title": "Sony to transfer 418 XR patents to Meta - digitimes",
+          "summary": "Sony to transfer 418 XR patents to Meta  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTV93WDdnUkJFSjZpN0xQdExCSExTaFo1QU91Ujl3Q1UzeHViX1NpV0lMbThfNlVkQk03U1dzUUVUY3F6N0FIa3N5TmQwTUhzSG0xRlc5c2dRUHhVVmZDRnJfYjk1NzNMQ2NYbl82ZjFKUncxSE1WOW5HMFg1MmJjSHNuT25nUQ?oc=5",
+          "publishedAt": "2026-10-06 11:03",
+          "outlet": "DigiTimes"
         }
       ]
     }
