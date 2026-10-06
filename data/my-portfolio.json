@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06 13:38",
+  "updatedAt": "2026-10-06 14:07",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1343.28,
@@ -9,7 +9,7 @@
       "id": "kiwoom",
       "name": "키움 (ISA)",
       "cash": {
-        "KRW": 7987495
+        "KRW": 7309270
       }
     },
     {
@@ -142,6 +142,16 @@
       "price": 1024000.0,
       "costKRW": 1011000,
       "costNative": 1011000
+    },
+    {
+      "account": "kiwoom",
+      "ticker": "464920.KS",
+      "name": "PLUS 일본반도체소부장",
+      "currency": "KRW",
+      "shares": 25,
+      "price": 26935,
+      "costKRW": 678225,
+      "costNative": 678225
     }
   ],
   "risk": {
@@ -428,6 +438,17 @@
       "price": 27675,
       "currency": "KRW",
       "reason": "추가매수."
+    },
+    {
+      "date": "2026-10-06",
+      "account": "kiwoom",
+      "ticker": "464920.KS",
+      "name": "PLUS 일본반도체소부장",
+      "side": "buy",
+      "shares": 25,
+      "price": 27129,
+      "currency": "KRW",
+      "reason": "SUMCO 같은 웨이퍼 기업들을 사고 싶은데, 이 ETF가 그 노출을 얻는 데 베스트일 것 같아서 매수. 오늘 주가가 좀 올랐으니 내일이나 떨어진 뒤에 추가매수할 예정."
     }
   ]
 }
