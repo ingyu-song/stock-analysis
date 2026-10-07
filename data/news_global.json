@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08 01:36",
+  "updatedAt": "2026-10-08 07:02",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Microsoft brings more AI to PCs as it challenges Apple",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/microsoft-nvidia-ceos-to-unveil-new-ai-laptop-at-san-francisco-event-4936051",
+          "publishedAt": "2026-10-08 06:12",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Will the Zuckerberg, Musk and Altman movies make a dent on tech giant evangelism?",
           "summary": "The triple release of The Social Reckoning, Musk and Artificial is less a clear political stance, more like movie studio opportunismHollywood is sending a clear message: it’s a friend of tech. Netflix is no longer a lone disruptor: historic studio MGM is now the property of Amazon’s Jeff Bezos; David Ellison’s takeover of Paramount and subsequent Warner Bros merger was supported by his tech giant ",
@@ -22,18 +29,18 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google expands SynthID Detector tool globally to identify AI content",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/google-expands-synthid-detector-tool-globally-to-identify-ai-content-93CH-4937199",
-          "publishedAt": "2026-10-08 01:11",
-          "outlet": "Investing.com"
-        },
-        {
           "title": "\"The beginning of a new scientific paradigm\": Zuckerberg's Biohub, U.S. and Google build virtual cell",
           "summary": "Mark Zuckerberg's Biohub is partnering with Google and the federal government in its ambitious effort to use AI for generating vast quantities of biological data that can predict how cells behave.Why it matters: The ultimate goal is an AI model that lets scientists test potential experiments virtually, helping them identify the most promising ones before spending the time and money to perform them",
           "link": "https://www.axios.com/2026/10/07/zuckerberg-biohub-ai-biology-data",
           "publishedAt": "2026-10-07 22:00",
           "outlet": "Axios"
+        },
+        {
+          "title": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers - The Information",
+          "summary": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNajc3UklCU3FBSTZiVW9jSno4OHZvTGtXekt3eUlNLXhWR3VKX3YxRWRoYi1RVWhPek52bGV2LTRfZTZ2d2JHcWhjQktOUWxRZmFnTEstOUMwWHdZeGJIRVdKQzdqaE5UR3A2ay0tbmVSbXh1d2lqLTE0U0dkSHhJVlFDemczZmRQQzZ4bkRsTHlCT1JSNTBsTktZMGVON0VETnJ1VGVvN2hWdkZJWjBYQnI4bWdmaVBORDdN?oc=5",
+          "publishedAt": "2026-10-06 00:00",
+          "outlet": "The Information"
         }
       ]
     },
@@ -47,6 +54,19 @@
           "link": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-premarket-constellation-energy-option-care-health-lennar-pg-and-more.html",
           "publishedAt": "2026-10-06 20:50",
           "outlet": "CNBC Finance"
+        }
+      ]
+    },
+    {
+      "ticker": "SONY",
+      "name": "소니",
+      "items": [
+        {
+          "title": "Sony to transfer 418 XR patents to Meta - digitimes",
+          "summary": "Sony to transfer 418 XR patents to Meta  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTV93WDdnUkJFSjZpN0xQdExCSExTaFo1QU91Ujl3Q1UzeHViX1NpV0lMbThfNlVkQk03U1dzUUVUY3F6N0FIa3N5TmQwTUhzSG0xRlc5c2dRUHhVVmZDRnJfYjk1NzNMQ2NYbl82ZjFKUncxSE1WOW5HMFg1MmJjSHNuT25nUQ?oc=5",
+          "publishedAt": "2026-10-06 11:03",
+          "outlet": "DigiTimes"
         }
       ]
     }
