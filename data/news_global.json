@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07 06:43",
+  "updatedAt": "2026-10-07 10:36",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Black Hills stock surges 5% on $1.8B Google data center deal",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/black-hills-stock-surges-5-on-18b-google-data-center-deal-4935314",
-          "publishedAt": "2026-10-07 06:29",
-          "outlet": "Investing.com"
+          "title": "Black Hills plans $1.8 billion investment to power Google's data center - Reuters",
+          "summary": "Black Hills plans $1.8 billion investment to power Google's data center  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOQkl1VUxHdjl1Q2g0c0xiXy12bG8tYWVPMC1mV1RpQ1RnTzcteWgwVGRBcmdpMG5iSE4yYllhZkFWVWdYVWdUM0FLVFVtV0phVEZlbHVWVE9KQ1pRV3FtbW94Tmw4bHRKalV4TDNfaG8zcUF2WTc1WlI1TWUxSU5DVnFYYVBkaml0b1doaHVuOFVUTXU0M0w5UEV1eU9BNTNSSzVaSmk0TUhpR29HSnZ3bnVIYXhoVWFv?oc=5",
+          "publishedAt": "2026-10-07 06:11",
+          "outlet": "Reuters Business (via Google News)"
         },
         {
           "title": "Google told to halt work on datacentres in Finland over environmental concerns",
