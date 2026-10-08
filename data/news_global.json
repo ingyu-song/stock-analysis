@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08 18:04",
+  "updatedAt": "2026-10-09 01:34",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,13 +21,6 @@
           "link": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-musk-and-artificial-zuckerberg-musk-and-altman-movies-tech",
           "publishedAt": "2026-10-07 22:43",
           "outlet": "The Guardian Business"
-        },
-        {
-          "title": "Microsoft brings more AI to PCs as it challenges Apple - Reuters",
-          "summary": "Microsoft brings more AI to PCs as it challenges Apple  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZkNrUEtoYUtLa3FYRlVtVnBCblY5Tmx2aHp5MFJwTldqSndfVUdmWDNTemFjb3l2YW5OaExPOXRyWTlTaUc1MUN2cW1tNVA4VUNJczRwMDVQZTJMTmhjT1hScHVYTklXNjJrOVpNamE3bVBGalo3RVFLbURIUkpFTGxEMEtjU01SaDVMOWM4OThPSWtmMEI0b0RtVDlvc1YwUWx5R2V3MHVIdm8?oc=5",
-          "publishedAt": "2026-10-07 19:05",
-          "outlet": "Reuters Business (via Google News)"
         }
       ]
     },
@@ -35,6 +28,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Data centers face a sweeping new power regime",
+          "summary": "Lawmakers are considering forcing data centers to shoulder new costs and restrictions while speeding up the energy infrastructure needed to power the AI boom.Why it matters: The bipartisan legislation, unveiled last week, represents the most aggressive response yet from Washington to data centers amid growing backlash over their energy and environmental impacts.Driving the news: The provisions are",
+          "link": "https://www.axios.com/2026/10/08/data-centers-power-regime",
+          "publishedAt": "2026-10-08 18:15",
+          "outlet": "Axios"
+        },
         {
           "title": "UK motorists can now see live fuel prices on Google Maps",
           "summary": "Move expected to make pump pricing more transparent and encourage competition after diesel hits record £2 a litreDrivers will be able to see live petrol prices on Google Maps for the first time from Thursday, in a move that will help motorists shop around for the cheapest fuel.Millions of motorists will be able to find the cheapest petrol and diesel prices by searching for a local forecourt in the",
