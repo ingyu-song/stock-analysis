@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09 01:34",
+  "updatedAt": "2026-10-09 07:08",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,20 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple names insider Steve Smith as new M&A chief, memo shows - Reuters",
+          "summary": "Apple names insider Steve Smith as new M&A chief, memo shows  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcVFMMVdNWVZKM2ExREhPZkJyQnhySHFNTktxYzJFT3dBZjdTTzBEV01LazNJTkdDZExNdFBRS3FtNDRYMXkxWC1EaFotLVI4dkxfXzB4enV0WXNBc3J0bGxtaUF2RUlvLTJzemFWN29ydUtFZWJDR2hGc3pVczhDakMtRTRMWmtKSEVxc0o4ek4tQ3liNUp0RW1EYm0tRGRWZ2FGNmdONGhWeW1jOW16Vg?oc=5",
+          "publishedAt": "2026-10-09 04:46",
+          "outlet": "Reuters Business (via Google News)"
+        },
+        {
+          "title": "ICE Just Bought A Hacking Tool Cops Use To Break A Major Apple Security Feature - Forbes",
+          "summary": "ICE Just Bought A Hacking Tool Cops Use To Break A Major Apple Security Feature  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNEpwX282MWQ1YVJickZ6UkFfRVNVUldfNkFzT0xkTXpHNVo2VWhLR3ByV0g3ZE1qc25GSEVlamVFbkI0bnJsbTNub1gzcjBnczFhRnFVRHVHNW5mai1PY21RcXpNWG1zSVFIUU1YbEQ0TzZXdzdBZy1vTUxvMUdnQWJ1bEVvUUhxN3dXZlZiclJLMVR3U1ctYTAtTzBsZ3lNaEtLdW9B?oc=5",
+          "publishedAt": "2026-10-08 23:30",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit - The Information",
           "summary": "Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit  The Information",
@@ -21,6 +35,13 @@
           "link": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-musk-and-artificial-zuckerberg-musk-and-altman-movies-tech",
           "publishedAt": "2026-10-07 22:43",
           "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Apple Watch sensor demand and InP supply tightness lift TASC's 2H26 outlook - digitimes",
+          "summary": "Apple Watch sensor demand and InP supply tightness lift TASC's 2H26 outlook  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWTFpQVlJMkZvcW5YTzVWbVdoM3BidDRsUlhpUzI3S2JjdldKeDZJdkdVSi0tS0JhemIwamxlejlscDNXUEZta2w4aEZLd3FvendDb3I1Rml2MWM4SU9mVEJuR2pLQ1NRVW8tSm1MX2ctc3J0X2RhNkl4NERWaHNTd2ZhbUhhVDFyVXltUTVrcUx3SjVRdmtYRTZfUUgxZnl2VW9Tc2xOZWdCZw?oc=5",
+          "publishedAt": "2026-10-07 12:44",
+          "outlet": "DigiTimes"
         }
       ]
     },
@@ -29,25 +50,18 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Data centers face a sweeping new power regime",
-          "summary": "Lawmakers are considering forcing data centers to shoulder new costs and restrictions while speeding up the energy infrastructure needed to power the AI boom.Why it matters: The bipartisan legislation, unveiled last week, represents the most aggressive response yet from Washington to data centers amid growing backlash over their energy and environmental impacts.Driving the news: The provisions are",
-          "link": "https://www.axios.com/2026/10/08/data-centers-power-regime",
-          "publishedAt": "2026-10-08 18:15",
-          "outlet": "Axios"
+          "title": "Lawmakers raise alarm at Google plan to acquire Spirit Airlines data for AI models",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/lawmakers-raise-alarm-at-google-plan-to-acquire-spirit-airlines-data-for-ai-models-4939672",
+          "publishedAt": "2026-10-09 06:25",
+          "outlet": "Investing.com"
         },
         {
-          "title": "UK motorists can now see live fuel prices on Google Maps",
-          "summary": "Move expected to make pump pricing more transparent and encourage competition after diesel hits record £2 a litreDrivers will be able to see live petrol prices on Google Maps for the first time from Thursday, in a move that will help motorists shop around for the cheapest fuel.Millions of motorists will be able to find the cheapest petrol and diesel prices by searching for a local forecourt in the",
-          "link": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
-          "publishedAt": "2026-10-08 14:00",
-          "outlet": "The Guardian Business"
-        },
-        {
-          "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
-          "summary": "A search for forecourts will now display their pricing, using the government's Fuel Finder scheme.",
-          "link": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-08 08:50",
-          "outlet": "BBC Business"
+          "title": "ROSEN, A LEADING LAW FIRM, Encourages Alphabet Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - GOOGL, GOOG",
+          "summary": "<img src=\"https://api.newsfilecorp.com/newsinfo/318117/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px;  height: 1px;border: 0px solid;\">New York, New York--(Newsfile Corp. - October 8, 2026) - <b>WHY</b>: Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of securities of Alphabet Inc.",
+          "link": "https://markets.businessinsider.com/news/stocks/rosen-a-leading-law-firm-encourages-alphabet-inc.-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-googl-goog-1036610284",
+          "publishedAt": "2026-10-09 04:03",
+          "outlet": "Business Insider Markets"
         },
         {
           "title": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch - The Information",
@@ -55,6 +69,32 @@
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUdCUGk0TnAyQVhEWDdxVElBN0d0YlR1RXZ5S2tQbUpoLVZ6WEhyQ21sOXF2WjRxckthZmo2a2JpMm9lVE9hb0JFQ0Q3SnkwMEZvQ1hySEpQeTNZNW1MWHRGT0R1STNsM0l5OXJLQnpfeV84TVlBZjdKTDU2QThZQ19sR0pxZVRUMUVUVTRJU3oxdkhVZWdKLVBfeHREQzg?oc=5",
           "publishedAt": "2026-10-07 21:00",
           "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
+      "items": [
+        {
+          "title": "Exclusive: Anthropic's plan to protect critical infrastructure",
+          "summary": "Anthropic is launching a new cybersecurity initiative designed to bring its most powerful AI models and engineers to companies protecting power grids, water utilities and other critical infrastructure, the company first shared with Axios.Why it matters: Critical infrastructure operators are struggling to secure aging, complex systems as AI threatens to make cyberattacks faster and cheaper to execu",
+          "link": "https://www.axios.com/2026/10/08/anthropic-critical-infrastructure-cybersecurity",
+          "publishedAt": "2026-10-09 04:00",
+          "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "items": [
+        {
+          "title": "Exclusive: Anthropic's plan to protect critical infrastructure",
+          "summary": "Anthropic is launching a new cybersecurity initiative designed to bring its most powerful AI models and engineers to companies protecting power grids, water utilities and other critical infrastructure, the company first shared with Axios.Why it matters: Critical infrastructure operators are struggling to secure aging, complex systems as AI threatens to make cyberattacks faster and cheaper to execu",
+          "link": "https://www.axios.com/2026/10/08/anthropic-critical-infrastructure-cybersecurity",
+          "publishedAt": "2026-10-09 04:00",
+          "outlet": "Axios"
         }
       ]
     },
