@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-08 11:00",
+  "updatedAt": "2026-10-08 18:04",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,6 +21,13 @@
           "link": "https://www.theguardian.com/film/2026/oct/07/the-social-reckoning-musk-and-artificial-zuckerberg-musk-and-altman-movies-tech",
           "publishedAt": "2026-10-07 22:43",
           "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Microsoft brings more AI to PCs as it challenges Apple - Reuters",
+          "summary": "Microsoft brings more AI to PCs as it challenges Apple  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPZkNrUEtoYUtLa3FYRlVtVnBCblY5Tmx2aHp5MFJwTldqSndfVUdmWDNTemFjb3l2YW5OaExPOXRyWTlTaUc1MUN2cW1tNVA4VUNJczRwMDVQZTJMTmhjT1hScHVYTklXNjJrOVpNamE3bVBGalo3RVFLbURIUkpFTGxEMEtjU01SaDVMOWM4OThPSWtmMEI0b0RtVDlvc1YwUWx5R2V3MHVIdm8?oc=5",
+          "publishedAt": "2026-10-07 19:05",
+          "outlet": "Reuters Business (via Google News)"
         }
       ]
     },
@@ -29,24 +36,24 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "\"The beginning of a new scientific paradigm\": Zuckerberg's Biohub, U.S. and Google build virtual cell",
-          "summary": "Mark Zuckerberg's Biohub is partnering with Google and the federal government in its ambitious effort to use AI for generating vast quantities of biological data that can predict how cells behave.Why it matters: The ultimate goal is an AI model that lets scientists test potential experiments virtually, helping them identify the most promising ones before spending the time and money to perform them",
-          "link": "https://www.axios.com/2026/10/07/zuckerberg-biohub-ai-biology-data",
-          "publishedAt": "2026-10-07 22:00",
-          "outlet": "Axios"
+          "title": "UK motorists can now see live fuel prices on Google Maps",
+          "summary": "Move expected to make pump pricing more transparent and encourage competition after diesel hits record £2 a litreDrivers will be able to see live petrol prices on Google Maps for the first time from Thursday, in a move that will help motorists shop around for the cheapest fuel.Millions of motorists will be able to find the cheapest petrol and diesel prices by searching for a local forecourt in the",
+          "link": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
+          "publishedAt": "2026-10-08 14:00",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Fuel prices added to Google Maps as petrol and diesel costs soar",
+          "summary": "A search for forecourts will now display their pricing, using the government's Fuel Finder scheme.",
+          "link": "https://www.bbc.co.uk/news/articles/ckx2d4ddjn2eo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-08 08:50",
+          "outlet": "BBC Business"
         },
         {
           "title": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch - The Information",
           "summary": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch  The Information",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUdCUGk0TnAyQVhEWDdxVElBN0d0YlR1RXZ5S2tQbUpoLVZ6WEhyQ21sOXF2WjRxckthZmo2a2JpMm9lVE9hb0JFQ0Q3SnkwMEZvQ1hySEpQeTNZNW1MWHRGT0R1STNsM0l5OXJLQnpfeV84TVlBZjdKTDU2QThZQ19sR0pxZVRUMUVUVTRJU3oxdkhVZWdKLVBfeHREQzg?oc=5",
           "publishedAt": "2026-10-07 21:00",
-          "outlet": "The Information"
-        },
-        {
-          "title": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers - The Information",
-          "summary": "Why Google, Amazon and Microsoft Need Chinese Data Center Suppliers  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNajc3UklCU3FBSTZiVW9jSno4OHZvTGtXekt3eUlNLXhWR3VKX3YxRWRoYi1RVWhPek52bGV2LTRfZTZ2d2JHcWhjQktOUWxRZmFnTEstOUMwWHdZeGJIRVdKQzdqaE5UR3A2ay0tbmVSbXh1d2lqLTE0U0dkSHhJVlFDemczZmRQQzZ4bkRsTHlCT1JSNTBsTktZMGVON0VETnJ1VGVvN2hWdkZJWjBYQnI4bWdmaVBORDdN?oc=5",
-          "publishedAt": "2026-10-06 00:00",
           "outlet": "The Information"
         }
       ]
