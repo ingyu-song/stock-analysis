@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-09 18:15",
+  "updatedAt": "2026-10-10 01:20",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple names insider Steve Smith as new M&A chief, memo shows - Reuters",
-          "summary": "Apple names insider Steve Smith as new M&A chief, memo shows  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQcVFMMVdNWVZKM2ExREhPZkJyQnhySHFNTktxYzJFT3dBZjdTTzBEV01LazNJTkdDZExNdFBRS3FtNDRYMXkxWC1EaFotLVI4dkxfXzB4enV0WXNBc3J0bGxtaUF2RUlvLTJzemFWN29ydUtFZWJDR2hGc3pVczhDakMtRTRMWmtKSEVxc0o4ek4tQ3liNUp0RW1EYm0tRGRWZ2FGNmdONGhWeW1jOW16Vg?oc=5",
-          "publishedAt": "2026-10-09 04:46",
-          "outlet": "Reuters Business (via Google News)"
+          "title": "Nvidia's RTX Spark hits order books, taking on Apple's Macs - digitimes",
+          "summary": "Nvidia's RTX Spark hits order books, taking on Apple's Macs  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMDBxdFF3RGR6dTFpUldXTTNWU0xVZjlGbWx2N0FoTEpnZFY3VXdkTGhDM1NZZ2FjNDczMEFYeWVEeU1lbFY4V0ZXU3MyWjR2OEJuVWlfZ20yWk5EaUd1T2Y2ZHFQNTR5NmpjdnRjbG9TT19tOUFxNWtOWGU3LWx6eURvYjYyb0E?oc=5",
+          "publishedAt": "2026-10-08 10:35",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit - The Information",
@@ -36,18 +36,25 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "ROSEN, A LEADING LAW FIRM, Encourages Alphabet Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - GOOGL, GOOG",
-          "summary": "<img src=\"https://api.newsfilecorp.com/newsinfo/318117/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px;  height: 1px;border: 0px solid;\">New York, New York--(Newsfile Corp. - October 8, 2026) - <b>WHY</b>: Rosen Law Firm, a global investor rights law firm, announces a class action lawsuit on behalf of purchasers of securities of Alphabet Inc.",
-          "link": "https://markets.businessinsider.com/news/stocks/rosen-a-leading-law-firm-encourages-alphabet-inc.-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-googl-goog-1036610284",
-          "publishedAt": "2026-10-09 04:03",
-          "outlet": "Business Insider Markets"
+          "title": "Computer scientist David Silver: ‘Where are we going without AI?’",
+          "summary": "The architect of Google DeepMind’s AlphaGo on building machines that can teach themselves — and why he feels a moral obligation to advance the technology",
+          "link": "https://www.ft.com/content/462c303b-b96c-4262-a7ca-e9ae7e440828?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-09 20:30",
+          "outlet": "Financial Times"
         },
         {
-          "title": "Google Cloud introduces Gemini agent for work as AI race heats up - Reuters",
-          "summary": "Google Cloud introduces Gemini agent for work as AI race heats up  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSlVSeTZYa0pSOFppNk9GdFF0Y0VZa19lYnRKTjRXb0FpZUhaTlBEUmRLUW04N3E1azhGalpULTNwN2Y0SnhFWGhOTktSdTVMMTJDc2VRX013NGNuSzJYRGxiWVJyU2dzS0lGdGN4YXlxQzR3TWl0eVQwbjFKWW5JVG1kQXdJYVVwd2J2OTZ5NDZYT0JQM09Ycmt2amRmekhNWTBfR0pR?oc=5",
-          "publishedAt": "2026-10-09 00:11",
-          "outlet": "Reuters Business (via Google News)"
+          "title": "Immigration split screen: Microsoft gets a crackdown and a medal",
+          "summary": "The Trump administration said Thursday that it was suspending Microsoft from a key program used to sponsor employees for green cards. Later that day, the administration honored the tech giant's CEO with a medal for innovation.Why it matters: The split-screen day highlights the tension between the administration's championing of Big Tech and its immigration policies, which constrain an industry tha",
+          "link": "https://www.axios.com/2026/10/09/trump-microsoft-immigration-tech",
+          "publishedAt": "2026-10-09 18:15",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Google Built An AI Coworker And Gave It A Confusing Name - Forbes",
+          "summary": "Google Built An AI Coworker And Gave It A Confusing Name  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORmV4ZVhyUklnTFBjSGZUNXZfMml0N0N0Sl9QM3MxV0hUOEtTblFwbXhmdmdnYW5RWWFzcHJzdUNNN3BHN2dCRUlHTld0ekxHbEh4SWRHd1NGcC1jVzZ4YlI4a0FIVTJhSk1Xd0xDMFh3Rk5Gdk5yaDZwcmxLbFkyOVRhZkd3b1hOMjBtWDVnMzlXX3F1c3ExTVRtbThMWkVBTkZtNWdKbWxYT2JvTWpr?oc=5",
+          "publishedAt": "2026-10-09 12:55",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch - The Information",
@@ -62,6 +69,13 @@
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "items": [
+        {
+          "title": "Scoop: AI companies plot \"day after\" scenarios for public revolt",
+          "summary": "Top executives at Anthropic, OpenAI and other AI companies are privately gaming out scenarios for a public and political revolt after a catastrophic AI event.Why it matters: These officials anticipate a large-scale event, most likely a cyberattack, that shuts down access to financial services, internet connectivity, or even power and water.The first example of significant real-world harm caused by",
+          "link": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack",
+          "publishedAt": "2026-10-09 18:30",
+          "outlet": "Axios"
+        },
         {
           "title": "Exclusive: Anthropic's plan to protect critical infrastructure",
           "summary": "Anthropic is launching a new cybersecurity initiative designed to bring its most powerful AI models and engineers to companies protecting power grids, water utilities and other critical infrastructure, the company first shared with Axios.Why it matters: Critical infrastructure operators are struggling to secure aging, complex systems as AI threatens to make cyberattacks faster and cheaper to execu",
@@ -81,19 +95,6 @@
           "link": "https://www.axios.com/2026/10/08/anthropic-critical-infrastructure-cybersecurity",
           "publishedAt": "2026-10-09 04:00",
           "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "PG",
-      "name": "프록터 앤드 갬블",
-      "items": [
-        {
-          "title": "Stocks making the biggest moves premarket: Constellation Energy, Option Care Health, Lennar, P&G and more",
-          "summary": "These are the stocks posting the largest moves in early trading.",
-          "link": "https://www.cnbc.com/2026/10/06/stocks-making-the-biggest-moves-premarket-constellation-energy-option-care-health-lennar-pg-and-more.html",
-          "publishedAt": "2026-10-06 20:50",
-          "outlet": "CNBC Finance"
         }
       ]
     }
