@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10 01:20",
+  "updatedAt": "2026-10-10 06:44",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Nvidia's RTX Spark hits order books, taking on Apple's Macs - digitimes",
-          "summary": "Nvidia's RTX Spark hits order books, taking on Apple's Macs  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNMDBxdFF3RGR6dTFpUldXTTNWU0xVZjlGbWx2N0FoTEpnZFY3VXdkTGhDM1NZZ2FjNDczMEFYeWVEeU1lbFY4V0ZXU3MyWjR2OEJuVWlfZ20yWk5EaUd1T2Y2ZHFQNTR5NmpjdnRjbG9TT19tOUFxNWtOWGU3LWx6eURvYjYyb0E?oc=5",
-          "publishedAt": "2026-10-08 10:35",
-          "outlet": "DigiTimes"
-        },
         {
           "title": "Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit - The Information",
           "summary": "Microsoft Debuts Nvidia-Powered PCs with On-Device AI, Following Apple’s Breakout Hit  The Information",
@@ -43,25 +36,11 @@
           "outlet": "Financial Times"
         },
         {
-          "title": "Immigration split screen: Microsoft gets a crackdown and a medal",
-          "summary": "The Trump administration said Thursday that it was suspending Microsoft from a key program used to sponsor employees for green cards. Later that day, the administration honored the tech giant's CEO with a medal for innovation.Why it matters: The split-screen day highlights the tension between the administration's championing of Big Tech and its immigration policies, which constrain an industry tha",
-          "link": "https://www.axios.com/2026/10/09/trump-microsoft-immigration-tech",
-          "publishedAt": "2026-10-09 18:15",
-          "outlet": "Axios"
-        },
-        {
           "title": "Google Built An AI Coworker And Gave It A Confusing Name - Forbes",
           "summary": "Google Built An AI Coworker And Gave It A Confusing Name  Forbes",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORmV4ZVhyUklnTFBjSGZUNXZfMml0N0N0Sl9QM3MxV0hUOEtTblFwbXhmdmdnYW5RWWFzcHJzdUNNN3BHN2dCRUlHTld0ekxHbEh4SWRHd1NGcC1jVzZ4YlI4a0FIVTJhSk1Xd0xDMFh3Rk5Gdk5yaDZwcmxLbFkyOVRhZkd3b1hOMjBtWDVnMzlXX3F1c3ExTVRtbThMWkVBTkZtNWdKbWxYT2JvTWpr?oc=5",
           "publishedAt": "2026-10-09 12:55",
           "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch - The Information",
-          "summary": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch  The Information",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUdCUGk0TnAyQVhEWDdxVElBN0d0YlR1RXZ5S2tQbUpoLVZ6WEhyQ21sOXF2WjRxckthZmo2a2JpMm9lVE9hb0JFQ0Q3SnkwMEZvQ1hySEpQeTNZNW1MWHRGT0R1STNsM0l5OXJLQnpfeV84TVlBZjdKTDU2QThZQ19sR0pxZVRUMUVUVTRJU3oxdkhVZWdKLVBfeHREQzg?oc=5",
-          "publishedAt": "2026-10-07 21:00",
-          "outlet": "The Information"
         }
       ]
     },
@@ -74,26 +53,6 @@
           "summary": "Top executives at Anthropic, OpenAI and other AI companies are privately gaming out scenarios for a public and political revolt after a catastrophic AI event.Why it matters: These officials anticipate a large-scale event, most likely a cyberattack, that shuts down access to financial services, internet connectivity, or even power and water.The first example of significant real-world harm caused by",
           "link": "https://www.axios.com/2026/10/09/ai-companies-day-after-major-attack",
           "publishedAt": "2026-10-09 18:30",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Exclusive: Anthropic's plan to protect critical infrastructure",
-          "summary": "Anthropic is launching a new cybersecurity initiative designed to bring its most powerful AI models and engineers to companies protecting power grids, water utilities and other critical infrastructure, the company first shared with Axios.Why it matters: Critical infrastructure operators are struggling to secure aging, complex systems as AI threatens to make cyberattacks faster and cheaper to execu",
-          "link": "https://www.axios.com/2026/10/08/anthropic-critical-infrastructure-cybersecurity",
-          "publishedAt": "2026-10-09 04:00",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "Exclusive: Anthropic's plan to protect critical infrastructure",
-          "summary": "Anthropic is launching a new cybersecurity initiative designed to bring its most powerful AI models and engineers to companies protecting power grids, water utilities and other critical infrastructure, the company first shared with Axios.Why it matters: Critical infrastructure operators are struggling to secure aging, complex systems as AI threatens to make cyberattacks faster and cheaper to execu",
-          "link": "https://www.axios.com/2026/10/08/anthropic-critical-infrastructure-cybersecurity",
-          "publishedAt": "2026-10-09 04:00",
           "outlet": "Axios"
         }
       ]
