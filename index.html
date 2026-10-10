@@ -21,6 +21,7 @@
     </div>
     <nav class="tabs" role="tablist" aria-label="주요 탭">
       <button class="tab-btn is-active" role="tab" aria-selected="true" data-tab="position">내 포지션</button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-tab="map">Portfolio Map</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="analysis">Stock Analysis</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="watchlist">Watchlist</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="claude">클로드 투자</button>
@@ -346,6 +347,31 @@
   </section>
 
   <!-- ============ TAB 2: 주식 분석 ============ -->
+  <section class="tab-panel" id="panel-map" role="tabpanel">
+
+    <div class="panel-head">
+      <h1>Portfolio Map</h1>
+      <p class="panel-sub">보유 종목을 테마별로 묶어, 크기는 비중 · 색은 매입 대비 수익률로 보여줍니다.</p>
+    </div>
+
+    <div class="card">
+      <div class="map-controls">
+        <div class="scope-bar" id="mapScope" role="group" aria-label="계좌 선택"></div>
+        <label class="map-check">
+          <input type="checkbox" id="mapCash"> 현금 포함
+        </label>
+        <span class="map-legend" aria-hidden="true">
+          <span>-25%</span><span class="map-legend-bar"></span><span>+25%</span>
+        </span>
+      </div>
+
+      <div class="map-canvas" id="mapCanvas"></div>
+      <p class="journal-empty" id="mapEmpty" hidden>표시할 보유 종목이 없어요.</p>
+      <p class="hint" id="mapMeta"></p>
+    </div>
+
+  </section>
+
   <section class="tab-panel" id="panel-analysis" role="tabpanel">
 
     <div class="panel-head panel-head-row">

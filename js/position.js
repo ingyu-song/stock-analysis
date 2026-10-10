@@ -304,6 +304,37 @@ function aggregate(list, cashBase) {
   };
 }
 
+// Other tabs read the book through these two rather than reaching into module
+// state: a snapshot to draw from, and a nudge whenever it has changed.
+const bookListeners = new Set();
+
+export function onBookChange(fn) {
+  bookListeners.add(fn);
+}
+
+function notifyBookChange() {
+  bookListeners.forEach(fn => {
+    try {
+      fn();
+    } catch (err) {
+      console.error("book listener failed", err);
+    }
+  });
+}
+
+export function getBookSnapshot() {
+  const d = computeDerived();
+  return {
+    updatedAt: state.updatedAt || null,
+    accounts: state.accounts.map(a => ({ id: a.id, name: a.name, cashBase: cashTotal(a.cash, state) })),
+    holdings: d.enriched.map(h => ({
+      account: h.account, ticker: h.ticker, name: h.name, currency: h.currency,
+      shares: Number(h.shares) || 0,
+      valueBase: h.valueBase, costBase: h.costBase, pnlBase: h.pnlBase,
+    })),
+  };
+}
+
 function computeDerived() {
   const enriched = state.holdings.map((h, i) => {
     const shares = Number(h.shares) || 0;
@@ -658,6 +689,7 @@ function render() {
   renderRiskPanel();
   renderJournal();
   renderBenchmarks();
+  notifyBookChange();
 }
 
 function persistAndRender() {
@@ -727,6 +759,7 @@ function refreshAfterEdit() {
     tr.children[8].className = `cell-computed ${pnlClass(row.pnlBase)}`;
     tr.children[9].textContent = fmtPct(row.weightPct);
   });
+  notifyBookChange();
 }
 
 function syncTopLevelInputs() {

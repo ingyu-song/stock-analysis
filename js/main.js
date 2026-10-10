@@ -1,10 +1,11 @@
 import { initPosition } from "./position.js";
+import { initPortfolioMap } from "./portfolio-map.js";
 import { initAnalysis } from "./analysis.js";
 import { initWatchlist } from "./watchlist.js";
 import { initClaudeTab } from "./claude-tab.js";
 import { makeTableResizable } from "./table-resize.js";
 
-const TAB_NAMES = ["position", "analysis", "watchlist", "claude"];
+const TAB_NAMES = ["position", "map", "analysis", "watchlist", "claude"];
 
 function initTabs() {
   const buttons = document.querySelectorAll(".tab-btn");
@@ -48,6 +49,7 @@ function initTheme() {
 initTabs();
 initTheme();
 initPosition();
+initPortfolioMap();
 initAnalysis();
 initWatchlist();
 initClaudeTab();
