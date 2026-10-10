@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10 10:47",
+  "updatedAt": "2026-10-10 17:35",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple Shares Dip After Report Says It’s Cutting iPhone 18 Pro Component Orders - Forbes",
+          "summary": "Apple Shares Dip After Report Says It’s Cutting iPhone 18 Pro Component Orders  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdEtkYkhuQ2NtaWV1UV9EYzVlcjNNMncyQUJLT254ODhjZ2NtY2RremtRX21uMUtNdjlWZkQ1bHhlXzY4QnRMNkRDWWt6VEh4dThGYndQSVJMUXV5YVJ6WHkzbW1rSmw4Sl9aRXktbndoVktGU0pGb2VpcTNtc25QX2l4dUxjWHNuNmN3SHlvbER3WjhsRGhzNjB4bEozNE9RZ1BBU09RSm5YVVNGYTRISVJHQkNRdzYxNDhJQ0Nxamc0LVc4aWp2bW1iNA?oc=5",
+          "publishedAt": "2026-10-09 18:38",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "Nvidia's RTX Spark hits order books, taking on Apple's Macs - digitimes",
           "summary": "Nvidia's RTX Spark hits order books, taking on Apple's Macs  digitimes",
@@ -21,13 +28,6 @@
           "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUEJEb1Z3RkFvQXNtSFpwamlWZG1vQzhMRVRybXV0SGZDbUhnY2lNMF9QbU9XRlhhZXlRTzRuTUpOMC10ZjZJRVY2eVZHSGdLVDBnb3k1Vmg0dW5aUnpfaldoMUxqSWRrSEhMcE1QeU5rR0tHcnp4T3ZJYkZURXFmdEY5dVpCSHVHcVQ5d0RPMlp0Wkk0LWlVTmd1V1NWdk1ZUEN6VHNR?oc=5",
           "publishedAt": "2026-10-08 03:21",
           "outlet": "The Information"
-        },
-        {
-          "title": "Apple Watch sensor demand and InP supply tightness lift TASC's 2H26 outlook - digitimes",
-          "summary": "Apple Watch sensor demand and InP supply tightness lift TASC's 2H26 outlook  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWTFpQVlJMkZvcW5YTzVWbVdoM3BidDRsUlhpUzI3S2JjdldKeDZJdkdVSi0tS0JhemIwamxlejlscDNXUEZta2w4aEZLd3FvendDb3I1Rml2MWM4SU9mVEJuR2pLQ1NRVW8tSm1MX2ctc3J0X2RhNkl4NERWaHNTd2ZhbUhhVDFyVXltUTVrcUx3SjVRdmtYRTZfUUgxZnl2VW9Tc2xOZWdCZw?oc=5",
-          "publishedAt": "2026-10-07 12:44",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -36,18 +36,25 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Computer scientist David Silver: ‘Where are we going without AI?’",
-          "summary": "The architect of Google DeepMind’s AlphaGo on building machines that can teach themselves — and why he feels a moral obligation to advance the technology",
-          "link": "https://www.ft.com/content/462c303b-b96c-4262-a7ca-e9ae7e440828?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-09 20:30",
+          "title": "5 big analyst AI moves: Google reaffirmed as top pick after Gemini agent launch",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/5-big-analyst-ai-moves-google-reaffirmed-as-top-pick-after-gemini-agent-launch-4941746",
+          "publishedAt": "2026-10-10 17:15",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Ukraine strikes Russian tech giant’s data centres",
+          "summary": "Kyiv attacks facilities of Yandex, known as ‘Russia’s Google’, in retaliation for strikes on its digital infrastructure",
+          "link": "https://www.ft.com/content/b90417e7-4d32-48cc-a508-5d405e7cd2ee?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-09 20:55",
           "outlet": "Financial Times"
         },
         {
-          "title": "Google Built An AI Coworker And Gave It A Confusing Name - Forbes",
-          "summary": "Google Built An AI Coworker And Gave It A Confusing Name  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxORmV4ZVhyUklnTFBjSGZUNXZfMml0N0N0Sl9QM3MxV0hUOEtTblFwbXhmdmdnYW5RWWFzcHJzdUNNN3BHN2dCRUlHTld0ekxHbEh4SWRHd1NGcC1jVzZ4YlI4a0FIVTJhSk1Xd0xDMFh3Rk5Gdk5yaDZwcmxLbFkyOVRhZkd3b1hOMjBtWDVnMzlXX3F1c3ExTVRtbThMWkVBTkZtNWdKbWxYT2JvTWpr?oc=5",
-          "publishedAt": "2026-10-09 12:55",
-          "outlet": "Forbes Markets"
+          "title": "Google, Meta, and others commit nearly US$2 billion to open AI biology data - digitimes",
+          "summary": "Google, Meta, and others commit nearly US$2 billion to open AI biology data  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVEp3d1pSbkVvOUU5aWZidWdrV1E3T2VUa1A0MzZRaE56M3AyVTYwZXBiaGF4VHZ2alM1Nlo2RUxLVXZwNmlkY2JVLVlLVGZGN3gycjhkMjVJTHE1bWVzaDNQcnI2cU0tWlpCTnlMRzNFZTgydUNSU0pzbzAzN3hVbUliTzR1eUtVb2E1b2p4clY?oc=5",
+          "publishedAt": "2026-10-08 15:45",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch - The Information",
