@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10 17:35",
+  "updatedAt": "2026-10-11 00:25",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple Shares Dip After Report Says It’s Cutting iPhone 18 Pro Component Orders - Forbes",
-          "summary": "Apple Shares Dip After Report Says It’s Cutting iPhone 18 Pro Component Orders  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQdEtkYkhuQ2NtaWV1UV9EYzVlcjNNMncyQUJLT254ODhjZ2NtY2RremtRX21uMUtNdjlWZkQ1bHhlXzY4QnRMNkRDWWt6VEh4dThGYndQSVJMUXV5YVJ6WHkzbW1rSmw4Sl9aRXktbndoVktGU0pGb2VpcTNtc25QX2l4dUxjWHNuNmN3SHlvbER3WjhsRGhzNjB4bEozNE9RZ1BBU09RSm5YVVNGYTRISVJHQkNRdzYxNDhJQ0Nxamc0LVc4aWp2bW1iNA?oc=5",
-          "publishedAt": "2026-10-09 18:38",
-          "outlet": "Forbes Markets"
+          "title": "How a South African billionaire is turning a corner of Somerset into ‘one man’s estate’",
+          "summary": "Koos Bekker’s Newt estate  encompasses luxury hotels, pubs and high street business, with local concerns including floodingWhen South African billionaire Koos Bekker bought an old country estate in a sleepy corner of Somerset to turn it into a luxury hotel, residents thought it was a sign their area was on the up.Walking through his peaceful manicured gardens, which feature a maze of apple trees t",
+          "link": "https://www.theguardian.com/news/2026/oct/10/how-a-south-african-billionaire-is-turning-a-corner-of-somerset-into-one-mans-estate",
+          "publishedAt": "2026-10-10 22:00",
+          "outlet": "The Guardian Business"
         },
         {
           "title": "Nvidia's RTX Spark hits order books, taking on Apple's Macs - digitimes",
@@ -43,25 +43,11 @@
           "outlet": "Investing.com"
         },
         {
-          "title": "Ukraine strikes Russian tech giant’s data centres",
-          "summary": "Kyiv attacks facilities of Yandex, known as ‘Russia’s Google’, in retaliation for strikes on its digital infrastructure",
-          "link": "https://www.ft.com/content/b90417e7-4d32-48cc-a508-5d405e7cd2ee?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-09 20:55",
-          "outlet": "Financial Times"
-        },
-        {
           "title": "Google, Meta, and others commit nearly US$2 billion to open AI biology data - digitimes",
           "summary": "Google, Meta, and others commit nearly US$2 billion to open AI biology data  digitimes",
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVEp3d1pSbkVvOUU5aWZidWdrV1E3T2VUa1A0MzZRaE56M3AyVTYwZXBiaGF4VHZ2alM1Nlo2RUxLVXZwNmlkY2JVLVlLVGZGN3gycjhkMjVJTHE1bWVzaDNQcnI2cU0tWlpCTnlMRzNFZTgydUNSU0pzbzAzN3hVbUliTzR1eUtVb2E1b2p4clY?oc=5",
           "publishedAt": "2026-10-08 15:45",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch - The Information",
-          "summary": "Former Google, Nvidia Execs Launch Company to Ease GPU Crunch  The Information",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOTUdCUGk0TnAyQVhEWDdxVElBN0d0YlR1RXZ5S2tQbUpoLVZ6WEhyQ21sOXF2WjRxckthZmo2a2JpMm9lVE9hb0JFQ0Q3SnkwMEZvQ1hySEpQeTNZNW1MWHRGT0R1STNsM0l5OXJLQnpfeV84TVlBZjdKTDU2QThZQ19sR0pxZVRUMUVUVTRJU3oxdkhVZWdKLVBfeHREQzg?oc=5",
-          "publishedAt": "2026-10-07 21:00",
-          "outlet": "The Information"
         }
       ]
     }
