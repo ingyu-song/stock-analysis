@@ -11,9 +11,9 @@
       "shares": 18,
       "avgCost": 503.80999755859375,
       "firstBought": "2026-08-12",
-      "lastPrice": 522.6099853515625,
-      "lastPriceDate": "2026-10-09",
-      "marketValueKRW": 12626612.620883789
+      "lastPrice": 535.0700073242188,
+      "lastPriceDate": "2026-10-10",
+      "marketValueKRW": 12906081.201862793
     },
     {
       "ticker": "005930.KS",
@@ -23,7 +23,7 @@
       "avgCost": 255500.0,
       "firstBought": "2026-08-12",
       "lastPrice": 262000.0,
-      "lastPriceDate": "2026-10-09",
+      "lastPriceDate": "2026-10-10",
       "marketValueKRW": 28820000.0
     },
     {
@@ -33,9 +33,9 @@
       "shares": 32,
       "avgCost": 77.82937431335449,
       "firstBought": "2026-08-12",
-      "lastPrice": 72.91000366210938,
-      "lastPriceDate": "2026-10-09",
-      "marketValueKRW": 2446836.3916992187
+      "lastPrice": 73.36000061035156,
+      "lastPriceDate": "2026-10-10",
+      "marketValueKRW": 2456092.8204345703
     }
   ],
   "decisions": [
@@ -329,9 +329,15 @@
       "totalValue": 46435254.44533123,
       "cash": 2541805.4327482227,
       "equityValue": 43893449.01258301
+    },
+    {
+      "date": "2026-10-10",
+      "totalValue": 46723979.45504559,
+      "cash": 2541805.4327482227,
+      "equityValue": 44182174.02229737
     }
   ],
-  "lastUpdated": "2026-10-09T11:21:57.572098+09:00",
+  "lastUpdated": "2026-10-10T10:50:34.649333+09:00",
   "cashFlows": [
     {
       "date": "2026-09-28",
