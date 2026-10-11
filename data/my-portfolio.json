@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10 10:50",
+  "updatedAt": "2026-10-11 13:21",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1340.02,
@@ -9,7 +9,7 @@
       "id": "kiwoom",
       "name": "키움 (ISA)",
       "cash": {
-        "KRW": 7309270
+        "KRW": 6813770
       }
     },
     {
@@ -17,22 +17,12 @@
       "name": "미래에셋",
       "cash": {
         "KRW": -3866,
-        "USD": 4919.4,
+        "USD": 2536.86,
         "EUR": 394.74
       }
     }
   ],
   "holdings": [
-    {
-      "account": "kiwoom",
-      "ticker": "080220.KQ",
-      "name": "제주반도체",
-      "currency": "KRW",
-      "shares": 5,
-      "price": 86400.0,
-      "costKRW": 378000,
-      "costNative": 378000
-    },
     {
       "account": "kiwoom",
       "ticker": "379800.KS",
@@ -58,10 +48,10 @@
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "currency": "USD",
-      "shares": 6,
-      "price": 275.04,
-      "costKRW": 1654540,
-      "costNative": 1208.7192
+      "shares": 8,
+      "price": 275.46,
+      "costKRW": 2505696,
+      "costNative": 1867.036
     },
     {
       "account": "mirae",
@@ -69,19 +59,19 @@
       "name": "애플",
       "currency": "USD",
       "shares": 15,
-      "price": 336.64,
-      "costKRW": 6696954,
-      "costNative": 4942.2
+      "price": 336.05,
+      "costKRW": 6606625,
+      "costNative": 4942.2405
     },
     {
       "account": "mirae",
       "ticker": "SONY",
       "name": "소니 그룹 (ADR)",
       "currency": "USD",
-      "shares": 100,
-      "price": 24.12,
-      "costNative": 2399.0,
-      "costKRW": 3224017
+      "shares": 150,
+      "price": 24.2,
+      "costNative": 3587.25,
+      "costKRW": 4757132
     },
     {
       "account": "mirae",
@@ -89,8 +79,8 @@
       "name": "프록터 앤드 갬블",
       "currency": "USD",
       "shares": 10,
-      "price": 151.23,
-      "costKRW": 2030671,
+      "price": 151.11,
+      "costKRW": 2003265,
       "costNative": 1483.5
     },
     {
@@ -99,8 +89,8 @@
       "name": "알파벳 A",
       "currency": "USD",
       "shares": 5,
-      "price": 351.66,
-      "costKRW": 2384023,
+      "price": 351.61,
+      "costKRW": 2351848,
       "costNative": 1741.64
     },
     {
@@ -109,8 +99,8 @@
       "name": "팰로 앨토 네트웍스",
       "currency": "USD",
       "shares": 5,
-      "price": 418.78,
-      "costKRW": 2533582,
+      "price": 418.85,
+      "costKRW": 2499388,
       "costNative": 1850.9
     },
     {
@@ -119,29 +109,19 @@
       "name": "서클 인터넷 그룹",
       "currency": "USD",
       "shares": 10,
-      "price": 84.51,
-      "costKRW": 1373451,
+      "price": 84.815,
+      "costKRW": 1354915,
       "costNative": 1003.37
-    },
-    {
-      "account": "mirae",
-      "ticker": "VIXY",
-      "name": "ProShares VIX 단기선물",
-      "currency": "USD",
-      "shares": 30,
-      "price": 16.3,
-      "costKRW": 884091,
-      "costNative": 645.87
     },
     {
       "account": "kiwoom",
       "ticker": "012450.KS",
       "name": "한화에어로스페이스",
       "currency": "KRW",
-      "shares": 1,
+      "shares": 2,
       "price": 891000.0,
-      "costKRW": 1011000,
-      "costNative": 1011000
+      "costKRW": 1933000,
+      "costNative": 1933000
     },
     {
       "account": "kiwoom",
@@ -152,6 +132,16 @@
       "price": 25840.0,
       "costKRW": 678225,
       "costNative": 678225
+    },
+    {
+      "account": "mirae",
+      "ticker": "GPIQ",
+      "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
+      "currency": "USD",
+      "shares": 20,
+      "price": 58.24,
+      "costKRW": 1535548,
+      "costNative": 1157.29
     }
   ],
   "risk": {
@@ -454,6 +444,81 @@
         "https://stockanalysis.com/quote/krx/464920/",
         "https://m.stock.naver.com/domestic/stock/464920/total"
       ]
+    },
+    {
+      "date": "2026-10-07",
+      "account": "kiwoom",
+      "ticker": "080220.KQ",
+      "name": "제주반도체",
+      "side": "sell",
+      "shares": 5,
+      "price": 85300,
+      "currency": "KRW",
+      "returnPct": 12.83,
+      "reason": "사유 확인 필요."
+    },
+    {
+      "date": "2026-10-08",
+      "account": "kiwoom",
+      "ticker": "012450.KS",
+      "name": "한화에어로스페이스",
+      "side": "buy",
+      "shares": 1,
+      "price": 922000,
+      "currency": "KRW",
+      "reason": "사유 확인 필요.",
+      "note": "9/30에 1주 @1,011,000, 이번에 1주 @922,000 — 2주 평단 966,500원."
+    },
+    {
+      "date": "2026-10-09",
+      "account": "mirae",
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
+      "side": "buy",
+      "shares": 2,
+      "price": null,
+      "currency": "USD",
+      "reason": "사유 확인 필요.",
+      "note": "체결일·단가 미확인 — 10/9 잔고 화면 기준. 보유가 6주→8주(순증 2주)인데 평단은 201.45→233.38로 올랐다. 2주를 시장가($263~279)에 샀다면 평단은 217~221이어야 하고, 233.38이 나오려면 매수가가 $329여야 하는데 이 기간 최고가는 $287이었다. 따라서 추가 매수 후 일부를 다시 매도했거나 다른 체결이 섞인 것으로 보이며, 체결내역 확인 전까지는 증권사 화면의 최종 수량·평단만 그대로 반영했다."
+    },
+    {
+      "date": "2026-10-09",
+      "account": "mirae",
+      "ticker": "SONY",
+      "name": "소니 그룹 (ADR)",
+      "side": "buy",
+      "shares": 50,
+      "price": 23.765,
+      "currency": "USD",
+      "reason": "사유 확인 필요.",
+      "note": "체결일 미확인 (보유 100→150주, 평단 23.99→23.915에서 역산한 단가 $23.765는 9/15~10/8 중 7개 거래일 범위에 들어가 날짜는 좁혀지지 않는다)."
+    },
+    {
+      "date": "2026-10-09",
+      "account": "mirae",
+      "ticker": "GPIQ",
+      "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
+      "side": "buy",
+      "shares": 20,
+      "price": 57.8645,
+      "currency": "USD",
+      "reason": "골드만삭스의 고배당(인컴) ETF로, 굉장히 괜찮은 종목이라고 생각해서 두 번에 걸쳐 나눠서 매수.",
+      "note": "두 번에 나눠 산 체결일·수량은 미확인이라 평균단가 $57.8645로 한 건으로 적었다. Goldman Sachs Nasdaq-100 Premium Income ETF, 야후 기준 보수 0.29%. 나스닥100 종목을 담고 콜옵션을 팔아 인컴을 만드는 구조이고 매월 분배한다: 최근 12개월 분배금 합계 $6.22, 현재가 대비 약 10.7% (야후의 yield 필드 0.6%는 분배금 이력과 맞지 않아 쓰지 않았다). 상위 구성종목은 NVDA 8.4%, AAPL 7.5%, MSFT 5.9%, MU 5.1%, AMD 4.3%, AMZN 4.1%, GOOGL 3.9%, META 3.4%, SPCX 2.8%, TSLA 2.7% (야후 funds data). 이미 보유한 애플·알파벳과 구성이 겹치고 기초지수는 KODEX 미국나스닥100과 같다.",
+      "sources": [
+        "https://finance.yahoo.com/quote/GPIQ/holdings/"
+      ]
+    },
+    {
+      "date": "2026-10-09",
+      "account": "mirae",
+      "ticker": "VIXY",
+      "name": "ProShares VIX 단기선물",
+      "side": "sell",
+      "shares": 30,
+      "price": null,
+      "currency": "USD",
+      "reason": "사유 확인 필요.",
+      "note": "체결일·단가 미확인. 10/9 잔고 화면에 VIXY가 없어 매도된 것으로 판단했다. 근거: 화면 종목 평가액 합계 $18,250.78을 증권사 원화평가금액 24,443,854원에서 나누면 1,339원/$로 시장환율(1,343)과 맞고, VIXY(약 $490)가 있었다면 1,303원/$가 되어 맞지 않는다. 평단 $21.53 대비 최근 종가 $16~17이라 손실 매도로 보인다."
     }
   ]
 }
