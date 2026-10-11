@@ -1,39 +1,19 @@
 {
-  "updatedAt": "2026-10-11 14:55",
+  "updatedAt": "2026-10-11 21:59",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "How a South African billionaire is turning a corner of Somerset into ‘one man’s estate’",
-          "summary": "Koos Bekker’s Newt estate  encompasses luxury hotels, pubs and high street business, with local concerns including floodingWhen South African billionaire Koos Bekker bought an old country estate in a sleepy corner of Somerset to turn it into a luxury hotel, residents thought it was a sign their area was on the up.Walking through his peaceful manicured gardens, which feature a maze of apple trees t",
-          "link": "https://www.theguardian.com/news/2026/oct/10/how-a-south-african-billionaire-is-turning-a-corner-of-somerset-into-one-mans-estate",
-          "publishedAt": "2026-10-10 22:00",
-          "outlet": "The Guardian Business"
-        },
-        {
-          "title": "Apple cuts iPhone 18 Pro orders due to soft demand, Nikkei Asia reports - Reuters",
-          "summary": "Apple cuts iPhone 18 Pro orders due to soft demand, Nikkei Asia reports  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcWxvbWdzenJKeF9PdGppTmNVeTQySGx4dzNaREdmbktzZzVUc3UtZVdXRUVxT1d6eDA0MGE5UGYxRi1rbXdEYW96ZVRRWXUtS3BialZSa0l0dWVKQzhNVVVfRUlfWk4zM2g1anhLUmpmaUg5VWR3eHcybnJsVE8yVFJWZTl4ZnpQa2xWUm1wN2k4X2llWWVoTHZoRjBnVmkwYjBzdE5ON0VSalY4ZVVrUmVGTkRsUVNHWERuZFV4Z3ZXVlgxekFr?oc=5",
-          "publishedAt": "2026-10-10 18:53",
-          "outlet": "Reuters Business (via Google News)"
-        }
-      ]
-    },
-    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google, Meta, and others commit nearly US$2 billion to open AI biology data - digitimes",
-          "summary": "Google, Meta, and others commit nearly US$2 billion to open AI biology data  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVEp3d1pSbkVvOUU5aWZidWdrV1E3T2VUa1A0MzZRaE56M3AyVTYwZXBiaGF4VHZ2alM1Nlo2RUxLVXZwNmlkY2JVLVlLVGZGN3gycjhkMjVJTHE1bWVzaDNQcnI2cU0tWlpCTnlMRzNFZTgydUNSU0pzbzAzN3hVbUliTzR1eUtVb2E1b2p4clY?oc=5",
-          "publishedAt": "2026-10-08 15:45",
-          "outlet": "DigiTimes"
+          "title": "‘You have a meeting’: the calendar phishing scam growing exponentially",
+          "summary": "Appointment or renewal reminder appears in victims’ calendar to lure them into logging in to fake Google, Microsoft or PayPal pageYou’re preparing for the week ahead and take a look at your Google calendar. There’s an entry for a meeting that you must have completely forgotten. The note that pops up when you click on it says you’ll be reviewing a project and includes a link to more details. Confus",
+          "link": "https://www.theguardian.com/money/2026/oct/11/calendar-phishing-scam-meeting-renewal-google-microsoft-paypal",
+          "publishedAt": "2026-10-11 15:00",
+          "outlet": "The Guardian Business"
         }
       ]
     }
