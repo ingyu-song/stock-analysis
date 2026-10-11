@@ -56,6 +56,9 @@ SYSTEM_PROMPT = """\
   · none   — 확인된 원인이 없을 때. "뉴스로 확인된 뚜렷한 원인은 없음"이라고 씁니다.
 - 변동폭이 0.5% 미만이면 "큰 변동 없음"으로 충분하고 basis는 none입니다.
 - ETF는 기초지수나 연동된 시장의 움직임이 곧 원인이므로, 해당하는 지수 변동을 근거로 basis=market으로 씁니다.
+  단 종목마다 거래일이 다르니 그 종목에 함께 제공된 같은 날의 시장 변동만 인용합니다. 해외 지수 날짜가 종목의
+  거래일과 다르면 "미국 시장은 그날 열리지 않았거나 별도 날"이므로 인용하지 마세요.
+- 환율(USD/KRW 등)은 원화로 환산한 가격에만 영향을 주고 현지통화 등락의 원인이 아닙니다.
 - 기사 제목이 종목과 무관해 보이면(동음이의어 등) 무시합니다.
 - 반드시 record_move_reasons 도구로 제출합니다. 요청받은 모든 티커를 빠짐없이 포함합니다.
 """
@@ -96,17 +99,51 @@ def load_json(path):
         return None
 
 
-def market_context():
-    # reuse the price job's quote() so the two never disagree about "yesterday"
-    sys.path.insert(0, str(Path(__file__).resolve().parent))
-    from update_prices import quote
+def market_series():
+    """Daily closes per index and currency, keyed by date.
 
-    out = {}
+    The dates matter. Korea and the US do not trade on the same days (10/9 was
+    a Korean holiday), so "the latest close" is a different calendar day for a
+    KRX ETF than for a US stock. Handing the model one global set of index moves
+    produced an explanation that set a KOSPI fall on 10/8 against an S&P rise on
+    10/9 — two different days — so each holding is given the moves of its own
+    trading day instead.
+    """
+    import yfinance as yf
+
+    series = {}
     for name, ticker in MARKET_TICKERS.items():
-        last, prev = quote(ticker)
-        if last and prev:
-            out[name] = round((last / prev - 1) * 100, 2)
+        try:
+            closes = yf.Ticker(ticker).history(period="15d")["Close"].dropna()
+        except Exception:
+            continue
+        rows = {d.strftime("%Y-%m-%d"): float(v) for d, v in closes.items()}
+        if len(rows) >= 2:
+            series[name] = rows
+    return series
+
+
+def moves_on(series, date):
+    """Each series' % change on `date` vs its prior close, where it traded."""
+    out = {}
+    for name, rows in series.items():
+        days = sorted(rows)
+        if date in rows:
+            i = days.index(date)
+            if i > 0:
+                out[name] = round((rows[date] / rows[days[i - 1]] - 1) * 100, 2)
     return out
+
+
+def last_session(ticker):
+    """The date of a holding's latest close, as yfinance reports it."""
+    import yfinance as yf
+
+    try:
+        closes = yf.Ticker(ticker).history(period="10d")["Close"].dropna()
+        return closes.index[-1].strftime("%Y-%m-%d") if len(closes) else None
+    except Exception:
+        return None
 
 
 def parse_time(s):
@@ -143,16 +180,22 @@ def gather_headlines(ticker, now):
     return items[:MAX_HEADLINES]
 
 
-def build_prompt(holdings, market, now):
-    lines = [f"기준 시각: {now:%Y-%m-%d %H:%M} KST (각 종목은 가장 최근 거래일 종가 vs 그 전 거래일 종가)", ""]
-    lines.append("시장 지수·환율 전일 대비(%):")
-    for name, pct in market.items():
-        lines.append(f"  - {name}: {pct:+.2f}%")
-    lines.append("")
+def build_prompt(holdings, now):
+    lines = [
+        f"기준 시각: {now:%Y-%m-%d %H:%M} KST",
+        "한국과 미국은 휴장일이 달라 종목마다 '최근 거래일'이 다를 수 있습니다. 아래에서 각 종목은 "
+        "자기 거래일에 해당하는 시장 지수·환율 변동만 함께 제공되며, 다른 날짜의 변동은 근거로 쓰지 마세요.",
+        "",
+    ]
 
     numbered, hid = {}, 0
     for h in holdings:
-        lines.append(f"[{h['ticker']}] {h['name']} — 전일 대비 {h['changePct']:+.2f}% ({h['currency']})")
+        lines.append(f"[{h['ticker']}] {h['name']} — {h['session']} 종가, 전일 대비 {h['changePct']:+.2f}% ({h['currency']})")
+        if h["market"]:
+            ctx = ", ".join(f"{k} {v:+.2f}%" for k, v in h["market"].items())
+            lines.append(f"    같은 날({h['session']}) 시장: {ctx}")
+        else:
+            lines.append(f"    같은 날({h['session']}) 시장 지수 데이터 없음")
         if h["headlines"]:
             for it in h["headlines"]:
                 hid += 1
@@ -236,26 +279,30 @@ def main():
         return 1
 
     now = datetime.datetime.now(KST)
+    print("시장 지수 시계열 조회...")
+    series = market_series()
+
     holdings = []
     for h in book.get("holdings", []):
         px, prev = h.get("price"), h.get("prevClose")
         if not (px and prev):
             continue
+        session = last_session(h["ticker"])
         holdings.append({
             "ticker": h["ticker"], "name": h.get("name") or h["ticker"], "currency": h.get("currency", ""),
             "changePct": round((px / prev - 1) * 100, 2),
+            "session": session or "날짜 미상",
+            "market": moves_on(series, session) if session else {},
             "headlines": gather_headlines(h["ticker"], now),
         })
     if not holdings:
         print("전일 종가가 있는 보유 종목이 없습니다 — update_prices.py 를 먼저 실행하세요.", file=sys.stderr)
         return 1
 
-    print("시장 지수 조회...")
-    market = market_context()
-    for k, v in market.items():
-        print(f"  {k}: {v:+.2f}%")
+    for h in holdings:
+        print(f"  {h['ticker']:<11} {h['session']}  {h['changePct']:+.2f}%  시장 {h['market']}")
 
-    prompt, numbered = build_prompt(holdings, market, now)
+    prompt, numbered = build_prompt(holdings, now)
     expected = [h["ticker"] for h in holdings]
     print(f"\n종목 {len(holdings)}개, 기사 {len(numbered)}건을 근거로 제공")
 
@@ -297,17 +344,16 @@ def main():
             for hid in entry["ids"]:
                 _, it = numbered[hid]
                 srcs.append({"title": it["title"], "link": it["link"], "outlet": it["outlet"], "publishedAt": it["publishedAt"]})
-            moves[tk] = {"name": h["name"], "changePct": h["changePct"], "reason": entry["reason"],
-                         "basis": entry["basis"], "sources": srcs}
+            moves[tk] = {"name": h["name"], "changePct": h["changePct"], "session": h["session"],
+                         "reason": entry["reason"], "basis": entry["basis"], "sources": srcs}
         else:
-            moves[tk] = {"name": h["name"], "changePct": h["changePct"],
+            moves[tk] = {"name": h["name"], "changePct": h["changePct"], "session": h["session"],
                          "reason": "설명을 생성하지 못했어요.", "basis": "none", "sources": []}
 
     out = {
         "generatedAt": now.strftime("%Y-%m-%d %H:%M"),
         "model": MODEL,
         "windowDays": WINDOW_DAYS,
-        "market": market,
         "moves": moves,
     }
     OUT_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
