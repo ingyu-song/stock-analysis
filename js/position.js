@@ -142,6 +142,8 @@ function buildPublishPayload() {
     baseCurrency: "KRW",
     fxRate: state.fxRate,
     fxRateEUR: state.fxRateEUR,
+    ...(state.fxRatePrev ? { fxRatePrev: state.fxRatePrev } : {}),
+    ...(state.fxRateEURPrev ? { fxRateEURPrev: state.fxRateEURPrev } : {}),
     accounts: state.accounts,
     holdings: state.holdings,
     journal: state.journal,
@@ -231,6 +233,15 @@ function cashTotal(cash, st) {
 function fxOf(currency, st) {
   if (currency === "USD") return Number(st.fxRate) || 0;
   if (currency === "EUR") return Number(st.fxRateEUR) || 0;
+  return 1;
+}
+
+// Rate at the prior close. Falls back to the current rate when the file has no
+// prior (older snapshots), which simply leaves the currency effect out rather
+// than inventing one.
+function fxPrevOf(currency, st) {
+  if (currency === "USD") return Number(st.fxRatePrev) || Number(st.fxRate) || 0;
+  if (currency === "EUR") return Number(st.fxRateEURPrev) || Number(st.fxRateEUR) || 0;
   return 1;
 }
 
@@ -330,9 +341,45 @@ export function getBookSnapshot() {
     holdings: d.enriched.map(h => ({
       account: h.account, ticker: h.ticker, name: h.name, currency: h.currency,
       shares: Number(h.shares) || 0,
+      price: Number(h.price) || 0,
+      prevClose: Number(h.prevClose) || 0,
+      dailyPctLocal: h.dailyPctLocal,
       valueBase: h.valueBase, costBase: h.costBase, pnlBase: h.pnlBase,
     })),
   };
+}
+
+// A day's move for a list of holdings plus the currency effect on foreign cash.
+// Measured against current share counts, so on a day a position was changed it
+// reads as the move of what is held now, not of what was held at the open.
+function dailyMove(list, cashByCurrency) {
+  let now = 0, prev = 0, priced = 0, missing = 0, fxOnCash = 0, cashPrev = 0;
+  list.forEach(h => {
+    const pc = Number(h.prevClose);
+    if (!(pc > 0)) { missing++; return; }
+    const sh = Number(h.shares) || 0;
+    now += sh * (Number(h.price) || 0) * fxOf(h.currency, state);
+    prev += sh * pc * fxPrevOf(h.currency, state);
+    priced++;
+  });
+  Object.entries(cashByCurrency || {}).forEach(([cur, amt]) => {
+    const a = Number(amt) || 0;
+    cashPrev += a * fxPrevOf(cur, state);
+    fxOnCash += a * (fxOf(cur, state) - fxPrevOf(cur, state));
+  });
+  const pnl = (now - prev) + fxOnCash;
+  const base = prev + cashPrev;
+  return { pnl, pct: base > 0 ? (pnl / base) * 100 : NaN, stocks: now - prev, fxOnCash, priced, missing };
+}
+
+function mergeCash(accounts) {
+  const out = {};
+  accounts.forEach(a => {
+    Object.entries(normaliseCash(a.cash)).forEach(([cur, amt]) => {
+      out[cur] = (out[cur] || 0) + (Number(amt) || 0);
+    });
+  });
+  return out;
 }
 
 function computeDerived() {
@@ -340,7 +387,11 @@ function computeDerived() {
     const shares = Number(h.shares) || 0;
     const valueBase = toBase(shares * (Number(h.price) || 0), h.currency, state);
     const costBase = Number(h.costKRW) || 0;
-    return { ...h, i, valueBase, costBase, pnlBase: valueBase - costBase };
+    // price move in the listing's own currency — what the market quotes, and
+    // what a headline explains. The won figure above it adds the currency's move.
+    const pc = Number(h.prevClose);
+    const dailyPctLocal = pc > 0 ? ((Number(h.price) || 0) / pc - 1) * 100 : NaN;
+    return { ...h, i, valueBase, costBase, pnlBase: valueBase - costBase, dailyPctLocal };
   });
 
   const totalCash = state.accounts.reduce((s, a) => s + cashTotal(a.cash, state), 0);
@@ -368,7 +419,16 @@ function computeDerived() {
     weightPct: scoped.totalBase > 0 ? (h.valueBase / scoped.totalBase) * 100 : 0,
   }));
 
-  return { enriched, perAccount, all, scoped, rows };
+  const scopeAccounts = state.scope === "all"
+    ? state.accounts
+    : state.accounts.filter(a => a.id === state.scope);
+  const daily = dailyMove(inScope, mergeCash(scopeAccounts));
+  const dailyByAccount = Object.fromEntries(state.accounts.map(a => [
+    a.id,
+    dailyMove(enriched.filter(h => h.account === a.id), mergeCash([a])),
+  ]));
+
+  return { enriched, perAccount, all, scoped, rows, daily, dailyByAccount };
 }
 
 function renderScopeBar() {
@@ -401,7 +461,22 @@ function renderStats(d) {
 
   document.getElementById("statCashPct").textContent =
     d.scoped.totalBase > 0 ? fmtPct((d.scoped.cashBase / d.scoped.totalBase) * 100) : "–";
-  document.getElementById("statCount").textContent = String(d.scoped.count);
+  const dayEl = document.getElementById("statDaily");
+  if (dayEl) {
+    const dm = d.daily;
+    if (dm.priced === 0) {
+      dayEl.textContent = "–";
+      dayEl.className = "stat-value";
+      dayEl.title = "전일 종가 데이터가 아직 없어요 (다음 일일 갱신 때 채워집니다)";
+    } else {
+      dayEl.textContent = `${fmtSignedMoney(dm.pnl)} (${fmtSignedPct(dm.pct)})`;
+      dayEl.className = `stat-value ${pnlClass(dm.pnl)}`;
+      dayEl.title =
+        `주식 ${fmtSignedMoney(dm.stocks)} · 외화현금 환율 ${fmtSignedMoney(dm.fxOnCash)}` +
+        (dm.missing ? `\n전일 종가가 없는 ${dm.missing}종목은 제외` : "") +
+        `\n가장 최근 거래일 종가 대비, 현재 보유 수량 기준`;
+    }
+  }
 }
 
 function accountCardHtml(a, colorVar, isTotal) {
@@ -425,6 +500,9 @@ function accountCardHtml(a, colorVar, isTotal) {
           <span class="${pnlClass(a.pnlBase)}">${a.costBase > 0 ? `${fmtSignedMoney(a.pnlBase)} (${fmtSignedPct(a.pnlPct)})` : "–"}</span>
         </div>
         <div class="acct-row"><span>현금 비중</span><span>${a.totalBase > 0 ? fmtPct((a.cashBase / a.totalBase) * 100) : "–"}</span></div>
+        ${a.daily && a.daily.priced
+          ? `<div class="acct-row"><span>전일 대비</span><span class="${pnlClass(a.daily.pnl)}">${fmtSignedMoney(a.daily.pnl)} (${fmtSignedPct(a.daily.pct)})</span></div>`
+          : ""}
       </div>
     </div>
   `;
@@ -495,11 +573,12 @@ function renderPublishState() {
 
 function renderAccountCards(d) {
   const grid = document.getElementById("acctGrid");
-  const total = { ...d.all, name: "전체", sharePct: 100 };
+  const allDaily = dailyMove(d.enriched, mergeCash(state.accounts));
+  const total = { ...d.all, name: "전체", sharePct: 100, daily: allDaily };
   grid.innerHTML =
     accountCardHtml(total, cssVar("--text-secondary"), true) +
     d.perAccount.map((a, i) =>
-      accountCardHtml(a, cssVar(SERIES_COLORS[i % SERIES_COLORS.length]), false)
+      accountCardHtml({ ...a, daily: d.dailyByAccount[a.id] }, cssVar(SERIES_COLORS[i % SERIES_COLORS.length]), false)
     ).join("");
 }
 

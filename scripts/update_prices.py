@@ -89,35 +89,52 @@ def now_kst():
 
 
 def fetch_fx(failures):
+    """Latest rates, plus the prior close of each — the daily P&L needs both,
+    because a USD holding's move in won is its own move plus the currency's."""
     rates = {"KRW": 1.0}
+    prev_rates = {"KRW": 1.0}
     for code, ticker in FX_TICKERS.items():
-        px, _ = quote(ticker)
+        px, prev = quote(ticker)
         if px is None:
             failures.append(ticker)
             print(f"  {ticker}: FAILED")
             continue
         rates[code] = round(px, 2)
-        print(f"  {ticker}: {rates[code]:,.2f}")
-    return rates
+        if prev:
+            prev_rates[code] = round(prev, 2)
+        print(f"  {ticker}: {rates[code]:,.2f}" + (f"  (전일 {prev_rates[code]:,.2f})" if prev else ""))
+    return rates, prev_rates
 
 
-def refresh_positions(rates, failures, dry_run):
+def refresh_positions(rates, prev_rates, failures, dry_run):
     book = json.loads(POSITION_PATH.read_text(encoding="utf-8"))
     if "USD" in rates:
         book["fxRate"] = rates["USD"]
     if "EUR" in rates:
         book["fxRateEUR"] = rates["EUR"]
+    if "USD" in prev_rates:
+        book["fxRatePrev"] = prev_rates["USD"]
+    if "EUR" in prev_rates:
+        book["fxRateEURPrev"] = prev_rates["EUR"]
 
     local_fail = 0
     for h in book["holdings"]:
-        px, _ = quote(h["ticker"])
+        px, prev = quote(h["ticker"])
         if px is None:
             local_fail += 1
             failures.append(h["ticker"])
             print(f"  {h['ticker']:<12} FAILED, keeping {h.get('price')}")
             continue
-        print(f"  {h['ticker']:<12} {h.get('price')} -> {round_for(h['currency'], px)}")
         h["price"] = round_for(h["currency"], px)
+        # Stored per holding so the page can show a day's move without a market
+        # data call of its own (a static site cannot make one). It is the close
+        # before the latest session, so it moves forward one session per run.
+        if prev:
+            h["prevClose"] = round_for(h["currency"], prev)
+        else:
+            h.pop("prevClose", None)
+        chg = f"{(px / prev - 1) * 100:+.2f}%" if prev else "n/a"
+        print(f"  {h['ticker']:<12} {h['price']}  (전일 {h.get('prevClose', '-')}, {chg})")
 
     # Every lookup failing means Yahoo is down. Stamping a fresh updatedAt then
     # would push every browser to re-seed identical numbers for nothing.
@@ -266,10 +283,10 @@ def main():
 
     failures = []
     print("FX...")
-    rates = fetch_fx(failures)
+    rates, prev_rates = fetch_fx(failures)
 
     print("\n보유 포지션...")
-    ok_pos = refresh_positions(rates, failures, args.dry_run)
+    ok_pos = refresh_positions(rates, prev_rates, failures, args.dry_run)
     print("\n클로드 모의투자...")
     ok_claude = refresh_claude(rates, failures, args.dry_run)
     print("\n커버리지...")

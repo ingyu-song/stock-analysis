@@ -712,3 +712,42 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
   white-space: normal; overflow: hidden; word-break: keep-all; overflow-wrap: anywhere;
   display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical;
 }
+.map-tile .t-sub {
+  font-family: var(--font-mono); font-size: 10.5px; opacity: 0.75;
+  font-variant-numeric: tabular-nums; white-space: nowrap;
+}
+.map-tile:focus-visible { outline: 2px solid var(--navy); outline-offset: -2px; }
+
+/* ---------- 호버 카드: 왜 움직였나 ---------- */
+.map-tip {
+  position: fixed; z-index: 50; width: 320px; max-width: calc(100vw - 16px);
+  padding: 12px 14px; border-radius: var(--radius-sm);
+  background: var(--surface-1); color: var(--text-primary);
+  border: 0.5px solid var(--border-strong);
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.18);
+  pointer-events: none; /* a hover card must not steal the pointer it follows */
+  font-size: 12.5px; line-height: 1.55;
+}
+.map-tip.is-pinned { pointer-events: auto; }
+.map-tip[hidden] { display: none; }
+.tip-head { display: flex; align-items: baseline; gap: 8px; margin-bottom: 6px; }
+.tip-name { font-weight: 600; font-size: 13.5px; }
+.tip-ticker { font-family: var(--font-mono); font-size: 11px; color: var(--text-muted); }
+.tip-row { display: flex; gap: 10px; flex-wrap: wrap; font-family: var(--font-mono); font-size: 11.5px; margin-bottom: 3px; }
+.tip-num { font-weight: 600; font-size: 12.5px; }
+.tip-dim { color: var(--text-muted); }
+.tip-why { margin-top: 9px; padding-top: 9px; border-top: 0.5px solid var(--gridline); }
+.tip-why.is-muted { color: var(--text-muted); }
+.tip-q { font-weight: 600; margin-right: 6px; }
+.tip-basis {
+  display: inline-block; font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.02em;
+  padding: 1px 7px; border-radius: var(--radius-xs); vertical-align: 1px;
+}
+.basis-news { color: var(--good); background: var(--good-bg); }
+.basis-market { color: var(--warning); background: var(--warning-bg); }
+.basis-none { color: var(--text-secondary); background: var(--bg-chip); }
+.tip-why p { margin: 6px 0 0; }
+.tip-src { margin: 8px 0 0; padding-left: 16px; font-size: 11.5px; color: var(--text-secondary); }
+.tip-src li { margin-bottom: 3px; }
+.tip-src a { color: var(--navy); text-decoration: underline; text-underline-offset: 2px; }
+.tip-foot { margin-top: 8px; font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); }

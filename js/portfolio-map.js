@@ -6,16 +6,22 @@
 import { getBookSnapshot, onBookChange } from "./position.js";
 
 const THEMES_URL = "data/themes.json";
+const REASONS_URL = "data/move_reasons.json";
 const SCOPE_KEY = "igs-map-scope";
 const CASH_KEY = "igs-map-cash";
+const MODE_KEY = "igs-map-mode";
+const SATURATE = { daily: 6, cost: 25 }; // % at which a tile is fully coloured
 const UNSORTED = "미분류";
 const CASH = "현금";
 const HEADER_H = 19; // room for a group's label
 
 let themeOf = new Map(); // ticker -> theme
+let reasons = null;      // data/move_reasons.json
 let scope = readPref(SCOPE_KEY, "all");
 let showCash = readPref(CASH_KEY, "0") === "1";
+let mode = readPref(MODE_KEY, "daily"); // "daily" | "cost"
 let queued = false;
+let tileIndex = new Map(); // tile key -> model, for the hover card
 
 function readPref(key, fallback) {
   try {
@@ -119,6 +125,12 @@ function buildGroups(snap) {
   rows.forEach(h => {
     const theme = themeOf.get(h.ticker) || UNSORTED;
     if (!byTheme.has(theme)) byTheme.set(theme, []);
+    const costPct = h.costBase > 0 ? (h.pnlBase / h.costBase) * 100 : NaN;
+    const dailyPct = h.dailyPctLocal;
+    // value a day earlier at today's exchange rate, so a group's daily figure is
+    // a price move and agrees with the tiles inside it (currency shows up in the
+    // portfolio-level 전일 대비 on 내 포지션 instead)
+    const prevValue = isFinite(dailyPct) ? h.valueBase / (1 + dailyPct / 100) : NaN;
     byTheme.get(theme).push({
       key: `${h.account}|${h.ticker}`,
       label: h.name || h.ticker,
@@ -126,18 +138,25 @@ function buildGroups(snap) {
       value: h.valueBase,
       cost: h.costBase,
       pnl: h.pnlBase,
-      pct: h.costBase > 0 ? (h.pnlBase / h.costBase) * 100 : NaN,
+      costPct, dailyPct, prevValue,
+      price: h.price, prevClose: h.prevClose, currency: h.currency,
+      pct: mode === "daily" ? dailyPct : costPct,
     });
   });
 
   const groups = [...byTheme.entries()].map(([name, tiles]) => {
-    const cost = tiles.reduce((s, t) => s + t.cost, 0);
-    const pnl = tiles.reduce((s, t) => s + t.pnl, 0);
-    return {
-      name, tiles,
-      value: tiles.reduce((s, t) => s + t.value, 0),
-      pct: cost > 0 ? (pnl / cost) * 100 : NaN,
-    };
+    let pct = NaN;
+    if (mode === "daily") {
+      const priced = tiles.filter(t => isFinite(t.prevValue));
+      const prev = priced.reduce((s, t) => s + t.prevValue, 0);
+      const now = priced.reduce((s, t) => s + t.value, 0);
+      pct = prev > 0 ? (now / prev - 1) * 100 : NaN;
+    } else {
+      const cost = tiles.reduce((s, t) => s + t.cost, 0);
+      const pnl = tiles.reduce((s, t) => s + t.pnl, 0);
+      pct = cost > 0 ? (pnl / cost) * 100 : NaN;
+    }
+    return { name, tiles, value: tiles.reduce((s, t) => s + t.value, 0), pct };
   });
 
   if (showCash) {
@@ -145,7 +164,7 @@ function buildGroups(snap) {
       .filter(a => (scope === "all" || a.id === scope) && a.cashBase > 0)
       .map(a => ({
         key: `cash|${a.id}`, label: `${CASH} · ${a.name}`, ticker: "",
-        value: a.cashBase, cost: 0, pnl: 0, pct: NaN, isCash: true,
+        value: a.cashBase, cost: 0, pnl: 0, pct: NaN, costPct: NaN, dailyPct: NaN, isCash: true,
       }));
     if (cashTiles.length) {
       groups.push({
@@ -165,8 +184,10 @@ function tileColour(pct, isCash) {
   }
   // Square-rooted so the small moves that make up most of a book are still
   // visibly different from flat: on a linear scale a -1% and a +1% sit within a
-  // few shades of grey and the whole map reads as one colour. Saturates at ±25%.
-  const magnitude = Math.sqrt(Math.min(Math.abs(pct), 25) / 25);
+  // few shades of grey and the whole map reads as one colour. The cap is per
+  // mode: a day's move of 6% is as notable as a cumulative 25%.
+  const cap = SATURATE[mode];
+  const magnitude = Math.sqrt(Math.min(Math.abs(pct), cap) / cap);
   const mix = Math.round(14 + magnitude * 64);
   const base = pct > 0 ? "var(--gain)" : "var(--loss)";
   return { bg: `color-mix(in srgb, ${base} ${mix}%, var(--surface-2))`, strong: mix > 48 };
@@ -185,20 +206,23 @@ function tileHtml(t, r, total) {
   const showMeta = !tiny && r.h >= 44;
   const showTicker = lg && t.ticker;
 
-  const title = [
-    t.label + (t.ticker ? ` (${t.ticker})` : ""),
-    `평가액 ${won(t.value)} · 비중 ${weight.toFixed(1)}%`,
-    t.isCash ? "" : `매입 대비 ${signedPct(t.pct)} (${t.pnl >= 0 ? "+" : "-"}${won(Math.abs(t.pnl))})`,
-  ].filter(Boolean).join("\n");
+  tileIndex.set(t.key, { ...t, weight });
+
+  // the other measure rides along on tiles with room for it
+  const otherPct = mode === "daily" ? t.costPct : t.dailyPct;
+  const otherLabel = mode === "daily" ? "매입 대비" : "전일";
+  const showOther = lg && !t.isCash && isFinite(otherPct);
 
   const body = !showName ? "" : `
       <span class="t-name">${esc(t.label)}</span>
       ${showTicker ? `<span class="t-ticker">${esc(t.ticker)}</span>` : ""}
-      ${showMeta ? `<span class="t-meta">${weight.toFixed(1)}%${t.isCash ? "" : ` · ${signedPct(t.pct)}`}</span>` : ""}`;
+      ${showMeta ? `<span class="t-meta">${weight.toFixed(1)}%${t.isCash ? "" : ` · ${signedPct(t.pct)}`}</span>` : ""}
+      ${showOther ? `<span class="t-sub">${otherLabel} ${signedPct(otherPct)}</span>` : ""}`;
 
   return `<div class="map-tile${strong ? " is-strong" : ""}${lg ? " is-lg" : ""}${tiny ? " is-tiny" : ""}"
-      style="left:${r.x}px;top:${r.y}px;width:${r.w}px;height:${r.h}px;background:${bg};"
-      title="${esc(title)}">${body}</div>`;
+      data-key="${esc(t.key)}" tabindex="0"
+      aria-label="${esc(t.label)} ${t.isCash ? "" : signedPct(t.pct)}"
+      style="left:${r.x}px;top:${r.y}px;width:${r.w}px;height:${r.h}px;background:${bg};">${body}</div>`;
 }
 
 function groupHtml(g, r, total) {
@@ -242,6 +266,8 @@ function render() {
   if (width < 40) return; // tab not visible yet — the ResizeObserver will call back
 
   const snap = getBookSnapshot();
+  tileIndex = new Map();
+  hideTip();
   renderControls(snap);
 
   const groups = buildGroups(snap);
@@ -277,6 +303,7 @@ function renderMeta(snap, groups, total) {
   const parts = [
     `${stocks.length}종목 · ${groups.filter(g => !g.isCash).length}개 테마`,
     `표시 ${won(total)}`,
+    mode === "daily" ? "색 = 전일 종가 대비 (현지통화 기준)" : "색 = 매입 대비 수익률 (환율 포함)",
     snap.updatedAt ? `${snap.updatedAt} 기준` : "",
   ].filter(Boolean);
 
@@ -308,6 +335,147 @@ function renderControls(snap) {
 
   const cash = document.getElementById("mapCash");
   if (cash) cash.checked = showCash;
+
+  const modeBar = document.getElementById("mapMode");
+  if (modeBar) {
+    modeBar.querySelectorAll("[data-map-mode]").forEach(btn => {
+      const on = btn.dataset.mapMode === mode;
+      btn.classList.toggle("is-active", on);
+      btn.setAttribute("aria-pressed", String(on));
+    });
+  }
+  const lo = document.getElementById("mapLegendLo");
+  const hi = document.getElementById("mapLegendHi");
+  if (lo) lo.textContent = `-${SATURATE[mode]}%`;
+  if (hi) hi.textContent = `+${SATURATE[mode]}%`;
+}
+
+// ---------- hover card: why did it move ----------
+const BASIS_LABEL = {
+  news: "뉴스 기반",
+  market: "시장 흐름 추정",
+  none: "확인된 원인 없음",
+};
+let pinnedKey = null;
+
+function reasonFor(ticker) {
+  return reasons && reasons.moves ? reasons.moves[ticker] : null;
+}
+
+function tipHtml(t, interactive) {
+  const head = `
+    <div class="tip-head">
+      <span class="tip-name">${esc(t.label)}</span>
+      ${t.ticker ? `<span class="tip-ticker">${esc(t.ticker)}</span>` : ""}
+    </div>`;
+
+  if (t.isCash) {
+    return `${head}<div class="tip-row">${won(t.value)} · 비중 ${t.weight.toFixed(1)}%</div>`;
+  }
+
+  const daily = t.dailyPct;
+  const dir = !isFinite(daily) ? "" : daily > 0.05 ? "up" : daily < -0.05 ? "down" : "flat";
+  const question = dir === "up" ? "왜 올랐나" : dir === "down" ? "왜 떨어졌나" : "변동";
+  const r = reasonFor(t.ticker);
+
+  const numbers = `
+    <div class="tip-row">
+      <span class="tip-num ${isFinite(daily) ? (daily > 0 ? "num-gain" : daily < 0 ? "num-loss" : "") : ""}">전일 ${signedPct(daily)}</span>
+      <span class="tip-dim">매입 대비 ${signedPct(t.costPct)}</span>
+      <span class="tip-dim">비중 ${t.weight.toFixed(1)}%</span>
+    </div>
+    <div class="tip-row tip-dim">${won(t.value)} · 손익 ${t.pnl >= 0 ? "+" : "-"}${won(Math.abs(t.pnl))}</div>`;
+
+  let why;
+  if (!isFinite(daily)) {
+    why = `<div class="tip-why is-muted">전일 종가 데이터가 아직 없어요.</div>`;
+  } else if (!r) {
+    why = `<div class="tip-why is-muted">${question}: 아직 설명이 없어요. 다음 일일 갱신 때 생성됩니다.</div>`;
+  } else {
+    const links = (r.sources || []).slice(0, 3).map(src => interactive && /^https?:\/\//.test(src.link || "")
+      ? `<li><a href="${esc(src.link)}" target="_blank" rel="noopener">${esc(src.title)}</a> <span class="tip-dim">${esc(src.outlet || "")}</span></li>`
+      : `<li>${esc(src.title)} <span class="tip-dim">${esc(src.outlet || "")}</span></li>`).join("");
+    why = `
+      <div class="tip-why">
+        <span class="tip-q">${question}</span>
+        <span class="tip-basis basis-${esc(r.basis)}">${BASIS_LABEL[r.basis] || ""}</span>
+        <p>${esc(r.reason)}</p>
+        ${links ? `<ul class="tip-src">${links}</ul>` : ""}
+      </div>`;
+  }
+
+  const stamp = r && reasons.generatedAt
+    ? `<div class="tip-foot">설명 생성 ${esc(reasons.generatedAt)}${interactive ? "" : " · 클릭하면 기사 링크가 열려요"}</div>`
+    : "";
+  return head + numbers + why + stamp;
+}
+
+function showTip(tile, clientX, clientY, pinned) {
+  const t = tileIndex.get(tile.dataset.key);
+  const tip = document.getElementById("mapTip");
+  if (!t || !tip) return;
+
+  tip.innerHTML = tipHtml(t, pinned);
+  tip.classList.toggle("is-pinned", pinned);
+  tip.hidden = false;
+
+  // keep the card inside the viewport; flip to the left of the cursor near the edge
+  const pad = 14;
+  const tw = tip.offsetWidth, th = tip.offsetHeight;
+  let x = clientX + pad;
+  let y = clientY + pad;
+  if (x + tw > window.innerWidth - 8) x = Math.max(8, clientX - tw - pad);
+  if (y + th > window.innerHeight - 8) y = Math.max(8, clientY - th - pad);
+  tip.style.left = `${x}px`;
+  tip.style.top = `${y}px`;
+}
+
+function hideTip() {
+  const tip = document.getElementById("mapTip");
+  if (tip) tip.hidden = true;
+  pinnedKey = null;
+}
+
+function initHover() {
+  const canvas = document.getElementById("mapCanvas");
+  if (!canvas) return;
+
+  const tileOf = e => e.target.closest && e.target.closest(".map-tile");
+
+  canvas.addEventListener("mousemove", e => {
+    if (pinnedKey) return;
+    const tile = tileOf(e);
+    if (!tile) { hideTip(); return; }
+    showTip(tile, e.clientX, e.clientY, false);
+  });
+  canvas.addEventListener("mouseleave", () => { if (!pinnedKey) hideTip(); });
+
+  // a hover card cannot hold links you can click, and touch has no hover at all —
+  // so a click pins the card where it is and makes it interactive
+  canvas.addEventListener("click", e => {
+    const tile = tileOf(e);
+    if (!tile) { hideTip(); return; }
+    if (pinnedKey === tile.dataset.key) { hideTip(); return; }
+    pinnedKey = tile.dataset.key;
+    showTip(tile, e.clientX, e.clientY, true);
+  });
+
+  document.addEventListener("click", e => {
+    if (!pinnedKey) return;
+    if (e.target.closest("#mapTip") || e.target.closest(".map-tile")) return;
+    hideTip();
+  });
+  document.addEventListener("keydown", e => { if (e.key === "Escape") hideTip(); });
+  window.addEventListener("scroll", () => { if (!pinnedKey) hideTip(); }, { passive: true });
+}
+
+async function loadReasons() {
+  try {
+    const res = await fetch(REASONS_URL, { cache: "no-store" });
+    if (res.ok) reasons = await res.json();
+  } catch {
+    // no file yet — the card says the explanation is not available
+  }
 }
 
 function schedule() {
@@ -344,6 +512,16 @@ export function initPortfolioMap() {
     writePref(CASH_KEY, showCash ? "1" : "0");
     render();
   });
+
+  document.querySelectorAll("#mapMode [data-map-mode]").forEach(btn => {
+    btn.addEventListener("click", () => {
+      mode = btn.dataset.mapMode;
+      writePref(MODE_KEY, mode);
+      render();
+    });
+  });
+  initHover();
+  loadReasons();
 
   onBookChange(schedule);
   // fires when the tab first becomes visible (0 -> real width) and on any resize

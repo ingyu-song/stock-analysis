@@ -59,8 +59,8 @@
         <span class="stat-value" id="statCashPct">–</span>
       </div>
       <div class="stat-tile">
-        <span class="stat-label">보유 종목 수</span>
-        <span class="stat-value" id="statCount">–</span>
+        <span class="stat-label">전일 대비</span>
+        <span class="stat-value" id="statDaily">–</span>
       </div>
     </div>
 
@@ -351,21 +351,26 @@
 
     <div class="panel-head">
       <h1>Portfolio Map</h1>
-      <p class="panel-sub">보유 종목을 테마별로 묶어, 크기는 비중 · 색은 매입 대비 수익률로 보여줍니다.</p>
+      <p class="panel-sub">보유 종목을 테마별로 묶어, 크기는 비중 · 색은 전일 종가 대비 등락으로 보여줍니다. 타일 위에 마우스를 올리면 왜 움직였는지 나옵니다.</p>
     </div>
 
     <div class="card">
       <div class="map-controls">
         <div class="scope-bar" id="mapScope" role="group" aria-label="계좌 선택"></div>
+        <div class="scope-bar" id="mapMode" role="group" aria-label="색 기준">
+          <button class="scope-btn" data-map-mode="daily">전일 대비</button>
+          <button class="scope-btn" data-map-mode="cost">매입 대비</button>
+        </div>
         <label class="map-check">
           <input type="checkbox" id="mapCash"> 현금 포함
         </label>
         <span class="map-legend" aria-hidden="true">
-          <span>-25%</span><span class="map-legend-bar"></span><span>+25%</span>
+          <span id="mapLegendLo">-6%</span><span class="map-legend-bar"></span><span id="mapLegendHi">+6%</span>
         </span>
       </div>
 
       <div class="map-canvas" id="mapCanvas"></div>
+      <div class="map-tip" id="mapTip" role="tooltip" hidden></div>
       <p class="journal-empty" id="mapEmpty" hidden>표시할 보유 종목이 없어요.</p>
       <p class="hint" id="mapMeta"></p>
     </div>
