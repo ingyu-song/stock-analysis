@@ -26,7 +26,7 @@ NEWS_FILES = ("news.json", "news_global.json")
 
 KST = zoneinfo.ZoneInfo("Asia/Seoul")
 MODEL = "claude-sonnet-5"
-WINDOW_DAYS = 3        # 이 기간 안의 기사만 근거로 쓴다
+WINDOW_DAYS = 6        # 수집 상한(안전장치). 실제 필터는 각 종목의 거래일 전후로 좁힌다
 MAX_HEADLINES = 6      # 종목당 모델에 보여주는 기사 수
 ATTEMPTS = 3
 
@@ -60,6 +60,9 @@ SYSTEM_PROMPT = """\
   거래일과 다르면 "미국 시장은 그날 열리지 않았거나 별도 날"이므로 인용하지 마세요.
 - 환율(USD/KRW 등)은 원화로 환산한 가격에만 영향을 주고 현지통화 등락의 원인이 아닙니다.
 - 기사 제목이 종목과 무관해 보이면(동음이의어 등) 무시합니다.
+- 기사가 그날의 주가 움직임을 직접 설명해야 basis=news 입니다. 같은 시기에 나온 사건 보도라는 이유만으로
+  원인으로 삼지 마세요. 업종 전체가 함께 움직였다면(같은 날 비슷한 종목들이 같은 방향) 개별 호재가 아니라
+  업종·시장 요인입니다. 오래전부터 이어진 배경 사실(수주 지연 등)을 그날 급락·급등의 원인으로 단정하지 마세요.
 - 반드시 record_move_reasons 도구로 제출합니다. 요청받은 모든 티커를 빠짐없이 포함합니다.
 """
 
@@ -153,8 +156,24 @@ def parse_time(s):
         return None
 
 
-def gather_headlines(ticker, now):
+def gather_headlines(ticker, now, session=None):
+    """Articles that could actually explain `session`'s move.
+
+    A story has to be *about* that day, so it is kept only if it was published
+    from the day before the session through the day after it. Without the upper
+    bound the model was handed weekend features published two days after a
+    Thursday's close and cited them as the cause; without the lower bound it
+    gets stale background that has nothing to do with the day.
+    """
     cutoff = now - datetime.timedelta(days=WINDOW_DAYS)
+    lo = hi = None
+    if session:
+        try:
+            d = datetime.datetime.strptime(session, "%Y-%m-%d").replace(tzinfo=KST)
+            lo = d - datetime.timedelta(days=1)
+            hi = d + datetime.timedelta(days=2)  # up to the end of the next day
+        except ValueError:
+            pass
     seen, items = set(), []
     for fname in NEWS_FILES:
         data = load_json(DATA / fname) or {}
@@ -164,6 +183,8 @@ def gather_headlines(ticker, now):
             for it in c.get("items", []):
                 when = parse_time(it.get("publishedAt") or "")
                 if not when or when < cutoff:
+                    continue
+                if lo and not (lo <= when < hi):
                     continue
                 key = re.sub(r"[^0-9a-z가-힣]", "", (it.get("title") or "").lower())[:32]
                 if not key or key in seen:
@@ -293,7 +314,7 @@ def main():
             "changePct": round((px / prev - 1) * 100, 2),
             "session": session or "날짜 미상",
             "market": moves_on(series, session) if session else {},
-            "headlines": gather_headlines(h["ticker"], now),
+            "headlines": gather_headlines(h["ticker"], now, session),
         })
     if not holdings:
         print("전일 종가가 있는 보유 종목이 없습니다 — update_prices.py 를 먼저 실행하세요.", file=sys.stderr)
