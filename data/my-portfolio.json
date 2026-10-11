@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-11 14:24",
+  "updatedAt": "2026-10-11 14:26",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1340.9,
