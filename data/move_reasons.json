@@ -1,0 +1,189 @@
+{
+  "generatedAt": "2026-10-11 14:24",
+  "model": "claude-sonnet-5",
+  "windowDays": 3,
+  "market": {
+    "S&P 500": 0.59,
+    "Nasdaq 100": 0.51,
+    "KOSPI": -2.62,
+    "Nikkei 225": -0.27,
+    "SOX (미국 반도체)": -0.41,
+    "VIX": -3.76,
+    "USD/KRW": -0.07,
+    "JPY/KRW": -0.44
+  },
+  "moves": {
+    "379800.KS": {
+      "name": "KODEX 미국S&P500",
+      "changePct": -0.63,
+      "reason": "전일 S&P500은 +0.59% 상승했지만 KOSPI가 -2.62% 급락하며 원화 자산 전반이 약세를 보여 국내 상장 ETF 가격에 영향을 준 것으로 보임.",
+      "basis": "market",
+      "sources": []
+    },
+    "379810.KS": {
+      "name": "KODEX 미국나스닥100",
+      "changePct": -0.67,
+      "reason": "Nasdaq100은 +0.51% 올랐으나 KOSPI가 -2.62% 급락하는 등 국내 증시 전반의 약세가 원화 상장 ETF 가격에 반영된 것으로 보임.",
+      "basis": "market",
+      "sources": []
+    },
+    "CRWD": {
+      "name": "크라우드스트라이크",
+      "changePct": 4.57,
+      "reason": "소프트웨어주 전반 강세 속 팔로알토와 함께 상승했으며, 중동 긴장 완화 기대 등 시장 전반의 기술주 반등 분위기가 영향을 준 것으로 보임.",
+      "basis": "market",
+      "sources": []
+    },
+    "AAPL": {
+      "name": "애플",
+      "changePct": -1.11,
+      "reason": "아이폰18 프로 부품 주문이 수요 부진으로 축소됐다는 보도가 투자심리를 압박하며 주가가 하락했다.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "Apple cuts iPhone 18 Pro orders due to soft demand, Nikkei Asia reports - Reuters",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOcWxvbWdzenJKeF9PdGppTmNVeTQySGx4dzNaREdmbktzZzVUc3UtZVdXRUVxT1d6eDA0MGE5UGYxRi1rbXdEYW96ZVRRWXUtS3BialZSa0l0dWVKQzhNVVVfRUlfWk4zM2g1anhLUmpmaUg5VWR3eHcybnJsVE8yVFJWZTl4ZnpQa2xWUm1wN2k4X2llWWVoTHZoRjBnVmkwYjBzdE5ON0VSalY4ZVVrUmVGTkRsUVNHWERuZFV4Z3ZXVlgxekFr?oc=5",
+          "outlet": "Reuters Business (via Google News)",
+          "publishedAt": "2026-10-10 18:53"
+        },
+        {
+          "title": "애플 주가 급락…아이폰18 부품 주문 축소 보도가 투자심리 압박",
+          "link": "http://coinreaders.com/262449",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-09 22:30"
+        }
+      ]
+    },
+    "SONY": {
+      "name": "소니 그룹 (ADR)",
+      "changePct": 0.71,
+      "reason": "뉴스로 직접적인 상승 원인은 확인되지 않으며, 큰 변동폭은 아니어서 뚜렷한 원인은 없음.",
+      "basis": "none",
+      "sources": []
+    },
+    "PG": {
+      "name": "프록터 앤드 갬블",
+      "changePct": 0.65,
+      "reason": "큰 변동 없음.",
+      "basis": "none",
+      "sources": []
+    },
+    "GOOGL": {
+      "name": "알파벳 A",
+      "changePct": 0.97,
+      "reason": "AI 데이터센터 전력 공급 계약 체결 소식과 3분기 이익 증가 기대감 속 대형 기술주 전반의 상승 흐름에 동참해 올랐다.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "美 기업 3분기 이익 31% 증가 전망…AI 기업이 견인",
+          "link": "https://www.bloter.net/news/articleView.html?idxno=675381",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-10 10:00"
+        },
+        {
+          "title": "나스닥100 '상승'...팔란티어 '껑충', 엔비디아·마이크론 '하락'",
+          "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=172084",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-10 06:32"
+        },
+        {
+          "title": "엔비디아 0.52%, 마이크론 0.66%↓...반도체주, 이틀 연속 약세 이어가",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026101006211865282aaae0046f_30",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-10 06:28"
+        },
+        {
+          "title": "스페이스X 주파수 인수에 통신주 급락...러 경유 제재 완화에 기술주는...",
+          "link": "https://www.sedaily.com/article/20099964?ref=naver",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-10 06:19"
+        },
+        {
+          "title": "美 금리 부담에도, 미국증시 3대 지수 '상승'",
+          "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=172083",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-10 05:50"
+        }
+      ]
+    },
+    "PANW": {
+      "name": "팰로 앨토 네트웍스",
+      "changePct": 5.09,
+      "reason": "러시아 경유 공급 합의로 중동 지정학적 긴장 완화 기대감이 커지며 소프트웨어주가 강세를 보인 가운데 크게 상승했다.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "[뉴증거] \"푸틴과 경유 공급 합의\" 트럼프 깜짝 발표…뉴욕증시 훈풍에...",
+          "link": "https://www.cbci.co.kr/news/articleView.html?idxno=614003",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-11 00:00"
+        },
+        {
+          "title": "나스닥 0.64%↑...소프트웨어주, 팔로알토·클라우드스트라이크·마이크...",
+          "link": "https://www.livebiz.today/news/articleView.html?idxno=205475",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-10 10:46"
+        },
+        {
+          "title": "호재 쏟아진 뉴욕증시, 기술주 반등에 일제히 상승···다우 0.83%↑",
+          "link": "https://www.newsway.co.kr/news/view?ud=2026101010221563691",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-10 10:24"
+        },
+        {
+          "title": "뉴욕증시 3대 지수 일제히 상승…기술주 반등에 러시아 경유 공급 합의",
+          "link": "http://mbnmoney.mbn.co.kr/news/view?news_no=MM1005935713",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-10 10:24"
+        },
+        {
+          "title": "스노우플레이크 7.42% 상승…AI 종목 강세에 뉴욕증시 동반 상승",
+          "link": "https://www.tokenpost.kr/news/market/420748",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-10 10:18"
+        },
+        {
+          "title": "[마켓펄스] 뉴욕증시, 소프트웨어주 강세·중동 긴장 완화 기대에 상승...",
+          "link": "https://www.ntoday.co.kr/news/articleView.html?idxno=129963",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-10 10:00"
+        }
+      ]
+    },
+    "CRCL": {
+      "name": "서클 인터넷 그룹",
+      "changePct": 4.33,
+      "reason": "비트코인 등 가상자산 가격 회복과 스테이블코인 관련 수혜 기대감이 부각되며 상승한 것으로 보인다.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "[코인 시황] 비트코인, 트럼프 '이란 공격 유예'에 8만2000달러 회복…1...",
+          "link": "https://www.newspim.com/news/view/20261009000161",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-09 19:27"
+        }
+      ]
+    },
+    "012450.KS": {
+      "name": "한화에어로스페이스",
+      "changePct": -8.33,
+      "reason": "뉴스로 직접적인 급락 원인은 확인되지 않으나, KOSPI가 -2.62% 급락하는 등 국내 증시 전반의 약세 속 낙폭이 더 컸던 것으로 보임.",
+      "basis": "market",
+      "sources": []
+    },
+    "464920.KS": {
+      "name": "PLUS 일본반도체소부장",
+      "changePct": -1.71,
+      "reason": "Nikkei225(-0.27%), SOX(-0.41%) 등 일본 반도체 관련 지수가 약세를 보인 가운데 국내 KOSPI 급락까지 겹쳐 하락한 것으로 보임.",
+      "basis": "market",
+      "sources": []
+    },
+    "GPIQ": {
+      "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
+      "changePct": 0.45,
+      "reason": "기초지수인 Nasdaq100이 +0.51% 상승한 데 연동되어 소폭 상승한 것으로 보임.",
+      "basis": "market",
+      "sources": []
+    }
+  }
+}
