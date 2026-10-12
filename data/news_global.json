@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12 18:20",
+  "updatedAt": "2026-10-13 04:50",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,24 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "‘You have a meeting’: the calendar phishing scam growing exponentially",
-          "summary": "Appointment or renewal reminder appears in victims’ calendar to lure them into logging in to fake Google, Microsoft or PayPal pageYou’re preparing for the week ahead and take a look at your Google calendar. There’s an entry for a meeting that you must have completely forgotten. The note that pops up when you click on it says you’ll be reviewing a project and includes a link to more details. Confus",
-          "link": "https://www.theguardian.com/money/2026/oct/11/calendar-phishing-scam-meeting-renewal-google-microsoft-paypal",
-          "publishedAt": "2026-10-11 15:00",
-          "outlet": "The Guardian Business"
+          "title": "Alphabet C consolidates at 200 SMA & 50% Fib: Live levels",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/alphabet-c-squeezed-at-349-between-key-levels-live-levels-93CH-4944780",
+          "publishedAt": "2026-10-13 04:18",
+          "outlet": "Investing.com"
+        }
+      ]
+    },
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
+      "items": [
+        {
+          "title": "LVMH’s fashion and leather sales fall in luxury setback",
+          "summary": "Paris-listed group hails ‘buoyant’ US market but said sales were hit by slowdown in demand in China",
+          "link": "https://www.ft.com/content/71003e2e-107b-4e87-adef-77e825a3aef4?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-13 03:03",
+          "outlet": "Financial Times"
         }
       ]
     }
