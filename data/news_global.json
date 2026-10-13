@@ -1,7 +1,55 @@
 {
-  "updatedAt": "2026-10-13 11:04",
+  "updatedAt": "2026-10-13 18:30",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
-  "coverage": []
+  "coverage": [
+    {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "A golden age of corporate profits",
+          "summary": "Data: U.S. Bureau of Economic Analysis, FactSet; Chart: Axios/Matt Phillips; Note: After-tax profit data includes inventory and capital depreciation adjustments. Corporate America is raking in record profits, luxuriating in luscious margins and capturing the largest chunk of the country's income on record.Why it matters: The corporate bonanza is bolstering the stock market, but it may also be play",
+          "link": "https://www.axios.com/2026/10/13/earnings-3q-ai-stocks",
+          "publishedAt": "2026-10-13 18:10",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip",
+          "summary": "The trillion-dollar AI race is moving from software to silicon, as Microsoft's massive bet on its proprietary Maia chips proves Big Tech wants to wean itself off Nvidia's dominance.Why it matters: Microsoft's plan to power its AI products with custom silicon shows how every major Nvidia customer is now a competitor, seeking lower costs, improved performance and more control.The shift is particular",
+          "link": "https://www.axios.com/2026/10/13/big-tech-ai-chips-nvidia-rivals",
+          "publishedAt": "2026-10-13 18:00",
+          "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
+      "items": [
+        {
+          "title": "Why is LVMH Moet Hennessy Louis Vuitton stock sliding today?",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/why-is-lvmh-moet-hennessy-louis-vuitton-stock-sliding-today-93CH-4945714",
+          "publishedAt": "2026-10-13 17:11",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "LVMH stock dips as fashion sales fall on China weakness",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/lvmh-edges-past-q3-revenue-estimates-as-fashion-sales-slip-on-china-weakness-4944941",
+          "publishedAt": "2026-10-13 17:02",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "LVMH Sales at Key Unit Tumble on Weaker Demand in China - Bloomberg.com",
+          "summary": "LVMH Sales at Key Unit Tumble on Weaker Demand in China  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPNlJha0plMVVjbEthV0xIV2U1NC1makRZQXlrT2c5NC1Qel91TjRXQllXaU9tNGpsdkxBVVI5MklER2JRVGZBbXFjaGptMUR6NlBtMVI5VURiTm01X3NhWnpVdWRHc0g3TzJfNl9VNm9TLXZxaGFPVGxuYjEtSm43Zi1pbzFvLVlGLTh6MElRTWZCMlAxMmlEUHpaSDdsLUZsbm9QUDNielhFNHhFZU1IcQ?oc=5",
+          "publishedAt": "2026-10-13 02:23",
+          "outlet": "Bloomberg (via Google News)"
+        }
+      ]
+    }
+  ]
 }
