@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14 02:38",
+  "updatedAt": "2026-10-14 07:51",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,6 +9,13 @@
       "name": "애플",
       "items": [
         {
+          "title": "Apple bets on new screen gadget, Siri AI in home device push",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apple-to-unveil-new-smart-home-products-showcasing-updated-siri-ai-4945992",
+          "publishedAt": "2026-10-14 06:54",
+          "outlet": "Investing.com"
+        },
+        {
           "title": "Apple unveils new smart home devices that showcase upgraded Siri AI",
           "summary": "New products from Apple include the HomeView, an iPad-like device that acts as a hub for other smart home gadgetsApple on Tuesday began showing off a ⁠new round of smart home products, including an iPad-like device dubbed the HomeView, meant to hang on walls or perch on tabletops ⁠and act as a hub for other smart home devices.The HomeView device starts at $299 and will begin shipping next month. I",
           "link": "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
@@ -16,11 +23,11 @@
           "outlet": "The Guardian Business"
         },
         {
-          "title": "Apple Needs Phones and Smart Homes to Revive Pricey Stock - Bloomberg.com",
-          "summary": "Apple Needs Phones and Smart Homes to Revive Pricey Stock  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNeE43Sm5GN2FHcFRwT1pIOEdyLUZ2ZnJLT3hfTVN3OWJESHdYZ3djT0tjSlFkVFRFbm4xTGlSYTlUcWQwWFBBeUZpUWsyMzktZ3lVY3NGZEZnNmx2WlVVdFJlS3drS1I2T0JxcmhkTUIwU1R4OUhUTTMxZDBSVy1lWWY1b1VLektUbGZPTnVvR0g4cnhWZEItX1pSUjhyekRwaHBNOGpDSHBhOXNl?oc=5",
-          "publishedAt": "2026-10-13 17:35",
-          "outlet": "Bloomberg (via Google News)"
+          "title": "Apple's iPhone 18 order cuts expose widening divide in premium demand - digitimes",
+          "summary": "Apple's iPhone 18 order cuts expose widening divide in premium demand  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdjNrVEpTOFgwenRKMUQyTXRhQlJya2VIS1RTbTBRcldjLVJ6M19RdHJYUXI5QlJVRFZwVGFfUHpHMnN0R2NNNjBMRTM3LTBPZnctUmd6d2FvcUNoeVFjamxBSVVhRWNmdzdaVFpQV0NrbTFERU9janJEX3M2SkQ3Q0xVeWM2eEdJYV9wMjZvOVk?oc=5",
+          "publishedAt": "2026-10-12 13:21",
+          "outlet": "DigiTimes"
         }
       ]
     },
