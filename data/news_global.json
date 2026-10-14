@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14 22:47",
+  "updatedAt": "2026-10-15 03:41",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,13 +14,6 @@
           "link": "https://www.axios.com/2026/10/14/apple-ai-hardware-smart-display-homeview",
           "publishedAt": "2026-10-14 18:30",
           "outlet": "Axios"
-        },
-        {
-          "title": "Apple's iPhone 18 order cuts expose widening divide in premium demand - digitimes",
-          "summary": "Apple's iPhone 18 order cuts expose widening divide in premium demand  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdjNrVEpTOFgwenRKMUQyTXRhQlJya2VIS1RTbTBRcldjLVJ6M19RdHJYUXI5QlJVRFZwVGFfUHpHMnN0R2NNNjBMRTM3LTBPZnctUmd6d2FvcUNoeVFjamxBSVVhRWNmdzdaVFpQV0NrbTFERU9janJEX3M2SkQ3Q0xVeWM2eEdJYV9wMjZvOVk?oc=5",
-          "publishedAt": "2026-10-12 13:21",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -30,7 +23,7 @@
       "items": [
         {
           "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
-          "summary": "Pledge spanning five years from world’s most valuable firm comes as concerns about AI agents have risenBusiness live – latest updatesThe $5.5tn (£4.1tn) US chipmaker Nvidia is donating $250m worth of computing power to the UK to support AI safety research.The donation from the world’s most valuable company comes as the UK government confirmed its AI Security Institute (AISI), which tests advance A",
+          "summary": "Pledge spanning five years from world’s most valuable firm comes as concerns about AI agents have risenThe $5.5tn (£4.1tn) US chipmaker Nvidia is donating $250m worth of computing power to the UK to support AI safety research.The donation from the world’s most valuable company comes as the UK government confirmed its AI Security Institute (AISI), which tests advance AI models, will be able to exam",
           "link": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
           "publishedAt": "2026-10-14 19:10",
           "outlet": "The Guardian Business"
@@ -48,13 +41,6 @@
           "link": "https://www.axios.com/2026/10/14/ai-extreme-heat-weather-forecast-protection",
           "publishedAt": "2026-10-14 18:15",
           "outlet": "Axios"
-        },
-        {
-          "title": "Google launches flagship AI model Gemini 4 Argon for developers, businesses - Reuters",
-          "summary": "Google launches flagship AI model Gemini 4 Argon for developers, businesses  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
-          "publishedAt": "2026-10-14 01:10",
-          "outlet": "Reuters Business (via Google News)"
         }
       ]
     }
