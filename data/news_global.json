@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14 10:57",
+  "updatedAt": "2026-10-14 16:43",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Apple unveils new smart home devices that showcase upgraded Siri AI",
-          "summary": "New products from Apple include the HomeView, an iPad-like device that acts as a hub for other smart home gadgetsApple on Tuesday began showing off a ⁠new round of smart home products, including an iPad-like device dubbed the HomeView, meant to hang on walls or perch on tabletops ⁠and act as a hub for other smart home devices.The HomeView device starts at $299 and will begin shipping next month. I",
-          "link": "https://www.theguardian.com/technology/2026/oct/13/apple-new-smart-home-device-ai",
-          "publishedAt": "2026-10-14 01:25",
-          "outlet": "The Guardian Business"
-        },
         {
           "title": "Apple's iPhone 18 order cuts expose widening divide in premium demand - digitimes",
           "summary": "Apple's iPhone 18 order cuts expose widening divide in premium demand  digitimes",
@@ -42,11 +35,11 @@
       "name": "인텔",
       "items": [
         {
-          "title": "Five things to watch after Trump's Russian diesel deal",
-          "summary": "President Trump is turning to Vladimir Putin to help ease a global diesel crunch, setting up a clash between Washington's energy priorities and its efforts to pressure Russia over its invasion of Ukraine.Why it matters: The fuel shortage is among the most severe effects of the Iran war and Ukrainian strikes on Russian refineries.Average U.S. diesel prices remain far above $6 per gallon, adding to ",
-          "link": "https://www.axios.com/2026/10/13/trump-russia-diesel-deal",
-          "publishedAt": "2026-10-13 21:36",
-          "outlet": "Axios"
+          "title": "AI demand to exceed supply for 2 more years, says ASML",
+          "summary": "Europe’s most valuable company said its clients that include TSMC and Intel were experiencing ‘very, very strong demand’",
+          "link": "https://www.ft.com/content/2fc239ae-b0d4-41e8-81d0-cc2c0b3aba01?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-14 15:50",
+          "outlet": "Financial Times"
         }
       ]
     }
