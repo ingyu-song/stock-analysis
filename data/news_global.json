@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15 03:41",
+  "updatedAt": "2026-10-15 07:20",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -22,6 +22,20 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "GOOGL SHAREHOLDER NOTICE: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class Action Lawsuit Deadline on November 30, 2026",
+          "summary": "<img src=\"https://api.newsfilecorp.com/newsinfo/318942/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px;  height: 1px;border: 0px solid;\"><b>Faruqi  Faruqi, LLP Securities Litigation Partner </b><a href=\"https://api.newsfilecorp.com/redirect/qpLLRIagZ5\" rel=\"noopener nofollow\" target=\"_blank\"><b>James (Josh) Wilson</b></a><b> Encourages...",
+          "link": "https://markets.businessinsider.com/news/stocks/googl-shareholder-notice-faruqi-faruqi-llp-reminds-alphabet-investors-of-securities-class-action-lawsuit-deadline-on-november-30-2026-1036597886",
+          "publishedAt": "2026-10-15 06:05",
+          "outlet": "Business Insider Markets"
+        },
+        {
+          "title": "AI tools are aiding would-be spies",
+          "summary": "AI tools are now exacerbating a largely hidden problem that frontier AI companies have been contending with for years: the risk that employees will exploit their access to spy on their employers.Why it matters: The same AI tools that companies are racing to release can also help people plan crimes and develop the technology to carry them out, creating another security headache for the companies bu",
+          "link": "https://www.axios.com/2026/10/14/ai-tools-are-aiding-would-be-spies",
+          "publishedAt": "2026-10-15 04:30",
+          "outlet": "Axios"
+        },
+        {
           "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
           "summary": "Pledge spanning five years from world’s most valuable firm comes as concerns about AI agents have risenThe $5.5tn (£4.1tn) US chipmaker Nvidia is donating $250m worth of computing power to the UK to support AI safety research.The donation from the world’s most valuable company comes as the UK government confirmed its AI Security Institute (AISI), which tests advance AI models, will be able to exam",
           "link": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
@@ -41,6 +55,19 @@
           "link": "https://www.axios.com/2026/10/14/ai-extreme-heat-weather-forecast-protection",
           "publishedAt": "2026-10-14 18:15",
           "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung? - digitimes",
+          "summary": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung?  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVWdrdUtjMF8ybmp0NnJDSHZUQnZ4MmE3WFMtcVNKLXk5LUdHZG1FUEJpOG12dnRuUDNaS0NNNTZrR0FmTERwS0NvbEw2enVjQVhGZFZlckRrLWhUejVTVThYazJKeE5KOHRrYWx5ejVKOXhFWEp1ei1rWkdOQ3k3QmU4UzlpSWpVS3c?oc=5",
+          "publishedAt": "2026-10-13 09:14",
+          "outlet": "DigiTimes"
         }
       ]
     }
