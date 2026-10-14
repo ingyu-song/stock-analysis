@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14 16:43",
+  "updatedAt": "2026-10-14 22:47",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple bets AI can finally make us want a smart home",
+          "summary": "Apple's big new hardware bet for the AI era is here, and it's a...smart display?Why it matters: Cue the time machine and let's head back to 2014, when Amazon's Alexa shocked the tech world and led us to imagine a Jetsons-style home would be ours in the near future.It wasn't, but Apple believes it could come soon. The iPhone maker is betting that modern AI can finally make good on that vision, unve",
+          "link": "https://www.axios.com/2026/10/14/apple-ai-hardware-smart-display-homeview",
+          "publishedAt": "2026-10-14 18:30",
+          "outlet": "Axios"
+        },
         {
           "title": "Apple's iPhone 18 order cuts expose widening divide in premium demand - digitimes",
           "summary": "Apple's iPhone 18 order cuts expose widening divide in premium demand  digitimes",
@@ -22,24 +29,32 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
+          "summary": "Pledge spanning five years from world’s most valuable firm comes as concerns about AI agents have risenBusiness live – latest updatesThe $5.5tn (£4.1tn) US chipmaker Nvidia is donating $250m worth of computing power to the UK to support AI safety research.The donation from the world’s most valuable company comes as the UK government confirmed its AI Security Institute (AISI), which tests advance A",
+          "link": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
+          "publishedAt": "2026-10-14 19:10",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Apple bets AI can finally make us want a smart home",
+          "summary": "Apple's big new hardware bet for the AI era is here, and it's a...smart display?Why it matters: Cue the time machine and let's head back to 2014, when Amazon's Alexa shocked the tech world and led us to imagine a Jetsons-style home would be ours in the near future.It wasn't, but Apple believes it could come soon. The iPhone maker is betting that modern AI can finally make good on that vision, unve",
+          "link": "https://www.axios.com/2026/10/14/apple-ai-hardware-smart-display-homeview",
+          "publishedAt": "2026-10-14 18:30",
+          "outlet": "Axios"
+        },
+        {
+          "title": "AI's extreme heat challenge is moving from prediction to protection",
+          "summary": "Cities and researchers are using AI to map and predict extreme heat risk, but new research suggests it's used far more to identify where people are in danger than to help officials respond.Why it matters: As climate change intensifies extreme heat, better predictions won't protect vulnerable communities unless governments can turn them into action.U.S. deaths associated with high temperatures rose",
+          "link": "https://www.axios.com/2026/10/14/ai-extreme-heat-weather-forecast-protection",
+          "publishedAt": "2026-10-14 18:15",
+          "outlet": "Axios"
+        },
+        {
           "title": "Google launches flagship AI model Gemini 4 Argon for developers, businesses - Reuters",
           "summary": "Google launches flagship AI model Gemini 4 Argon for developers, businesses  Reuters",
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
           "publishedAt": "2026-10-14 01:10",
           "outlet": "Reuters Business (via Google News)"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "AI demand to exceed supply for 2 more years, says ASML",
-          "summary": "Europe’s most valuable company said its clients that include TSMC and Intel were experiencing ‘very, very strong demand’",
-          "link": "https://www.ft.com/content/2fc239ae-b0d4-41e8-81d0-cc2c0b3aba01?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-14 15:50",
-          "outlet": "Financial Times"
         }
       ]
     }
