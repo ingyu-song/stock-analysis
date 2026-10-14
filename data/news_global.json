@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14 07:51",
+  "updatedAt": "2026-10-14 10:57",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Apple bets on new screen gadget, Siri AI in home device push",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/apple-to-unveil-new-smart-home-products-showcasing-updated-siri-ai-4945992",
-          "publishedAt": "2026-10-14 06:54",
-          "outlet": "Investing.com"
-        },
         {
           "title": "Apple unveils new smart home devices that showcase upgraded Siri AI",
           "summary": "New products from Apple include the HomeView, an iPad-like device that acts as a hub for other smart home gadgetsApple on Tuesday began showing off a ⁠new round of smart home products, including an iPad-like device dubbed the HomeView, meant to hang on walls or perch on tabletops ⁠and act as a hub for other smart home devices.The HomeView device starts at $299 and will begin shipping next month. I",
@@ -41,20 +34,6 @@
           "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQclhsaXp4NUtqeVJDQTNIUjVXQVdJcnNXYnpYZUFTZm4wY3UxcTM1SzJvdzRBNE9HaURlNG1obzFGQ0o3R0pWNVJfNGFDOUdFZnhfdEJxSkszQ2hZQlowMjdCbVliRE9uX3A5ak1CYkJHOEV1elBYRWgtUHBwdF9lcWEyUGdjbmhQb2JONkpNeWhLTHgzQzRhRFRnZTEwcDRCa3k3RkpxY0c5Z1RsSlFCSmQwNmRmQQ?oc=5",
           "publishedAt": "2026-10-14 01:10",
           "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "A golden age of corporate profits",
-          "summary": "Data: U.S. Bureau of Economic Analysis, FactSet; Chart: Axios/Matt Phillips; Note: After-tax profit data includes inventory and capital depreciation adjustments. Corporate America is raking in record profits, luxuriating in luscious margins and capturing the largest chunk of the country's income on record.Why it matters: The corporate bonanza is bolstering the stock market, but it may also be play",
-          "link": "https://www.axios.com/2026/10/13/earnings-3q-ai-stocks",
-          "publishedAt": "2026-10-13 18:10",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Every major Nvidia customer is now a competitor as Microsoft reveals new Maia chip",
-          "summary": "The trillion-dollar AI race is moving from software to silicon, as Microsoft's massive bet on its proprietary Maia chips proves Big Tech wants to wean itself off Nvidia's dominance.Why it matters: Microsoft's plan to power its AI products with custom silicon shows how every major Nvidia customer is now a competitor, seeking lower costs, improved performance and more control.The shift is particular",
-          "link": "https://www.axios.com/2026/10/13/big-tech-ai-chips-nvidia-rivals",
-          "publishedAt": "2026-10-13 18:00",
-          "outlet": "Axios"
         }
       ]
     },
@@ -68,13 +47,6 @@
           "link": "https://www.axios.com/2026/10/13/trump-russia-diesel-deal",
           "publishedAt": "2026-10-13 21:36",
           "outlet": "Axios"
-        },
-        {
-          "title": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung? - digitimes",
-          "summary": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung?  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVWdrdUtjMF8ybmp0NnJDSHZUQnZ4MmE3WFMtcVNKLXk5LUdHZG1FUEJpOG12dnRuUDNaS0NNNTZrR0FmTERwS0NvbEw2enVjQVhGZFZlckRrLWhUejVTVThYazJKeE5KOHRrYWx5ejVKOXhFWEp1ei1rWkdOQ3k3QmU4UzlpSWpVS3c?oc=5",
-          "publishedAt": "2026-10-13 09:14",
-          "outlet": "DigiTimes"
         }
       ]
     }
