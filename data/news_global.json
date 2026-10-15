@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15 16:31",
+  "updatedAt": "2026-10-15 22:29",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -16,11 +16,11 @@
           "outlet": "Forbes Markets"
         },
         {
-          "title": "Apple bets AI can finally make us want a smart home",
-          "summary": "Apple's big new hardware bet for the AI era is here, and it's a...smart display?Why it matters: Cue the time machine and let's head back to 2014, when Amazon's Alexa shocked the tech world and led us to imagine a Jetsons-style home would be ours in the near future.It wasn't, but Apple believes it could come soon. The iPhone maker is betting that modern AI can finally make good on that vision, unve",
-          "link": "https://www.axios.com/2026/10/14/apple-ai-hardware-smart-display-homeview",
-          "publishedAt": "2026-10-14 18:30",
-          "outlet": "Axios"
+          "title": "Apple Joins Nvidia in the $5 Trillion Valuation Club - WSJ",
+          "summary": "Apple Joins Nvidia in the $5 Trillion Valuation Club  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdUl0aDJRcG4wTnlOalA2Xy1CeERRdzY1NFhBYUphcVUyVGFKV2NUbzlQY2FLUHBsMzFEOGNzSVotQXppWkgyVk5tM2g2Y2VRcDVyTzNEcXhJVDJ6OGhSdmlaM3hzai1PbjVmc0pydXZuaWZXNE5ONFVhcVhfcHE1Yy1HY2FpdzhCR0dTZGVDMGdyZkp3MzNpWTlfSlBMTWNPd0dNTnRBWWZZMnNSTFIzYw?oc=5",
+          "publishedAt": "2026-10-15 05:55",
+          "outlet": "WSJ Markets"
         }
       ]
     },
@@ -29,25 +29,18 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Anthropic brings Wall Street an AI bull case",
+          "summary": "AI companies for years have promised that smarter models would be worth the staggering cost to build them. Anthropic on Wednesday made that case in cash.The company presented eye-popping financials to investors, saying it was cash flow positive in the third quarter, with revenue surging nearly 50% to $16.8 billion compared with the April-to-June period.Why it matters: As Wall Street broadly spent ",
+          "link": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow",
+          "publishedAt": "2026-10-15 18:00",
+          "outlet": "Axios"
+        },
+        {
           "title": "GOOGL SHAREHOLDER NOTICE: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class Action Lawsuit Deadline on November 30, 2026",
           "summary": "<img src=\"https://api.newsfilecorp.com/newsinfo/318942/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px;  height: 1px;border: 0px solid;\"><b>Faruqi  Faruqi, LLP Securities Litigation Partner </b><a href=\"https://api.newsfilecorp.com/redirect/qpLLRIagZ5\" rel=\"noopener nofollow\" target=\"_blank\"><b>James (Josh) Wilson</b></a><b> Encourages...",
           "link": "https://markets.businessinsider.com/news/stocks/googl-shareholder-notice-faruqi-faruqi-llp-reminds-alphabet-investors-of-securities-class-action-lawsuit-deadline-on-november-30-2026-1036597886",
           "publishedAt": "2026-10-15 06:05",
           "outlet": "Business Insider Markets"
-        },
-        {
-          "title": "AI tools are aiding would-be spies",
-          "summary": "AI tools are now exacerbating a largely hidden problem that frontier AI companies have been contending with for years: the risk that employees will exploit their access to spy on their employers.Why it matters: The same AI tools that companies are racing to release can also help people plan crimes and develop the technology to carry them out, creating another security headache for the companies bu",
-          "link": "https://www.axios.com/2026/10/14/ai-tools-are-aiding-would-be-spies",
-          "publishedAt": "2026-10-15 04:30",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Apple bets AI can finally make us want a smart home",
-          "summary": "Apple's big new hardware bet for the AI era is here, and it's a...smart display?Why it matters: Cue the time machine and let's head back to 2014, when Amazon's Alexa shocked the tech world and led us to imagine a Jetsons-style home would be ours in the near future.It wasn't, but Apple believes it could come soon. The iPhone maker is betting that modern AI can finally make good on that vision, unve",
-          "link": "https://www.axios.com/2026/10/14/apple-ai-hardware-smart-display-homeview",
-          "publishedAt": "2026-10-14 18:30",
-          "outlet": "Axios"
         }
       ]
     },
@@ -55,6 +48,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Intel says AI 'gold rush' is over, pushes prompt routing across open hardware - digitimes",
+          "summary": "Intel says AI 'gold rush' is over, pushes prompt routing across open hardware  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjc5WHdxZGdaY1ZlZzBlTXFtOUd4aTBfYzg2WHZCXzJSY1hDM2dKM3RweXJnZ0l2MjZBb1FvS05EX1BYd2NFdzlfdXJqR19RV1JvX2JpaE1pcV9BV0NQdjVwWEJPX3RKR0Z2and1TTJ3YzFIOWk3UXE0N0xKNmZVbA?oc=5",
+          "publishedAt": "2026-10-15 13:07",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung? - digitimes",
           "summary": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung?  digitimes",
