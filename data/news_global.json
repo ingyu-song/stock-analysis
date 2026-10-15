@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16 03:21",
+  "updatedAt": "2026-10-16 07:24",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Meta and Apple team up on AI model tailored for Mac computers",
+          "summary": "Partnership between Big Tech rivals offers ‘open’ system that users can download to their own devices",
+          "link": "https://www.ft.com/content/3568dbda-ac85-45b3-815a-3a8ec853a78d?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-16 05:00",
+          "outlet": "Financial Times"
+        },
         {
           "title": "\"Mommy and daddy\" play nice: Apple and Meta team up to bring open-source Muse to Macs",
           "summary": "Apple and Meta, whose leaders have spent years trading barbs over privacy and the future of computing, are joining forces to bring one of America's most powerful open-weight AI models to Apple's high-end Macs.Why it matters: The collaboration marks a striking détente between two longtime Silicon Valley rivals, underscoring how the AI race is reshaping relationships across the technology industry.T",
@@ -21,20 +28,6 @@
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUFl2aDJ1cWQtX1R1Ynh4QXVmUUNWajRXbjU4RVhlenlQOU8zck9ELVRjLUgzb2VhZ2tGM1NaMnFJY0E4djl0T19RM2EwSXhuX0hmNndzZUsxLVhjRW14eVJ1ZGxxQ0NUVjZ0RWIzY1JUa2RXSERndl9McHRKcHRvOWJma0hVZ0cwU09NcUJUOUlzUlBLVXc?oc=5",
           "publishedAt": "2026-10-15 09:14",
           "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches - Forbes",
-          "summary": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRjlBcjAwZlgzNzVMQnBFSGt6ejdhLVBVaUJQMWpTZ21WLUUzQTJXTHdqWHBleWk3eHdmTXV2RUtsYzhjYWJxMFNPVlBFcnQtd2phNnYxRThHMEp4NE1ZTU9aWXlaSkF3d3RQcUxfRzZET3N3OF9GakVvVU81LU15Tnl0OHJScnlDdkVXbklBNmxQb0RKY0x6UFhmVTRmNGcxbkp1cWhrM3RJSTNRWl82cURnaEVlZTQ5WmNZTm02Z25pcGNoSDVJ?oc=5",
-          "publishedAt": "2026-10-15 06:00",
-          "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Apple Joins Nvidia in the $5 Trillion Valuation Club - WSJ",
-          "summary": "Apple Joins Nvidia in the $5 Trillion Valuation Club  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQdUl0aDJRcG4wTnlOalA2Xy1CeERRdzY1NFhBYUphcVUyVGFKV2NUbzlQY2FLUHBsMzFEOGNzSVotQXppWkgyVk5tM2g2Y2VRcDVyTzNEcXhJVDJ6OGhSdmlaM3hzai1PbjVmc0pydXZuaWZXNE5ONFVhcVhfcHE1Yy1HY2FpdzhCR0dTZGVDMGdyZkp3MzNpWTlfSlBMTWNPd0dNTnRBWWZZMnNSTFIzYw?oc=5",
-          "publishedAt": "2026-10-15 05:55",
-          "outlet": "WSJ Markets"
         }
       ]
     },
