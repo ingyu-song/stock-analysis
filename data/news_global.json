@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15 10:31",
+  "updatedAt": "2026-10-15 16:31",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple Closes Above the $5 Trillion Mark - WSJ",
-          "summary": "Apple Closes Above the $5 Trillion Mark  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9nNFJnaVl5ZVFnWTRxRTFVRkVEMEMwWVRkd25ieHdFTjJlbXYyX0FkM1Z1YnFVVTBJam5nNklPUmZkRVRZSFZIUVQzaDhnWF9Od1hJdjdhNXRJTjBMVzE2TzN4bUV1SW9wc3pzLXpUUVNxMlJVZW1BSWU3OFU?oc=5",
-          "publishedAt": "2026-10-15 06:20",
-          "outlet": "WSJ Markets"
+          "title": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches - Forbes",
+          "summary": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPRjlBcjAwZlgzNzVMQnBFSGt6ejdhLVBVaUJQMWpTZ21WLUUzQTJXTHdqWHBleWk3eHdmTXV2RUtsYzhjYWJxMFNPVlBFcnQtd2phNnYxRThHMEp4NE1ZTU9aWXlaSkF3d3RQcUxfRzZET3N3OF9GakVvVU81LU15Tnl0OHJScnlDdkVXbklBNmxQb0RKY0x6UFhmVTRmNGcxbkp1cWhrM3RJSTNRWl82cURnaEVlZTQ5WmNZTm02Z25pcGNoSDVJ?oc=5",
+          "publishedAt": "2026-10-15 06:00",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Apple bets AI can finally make us want a smart home",
@@ -41,13 +41,6 @@
           "link": "https://www.axios.com/2026/10/14/ai-tools-are-aiding-would-be-spies",
           "publishedAt": "2026-10-15 04:30",
           "outlet": "Axios"
-        },
-        {
-          "title": "Nvidia, worth $5.5tn, donates $250m to UK for AI safety research",
-          "summary": "Pledge spanning five years from world’s most valuable firm comes as concerns about AI agents have risenThe $5.5tn (£4.1tn) US chipmaker Nvidia is donating $250m worth of computing power to the UK to support AI safety research.The donation from the world’s most valuable company comes as the UK government confirmed its AI Security Institute (AISI), which tests advance AI models, will be able to exam",
-          "link": "https://www.theguardian.com/technology/2026/oct/14/nvidia-donates-to-uk-ai-safety-research",
-          "publishedAt": "2026-10-14 19:10",
-          "outlet": "The Guardian Business"
         },
         {
           "title": "Apple bets AI can finally make us want a smart home",
