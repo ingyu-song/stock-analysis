@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-15 22:29",
+  "updatedAt": "2026-10-16 03:21",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,20 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "\"Mommy and daddy\" play nice: Apple and Meta team up to bring open-source Muse to Macs",
+          "summary": "Apple and Meta, whose leaders have spent years trading barbs over privacy and the future of computing, are joining forces to bring one of America's most powerful open-weight AI models to Apple's high-end Macs.Why it matters: The collaboration marks a striking détente between two longtime Silicon Valley rivals, underscoring how the AI race is reshaping relationships across the technology industry.T",
+          "link": "https://www.axios.com/2026/10/15/apple-and-meta-bury-the-hatchet-for-ai",
+          "publishedAt": "2026-10-16 02:00",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Apple iPhone 18 Pro Review: A Big Improvement You’ll Notice Every Day - Forbes",
+          "summary": "Apple iPhone 18 Pro Review: A Big Improvement You’ll Notice Every Day  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUFl2aDJ1cWQtX1R1Ynh4QXVmUUNWajRXbjU4RVhlenlQOU8zck9ELVRjLUgzb2VhZ2tGM1NaMnFJY0E4djl0T19RM2EwSXhuX0hmNndzZUsxLVhjRW14eVJ1ZGxxQ0NUVjZ0RWIzY1JUa2RXSERndl9McHRKcHRvOWJma0hVZ0cwU09NcUJUOUlzUlBLVXc?oc=5",
+          "publishedAt": "2026-10-15 09:14",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches - Forbes",
           "summary": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches  Forbes",
@@ -34,13 +48,6 @@
           "link": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow",
           "publishedAt": "2026-10-15 18:00",
           "outlet": "Axios"
-        },
-        {
-          "title": "GOOGL SHAREHOLDER NOTICE: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class Action Lawsuit Deadline on November 30, 2026",
-          "summary": "<img src=\"https://api.newsfilecorp.com/newsinfo/318942/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px;  height: 1px;border: 0px solid;\"><b>Faruqi  Faruqi, LLP Securities Litigation Partner </b><a href=\"https://api.newsfilecorp.com/redirect/qpLLRIagZ5\" rel=\"noopener nofollow\" target=\"_blank\"><b>James (Josh) Wilson</b></a><b> Encourages...",
-          "link": "https://markets.businessinsider.com/news/stocks/googl-shareholder-notice-faruqi-faruqi-llp-reminds-alphabet-investors-of-securities-class-action-lawsuit-deadline-on-november-30-2026-1036597886",
-          "publishedAt": "2026-10-15 06:05",
-          "outlet": "Business Insider Markets"
         }
       ]
     },
