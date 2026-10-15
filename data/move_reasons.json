@@ -1,115 +1,153 @@
 {
-  "generatedAt": "2026-10-14 10:18",
+  "generatedAt": "2026-10-15 09:40",
   "model": "claude-sonnet-5",
   "windowDays": 6,
   "moves": {
     "379800.KS": {
       "name": "KODEX 미국S&P500",
-      "changePct": -0.08,
-      "session": "2026-10-14",
-      "reason": "전일 대비 -0.08%로 큰 변동 없음.",
-      "basis": "none",
+      "changePct": -0.88,
+      "session": "2026-10-15",
+      "reason": "코스피가 -6.50% 급락한 날 S&P500 추종 ETF도 함께 하락해 시장 전반의 약세 영향으로 보임.",
+      "basis": "market",
       "sources": []
     },
     "379810.KS": {
       "name": "KODEX 미국나스닥100",
-      "changePct": 0.18,
-      "session": "2026-10-14",
-      "reason": "전일 대비 +0.18%로 큰 변동 없음.",
-      "basis": "none",
+      "changePct": -2.09,
+      "session": "2026-10-15",
+      "reason": "코스피가 -6.50% 급락한 날 나스닥100 추종 ETF도 함께 하락해 시장 전반의 약세 영향으로 보임.",
+      "basis": "market",
       "sources": []
     },
     "CRWD": {
       "name": "크라우드스트라이크",
-      "changePct": -0.68,
-      "session": "2026-10-12",
-      "reason": "나스닥100(-0.71%)과 반도체지수(-2.67%) 약세, VIX 상승 등 위험회피 분위기와 같이 움직여 시장 영향으로 보임.",
-      "basis": "market",
+      "changePct": -4.56,
+      "session": "2026-10-13",
+      "reason": "같은 날 S&P500과 나스닥100은 거의 보합이었음에도 크라우드스트라이크만 큰 폭 하락해 뉴스로 확인된 뚜렷한 원인은 없음.",
+      "basis": "none",
       "sources": []
     },
     "AAPL": {
       "name": "애플",
-      "changePct": 0.09,
-      "session": "2026-10-12",
-      "reason": "월가의 목표주가 상향과 매수의견 재확인 소식에 힘입어 소폭 상승.",
+      "changePct": 0.5,
+      "session": "2026-10-14",
+      "reason": "기술주 상당수가 급락한 가운데서도 스마트홈 신제품 공개 기대감으로 애플만 상승세를 유지했다고 보도됨.",
       "basis": "news",
       "sources": [
         {
-          "title": "월가, 애플(AAPL) 목표주가 연달아 '상향'...JP모건은 '적극 매수'",
-          "link": "http://coinreaders.com/262819",
+          "title": "[속보 ]엔비디아·마이크론·AMD 급락, 애플은 상승",
+          "link": "https://www.cbci.co.kr/news/articleView.html?idxno=615614",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-13 11:12"
+          "publishedAt": "2026-10-15 07:16"
+        },
+        {
+          "title": "[속보]미국 기술주 장중 희비…애플·ASML 상승, 코어위브 12%대 급락",
+          "link": "https://www.cbci.co.kr/news/articleView.html?idxno=615552",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-14 22:48"
+        },
+        {
+          "title": "애플(AAPL), 홈뷰 공개에 사상 최고가 경신...터너스 첫 대형 신제품 통...",
+          "link": "http://coinreaders.com/263080",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-14 12:46"
         }
       ]
     },
     "SONY": {
       "name": "소니 그룹 (ADR)",
-      "changePct": 0.29,
-      "session": "2026-10-12",
-      "reason": "전일 대비 +0.29%로 큰 변동 없음.",
+      "changePct": -0.33,
+      "session": "2026-10-14",
+      "reason": "변동폭이 0.5% 미만으로 큰 변동 없음.",
       "basis": "none",
       "sources": []
     },
     "PG": {
       "name": "프록터 앤드 갬블",
-      "changePct": -0.19,
-      "session": "2026-10-12",
-      "reason": "씨티그룹의 매수 의견 재확인에도 불구하고 전일 대비 -0.19%로 큰 변동 없음.",
-      "basis": "none",
-      "sources": []
+      "changePct": 2.47,
+      "session": "2026-10-14",
+      "reason": "엔비디아·마이크론 등 기술주가 약세였던 날 다우존스와 소비재주가 상대적으로 강세를 보이며 프록터앤갬블도 함께 올랐다는 보도가 있음.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "엔비디아·마이크론 웃지 못할 때…장 마감 직전 투심 쏠린 '이 종목'은...",
+          "link": "https://www.wikitree.co.kr/articles/1165703",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-13 08:54"
+        }
+      ]
     },
     "GOOGL": {
       "name": "알파벳 A",
-      "changePct": 0.3,
-      "session": "2026-10-12",
-      "reason": "전일 대비 +0.30%로 큰 변동 없음.",
-      "basis": "none",
-      "sources": []
+      "changePct": -1.74,
+      "session": "2026-10-14",
+      "reason": "물가·AI 투자 우려 속 대형 기술주들이 일제히 하락했는데, 알파벳도 -1.74%로 같은 흐름을 보였다고 보도됨.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "미국증시 다우지수 '약보합'..제약주 '껑충', 엔비디아·CAT '뚝'",
+          "link": "http://www.choicenews.co.kr/news/articleView.html?idxno=172227",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-15 06:58"
+        },
+        {
+          "title": "[N2 모닝 경제 브리핑-10월 15일] 美 증시, 물가·AI 우려에 기술주 급락...",
+          "link": "https://www.news2day.co.kr/article/20261014500167",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-15 06:22"
+        },
+        {
+          "title": "엔비디아 3.16%, 마이크론 4%↓...반도체 기술주, 물가상승 압박에 일제...",
+          "link": "http://www.beyondpost.co.kr/view.php?ud=2026101505385670152aaae0046f_30",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-15 05:48"
+        }
+      ]
     },
     "PANW": {
       "name": "팰로 앨토 네트웍스",
-      "changePct": -1.68,
-      "session": "2026-10-12",
-      "reason": "나스닥100(-0.71%)과 반도체지수(-2.67%) 약세 등 위험회피 분위기와 같이 움직여 시장 영향으로 보임.",
-      "basis": "market",
+      "changePct": -5.54,
+      "session": "2026-10-13",
+      "reason": "같은 날 나스닥100·S&P500은 보합 수준이었음에도 팔로알토만 큰 폭 하락해 뉴스로 확인된 뚜렷한 원인은 없음.",
+      "basis": "none",
       "sources": []
     },
     "CRCL": {
       "name": "서클 인터넷 그룹",
-      "changePct": 3.41,
-      "session": "2026-10-12",
-      "reason": "유가 하락과 매수 신호 출현에 힘입어 90달러 저항대 돌파를 시도하며 상승.",
+      "changePct": -5.72,
+      "session": "2026-10-13",
+      "reason": "유가·국채금리 동반 상승에 코인 관련주가 일제히 하락했고 그 중 서클의 낙폭이 가장 컸다는 보도가 있음.",
       "basis": "news",
       "sources": [
         {
-          "title": "서클(CRCL), 규제 폭탄에도 이상 無...90달러 저항 돌파 정조준",
-          "link": "http://coinreaders.com/262844",
+          "title": "유가·국채금리 오르자 서클 3% 하락…비트코인은 1.2% 올라 6만 4,000달러...",
+          "link": "https://www.wikitree.co.kr/articles/1165980",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-13 13:32"
+          "publishedAt": "2026-10-14 04:10"
         }
       ]
     },
     "012450.KS": {
       "name": "한화에어로스페이스",
-      "changePct": 0.0,
-      "session": "2026-10-14",
-      "reason": "전일 대비 변동 없음.",
+      "changePct": -0.12,
+      "session": "2026-10-15",
+      "reason": "변동폭이 0.5% 미만으로 큰 변동 없음.",
       "basis": "none",
       "sources": []
     },
     "464920.KS": {
       "name": "PLUS 일본반도체소부장",
-      "changePct": 0.97,
-      "session": "2026-10-14",
-      "reason": "Nikkei 225가 -1.48% 하락한 가운데서도 오히려 상승해, 뉴스로 확인된 뚜렷한 원인은 없음.",
-      "basis": "none",
+      "changePct": -6.27,
+      "session": "2026-10-15",
+      "reason": "코스피 -6.50%, 니케이 -3.25% 등 한일 증시 전반이 급락한 날 일본반도체소부장 ETF도 크게 하락해 시장 영향으로 보임.",
+      "basis": "market",
       "sources": []
     },
     "GPIQ": {
       "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
-      "changePct": -0.21,
-      "session": "2026-10-12",
-      "reason": "나스닥100(-0.71%) 약세와 같이 움직여 시장 영향으로 보임.",
+      "changePct": -1.04,
+      "session": "2026-10-13",
+      "reason": "같은 날 나스닥100이 -0.31%로 소폭 하락한 것과 같은 방향으로 커버드콜 ETF도 하락해 시장 영향으로 보임.",
       "basis": "market",
       "sources": []
     }
