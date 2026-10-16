@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16 21:32",
+  "updatedAt": "2026-10-17 02:29",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,27 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Want Apple's folding iPhone? Duo you have patience?",
+          "summary": "",
+          "link": "https://www.businessinsider.com/apple-iphone-duo-expected-shipping-times-slip-2027-2026-10",
+          "publishedAt": "2026-10-17 02:10",
+          "outlet": "Business Insider Markets"
+        },
+        {
+          "title": "Apple set for UK legal fight over iPhone tap-to-pay rules",
+          "summary": "Competition and Markets Authority plans to force Big Tech group to allow rival payments providers to access its digital wallet technology",
+          "link": "https://www.ft.com/content/d05f87bf-225b-43f9-86e6-2f9537cd75c6?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-17 00:21",
+          "outlet": "Financial Times"
+        },
+        {
+          "title": "Apple’s Antitrust Settlement Talks Spur Worries Among Developers - The Information",
+          "summary": "Apple’s Antitrust Settlement Talks Spur Worries Among Developers  The Information",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNmdFS3l0ZEE5RmdCRVB0ekdDcG4xZkdlY1J3QkN6c25ZQkhzYTlZSlZUNHNlcDNRMHFZTk1EX3JiakdKZ0lMUURvaTJjeTFqQWQ1dXpKYzJCa1hlc3JCZ3Jlc05zM1N0SW16VjNoZXRaZ05LdmttakZSaHZsRzNBejJpZDdWUXJEWDlfUHJ3dHhYcFl6dTlmajcwVldlOXBfcFY2aUpR?oc=5",
+          "publishedAt": "2026-10-16 22:00",
+          "outlet": "The Information"
+        },
         {
           "title": "OpenAI pledges not to use Apple secrets, accuses ex-employee of taking files - digitimes",
           "summary": "OpenAI pledges not to use Apple secrets, accuses ex-employee of taking files  digitimes",
