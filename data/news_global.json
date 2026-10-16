@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17 02:29",
+  "updatedAt": "2026-10-17 06:17",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,17 +9,10 @@
       "name": "애플",
       "items": [
         {
-          "title": "Want Apple's folding iPhone? Duo you have patience?",
-          "summary": "",
-          "link": "https://www.businessinsider.com/apple-iphone-duo-expected-shipping-times-slip-2027-2026-10",
-          "publishedAt": "2026-10-17 02:10",
-          "outlet": "Business Insider Markets"
-        },
-        {
-          "title": "Apple set for UK legal fight over iPhone tap-to-pay rules",
-          "summary": "Competition and Markets Authority plans to force Big Tech group to allow rival payments providers to access its digital wallet technology",
-          "link": "https://www.ft.com/content/d05f87bf-225b-43f9-86e6-2f9537cd75c6?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-17 00:21",
+          "title": "Apple blames ‘extraordinary’ demand as foldable iPhones sell out",
+          "summary": "Deliveries of the $2,000 Duo slip to 2027 within hours of going on sale",
+          "link": "https://www.ft.com/content/7b236286-ca1d-4063-a728-7f968a638b8f?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-17 06:03",
           "outlet": "Financial Times"
         },
         {
