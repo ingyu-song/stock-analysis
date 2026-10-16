@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-15 09:40",
+  "updatedAt": "2026-10-16 09:32",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1346.68,
-  "fxRateEUR": 1506.7,
+  "fxRate": 1342.95,
+  "fxRateEUR": 1504.5,
   "accounts": [
     {
       "id": "kiwoom",
@@ -29,10 +29,10 @@
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
       "shares": 100,
-      "price": 23400.0,
+      "price": 23425.0,
       "costKRW": 2365300,
       "costNative": 2365300,
-      "prevClose": 23607.0
+      "prevClose": 23415.0
     },
     {
       "account": "kiwoom",
@@ -40,10 +40,10 @@
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
       "shares": 200,
-      "price": 26505.0,
+      "price": 26485.0,
       "costKRW": 5424800,
       "costNative": 5424800,
-      "prevClose": 27070.0
+      "prevClose": 26505.0
     },
     {
       "account": "mirae",
@@ -51,10 +51,10 @@
       "name": "크라우드스트라이크",
       "currency": "USD",
       "shares": 8,
-      "price": 249.29,
+      "price": 244.57,
       "costKRW": 2505696,
       "costNative": 1867.036,
-      "prevClose": 261.21
+      "prevClose": 246.8999
     },
     {
       "account": "mirae",
@@ -62,10 +62,10 @@
       "name": "애플",
       "currency": "USD",
       "shares": 15,
-      "price": 342.96,
+      "price": 342.0,
       "costKRW": 6606625,
       "costNative": 4942.2405,
-      "prevClose": 341.27
+      "prevClose": 344.7818
     },
     {
       "account": "mirae",
@@ -73,10 +73,10 @@
       "name": "소니 그룹 (ADR)",
       "currency": "USD",
       "shares": 150,
-      "price": 24.36,
+      "price": 24.69,
       "costNative": 3587.25,
       "costKRW": 4757132,
-      "prevClose": 24.44
+      "prevClose": 24.23
     },
     {
       "account": "mirae",
@@ -84,10 +84,10 @@
       "name": "프록터 앤드 갬블",
       "currency": "USD",
       "shares": 10,
-      "price": 156.53,
+      "price": 157.08,
       "costKRW": 2003265,
       "costNative": 1483.5,
-      "prevClose": 152.75
+      "prevClose": 156.81
     },
     {
       "account": "mirae",
@@ -95,10 +95,10 @@
       "name": "알파벳 A",
       "currency": "USD",
       "shares": 5,
-      "price": 347.64,
+      "price": 349.22,
       "costKRW": 2351848,
       "costNative": 1741.64,
-      "prevClose": 353.78
+      "prevClose": 344.28
     },
     {
       "account": "mirae",
@@ -106,10 +106,10 @@
       "name": "팰로 앨토 네트웍스",
       "currency": "USD",
       "shares": 5,
-      "price": 375.04,
+      "price": 370.27,
       "costKRW": 2499388,
       "costNative": 1850.9,
-      "prevClose": 397.03
+      "prevClose": 373.0
     },
     {
       "account": "mirae",
@@ -117,10 +117,10 @@
       "name": "서클 인터넷 그룹",
       "currency": "USD",
       "shares": 10,
-      "price": 79.55,
+      "price": 86.97,
       "costKRW": 1354915,
       "costNative": 1003.37,
-      "prevClose": 84.379
+      "prevClose": 77.45
     },
     {
       "account": "kiwoom",
@@ -128,10 +128,10 @@
       "name": "한화에어로스페이스",
       "currency": "KRW",
       "shares": 2,
-      "price": 834000.0,
+      "price": 860000.0,
       "costKRW": 1933000,
       "costNative": 1933000,
-      "prevClose": 835000.0
+      "prevClose": 810000.0
     },
     {
       "account": "kiwoom",
@@ -139,10 +139,10 @@
       "name": "PLUS 일본반도체소부장",
       "currency": "KRW",
       "shares": 25,
-      "price": 23755.0,
+      "price": 23340.0,
       "costKRW": 678225,
       "costNative": 678225,
-      "prevClose": 25345.0
+      "prevClose": 22800.0
     },
     {
       "account": "mirae",
@@ -150,10 +150,10 @@
       "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
       "currency": "USD",
       "shares": 20,
-      "price": 56.85,
+      "price": 56.84,
       "costKRW": 1535548,
       "costNative": 1157.29,
-      "prevClose": 57.45
+      "prevClose": 56.5279
     }
   ],
   "risk": {
@@ -533,6 +533,6 @@
       "note": "체결일·단가 미확인. 10/9 잔고 화면에 VIXY가 없어 매도된 것으로 판단했다. 근거: 화면 종목 평가액 합계 $18,250.78을 증권사 원화평가금액 24,443,854원에서 나누면 1,339원/$로 시장환율(1,343)과 맞고, VIXY(약 $490)가 있었다면 1,303원/$가 되어 맞지 않는다. 평단 $21.53 대비 최근 종가 $16~17이라 손실 매도로 보인다."
     }
   ],
-  "fxRatePrev": 1341.63,
-  "fxRateEURPrev": 1498.1
+  "fxRatePrev": 1341.64,
+  "fxRateEURPrev": 1503.4
 }
