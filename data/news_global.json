@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16 07:24",
+  "updatedAt": "2026-10-16 10:26",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,37 +9,10 @@
       "name": "애플",
       "items": [
         {
-          "title": "Meta and Apple team up on AI model tailored for Mac computers",
-          "summary": "Partnership between Big Tech rivals offers ‘open’ system that users can download to their own devices",
-          "link": "https://www.ft.com/content/3568dbda-ac85-45b3-815a-3a8ec853a78d?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-16 05:00",
-          "outlet": "Financial Times"
-        },
-        {
           "title": "\"Mommy and daddy\" play nice: Apple and Meta team up to bring open-source Muse to Macs",
           "summary": "Apple and Meta, whose leaders have spent years trading barbs over privacy and the future of computing, are joining forces to bring one of America's most powerful open-weight AI models to Apple's high-end Macs.Why it matters: The collaboration marks a striking détente between two longtime Silicon Valley rivals, underscoring how the AI race is reshaping relationships across the technology industry.T",
           "link": "https://www.axios.com/2026/10/15/apple-and-meta-bury-the-hatchet-for-ai",
           "publishedAt": "2026-10-16 02:00",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Apple iPhone 18 Pro Review: A Big Improvement You’ll Notice Every Day - Forbes",
-          "summary": "Apple iPhone 18 Pro Review: A Big Improvement You’ll Notice Every Day  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNUFl2aDJ1cWQtX1R1Ynh4QXVmUUNWajRXbjU4RVhlenlQOU8zck9ELVRjLUgzb2VhZ2tGM1NaMnFJY0E4djl0T19RM2EwSXhuX0hmNndzZUsxLVhjRW14eVJ1ZGxxQ0NUVjZ0RWIzY1JUa2RXSERndl9McHRKcHRvOWJma0hVZ0cwU09NcUJUOUlzUlBLVXc?oc=5",
-          "publishedAt": "2026-10-15 09:14",
-          "outlet": "Forbes Markets"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
-        {
-          "title": "Anthropic brings Wall Street an AI bull case",
-          "summary": "AI companies for years have promised that smarter models would be worth the staggering cost to build them. Anthropic on Wednesday made that case in cash.The company presented eye-popping financials to investors, saying it was cash flow positive in the third quarter, with revenue surging nearly 50% to $16.8 billion compared with the April-to-June period.Why it matters: As Wall Street broadly spent ",
-          "link": "https://www.axios.com/2026/10/15/anthropic-q3-revenue-cash-flow",
-          "publishedAt": "2026-10-15 18:00",
           "outlet": "Axios"
         }
       ]
@@ -53,13 +26,6 @@
           "summary": "Intel says AI 'gold rush' is over, pushes prompt routing across open hardware  digitimes",
           "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjc5WHdxZGdaY1ZlZzBlTXFtOUd4aTBfYzg2WHZCXzJSY1hDM2dKM3RweXJnZ0l2MjZBb1FvS05EX1BYd2NFdzlfdXJqR19RV1JvX2JpaE1pcV9BV0NQdjVwWEJPX3RKR0Z2and1TTJ3YzFIOWk3UXE0N0xKNmZVbA?oc=5",
           "publishedAt": "2026-10-15 13:07",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung? - digitimes",
-          "summary": "Podcast highlights: Is Elon Musk using TSMC talks as leverage against Intel and Samsung?  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOVWdrdUtjMF8ybmp0NnJDSHZUQnZ4MmE3WFMtcVNKLXk5LUdHZG1FUEJpOG12dnRuUDNaS0NNNTZrR0FmTERwS0NvbEw2enVjQVhGZFZlckRrLWhUejVTVThYazJKeE5KOHRrYWx5ejVKOXhFWEp1ei1rWkdOQ3k3QmU4UzlpSWpVS3c?oc=5",
-          "publishedAt": "2026-10-13 09:14",
           "outlet": "DigiTimes"
         }
       ]
