@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18 04:31",
+  "updatedAt": "2026-10-18 07:24",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches - Forbes",
-          "summary": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnhYb1g2NWZoQlBEYzlwY0tNUzRjbWkzZXV4REpza3QzMUdya1BIR0FGSENRUGxSTm1CdVJQYTZtWWpMelRpb3JYa29yanM0bWZKQll0SEdhdnRZTU1uQndWcmJOa1VIUkhvbzdQZ3dfcDhjNGNFM2tfaEpsZ0lKQlJBb0NiZlJzY0ZzWTZ1dlBPZjZnLUR5U2FSZk1GV2hYQmxXOVRzQVc0M3QySklnZGRrMkxRNVY0UXRvMkNfUmdrTTRsUl93?oc=5",
-          "publishedAt": "2026-10-17 05:21",
-          "outlet": "Forbes Markets"
-        },
         {
           "title": "Apple’s Antitrust Settlement Talks Spur Worries Among Developers - The Information",
           "summary": "Apple’s Antitrust Settlement Talks Spur Worries Among Developers  The Information",
@@ -28,6 +21,19 @@
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTHE4UlR1aWxXYUlOaUF0WW1tVkFTcDZfNElqbTllVGc5aDdwRkpEeE5fdDk3UzdiMVVsbHlpRnNIRkUyM1p5WENVNlJMZ1dEblprUWZqS0hoams0bWJuam5LenViU044YzBtMEFWb2pPVlR4N21vMDJ0U1VidEdFVHduZ2JYWWxXT01DTkZaVHZjbXB5VmRkSDJB?oc=5",
           "publishedAt": "2026-10-15 18:13",
           "outlet": "DigiTimes"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "GOOGL SHAREHOLDER ACTION REMINDER: Faruqi & Faruqi, LLP Reminds Alphabet Investors of Securities Class Action Lawsuit Deadline on November 30, 2026",
+          "summary": "<img src=\"https://api.newsfilecorp.com/newsinfo/319365/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px;  height: 1px;border: 0px solid;\"><b>Faruqi  Faruqi, LLP Securities Litigation Partner </b><a href=\"https://api.newsfilecorp.com/redirect/1KLW5cwMRa\" rel=\"noopener nofollow\" target=\"_blank\"><b>James (Josh) Wilson</b></a><b> Encourages...",
+          "link": "https://markets.businessinsider.com/news/stocks/googl-shareholder-action-reminder-faruqi-faruqi-llp-reminds-alphabet-investors-of-securities-class-action-lawsuit-deadline-on-november-30-2026-1036636486",
+          "publishedAt": "2026-10-18 03:35",
+          "outlet": "Business Insider Markets"
         }
       ]
     },
