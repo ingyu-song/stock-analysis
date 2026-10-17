@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17 22:47",
+  "updatedAt": "2026-10-18 02:16",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,18 +9,18 @@
       "name": "애플",
       "items": [
         {
-          "title": "Will Starlink Mobile matter for Apple?",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/will-starlink-mobile-matter-for-apple-4955056",
-          "publishedAt": "2026-10-17 09:39",
-          "outlet": "Investing.com"
-        },
-        {
           "title": "Apple blames ‘extraordinary’ demand as foldable iPhones sell out",
           "summary": "Deliveries of the $2,000 Duo slip to 2027 within hours of going on sale",
           "link": "https://www.ft.com/content/7b236286-ca1d-4063-a728-7f968a638b8f?syn-25a6b1a6=1",
           "publishedAt": "2026-10-17 06:03",
           "outlet": "Financial Times"
+        },
+        {
+          "title": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches - Forbes",
+          "summary": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNMnhYb1g2NWZoQlBEYzlwY0tNUzRjbWkzZXV4REpza3QzMUdya1BIR0FGSENRUGxSTm1CdVJQYTZtWWpMelRpb3JYa29yanM0bWZKQll0SEdhdnRZTU1uQndWcmJOa1VIUkhvbzdQZ3dfcDhjNGNFM2tfaEpsZ0lKQlJBb0NiZlJzY0ZzWTZ1dlBPZjZnLUR5U2FSZk1GV2hYQmxXOVRzQVc0M3QySklnZGRrMkxRNVY0UXRvMkNfUmdrTTRsUl93?oc=5",
+          "publishedAt": "2026-10-17 05:21",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Apple’s Antitrust Settlement Talks Spur Worries Among Developers - The Information",
