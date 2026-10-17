@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17 18:27",
+  "updatedAt": "2026-10-17 22:47",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -34,19 +34,6 @@
           "summary": "OpenAI pledges not to use Apple secrets, accuses ex-employee of taking files  digitimes",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTHE4UlR1aWxXYUlOaUF0WW1tVkFTcDZfNElqbTllVGc5aDdwRkpEeE5fdDk3UzdiMVVsbHlpRnNIRkUyM1p5WENVNlJMZ1dEblprUWZqS0hoams0bWJuam5LenViU044YzBtMEFWb2pPVlR4N21vMDJ0U1VidEdFVHduZ2JYWWxXT01DTkZaVHZjbXB5VmRkSDJB?oc=5",
           "publishedAt": "2026-10-15 18:13",
-          "outlet": "DigiTimes"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "Analysis: Intel CEO Lip-Bu Tan's power of humility — how one phone call helped reshape the chip giant's comeback - digitimes",
-          "summary": "Analysis: Intel CEO Lip-Bu Tan's power of humility — how one phone call helped reshape the chip giant's comeback  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObEdTa1lWdW1aQXBXTEpPWnV1NzFPU0VMT0k5TEdZalpXSXZVWk1fenpxRTVUdWtzSEx2YmIybWtJMndmOW5JeHR3eEs3ZEplRUFyamFvNkx2VTVBV3BpdnJieGVnY05kbHlVb0RoTkFnalF5VUdtNmFqM20zQklEd1ctcDlIbkw4WThPcg?oc=5",
-          "publishedAt": "2026-10-16 13:23",
           "outlet": "DigiTimes"
         }
       ]
