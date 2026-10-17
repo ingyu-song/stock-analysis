@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18 02:16",
+  "updatedAt": "2026-10-18 04:31",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Apple blames ‘extraordinary’ demand as foldable iPhones sell out",
-          "summary": "Deliveries of the $2,000 Duo slip to 2027 within hours of going on sale",
-          "link": "https://www.ft.com/content/7b236286-ca1d-4063-a728-7f968a638b8f?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-17 06:03",
-          "outlet": "Financial Times"
-        },
         {
           "title": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches - Forbes",
           "summary": "Apple’s iPhone Duo Debut Drives 300% Spike In Samsung Galaxy Z Fold8 Searches  Forbes",
@@ -34,6 +27,19 @@
           "summary": "OpenAI pledges not to use Apple secrets, accuses ex-employee of taking files  digitimes",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTHE4UlR1aWxXYUlOaUF0WW1tVkFTcDZfNElqbTllVGc5aDdwRkpEeE5fdDk3UzdiMVVsbHlpRnNIRkUyM1p5WENVNlJMZ1dEblprUWZqS0hoams0bWJuam5LenViU044YzBtMEFWb2pPVlR4N21vMDJ0U1VidEdFVHduZ2JYWWxXT01DTkZaVHZjbXB5VmRkSDJB?oc=5",
           "publishedAt": "2026-10-15 18:13",
+          "outlet": "DigiTimes"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Intel says AI 'gold rush' is over, pushes prompt routing across open hardware - digitimes",
+          "summary": "Intel says AI 'gold rush' is over, pushes prompt routing across open hardware  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjc5WHdxZGdaY1ZlZzBlTXFtOUd4aTBfYzg2WHZCXzJSY1hDM2dKM3RweXJnZ0l2MjZBb1FvS05EX1BYd2NFdzlfdXJqR19RV1JvX2JpaE1pcV9BV0NQdjVwWEJPX3RKR0Z2and1TTJ3YzFIOWk3UXE0N0xKNmZVbA?oc=5",
+          "publishedAt": "2026-10-15 13:07",
           "outlet": "DigiTimes"
         }
       ]
