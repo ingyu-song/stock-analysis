@@ -1,7 +1,28 @@
 {
-  "updatedAt": "2026-10-19 05:51",
+  "updatedAt": "2026-10-19 08:18",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
-  "coverage": []
+  "coverage": [
+    {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Here’s When Apple Will Launch iPhone 18 And iPhone Air 2 - Forbes",
+          "summary": "Here’s When Apple Will Launch iPhone 18 And iPhone Air 2  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOeWIxall3VWVhNFRuYTNtZThvT1JldHRNQlpReFZiSVhkY1Z1a2tZNnMyYmh1SURneTdzZ05vMW9RT3RWM2xKRFlEV3otZDNLSFhDbDIxUGdhblU0a1RwVXZjTjFYZFVnc2hWV1pLMWlhOEFObURXQWxqamFUU0JlcWw3VGRqNzE2SjJITm9JZGl3WGdLR2xmb1NyZWVTTmUwSFZxQThhWFpjZ0Mw?oc=5",
+          "publishedAt": "2026-10-18 22:00",
+          "outlet": "Forbes Markets"
+        },
+        {
+          "title": "Apple’s Antitrust Settlement Talks Spur Worries Among Developers - The Information",
+          "summary": "Apple’s Antitrust Settlement Talks Spur Worries Among Developers  The Information",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNmdFS3l0ZEE5RmdCRVB0ekdDcG4xZkdlY1J3QkN6c25ZQkhzYTlZSlZUNHNlcDNRMHFZTk1EX3JiakdKZ0lMUURvaTJjeTFqQWQ1dXpKYzJCa1hlc3JCZ3Jlc05zM1N0SW16VjNoZXRaZ05LdmttakZSaHZsRzNBejJpZDdWUXJEWDlfUHJ3dHhYcFl6dTlmajcwVldlOXBfcFY2aUpR?oc=5",
+          "publishedAt": "2026-10-16 22:00",
+          "outlet": "The Information"
+        }
+      ]
+    }
+  ]
 }
