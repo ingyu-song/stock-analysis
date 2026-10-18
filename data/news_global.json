@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-18 10:08",
+  "updatedAt": "2026-10-18 14:59",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -34,19 +34,6 @@
           "link": "https://markets.businessinsider.com/news/stocks/googl-shareholder-action-reminder-faruqi-faruqi-llp-reminds-alphabet-investors-of-securities-class-action-lawsuit-deadline-on-november-30-2026-1036636486",
           "publishedAt": "2026-10-18 03:35",
           "outlet": "Business Insider Markets"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "Intel says AI 'gold rush' is over, pushes prompt routing across open hardware - digitimes",
-          "summary": "Intel says AI 'gold rush' is over, pushes prompt routing across open hardware  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNWjc5WHdxZGdaY1ZlZzBlTXFtOUd4aTBfYzg2WHZCXzJSY1hDM2dKM3RweXJnZ0l2MjZBb1FvS05EX1BYd2NFdzlfdXJqR19RV1JvX2JpaE1pcV9BV0NQdjVwWEJPX3RKR0Z2and1TTJ3YzFIOWk3UXE0N0xKNmZVbA?oc=5",
-          "publishedAt": "2026-10-15 13:07",
-          "outlet": "DigiTimes"
         }
       ]
     }
