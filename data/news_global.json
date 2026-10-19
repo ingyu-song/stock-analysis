@@ -1,19 +1,19 @@
 {
-  "updatedAt": "2026-10-19 19:51",
+  "updatedAt": "2026-10-20 02:31",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "AAPL",
-      "name": "애플",
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
       "items": [
         {
-          "title": "Apple’s Antitrust Settlement Talks Spur Worries Among Developers - The Information",
-          "summary": "Apple’s Antitrust Settlement Talks Spur Worries Among Developers  The Information",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNNmdFS3l0ZEE5RmdCRVB0ekdDcG4xZkdlY1J3QkN6c25ZQkhzYTlZSlZUNHNlcDNRMHFZTk1EX3JiakdKZ0lMUURvaTJjeTFqQWQ1dXpKYzJCa1hlc3JCZ3Jlc05zM1N0SW16VjNoZXRaZ05LdmttakZSaHZsRzNBejJpZDdWUXJEWDlfUHJ3dHhYcFl6dTlmajcwVldlOXBfcFY2aUpR?oc=5",
-          "publishedAt": "2026-10-16 22:00",
-          "outlet": "The Information"
+          "title": "Google, McKinsey strike Brazil carbon removal deal with silvopasture project - Reuters",
+          "summary": "Google, McKinsey strike Brazil carbon removal deal with silvopasture project  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ3dueURyYnIwanJiVVIyLXdGYnJhTzRVMTV6bnc4WnZtRjhIWmQ3X0JyOHhjX1l3c0JpV1dqcTlBQ2RYdUE2NlIzYkFWcVljMGJGa25uUTFJMU81YXFQdDVrREtMeThDa3djVlcycWZxZW54dFpZOGhWNWhfZDYyWm5uVkNnV2pNZ0RRbmxkYmZGV0JjdFFDbXlhRnN2WUdjQ0NBN2podGdJcmhidkJTMVo5blVST0N3dV9JWjM3TDdFaVF2RWlKMzIwQ3E?oc=5",
+          "publishedAt": "2026-10-20 01:18",
+          "outlet": "Reuters Business (via Google News)"
         }
       ]
     },
@@ -21,6 +21,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
+          "summary": "These are the stocks posting the largest moves premarket.",
+          "link": "https://www.cnbc.com/2026/10/19/stocks-making-the-biggest-moves-premarket-clf-intc-ddog-amzn.html",
+          "publishedAt": "2026-10-19 21:00",
+          "outlet": "CNBC Finance"
+        },
         {
           "title": "DIGITIMES Insight: Microsoft Maia 300 leads 2nm race, TSMC's US strategy shifts, Intel EMIB-T faces yield challenge - digitimes",
           "summary": "DIGITIMES Insight: Microsoft Maia 300 leads 2nm race, TSMC's US strategy shifts, Intel EMIB-T faces yield challenge  digitimes",
