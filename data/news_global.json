@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20 02:31",
+  "updatedAt": "2026-10-20 07:25",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "The Information Announces New OpenAI, Google, Finance and Asia Reporters - The Information",
+          "summary": "The Information Announces New OpenAI, Google, Finance and Asia Reporters  The Information",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbk55N09fZ0g4M2pCLWdaUmZTOTVtRExETy1sdDJDc3hDN1I0SWI3eHB5bllDaExaZzY5RGttR1ZGcktCMnJxMUd5eG9WQmpqaWhnNzFyY1JuVmdldDluZlhUMVRLcHNMTFFjN2tqOUhhdFVPUnRJbHA0U1NrV0pTLU84ZlNidHV5R2JubGJ4bnlRX3BiZXNyTG05R3RDeWUwRDYyRQ?oc=5",
+          "publishedAt": "2026-10-20 02:33",
+          "outlet": "The Information"
+        },
         {
           "title": "Google, McKinsey strike Brazil carbon removal deal with silvopasture project - Reuters",
           "summary": "Google, McKinsey strike Brazil carbon removal deal with silvopasture project  Reuters",
