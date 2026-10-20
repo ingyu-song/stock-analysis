@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20 22:36",
+  "updatedAt": "2026-10-21 03:30",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,20 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple commits up to $100 million for US titanium in domestic manufacturing push - Reuters",
+          "summary": "Apple commits up to $100 million for US titanium in domestic manufacturing push  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbDM5WVpJZWxMa0taUVhrM0I4OEc2SmtweUZGLWVBcHNTTmlDX0FOTmdLRFE2MUV5RDJpU01kMGhjclAtS19SU3pwVm5kLWN6TWRnTlhIX3RyUGdXZk9GQ1JNQmJub1N0Y2lVZ1hpOUJqYTRtbnBKY3NqMjRtUHQ4MXRmcVc5ZWpId3VwV21ZOTF3WkJSc1dYMXpzb0lic29menJKSmtkRHZ1NnNlOEVmR2RHRTZUd0x1ZEYzT2ZmZHhMVGU0NmxTag?oc=5",
+          "publishedAt": "2026-10-20 21:03",
+          "outlet": "Reuters Business (via Google News)"
+        },
+        {
+          "title": "Exclusive: Apple's MacBook Neo pressures Microsoft to cut specs for low-cost 12-inch Surface - digitimes",
+          "summary": "Exclusive: Apple's MacBook Neo pressures Microsoft to cut specs for low-cost 12-inch Surface  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORVZKV0pfdlZ1WjFYVGxEQms2YUNNTFpvZmlva216UzZoWVZmcnB1ZWpnWHNzZWg5amtZNjdDQnlqdzNEUWZQYzFFSWtYcHZINXFEd0JXOFd2TWktSjZNQ185T1ozQzRINGtNMVM5ZmRkTjI1dFlKcU9Dc2hpMi1uMl85Wjh6UHZCN2lKb3lrZnVUWjIyc0RN?oc=5",
+          "publishedAt": "2026-10-20 12:50",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Exclusive: Apple's MacBook Neo pressures Microsoft to cut specs for low-cost 12-inch Surface - digitimes",
           "summary": "Exclusive: Apple's MacBook Neo pressures Microsoft to cut specs for low-cost 12-inch Surface  digitimes",
@@ -22,17 +36,24 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google Cloud outage: service recovery underway after power problem causes widespread disruption – latest updates",
-          "summary": "Google apologises after suffering a major Cloud outage in its London region that caused problems at banks, Revolut, and court video camerasGoogle cloud failure hits millions as UK courts and banks knocked offlineThe pound has rallied after Britain’s unemployment rate fell unexpectedly this morning to 4.7%.Sterling has gained half a cent against the US dollar to $1.3352, as the City welcomes the ne",
-          "link": "https://www.theguardian.com/business/live/2026/oct/20/uk-unemployment-rate-pre-budget-boost-wages-vacancies-latest-news-updates",
-          "publishedAt": "2026-10-20 22:11",
-          "outlet": "The Guardian Business"
+          "title": "Google resolves cloud outage affecting UK banks and websites",
+          "summary": "Revolut was one of the hardest hit, with banking services going down for many customers.",
+          "link": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-21 03:03",
+          "outlet": "BBC Business"
         },
         {
           "title": "Billionaire Mukesh Ambani launches India’s biggest-ever IPO",
           "summary": "Low-cost broadband provider Jio Platforms aims for £81bn valuation when it floats on the stock market on WednesdayBusiness live – latest updatesIndia’s second-richest man, Mukesh Ambani, is launching what could be the country’s biggest-ever initial public offering (IPO), despite a stock market downturn.Mumbai-based Jio Platforms, a telecoms company backed by Meta Platforms and Google, is hoping to",
           "link": "https://www.theguardian.com/business/2026/oct/20/mukesh-ambani-jio-platforms-ipo-india-stock-market",
           "publishedAt": "2026-10-20 18:53",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Google cloud failure hits millions as UK courts and banks knocked offline",
+          "summary": "Services restored for most users, but power fault stalled hearings and left Revolut, Lloyds and HSBC customers unable to pay or move moneyBusiness live – latest updatesAn outage at Google’s cloud services in the UK has caused widespread disruption, hitting courts and leaving millions of customers unable to access or send cash at banks including Lloyds, HSBC and Revolut.Google blamed a “power event",
+          "link": "https://www.theguardian.com/business/2026/oct/20/revolut-down-app-cards-service-disruption",
+          "publishedAt": "2026-10-20 18:45",
           "outlet": "The Guardian Business"
         },
         {
