@@ -1,39 +1,51 @@
 {
-  "generatedAt": "2026-10-17 09:39",
+  "generatedAt": "2026-10-20 10:08",
   "model": "claude-sonnet-5",
   "windowDays": 6,
   "moves": {
     "379800.KS": {
       "name": "KODEX 미국S&P500",
-      "changePct": -0.13,
-      "session": "2026-10-16",
-      "reason": "큰 변동 없음.",
-      "basis": "none",
+      "changePct": -0.65,
+      "session": "2026-10-20",
+      "reason": "미국 S&P500을 추종하는 ETF로, 같은 날 코스피와 닛케이가 동반 하락한 것과 같이 움직여 시장 전반의 위험회피 심리 영향으로 보임.",
+      "basis": "market",
       "sources": []
     },
     "379810.KS": {
       "name": "KODEX 미국나스닥100",
-      "changePct": 0.0,
-      "session": "2026-10-16",
-      "reason": "큰 변동 없음.",
-      "basis": "none",
+      "changePct": -0.75,
+      "session": "2026-10-20",
+      "reason": "나스닥100 추종 ETF로, 같은 날 코스피·닛케이 등 아시아 증시가 동반 약세를 보인 것과 같이 움직여 시장 영향으로 보임.",
+      "basis": "market",
       "sources": []
     },
     "CRWD": {
       "name": "크라우드스트라이크",
-      "changePct": -7.02,
-      "session": "2026-10-15",
-      "reason": "같은 날 Nasdaq 100이 거의 보합이었음에도 7% 넘게 급락해 시장 전체 요인으로 보기 어렵고, 제공된 기사들도 보안 이슈 관련 사실 보도일 뿐 주가 급락을 직접 설명하지 않아 뚜렷한 원인은 확인되지 않음.",
+      "changePct": 0.75,
+      "session": "2026-10-16",
+      "reason": "같은 날 S&P500과 나스닥100이 하락했음에도 소폭 상승해 큰 변동 없음에 가까우며, 뉴스로 확인된 뚜렷한 원인은 없음.",
       "basis": "none",
       "sources": []
     },
     "AAPL": {
       "name": "애플",
-      "changePct": 0.82,
-      "session": "2026-10-15",
-      "reason": "JP모건의 목표주가 상향(340→360달러) 등 긍정적 평가가 이어지며 상승 마감했다.",
+      "changePct": 0.09,
+      "session": "2026-10-16",
+      "reason": "큰 변동 없음. 다만 아이폰 듀오 사전예약 호조와 JP모건의 목표주가 상향 소식이 주가 강세 요인으로 언급됨.",
       "basis": "news",
       "sources": [
+        {
+          "title": "[TODAY애플]아이폰 듀오 사전예약 호조에 주가 강세",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=01210326645613904&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-17 06:41"
+        },
+        {
+          "title": "[美특징주]애플, 폴더블폰 '아이폰 듀오' 선주문 첫날 품귀…주가 0.4% 상...",
+          "link": "https://www.edaily.co.kr/News/Read?newsId=01630166645613904&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-17 06:35"
+        },
         {
           "title": "애플 목표주가 360달러로 상향…JP모건, 아이폰 단기 추정 낮춰",
           "link": "https://www.tokenpost.kr/news/market/423411",
@@ -44,104 +56,65 @@
     },
     "SONY": {
       "name": "소니 그룹 (ADR)",
-      "changePct": 1.14,
-      "session": "2026-10-15",
-      "reason": "같은 날 제공된 기사는 신제품·영화제 후원 소식 등으로 주가 상승을 직접 설명하지 않아 뚜렷한 원인은 확인되지 않음.",
-      "basis": "none",
+      "changePct": -0.88,
+      "session": "2026-10-16",
+      "reason": "같은 날 S&P500과 나스닥100이 하락한 것과 비슷한 방향으로 움직여 시장 영향으로 보이며, 수집된 기사는 개별 주가 변동과 직접 관련이 없음.",
+      "basis": "market",
       "sources": []
     },
     "PG": {
       "name": "프록터 앤드 갬블",
-      "changePct": 1.48,
-      "session": "2026-10-15",
-      "reason": "관련 기사가 없고 같은 날 S&P500은 소폭 상승에 그쳐 뚜렷한 원인은 확인되지 않음.",
-      "basis": "none",
+      "changePct": -1.04,
+      "session": "2026-10-16",
+      "reason": "같은 날 S&P500이 하락한 것과 같이 움직여 시장 전반의 약세 영향으로 보임.",
+      "basis": "market",
       "sources": []
     },
     "GOOGL": {
       "name": "알파벳 A",
-      "changePct": -2.13,
-      "session": "2026-10-15",
-      "reason": "AI 산업 부채 우려 속 빅테크 CDS 프리미엄 상승 등 AI 관련 신용 불안이 부각되며 주가가 하락했다.",
-      "basis": "news",
-      "sources": [
-        {
-          "title": "'AI 빚투' 경고음…주가 폭락 이어 기업 부도 위기도 사상 최고",
-          "link": "https://www.hankookilbo.com/news/article/A2026101609440004140?did=NA",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-16 15:29"
-        },
-        {
-          "title": "AI 빚 경고…기업 부도보험료 최고",
-          "link": "https://www.naeil.com/news/read/605326?ref=naver",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-16 13:00"
-        }
-      ]
+      "changePct": 1.46,
+      "session": "2026-10-16",
+      "reason": "같은 날 나스닥100이 하락했음에도 상승해 시장과 반대로 움직였으며, 뉴스로 확인된 뚜렷한 원인은 없음.",
+      "basis": "none",
+      "sources": []
     },
     "PANW": {
       "name": "팰로 앨토 네트웍스",
-      "changePct": -8.15,
-      "session": "2026-10-15",
-      "reason": "같은 날 Nasdaq 100이 거의 보합이었는데도 8% 넘게 급락해 시장 요인으로 보기 어렵고, 제공된 기사들은 투자의견 상향·보안 이슈 보도일 뿐 급락을 직접 설명하지 않아 뚜렷한 원인은 확인되지 않음.",
+      "changePct": 1.45,
+      "session": "2026-10-16",
+      "reason": "전날 해킹 피해 및 보안 이슈로 약 7.6% 급락했던 데 따른 반등으로 보이나, 이날 상승을 직접 설명하는 기사는 없어 뉴스로 확인된 뚜렷한 원인은 없음.",
       "basis": "none",
       "sources": []
     },
     "CRCL": {
       "name": "서클 인터넷 그룹",
-      "changePct": -3.84,
-      "session": "2026-10-15",
-      "reason": "같은 날 가상자산 관련주들이 일제히 하락한 가운데 서클도 함께 내린 것으로, 업종 전반의 약세 흐름에 따른 것으로 보임.",
-      "basis": "news",
-      "sources": [
-        {
-          "title": "가상자산주 5종목, 미 증시 개장 때 모두 하락했다",
-          "link": "https://www.tokenpost.kr/news/market/422566",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-15 10:08"
-        }
-      ]
+      "changePct": -0.95,
+      "session": "2026-10-16",
+      "reason": "큰 변동 없음에 가까운 소폭 하락이며, 뉴스로 확인된 뚜렷한 원인은 없음.",
+      "basis": "none",
+      "sources": []
     },
     "012450.KS": {
       "name": "한화에어로스페이스",
-      "changePct": 7.77,
-      "session": "2026-10-16",
-      "reason": "방산 수출 기대와 외국인·기관 매수세 유입 속에 주가가 급등했다.",
-      "basis": "news",
-      "sources": [
-        {
-          "title": "[K방산 오디세이] \"드론·미사일 요격에 강력한 방호력\"…수출 핵심축 ...",
-          "link": "https://www.newsis.com/view/NISX20261016_0003829410",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-17 08:00"
-        },
-        {
-          "title": "[주간 거래소 기관] SK하이닉스 집중 매수… 삼성전기·이수페타시스는...",
-          "link": "https://www.pinpointnews.co.kr/news/articleView.html?idxno=496063",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-17 07:30"
-        },
-        {
-          "title": "외국인 16조 던질 때…삼전·하이닉스 7조 쓸어담은 개미들",
-          "link": "https://www.segye.com/newsView/20261017503199?OutUrl=naver",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-17 06:29"
-        }
-      ]
+      "changePct": -8.08,
+      "session": "2026-10-20",
+      "reason": "폴란드向 수출 관련 외교 냉각, KAI 지분 이슈 등 다수 부정적 보도가 겹친 가운데 같은 날 코스피 전체도 급락해 업종 전반의 투매와 개별 리스크가 겹친 급락으로 보임.",
+      "basis": "market",
+      "sources": []
     },
     "464920.KS": {
       "name": "PLUS 일본반도체소부장",
-      "changePct": 1.05,
-      "session": "2026-10-16",
-      "reason": "같은 날 SOX(미국 반도체) 지수는 급락했으나 이 ETF는 소폭 상승해 방향이 엇갈려, 관련 기사도 없어 뚜렷한 원인은 확인되지 않음.",
-      "basis": "none",
+      "changePct": -2.35,
+      "session": "2026-10-20",
+      "reason": "일본 반도체 소부장 관련 ETF로, 같은 날 닛케이225가 하락한 것과 같이 움직여 시장 영향으로 보임.",
+      "basis": "market",
       "sources": []
     },
     "GPIQ": {
       "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
-      "changePct": -2.03,
-      "session": "2026-10-15",
-      "reason": "기초지수인 Nasdaq 100이 같은 날 소폭 하락(-0.05%)에 그친 것에 비해 ETF 하락폭이 커 추가 설명은 어려우나, 연동된 지수 하락 방향과는 일치해 시장 영향으로 보임.",
+      "changePct": 1.26,
+      "session": "2026-10-16",
+      "reason": "나스닥100 하락에도 커버드콜 전략 특성상 프리미엄 수익으로 상승했을 가능성이 있으나, 이를 직접 설명하는 기사는 없어 같은 날 나스닥100 변동과의 관계로 보아 시장 요인으로 추정됨.",
       "basis": "market",
       "sources": []
     }
