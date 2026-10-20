@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21 03:30",
+  "updatedAt": "2026-10-21 07:21",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -90,25 +90,11 @@
       "name": "인텔",
       "items": [
         {
-          "title": "Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking - digitimes",
-          "summary": "Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOGx1VUkzak9ONVpVYVhRZzVMT3FUTkE5WEJHRklNQmtxV2ExbjZKNlJObkRwMFg3UHdqbGVCMk1tQ0ZSQmdEUXdtQVNtWWlNS3dncGFKenYwRkRRX3NoMFgwNV9FU2s1T3RoQl9xVWlXdW1pSTVsRkNpRDhwTV9yNm5FVGpVQQ?oc=5",
-          "publishedAt": "2026-10-20 17:58",
-          "outlet": "DigiTimes"
-        },
-        {
           "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
           "summary": "These are the stocks posting the largest moves premarket.",
           "link": "https://www.cnbc.com/2026/10/19/stocks-making-the-biggest-moves-premarket-clf-intc-ddog-amzn.html",
           "publishedAt": "2026-10-19 21:00",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "DIGITIMES Insight: Microsoft Maia 300 leads 2nm race, TSMC's US strategy shifts, Intel EMIB-T faces yield challenge - digitimes",
-          "summary": "DIGITIMES Insight: Microsoft Maia 300 leads 2nm race, TSMC's US strategy shifts, Intel EMIB-T faces yield challenge  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQV2EzSGZ1Y05CR2E2V0UyRmdOeFlSMGxxYVZiNlBURi1kcGtNaS1JY1B0NFh2UklrM1UyOXNWTXUxeVpOTlB6eGZQV1YtS25SMWl1X1lWZDVua1E5Ny1CdGJ1a1N3YWoyNUZHLVJLbkJnMldsZF9KUUR0Zjkta2EwMWdWVk9keEZmSXJNWjlB?oc=5",
-          "publishedAt": "2026-10-19 17:55",
-          "outlet": "DigiTimes"
         }
       ]
     }
