@@ -1,19 +1,46 @@
 {
-  "updatedAt": "2026-10-20 16:40",
+  "updatedAt": "2026-10-20 22:36",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Exclusive: Apple's MacBook Neo pressures Microsoft to cut specs for low-cost 12-inch Surface - digitimes",
+          "summary": "Exclusive: Apple's MacBook Neo pressures Microsoft to cut specs for low-cost 12-inch Surface  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQNnJxMlRUQ0hTSDdCVklYYlFUeHBxQU42YzNBM0FDSXZ3alkwcFZjRndZWk4yQUJPMGZvaXc4NllJNFluLUQ1aTlGd3NiYlhnX3l4LWZYYWJzeE1TQ09SMUpUOWcxbDRxcVVIdkR1ZW1CTElaTkJTU2VkenRHUzhCdHExOGF5cE8xVV9WdE1CTDhEbUM2eGc?oc=5",
+          "publishedAt": "2026-10-20 12:50",
+          "outlet": "DigiTimes"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Googlebook review: Google’s new laptops are woefully underbaked",
-          "summary": "Great hardware let down by software flaws on these pricey machines that combine ChromeOS with AndroidGoogle’s attempt to create a new type of laptop to compete with Windows and macOS machines is finally here, combining the best of ChromeOS and Android into the new Googlebook. With advanced links to Android phones and the best of Google built in, can these Googlebooks really compete with a MacBook ",
-          "link": "https://www.theguardian.com/technology/2026/oct/20/googlebook-review-google-laptops-chromeos-android",
-          "publishedAt": "2026-10-20 15:00",
+          "title": "Google Cloud outage: service recovery underway after power problem causes widespread disruption – latest updates",
+          "summary": "Google apologises after suffering a major Cloud outage in its London region that caused problems at banks, Revolut, and court video camerasGoogle cloud failure hits millions as UK courts and banks knocked offlineThe pound has rallied after Britain’s unemployment rate fell unexpectedly this morning to 4.7%.Sterling has gained half a cent against the US dollar to $1.3352, as the City welcomes the ne",
+          "link": "https://www.theguardian.com/business/live/2026/oct/20/uk-unemployment-rate-pre-budget-boost-wages-vacancies-latest-news-updates",
+          "publishedAt": "2026-10-20 22:11",
           "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Billionaire Mukesh Ambani launches India’s biggest-ever IPO",
+          "summary": "Low-cost broadband provider Jio Platforms aims for £81bn valuation when it floats on the stock market on WednesdayBusiness live – latest updatesIndia’s second-richest man, Mukesh Ambani, is launching what could be the country’s biggest-ever initial public offering (IPO), despite a stock market downturn.Mumbai-based Jio Platforms, a telecoms company backed by Meta Platforms and Google, is hoping to",
+          "link": "https://www.theguardian.com/business/2026/oct/20/mukesh-ambani-jio-platforms-ipo-india-stock-market",
+          "publishedAt": "2026-10-20 18:53",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "AI takes on great experiment in self-rule",
+          "summary": "Slowly but surely, the leading AI companies are creating a national self-governing structure to oversee their technology and its societal impact.With the federal government largely hands-off, Anthropic, OpenAI and others are self-regulating their technology and now setting up their own plans to redistribute their wealth.Why it matters: Not since the age of the robber barons have America's industri",
+          "link": "https://www.axios.com/2026/10/20/ai-govern-anthropic-openai",
+          "publishedAt": "2026-10-20 18:38",
+          "outlet": "Axios"
         },
         {
           "title": "The Information Announces New OpenAI, Google, Finance and Asia Reporters - The Information",
@@ -38,28 +65,15 @@
       ]
     },
     {
-      "ticker": "MC.PA",
-      "name": "LVMH 모에헤네시",
-      "items": [
-        {
-          "title": "Louis Vuitton and Hermès among luxury retailers looted in French riots",
-          "summary": "Authorities are working to stop stolen goods being resold online through platforms such as Vinted, Amazon and eBay",
-          "link": "https://www.ft.com/content/afaa7a1d-ef43-40ca-a042-4da8de9ff476?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-20 13:00",
-          "outlet": "Financial Times"
-        }
-      ]
-    },
-    {
       "ticker": "INTC",
       "name": "인텔",
       "items": [
         {
-          "title": "Zelensky lobbies senators to press White House on alleged intel and weapons curbs",
-          "summary": "Ukrainian President Volodymyr Zelensky on Monday lobbied a bipartisan group of senators to press the Trump administration to remove what he claimed are restrictions on intelligence sharing and weapons supplies.Why it matters: Ukrainian officials say the Trump administration has quietly imposed these limits without admitting it publicly in an attempt to press Zelensky to accept a deal to end the wa",
-          "link": "https://www.axios.com/2026/10/19/zelensky-blumenthal-tillis-ukraine-russia-war-intelligence",
-          "publishedAt": "2026-10-20 06:27",
-          "outlet": "Axios"
+          "title": "Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking - digitimes",
+          "summary": "Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOGx1VUkzak9ONVpVYVhRZzVMT3FUTkE5WEJHRklNQmtxV2ExbjZKNlJObkRwMFg3UHdqbGVCMk1tQ0ZSQmdEUXdtQVNtWWlNS3dncGFKenYwRkRRX3NoMFgwNV9FU2s1T3RoQl9xVWlXdW1pSTVsRkNpRDhwTV9yNm5FVGpVQQ?oc=5",
+          "publishedAt": "2026-10-20 17:58",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
