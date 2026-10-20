@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20 10:52",
+  "updatedAt": "2026-10-20 16:40",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,18 +9,44 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Googlebook review: Google’s new laptops are woefully underbaked",
+          "summary": "Great hardware let down by software flaws on these pricey machines that combine ChromeOS with AndroidGoogle’s attempt to create a new type of laptop to compete with Windows and macOS machines is finally here, combining the best of ChromeOS and Android into the new Googlebook. With advanced links to Android phones and the best of Google built in, can these Googlebooks really compete with a MacBook ",
+          "link": "https://www.theguardian.com/technology/2026/oct/20/googlebook-review-google-laptops-chromeos-android",
+          "publishedAt": "2026-10-20 15:00",
+          "outlet": "The Guardian Business"
+        },
+        {
           "title": "The Information Announces New OpenAI, Google, Finance and Asia Reporters - The Information",
           "summary": "The Information Announces New OpenAI, Google, Finance and Asia Reporters  The Information",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbk55N09fZ0g4M2pCLWdaUmZTOTVtRExETy1sdDJDc3hDN1I0SWI3eHB5bllDaExaZzY5RGttR1ZGcktCMnJxMUd5eG9WQmpqaWhnNzFyY1JuVmdldDluZlhUMVRLcHNMTFFjN2tqOUhhdFVPUnRJbHA0U1NrV0pTLU84ZlNidHV5R2JubGJ4bnlRX3BiZXNyTG05R3RDeWUwRDYyRQ?oc=5",
           "publishedAt": "2026-10-20 02:33",
           "outlet": "The Information"
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "items": [
         {
-          "title": "Google, McKinsey strike Brazil carbon removal deal with silvopasture project - Reuters",
-          "summary": "Google, McKinsey strike Brazil carbon removal deal with silvopasture project  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQZ3dueURyYnIwanJiVVIyLXdGYnJhTzRVMTV6bnc4WnZtRjhIWmQ3X0JyOHhjX1l3c0JpV1dqcTlBQ2RYdUE2NlIzYkFWcVljMGJGa25uUTFJMU81YXFQdDVrREtMeThDa3djVlcycWZxZW54dFpZOGhWNWhfZDYyWm5uVkNnV2pNZ0RRbmxkYmZGV0JjdFFDbXlhRnN2WUdjQ0NBN2podGdJcmhidkJTMVo5blVST0N3dV9JWjM3TDdFaVF2RWlKMzIwQ3E?oc=5",
-          "publishedAt": "2026-10-20 01:18",
-          "outlet": "Reuters Business (via Google News)"
+          "title": "Palo Alto Networks CEO Advises Daughter on New AI-Focused Venture Capital Fund - The Information",
+          "summary": "Palo Alto Networks CEO Advises Daughter on New AI-Focused Venture Capital Fund  The Information",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2x4S2RXdjhSa1FFcUY0WHdWdTVjQjJkNmxtTnFXWEhfMmphUzJQZWkyYlU4QnlWWHpiWGp2WGdsczJwaVJUaUg4Tk1fRE43VjQwVjJHbzNQRTBrSDlOS0xWVlBKY2pTNkh4N1U5MC1uZWtDNWNoWEhYaFdpakoxNzhRUnZ4VkdQU01YdEl0cmFwdDBXTHlKbWdpQ0ZCRFlXeEJ1YmNOZklud2dLc1ppTGxkeTRHNGVzNlMtZHg2NEZRNjVTRGFF?oc=5",
+          "publishedAt": "2026-10-20 09:16",
+          "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
+      "items": [
+        {
+          "title": "Louis Vuitton and Hermès among luxury retailers looted in French riots",
+          "summary": "Authorities are working to stop stolen goods being resold online through platforms such as Vinted, Amazon and eBay",
+          "link": "https://www.ft.com/content/afaa7a1d-ef43-40ca-a042-4da8de9ff476?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-20 13:00",
+          "outlet": "Financial Times"
         }
       ]
     },
@@ -28,6 +54,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Zelensky lobbies senators to press White House on alleged intel and weapons curbs",
+          "summary": "Ukrainian President Volodymyr Zelensky on Monday lobbied a bipartisan group of senators to press the Trump administration to remove what he claimed are restrictions on intelligence sharing and weapons supplies.Why it matters: Ukrainian officials say the Trump administration has quietly imposed these limits without admitting it publicly in an attempt to press Zelensky to accept a deal to end the wa",
+          "link": "https://www.axios.com/2026/10/19/zelensky-blumenthal-tillis-ukraine-russia-war-intelligence",
+          "publishedAt": "2026-10-20 06:27",
+          "outlet": "Axios"
+        },
         {
           "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
           "summary": "These are the stocks posting the largest moves premarket.",
