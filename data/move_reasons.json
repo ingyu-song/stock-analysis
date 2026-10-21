@@ -1,121 +1,148 @@
 {
-  "generatedAt": "2026-10-20 10:08",
+  "generatedAt": "2026-10-21 09:43",
   "model": "claude-sonnet-5",
   "windowDays": 6,
   "moves": {
     "379800.KS": {
       "name": "KODEX 미국S&P500",
-      "changePct": -0.65,
-      "session": "2026-10-20",
-      "reason": "미국 S&P500을 추종하는 ETF로, 같은 날 코스피와 닛케이가 동반 하락한 것과 같이 움직여 시장 전반의 위험회피 심리 영향으로 보임.",
+      "changePct": 0.37,
+      "session": "2026-10-21",
+      "reason": "같은 날 S&P500은 휴장이라 직접 비교는 어렵지만 전일 미국 증시 상승 흐름을 반영해 소폭 올랐고, KOSPI는 반대로 하락함.",
       "basis": "market",
       "sources": []
     },
     "379810.KS": {
       "name": "KODEX 미국나스닥100",
-      "changePct": -0.75,
-      "session": "2026-10-20",
-      "reason": "나스닥100 추종 ETF로, 같은 날 코스피·닛케이 등 아시아 증시가 동반 약세를 보인 것과 같이 움직여 시장 영향으로 보임.",
+      "changePct": 0.85,
+      "session": "2026-10-21",
+      "reason": "나스닥100 연동 ETF로, 전일 미국 나스닥100 강세를 반영해 상승한 것으로 보이며 KOSPI는 반대로 하락함.",
       "basis": "market",
       "sources": []
     },
     "CRWD": {
       "name": "크라우드스트라이크",
-      "changePct": 0.75,
-      "session": "2026-10-16",
-      "reason": "같은 날 S&P500과 나스닥100이 하락했음에도 소폭 상승해 큰 변동 없음에 가까우며, 뉴스로 확인된 뚜렷한 원인은 없음.",
+      "changePct": -0.57,
+      "session": "2026-10-19",
+      "reason": "변동폭이 0.5%를 약간 상회하나 뚜렷한 개별 호재·악재 기사가 없어 큰 변동 없음에 가까움, 뉴스로 확인된 뚜렷한 원인은 없음.",
       "basis": "none",
       "sources": []
     },
     "AAPL": {
       "name": "애플",
-      "changePct": 0.09,
-      "session": "2026-10-16",
-      "reason": "큰 변동 없음. 다만 아이폰 듀오 사전예약 호조와 JP모건의 목표주가 상향 소식이 주가 강세 요인으로 언급됨.",
+      "changePct": -1.03,
+      "session": "2026-10-19",
+      "reason": "루프캐피털이 투자의견을 매수에서 보유로 하향하고 목표가를 330달러로 제시한 것이 주가 하락의 직접적 원인으로 보도됨.",
       "basis": "news",
       "sources": [
         {
-          "title": "[TODAY애플]아이폰 듀오 사전예약 호조에 주가 강세",
-          "link": "https://www.edaily.co.kr/News/Read?newsId=01210326645613904&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "title": "뉴욕증시 개장 전 특징주...RTX·3M·노스롭 그루만↑ VS 애플·스틸다이...",
+          "link": "https://www.newspim.com/news/view/20261020001236",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-17 06:41"
+          "publishedAt": "2026-10-20 22:31"
         },
         {
-          "title": "[美특징주]애플, 폴더블폰 '아이폰 듀오' 선주문 첫날 품귀…주가 0.4% 상...",
-          "link": "https://www.edaily.co.kr/News/Read?newsId=01630166645613904&mediaCodeNo=257&utm_source=naver&utm_medium=referral&utm_campaign=news_syndication&utm_content=original_article",
+          "title": "애플 투자의견 '매수'→'보유' 하향…루프캐피털 목표가 330달러",
+          "link": "https://www.tokenpost.kr/news/market/424923",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-17 06:35"
-        },
-        {
-          "title": "애플 목표주가 360달러로 상향…JP모건, 아이폰 단기 추정 낮춰",
-          "link": "https://www.tokenpost.kr/news/market/423411",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-16 21:30"
+          "publishedAt": "2026-10-20 21:40"
         }
       ]
     },
     "SONY": {
       "name": "소니 그룹 (ADR)",
-      "changePct": -0.88,
-      "session": "2026-10-16",
-      "reason": "같은 날 S&P500과 나스닥100이 하락한 것과 비슷한 방향으로 움직여 시장 영향으로 보이며, 수집된 기사는 개별 주가 변동과 직접 관련이 없음.",
+      "changePct": 1.9,
+      "session": "2026-10-19",
+      "reason": "같은 날 나스닥100·S&P500이 강세를 보인 가운데 소니도 함께 상승해 시장 전반의 위험선호 분위기 영향으로 보임.",
       "basis": "market",
       "sources": []
     },
     "PG": {
       "name": "프록터 앤드 갬블",
-      "changePct": -1.04,
-      "session": "2026-10-16",
-      "reason": "같은 날 S&P500이 하락한 것과 같이 움직여 시장 전반의 약세 영향으로 보임.",
+      "changePct": 1.03,
+      "session": "2026-10-19",
+      "reason": "같은 날 S&P500 상승과 함께 순환매 장세 속 방어주·배당주 선호가 이어지며 상승한 것으로 보임.",
       "basis": "market",
-      "sources": []
+      "sources": [
+        {
+          "title": "[GAM] 순환매 장세 본격화 ② 코카콜라·비자·엑손모빌 줄줄이 신고가",
+          "link": "https://www.newspim.com/news/view/20261020000009",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-20 02:20"
+        }
+      ]
     },
     "GOOGL": {
       "name": "알파벳 A",
-      "changePct": 1.46,
-      "session": "2026-10-16",
-      "reason": "같은 날 나스닥100이 하락했음에도 상승해 시장과 반대로 움직였으며, 뉴스로 확인된 뚜렷한 원인은 없음.",
+      "changePct": -1.2,
+      "session": "2026-10-19",
+      "reason": "같은 날 나스닥100·S&P500이 강세였음에도 알파벳은 하락해 지수와 반대로 움직였으며, 기사들은 구글 클라우드 장애·AI 투자 우려 등을 언급하지만 이날 하락을 직접 설명하지는 않아 뚜렷한 원인은 확인되지 않음.",
       "basis": "none",
       "sources": []
     },
     "PANW": {
       "name": "팰로 앨토 네트웍스",
-      "changePct": 1.45,
-      "session": "2026-10-16",
-      "reason": "전날 해킹 피해 및 보안 이슈로 약 7.6% 급락했던 데 따른 반등으로 보이나, 이날 상승을 직접 설명하는 기사는 없어 뉴스로 확인된 뚜렷한 원인은 없음.",
+      "changePct": -2.41,
+      "session": "2026-10-19",
+      "reason": "같은 날 나스닥100·반도체(SOX)가 강세였음에도 팰로앨토는 하락해 지수와 반대 흐름을 보였으며, 관련 기사들은 당일 하락을 직접 설명하지 않아 뚜렷한 원인은 확인되지 않음.",
       "basis": "none",
       "sources": []
     },
     "CRCL": {
       "name": "서클 인터넷 그룹",
-      "changePct": -0.95,
-      "session": "2026-10-16",
-      "reason": "큰 변동 없음에 가까운 소폭 하락이며, 뉴스로 확인된 뚜렷한 원인은 없음.",
-      "basis": "none",
-      "sources": []
+      "changePct": 5.27,
+      "session": "2026-10-19",
+      "reason": "서클의 상반기 매출·순이익률이 양호했다는 보도와 스테이블코인 생태계 확장 소식이 잇따르며 투자 심리가 개선되어 주가가 크게 상승한 것으로 보임.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "서클 상반기 매출 14억달러·순이익률 약 7% 보도",
+          "link": "https://www.tokenpost.kr/news/breaking/424999",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-20 23:46"
+        },
+        {
+          "title": "스테이블코인 시간당 4억달러 이동…이체 73%는 미국 은행 영업시간 밖",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/424953",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-20 22:30"
+        }
+      ]
     },
     "012450.KS": {
       "name": "한화에어로스페이스",
-      "changePct": -8.08,
-      "session": "2026-10-20",
-      "reason": "폴란드向 수출 관련 외교 냉각, KAI 지분 이슈 등 다수 부정적 보도가 겹친 가운데 같은 날 코스피 전체도 급락해 업종 전반의 투매와 개별 리스크가 겹친 급락으로 보임.",
-      "basis": "market",
-      "sources": []
+      "changePct": 0.75,
+      "session": "2026-10-21",
+      "reason": "폴란드·스페인 등 유럽 방산 수출 기대가 부각되는 가운데 소폭 반등했으나, 최근 실적 우려로 급락했던 흐름 대비 제한적 회복으로 보임.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "천무 샀던 폴란드, 이번엔 韓 탄도미사일까지…사거리 290㎞ 의미는? [밀...",
+          "link": "https://nownews.seoul.co.kr/news/newsView.php?id=20261020601014&wlog_tag3=naver",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-21 07:02"
+        },
+        {
+          "title": "방공망 숨고르기 들어간 스페인…한국 엘샘, 유럽 수주전 새 국면",
+          "link": "https://www.g-enews.com/view.php?ud=202610210708495539fbbec65dfb_1",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-21 07:20"
+        }
+      ]
     },
     "464920.KS": {
       "name": "PLUS 일본반도체소부장",
-      "changePct": -2.35,
-      "session": "2026-10-20",
-      "reason": "일본 반도체 소부장 관련 ETF로, 같은 날 닛케이225가 하락한 것과 같이 움직여 시장 영향으로 보임.",
+      "changePct": 3.73,
+      "session": "2026-10-21",
+      "reason": "일본 반도체 소부장 관련 ETF로, 같은 날 니케이225가 강세를 보인 영향으로 상승한 것으로 보임.",
       "basis": "market",
       "sources": []
     },
     "GPIQ": {
       "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
-      "changePct": 1.26,
-      "session": "2026-10-16",
-      "reason": "나스닥100 하락에도 커버드콜 전략 특성상 프리미엄 수익으로 상승했을 가능성이 있으나, 이를 직접 설명하는 기사는 없어 같은 날 나스닥100 변동과의 관계로 보아 시장 요인으로 추정됨.",
-      "basis": "market",
+      "changePct": -0.32,
+      "session": "2026-10-19",
+      "reason": "같은 날 나스닥100이 강세였음에도 소폭 하락해, 커버드콜 전략 특성상 옵션 프리미엄 등 구조적 요인에 따른 것으로 보이나 기사로 확인되지 않아 뚜렷한 원인은 없음.",
+      "basis": "none",
       "sources": []
     }
   }
