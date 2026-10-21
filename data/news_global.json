@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21 07:21",
+  "updatedAt": "2026-10-21 10:39",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -36,6 +36,13 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "When AI models refuse to fight hackers",
+          "summary": "In the race to fend off AI-enabled cyber threats, security teams are confronting a new problem: The AI models they rely on to investigate attacks can suddenly refuse to help.Why it matters: While AI giants race to build AI tools that can respond quickly to hacking or other malicious online threats, strict guardrails on their most powerful models lock out defenders mid-investigation, leaving them s",
+          "link": "https://www.axios.com/2026/10/21/when-ai-models-refuse-to-fight-hackers",
+          "publishedAt": "2026-10-21 10:00",
+          "outlet": "Axios"
+        },
+        {
           "title": "Google resolves cloud outage affecting UK banks and websites",
           "summary": "Revolut was one of the hardest hit, with banking services going down for many customers.",
           "link": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
@@ -44,24 +51,17 @@
         },
         {
           "title": "Billionaire Mukesh Ambani launches India’s biggest-ever IPO",
-          "summary": "Low-cost broadband provider Jio Platforms aims for £81bn valuation when it floats on the stock market on WednesdayBusiness live – latest updatesIndia’s second-richest man, Mukesh Ambani, is launching what could be the country’s biggest-ever initial public offering (IPO), despite a stock market downturn.Mumbai-based Jio Platforms, a telecoms company backed by Meta Platforms and Google, is hoping to",
+          "summary": "Low-cost broadband provider Jio Platforms aims for £81bn valuation when it floats on the stock market on WednesdayIndia’s second-richest man, Mukesh Ambani, is launching what could be the country’s biggest-ever initial public offering (IPO), despite a stock market downturn.Mumbai-based Jio Platforms, a telecoms company backed by Meta Platforms and Google, is hoping to raise up to 302bn rupees (£2.",
           "link": "https://www.theguardian.com/business/2026/oct/20/mukesh-ambani-jio-platforms-ipo-india-stock-market",
           "publishedAt": "2026-10-20 18:53",
           "outlet": "The Guardian Business"
         },
         {
           "title": "Google cloud failure hits millions as UK courts and banks knocked offline",
-          "summary": "Services restored for most users, but power fault stalled hearings and left Revolut, Lloyds and HSBC customers unable to pay or move moneyBusiness live – latest updatesAn outage at Google’s cloud services in the UK has caused widespread disruption, hitting courts and leaving millions of customers unable to access or send cash at banks including Lloyds, HSBC and Revolut.Google blamed a “power event",
+          "summary": "Services restored for most users, but power fault stalled hearings and left Revolut, Lloyds and HSBC customers unable to pay or move moneyAn outage at Google’s cloud services in the UK has caused widespread disruption, hitting courts and leaving millions of customers unable to access or send cash at banks including Lloyds, HSBC and Revolut.Google blamed a “power event” for the failure at its Londo",
           "link": "https://www.theguardian.com/business/2026/oct/20/revolut-down-app-cards-service-disruption",
           "publishedAt": "2026-10-20 18:45",
           "outlet": "The Guardian Business"
-        },
-        {
-          "title": "AI takes on great experiment in self-rule",
-          "summary": "Slowly but surely, the leading AI companies are creating a national self-governing structure to oversee their technology and its societal impact.With the federal government largely hands-off, Anthropic, OpenAI and others are self-regulating their technology and now setting up their own plans to redistribute their wealth.Why it matters: Not since the age of the robber barons have America's industri",
-          "link": "https://www.axios.com/2026/10/20/ai-govern-anthropic-openai",
-          "publishedAt": "2026-10-20 18:38",
-          "outlet": "Axios"
         },
         {
           "title": "The Information Announces New OpenAI, Google, Finance and Asia Reporters - The Information",
