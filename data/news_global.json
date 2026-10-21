@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 03:42",
+  "updatedAt": "2026-10-22 07:24",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "NSA warns on ‘critical’ cyber vulnerabilities detected using AI",
+          "summary": "Researchers used OpenAI and Google models to find severe faults in software used on majority of websites around the world",
+          "link": "https://www.ft.com/content/245778d9-597b-492d-b5b6-a2967c77e853?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-22 03:46",
+          "outlet": "Financial Times"
+        },
         {
           "title": "OpenAI to sell its top models on Google Cloud in latest enterprise push - Reuters",
           "summary": "OpenAI to sell its top models on Google Cloud in latest enterprise push  Reuters",
@@ -20,13 +27,6 @@
           "summary": "OpenAI is bringing its AI models and Codex coding tools to Google Cloud, expanding its reach to customers of all three major U.S. cloud providers — including companies that are also among its fiercest AI rivals.Why it matters: The move underscores a growing recognition that winning the enterprise AI race isn't just about building the smartest models. It's also about making those models available w",
           "link": "https://www.axios.com/2026/10/21/openai-google-cloud-ai-models",
           "publishedAt": "2026-10-21 21:00",
-          "outlet": "Axios"
-        },
-        {
-          "title": "When AI models refuse to fight hackers",
-          "summary": "In the race to fend off AI-enabled cyber threats, security teams are confronting a new problem: The AI models they rely on to investigate attacks can suddenly refuse to help.Why it matters: While AI giants race to build AI tools that can respond quickly to hacking or other malicious online threats, strict guardrails on their most powerful models lock out defenders mid-investigation, leaving them s",
-          "link": "https://www.axios.com/2026/10/21/when-ai-models-refuse-to-fight-hackers",
-          "publishedAt": "2026-10-21 10:00",
           "outlet": "Axios"
         },
         {
@@ -43,31 +43,11 @@
       "name": "팰로 앨토 네트웍스",
       "items": [
         {
-          "title": "Palo Alto Networks, MicroStrategy among market cap stock movers on Wednesday",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/palo-alto-networks-microstrategy-among-market-cap-stock-movers-on-wednesday-93CH-4963804",
-          "publishedAt": "2026-10-22 03:06",
-          "outlet": "Investing.com"
-        },
-        {
           "title": "Palo Alto Networks CEO Advises Daughter on New AI-Focused Venture Capital Fund - The Information",
           "summary": "Palo Alto Networks CEO Advises Daughter on New AI-Focused Venture Capital Fund  The Information",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2x4S2RXdjhSa1FFcUY0WHdWdTVjQjJkNmxtTnFXWEhfMmphUzJQZWkyYlU4QnlWWHpiWGp2WGdsczJwaVJUaUg4Tk1fRE43VjQwVjJHbzNQRTBrSDlOS0xWVlBKY2pTNkh4N1U5MC1uZWtDNWNoWEhYaFdpakoxNzhRUnZ4VkdQU01YdEl0cmFwdDBXTHlKbWdpQ0ZCRFlXeEJ1YmNOZklud2dLc1ppTGxkeTRHNGVzNlMtZHg2NEZRNjVTRGFF?oc=5",
           "publishedAt": "2026-10-20 09:16",
           "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "PG",
-      "name": "프록터 앤드 갬블",
-      "items": [
-        {
-          "title": "Procter & Gamble, Western Digital, Lockheed Martin and more set to report Thursday",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/procter--gamble-western-digital-lockheed-martin-and-more-set-to-report-thursday-93CH-4963798",
-          "publishedAt": "2026-10-22 03:01",
-          "outlet": "Investing.com"
         }
       ]
     },
