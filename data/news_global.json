@@ -1,33 +1,20 @@
 {
-  "updatedAt": "2026-10-21 16:44",
+  "updatedAt": "2026-10-21 22:52",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Apple commits up to $100 million for US titanium in domestic manufacturing push - Reuters",
-          "summary": "Apple commits up to $100 million for US titanium in domestic manufacturing push  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQbDM5WVpJZWxMa0taUVhrM0I4OEc2SmtweUZGLWVBcHNTTmlDX0FOTmdLRFE2MUV5RDJpU01kMGhjclAtS19SU3pwVm5kLWN6TWRnTlhIX3RyUGdXZk9GQ1JNQmJub1N0Y2lVZ1hpOUJqYTRtbnBKY3NqMjRtUHQ4MXRmcVc5ZWpId3VwV21ZOTF3WkJSc1dYMXpzb0lic29menJKSmtkRHZ1NnNlOEVmR2RHRTZUd0x1ZEYzT2ZmZHhMVGU0NmxTag?oc=5",
-          "publishedAt": "2026-10-20 21:03",
-          "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "Exclusive: Apple's MacBook Neo pressures Microsoft to cut specs for low-cost 12-inch Surface - digitimes",
-          "summary": "Exclusive: Apple's MacBook Neo pressures Microsoft to cut specs for low-cost 12-inch Surface  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxORVZKV0pfdlZ1WjFYVGxEQms2YUNNTFpvZmlva216UzZoWVZmcnB1ZWpnWHNzZWg5amtZNjdDQnlqdzNEUWZQYzFFSWtYcHZINXFEd0JXOFd2TWktSjZNQ185T1ozQzRINGtNMVM5ZmRkTjI1dFlKcU9Dc2hpMi1uMl85Wjh6UHZCN2lKb3lrZnVUWjIyc0RN?oc=5",
-          "publishedAt": "2026-10-20 12:50",
-          "outlet": "DigiTimes"
-        }
-      ]
-    },
-    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "OpenAI brings its frontier models to rival Google Cloud",
+          "summary": "OpenAI is bringing its AI models and Codex coding tools to Google Cloud, expanding its reach to customers of all three major U.S. cloud providers — including companies that are also among its fiercest AI rivals.Why it matters: The move underscores a growing recognition that winning the enterprise AI race isn't just about building the smartest models. It's also about making those models available w",
+          "link": "https://www.axios.com/2026/10/21/openai-google-cloud-ai-models",
+          "publishedAt": "2026-10-21 21:00",
+          "outlet": "Axios"
+        },
         {
           "title": "When AI models refuse to fight hackers",
           "summary": "In the race to fend off AI-enabled cyber threats, security teams are confronting a new problem: The AI models they rely on to investigate attacks can suddenly refuse to help.Why it matters: While AI giants race to build AI tools that can respond quickly to hacking or other malicious online threats, strict guardrails on their most powerful models lock out defenders mid-investigation, leaving them s",
@@ -41,13 +28,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-10-21 03:03",
           "outlet": "BBC Business"
-        },
-        {
-          "title": "‘Too big to not fail’: Google outage exposes UK reliance on a handful of cloud providers",
-          "summary": "Our dependence on internet services of a few key tech companies leaves us vulnerable to cloud failures, bugs and more, experts sayIt happened again. A power outage hit a datacentre in London, and things cascaded from there: multiple banking services faltered, court hearings were put on hold and patients reported temporary glitches on the NHS app.The datacentre in question was in Google’s europe-we",
-          "link": "https://www.theguardian.com/uk-news/2026/oct/20/power-outage-google-datacentre-london-widespread-disruption",
-          "publishedAt": "2026-10-21 01:50",
-          "outlet": "The Guardian Business"
         }
       ]
     },
