@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-21 22:52",
+  "updatedAt": "2026-10-22 03:42",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "OpenAI to sell its top models on Google Cloud in latest enterprise push - Reuters",
+          "summary": "OpenAI to sell its top models on Google Cloud in latest enterprise push  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcF9EWG9QTDRBLU5tUVpFUXNUVW8wU2s3WVNTY2RnQUd0SEZfaXRyVmhpTFg4dGhuZ1RlN3JpOGVSNmY4VDNOUzFSNG9OVnZGTm1oXzk1VTFjakdIOVcyMm9qN2tPMEVJYjl1TzdtdkpCZjNSRlRZdFVGR3JFSC1mX3prVEJOYWI3aUdBbWx1WW40bUhSZmxJMV9kS01RMHBVc3huVWszcE5MTTA3M2RKTGZyMmpNczhpU3ZRcm5fMFA?oc=5",
+          "publishedAt": "2026-10-21 21:02",
+          "outlet": "Reuters Business (via Google News)"
+        },
         {
           "title": "OpenAI brings its frontier models to rival Google Cloud",
           "summary": "OpenAI is bringing its AI models and Codex coding tools to Google Cloud, expanding its reach to customers of all three major U.S. cloud providers — including companies that are also among its fiercest AI rivals.Why it matters: The move underscores a growing recognition that winning the enterprise AI race isn't just about building the smartest models. It's also about making those models available w",
@@ -36,6 +43,13 @@
       "name": "팰로 앨토 네트웍스",
       "items": [
         {
+          "title": "Palo Alto Networks, MicroStrategy among market cap stock movers on Wednesday",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/palo-alto-networks-microstrategy-among-market-cap-stock-movers-on-wednesday-93CH-4963804",
+          "publishedAt": "2026-10-22 03:06",
+          "outlet": "Investing.com"
+        },
+        {
           "title": "Palo Alto Networks CEO Advises Daughter on New AI-Focused Venture Capital Fund - The Information",
           "summary": "Palo Alto Networks CEO Advises Daughter on New AI-Focused Venture Capital Fund  The Information",
           "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2x4S2RXdjhSa1FFcUY0WHdWdTVjQjJkNmxtTnFXWEhfMmphUzJQZWkyYlU4QnlWWHpiWGp2WGdsczJwaVJUaUg4Tk1fRE43VjQwVjJHbzNQRTBrSDlOS0xWVlBKY2pTNkh4N1U5MC1uZWtDNWNoWEhYaFdpakoxNzhRUnZ4VkdQU01YdEl0cmFwdDBXTHlKbWdpQ0ZCRFlXeEJ1YmNOZklud2dLc1ppTGxkeTRHNGVzNlMtZHg2NEZRNjVTRGFF?oc=5",
@@ -45,15 +59,15 @@
       ]
     },
     {
-      "ticker": "MC.PA",
-      "name": "LVMH 모에헤네시",
+      "ticker": "PG",
+      "name": "프록터 앤드 갬블",
       "items": [
         {
-          "title": "Louis Vuitton, Dior And Hermès Stores Damaged As French Protests Escalate - Forbes",
-          "summary": "Louis Vuitton, Dior And Hermès Stores Damaged As French Protests Escalate  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNblliMldZQWlhUW5ma2xYTnlycllfVUM5bVU5MFVLS3IyZHZOdS1tdVV3VDhqRW4wd1otRHZadlMtS291NVpIdFlMcUtoMTA1SUZmOG9WRmpNRXk4UXBGQWxGOVJvUjczOGdacFg3R1RVck5YbWRIVlhhWV9HU2FEV1VxSG8tVEh1dVhqS2g2ck40Q2U0TVY0eHhaZDhkVHVoaHlIZGJicF9TS19HQS14ODJtOFBxYllmdkZKMnQtSQ?oc=5",
-          "publishedAt": "2026-10-21 00:01",
-          "outlet": "Forbes Markets"
+          "title": "Procter & Gamble, Western Digital, Lockheed Martin and more set to report Thursday",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/procter--gamble-western-digital-lockheed-martin-and-more-set-to-report-thursday-93CH-4963798",
+          "publishedAt": "2026-10-22 03:01",
+          "outlet": "Investing.com"
         }
       ]
     },
