@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 22:51",
+  "updatedAt": "2026-10-23 03:35",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple’s Cash Flow Machine Makes It Investors’ Favorite AI Hedge - Bloomberg.com",
+          "summary": "Apple’s Cash Flow Machine Makes It Investors’ Favorite AI Hedge  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPVEhiUVdnQXdudGlrV3VvU0xhbkYyTkhSalotV1BMSWppMF91aEFYcnlFckRaV3drNWNRbzdjUzVxUkt5S0tIUTZabUpzR2hhbExfaDBQc1ctYTlJdFJ1Y1JxcnJkLUhZYl91U0Ffbl9Dcl9GbGdUZk91QlFSd0hiVzNUeS1ZR2VCWXBWZGlFdC05X0tHYlBwNFNYVlFGYk9nQnU2aDgzaUZTaW1MTHdvaE5QRQ?oc=5",
+          "publishedAt": "2026-10-23 02:49",
+          "outlet": "Bloomberg (via Google News)"
+        },
         {
           "title": "Exclusive: Apple raises iPhone Duo shipment target 44% on strong preorders - digitimes",
           "summary": "Exclusive: Apple raises iPhone Duo shipment target 44% on strong preorders  digitimes",
