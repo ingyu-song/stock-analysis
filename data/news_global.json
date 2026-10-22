@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 10:34",
+  "updatedAt": "2026-10-22 16:40",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Amazon warns new cyber flaws detected using AI are being ‘broadly exploited’",
-          "summary": "Researchers used OpenAI and Google models to find severe faults in software used on the majority of websites around the world",
-          "link": "https://www.ft.com/content/245778d9-597b-492d-b5b6-a2967c77e853?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-22 08:20",
-          "outlet": "Financial Times"
+          "title": "Google Stops Using Nondisclosure Agreements for Data Centers - The Information",
+          "summary": "Google Stops Using Nondisclosure Agreements for Data Centers  The Information",
+          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDhsaVA5aUZFOVNwM2Jsa1F3N3ljN0o4aWxSanlZNEE2N3lWeUkxU1Y4Ty1uN0VhakNMUHpZbVkxTU9WTXhHamFKTnVTSC04bW0zOEpHek1iRjc1VE9XOUJPTHJLZ2VFNVQxWjJWYkY0amFHZW1IcmlubHNvZlVsWURtSE9VRGdjNFpPRk02TnlWZHROaWZWQlV6cEI0Zw?oc=5",
+          "publishedAt": "2026-10-22 05:47",
+          "outlet": "The Information"
         },
         {
           "title": "OpenAI to sell its top models on Google Cloud in latest enterprise push - Reuters",
