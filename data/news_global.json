@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-22 07:24",
+  "updatedAt": "2026-10-22 10:34",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,10 +9,10 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "NSA warns on ‘critical’ cyber vulnerabilities detected using AI",
-          "summary": "Researchers used OpenAI and Google models to find severe faults in software used on majority of websites around the world",
+          "title": "Amazon warns new cyber flaws detected using AI are being ‘broadly exploited’",
+          "summary": "Researchers used OpenAI and Google models to find severe faults in software used on the majority of websites around the world",
           "link": "https://www.ft.com/content/245778d9-597b-492d-b5b6-a2967c77e853?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-22 03:46",
+          "publishedAt": "2026-10-22 08:20",
           "outlet": "Financial Times"
         },
         {
@@ -21,20 +21,6 @@
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOcF9EWG9QTDRBLU5tUVpFUXNUVW8wU2s3WVNTY2RnQUd0SEZfaXRyVmhpTFg4dGhuZ1RlN3JpOGVSNmY4VDNOUzFSNG9OVnZGTm1oXzk1VTFjakdIOVcyMm9qN2tPMEVJYjl1TzdtdkpCZjNSRlRZdFVGR3JFSC1mX3prVEJOYWI3aUdBbWx1WW40bUhSZmxJMV9kS01RMHBVc3huVWszcE5MTTA3M2RKTGZyMmpNczhpU3ZRcm5fMFA?oc=5",
           "publishedAt": "2026-10-21 21:02",
           "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "OpenAI brings its frontier models to rival Google Cloud",
-          "summary": "OpenAI is bringing its AI models and Codex coding tools to Google Cloud, expanding its reach to customers of all three major U.S. cloud providers — including companies that are also among its fiercest AI rivals.Why it matters: The move underscores a growing recognition that winning the enterprise AI race isn't just about building the smartest models. It's also about making those models available w",
-          "link": "https://www.axios.com/2026/10/21/openai-google-cloud-ai-models",
-          "publishedAt": "2026-10-21 21:00",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Google resolves cloud outage affecting UK banks and websites",
-          "summary": "Revolut was one of the hardest hit, with banking services going down for many customers.",
-          "link": "https://www.bbc.co.uk/news/articles/cxdd8mm6qy4mo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-21 03:03",
-          "outlet": "BBC Business"
         }
       ]
     },
