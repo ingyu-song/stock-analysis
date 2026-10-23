@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23 07:24",
+  "updatedAt": "2026-10-23 10:34",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -26,19 +26,6 @@
           "summary": "Google Stops Using Nondisclosure Agreements for Data Centers  The Information",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDhsaVA5aUZFOVNwM2Jsa1F3N3ljN0o4aWxSanlZNEE2N3lWeUkxU1Y4Ty1uN0VhakNMUHpZbVkxTU9WTXhHamFKTnVTSC04bW0zOEpHek1iRjc1VE9XOUJPTHJLZ2VFNVQxWjJWYkY0amFHZW1IcmlubHNvZlVsWURtSE9VRGdjNFpPRk02TnlWZHROaWZWQlV6cEI0Zw?oc=5",
           "publishedAt": "2026-10-22 05:47",
-          "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "Palo Alto Networks CEO Advises Daughter on New AI-Focused Venture Capital Fund - The Information",
-          "summary": "Palo Alto Networks CEO Advises Daughter on New AI-Focused Venture Capital Fund  The Information",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM2x4S2RXdjhSa1FFcUY0WHdWdTVjQjJkNmxtTnFXWEhfMmphUzJQZWkyYlU4QnlWWHpiWGp2WGdsczJwaVJUaUg4Tk1fRE43VjQwVjJHbzNQRTBrSDlOS0xWVlBKY2pTNkh4N1U5MC1uZWtDNWNoWEhYaFdpakoxNzhRUnZ4VkdQU01YdEl0cmFwdDBXTHlKbWdpQ0ZCRFlXeEJ1YmNOZklud2dLc1ppTGxkeTRHNGVzNlMtZHg2NEZRNjVTRGFF?oc=5",
-          "publishedAt": "2026-10-20 09:16",
           "outlet": "The Information"
         }
       ]
