@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24 03:25",
+  "updatedAt": "2026-10-24 07:16",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple’s foldable iPhone hits stores with $2,000 price tag and scarce supply",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apples-foldable-iphone-hits-stores-with-2000-price-tag-and-scarce-supply-4970368",
+          "publishedAt": "2026-10-24 05:42",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Apple tops Nvidia to become world's most valuable company",
           "summary": "",
@@ -55,13 +62,6 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
-        {
-          "title": "FCC grants Intel waiver to use existing foreign-made robotic devices",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/fcc-grants-intel-waiver-for-foreignmade-robotic-devices-4967773",
-          "publishedAt": "2026-10-24 02:06",
-          "outlet": "Investing.com"
-        },
         {
           "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
           "summary": "These are the stocks posting the largest moves premarket.",
