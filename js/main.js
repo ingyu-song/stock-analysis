@@ -5,7 +5,14 @@ import { initWatchlist } from "./watchlist.js";
 import { initClaudeTab } from "./claude-tab.js";
 import { makeTableResizable } from "./table-resize.js";
 
-const TAB_NAMES = ["position", "map", "analysis", "watchlist", "claude"];
+const TAB_NAMES = ["position", "journal", "analysis", "watchlist", "claude"];
+// the map used to be its own tab; keep old #map links landing on the position page
+const TAB_ALIASES = { map: "position" };
+
+function resolveTab(name) {
+  const real = TAB_ALIASES[name] || name;
+  return TAB_NAMES.includes(real) ? real : null;
+}
 
 function initTabs() {
   const buttons = document.querySelectorAll(".tab-btn");
@@ -24,12 +31,11 @@ function initTabs() {
   buttons.forEach(b => b.addEventListener("click", () => activate(b.dataset.tab)));
 
   window.addEventListener("hashchange", () => {
-    const name = location.hash.replace("#", "");
-    if (TAB_NAMES.includes(name)) activate(name);
+    const name = resolveTab(location.hash.replace("#", ""));
+    if (name) activate(name);
   });
 
-  const fromHash = location.hash.replace("#", "");
-  activate(TAB_NAMES.includes(fromHash) ? fromHash : "position");
+  activate(resolveTab(location.hash.replace("#", "")) || "position");
 }
 
 function initTheme() {

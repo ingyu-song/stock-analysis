@@ -21,7 +21,7 @@
     </div>
     <nav class="tabs" role="tablist" aria-label="주요 탭">
       <button class="tab-btn is-active" role="tab" aria-selected="true" data-tab="position">내 포지션</button>
-      <button class="tab-btn" role="tab" aria-selected="false" data-tab="map">Portfolio Map</button>
+      <button class="tab-btn" role="tab" aria-selected="false" data-tab="journal">매매 기록</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="analysis">Stock Analysis</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="watchlist">Watchlist</button>
       <button class="tab-btn" role="tab" aria-selected="false" data-tab="claude">클로드 투자</button>
@@ -81,6 +81,31 @@
           <span class="badge badge-muted" id="dataUpdatedAt">전체 + 계좌별</span>
         </div>
         <div class="acct-grid" id="acctGrid"></div>
+      </div>
+
+      <div class="card">
+        <div class="card-head">
+          <h2>Portfolio Map</h2>
+          <span class="badge badge-muted">크기 = 비중 · 색 = 등락 · 타일 위에 마우스를 올리면 이유</span>
+        </div>
+        <div class="map-controls">
+          <div class="scope-bar" id="mapScope" role="group" aria-label="계좌 선택"></div>
+          <div class="scope-bar" id="mapMode" role="group" aria-label="색 기준">
+            <button class="scope-btn" data-map-mode="daily">전일 대비</button>
+            <button class="scope-btn" data-map-mode="cost">매입 대비</button>
+          </div>
+          <label class="map-check">
+            <input type="checkbox" id="mapCash"> 현금 포함
+          </label>
+          <span class="map-legend" aria-hidden="true">
+            <span id="mapLegendLo">-6%</span><span class="map-legend-bar"></span><span id="mapLegendHi">+6%</span>
+          </span>
+        </div>
+
+        <div class="map-canvas" id="mapCanvas"></div>
+        <div class="map-tip" id="mapTip" role="tooltip" hidden></div>
+        <p class="journal-empty" id="mapEmpty" hidden>표시할 보유 종목이 없어요.</p>
+        <p class="hint" id="mapMeta"></p>
       </div>
 
       <div class="card">
@@ -272,42 +297,6 @@
       </div>
 
       <div class="card">
-        <div class="card-head">
-          <h2>매매 기록</h2>
-          <button class="btn btn-ghost" id="journalAddBtn">+ 기록 추가</button>
-        </div>
-
-        <div class="journal-form" id="journalForm" hidden>
-          <div class="trade-grid">
-            <label class="inline-field">날짜
-              <input type="date" id="journalDate">
-            </label>
-            <label class="inline-field">종목 (선택)
-              <input id="journalTicker" placeholder="AAPL 또는 비워두기">
-            </label>
-            <label class="inline-field">구분
-              <select id="journalSide">
-                <option value="note">메모</option>
-                <option value="buy">매수</option>
-                <option value="sell">매도</option>
-              </select>
-            </label>
-          </div>
-          <label class="inline-field">사유
-            <textarea id="journalReason" class="market-note" rows="3" style="min-height:64px; font-size:13px;"
-                      placeholder="판단 근거를 적어두세요"></textarea>
-          </label>
-          <div style="display:flex; gap:8px; margin-top:10px;">
-            <button class="btn" id="journalSaveBtn">기록</button>
-            <button class="btn btn-ghost" id="journalCancelBtn">취소</button>
-          </div>
-        </div>
-
-        <div id="journalList"></div>
-        <p class="hint">매매 입력에 사유를 적으면 여기에 자동으로 쌓입니다. 기록도 레포에 함께 저장돼요.</p>
-      </div>
-
-      <div class="card">
         <div class="card-head"><h2>자산 배분</h2></div>
         <div class="chart-wrap" style="max-width:480px; margin:0 auto;">
           <canvas id="allocationChart" height="220"></canvas>
@@ -346,38 +335,63 @@
 
   </section>
 
-  <!-- ============ TAB 2: 주식 분석 ============ -->
-  <section class="tab-panel" id="panel-map" role="tabpanel">
+  <!-- ============ TAB 2: 매매 기록 ============ -->
+  <section class="tab-panel" id="panel-journal" role="tabpanel">
 
     <div class="panel-head">
-      <h1>Portfolio Map</h1>
-      <p class="panel-sub">보유 종목을 테마별로 묶어, 크기는 비중 · 색은 전일 종가 대비 등락으로 보여줍니다. 타일 위에 마우스를 올리면 왜 움직였는지 나옵니다.</p>
+      <h1>매매 기록</h1>
+      <p class="panel-sub">포지션이 바뀔 때마다 사유와 함께 쌓이는 매매 일지.</p>
     </div>
 
     <div class="card">
-      <div class="map-controls">
-        <div class="scope-bar" id="mapScope" role="group" aria-label="계좌 선택"></div>
-        <div class="scope-bar" id="mapMode" role="group" aria-label="색 기준">
-          <button class="scope-btn" data-map-mode="daily">전일 대비</button>
-          <button class="scope-btn" data-map-mode="cost">매입 대비</button>
-        </div>
-        <label class="map-check">
-          <input type="checkbox" id="mapCash"> 현금 포함
-        </label>
-        <span class="map-legend" aria-hidden="true">
-          <span id="mapLegendLo">-6%</span><span class="map-legend-bar"></span><span id="mapLegendHi">+6%</span>
-        </span>
+      <div class="card-head">
+        <h2>기록 내역</h2>
+        <button class="btn btn-ghost" id="journalAddBtn">+ 기록 추가</button>
       </div>
 
-      <div class="map-canvas" id="mapCanvas"></div>
-      <div class="map-tip" id="mapTip" role="tooltip" hidden></div>
-      <p class="journal-empty" id="mapEmpty" hidden>표시할 보유 종목이 없어요.</p>
-      <p class="hint" id="mapMeta"></p>
+      <div class="journal-form" id="journalForm" hidden>
+        <div class="trade-grid">
+          <label class="inline-field">날짜
+            <input type="date" id="journalDate">
+          </label>
+          <label class="inline-field">종목 (선택)
+            <input id="journalTicker" placeholder="AAPL 또는 비워두기">
+          </label>
+          <label class="inline-field">구분
+            <select id="journalSide">
+              <option value="note">메모</option>
+              <option value="buy">매수</option>
+              <option value="sell">매도</option>
+            </select>
+          </label>
+        </div>
+        <label class="inline-field">사유
+          <textarea id="journalReason" class="market-note" rows="3" style="min-height:64px; font-size:13px;"
+                    placeholder="판단 근거를 적어두세요"></textarea>
+        </label>
+        <div style="display:flex; gap:8px; margin-top:10px;">
+          <button class="btn" id="journalSaveBtn">기록</button>
+          <button class="btn btn-ghost" id="journalCancelBtn">취소</button>
+        </div>
+      </div>
+
+      <div id="journalList"></div>
+      <p class="hint">매매 입력에 사유를 적으면 여기에 자동으로 쌓입니다. 기록도 레포에 함께 저장돼요.</p>
     </div>
 
   </section>
 
+
+  <!-- ============ TAB 3: Stock Analysis (work in progress) ============ -->
   <section class="tab-panel" id="panel-analysis" role="tabpanel">
+
+    <div class="wip">
+      <h1>Stock Analysis</h1>
+      <p class="wip-state">Loading<span class="wip-dots" aria-hidden="true"></span></p>
+      <p class="panel-sub">Work in progress. This tab is being rebuilt. To bring the old view back, remove the <code>hidden</code> attribute from <code>#analysisLive</code>.</p>
+    </div>
+
+    <div id="analysisLive" hidden>
 
     <div class="panel-head panel-head-row">
       <div>
@@ -393,9 +407,11 @@
 
     <div id="analysisContent"></div>
 
+    </div>
+
   </section>
 
-  <!-- ============ TAB 3: What's in the Market ============ -->
+  <!-- ============ TAB 4: Watchlist ============ -->
   <section class="tab-panel" id="panel-watchlist" role="tabpanel">
 
     <div class="panel-head">
@@ -458,7 +474,7 @@
 
   </section>
 
-  <!-- ============ TAB 4: 클로드 투자 ============ -->
+  <!-- ============ TAB 5: 클로드 투자 ============ -->
   <section class="tab-panel" id="panel-claude" role="tabpanel">
 
     <div class="panel-head">

@@ -751,3 +751,12 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
 .tip-src li { margin-bottom: 3px; }
 .tip-src a { color: var(--navy); text-decoration: underline; text-underline-offset: 2px; }
 .tip-foot { margin-top: 8px; font-family: var(--font-mono); font-size: 10px; color: var(--text-muted); }
+
+/* Stock Analysis placeholder while the tab is being rebuilt */
+.wip { padding: 72px 0 56px; text-align: center; }
+.wip h1 { font-size: 24px; letter-spacing: -0.4px; }
+.wip-state { margin-top: 14px; font-family: var(--font-mono); font-size: 15px; color: var(--text-primary); }
+.wip .panel-sub { max-width: 440px; margin: 10px auto 0; }
+.wip-dots::after { content: ""; animation: wip-dots 1.4s steps(4, end) infinite; }
+@keyframes wip-dots { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75%, 100% { content: "..."; } }
+@media (prefers-reduced-motion: reduce) { .wip-dots::after { animation: none; content: "..."; } }
