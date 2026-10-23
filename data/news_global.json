@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23 10:34",
+  "updatedAt": "2026-10-23 16:37",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027 - digitimes",
+          "summary": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUGFFUjFtNFdNSkFGYWFYengybmdFV0RmR1FLRm4yYjdpc0VDNzNiZEQ5TWhNRjdwMzZoWTktdWFadEhWWF9FUTVIMDBTVEY0TTZXdkxnQ1hBMjhhRzlXbXZCbGRCUkFEUk95OXhOeEdyd25sSjk1Rm9OWFlqbTczVGU4V3dvYlQ5ci1VdQ?oc=5",
+          "publishedAt": "2026-10-23 11:41",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Exclusive: Apple raises iPhone Duo shipment target 44% on strong preorders - digitimes",
           "summary": "Exclusive: Apple raises iPhone Duo shipment target 44% on strong preorders  digitimes",
@@ -22,6 +29,13 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "What Makes Google Stock A Buy? - Forbes",
+          "summary": "What Makes Google Stock A Buy?  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOclVhNnUyczBENXloSW80S2xicDc3cmMyaURFT2ZlODY5bDdxQkZrekVGVkU2bDhQRG5SVDF6VEFXNkVYYmw5X0RGVnhpN0E4V3ZnLVN0dWhCMkpiWVZJR0ppVTVQQ0I1SzIzVU1VdEJHT2k3Y01MYlQ2ZTNHVzZRSENOUGM2bmFrb19BYnhfUzBQQQ?oc=5",
+          "publishedAt": "2026-10-22 23:43",
+          "outlet": "Forbes Markets"
+        },
+        {
           "title": "Google Stops Using Nondisclosure Agreements for Data Centers - The Information",
           "summary": "Google Stops Using Nondisclosure Agreements for Data Centers  The Information",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQUDhsaVA5aUZFOVNwM2Jsa1F3N3ljN0o4aWxSanlZNEE2N3lWeUkxU1Y4Ty1uN0VhakNMUHpZbVkxTU9WTXhHamFKTnVTSC04bW0zOEpHek1iRjc1VE9XOUJPTHJLZ2VFNVQxWjJWYkY0amFHZW1IcmlubHNvZlVsWURtSE9VRGdjNFpPRk02TnlWZHROaWZWQlV6cEI0Zw?oc=5",
@@ -34,6 +48,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking - digitimes",
+          "summary": "Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOGx1VUkzak9ONVpVYVhRZzVMT3FUTkE5WEJHRklNQmtxV2ExbjZKNlJObkRwMFg3UHdqbGVCMk1tQ0ZSQmdEUXdtQVNtWWlNS3dncGFKenYwRkRRX3NoMFgwNV9FU2s1T3RoQl9xVWlXdW1pSTVsRkNpRDhwTV9yNm5FVGpVQQ?oc=5",
+          "publishedAt": "2026-10-20 17:58",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
           "summary": "These are the stocks posting the largest moves premarket.",
