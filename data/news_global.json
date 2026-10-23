@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-23 16:37",
+  "updatedAt": "2026-10-23 22:31",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -13,6 +13,13 @@
           "summary": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027  digitimes",
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUGFFUjFtNFdNSkFGYWFYengybmdFV0RmR1FLRm4yYjdpc0VDNzNiZEQ5TWhNRjdwMzZoWTktdWFadEhWWF9FUTVIMDBTVEY0TTZXdkxnQ1hBMjhhRzlXbXZCbGRCUkFEUk95OXhOeEdyd25sSjk1Rm9OWFlqbTczVGU4V3dvYlQ5ci1VdQ?oc=5",
           "publishedAt": "2026-10-23 11:41",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Apple's iPhone Duo and touchscreen MacBook could accelerate OLED TDDI adoption - digitimes",
+          "summary": "Apple's iPhone Duo and touchscreen MacBook could accelerate OLED TDDI adoption  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcWFBVUhvODFMN3gzLTNxUzNOTjZjdzYzcW1Yekc3OFNDZlFSYjlpR3A4cEJyZmt4UjYxdTRweklUbFRJYjNlY1huNXlaZEgwOS1ydWFObHl2ejE3VEQzQTExNEZFcXlWQUVUcFNYeGpWRndMOXY0M1kzcnNzd19ySVZBSkFqNnFwRS1FX01B?oc=5",
+          "publishedAt": "2026-10-23 11:26",
           "outlet": "DigiTimes"
         },
         {
@@ -48,13 +55,6 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
-        {
-          "title": "Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking - digitimes",
-          "summary": "Intel requests FCC waiver from US foreign robot ban, citing impact on US chipmaking  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNOGx1VUkzak9ONVpVYVhRZzVMT3FUTkE5WEJHRklNQmtxV2ExbjZKNlJObkRwMFg3UHdqbGVCMk1tQ0ZSQmdEUXdtQVNtWWlNS3dncGFKenYwRkRRX3NoMFgwNV9FU2s1T3RoQl9xVWlXdW1pSTVsRkNpRDhwTV9yNm5FVGpVQQ?oc=5",
-          "publishedAt": "2026-10-20 17:58",
-          "outlet": "DigiTimes"
-        },
         {
           "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
           "summary": "These are the stocks posting the largest moves premarket.",
