@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24 07:16",
+  "updatedAt": "2026-10-24 09:49",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Apple’s foldable iPhone hits stores with $2,000 price tag and scarce supply",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/apples-foldable-iphone-hits-stores-with-2000-price-tag-and-scarce-supply-4970368",
-          "publishedAt": "2026-10-24 05:42",
-          "outlet": "Investing.com"
-        },
         {
           "title": "Apple tops Nvidia to become world's most valuable company",
           "summary": "",
@@ -62,6 +55,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Scoop: U.S. intel memo warns of \"advanced\" Iranian plots to kill officials abroad",
+          "summary": "U.S. intelligence finds Iran has \"substantially increased\" its efforts to target American diplomats and officials in the Middle East and beyond, with lethal plots reaching \"advanced stages,\" according to an Oct. 23 memo to Secretary of State Marco Rubio obtained by Axios.Why it matters: U.S. officials say the intelligence is one reason the State Department is drawing down personnel at several Amer",
+          "link": "https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat",
+          "publishedAt": "2026-10-24 09:16",
+          "outlet": "Axios"
+        },
         {
           "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
           "summary": "These are the stocks posting the largest moves premarket.",
