@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-23 09:42",
+  "updatedAt": "2026-10-24 09:53",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1321.48,
-  "fxRateEUR": 1482.5,
+  "fxRate": 1323.66,
+  "fxRateEUR": 1482.1,
   "accounts": [
     {
       "id": "kiwoom",
@@ -29,7 +29,7 @@
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
       "shares": 100,
-      "price": 22845.0,
+      "price": 22915.0,
       "costKRW": 2365300,
       "costNative": 2365300,
       "prevClose": 22995.0
@@ -40,7 +40,7 @@
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
       "shares": 200,
-      "price": 25350.0,
+      "price": 25475.0,
       "costKRW": 5424800,
       "costNative": 5424800,
       "prevClose": 25740.0
@@ -51,10 +51,10 @@
       "name": "애플",
       "currency": "USD",
       "shares": 15,
-      "price": 348.68,
+      "price": 347.725,
       "costKRW": 6606625,
       "costNative": 4942.2405,
-      "prevClose": 343.8
+      "prevClose": 348.6
     },
     {
       "account": "mirae",
@@ -62,10 +62,10 @@
       "name": "소니 그룹 (ADR)",
       "currency": "USD",
       "shares": 150,
-      "price": 26.26,
+      "price": 26.08,
       "costNative": 3587.25,
       "costKRW": 4757132,
-      "prevClose": 25.13
+      "prevClose": 26.0565
     },
     {
       "account": "mirae",
@@ -73,10 +73,10 @@
       "name": "프록터 앤드 갬블",
       "currency": "USD",
       "shares": 10,
-      "price": 165.9253,
+      "price": 161.02,
       "costKRW": 2003265,
       "costNative": 1483.5,
-      "prevClose": 158.7515
+      "prevClose": 165.75
     },
     {
       "account": "mirae",
@@ -84,10 +84,10 @@
       "name": "알파벳 A",
       "currency": "USD",
       "shares": 5,
-      "price": 324.29,
+      "price": 320.21,
       "costKRW": 2351848,
       "costNative": 1741.64,
-      "prevClose": 333.1
+      "prevClose": 324.2862
     },
     {
       "account": "mirae",
@@ -95,10 +95,10 @@
       "name": "서클 인터넷 그룹",
       "currency": "USD",
       "shares": 10,
-      "price": 85.6,
+      "price": 85.91,
       "costKRW": 1354915,
       "costNative": 1003.37,
-      "prevClose": 88.7408
+      "prevClose": 85.9
     },
     {
       "account": "kiwoom",
@@ -106,7 +106,7 @@
       "name": "한화에어로스페이스",
       "currency": "KRW",
       "shares": 5,
-      "price": 767000.0,
+      "price": 792000.0,
       "costKRW": 4418000,
       "costNative": 4418000,
       "prevClose": 812000.0
@@ -117,10 +117,10 @@
       "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
       "currency": "USD",
       "shares": 20,
-      "price": 55.16,
+      "price": 55.21,
       "costKRW": 1535548,
       "costNative": 1157.29,
-      "prevClose": 56.38
+      "prevClose": 55.143
     },
     {
       "account": "kiwoom",
@@ -128,10 +128,10 @@
       "name": "로보티즈",
       "currency": "KRW",
       "shares": 5,
-      "price": 222000.0,
+      "price": 225000.0,
       "costKRW": 1155000,
       "costNative": 1155000,
-      "prevClose": 232000.0
+      "prevClose": 234000.0
     }
   ],
   "risk": {
