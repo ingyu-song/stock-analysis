@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24 20:11",
+  "updatedAt": "2026-10-24 23:37",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Apple tops Nvidia to become world's most valuable company",
-          "summary": "",
-          "link": "https://seekingalpha.com/news/4656580-apple-tops-nvidia-to-become-worlds-most-valuable-company?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-          "publishedAt": "2026-10-23 23:05",
-          "outlet": "Business Insider Markets"
-        },
         {
           "title": "Apple's iPhone Duo and touchscreen MacBook could accelerate OLED TDDI adoption - digitimes",
           "summary": "Apple's iPhone Duo and touchscreen MacBook could accelerate OLED TDDI adoption  digitimes",
@@ -70,11 +63,11 @@
           "outlet": "Axios"
         },
         {
-          "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
-          "summary": "These are the stocks posting the largest moves premarket.",
-          "link": "https://www.cnbc.com/2026/10/19/stocks-making-the-biggest-moves-premarket-clf-intc-ddog-amzn.html",
-          "publishedAt": "2026-10-19 21:00",
-          "outlet": "CNBC Finance"
+          "title": "Intel begins Arizona Fab 62 equipment installation, advances Ohio project as AI CPU demand surges - digitimes",
+          "summary": "Intel begins Arizona Fab 62 equipment installation, advances Ohio project as AI CPU demand surges  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSGxHZW50RTBEZ09JMGRrQzhwLTZDcy1TWm42aTdDblZ4czYzZktIYzVjVkJtZ2U2TkxEUXV6WGVMd29HcXpvUWlhMElDdDFnSnRsbVZoX2hUX3I4aVllN2dhMEpPcDhIMzdxbWpXZEVvMVJ6MXNPZ2hsbzlmQmtiSndabUMzWmd6aHZxQ25lYm9zZDhXX3ZNWHk2WQ?oc=5",
+          "publishedAt": "2026-10-22 12:22",
+          "outlet": "DigiTimes"
         }
       ]
     }
