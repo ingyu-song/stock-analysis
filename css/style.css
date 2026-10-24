@@ -760,3 +760,11 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
 .wip-dots::after { content: ""; animation: wip-dots 1.4s steps(4, end) infinite; }
 @keyframes wip-dots { 0% { content: ""; } 25% { content: "."; } 50% { content: ".."; } 75%, 100% { content: "..."; } }
 @media (prefers-reduced-motion: reduce) { .wip-dots::after { animation: none; content: "..."; } }
+
+/* sortable holdings headers */
+.holdings-table th[data-sort] { cursor: pointer; user-select: none; }
+.holdings-table th[data-sort]:hover { color: var(--text-primary); }
+.holdings-table th[data-sort]:focus-visible { outline: 1.5px solid var(--navy); outline-offset: -2px; }
+.holdings-table th[aria-sort="ascending"], .holdings-table th[aria-sort="descending"] { color: var(--text-primary); }
+.holdings-table th[aria-sort="ascending"]::after { content: " ▲"; font-size: 9px; }
+.holdings-table th[aria-sort="descending"]::after { content: " ▼"; font-size: 9px; }

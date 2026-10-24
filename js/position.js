@@ -16,7 +16,7 @@ function uid() {
 function defaultAccounts() {
   return [
     { id: "kiwoom", name: "키움", cash: { KRW: 0 } },
-    { id: "mirae", name: "미래에셋", cash: { KRW: 0 } },
+    { id: "mirae", name: "미래", cash: { KRW: 0 } },
   ];
 }
 
@@ -253,6 +253,39 @@ function toBase(amount, currency, state) {
 function fmtMoney(amount, currency) {
   const rounded = Math.round(amount);
   return `${currency === "USD" ? "$" : "₩"}${rounded.toLocaleString("en-US")}`;
+}
+
+// ---------- number inputs with thousands separators ----------
+// type="number" can't show commas, so these are text inputs that re-format as
+// you type and keep the caret in place; parseNum() reads them back.
+function parseNum(s) {
+  const n = Number(String(s ?? "").replace(/,/g, ""));
+  return Number.isFinite(n) ? n : 0;
+}
+
+function commaNum(v) {
+  const m = String(v ?? "").match(/^(-?)(\d*)(\.\d*)?$/);
+  if (!m) return String(v ?? "");
+  return m[1] + m[2].replace(/\B(?=(\d{3})+(?!\d))/g, ",") + (m[3] || "");
+}
+
+function bindNumInput(el) {
+  el.addEventListener("input", () => {
+    const raw = el.value;
+    const caret = el.selectionStart ?? raw.length;
+    const sig = raw.slice(0, caret).replace(/[^0-9.-]/g, "").length;
+    let clean = raw.replace(/[^0-9.-]/g, "");
+    const neg = clean.startsWith("-");
+    clean = clean.replace(/-/g, "");
+    const dot = clean.indexOf(".");
+    if (dot !== -1) clean = clean.slice(0, dot + 1) + clean.slice(dot + 1).replace(/\./g, "");
+    const out = commaNum((neg ? "-" : "") + clean);
+    if (out === raw) return;
+    el.value = out;
+    let n = 0, pos = 0;
+    while (pos < out.length && n < sig) { if (/[0-9.-]/.test(out[pos])) n++; pos++; }
+    el.setSelectionRange(pos, pos);
+  });
 }
 
 function fmtSignedMoney(amount) {
@@ -593,9 +626,9 @@ function renderAccountFields() {
       ${CURRENCIES.map(cur => `
         <label class="inline-field" style="flex:${cur === "KRW" ? 1.4 : 1};">
           예수금 ${cur}
-          <input class="cell-num" type="number" data-acct-field="cash" data-acct="${i}"
-                 data-acct-cur="${cur}" value="${Number(a.cash[cur]) || 0}"
-                 step="${cur === "KRW" ? 10000 : 0.01}">
+          <input class="cell-num" type="text" inputmode="decimal" autocomplete="off" data-num
+                 data-acct-field="cash" data-acct="${i}"
+                 data-acct-cur="${cur}" value="${commaNum(Number(a.cash[cur]) || 0)}">
         </label>
       `).join("")}
       <button class="row-remove-btn" data-acct-remove="${i}" title="계좌 삭제"
@@ -603,6 +636,7 @@ function renderAccountFields() {
     </div>
   `).join("");
 
+  wrap.querySelectorAll("[data-num]").forEach(bindNumInput);
   wrap.querySelectorAll("[data-acct-field]").forEach(el => {
     el.addEventListener("input", onAccountFieldChange);
   });
@@ -632,7 +666,7 @@ function onAccountFieldChange(e) {
   const field = e.target.dataset.acctField;
   if (field === "cash") {
     const cur = e.target.dataset.acctCur;
-    state.accounts[i].cash = { ...state.accounts[i].cash, [cur]: Number(e.target.value) || 0 };
+    state.accounts[i].cash = { ...state.accounts[i].cash, [cur]: parseNum(e.target.value) };
   } else {
     state.accounts[i][field] = e.target.value;
   }
@@ -650,9 +684,83 @@ function onAccountFieldChange(e) {
   renderPublishState();
 }
 
+// ---------- sortable columns ----------
+// A view-only sort: rows keep their index in state.holdings, so edits and
+// deletes still hit the right holding. Click cycles first-direction → other
+// direction → back to the book's own order.
+const HOLDINGS_SORT_KEY = "igs-holdings-sort";
+const TEXT_SORT_KEYS = new Set(["account", "ticker", "name", "currency"]);
+
+function loadHoldingsSort() {
+  try {
+    const s = JSON.parse(localStorage.getItem(HOLDINGS_SORT_KEY));
+    return s && s.key && (s.dir === "asc" || s.dir === "desc") ? s : null;
+  } catch { return null; }
+}
+let holdingsSort = loadHoldingsSort();
+
+function sortValue(row, key) {
+  const h = state.holdings[row.i];
+  switch (key) {
+    case "account": return accountName(h.account);
+    case "ticker": return h.ticker || "";
+    case "name": return h.name || "";
+    case "currency": return h.currency || "";
+    case "shares": return Number(h.shares) || 0;
+    case "price": return Number(h.price) || 0;
+    default: return Number(row[key]) || 0;   // costPerShare, valueBase, pnlBase, weightPct
+  }
+}
+
+function sortRows(rows) {
+  if (!holdingsSort) return rows;
+  const { key, dir } = holdingsSort;
+  const m = dir === "asc" ? 1 : -1;
+  return [...rows].sort((a, b) => {
+    const x = sortValue(a, key), y = sortValue(b, key);
+    if (typeof x === "string") return m * x.localeCompare(y, "ko");
+    return m * (x - y);
+  });
+}
+
+function renderSortHeaders() {
+  document.querySelectorAll("#holdingsTable thead th[data-sort]").forEach(th => {
+    const active = holdingsSort && holdingsSort.key === th.dataset.sort;
+    th.setAttribute("aria-sort", active ? (holdingsSort.dir === "asc" ? "ascending" : "descending") : "none");
+  });
+}
+
+function toggleHoldingsSort(key) {
+  const first = TEXT_SORT_KEYS.has(key) ? "asc" : "desc";
+  if (!holdingsSort || holdingsSort.key !== key) holdingsSort = { key, dir: first };
+  else if (holdingsSort.dir === first) holdingsSort = { key, dir: first === "asc" ? "desc" : "asc" };
+  else holdingsSort = null;
+  try {
+    if (holdingsSort) localStorage.setItem(HOLDINGS_SORT_KEY, JSON.stringify(holdingsSort));
+    else localStorage.removeItem(HOLDINGS_SORT_KEY);
+  } catch { /* sort order just won't be remembered */ }
+  renderHoldingsTable(computeDerived());
+}
+
+function initHoldingsSort() {
+  const thead = document.querySelector("#holdingsTable thead");
+  if (!thead) return;
+  thead.addEventListener("click", e => {
+    if (e.target.closest(".col-resize-handle")) return;
+    const th = e.target.closest("th[data-sort]");
+    if (th) toggleHoldingsSort(th.dataset.sort);
+  });
+  thead.addEventListener("keydown", e => {
+    if (e.key !== "Enter" && e.key !== " ") return;
+    const th = e.target.closest("th[data-sort]");
+    if (th) { e.preventDefault(); toggleHoldingsSort(th.dataset.sort); }
+  });
+}
+
 function renderHoldingsTable(d) {
   const tbody = document.getElementById("holdingsBody");
   tbody.innerHTML = "";
+  renderSortHeaders();
 
   if (d.rows.length === 0) {
     const tr = document.createElement("tr");
@@ -668,7 +776,7 @@ function renderHoldingsTable(d) {
     `<option value="${escapeHtml(a.id)}" ${h.account === a.id ? "selected" : ""}>${escapeHtml(a.name)}</option>`
   ).join("");
 
-  d.rows.forEach(row => {
+  sortRows(d.rows).forEach(row => {
     const i = row.i;
     const h = state.holdings[i];
     const tr = document.createElement("tr");
@@ -686,11 +794,11 @@ function renderHoldingsTable(d) {
           <option value="EUR" ${h.currency === "EUR" ? "selected" : ""}>EUR</option>
         </select>
       </td>
-      <td><input class="cell-num" type="number" data-field="shares" data-i="${i}" value="${h.shares}" step="1"></td>
-      <td><input class="cell-num" type="number" data-field="costPerShare" data-i="${i}"
-                 value="${h.currency === "KRW" ? Math.round(row.costPerShare) : row.costPerShare.toFixed(2)}"
-                 step="${h.currency === "KRW" ? 1 : 0.01}" title="${h.currency} 기준 평균 매입단가"></td>
-      <td><input class="cell-num" type="number" data-field="price" data-i="${i}" value="${h.price}" step="0.01"></td>
+      <td><input class="cell-num" type="text" inputmode="decimal" autocomplete="off" data-num data-field="shares" data-i="${i}" value="${commaNum(h.shares)}"></td>
+      <td><input class="cell-num" type="text" inputmode="decimal" autocomplete="off" data-num data-field="costPerShare" data-i="${i}"
+                 value="${commaNum(h.currency === "KRW" ? Math.round(row.costPerShare) : row.costPerShare.toFixed(2))}"
+                 title="${h.currency} 기준 평균 매입단가"></td>
+      <td><input class="cell-num" type="text" inputmode="decimal" autocomplete="off" data-num data-field="price" data-i="${i}" value="${commaNum(h.price)}"></td>
       <td class="cell-computed">${fmtMoney(row.valueBase, state.baseCurrency)}</td>
       <td class="cell-computed ${pnlClass(row.pnlBase)}">${row.costBase > 0 ? fmtSignedMoney(row.pnlBase) : "–"}</td>
       <td class="cell-computed">${fmtPct(row.weightPct)}</td>
@@ -699,6 +807,7 @@ function renderHoldingsTable(d) {
     tbody.appendChild(tr);
   });
 
+  tbody.querySelectorAll("[data-num]").forEach(bindNumInput);
   tbody.querySelectorAll("input, select").forEach(el => {
     el.addEventListener("input", onHoldingFieldChange);
   });
@@ -804,7 +913,7 @@ function onHoldingFieldChange(e) {
     // recorded at the exchange rate on each purchase day, and correcting a
     // 평단 estimate is no reason to overwrite it — for a KRW listing the two
     // are the same number, so there it has to follow.
-    h.costNative = (Number(e.target.value) || 0) * (Number(h.shares) || 0);
+    h.costNative = parseNum(e.target.value) * (Number(h.shares) || 0);
     if (h.currency === "KRW") h.costKRW = Math.round(h.costNative);
     saveState(state);
     refreshAfterEdit();
@@ -812,7 +921,7 @@ function onHoldingFieldChange(e) {
   }
 
   const isNumeric = ["shares", "price", "costKRW"].includes(field);
-  state.holdings[i][field] = isNumeric ? Number(e.target.value) : e.target.value;
+  state.holdings[i][field] = isNumeric ? parseNum(e.target.value) : e.target.value;
   if (field === "ticker" || field === "name") e.target.title = e.target.value;
   saveState(state);
 
@@ -852,6 +961,7 @@ function syncTopLevelInputs() {
 export async function initPosition() {
   seedFromPortfolio(await fetchPortfolio());
   syncTopLevelInputs();
+  initHoldingsSort();
 
   document.getElementById("fxRate").addEventListener("input", e => {
     state.fxRate = Number(e.target.value);

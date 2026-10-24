@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24 15:03",
+  "updatedAt": "2026-10-24 15:08",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1323.66,
@@ -7,14 +7,14 @@
   "accounts": [
     {
       "id": "kiwoom",
-      "name": "키움 (ISA)",
+      "name": "키움",
       "cash": {
         "KRW": 3737570
       }
     },
     {
       "id": "mirae",
-      "name": "미래에셋",
+      "name": "미래",
       "cash": {
         "KRW": -2160,
         "USD": 6543.27,
