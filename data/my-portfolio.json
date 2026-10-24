@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24 09:53",
+  "updatedAt": "2026-10-24 15:03",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
   "fxRate": 1323.66,
@@ -9,16 +9,16 @@
       "id": "kiwoom",
       "name": "키움 (ISA)",
       "cash": {
-        "KRW": 3739693
+        "KRW": 3737570
       }
     },
     {
       "id": "mirae",
       "name": "미래에셋",
       "cash": {
-        "KRW": -3866,
-        "USD": 6300.15,
-        "EUR": 394.74
+        "KRW": -2160,
+        "USD": 6543.27,
+        "EUR": 400
       }
     }
   ],
@@ -52,7 +52,7 @@
       "currency": "USD",
       "shares": 15,
       "price": 347.725,
-      "costKRW": 6606625,
+      "costKRW": 6546491,
       "costNative": 4942.2405,
       "prevClose": 348.6
     },
@@ -64,7 +64,7 @@
       "shares": 150,
       "price": 26.08,
       "costNative": 3587.25,
-      "costKRW": 4757132,
+      "costKRW": 4751671,
       "prevClose": 26.0565
     },
     {
@@ -74,7 +74,7 @@
       "currency": "USD",
       "shares": 10,
       "price": 161.02,
-      "costKRW": 2003265,
+      "costKRW": 1965044,
       "costNative": 1483.5,
       "prevClose": 165.75
     },
@@ -85,7 +85,7 @@
       "currency": "USD",
       "shares": 5,
       "price": 320.21,
-      "costKRW": 2351848,
+      "costKRW": 2306976,
       "costNative": 1741.64,
       "prevClose": 324.2862
     },
@@ -96,7 +96,7 @@
       "currency": "USD",
       "shares": 10,
       "price": 85.91,
-      "costKRW": 1354915,
+      "costKRW": 1329064,
       "costNative": 1003.37,
       "prevClose": 85.9
     },
@@ -118,7 +118,7 @@
       "currency": "USD",
       "shares": 20,
       "price": 55.21,
-      "costKRW": 1535548,
+      "costKRW": 1532946,
       "costNative": 1157.29,
       "prevClose": 55.143
     },
