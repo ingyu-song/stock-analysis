@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-24 09:49",
+  "updatedAt": "2026-10-24 14:58",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -30,6 +30,13 @@
           "outlet": "DigiTimes"
         },
         {
+          "title": "Apple, Google push PCB supply chain toward net zero amid challenges - digitimes",
+          "summary": "Apple, Google push PCB supply chain toward net zero amid challenges  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM3B0OEFVSU5NVWRaNFJtTFVyS1dZZzVmSmJLUzJtOEYtZzBlT0lPczlmYWVNY3ZEdDJvSm5hWEhncjhIZlZJUUF0NHlHZFZaMXBmSlpabEhGanc3bXdwaEpNenZmd1N2Mjg2dlh0MDhYM1lfS0RkWWxnVWtDX1d3T1JhcFFpVTJELTFMdlNBY2tSb0l3?oc=5",
+          "publishedAt": "2026-10-22 12:11",
+          "outlet": "DigiTimes"
+        },
+        {
           "title": "Exclusive: Apple raises iPhone Duo shipment target 44% on strong preorders - digitimes",
           "summary": "Exclusive: Apple raises iPhone Duo shipment target 44% on strong preorders  digitimes",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVHNpRXkxajhrcGNicmxVd0FCTU10MjZLSVhVaUc1ejFvOXRFanBYRlI0eHNrU0dlbDEwb1JfTzNjRlFIcnBiN2IxTDFWRTdmRzBHdGJZYkRXMDlvdng4Y2U3VXBKY1FLT2lwc242OGhiZk01cTZIYzZSUzJRMFNObl9GaEtpaS05ZWNUSVRIT0kza0k?oc=5",
@@ -42,6 +49,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Apple, Google push PCB supply chain toward net zero amid challenges - digitimes",
+          "summary": "Apple, Google push PCB supply chain toward net zero amid challenges  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM3B0OEFVSU5NVWRaNFJtTFVyS1dZZzVmSmJLUzJtOEYtZzBlT0lPczlmYWVNY3ZEdDJvSm5hWEhncjhIZlZJUUF0NHlHZFZaMXBmSlpabEhGanc3bXdwaEpNenZmd1N2Mjg2dlh0MDhYM1lfS0RkWWxnVWtDX1d3T1JhcFFpVTJELTFMdlNBY2tSb0l3?oc=5",
+          "publishedAt": "2026-10-22 12:11",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Google Stops Using Nondisclosure Agreements for Data Centers - The Information",
           "summary": "Google Stops Using Nondisclosure Agreements for Data Centers  The Information",
@@ -61,6 +75,13 @@
           "link": "https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat",
           "publishedAt": "2026-10-24 09:16",
           "outlet": "Axios"
+        },
+        {
+          "title": "Intel begins Arizona Fab 62 equipment installation, advances Ohio project as AI CPU demand surges - digitimes",
+          "summary": "Intel begins Arizona Fab 62 equipment installation, advances Ohio project as AI CPU demand surges  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPSGxHZW50RTBEZ09JMGRrQzhwLTZDcy1TWm42aTdDblZ4czYzZktIYzVjVkJtZ2U2TkxEUXV6WGVMd29HcXpvUWlhMElDdDFnSnRsbVZoX2hUX3I4aVllN2dhMEpPcDhIMzdxbWpXZEVvMVJ6MXNPZ2hsbzlmQmtiSndabUMzWmd6aHZxQ25lYm9zZDhXX3ZNWHk2WQ?oc=5",
+          "publishedAt": "2026-10-22 12:22",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Stocks making the biggest moves premarket: Cleveland-Cliffs, Intel, Datadog, Amazon & more",
