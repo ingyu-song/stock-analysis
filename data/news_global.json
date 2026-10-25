@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25 08:20",
+  "updatedAt": "2026-10-25 13:50",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,37 +9,17 @@
       "name": "애플",
       "items": [
         {
+          "title": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027 - digitimes",
+          "summary": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUGFFUjFtNFdNSkFGYWFYengybmdFV0RmR1FLRm4yYjdpc0VDNzNiZEQ5TWhNRjdwMzZoWTktdWFadEhWWF9FUTVIMDBTVEY0TTZXdkxnQ1hBMjhhRzlXbXZCbGRCUkFEUk95OXhOeEdyd25sSjk1Rm9OWFlqbTczVGU4V3dvYlQ5ci1VdQ?oc=5",
+          "publishedAt": "2026-10-23 11:41",
+          "outlet": "DigiTimes"
+        },
+        {
           "title": "Apple's iPhone Duo and touchscreen MacBook could accelerate OLED TDDI adoption - digitimes",
           "summary": "Apple's iPhone Duo and touchscreen MacBook could accelerate OLED TDDI adoption  digitimes",
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcWFBVUhvODFMN3gzLTNxUzNOTjZjdzYzcW1Yekc3OFNDZlFSYjlpR3A4cEJyZmt4UjYxdTRweklUbFRJYjNlY1huNXlaZEgwOS1ydWFObHl2ejE3VEQzQTExNEZFcXlWQUVUcFNYeGpWRndMOXY0M1kzcnNzd19ySVZBSkFqNnFwRS1FX01B?oc=5",
           "publishedAt": "2026-10-23 11:26",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Apple, Google push PCB supply chain toward net zero amid challenges - digitimes",
-          "summary": "Apple, Google push PCB supply chain toward net zero amid challenges  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM3B0OEFVSU5NVWRaNFJtTFVyS1dZZzVmSmJLUzJtOEYtZzBlT0lPczlmYWVNY3ZEdDJvSm5hWEhncjhIZlZJUUF0NHlHZFZaMXBmSlpabEhGanc3bXdwaEpNenZmd1N2Mjg2dlh0MDhYM1lfS0RkWWxnVWtDX1d3T1JhcFFpVTJELTFMdlNBY2tSb0l3?oc=5",
-          "publishedAt": "2026-10-22 12:11",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Exclusive: Apple raises iPhone Duo shipment target 44% on strong preorders - digitimes",
-          "summary": "Exclusive: Apple raises iPhone Duo shipment target 44% on strong preorders  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVHNpRXkxajhrcGNicmxVd0FCTU10MjZLSVhVaUc1ejFvOXRFanBYRlI0eHNrU0dlbDEwb1JfTzNjRlFIcnBiN2IxTDFWRTdmRzBHdGJZYkRXMDlvdng4Y2U3VXBKY1FLT2lwc242OGhiZk01cTZIYzZSUzJRMFNObl9GaEtpaS05ZWNUSVRIT0kza0k?oc=5",
-          "publishedAt": "2026-10-22 11:51",
-          "outlet": "DigiTimes"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
-        {
-          "title": "Apple, Google push PCB supply chain toward net zero amid challenges - digitimes",
-          "summary": "Apple, Google push PCB supply chain toward net zero amid challenges  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOM3B0OEFVSU5NVWRaNFJtTFVyS1dZZzVmSmJLUzJtOEYtZzBlT0lPczlmYWVNY3ZEdDJvSm5hWEhncjhIZlZJUUF0NHlHZFZaMXBmSlpabEhGanc3bXdwaEpNenZmd1N2Mjg2dlh0MDhYM1lfS0RkWWxnVWtDX1d3T1JhcFFpVTJELTFMdlNBY2tSb0l3?oc=5",
-          "publishedAt": "2026-10-22 12:11",
           "outlet": "DigiTimes"
         }
       ]
