@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25 18:52",
+  "updatedAt": "2026-10-25 23:25",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -28,6 +28,26 @@
           "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcWFBVUhvODFMN3gzLTNxUzNOTjZjdzYzcW1Yekc3OFNDZlFSYjlpR3A4cEJyZmt4UjYxdTRweklUbFRJYjNlY1huNXlaZEgwOS1ydWFObHl2ejE3VEQzQTExNEZFcXlWQUVUcFNYeGpWRndMOXY0M1kzcnNzd19ySVZBSkFqNnFwRS1FX01B?oc=5",
           "publishedAt": "2026-10-23 11:26",
           "outlet": "DigiTimes"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "Chain-reaction chaos threatens to unleash new risks on the world",
+          "summary": "Eye-opening revelations this past week have solidified my personal fears about the year ahead: As a nation and as a globe, we're facing a record number of wild risks that are way outside our control.My growing hunch about this scenario has been bolstered by daily conversations with CEOs, government insiders and top investors.Why it matters: It feels likely — not certain — that between now and 2028",
+          "link": "https://www.axios.com/2026/10/25/ai-cybersecurity-politics-risks-2028",
+          "publishedAt": "2026-10-25 21:55",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Google To Pay Homes and Businesses To Curb Energy Usage - The Information",
+          "summary": "Google To Pay Homes and Businesses To Curb Energy Usage  The Information",
+          "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPUXJFbHFqVnhYLXdCTUJ5RFJXRTAwSENpLUVhWE5TRzZUVDhCSGVBVG9KNHpjQnFYUFhoUWRrNUV4ak4yVzl3cmVHekgxQXozV0Q5UUxROW1MTEVFSHcwMDRGX2ZYcEFia0gzNlFYTXkzS25DUDBzMVU0WFRfZFJ2S29CSzNWSWJDMUptS0NfUQ?oc=5",
+          "publishedAt": "2026-10-23 00:48",
+          "outlet": "The Information"
         }
       ]
     },
