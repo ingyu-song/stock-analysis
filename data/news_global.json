@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25 13:50",
+  "updatedAt": "2026-10-25 18:52",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Why Apple’s MacBook Pro Touch Will Not Change Laptops Forever - Forbes",
+          "summary": "Why Apple’s MacBook Pro Touch Will Not Change Laptops Forever  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOTjhIbVo2dmpqYjlad2ZUQ0VkVW9ONkRqTnJEOEh6T1lET3MxM0JhVEhIeTQtM1ZmdGhGNlhvTkFmUlM4YWtOYmFxbFhCYllvaVM1ZUg0Z0I3Z1hZSGNmWW9Cb0s1dWZmWU5kNEVicnRIVlQ0MmRsTU9zamR1NDhjb1ZqbDB0WnNySDVvZkxzdEJleGJqZkRGNVJUNVRTeGdwNFhFYTQtZWp1OG9oM1VJRmFB?oc=5",
+          "publishedAt": "2026-10-25 06:13",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027 - digitimes",
           "summary": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027  digitimes",
