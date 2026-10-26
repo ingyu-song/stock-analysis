@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26 23:21",
+  "updatedAt": "2026-10-27 05:33",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,24 +9,18 @@
       "name": "애플",
       "items": [
         {
-          "title": "Why Apple’s MacBook Pro Touch Will Not Change Laptops Forever - Forbes",
-          "summary": "Why Apple’s MacBook Pro Touch Will Not Change Laptops Forever  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmk4SDNLR0kzdVZlVmVOTExWNzdSRjNySmM1UVBneTBFUnN4WlgyZjdfbnJxOGdIUVNYUERpcm84SThqX1hvMXR6QjBma19rbDhqTy00ZUVNdW50LWtqcTBUSjFqYTUxS3Nja3pGSHhPT1o0Q0FpWm1aMHE1SWpMLW9MYWJHMWF1RmhEa0NvNXpHbFNaUkNSdDkyd0JmdjJFeEtXUVNJaFVvRGN6M2JqcHpR?oc=5",
-          "publishedAt": "2026-10-26 07:09",
-          "outlet": "Forbes Markets"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
+          "title": "iPhone Duo owners report cracks in Apple’s first foldable handset",
+          "summary": "Company says small number of devices affected by display glitch after posts appear on Reddit and social mediaOwners of the new foldable iPhone are reporting cracks in the device’s screen, as Apple confirmed an issue with a “small number” of units.Reports of cracks have emerged on Reddit and social media platforms since the handset went on general sale globally on Friday. Experts said there had bee",
+          "link": "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
+          "publishedAt": "2026-10-27 04:15",
+          "outlet": "The Guardian Business"
+        },
         {
-          "title": "Chain-reaction chaos threatens to unleash new risks on the world",
-          "summary": "Eye-opening revelations this past week have solidified my personal fears about the year ahead: As a nation and as a globe, we're facing a record number of wild risks that are way outside our control.My growing hunch about this scenario has been bolstered by daily conversations with CEOs, government insiders and top investors.Why it matters: It feels likely — not certain — that between now and 2028",
-          "link": "https://www.axios.com/2026/10/25/ai-cybersecurity-politics-risks-2028",
-          "publishedAt": "2026-10-25 21:55",
-          "outlet": "Axios"
+          "title": "Touchscreen MacBook Pro Puts Apple’s Marketing Playbook To The Test - Forbes",
+          "summary": "Touchscreen MacBook Pro Puts Apple’s Marketing Playbook To The Test  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXdTMzVWcXJyTlYwTXhpNTRla3EwMlMtSFRTd1p6OXJNTUZPVXFucmwxSDBiSk1OY0gwdkhpQnNTa0lQMnlCdjlLSnQ1TDNjTERjQlBSbUhtRkQzc1FTWWJLMUVpNHlXeFV0NUtEbFNwVHExZEZxOGJkaUloNTRtMVRVTDNCcmYtQXoyc1R4Q05jYng0enBsVkdZMVhReDVQTlVvSlUtby1wVTE3a3FxNk9sbXhPMG0wRHVTekpUeVBfM2YxcHc?oc=5",
+          "publishedAt": "2026-10-26 21:10",
+          "outlet": "Forbes Markets"
         }
       ]
     }
