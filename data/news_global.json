@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26 09:26",
+  "updatedAt": "2026-10-26 15:20",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,32 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple seeks more iPhone Duo supplies amid strong demand for debut foldable- report",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/apple-seeks-more-iphone-duo-supplies-amid-strong-demand-for-debut-foldable-report-4971307",
-          "publishedAt": "2026-10-26 08:40",
-          "outlet": "Investing.com"
-        },
-        {
           "title": "Why Apple’s MacBook Pro Touch Will Not Change Laptops Forever - Forbes",
           "summary": "Why Apple’s MacBook Pro Touch Will Not Change Laptops Forever  Forbes",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmk4SDNLR0kzdVZlVmVOTExWNzdSRjNySmM1UVBneTBFUnN4WlgyZjdfbnJxOGdIUVNYUERpcm84SThqX1hvMXR6QjBma19rbDhqTy00ZUVNdW50LWtqcTBUSjFqYTUxS3Nja3pGSHhPT1o0Q0FpWm1aMHE1SWpMLW9MYWJHMWF1RmhEa0NvNXpHbFNaUkNSdDkyd0JmdjJFeEtXUVNJaFVvRGN6M2JqcHpR?oc=5",
           "publishedAt": "2026-10-26 07:09",
           "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027 - digitimes",
-          "summary": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNUGFFUjFtNFdNSkFGYWFYengybmdFV0RmR1FLRm4yYjdpc0VDNzNiZEQ5TWhNRjdwMzZoWTktdWFadEhWWF9FUTVIMDBTVEY0TTZXdkxnQ1hBMjhhRzlXbXZCbGRCUkFEUk95OXhOeEdyd25sSjk1Rm9OWFlqbTczVGU4V3dvYlQ5ci1VdQ?oc=5",
-          "publishedAt": "2026-10-23 11:41",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Apple's iPhone Duo and touchscreen MacBook could accelerate OLED TDDI adoption - digitimes",
-          "summary": "Apple's iPhone Duo and touchscreen MacBook could accelerate OLED TDDI adoption  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOcWFBVUhvODFMN3gzLTNxUzNOTjZjdzYzcW1Yekc3OFNDZlFSYjlpR3A4cEJyZmt4UjYxdTRweklUbFRJYjNlY1huNXlaZEgwOS1ydWFObHl2ejE3VEQzQTExNEZFcXlWQUVUcFNYeGpWRndMOXY0M1kzcnNzd19ySVZBSkFqNnFwRS1FX01B?oc=5",
-          "publishedAt": "2026-10-23 11:26",
-          "outlet": "DigiTimes"
         }
       ]
     },
