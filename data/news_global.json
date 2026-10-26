@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26 15:20",
+  "updatedAt": "2026-10-26 23:21",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -26,26 +26,6 @@
           "summary": "Eye-opening revelations this past week have solidified my personal fears about the year ahead: As a nation and as a globe, we're facing a record number of wild risks that are way outside our control.My growing hunch about this scenario has been bolstered by daily conversations with CEOs, government insiders and top investors.Why it matters: It feels likely — not certain — that between now and 2028",
           "link": "https://www.axios.com/2026/10/25/ai-cybersecurity-politics-risks-2028",
           "publishedAt": "2026-10-25 21:55",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Alphabet, Microsoft And Amazon Lead The Busiest Week Of Earnings Season - Forbes",
-          "summary": "Alphabet, Microsoft And Amazon Lead The Busiest Week Of Earnings Season  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNejc2bTI5S0tyekp3bHVMcnhSNk9TUHR3QXJpeldDM0lqcXJ5X2JKZ0loY3NyR2w1X3FtZlFOc2puRG8tQ25zNEIyOWpZVTJfakJPSGtKX0hQSEhQdTJ6cXFJamNQY2xQN1pram5RTWJUR2E1T3g5M3hMOGZCdkVNTmhNS1NPa1ZQVDZKQU5CZm1FX0JMdzZmVzdaMnVUaUxaZWhWTE1YU0xGTDJMOV80eGhFWEhrM09oV3c?oc=5",
-          "publishedAt": "2026-10-25 20:00",
-          "outlet": "Forbes Markets"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "Scoop: U.S. intel memo warns of \"advanced\" Iranian plots to kill officials abroad",
-          "summary": "U.S. intelligence finds Iran has \"substantially increased\" its efforts to target American diplomats and officials in the Middle East and beyond, with lethal plots reaching \"advanced stages,\" according to an Oct. 23 memo to Secretary of State Marco Rubio obtained by Axios.Why it matters: U.S. officials say the intelligence is one reason the State Department is drawing down personnel at several Amer",
-          "link": "https://www.axios.com/2026/10/24/iran-war-us-embassies-evacuations-threat",
-          "publishedAt": "2026-10-24 09:16",
           "outlet": "Axios"
         }
       ]
