@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26 06:51",
+  "updatedAt": "2026-10-26 09:26",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,20 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple seeks more iPhone Duo supplies amid strong demand for debut foldable- report",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apple-seeks-more-iphone-duo-supplies-amid-strong-demand-for-debut-foldable-report-4971307",
+          "publishedAt": "2026-10-26 08:40",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Why Apple’s MacBook Pro Touch Will Not Change Laptops Forever - Forbes",
+          "summary": "Why Apple’s MacBook Pro Touch Will Not Change Laptops Forever  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQdmk4SDNLR0kzdVZlVmVOTExWNzdSRjNySmM1UVBneTBFUnN4WlgyZjdfbnJxOGdIUVNYUERpcm84SThqX1hvMXR6QjBma19rbDhqTy00ZUVNdW50LWtqcTBUSjFqYTUxS3Nja3pGSHhPT1o0Q0FpWm1aMHE1SWpMLW9MYWJHMWF1RmhEa0NvNXpHbFNaUkNSdDkyd0JmdjJFeEtXUVNJaFVvRGN6M2JqcHpR?oc=5",
+          "publishedAt": "2026-10-26 07:09",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027 - digitimes",
           "summary": "Apple's foldable iPhone Duo launches in China with delivery stretching into 2027  digitimes",
@@ -34,6 +48,13 @@
           "link": "https://www.axios.com/2026/10/25/ai-cybersecurity-politics-risks-2028",
           "publishedAt": "2026-10-25 21:55",
           "outlet": "Axios"
+        },
+        {
+          "title": "Alphabet, Microsoft And Amazon Lead The Busiest Week Of Earnings Season - Forbes",
+          "summary": "Alphabet, Microsoft And Amazon Lead The Busiest Week Of Earnings Season  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNejc2bTI5S0tyekp3bHVMcnhSNk9TUHR3QXJpeldDM0lqcXJ5X2JKZ0loY3NyR2w1X3FtZlFOc2puRG8tQ25zNEIyOWpZVTJfakJPSGtKX0hQSEhQdTJ6cXFJamNQY2xQN1pram5RTWJUR2E1T3g5M3hMOGZCdkVNTmhNS1NPa1ZQVDZKQU5CZm1FX0JMdzZmVzdaMnVUaUxaZWhWTE1YU0xGTDJMOV80eGhFWEhrM09oV3c?oc=5",
+          "publishedAt": "2026-10-25 20:00",
+          "outlet": "Forbes Markets"
         }
       ]
     },
