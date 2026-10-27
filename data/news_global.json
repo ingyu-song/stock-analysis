@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28 04:27",
+  "updatedAt": "2026-10-28 08:48",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -29,11 +29,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Microsoft, Google, Ford and more set to report earnings Wednesday",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/microsoft-google-ford-and-more-set-to-report-earnings-wednesday-93CH-4976592",
-          "publishedAt": "2026-10-28 03:01",
-          "outlet": "Investing.com"
+          "title": "Oracle To Start Running Google TPUs in Its Cloud - The Information",
+          "summary": "Oracle To Start Running Google TPUs in Its Cloud  The Information",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTVNDb09uZ1pEMTd6aE83R05xVDAtZE16MlZRZE1lNW54VE8xcGJnbnFucXd6d3NhcDRLX2cyNGkyd19NVzZUTlQ4czcxbFRPcFA4eGdrelVvQ290c285VDlSbU13XzM4SE03d29uTGprU3JyMVpqbVRoNWtwbV84ZFcwWnRUZw?oc=5",
+          "publishedAt": "2026-10-28 02:42",
+          "outlet": "The Information"
         },
         {
           "title": "Microsoft Issues Emergency Patch For Critical Google Algorithm Flaw - Forbes",
@@ -41,13 +41,6 @@
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYlNRbk9pYTlnNXRTNWdQTG1tUkUxcUt0UldCVTFCTzR4QVJLYlE1NDBrTXhrek5KY1ZUZ0dqM1p1b1RGRTJpdWg3dHQwX0pvS09iMlNpMHBGR2pqX3JCYnhJYmx1NUR4TVItdmNQRExET1R1M281Nm5fUzlwTlY4NE1nUV81dHBJdkx2ZDNmT21JcmxvUmVwOHJiU0hrd0NGdk90MThxRW9reTVGc2p0eVBGUjZHdDYyeXdEZg?oc=5",
           "publishedAt": "2026-10-27 22:39",
           "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Inside Anthropic's massive — and wild — IPO prospectus",
-          "summary": "There has never been a company like Anthropic.It owes almost $650 billion for computing, generates eye-popping revenue per employee and wants every investor to know that its product poses existential risks to humanity.Why it matters: The future of the AI race, the market and the global economy rest within Anthropic's IPO prospectus, where some of Silicon Valley's most seasoned investors found new ",
-          "link": "https://www.axios.com/2026/10/26/anthropic-ipo-biggest-surprises",
-          "publishedAt": "2026-10-27 07:58",
-          "outlet": "Axios"
         }
       ]
     },
