@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27 09:31",
+  "updatedAt": "2026-10-27 15:21",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,20 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple says it will replace iPhone Duo units showing screen problems",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/apple-says-it-will-replace-iphone-duo-units-showing-screen-problems-4973703",
+          "publishedAt": "2026-10-27 14:19",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Apple says it will replace iPhone Duo handsets with screen problems",
+          "summary": "Photos shared online showed faults appearing on the screens of Apple's first foldable device.",
+          "link": "https://www.bbc.co.uk/news/articles/c893zwlev2xpo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-27 10:48",
+          "outlet": "BBC Business"
+        },
         {
           "title": "iPhone Duo owners report cracks in Apple’s first foldable handset",
           "summary": "Company says small number of devices affected by display glitch after posts appear on Reddit and social mediaOwners of the new foldable iPhone are reporting cracks in the device’s screen, as Apple confirmed an issue with a “small number” of units.Reports of cracks have emerged on Reddit and social media platforms since the handset went on general sale globally on Friday. Experts said there had bee",
