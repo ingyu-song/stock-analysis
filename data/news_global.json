@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27 05:33",
+  "updatedAt": "2026-10-27 09:31",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,6 +21,19 @@
           "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXdTMzVWcXJyTlYwTXhpNTRla3EwMlMtSFRTd1p6OXJNTUZPVXFucmwxSDBiSk1OY0gwdkhpQnNTa0lQMnlCdjlLSnQ1TDNjTERjQlBSbUhtRkQzc1FTWWJLMUVpNHlXeFV0NUtEbFNwVHExZEZxOGJkaUloNTRtMVRVTDNCcmYtQXoyc1R4Q05jYng0enBsVkdZMVhReDVQTlVvSlUtby1wVTE3a3FxNk9sbXhPMG0wRHVTekpUeVBfM2YxcHc?oc=5",
           "publishedAt": "2026-10-26 21:10",
           "outlet": "Forbes Markets"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "Inside Anthropic's massive — and wild — IPO prospectus",
+          "summary": "There has never been a company like Anthropic.It owes almost $650 billion for computing, generates eye-popping revenue per employee and wants every investor to know that its product poses existential risks to humanity.Why it matters: The future of the AI race, the market and the global economy rest within Anthropic's IPO prospectus, where some of Silicon Valley's most seasoned investors found new ",
+          "link": "https://www.axios.com/2026/10/26/anthropic-ipo-biggest-surprises",
+          "publishedAt": "2026-10-27 07:58",
+          "outlet": "Axios"
         }
       ]
     }
