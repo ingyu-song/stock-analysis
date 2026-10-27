@@ -1,105 +1,124 @@
 {
-  "generatedAt": "2026-10-24 09:53",
+  "generatedAt": "2026-10-27 10:33",
   "model": "claude-sonnet-5",
   "windowDays": 6,
   "moves": {
     "379800.KS": {
       "name": "KODEX 미국S&P500",
-      "changePct": -0.35,
-      "session": "2026-10-23",
-      "reason": "같은 날 S&P500이 -0.52% 내린 것과 비슷하게 하락해 기초지수 하락에 따른 시장 영향으로 보임.",
+      "changePct": 0.95,
+      "session": "2026-10-27",
+      "reason": "코스피가 4.33% 급등한 날 미국 S&P500 추종 ETF도 함께 상승해 시장 전반의 강세 영향으로 보임.",
       "basis": "market",
       "sources": []
     },
     "379810.KS": {
       "name": "KODEX 미국나스닥100",
-      "changePct": -1.03,
-      "session": "2026-10-23",
-      "reason": "같은 날 나스닥100은 거의 보합(-0.00%)이었음에도 ETF는 -1.03% 하락해 기사로 확인되는 뚜렷한 원인은 없음.",
-      "basis": "none",
+      "changePct": 1.48,
+      "session": "2026-10-27",
+      "reason": "코스피가 4.33% 급등한 날 나스닥100 추종 ETF도 함께 상승해 시장 전반의 강세 영향으로 보임.",
+      "basis": "market",
       "sources": []
     },
     "AAPL": {
       "name": "애플",
-      "changePct": -0.25,
-      "session": "2026-10-22",
-      "reason": "같은 날 나스닥100(-2.90%)·반도체(-6.72%) 등 기술주 전반이 메타의 AI 투자 우려로 급락한 가운데 애플은 상대적으로 선방하며 소폭(-0.25%) 하락에 그침.",
-      "basis": "market",
-      "sources": []
+      "changePct": -1.06,
+      "session": "2026-10-26",
+      "reason": "폴더블 아이폰 듀오의 화면 균열 불만 확산과 중국 판매 둔화 우려, 차익 실현 매물 등이 겹치며 S&P500·나스닥 상승에도 애플만 홀로 하락했다.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "[미국 특징주] 애플 폴더블 '아이폰 듀오', 출시 사흘 만에 화면 균열 불...",
+          "link": "https://www.newspim.com/news/view/20261027000042",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-27 08:07"
+        },
+        {
+          "title": "iPhone Duo owners report cracks in Apple’s first foldable handset",
+          "link": "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
+          "outlet": "The Guardian Business",
+          "publishedAt": "2026-10-27 04:15"
+        }
+      ]
     },
     "SONY": {
       "name": "소니 그룹 (ADR)",
-      "changePct": 0.09,
-      "session": "2026-10-22",
+      "changePct": 0.12,
+      "session": "2026-10-26",
       "reason": "큰 변동 없음.",
       "basis": "none",
       "sources": []
     },
     "PG": {
       "name": "프록터 앤드 갬블",
-      "changePct": -2.85,
-      "session": "2026-10-22",
-      "reason": "이날 기술주 급락 속 대형 기술주 차익실현 자금이 필수소비재로 이동했다는 보도가 있었으나, 동시에 실적 호조(매출 전망 상향) 보도와 함께 다른 기사에서는 5.58% 상승했다는 상반된 수치가 보여 혼란스러우며 명확한 하락 원인은 확인되지 않음.",
+      "changePct": -0.61,
+      "session": "2026-10-26",
+      "reason": "여러 애널리스트의 목표가 상향 소식에도 불구하고 소폭 하락했으며, 뉴스로 확인된 뚜렷한 하락 원인은 없음.",
       "basis": "none",
       "sources": []
     },
     "GOOGL": {
       "name": "알파벳 A",
-      "changePct": -1.26,
-      "session": "2026-10-22",
-      "reason": "메타의 대규모 AI 투자 부담 우려가 알파벳 등 빅테크 전반으로 번지며 나스닥100(-2.90%)과 함께 하락한 것으로 보임.",
+      "changePct": -1.35,
+      "session": "2026-10-26",
+      "reason": "이번 주 예정된 3분기 실적 발표를 앞둔 경계감과 대규모 증자에 따른 지분 희석 우려 등으로 빅테크 중 홀로 하락했다.",
       "basis": "news",
       "sources": [
         {
-          "title": "공짜로 '뮤즈' 뿌리던 메타…1100조 베팅 역풍에 주가 '털썩'",
-          "link": "https://www.hankyung.com/article/2026102318441",
+          "title": "엔비디아·인텔 반등 속… 홀로 밀려난 '이곳'",
+          "link": "https://www.wikitree.co.kr/articles/1169375",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-23 18:06"
+          "publishedAt": "2026-10-27 08:50"
         },
         {
-          "title": "빅테크로 번진 AI 투자 부담… 메타 ’1155조원 AI 청구서’에 주가 급락",
-          "link": "https://biz.chosun.com/it-science/ict/2026/10/23/ID2KZQTUWVBLXOH2YTVE5LGX5I/?utm_source=naver&utm_medium=original&utm_campaign=biz",
+          "title": "[굿모닝! 글로벌 뉴욕증시] 앤트로픽 IPO에 AI 투심 부활…반도체주 일...",
+          "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=303450",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-23 16:22"
+          "publishedAt": "2026-10-27 08:20"
+        },
+        {
+          "title": "메타, AI 인프라 투자 위해 950억달러 조달...반도체·데이터센터 투자 ...",
+          "link": "https://www.m-economynews.com/news/article.html?no=72149",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-27 07:52"
         }
       ]
     },
     "CRCL": {
       "name": "서클 인터넷 그룹",
-      "changePct": 0.01,
-      "session": "2026-10-22",
-      "reason": "큰 변동 없음.",
+      "changePct": -6.86,
+      "session": "2026-10-26",
+      "reason": "나스닥100이 1.09% 상승한 날 서클인터넷그룹만 6.86% 급락했으나, 이를 직접 설명하는 뉴스는 확인되지 않음(목표가 제시 기사만 존재).",
       "basis": "none",
       "sources": []
     },
     "012450.KS": {
       "name": "한화에어로스페이스",
-      "changePct": -2.46,
-      "session": "2026-10-23",
-      "reason": "3분기 실적이 기대치를 밑돌 것이라는 전망이 보도되며 주가가 하락한 것으로 보임.",
+      "changePct": 2.9,
+      "session": "2026-10-27",
+      "reason": "코스피 급등 속 방산·산업재 업종 전반이 동반 강세를 보이며 한화에어로스페이스도 함께 상승했다.",
       "basis": "news",
       "sources": [
         {
-          "title": "K-방산, 추가 계약 이어가려면…\"현지화 전략 중요\"",
-          "link": "http://www.yonhapnewstv.co.kr/news/MYH20261024085441QQa",
+          "title": "코스피 5,670선 돌파…삼전·SK하이닉스 급등에 반도체株 폭발",
+          "link": "http://www.newskr.kr/news/articleView.html?idxno=107469",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-24 08:55"
+          "publishedAt": "2026-10-27 09:28"
         }
       ]
     },
     "GPIQ": {
       "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
-      "changePct": 0.12,
-      "session": "2026-10-22",
-      "reason": "큰 변동 없음.",
-      "basis": "none",
+      "changePct": 0.96,
+      "session": "2026-10-26",
+      "reason": "나스닥100이 1.09% 상승한 날 나스닥100 연계 프리미엄 인컴 ETF도 함께 상승해 시장 영향으로 보임.",
+      "basis": "market",
       "sources": []
     },
     "108490.KQ": {
       "name": "로보티즈",
-      "changePct": -3.85,
-      "session": "2026-10-23",
-      "reason": "뉴스로 확인된 뚜렷한 원인은 없음.",
+      "changePct": 0.2,
+      "session": "2026-10-27",
+      "reason": "큰 변동 없음.",
       "basis": "none",
       "sources": []
     }
