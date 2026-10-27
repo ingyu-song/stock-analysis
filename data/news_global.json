@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-27 15:21",
+  "updatedAt": "2026-10-27 22:18",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,32 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple says it will replace iPhone Duo units showing screen problems",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/apple-says-it-will-replace-iphone-duo-units-showing-screen-problems-4973703",
-          "publishedAt": "2026-10-27 14:19",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "Apple says it will replace iPhone Duo handsets with screen problems",
+          "title": "Apple to replace iPhone Duos affected by screen problem",
           "summary": "Photos shared online showed faults appearing on the screens of Apple's first foldable device.",
           "link": "https://www.bbc.co.uk/news/articles/c893zwlev2xpo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-27 10:48",
+          "publishedAt": "2026-10-27 18:37",
           "outlet": "BBC Business"
-        },
-        {
-          "title": "iPhone Duo owners report cracks in Apple’s first foldable handset",
-          "summary": "Company says small number of devices affected by display glitch after posts appear on Reddit and social mediaOwners of the new foldable iPhone are reporting cracks in the device’s screen, as Apple confirmed an issue with a “small number” of units.Reports of cracks have emerged on Reddit and social media platforms since the handset went on general sale globally on Friday. Experts said there had bee",
-          "link": "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
-          "publishedAt": "2026-10-27 04:15",
-          "outlet": "The Guardian Business"
-        },
-        {
-          "title": "Touchscreen MacBook Pro Puts Apple’s Marketing Playbook To The Test - Forbes",
-          "summary": "Touchscreen MacBook Pro Puts Apple’s Marketing Playbook To The Test  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPaXdTMzVWcXJyTlYwTXhpNTRla3EwMlMtSFRTd1p6OXJNTUZPVXFucmwxSDBiSk1OY0gwdkhpQnNTa0lQMnlCdjlLSnQ1TDNjTERjQlBSbUhtRkQzc1FTWWJLMUVpNHlXeFV0NUtEbFNwVHExZEZxOGJkaUloNTRtMVRVTDNCcmYtQXoyc1R4Q05jYng0enBsVkdZMVhReDVQTlVvSlUtby1wVTE3a3FxNk9sbXhPMG0wRHVTekpUeVBfM2YxcHc?oc=5",
-          "publishedAt": "2026-10-26 21:10",
-          "outlet": "Forbes Markets"
         }
       ]
     },
@@ -48,6 +27,19 @@
           "link": "https://www.axios.com/2026/10/26/anthropic-ipo-biggest-surprises",
           "publishedAt": "2026-10-27 07:58",
           "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Server CPU shipments to exceed 50 million units in 2027; AMD's server CPU revenue will surpass Intel - digitimes",
+          "summary": "Server CPU shipments to exceed 50 million units in 2027; AMD's server CPU revenue will surpass Intel  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfdGRYYkNfZVlsRWd3aWV5RzRRV2Jqam8tT3ZfQTF2bWJmYTVzSjR3SXFoamtqRGdvS2ZsN2pVOEtPV1FkZ29JSDFKQWQzZFhKcjhkbk1RVVpROTlydmhvUnNaMU5LYlFzTVU0?oc=5",
+          "publishedAt": "2026-10-27 14:56",
+          "outlet": "DigiTimes"
         }
       ]
     }
