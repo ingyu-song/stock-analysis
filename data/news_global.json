@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28 14:51",
+  "updatedAt": "2026-10-28 22:05",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,10 +9,10 @@
       "name": "애플",
       "items": [
         {
-          "title": "CXMT reportedly prioritizes China demand, rejecting Apple's DRAM inquiry - digitimes",
-          "summary": "CXMT reportedly prioritizes China demand, rejecting Apple's DRAM inquiry  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa0xCcTFNS0JycHkxM0VMZVlRUG1McF9xZmJGWVBmQkttaW8xV2dxaHUzQjhNMXBkbmE1T3g5OG53aVM5Z0NaSEw1RXlSUlowNERDN0gwWjBTaHNmV1YzR0E4dng2RXM1TjhTVWpYYy1WMzBvazlUbjBrcVVneXhwUmoyZE1LMGdzcGc?oc=5",
-          "publishedAt": "2026-10-28 09:37",
+          "title": "Apple leans on AI silicon as reviewers call its Mac refresh incremental, question iPad mini pricing - digitimes",
+          "summary": "Apple leans on AI silicon as reviewers call its Mac refresh incremental, question iPad mini pricing  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0dqOEdKYk8wSVZyTjFBNmcxMTJyQlRTRmMtWGtaeTNTQjd0X09PNmlSUDFIVEtTb2JnckthZ1gyN1NCUmlrcVZ2LW9oelJLaVY5NENKR3IxMzBIZEVuV3laRjV6czZ3bm5OSjRJVmtpVVJpeW9pR1RPOXdhOWZTVy12eEpJUmVxRlZUR1o4Q0RTSDNRWG1R?oc=5",
+          "publishedAt": "2026-10-28 10:12",
           "outlet": "DigiTimes"
         },
         {
@@ -28,6 +28,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Investors Brace for Big Tech’s A.I. Spending Bill",
+          "summary": "Tech stocks have rebounded before pivotal earnings reports from artificial intelligence hyperscalers like Google and Microsoft.",
+          "link": "https://www.nytimes.com/2026/10/28/business/dealbook/ai-spending-quarterly-results-amazon-microsoft.html",
+          "publishedAt": "2026-10-28 20:48",
+          "outlet": "NYT Business"
+        },
         {
           "title": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips - The Information",
           "summary": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips  The Information",
