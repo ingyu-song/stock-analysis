@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28 22:05",
+  "updatedAt": "2026-10-29 03:53",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,13 +14,6 @@
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0dqOEdKYk8wSVZyTjFBNmcxMTJyQlRTRmMtWGtaeTNTQjd0X09PNmlSUDFIVEtTb2JnckthZ1gyN1NCUmlrcVZ2LW9oelJLaVY5NENKR3IxMzBIZEVuV3laRjV6czZ3bm5OSjRJVmtpVVJpeW9pR1RPOXdhOWZTVy12eEpJUmVxRlZUR1o4Q0RTSDNRWG1R?oc=5",
           "publishedAt": "2026-10-28 10:12",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Apple to replace iPhone Duos affected by screen problem",
-          "summary": "Photos shared online showed faults appearing on the screens of Apple's first foldable device.",
-          "link": "https://www.bbc.co.uk/news/articles/c893zwlev2xpo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-27 18:37",
-          "outlet": "BBC Business"
         }
       ]
     },
@@ -29,11 +22,18 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Investors Brace for Big Tech’s A.I. Spending Bill",
-          "summary": "Tech stocks have rebounded before pivotal earnings reports from artificial intelligence hyperscalers like Google and Microsoft.",
-          "link": "https://www.nytimes.com/2026/10/28/business/dealbook/ai-spending-quarterly-results-amazon-microsoft.html",
-          "publishedAt": "2026-10-28 20:48",
-          "outlet": "NYT Business"
+          "title": "Google launches Gemini 4 Carbon AI model with cybersecurity focus",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/google-launches-gemini-4-carbon-ai-model-with-cybersecurity-focus-4980426",
+          "publishedAt": "2026-10-29 03:18",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Google's AI chip business is getting harder for Nvidia to ignore",
+          "summary": "",
+          "link": "https://www.businessinsider.com/google-ai-chip-business-oracle-tpus-nvidia-threat-anthropic-openai-2026-10",
+          "publishedAt": "2026-10-29 01:30",
+          "outlet": "Business Insider Markets"
         },
         {
           "title": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips - The Information",
@@ -48,13 +48,6 @@
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTVNDb09uZ1pEMTd6aE83R05xVDAtZE16MlZRZE1lNW54VE8xcGJnbnFucXd6d3NhcDRLX2cyNGkyd19NVzZUTlQ4czcxbFRPcFA4eGdrelVvQ290c285VDlSbU13XzM4SE03d29uTGprU3JyMVpqbVRoNWtwbV84ZFcwWnRUZw?oc=5",
           "publishedAt": "2026-10-28 02:42",
           "outlet": "The Information"
-        },
-        {
-          "title": "Microsoft Issues Emergency Patch For Critical Google Algorithm Flaw - Forbes",
-          "summary": "Microsoft Issues Emergency Patch For Critical Google Algorithm Flaw  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPYlNRbk9pYTlnNXRTNWdQTG1tUkUxcUt0UldCVTFCTzR4QVJLYlE1NDBrTXhrek5KY1ZUZ0dqM1p1b1RGRTJpdWg3dHQwX0pvS09iMlNpMHBGR2pqX3JCYnhJYmx1NUR4TVItdmNQRExET1R1M281Nm5fUzlwTlY4NE1nUV81dHBJdkx2ZDNmT21JcmxvUmVwOHJiU0hrd0NGdk90MThxRW9reTVGc2p0eVBGUjZHdDYyeXdEZg?oc=5",
-          "publishedAt": "2026-10-27 22:39",
-          "outlet": "Forbes Markets"
         }
       ]
     },
