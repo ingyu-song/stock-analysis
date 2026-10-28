@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-28 08:48",
+  "updatedAt": "2026-10-28 14:51",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple hit by ‘Crackgate’ outcry over iPhone Duo screen problems",
-          "summary": "Claims of flaws in Big Tech company’s first foldable smartphone are a setback for new chief executive John Ternus",
-          "link": "https://www.ft.com/content/324875fb-8631-4339-8516-6057de9ac085?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-28 02:55",
-          "outlet": "Financial Times"
+          "title": "CXMT reportedly prioritizes China demand, rejecting Apple's DRAM inquiry - digitimes",
+          "summary": "CXMT reportedly prioritizes China demand, rejecting Apple's DRAM inquiry  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa0xCcTFNS0JycHkxM0VMZVlRUG1McF9xZmJGWVBmQkttaW8xV2dxaHUzQjhNMXBkbmE1T3g5OG53aVM5Z0NaSEw1RXlSUlowNERDN0gwWjBTaHNmV1YzR0E4dng2RXM1TjhTVWpYYy1WMzBvazlUbjBrcVVneXhwUmoyZE1LMGdzcGc?oc=5",
+          "publishedAt": "2026-10-28 09:37",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Apple to replace iPhone Duos affected by screen problem",
@@ -29,8 +29,15 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Oracle To Start Running Google TPUs in Its Cloud - The Information",
-          "summary": "Oracle To Start Running Google TPUs in Its Cloud  The Information",
+          "title": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips - The Information",
+          "summary": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips  The Information",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHVUUUdOMmpGd3dxdWhJS0t6c3FlVmh1eXg1ckptWEFhX2JGbVByMGozdHZRQks4YUV0dzM2dWI0Tm05cmlXcG53Q09IYXNJYlFab3BjV0NSVnNoR05TQXFLQ2thQlV0OVFWdDJyM2wzOFVCdG13X0hsSHVQNFRTQ2hGNThFeFJjeWhqMlZLTW1RQ1RUNVU4UnBtMU93eEk?oc=5",
+          "publishedAt": "2026-10-28 08:59",
+          "outlet": "The Information"
+        },
+        {
+          "title": "Google to Sell AI Chips to OpenAI, Oracle - The Information",
+          "summary": "Google to Sell AI Chips to OpenAI, Oracle  The Information",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPTVNDb09uZ1pEMTd6aE83R05xVDAtZE16MlZRZE1lNW54VE8xcGJnbnFucXd6d3NhcDRLX2cyNGkyd19NVzZUTlQ4czcxbFRPcFA4eGdrelVvQ290c285VDlSbU13XzM4SE03d29uTGprU3JyMVpqbVRoNWtwbV84ZFcwWnRUZw?oc=5",
           "publishedAt": "2026-10-28 02:42",
           "outlet": "The Information"
