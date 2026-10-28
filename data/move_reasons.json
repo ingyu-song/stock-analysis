@@ -1,124 +1,92 @@
 {
-  "generatedAt": "2026-10-27 10:33",
+  "generatedAt": "2026-10-28 10:30",
   "model": "claude-sonnet-5",
   "windowDays": 6,
   "moves": {
     "379800.KS": {
       "name": "KODEX 미국S&P500",
-      "changePct": 0.95,
-      "session": "2026-10-27",
-      "reason": "코스피가 4.33% 급등한 날 미국 S&P500 추종 ETF도 함께 상승해 시장 전반의 강세 영향으로 보임.",
+      "changePct": 1.29,
+      "session": "2026-10-28",
+      "reason": "같은 날 KOSPI가 +8.19% 급등하고 S&P500 추종 ETF 특성상 전일 미국 증시 상승이 반영되며 함께 올라 시장 영향으로 보임.",
       "basis": "market",
       "sources": []
     },
     "379810.KS": {
       "name": "KODEX 미국나스닥100",
-      "changePct": 1.48,
-      "session": "2026-10-27",
-      "reason": "코스피가 4.33% 급등한 날 나스닥100 추종 ETF도 함께 상승해 시장 전반의 강세 영향으로 보임.",
+      "changePct": 2.26,
+      "session": "2026-10-28",
+      "reason": "같은 날 KOSPI가 +8.19% 급등한 가운데 나스닥100 추종 ETF로서 전일 미국 나스닥 강세가 반영되어 함께 오른 것으로 보임.",
       "basis": "market",
       "sources": []
     },
     "AAPL": {
       "name": "애플",
-      "changePct": -1.06,
+      "changePct": 1.03,
       "session": "2026-10-26",
-      "reason": "폴더블 아이폰 듀오의 화면 균열 불만 확산과 중국 판매 둔화 우려, 차익 실현 매물 등이 겹치며 S&P500·나스닥 상승에도 애플만 홀로 하락했다.",
-      "basis": "news",
-      "sources": [
-        {
-          "title": "[미국 특징주] 애플 폴더블 '아이폰 듀오', 출시 사흘 만에 화면 균열 불...",
-          "link": "https://www.newspim.com/news/view/20261027000042",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-27 08:07"
-        },
-        {
-          "title": "iPhone Duo owners report cracks in Apple’s first foldable handset",
-          "link": "https://www.theguardian.com/technology/2026/oct/26/iphone-duo-owners-cracks-apple-first-foldable-handset",
-          "outlet": "The Guardian Business",
-          "publishedAt": "2026-10-27 04:15"
-        }
-      ]
+      "reason": "같은 날 나스닥100(+1.09%)과 S&P500(+0.70%)이 함께 상승해 시장 전반의 강세 영향으로 보임.",
+      "basis": "market",
+      "sources": []
     },
     "SONY": {
       "name": "소니 그룹 (ADR)",
-      "changePct": 0.12,
+      "changePct": -1.5,
       "session": "2026-10-26",
-      "reason": "큰 변동 없음.",
+      "reason": "같은 날 S&P500·나스닥100 등 미국 증시는 상승했음에도 소니는 하락해 뉴스로 확인된 뚜렷한 원인은 없음.",
       "basis": "none",
       "sources": []
     },
     "PG": {
       "name": "프록터 앤드 갬블",
-      "changePct": -0.61,
+      "changePct": -0.43,
       "session": "2026-10-26",
-      "reason": "여러 애널리스트의 목표가 상향 소식에도 불구하고 소폭 하락했으며, 뉴스로 확인된 뚜렷한 하락 원인은 없음.",
+      "reason": "여러 월가 애널리스트의 목표가 상향 소식에도 주가는 소폭 하락해 변동폭이 크지 않아 큰 변동 없음.",
       "basis": "none",
       "sources": []
     },
     "GOOGL": {
       "name": "알파벳 A",
-      "changePct": -1.35,
+      "changePct": 0.83,
       "session": "2026-10-26",
-      "reason": "이번 주 예정된 3분기 실적 발표를 앞둔 경계감과 대규모 증자에 따른 지분 희석 우려 등으로 빅테크 중 홀로 하락했다.",
-      "basis": "news",
-      "sources": [
-        {
-          "title": "엔비디아·인텔 반등 속… 홀로 밀려난 '이곳'",
-          "link": "https://www.wikitree.co.kr/articles/1169375",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-27 08:50"
-        },
-        {
-          "title": "[굿모닝! 글로벌 뉴욕증시] 앤트로픽 IPO에 AI 투심 부활…반도체주 일...",
-          "link": "https://www.newsquest.co.kr/news/articleView.html?idxno=303450",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-27 08:20"
-        },
-        {
-          "title": "메타, AI 인프라 투자 위해 950억달러 조달...반도체·데이터센터 투자 ...",
-          "link": "https://www.m-economynews.com/news/article.html?no=72149",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-27 07:52"
-        }
-      ]
+      "reason": "같은 날 나스닥100(+1.09%)과 S&P500(+0.70%) 상승과 함께 올라 시장 영향으로 보임.",
+      "basis": "market",
+      "sources": []
     },
     "CRCL": {
       "name": "서클 인터넷 그룹",
-      "changePct": -6.86,
+      "changePct": 1.61,
       "session": "2026-10-26",
-      "reason": "나스닥100이 1.09% 상승한 날 서클인터넷그룹만 6.86% 급락했으나, 이를 직접 설명하는 뉴스는 확인되지 않음(목표가 제시 기사만 존재).",
-      "basis": "none",
+      "reason": "같은 날 나스닥100(+1.09%)이 상승한 가운데 스테이블코인 인프라 확대 소식도 있었으나 이 기사가 당일 주가 상승을 직접 설명하지는 않아 시장 영향으로 보임.",
+      "basis": "market",
       "sources": []
     },
     "012450.KS": {
       "name": "한화에어로스페이스",
-      "changePct": 2.9,
-      "session": "2026-10-27",
-      "reason": "코스피 급등 속 방산·산업재 업종 전반이 동반 강세를 보이며 한화에어로스페이스도 함께 상승했다.",
-      "basis": "news",
+      "changePct": 1.95,
+      "session": "2026-10-28",
+      "reason": "같은 날 KOSPI가 +8.19% 급등한 가운데 외국인 순매수세까지 더해져 함께 상승한 것으로 보임.",
+      "basis": "market",
       "sources": [
         {
-          "title": "코스피 5,670선 돌파…삼전·SK하이닉스 급등에 반도체株 폭발",
-          "link": "http://www.newskr.kr/news/articleView.html?idxno=107469",
+          "title": "\"하이닉스 실적 앞두고 엇갈린 外人\"…삼성 사고 SK 팔았다",
+          "link": "https://www.newsis.com/view/NISX20261027_0003843370",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-27 09:28"
+          "publishedAt": "2026-10-28 07:00"
         }
       ]
     },
     "GPIQ": {
       "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
-      "changePct": 0.96,
+      "changePct": 0.98,
       "session": "2026-10-26",
-      "reason": "나스닥100이 1.09% 상승한 날 나스닥100 연계 프리미엄 인컴 ETF도 함께 상승해 시장 영향으로 보임.",
+      "reason": "같은 날 나스닥100(+1.09%)이 상승했고 나스닥100 연계 인컴 ETF 특성상 기초지수 상승이 반영된 것으로 보임.",
       "basis": "market",
       "sources": []
     },
     "108490.KQ": {
       "name": "로보티즈",
-      "changePct": 0.2,
-      "session": "2026-10-27",
-      "reason": "큰 변동 없음.",
+      "changePct": 11.16,
+      "session": "2026-10-28",
+      "reason": "같은 날 KOSPI가 +8.19% 급등한 가운데 로보티즈는 이보다 훨씬 큰 폭으로 올라 시장 영향만으로 설명하기 어렵고 뉴스로 확인된 뚜렷한 원인도 없음.",
       "basis": "none",
       "sources": []
     }
