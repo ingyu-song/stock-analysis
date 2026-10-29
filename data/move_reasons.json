@@ -1,93 +1,150 @@
 {
-  "generatedAt": "2026-10-28 10:30",
+  "generatedAt": "2026-10-29 10:53",
   "model": "claude-sonnet-5",
   "windowDays": 6,
   "moves": {
     "379800.KS": {
       "name": "KODEX 미국S&P500",
-      "changePct": 1.29,
-      "session": "2026-10-28",
-      "reason": "같은 날 KOSPI가 +8.19% 급등하고 S&P500 추종 ETF 특성상 전일 미국 증시 상승이 반영되며 함께 올라 시장 영향으로 보임.",
+      "changePct": -1.05,
+      "session": "2026-10-29",
+      "reason": "같은 날 코스피가 2.50% 급락한 것과 같이 움직여, 기초지수인 S&P500 자체보다는 원화 환산 및 국내 증시 전반의 약세 영향으로 보임.",
       "basis": "market",
       "sources": []
     },
     "379810.KS": {
       "name": "KODEX 미국나스닥100",
-      "changePct": 2.26,
-      "session": "2026-10-28",
-      "reason": "같은 날 KOSPI가 +8.19% 급등한 가운데 나스닥100 추종 ETF로서 전일 미국 나스닥 강세가 반영되어 함께 오른 것으로 보임.",
+      "changePct": -1.71,
+      "session": "2026-10-29",
+      "reason": "같은 날 코스피가 2.50% 급락한 것과 같이 움직여, 국내 증시 전반의 약세 분위기가 영향을 준 것으로 보임.",
       "basis": "market",
       "sources": []
     },
     "AAPL": {
       "name": "애플",
-      "changePct": 1.03,
-      "session": "2026-10-26",
-      "reason": "같은 날 나스닥100(+1.09%)과 S&P500(+0.70%)이 함께 상승해 시장 전반의 강세 영향으로 보임.",
-      "basis": "market",
-      "sources": []
+      "changePct": -0.94,
+      "session": "2026-10-28",
+      "reason": "애플은 전 거래일보다 0.94% 내린 343.83달러를 기록했다는 기사가 하락을 직접 보도함. 같은 날 알파벳 등 빅테크 실적 발표 영향으로 기술주 내 등락이 엇갈린 가운데 하락 대열에 합류한 것으로 설명됨.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "[속보] 마이크론·오라클·샌디스크 급등…엔비디아·테슬라·애플은 하...",
+          "link": "https://www.cbci.co.kr/news/articleView.html?idxno=620562",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-29 07:20"
+        }
+      ]
     },
     "SONY": {
       "name": "소니 그룹 (ADR)",
-      "changePct": -1.5,
-      "session": "2026-10-26",
-      "reason": "같은 날 S&P500·나스닥100 등 미국 증시는 상승했음에도 소니는 하락해 뉴스로 확인된 뚜렷한 원인은 없음.",
+      "changePct": -2.32,
+      "session": "2026-10-28",
+      "reason": "같은 날 S&P500·나스닥100이 소폭 상승했음에도 소니는 하락해 시장 전반과 반대로 움직였으며, 관련 기사도 없어 뚜렷한 원인은 확인되지 않음.",
       "basis": "none",
       "sources": []
     },
     "PG": {
       "name": "프록터 앤드 갬블",
-      "changePct": -0.43,
-      "session": "2026-10-26",
-      "reason": "여러 월가 애널리스트의 목표가 상향 소식에도 주가는 소폭 하락해 변동폭이 크지 않아 큰 변동 없음.",
+      "changePct": -0.5,
+      "session": "2026-10-28",
+      "reason": "실적 발표 관련 기사(유기적 매출 4% 증가, 목표가 상향)가 있었으나 이는 직접적인 당일 하락 원인으로 보기 어렵고, 변동폭도 크지 않아 뚜렷한 원인은 확인되지 않음.",
       "basis": "none",
       "sources": []
     },
     "GOOGL": {
       "name": "알파벳 A",
-      "changePct": 0.83,
-      "session": "2026-10-26",
-      "reason": "같은 날 나스닥100(+1.09%)과 S&P500(+0.70%) 상승과 함께 올라 시장 영향으로 보임.",
-      "basis": "market",
-      "sources": []
+      "changePct": 0.41,
+      "session": "2026-10-28",
+      "reason": "3분기 매출은 25% 늘었지만 순이익이 시장 예상치를 밑돌고 AI 투자 부담이 부각되며 시간외 거래에서 급락했다는 보도가 있음. 다만 정규장 종가는 전일 대비 +0.41%로 소폭 상승 마감함.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "알파벳, 3분기 매출 25% 증가에도 급락…AI 투자 부담 확대",
+          "link": "https://www.etnews.com/20261029000019",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-29 08:13"
+        },
+        {
+          "title": "알파벳, 기대 하회 실적에 시간 외 주가 10% 폭락",
+          "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=146350",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-29 08:08"
+        }
+      ]
     },
     "CRCL": {
       "name": "서클 인터넷 그룹",
-      "changePct": 1.61,
-      "session": "2026-10-26",
-      "reason": "같은 날 나스닥100(+1.09%)이 상승한 가운데 스테이블코인 인프라 확대 소식도 있었으나 이 기사가 당일 주가 상승을 직접 설명하지는 않아 시장 영향으로 보임.",
-      "basis": "market",
-      "sources": []
+      "changePct": 1.02,
+      "session": "2026-10-28",
+      "reason": "스테이블코인 규제 관련 SEC 제안, 수탁액 증가, 아크인베스트 매수 등 우호적 뉴스 흐름이 이어진 가운데 주가가 소폭 상승함.",
+      "basis": "news",
+      "sources": [
+        {
+          "title": "크라켄 USDC 수탁액, 2025년 9월 제휴 후 30% 늘어",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/428790",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-29 03:36"
+        },
+        {
+          "title": "서클, 2% 차감 0% 제안…적격 스테이블코인 현금 인정 요구",
+          "link": "https://www.tokenpost.kr/news/policy/428702",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-29 01:14"
+        },
+        {
+          "title": "서클, SEC에 GENIUS법 적격 결제 스테이블코인 현금 취급 요청",
+          "link": "https://www.tokenpost.kr/news/breaking/428700",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-29 01:12"
+        },
+        {
+          "title": "서클 아크 USDC 9억7935만달러…일주일 새 31.93% 늘었다",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/428199",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-28 18:28"
+        },
+        {
+          "title": "아크인베스트, 서클($CRCL) 6만5615주 매수…23일엔 4만2499주 매도",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/428133",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-28 18:26"
+        },
+        {
+          "title": "아크인베스트, ARKB 60만1028주 팔고 서클 6만5615주 매수",
+          "link": "https://www.tokenpost.kr/news/cryptocurrency/428175",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-28 18:26"
+        }
+      ]
     },
     "012450.KS": {
       "name": "한화에어로스페이스",
-      "changePct": 1.95,
-      "session": "2026-10-28",
-      "reason": "같은 날 KOSPI가 +8.19% 급등한 가운데 외국인 순매수세까지 더해져 함께 상승한 것으로 보임.",
+      "changePct": -5.72,
+      "session": "2026-10-29",
+      "reason": "같은 날 코스피가 2.50% 급락하며 방산·중공업 업종 전반이 약세를 보였고(한화에어로·HD현대중공업 등 동반 약세 보도), 개별 호재성 기사는 없어 업종·시장 전반의 조정 영향으로 보임.",
       "basis": "market",
       "sources": [
         {
-          "title": "\"하이닉스 실적 앞두고 엇갈린 外人\"…삼성 사고 SK 팔았다",
-          "link": "https://www.newsis.com/view/NISX20261027_0003843370",
+          "title": "MS 호실적에 삼전·하닉 프리마켓 강세…알파벳 급락은 부담",
+          "link": "https://www.dt.co.kr/article/12091969?ref=naver",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-28 07:00"
+          "publishedAt": "2026-10-29 08:11"
         }
       ]
     },
     "GPIQ": {
       "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
-      "changePct": 0.98,
-      "session": "2026-10-26",
-      "reason": "같은 날 나스닥100(+1.09%)이 상승했고 나스닥100 연계 인컴 ETF 특성상 기초지수 상승이 반영된 것으로 보임.",
+      "changePct": 0.48,
+      "session": "2026-10-28",
+      "reason": "같은 날 나스닥100이 0.55% 상승한 것과 비슷한 방향으로 소폭 올라, 기초지수인 나스닥100 상승이 반영된 것으로 보임.",
       "basis": "market",
       "sources": []
     },
     "108490.KQ": {
       "name": "로보티즈",
-      "changePct": 11.16,
-      "session": "2026-10-28",
-      "reason": "같은 날 KOSPI가 +8.19% 급등한 가운데 로보티즈는 이보다 훨씬 큰 폭으로 올라 시장 영향만으로 설명하기 어렵고 뉴스로 확인된 뚜렷한 원인도 없음.",
-      "basis": "none",
+      "changePct": -4.94,
+      "session": "2026-10-29",
+      "reason": "같은 날 코스피가 2.50% 급락한 것과 같이 움직였으며, 관련 기사는 없어 시장 전반의 약세 영향으로 추정됨.",
+      "basis": "market",
       "sources": []
     }
   }
