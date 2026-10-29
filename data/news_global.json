@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29 08:16",
+  "updatedAt": "2026-10-29 11:32",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,13 +14,6 @@
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0dqOEdKYk8wSVZyTjFBNmcxMTJyQlRTRmMtWGtaeTNTQjd0X09PNmlSUDFIVEtTb2JnckthZ1gyN1NCUmlrcVZ2LW9oelJLaVY5NENKR3IxMzBIZEVuV3laRjV6czZ3bm5OSjRJVmtpVVJpeW9pR1RPOXdhOWZTVy12eEpJUmVxRlZUR1o4Q0RTSDNRWG1R?oc=5",
           "publishedAt": "2026-10-28 10:12",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "CXMT reportedly prioritizes China demand, rejecting Apple's DRAM inquiry - digitimes",
-          "summary": "CXMT reportedly prioritizes China demand, rejecting Apple's DRAM inquiry  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPa0xCcTFNS0JycHkxM0VMZVlRUG1McF9xZmJGWVBmQkttaW8xV2dxaHUzQjhNMXBkbmE1T3g5OG53aVM5Z0NaSEw1RXlSUlowNERDN0gwWjBTaHNmV1YzR0E4dng2RXM1TjhTVWpYYy1WMzBvazlUbjBrcVVneXhwUmoyZE1LMGdzcGc?oc=5",
-          "publishedAt": "2026-10-28 09:37",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -29,10 +22,31 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google shares tumble 9% after $51bn AI outlay deepens cash burn",
-          "summary": "Search giant missed estimates for revenue and profit as its search business undershot expectations",
+          "title": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap - Bloomberg",
+          "summary": "US Stock Futures Fall After Alphabet, Fed Holds: Markets Wrap  Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1B6V3JFX19tOWhyZHVKZzFGZ1k0aXcyNERXb0JrMFNjQVpEaFZMeVMxU1FUVnJpWmFrM3JQbjJ5cXRsU0NBekRsOUM2WEQ2Zlh3MWluWUU2c0poWTk1ZDBGMC13SUtxX1lVdjEtQW1PbWdXRE95ZFJqZ2JmZEwxeW5VbVVORWlzMlJTVHdnZ2NkaWR3?oc=5",
+          "publishedAt": "2026-10-29 10:56",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/alphabets-heavy-cloud-spending-drives-biggerthanexpected-cash-burn-4980612",
+          "publishedAt": "2026-10-29 10:12",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Alphabet Shares Tank on Sales Misses Across Core Businesses - Bloomberg",
+          "summary": "Alphabet Shares Tank on Sales Misses Across Core Businesses  Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNl94WE51TlQ2Q2dVVTBDNlZZbzF5Mk02UjZRaEJwQnhoM1lGX0dWODk3b1RwZDB1SDVHYmYtOUQzaWJyTEc0ZXlTNmpyQU50WVhaQUpJX3dyMkVFbmgyVXJFVy1fb21TQUxEOXFIWmtzdFEyYVk5SkU3ZGF4LTdnN0EyTlo1NklicFg4TzlpSHYwRE9VYzdUUTZ4N0ZLaG9XWUs1Nm5vM3FfSktn?oc=5",
+          "publishedAt": "2026-10-29 09:19",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "Google shares tumble 10% after $51bn AI outlay deepens cash burn",
+          "summary": "Search giant admits its ‘AI mode’ has hurt traditional search as sales and profits undershoot expectations",
           "link": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-29 05:54",
+          "publishedAt": "2026-10-29 08:27",
           "outlet": "Financial Times"
         },
         {
@@ -43,10 +57,10 @@
           "outlet": "Forbes Markets"
         },
         {
-          "title": "Google Launches Gemini 4 Carbon, Its Second Major AI Model in a Month - The Information",
-          "summary": "Google Launches Gemini 4 Carbon, Its Second Major AI Model in a Month  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQV0lCeWE1OHJ5VGFaRzhhQS1lWW84VEl5MVc4bXVpbk1iMXhuT2Fnb3lMQzlLYWhobGdCb3B1SnZVWVRHdTRLYVJSWnVlUDNOUDlxbGRhZ0JmNHJtazRIZDNuWXJJLVZmTm9ZU2FnbktZTXMtQTdnMHhaZ0JaZndMZVhPaVlNdDA4LXRmdzMxLWplUzVXQXdZam9GcF9RZXpDTlE?oc=5",
-          "publishedAt": "2026-10-29 02:43",
+          "title": "Google Quarterly Revenue Grows 25% But Falls Short of Expectations - The Information",
+          "summary": "Google Quarterly Revenue Grows 25% But Falls Short of Expectations  The Information",
+          "link": "https://news.google.com/rss/articles/CBMihw5BVV95cUxPZWIzdlhkQXYzNlc0RGthWUdLbjlIZGN6TFBTQ1dXWnFNMERkRlJPOTRWbjJuLTRGN0FjLTQ2V3dhX1pWaWpBWm1Od0FFVGN2QjJzT1JQdTVaVzF6SUxwUzdEbnQwQlN5WDd5M3hDcHM5UFczcGpJZzROWjYtelFsWENyLXdQWFJFTG1LT2FRRnRHMVFXM1d6aU5heDUwbThxS3lLSm4wN1ZFeDM3cGVYRDhxNGVlUWpIRjRrNWZXTlhSSjNGWDJVYV9SRERfMG9zWkJSeEFUcmdUOU0xQVlMaHhkVm9TS1VTb21FTXVzYUxHbTdFRWVvanFqWnhVWUFFb3FHV2Vod3VBaXJ3TEl2alZqX0hmNkt2b0tQYVZMaGZaYktiVEtwM3RQTU5jY2hEbG14VjBta0lybDRvY2IwbkZ0VGZGeDRQdHdNRFZWbURHUkNVeFBGZGI3SWQ2U2paYkJJTG5neEU0SnRuSkVRRWk1VzlveVJLcDNDdEVWQlRYV1dESUMzLWtGMEprM1hRc25vanM3cUVISUtOS0hxUW1yWFlHR3dtU0VVWVFzdU9Td1J0NGhmX1VOdU5panFYTmZWVnhfRWhKTTdlOVZiWGh1dlZteFZzQmc2OTRZNVdUeWhlUG1uM3pFcXc0VG1WbGtvdjhyQW16cDBKWVVxRHZmMzg3bGxWM0IteU0xZkQwTy1mb25XTzlMZVpFZVZVdlZyRERhQmRYalhhc3RIMDlKdXNSakg0UXFrUEEweHp0ZXBwVk9qeVRVaEw2Mlp2b0lYeGxXY1YwdnNWQ3VMMjhzbnlZNjNBX3g2RzFUc1cwb0FiOS10Z05mbW9VOUNISTRIVEtGOW5henpVVS0xVmlfNFU5d2NIQWllamdvMjZkZS1NdDRxMTZBczRPQ2lKQ1ROQzQ2U1RGc21PV3VKT0hpeVZDM3dtVGlrYmtnVlpvSHJoeWgtSjBLeWpmTlF6NXpkRzhEcTN6UzhpRVozSlY5Vng0SE0ta3hXSXFOaXMyX0I0cURHQUh4S2djWUtvdnhqRmoyTDR1OEJnYnUzeDNQRVVPS3hncXV1ZVBjQ3JKOGMyVWlCXzVpalhnQi1pc3YzRjBrdldIa3ZldjlCMUFMNEJULVIycUVhZW9mTjBsSkpubURDVERFZUtyWU5fbC1CUXVFNFJSR2pteHNLcmkweEE1TnF4dWMyUmVnS3Z3dGZSX25XaVNpY3M0cGNfNjRzak5odDVsZTZhelFMWGd2TXpRSUxlYnV0ellyalcxRU1kREZuaXV2NEFnT2hjOGJSdkFveWJQd2h5a0FUb19TZ3BVZE0zeE9tV1BrbEVLc2xmTVViaTBaV09Sa3lmR2FuZ1Q1VU5YbVVBWmFiY3ZlNG4zcG5VXzY3Vm1hSWgyNGhRVzQ0WDRqdUZRWk9mRGxkaWdpUlR0ejN3Z29OalFUSFZ3eW80YnNUMzdOU092elFjaTZ3QWVUR0FTWkE4UVhBc01LSEEtRTZsek1TZ3lIcXZWNGxTVkJSNVBvckZSVWhkSTZadGRmVkNoN2FRLTYzMzQtVTF4R3pYQ09iOEJnODljZnFVdHdqTUtpcEhUTXhWTnF1R2xSTlBUUFFQYWJncEFrcXNBQk5adkFfUW5tWUE5UnZOM1dDbTQ0T3B4VXhxcUxhSTRjaGtNbHhfTjFKaGhVQnVnaFgzNUJ2OG56bS1UZ1ByR2NZazBXOC1EenZuOWRBWUJlU25JUVYxd2ZqN1c2am81YWxJQVgxeDlWdHJIby02bGNFUnBYdExtYWZYMnNSTmtQTHFMa29DXzFfX2xENkZvRnFjQmxIZWpybEgtcUVqWDRmZlY5dllrbEtTNzU2R1ZFLS01WWRwQkpfTHMwQ1BwcG9wSm5DVldlQWRuSC1WaXgzdDRoWUcxOFJEMC1laTdVeHRGc2tVSDVnNS0tbEtSbVhTTHJtWlVmNERRR1RmWElfa2pfTjRxVC0tODdsRm15VnlxMk5XM3M3Vm9CbUwyRnZxNTN5dnRrUGFFZTk0ZXNrUzNDR2xjUjdmbHV0WWhXTkhFTzVBUTJzaFNndUJkRENJNXBSQ1dGY3o4RFRHWEp1N2tRYXVQNDBCRVh2V2IxRWZpMktIZEpGTV96eUtHY3RQMGlLempOZ2M1NGczNlQ1MlY1N0dyaUo3Q28wMS1YenlSSDBrUVhfU1BEY3hOekJoTk9uMm1LRGJaV3VodXdTVGZ3SkgyVzNqbExlM09YUDNmOURlbVhIS0UyenVCVEhUWUE3ZGNxbC13eTNNejBmVl9jc2s0Ti1UcnREdHNBZE1FUlU3VnpVZ1FhbUpyT21vVWl2SFNWMkVucWRTRU5ZWGpYUkk5SlZLN2NlYkJKTS11Tkp0Mjdja3hMQQ?oc=5",
+          "publishedAt": "2026-10-29 05:39",
           "outlet": "The Information"
         },
         {
