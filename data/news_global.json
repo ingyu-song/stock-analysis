@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29 19:06",
+  "updatedAt": "2026-10-30 01:57",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -29,46 +29,67 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Alphabet shares tumble in $460bn rout",
+          "summary": "Google owner admits ‘AI mode’ has hurt traditional search as sales and profits undershoot expectations",
+          "link": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30 01:44",
+          "outlet": "Financial Times"
+        },
+        {
+          "title": "Alphabet earnings analysis: questions answered and next catalysts",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/alphabet-earnings-analysis-questions-answered-and-next-catalysts-93CH-4984770",
+          "publishedAt": "2026-10-30 01:42",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Nasdaq falls over 1% as post-earnings slide in Alphabet weighs on AI trade",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4981271",
+          "publishedAt": "2026-10-30 01:25",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Alphabet stock on track for worst day ever after rare earnings miss",
+          "summary": "",
+          "link": "https://seekingalpha.com/news/4660474-alphabet-stock-on-track-for-worst-day-ever-after-rare-earnings-miss?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
+          "publishedAt": "2026-10-30 01:24",
+          "outlet": "Business Insider Markets"
+        },
+        {
+          "title": "US tech stocks fall after earnings fuel AI spending concerns",
+          "summary": "Nasdaq 100 loses 1.2% after Google parent Alphabet and Microsoft report lower than expected capex",
+          "link": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30 00:58",
+          "outlet": "Financial Times"
+        },
+        {
+          "title": "US Stock Futures Fall as Alphabet Sales Miss Revives AI Fears - Bloomberg.com",
+          "summary": "US Stock Futures Fall as Alphabet Sales Miss Revives AI Fears  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzA3M2RwNDBGTV9LZmFhMWx1Rk92bXZIVlVaN2lZbU1faC05Q1pSaWU1SWlRdzk1YlFXTzMyV3hTMm5mQlNTRW5KMTFlZlBJdWJZVmVQekdMNU4yd0doMWI0Z2hyZFVxOU5RQUh4Rmd4Qkg5NHhpaXpsQ3RLVDZ6VHFMVzMwRU9iUUt6Rmt1cUQ2LXEwOEF6YUVTa3d0SjBmYW5CbTF1RGdFR21sN1kxUm9R?oc=5",
+          "publishedAt": "2026-10-29 22:45",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "Google Erases a Record $500 Billion as AI Eats Into Sales - Bloomberg.com",
+          "summary": "Google Erases a Record $500 Billion as AI Eats Into Sales  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNl94WE51TlQ2Q2dVVTBDNlZZbzF5Mk02UjZRaEJwQnhoM1lGX0dWODk3b1RwZDB1SDVHYmYtOUQzaWJyTEc0ZXlTNmpyQU50WVhaQUpJX3dyMkVFbmgyVXJFVy1fb21TQUxEOXFIWmtzdFEyYVk5SkU3ZGF4LTdnN0EyTlo1NklicFg4TzlpSHYwRE9VYzdUUTZ4N0ZLaG9XWUs1Nm5vM3FfSktn?oc=5",
+          "publishedAt": "2026-10-29 22:37",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "Microsoft Up, Google Down. A Tale of Two Hyperscalers.",
+          "summary": "Investors are showing little patience for lavish spending and meager returns on companies’ artificial intelligence bets.",
+          "link": "https://www.nytimes.com/2026/10/29/business/dealbook/microsoft-google-ai-hyperscalers.html",
+          "publishedAt": "2026-10-29 21:20",
+          "outlet": "NYT Business"
+        },
+        {
           "title": "Hit the Road This Season With These Useful New Map Features",
           "summary": "The recent updates to Google Maps and Apple’s Maps use artificial (and human) intelligence for better navigation, planning and travel guides.",
           "link": "https://www.nytimes.com/2026/10/29/technology/personaltech/apple-google-maps-features.html",
           "publishedAt": "2026-10-29 18:02",
           "outlet": "NYT Business"
-        },
-        {
-          "title": "Tech Rally Stalls as Alphabet, Samsung Disappoint: Markets Wrap - Bloomberg",
-          "summary": "Tech Rally Stalls as Alphabet, Samsung Disappoint: Markets Wrap  Bloomberg",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd1B6V3JFX19tOWhyZHVKZzFGZ1k0aXcyNERXb0JrMFNjQVpEaFZMeVMxU1FUVnJpWmFrM3JQbjJ5cXRsU0NBekRsOUM2WEQ2Zlh3MWluWUU2c0poWTk1ZDBGMC13SUtxX1lVdjEtQW1PbWdXRE95ZFJqZ2JmZEwxeW5VbVVORWlzMlJTVHdnZ2NkaWR3?oc=5",
-          "publishedAt": "2026-10-29 17:45",
-          "outlet": "Bloomberg (via Google News)"
-        },
-        {
-          "title": "US tech stocks set to fall after earnings fuel AI spending concerns",
-          "summary": "Nasdaq 100 to open 1% down after Google parent Alphabet and Microsoft report lower than expected capex",
-          "link": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-29 17:37",
-          "outlet": "Financial Times"
-        },
-        {
-          "title": "Alphabet’s Revenue Miss Reignites Fears Over AI Spending Binge - Bloomberg",
-          "summary": "Alphabet’s Revenue Miss Reignites Fears Over AI Spending Binge  Bloomberg",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNl94WE51TlQ2Q2dVVTBDNlZZbzF5Mk02UjZRaEJwQnhoM1lGX0dWODk3b1RwZDB1SDVHYmYtOUQzaWJyTEc0ZXlTNmpyQU50WVhaQUpJX3dyMkVFbmgyVXJFVy1fb21TQUxEOXFIWmtzdFEyYVk5SkU3ZGF4LTdnN0EyTlo1NklicFg4TzlpSHYwRE9VYzdUUTZ4N0ZLaG9XWUs1Nm5vM3FfSktn?oc=5",
-          "publishedAt": "2026-10-29 17:36",
-          "outlet": "Bloomberg (via Google News)"
-        },
-        {
-          "title": "Investors turn on Google owner Alphabet after profit miss, ad slowdown and high spending",
-          "summary": "Net profit slid 25% from a year earlier to $26.2bn, well short of expectations, though revenue rose to $127.6bnShares in Google parent Alphabet fell more than 10% in after-hours trading Wednesday, erasing tens of billions of dollars in stock market value from the $4tn tech giant. The company had reported lower-than-expected profit and a slowdown in its advertising business while it maintained big ",
-          "link": "https://www.theguardian.com/technology/2026/oct/28/google-alphabet-q3-earnings-report",
-          "publishedAt": "2026-10-29 08:39",
-          "outlet": "The Guardian Business"
-        },
-        {
-          "title": "Google shares tumble 10% after $51bn AI outlay deepens cash burn",
-          "summary": "Search giant admits its ‘AI mode’ has hurt traditional search as sales and profits undershoot expectations",
-          "link": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-29 08:27",
-          "outlet": "Financial Times"
         },
         {
           "title": "Google Parent Posts Disappointing $127.6 Billion In Quarterly Revenue - Forbes",
@@ -85,11 +106,11 @@
           "outlet": "The Information"
         },
         {
-          "title": "Google's AI chip business is getting harder for Nvidia to ignore",
-          "summary": "",
-          "link": "https://www.businessinsider.com/google-ai-chip-business-oracle-tpus-nvidia-threat-anthropic-openai-2026-10",
-          "publishedAt": "2026-10-29 01:30",
-          "outlet": "Business Insider Markets"
+          "title": "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens - Reuters",
+          "summary": "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNajBhM1htcElGckpqVEh4RzlEdTM3emlCNXFUUHhWd2JBSTROUEYzOUNrSkxSWm1wVHZNbEl0TDVCbEZ5WnBSMVRkY3ZQZTJOQTgxYXJXa1daRDZMRmUwc1c0bWExV29zcGhJM1Q3eWc0M2RCblVoTUxzX19qUG0wVUNlT1N3QU5uNE02aDhjNW13LVlaY0dib203U3J2Um9PUWsySlEzTFlLbkFRc25jbHA5TkFpbzlBX3pJUmhGX0E?oc=5",
+          "publishedAt": "2026-10-29 05:06",
+          "outlet": "Reuters Business (via Google News)"
         },
         {
           "title": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips - The Information",
@@ -97,19 +118,6 @@
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHVUUUdOMmpGd3dxdWhJS0t6c3FlVmh1eXg1ckptWEFhX2JGbVByMGozdHZRQks4YUV0dzM2dWI0Tm05cmlXcG53Q09IYXNJYlFab3BjV0NSVnNoR05TQXFLQ2thQlV0OVFWdDJyM2wzOFVCdG13X0hsSHVQNFRTQ2hGNThFeFJjeWhqMlZLTW1RQ1RUNVU4UnBtMU93eEk?oc=5",
           "publishedAt": "2026-10-28 08:59",
           "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "INTC",
-      "name": "인텔",
-      "items": [
-        {
-          "title": "Server CPU shipments to exceed 50 million units in 2027; AMD's server CPU revenue will surpass Intel - digitimes",
-          "summary": "Server CPU shipments to exceed 50 million units in 2027; AMD's server CPU revenue will surpass Intel  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBfdGRYYkNfZVlsRWd3aWV5RzRRV2Jqam8tT3ZfQTF2bWJmYTVzSjR3SXFoamtqRGdvS2ZsN2pVOEtPV1FkZ29JSDFKQWQzZFhKcjhkbk1RVVpROTlydmhvUnNaMU5LYlFzTVU0?oc=5",
-          "publishedAt": "2026-10-27 14:56",
-          "outlet": "DigiTimes"
         }
       ]
     }
