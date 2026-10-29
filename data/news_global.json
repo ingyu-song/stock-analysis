@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30 01:57",
+  "updatedAt": "2026-10-30 06:50",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -29,25 +29,53 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Alphabet shares tumble in $460bn rout",
-          "summary": "Google owner admits ‘AI mode’ has hurt traditional search as sales and profits undershoot expectations",
-          "link": "https://www.ft.com/content/eb386156-5bf9-4edd-80f2-803fdee1e33d?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-30 01:44",
+          "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
+          "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI search summaries were affecting ad revenue.",
+          "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-30 06:37",
+          "outlet": "BBC Business"
+        },
+        {
+          "title": "Google Parent Alphabet Still Has the Ingredients to Win in an AI Pullback Despite Stock Price Hit - WSJ",
+          "summary": "Google Parent Alphabet Still Has the Ingredients to Win in an AI Pullback Despite Stock Price Hit  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUUgzSXRFc1hETjM5VjFRbjM1bHRhNGg1Vlc1NzAyUklCSG5IN3A1NGdINDVUYUt2dW1jTnZwQW9UQ0VNQ3FGdHc5OU9Kc1ZpLVpJS3QyeWtTaGJYMGZaLXJUSnUyb01pR096STNBY0Z6NDd6bjNCeWJzVXdSRHR6LTJCM3ZjZVlTUFAwRThXQWFLVjZDbDl3WGllUHk?oc=5",
+          "publishedAt": "2026-10-30 06:31",
+          "outlet": "WSJ Markets"
+        },
+        {
+          "title": "US Stock Futures Fall as Alphabet Sales Miss Revives AI Fears - Bloomberg.com",
+          "summary": "US Stock Futures Fall as Alphabet Sales Miss Revives AI Fears  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzA3M2RwNDBGTV9LZmFhMWx1Rk92bXZIVlVaN2lZbU1faC05Q1pSaWU1SWlRdzk1YlFXTzMyV3hTMm5mQlNTRW5KMTFlZlBJdWJZVmVQekdMNU4yd0doMWI0Z2hyZFVxOU5RQUh4Rmd4Qkg5NHhpaXpsQ3RLVDZ6VHFMVzMwRU9iUUt6Rmt1cUQ2LXEwOEF6YUVTa3d0SjBmYW5CbTF1RGdFR21sN1kxUm9R?oc=5",
+          "publishedAt": "2026-10-30 05:28",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "US tech stocks fall after earnings fuel AI spending concerns",
+          "summary": "Nasdaq 100 drops 1.4% after Google parent Alphabet and Microsoft report lower than expected capex",
+          "link": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30 05:10",
           "outlet": "Financial Times"
         },
         {
-          "title": "Alphabet earnings analysis: questions answered and next catalysts",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/alphabet-earnings-analysis-questions-answered-and-next-catalysts-93CH-4984770",
-          "publishedAt": "2026-10-30 01:42",
-          "outlet": "Investing.com"
+          "title": "Alphabet Stock Sinks, Dragging Nasdaq Lower - WSJ",
+          "summary": "Alphabet Stock Sinks, Dragging Nasdaq Lower  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdEt3QnZYMW5WSVBNMUNqQ3pOUEV6RVVoM2xLa2RfV0VEQ1YyTzE2MFIwTnNGdTRFelljM3gtM3lORnhLYW5nT1VaSk5IVV85NlBIeGFlWlhaOHFIcHZhTm1ER1FsZzdZRElZUHl0Mm4ya04tMjZ2WV9ZbzVJLUhocktXVVFYVy1lbEJOWVF4eFVHdVNsbEQ4Tg?oc=5",
+          "publishedAt": "2026-10-30 03:35",
+          "outlet": "WSJ Markets"
         },
         {
-          "title": "Nasdaq falls over 1% as post-earnings slide in Alphabet weighs on AI trade",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-drop-as-alphabet-slides-on-soft-earnings-microsoft-firms-4981271",
-          "publishedAt": "2026-10-30 01:25",
-          "outlet": "Investing.com"
+          "title": "Google is eating itself — but it could still eat everyone else too",
+          "summary": "Leadership in the AI race can be won, lost and won again at speed",
+          "link": "https://www.ft.com/content/245107d8-ef54-4b30-a75a-538d055bc6d7?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30 03:00",
+          "outlet": "Financial Times"
+        },
+        {
+          "title": "Alphabet Loses Almost $500 Billion In Market Value, Marking Second-Largest Single-Day Drop - Forbes",
+          "summary": "Alphabet Loses Almost $500 Billion In Market Value, Marking Second-Largest Single-Day Drop  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaVl6T24zMVdXT3ZaQTNzRHN0MDVjU2wtSE1zaGtjYkFLS1JRTTB2cFJETng5U0xVVXBQWlJfM1NSS24zcmtkaERtR0xrX2tZWTdwc3NMWURESXZyMFdORDUzdTU3TndNQmYyX1JFZTJtSmVnVkdsbGFYU1Mwdm5HRHl0T3paVnVwU0Y2di1UaUEwd1RlODdlVEdaRlI0SFphQ0lJQXhJN0Ftc0kyRE1hMm92LUYtQUcxai1CRldySlNMc0Fwak5OeDRoT3dPd2tfVGlaNFNiVUxMYmY5dWNhQzB3?oc=5",
+          "publishedAt": "2026-10-30 02:45",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Alphabet stock on track for worst day ever after rare earnings miss",
@@ -57,25 +85,11 @@
           "outlet": "Business Insider Markets"
         },
         {
-          "title": "US tech stocks fall after earnings fuel AI spending concerns",
-          "summary": "Nasdaq 100 loses 1.2% after Google parent Alphabet and Microsoft report lower than expected capex",
-          "link": "https://www.ft.com/content/1639620b-99e7-47ed-8484-49646816489e?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-30 00:58",
-          "outlet": "Financial Times"
-        },
-        {
-          "title": "US Stock Futures Fall as Alphabet Sales Miss Revives AI Fears - Bloomberg.com",
-          "summary": "US Stock Futures Fall as Alphabet Sales Miss Revives AI Fears  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzA3M2RwNDBGTV9LZmFhMWx1Rk92bXZIVlVaN2lZbU1faC05Q1pSaWU1SWlRdzk1YlFXTzMyV3hTMm5mQlNTRW5KMTFlZlBJdWJZVmVQekdMNU4yd0doMWI0Z2hyZFVxOU5RQUh4Rmd4Qkg5NHhpaXpsQ3RLVDZ6VHFMVzMwRU9iUUt6Rmt1cUQ2LXEwOEF6YUVTa3d0SjBmYW5CbTF1RGdFR21sN1kxUm9R?oc=5",
-          "publishedAt": "2026-10-29 22:45",
-          "outlet": "Bloomberg (via Google News)"
-        },
-        {
-          "title": "Google Erases a Record $500 Billion as AI Eats Into Sales - Bloomberg.com",
-          "summary": "Google Erases a Record $500 Billion as AI Eats Into Sales  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNl94WE51TlQ2Q2dVVTBDNlZZbzF5Mk02UjZRaEJwQnhoM1lGX0dWODk3b1RwZDB1SDVHYmYtOUQzaWJyTEc0ZXlTNmpyQU50WVhaQUpJX3dyMkVFbmgyVXJFVy1fb21TQUxEOXFIWmtzdFEyYVk5SkU3ZGF4LTdnN0EyTlo1NklicFg4TzlpSHYwRE9VYzdUUTZ4N0ZLaG9XWUs1Nm5vM3FfSktn?oc=5",
-          "publishedAt": "2026-10-29 22:37",
-          "outlet": "Bloomberg (via Google News)"
+          "title": "Google’s Larry Page, Sergey Brin Lose Combined $60 Billion As Alphabet Stock Drops - Forbes",
+          "summary": "Google’s Larry Page, Sergey Brin Lose Combined $60 Billion As Alphabet Stock Drops  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNTWt0SFhta2VwZmlVYy1GaG5fbDRuQnRlUWhOSDYxS29FTURfbHdtaGEtWkNCT1g5YWhoMDhNN2VkWlR4TzFMbEhPNm5BVWd4V09SUG5jUWc2eDloQzBmMUNnSFdHUFMtV3dEeDZsREowVFNOOWlwQWNmNHBObXVJTHMyS1VickVsd3ZWM094MEFsLUVacmN4OTVYbVN4WDltWUduY2M5dUxJVk1uVXR0NHV1eGZ4blRXMGJmdWVkOEpleUwzOU93blZIaWpZZw?oc=5",
+          "publishedAt": "2026-10-30 00:07",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Microsoft Up, Google Down. A Tale of Two Hyperscalers.",
@@ -92,11 +106,11 @@
           "outlet": "NYT Business"
         },
         {
-          "title": "Google Parent Posts Disappointing $127.6 Billion In Quarterly Revenue - Forbes",
-          "summary": "Google Parent Posts Disappointing $127.6 Billion In Quarterly Revenue  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNWnBHLVhsZHdRb3AxdDFYWjFPR3NGUXl3OURLQy1iaHZuXzBITGZUbW1KVHY3bFE4dmFCcndFT0ROOVpGd3BWb1lmQm9JMUNZcERXdTR3Mmd1RjR1Z0FwMlRFdmZWWFozdDBvdnVkZjhRVE5JYXNIM1FFa0tpMTNibmt4Mk9NbnpUNVJ6THhOWXdKaE1hbEl1UHBQeVozSU5BbF9McUFLR3YxcklQZEZ4Mg?oc=5",
-          "publishedAt": "2026-10-29 05:48",
-          "outlet": "Forbes Markets"
+          "title": "Google Cloud Closes In on Azure, but Microsoft Wins the Day With Investors - The Information",
+          "summary": "Google Cloud Closes In on Azure, but Microsoft Wins the Day With Investors  The Information",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0oweTVqenIwbk1TUTdlWU5vZDBmVzE2M0djYlhvZlFnZ2pEOFhhVFlPcVFTUFMzS1Y3ZUN4bkUzYnd5SzNlUUpwdGNIOUNKcEh4ZXk4YkJXemNNUm50dkZnQmNfUTNRSEV3VUNIMnk2Z242eVhMdjZKRkhuYVFUVFR3eDR4RnNmbDcyTHJnTG1pUm9VeG9KelVvcEtucmF4ZUFfU3ViY0EwMlNHOXc4?oc=5",
+          "publishedAt": "2026-10-29 09:06",
+          "outlet": "The Information"
         },
         {
           "title": "Google Quarterly Revenue Grows 25% But Falls Short of Expectations - The Information",
@@ -106,18 +120,51 @@
           "outlet": "The Information"
         },
         {
-          "title": "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens - Reuters",
-          "summary": "Alphabet stock sinks as search woes cause revenue miss, cash burn worsens  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNajBhM1htcElGckpqVEh4RzlEdTM3emlCNXFUUHhWd2JBSTROUEYzOUNrSkxSWm1wVHZNbEl0TDVCbEZ5WnBSMVRkY3ZQZTJOQTgxYXJXa1daRDZMRmUwc1c0bWExV29zcGhJM1Q3eWc0M2RCblVoTUxzX19qUG0wVUNlT1N3QU5uNE02aDhjNW13LVlaY0dib203U3J2Um9PUWsySlEzTFlLbkFRc25jbHA5TkFpbzlBX3pJUmhGX0E?oc=5",
-          "publishedAt": "2026-10-29 05:06",
-          "outlet": "Reuters Business (via Google News)"
-        },
-        {
           "title": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips - The Information",
           "summary": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips  The Information",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHVUUUdOMmpGd3dxdWhJS0t6c3FlVmh1eXg1ckptWEFhX2JGbVByMGozdHZRQks4YUV0dzM2dWI0Tm05cmlXcG53Q09IYXNJYlFab3BjV0NSVnNoR05TQXFLQ2thQlV0OVFWdDJyM2wzOFVCdG13X0hsSHVQNFRTQ2hGNThFeFJjeWhqMlZLTW1RQ1RUNVU4UnBtMU93eEk?oc=5",
           "publishedAt": "2026-10-28 08:59",
           "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "COIN",
+      "name": "코인베이스 글로벌",
+      "items": [
+        {
+          "title": "Coinbase returns to profit as crypto investment gains cushion trading weakness",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/coinbase-snaps-losing-streak-with-thirdquarter-profit-on-crypto-trading-rebound-4985073",
+          "publishedAt": "2026-10-30 06:36",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Why is Coinbase stock sliding today?",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/why-is-coinbase-stock-sliding-today-93CH-4985369",
+          "publishedAt": "2026-10-30 06:32",
+          "outlet": "Investing.com"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Intel stock falls 20% as weak sales outlook dents turnaround",
+          "summary": "Chipmaker forecasts lower than expected PC chip sales and falling margins",
+          "link": "https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30 06:42",
+          "outlet": "Financial Times"
+        },
+        {
+          "title": "Intel Outlook Hurt by Weak Market for Personal Computer Chips - Bloomberg.com",
+          "summary": "Intel Outlook Hurt by Weak Market for Personal Computer Chips  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
+          "publishedAt": "2026-10-30 05:02",
+          "outlet": "Bloomberg (via Google News)"
         }
       ]
     }
