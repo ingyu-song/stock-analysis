@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31 00:58",
+  "updatedAt": "2026-10-31 05:51",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -22,11 +22,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google Parent Alphabet Still Has the Ingredients to Win in an AI Pullback Despite Stock Price Hit - WSJ",
-          "summary": "Google Parent Alphabet Still Has the Ingredients to Win in an AI Pullback Despite Stock Price Hit  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUUgzSXRFc1hETjM5VjFRbjM1bHRhNGg1Vlc1NzAyUklCSG5IN3A1NGdINDVUYUt2dW1jTnZwQW9UQ0VNQ3FGdHc5OU9Kc1ZpLVpJS3QyeWtTaGJYMGZaLXJUSnUyb01pR096STNBY0Z6NDd6bjNCeWJzVXdSRHR6LTJCM3ZjZVlTUFAwRThXQWFLVjZDbDl3WGllUHk?oc=5",
-          "publishedAt": "2026-10-31 00:31",
-          "outlet": "WSJ Markets"
+          "title": "Reddit shares plunge as Google's AI search squeezes traffic - Reuters",
+          "summary": "Reddit shares plunge as Google's AI search squeezes traffic  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQks1Z3lNdGwyQnFsQ3NQTU1jWTMwNGRGV002QW5RaDhIOGRIRG9xZmFWTUpsYnpYWVhvbUE1N0ZRTXNlOVRJMjdIVE5nOU5tWEhWRGNORVZPUWxNZ2otUF9zUEQ1QkRlWjNNRm1keF95MFlJOUo3bXBmRTZJQ3ppdWxmOVlQbENUVXE3dXUwcTItTUNQTTJEQmJCdGJXeXNwckE?oc=5",
+          "publishedAt": "2026-10-31 01:15",
+          "outlet": "Reuters Business (via Google News)"
         },
         {
           "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg.com",
@@ -43,13 +43,6 @@
           "outlet": "BBC Business"
         },
         {
-          "title": "U.S. Stocks Fall as Alphabet Slide Weighs on AI Optimism - WSJ",
-          "summary": "U.S. Stocks Fall as Alphabet Slide Weighs on AI Optimism  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdVVHMHFyMGd3YVdTZkQ3bklRNHRlQWtYU0VkcU9ibWo0dGVPTm5wcVdibDc5eElXdUZoUEtWWVQwREUyd2RCYlhxV1E2NlBkSGtUQks4Z3U2NzNTbXB6TVEzSVVCc1FpNG1aNE1iOFJiZ2ppdVpYWGdSeERMUDhXQUVZV1cxY1B0OGZnY1RKeU5RSFBPZGJnX29BU21jQ0Rz?oc=5",
-          "publishedAt": "2026-10-30 06:45",
-          "outlet": "WSJ Markets"
-        },
-        {
           "title": "Alphabet Sheds Half a Trillion in Market Value in Stock’s Worst Day Ever - WSJ",
           "summary": "Alphabet Sheds Half a Trillion in Market Value in Stock’s Worst Day Ever  WSJ",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdGV1bXVNOXFOR1NrQndfTDlkLTlxemh6b0JkY0l0LWhZUTJIUWVadTdDOXl2aG1WZ1JVT0l2TzE4OURJMFhKSlctVmptS2UwZmpzajRHT19BaEF1dzNaWjRVcjh3YnY1MV93dkt3V2dTZXNFdEpHTHJ2T3FzSHowekRBclY0eWw2bWRrZHhnajNyNlFncy10TmdTSHBBYkMtUk1KaV8tMXc0bG8x?oc=5",
@@ -57,31 +50,23 @@
           "outlet": "WSJ Markets"
         },
         {
-          "title": "Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows - Bloomberg",
-          "summary": "Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows  Bloomberg",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkM0azA2aUp0d2NWeXRfenFQVFZ6eEdKeFJQaXRqVVctZkJhd1NtVXczZTNiTlkxS0xaX0RtTHBlMG9GTncxY2NGdV9xaTVlTTdHMGlLTHpnbERacVJ3STNCOHN1bTJ3aWFuWVI5R1hUdlN4QmIyX1pBQWtGNjVLMDhtS1N6amxEZ0hld21NblBoVkQtbFY0SDlLRDd0c2tJQVZDRTJCY3lPbHBn?oc=5",
-          "publishedAt": "2026-10-30 05:42",
-          "outlet": "Bloomberg (via Google News)"
-        },
-        {
-          "title": "Alphabet Loses Almost $500 Billion In Market Value, Marking Second-Largest Single-Day Drop - Forbes",
-          "summary": "Alphabet Loses Almost $500 Billion In Market Value, Marking Second-Largest Single-Day Drop  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPaVl6T24zMVdXT3ZaQTNzRHN0MDVjU2wtSE1zaGtjYkFLS1JRTTB2cFJETng5U0xVVXBQWlJfM1NSS24zcmtkaERtR0xrX2tZWTdwc3NMWURESXZyMFdORDUzdTU3TndNQmYyX1JFZTJtSmVnVkdsbGFYU1Mwdm5HRHl0T3paVnVwU0Y2di1UaUEwd1RlODdlVEdaRlI0SFphQ0lJQXhJN0Ftc0kyRE1hMm92LUYtQUcxai1CRldySlNMc0Fwak5OeDRoT3dPd2tfVGlaNFNiVUxMYmY5dWNhQzB3?oc=5",
-          "publishedAt": "2026-10-30 02:45",
-          "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Alphabet stock on track for worst day ever after rare earnings miss",
-          "summary": "",
-          "link": "https://seekingalpha.com/news/4660474-alphabet-stock-on-track-for-worst-day-ever-after-rare-earnings-miss?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-          "publishedAt": "2026-10-30 01:24",
-          "outlet": "Business Insider Markets"
-        },
-        {
           "title": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips - The Information",
           "summary": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips  The Information",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHVUUUdOMmpGd3dxdWhJS0t6c3FlVmh1eXg1ckptWEFhX2JGbVByMGozdHZRQks4YUV0dzM2dWI0Tm05cmlXcG53Q09IYXNJYlFab3BjV0NSVnNoR05TQXFLQ2thQlV0OVFWdDJyM2wzOFVCdG13X0hsSHVQNFRTQ2hGNThFeFJjeWhqMlZLTW1RQ1RUNVU4UnBtMU93eEk?oc=5",
           "publishedAt": "2026-10-28 08:59",
+          "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "COIN",
+      "name": "코인베이스 글로벌",
+      "items": [
+        {
+          "title": "Coinbase Revenue Fell 35%, Partially Offset by Prediction Market - The Information",
+          "summary": "Coinbase Revenue Fell 35%, Partially Offset by Prediction Market  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZ2VKY2JDSFk0ejJqRjhVUVZtRDdBVC13S1VtdXdqb0JDb3EtRndiZmp3ZFk3VExzOHNKOTgtbmE2Zkg2YjlMY21MNXE0dko1b2p5X1FiMlN5SEJmNnUxLXo1b2dMd0drRTZ2WFUxOGpURmdKZWNZUEJIX0RNTzVHV3hKR2FHZjUwVUhwRUZ1dWZ1WHJfMlN2c18zaWc1RVpmdkE?oc=5",
+          "publishedAt": "2026-10-30 06:23",
           "outlet": "The Information"
         }
       ]
@@ -104,25 +89,32 @@
       "name": "인텔",
       "items": [
         {
-          "title": "Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns",
+          "title": "October ends with a thud for Intel, Reddit, AI stalwarts",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163",
-          "publishedAt": "2026-10-31 00:48",
+          "link": "https://www.investing.com/news/stock-market-news/october-ends-with-a-thud-for-intel-reddit-ai-stalwarts-4988666",
+          "publishedAt": "2026-10-31 05:37",
           "outlet": "Investing.com"
         },
         {
-          "title": "US tech stocks see sharp falls over AI cost fears",
+          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
           "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
           "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-31 00:46",
+          "publishedAt": "2026-10-31 05:34",
           "outlet": "BBC Business"
         },
         {
-          "title": "US tech stocks tumble as earnings stoke AI spending fears",
-          "summary": "Intel’s shares on track to plunge by the most since 1974 after chipmaker’s results spook investors",
-          "link": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-30 23:34",
-          "outlet": "Financial Times"
+          "title": "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast - Bloomberg.com",
+          "summary": "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
+          "publishedAt": "2026-10-31 05:18",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "Amazon, Intel Earnings Add Fuel to Tech Selloff - WSJ",
+          "summary": "Amazon, Intel Earnings Add Fuel to Tech Selloff  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0dCXzNIVWRZZmZVTWM2U25pX18zb0RtZlIwYjd0RUpuYzdpRUJBdl9pT3pjQkVpa29KU043MjhLOWhaLTBkUGxFZHVIcFNzWkFKQXkyMUVUakJIVlo5X3lPTlJWMGgtNFc2WDd4OE5BNkY4UzNOdjRVTDU0ZjBHZUkybEd2RkVVbHB4c2RrSl92OW8?oc=5",
+          "publishedAt": "2026-10-31 01:23",
+          "outlet": "WSJ Markets"
         },
         {
           "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg.com",
@@ -132,18 +124,11 @@
           "outlet": "Bloomberg (via Google News)"
         },
         {
-          "title": "Amazon, Intel Earnings Add Fuel to Tech Selloff - WSJ",
-          "summary": "Amazon, Intel Earnings Add Fuel to Tech Selloff  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0dCXzNIVWRZZmZVTWM2U25pX18zb0RtZlIwYjd0RUpuYzdpRUJBdl9pT3pjQkVpa29KU043MjhLOWhaLTBkUGxFZHVIcFNzWkFKQXkyMUVUakJIVlo5X3lPTlJWMGgtNFc2WDd4OE5BNkY4UzNOdjRVTDU0ZjBHZUkybEd2RkVVbHB4c2RrSl92OW8?oc=5",
-          "publishedAt": "2026-10-30 23:14",
-          "outlet": "WSJ Markets"
-        },
-        {
-          "title": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook - Bloomberg.com",
-          "summary": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
-          "publishedAt": "2026-10-30 22:39",
-          "outlet": "Bloomberg (via Google News)"
+          "title": "Intel Drops 29% As Tech Selloff Continues—Here’s Why - Forbes",
+          "summary": "Intel Drops 29% As Tech Selloff Continues—Here’s Why  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZjkyWFotUU9lZmV6dUwzMDdxZlZxWkxwODZhakdMQnhyZEhMSFItZ2ZKM3VhNGpZWlRYZjNpM1lwaGhKYTN0VmhUbzllNU9Qd2RLdDgzY0lBa1VGRDZMT1pLb05ndDNEOGd0bEVZbnl5QXdROFF2NFVvUHFTbzNmRWhudTF2Tk1VT1k0bnBEc3ZTNkIyVU1IZHZPY0xnNmdjaTJYVnR2bTlybmJGcC1aZEdGUmh4NmxsTDN3?oc=5",
+          "publishedAt": "2026-10-30 23:09",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Intel increases equipment orders as server demand exceeds supply - digitimes",
