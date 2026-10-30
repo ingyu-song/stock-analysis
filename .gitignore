@@ -9,3 +9,7 @@ __pycache__/
 venv/
 .DS_Store
 .claude/settings.local.json
+
+# plaintext book — the repo only holds the encrypted data/*.enc.json
+data/my-portfolio.json
+data/move_reasons.json

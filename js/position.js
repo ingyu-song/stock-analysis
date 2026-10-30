@@ -1,5 +1,5 @@
+import { encryptJson } from "./book-crypto.js";
 const STORAGE_KEY = "igs-position-v1";
-const PORTFOLIO_URL = "data/my-portfolio.json";
 const BACKUP_KEY = "igs-position-backup";
 
 const CURRENCIES = ["KRW", "USD", "EUR"];
@@ -163,7 +163,6 @@ async function fetchJson(url) {
   }
 }
 
-const fetchPortfolio = () => fetchJson(PORTFOLIO_URL);
 
 // The repo file is the source of truth: whenever it carries an updatedAt we
 // have not seeded from yet, it replaces local state. Between updates the
@@ -958,8 +957,9 @@ function syncTopLevelInputs() {
   document.getElementById("inputRf").value = state.risk.rf;
 }
 
-export async function initPosition() {
-  seedFromPortfolio(await fetchPortfolio());
+// `book` is the decrypted data/my-portfolio.enc.json, handed over by lock.js
+export function initPosition(book) {
+  seedFromPortfolio(book);
   syncTopLevelInputs();
   initHoldingsSort();
 
@@ -1024,8 +1024,9 @@ function initPublishModal() {
   const textarea = document.getElementById("publishTextarea");
   if (!modal || !textarea) return;
 
-  on("publishBtn", "click", () => {
-    textarea.value = buildPublishPayload();
+  on("publishBtn", "click", async () => {
+    // the repo only ever holds the encrypted book, so the manual route copies that too
+    textarea.value = await encryptJson(JSON.parse(buildPublishPayload()));
     renderGhState();
     setGhMsg("");
     modal.hidden = false;
@@ -1341,7 +1342,7 @@ function initTradeModal() {
 
 const GH_TOKEN_KEY = "igs-gh-token";
 const GH_REPO = "ingyu-song/stock-analysis";
-const GH_PATH = "data/my-portfolio.json";
+const GH_PATH = "data/my-portfolio.enc.json";
 const GH_CONTENTS_URL = `https://api.github.com/repos/${GH_REPO}/contents/${GH_PATH}`;
 
 function ghToken() {
@@ -1444,7 +1445,7 @@ async function ghSave() {
 
       const put = await ghFetch("PUT", GH_CONTENTS_URL, {
         message: `Update position from dashboard (${stamp})`,
-        content: toBase64Utf8(payload),
+        content: toBase64Utf8(await encryptJson(JSON.parse(payload))),
         sha,
         branch: "main",
       });

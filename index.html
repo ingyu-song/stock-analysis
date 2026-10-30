@@ -38,14 +38,14 @@
   <!-- ============ TAB 1: 내 포지션 ============ -->
   <section class="tab-panel is-active is-locked" id="panel-position" role="tabpanel">
 
-    <div class="lock-screen" id="positionLock">
+    <div class="lock-screen">
       <h1>내 포지션</h1>
       <p class="panel-sub">비밀번호를 입력하면 열립니다.</p>
-      <form class="lock-form" id="positionLockForm" autocomplete="off">
-        <input type="password" id="positionLockInput" inputmode="numeric" aria-label="비밀번호" placeholder="비밀번호">
+      <form class="lock-form" autocomplete="off">
+        <input type="password" inputmode="numeric" aria-label="비밀번호" placeholder="비밀번호">
         <button class="btn" type="submit">열기</button>
       </form>
-      <p class="lock-error" id="positionLockError" role="alert" hidden>비밀번호가 틀렸어요. 다시 입력해 주세요.</p>
+      <p class="lock-error" role="alert" hidden></p>
     </div>
 
     <div class="panel-head">
@@ -278,8 +278,8 @@
 
           <p class="hint" style="margin-bottom:2px;">토큰 없이 직접 커밋하려면:</p>
           <ol class="publish-steps">
-            <li><b>복사</b>로 아래 JSON을 클립보드에 담기</li>
-            <li><b>GitHub에서 열기</b>로 <code>data/my-portfolio.json</code> 편집 화면 열기</li>
+            <li><b>복사</b>로 아래 암호화된 내용을 클립보드에 담기</li>
+            <li><b>GitHub에서 열기</b>로 <code>data/my-portfolio.enc.json</code> 편집 화면 열기</li>
             <li>기존 내용을 전부 지우고 붙여넣기</li>
             <li><b>Commit changes</b> 누르면 끝</li>
           </ol>
@@ -287,7 +287,7 @@
           <textarea id="publishTextarea" class="market-note" style="min-height:160px; font-family:var(--font-mono); font-size:12px;" readonly></textarea>
           <div style="display:flex; gap:8px; margin-top:10px; flex-wrap:wrap;">
             <button class="btn" id="publishCopyBtn">복사</button>
-            <a class="btn btn-ghost" id="publishOpenBtn" href="https://github.com/ingyu-song/stock-analysis/edit/main/data/my-portfolio.json" target="_blank" rel="noopener">GitHub에서 열기</a>
+            <a class="btn btn-ghost" id="publishOpenBtn" href="https://github.com/ingyu-song/stock-analysis/edit/main/data/my-portfolio.enc.json" target="_blank" rel="noopener">GitHub에서 열기</a>
             <button class="btn btn-ghost" id="publishCancelBtn">닫기</button>
           </div>
         </div>
@@ -346,7 +346,17 @@
   </section>
 
   <!-- ============ TAB 2: 매매 기록 ============ -->
-  <section class="tab-panel" id="panel-journal" role="tabpanel">
+  <section class="tab-panel is-locked" id="panel-journal" role="tabpanel">
+
+    <div class="lock-screen">
+      <h1>매매 기록</h1>
+      <p class="panel-sub">비밀번호를 입력하면 열립니다.</p>
+      <form class="lock-form" autocomplete="off">
+        <input type="password" inputmode="numeric" aria-label="비밀번호" placeholder="비밀번호">
+        <button class="btn" type="submit">열기</button>
+      </form>
+      <p class="lock-error" role="alert" hidden></p>
+    </div>
 
     <div class="panel-head">
       <h1>매매 기록</h1>

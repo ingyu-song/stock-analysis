@@ -4,9 +4,9 @@
 // drawing with the site's own CSS tokens keeps dark mode and the gain/loss
 // colours correct for free.
 import { getBookSnapshot, onBookChange } from "./position.js";
+import { decryptUrl, REASONS_URL } from "./book-crypto.js";
 
 const THEMES_URL = "data/themes.json";
-const REASONS_URL = "data/move_reasons.json";
 const SCOPE_KEY = "igs-map-scope";
 const CASH_KEY = "igs-map-cash";
 const MODE_KEY = "igs-map-mode";
@@ -16,7 +16,7 @@ const CASH = "현금";
 const HEADER_H = 19; // room for a group's label
 
 let themeOf = new Map(); // ticker -> theme
-let reasons = null;      // data/move_reasons.json
+let reasons = null;      // data/move_reasons.enc.json, once unlocked
 let scope = readPref(SCOPE_KEY, "all");
 let showCash = readPref(CASH_KEY, "0") === "1";
 let mode = readPref(MODE_KEY, "daily"); // "daily" | "cost"
@@ -469,13 +469,10 @@ function initHover() {
   window.addEventListener("scroll", () => { if (!pinnedKey) hideTip(); }, { passive: true });
 }
 
+// null until the book is unlocked, or if there is no file yet — the card
+// then says the explanation is not available
 async function loadReasons() {
-  try {
-    const res = await fetch(REASONS_URL, { cache: "no-store" });
-    if (res.ok) reasons = await res.json();
-  } catch {
-    // no file yet — the card says the explanation is not available
-  }
+  reasons = await decryptUrl(REASONS_URL);
 }
 
 function schedule() {
@@ -521,7 +518,7 @@ export function initPortfolioMap() {
     });
   });
   initHover();
-  loadReasons();
+  window.addEventListener("igs:unlocked", () => loadReasons().then(schedule));
 
   onBookChange(schedule);
   // fires when the tab first becomes visible (0 -> real width) and on any resize

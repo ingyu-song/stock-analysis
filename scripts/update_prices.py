@@ -5,7 +5,7 @@ Touches prices only. Share counts, cost basis, cash and the monthly rebalance
 decisions belong to the user and to claude_invest.py — this script must never
 rewrite them.
 
-  data/my-portfolio.json     실제 보유 포지션 (평가금액/손익)
+  data/my-portfolio.enc.json 실제 보유 포지션 (암호화, scripts/book_crypto.py)
   data/claude-portfolio.json 클로드 모의투자 (평가금액만; 매매는 월 1회 리밸런싱)
   data/coverage.json         커버리지 종목 시세
 
@@ -22,9 +22,11 @@ from pathlib import Path
 
 import yfinance as yf
 
+import book_crypto
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA = REPO_ROOT / "data"
-POSITION_PATH = DATA / "my-portfolio.json"
+POSITION_PATH = book_crypto.BOOK_PATH
 CLAUDE_PATH = DATA / "claude-portfolio.json"
 COVERAGE_PATH = DATA / "coverage.json"
 BENCHMARK_PATH = DATA / "benchmarks.json"
@@ -107,7 +109,16 @@ def fetch_fx(failures):
 
 
 def refresh_positions(rates, prev_rates, failures, dry_run):
-    book = json.loads(POSITION_PATH.read_text(encoding="utf-8"))
+    # The book is committed encrypted. Without the password (secret not set)
+    # it is skipped — never written back in plaintext.
+    try:
+        book = book_crypto.load(POSITION_PATH)
+    except book_crypto.NoPassword as e:
+        print(f"  {e} — 보유 포지션은 건너뜁니다", file=sys.stderr)
+        return False
+    if book is None:
+        print(f"  {POSITION_PATH.name} 이 없습니다", file=sys.stderr)
+        return False
     if "USD" in rates:
         book["fxRate"] = rates["USD"]
     if "EUR" in rates:
@@ -139,13 +150,13 @@ def refresh_positions(rates, prev_rates, failures, dry_run):
     # Every lookup failing means Yahoo is down. Stamping a fresh updatedAt then
     # would push every browser to re-seed identical numbers for nothing.
     if local_fail >= len(book["holdings"]):
-        print("  all lookups failed — leaving my-portfolio.json alone", file=sys.stderr)
+        print(f"  all lookups failed — leaving {POSITION_PATH.name} alone", file=sys.stderr)
         return False
 
     book["updatedAt"] = now_kst().strftime("%Y-%m-%d %H:%M")
     book["source"] = "Yahoo Finance 종가 (scripts/update_prices.py)"
     if not dry_run:
-        POSITION_PATH.write_text(json.dumps(book, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+        book_crypto.save(POSITION_PATH, book)
     return True
 
 

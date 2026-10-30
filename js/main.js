@@ -54,9 +54,9 @@ function initTheme() {
 }
 
 initTabs();
-initPositionLock();
 initTheme();
-initPosition();
+// 내 포지션 and 매매 기록 are built once the password has decrypted the book
+initPositionLock(book => initPosition(book));
 initPortfolioMap();
 initAnalysis();
 initWatchlist();

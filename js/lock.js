@@ -1,47 +1,57 @@
-// A viewing gate for the 내 포지션 tab. It is not encryption: the book itself
-// is still the public data/my-portfolio.json, so this only keeps the tab
-// closed to someone browsing the site. Only a hash of the password lives here.
-const SALT = "igs-position:";
-const HASH = "f977fa3b015eb67e6759df749a9dcd6b8d8ac114724e70ab271c8f4c4a6a9fac";
-// unlocked for this browser tab session; a new session asks again
-const SESSION_KEY = "igs-position-unlocked";
+// Password gate for the tabs built from the position book (내 포지션, 매매 기록).
+// The book is committed encrypted, so the password is checked by decrypting
+// it — there is no stored hash to test guesses against offline faster than
+// the PBKDF2 key derivation allows.
+import { unlockWithPassword, unlockFromSession } from "./book-crypto.js";
 
-async function sha256Hex(text) {
-  const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
-  return Array.from(new Uint8Array(buf), b => b.toString(16).padStart(2, "0")).join("");
-}
+const LOCKED_PANELS = ["panel-position", "panel-journal"];
 
-export function initPositionLock() {
-  const panel = document.getElementById("panel-position");
-  const form = document.getElementById("positionLockForm");
-  const input = document.getElementById("positionLockInput");
-  const error = document.getElementById("positionLockError");
+export async function initPositionLock(onUnlock) {
+  const panels = LOCKED_PANELS.map(id => document.getElementById(id)).filter(Boolean);
+  const forms = Array.from(document.querySelectorAll(".lock-form"));
 
-  function unlock() {
-    panel.classList.remove("is-locked");
+  let done = false;
+  function unlock(book) {
+    if (done) return;
+    done = true;
+    panels.forEach(p => p.classList.remove("is-locked"));
+    onUnlock(book);
+    window.dispatchEvent(new CustomEvent("igs:unlocked", { detail: { book } }));
     // the map and chart measured a hidden panel; let them re-measure
     window.dispatchEvent(new Event("resize"));
   }
 
-  let remembered = false;
-  try { remembered = sessionStorage.getItem(SESSION_KEY) === "1"; } catch { /* ask every time */ }
-  if (remembered) { unlock(); return; }
+  const remembered = await unlockFromSession();
+  if (remembered) { unlock(remembered); return; }
 
-  if (panel.classList.contains("is-active")) input.focus();
+  const active = panels.find(p => p.classList.contains("is-active"));
+  active?.querySelector(".lock-form input")?.focus();
 
   // wrong answers just clear the field: no limit on tries, no lockout
-  form.addEventListener("submit", async e => {
-    e.preventDefault();
-    const ok = (await sha256Hex(SALT + input.value)) === HASH;
-    if (!ok) {
-      error.hidden = false;
-      input.value = "";
-      input.focus();
-      return;
-    }
-    try { sessionStorage.setItem(SESSION_KEY, "1"); } catch { /* fine, ask again next load */ }
-    error.hidden = true;
-    input.value = "";
-    unlock();
+  forms.forEach(form => {
+    const input = form.querySelector("input");
+    const btn = form.querySelector("button");
+    const error = form.parentElement.querySelector(".lock-error");
+    form.addEventListener("submit", async e => {
+      e.preventDefault();
+      if (!input.value) return;
+      btn.disabled = true;
+      btn.textContent = "확인 중...";
+      try {
+        const book = await unlockWithPassword(input.value);
+        input.value = "";
+        unlock(book);
+      } catch (err) {
+        error.textContent = err && err.name === "OperationError"
+          ? "비밀번호가 틀렸어요. 다시 입력해 주세요."
+          : "데이터를 불러오지 못했어요. 네트워크를 확인하고 다시 시도해 주세요.";
+        error.hidden = false;
+        input.value = "";
+        input.focus();
+      } finally {
+        btn.disabled = false;
+        btn.textContent = "열기";
+      }
+    });
   });
 }

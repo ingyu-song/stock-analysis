@@ -78,14 +78,23 @@ function changeClass(pct) {
   return pct > 0 ? "num-gain" : "num-loss";
 }
 
+// The held-share badges come from the encrypted book, so they only appear
+// once 내 포지션 has been unlocked; until then the board shows prices alone.
+let lastCoverage = null;
+let unlockedBook = null;
+window.addEventListener("igs:unlocked", e => {
+  unlockedBook = e.detail.book;
+  if (lastCoverage) renderCoverage(lastCoverage, unlockedBook);
+});
+
 async function renderBoard() {
-  const [coverage, book, news, newsGlobal] = await Promise.all([
+  const [coverage, news, newsGlobal] = await Promise.all([
     loadJson("data/coverage.json"),
-    loadJson("data/my-portfolio.json"),
     loadJson("data/news.json"),
     loadJson("data/news_global.json"),
   ]);
-  renderCoverage(coverage, book);
+  lastCoverage = coverage;
+  renderCoverage(coverage, unlockedBook);
   renderCatalysts(coverage);
   renderNews([news, newsGlobal]);
 }

@@ -769,10 +769,10 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
 .holdings-table th[aria-sort="ascending"]::after { content: " ▲"; font-size: 9px; }
 .holdings-table th[aria-sort="descending"]::after { content: " ▼"; font-size: 9px; }
 
-/* 내 포지션 password gate */
+/* password gate on the tabs built from the encrypted book */
 .lock-screen { display: none; }
-#panel-position.is-locked > :not(.lock-screen) { display: none !important; }
-#panel-position.is-locked > .lock-screen { display: block; max-width: 340px; margin: 72px auto 56px; text-align: center; }
+.tab-panel.is-locked > :not(.lock-screen) { display: none !important; }
+.tab-panel.is-locked > .lock-screen { display: block; max-width: 340px; margin: 72px auto 56px; text-align: center; }
 .lock-screen h1 { font-size: 24px; letter-spacing: -0.4px; }
 .lock-form { display: flex; gap: 8px; margin-top: 20px; }
 .lock-form input {

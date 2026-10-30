@@ -1,5 +1,6 @@
 """
-보유 종목이 전일 대비 왜 움직였는지 한두 문장으로 설명해 data/move_reasons.json 에 적재.
+보유 종목이 전일 대비 왜 움직였는지 한두 문장으로 설명해 data/move_reasons.enc.json 에 적재
+(장부와 같은 키로 암호화 — scripts/book_crypto.py).
 
 설명은 이미 수집해 둔 뉴스(data/news.json 네이버, data/news_global.json 해외 RSS)와
 당일 시장 지수 변동만을 근거로 쓴다. 근거가 없으면 "확인된 원인 없음"이라고 쓰게 하고,
@@ -18,10 +19,12 @@ import sys
 import zoneinfo
 from pathlib import Path
 
+import book_crypto
+
 REPO_ROOT = Path(__file__).resolve().parent.parent
 DATA = REPO_ROOT / "data"
-PORTFOLIO_PATH = DATA / "my-portfolio.json"
-OUT_PATH = DATA / "move_reasons.json"
+PORTFOLIO_PATH = book_crypto.BOOK_PATH
+OUT_PATH = book_crypto.REASONS_PATH
 NEWS_FILES = ("news.json", "news_global.json")
 
 KST = zoneinfo.ZoneInfo("Asia/Seoul")
@@ -294,9 +297,14 @@ def main():
     parser.add_argument("--dry-run", action="store_true", help="프롬프트만 출력하고 API는 호출하지 않음")
     args = parser.parse_args()
 
-    book = load_json(PORTFOLIO_PATH)
+    try:
+        book = book_crypto.load(PORTFOLIO_PATH)
+    except book_crypto.NoPassword as e:
+        # secret not configured: skip quietly rather than fail the price run
+        print(f"{e} — 설명 생성을 건너뜁니다.", file=sys.stderr)
+        return 0
     if not book:
-        print("my-portfolio.json 을 읽지 못했습니다.", file=sys.stderr)
+        print(f"{PORTFOLIO_PATH.name} 을 읽지 못했습니다.", file=sys.stderr)
         return 1
 
     now = datetime.datetime.now(KST)
@@ -377,7 +385,7 @@ def main():
         "windowDays": WINDOW_DAYS,
         "moves": moves,
     }
-    OUT_PATH.write_text(json.dumps(out, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    book_crypto.save(OUT_PATH, out)
     print(f"\nWrote {OUT_PATH.name} — {len(cleaned)}/{len(expected)}종목")
     return 0
 

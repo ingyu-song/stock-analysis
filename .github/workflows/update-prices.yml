@@ -33,6 +33,9 @@ jobs:
         run: pip install -r scripts/requirements.txt
 
       - name: Refresh prices
+        env:
+          # decrypts data/my-portfolio.enc.json; without it the book is skipped
+          PORTFOLIO_PASSWORD: ${{ secrets.PORTFOLIO_PASSWORD }}
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python scripts/update_prices.py --dry-run
@@ -46,6 +49,7 @@ jobs:
         continue-on-error: true
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PORTFOLIO_PASSWORD: ${{ secrets.PORTFOLIO_PASSWORD }}
         run: |
           if [ "${{ inputs.dry_run }}" = "true" ]; then
             python scripts/explain_moves.py --dry-run
@@ -58,7 +62,7 @@ jobs:
         run: |
           git config user.name "price-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add data/my-portfolio.json data/claude-portfolio.json data/coverage.json data/benchmarks.json data/move_reasons.json
+          git add data/my-portfolio.enc.json data/claude-portfolio.json data/coverage.json data/benchmarks.json data/move_reasons.enc.json
 
           if git diff --cached --quiet; then
             echo "Prices unchanged — nothing to commit"
