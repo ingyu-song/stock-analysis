@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30 10:59",
+  "updatedAt": "2026-10-30 17:43",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Hit the Road This Season With These Useful New Map Features",
-          "summary": "The recent updates to Google Maps and Apple’s Maps use artificial (and human) intelligence for better navigation, planning and travel guides.",
-          "link": "https://www.nytimes.com/2026/10/29/technology/personaltech/apple-google-maps-features.html",
-          "publishedAt": "2026-10-29 18:02",
-          "outlet": "NYT Business"
-        },
         {
           "title": "Apple leans on AI silicon as reviewers call its Mac refresh incremental, question iPad mini pricing - digitimes",
           "summary": "Apple leans on AI silicon as reviewers call its Mac refresh incremental, question iPad mini pricing  digitimes",
@@ -43,6 +36,20 @@
           "outlet": "WSJ Markets"
         },
         {
+          "title": "U.S. Stocks Fall as Alphabet Slide Weighs on AI Optimism - WSJ",
+          "summary": "U.S. Stocks Fall as Alphabet Slide Weighs on AI Optimism  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdVVHMHFyMGd3YVdTZkQ3bklRNHRlQWtYU0VkcU9ibWo0dGVPTm5wcVdibDc5eElXdUZoUEtWWVQwREUyd2RCYlhxV1E2NlBkSGtUQks4Z3U2NzNTbXB6TVEzSVVCc1FpNG1aNE1iOFJiZ2ppdVpYWGdSeERMUDhXQUVZV1cxY1B0OGZnY1RKeU5RSFBPZGJnX29BU21jQ0Rz?oc=5",
+          "publishedAt": "2026-10-30 05:43",
+          "outlet": "WSJ Markets"
+        },
+        {
+          "title": "Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows - Bloomberg.com",
+          "summary": "Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkM0azA2aUp0d2NWeXRfenFQVFZ6eEdKeFJQaXRqVVctZkJhd1NtVXczZTNiTlkxS0xaX0RtTHBlMG9GTncxY2NGdV9xaTVlTTdHMGlLTHpnbERacVJ3STNCOHN1bTJ3aWFuWVI5R1hUdlN4QmIyX1pBQWtGNjVLMDhtS1N6amxEZ0hld21NblBoVkQtbFY0SDlLRDd0c2tJQVZDRTJCY3lPbHBn?oc=5",
+          "publishedAt": "2026-10-30 05:42",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
           "title": "Alphabet Stumbles, U.S. Economy Surges | Markets P.M. for Oct. 29 - WSJ",
           "summary": "Alphabet Stumbles, U.S. Economy Surges | Markets P.M. for Oct. 29  WSJ",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONHdoVmM4WE11TzN5YVlYMGZTWERHb0JKRzduWkxxVTJyWW9wdllHbTBheHhTQzdKVHpSWDBHSG9aVXE1R2xCaVRMRWFVMGI0a1pSMGdGODhLT3ZieU9VQW5pQVVzYjJjeXhubnVSb3FnclpCYVZhZ1VBTHdfaDZYZXYtX0ZPRDQ?oc=5",
@@ -50,32 +57,11 @@
           "outlet": "WSJ Markets"
         },
         {
-          "title": "US Stock Futures Fall as Alphabet Sales Miss Revives AI Fears - Bloomberg.com",
-          "summary": "US Stock Futures Fall as Alphabet Sales Miss Revives AI Fears  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOQzA3M2RwNDBGTV9LZmFhMWx1Rk92bXZIVlVaN2lZbU1faC05Q1pSaWU1SWlRdzk1YlFXTzMyV3hTMm5mQlNTRW5KMTFlZlBJdWJZVmVQekdMNU4yd0doMWI0Z2hyZFVxOU5RQUh4Rmd4Qkg5NHhpaXpsQ3RLVDZ6VHFMVzMwRU9iUUt6Rmt1cUQ2LXEwOEF6YUVTa3d0SjBmYW5CbTF1RGdFR21sN1kxUm9R?oc=5",
-          "publishedAt": "2026-10-30 05:28",
-          "outlet": "Bloomberg (via Google News)"
-        },
-        {
           "title": "Reddit moves to logged-in experience as AI eats search",
           "summary": "Reddit on Thursday said it's moving to become a primarily logged-in experience, marking one of the most significant shifts in its 21-year history.Why it matters: Reddit has long championed the open web. Now, it's pushing to build a more direct relationship with users while also protecting its data from increased scraping in the AI era. Driving the news: In an interview Thursday, Reddit co-founder ",
           "link": "https://www.axios.com/2026/10/29/reddit-logged-in-ai-search-incognito",
           "publishedAt": "2026-10-30 05:07",
           "outlet": "Axios"
-        },
-        {
-          "title": "Alphabet Stock Sinks, Dragging Nasdaq Lower - WSJ",
-          "summary": "Alphabet Stock Sinks, Dragging Nasdaq Lower  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdEt3QnZYMW5WSVBNMUNqQ3pOUEV6RVVoM2xLa2RfV0VEQ1YyTzE2MFIwTnNGdTRFelljM3gtM3lORnhLYW5nT1VaSk5IVV85NlBIeGFlWlhaOHFIcHZhTm1ER1FsZzdZRElZUHl0Mm4ya04tMjZ2WV9ZbzVJLUhocktXVVFYVy1lbEJOWVF4eFVHdVNsbEQ4Tg?oc=5",
-          "publishedAt": "2026-10-30 03:35",
-          "outlet": "WSJ Markets"
-        },
-        {
-          "title": "Google is eating itself — but it could still eat everyone else too",
-          "summary": "Leadership in the AI race can be won, lost and won again at speed",
-          "link": "https://www.ft.com/content/245107d8-ef54-4b30-a75a-538d055bc6d7?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-30 03:00",
-          "outlet": "Financial Times"
         },
         {
           "title": "Alphabet Loses Almost $500 Billion In Market Value, Marking Second-Largest Single-Day Drop - Forbes",
@@ -92,13 +78,6 @@
           "outlet": "Business Insider Markets"
         },
         {
-          "title": "Google Erases a Record $500 Billion as AI Eats Into Sales - Bloomberg.com",
-          "summary": "Google Erases a Record $500 Billion as AI Eats Into Sales  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPNl94WE51TlQ2Q2dVVTBDNlZZbzF5Mk02UjZRaEJwQnhoM1lGX0dWODk3b1RwZDB1SDVHYmYtOUQzaWJyTEc0ZXlTNmpyQU50WVhaQUpJX3dyMkVFbmgyVXJFVy1fb21TQUxEOXFIWmtzdFEyYVk5SkU3ZGF4LTdnN0EyTlo1NklicFg4TzlpSHYwRE9VYzdUUTZ4N0ZLaG9XWUs1Nm5vM3FfSktn?oc=5",
-          "publishedAt": "2026-10-29 22:37",
-          "outlet": "Bloomberg (via Google News)"
-        },
-        {
           "title": "Microsoft Up, Google Down. A Tale of Two Hyperscalers.",
           "summary": "Investors are showing little patience for lavish spending and meager returns on companies’ artificial intelligence bets.",
           "link": "https://www.nytimes.com/2026/10/29/business/dealbook/microsoft-google-ai-hyperscalers.html",
@@ -113,11 +92,11 @@
           "outlet": "WSJ Markets"
         },
         {
-          "title": "Hit the Road This Season With These Useful New Map Features",
-          "summary": "The recent updates to Google Maps and Apple’s Maps use artificial (and human) intelligence for better navigation, planning and travel guides.",
-          "link": "https://www.nytimes.com/2026/10/29/technology/personaltech/apple-google-maps-features.html",
-          "publishedAt": "2026-10-29 18:02",
-          "outlet": "NYT Business"
+          "title": "Google Cloud Closes In on Azure, but Microsoft Wins the Day With Investors - The Information",
+          "summary": "Google Cloud Closes In on Azure, but Microsoft Wins the Day With Investors  The Information",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0oweTVqenIwbk1TUTdlWU5vZDBmVzE2M0djYlhvZlFnZ2pEOFhhVFlPcVFTUFMzS1Y3ZUN4bkUzYnd5SzNlUUpwdGNIOUNKcEh4ZXk4YkJXemNNUm50dkZnQmNfUTNRSEV3VUNIMnk2Z242eVhMdjZKRkhuYVFUVFR3eDR4RnNmbDcyTHJnTG1pUm9VeG9KelVvcEtucmF4ZUFfU3ViY0EwMlNHOXc4?oc=5",
+          "publishedAt": "2026-10-29 09:06",
+          "outlet": "The Information"
         },
         {
           "title": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips - The Information",
@@ -133,11 +112,11 @@
       "name": "코인베이스 글로벌",
       "items": [
         {
-          "title": "Coinbase Returns to Profitability While Posting Another Revenue Drop - Bloomberg.com",
-          "summary": "Coinbase Returns to Profitability While Posting Another Revenue Drop  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPdWc0N2VtRG1yakZ2UjdWdkFPWlgxNlVNRTY3VnlvWDQyZlc0Z2d2b09NaldCa2pCMW1aQXhXY0VzeDhmb1Y5enhIcnpyZ21pR2pBWmNKamNjY3phbWlpMlZ2akxQSF9nbkZ1aFduVVltSmtyVGFWVjNGVnpVRVNGaDBVajRyRUxBOTIzSl8zQlplYnRKeE1xZ2duZnNvazMwdzFmZFdSVWNzUWRER01mRU1wMk13Ukt5RWlZ?oc=5",
-          "publishedAt": "2026-10-30 06:11",
-          "outlet": "Bloomberg (via Google News)"
+          "title": "Why is Coinbase stock sliding today?",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/why-is-coinbase-stock-sliding-today-93CH-4986079",
+          "publishedAt": "2026-10-30 17:32",
+          "outlet": "Investing.com"
         }
       ]
     },
@@ -146,18 +125,18 @@
       "name": "인텔",
       "items": [
         {
-          "title": "Amazon burns cash, Intel flags weak PC demand as AI boom’s costs ripple across markets",
+          "title": "AMD stock falls as Intel’s weak PC outlook weighs on sector",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/weak-quarter-for-intel-sends-shivers-through-cooling-chip-stocks-4985272",
-          "publishedAt": "2026-10-30 10:30",
+          "link": "https://www.investing.com/news/stock-market-news/amd-stock-falls-as-intels-weak-pc-outlook-weighs-on-sector-93CH-4986087",
+          "publishedAt": "2026-10-30 17:34",
           "outlet": "Investing.com"
         },
         {
-          "title": "U.S. stock futures sink, Nasdaq down 2% as Amazon, Intel earnings underwhelm",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-sink-nasdaq-down-2-as-amazon-intel-earnings-underwhelm-4985675",
-          "publishedAt": "2026-10-30 10:06",
-          "outlet": "Investing.com"
+          "title": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook - Bloomberg.com",
+          "summary": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
+          "publishedAt": "2026-10-30 17:16",
+          "outlet": "Bloomberg (via Google News)"
         },
         {
           "title": "Intel shares fall 22% as weak sales outlook dents turnaround",
@@ -165,13 +144,6 @@
           "link": "https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb?syn-25a6b1a6=1",
           "publishedAt": "2026-10-30 08:45",
           "outlet": "Financial Times"
-        },
-        {
-          "title": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook - Bloomberg.com",
-          "summary": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
-          "publishedAt": "2026-10-30 07:38",
-          "outlet": "Bloomberg (via Google News)"
         },
         {
           "title": "Intel Shares Plunge More Than 20% on Weak PC-Market Outlook - WSJ",
