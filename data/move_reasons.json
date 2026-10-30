@@ -1,149 +1,161 @@
 {
-  "generatedAt": "2026-10-29 10:53",
+  "generatedAt": "2026-10-30 11:03",
   "model": "claude-sonnet-5",
   "windowDays": 6,
   "moves": {
     "379800.KS": {
       "name": "KODEX 미국S&P500",
-      "changePct": -1.05,
-      "session": "2026-10-29",
-      "reason": "같은 날 코스피가 2.50% 급락한 것과 같이 움직여, 기초지수인 S&P500 자체보다는 원화 환산 및 국내 증시 전반의 약세 영향으로 보임.",
+      "changePct": -1.1,
+      "session": "2026-10-30",
+      "reason": "미국 증시 급락 여파로 코스피가 5% 폭락한 가운데, 기초지수인 S&P500 추종 ETF 특성상 전반적 시장 하락 영향으로 하락한 것으로 보임.",
       "basis": "market",
       "sources": []
     },
     "379810.KS": {
       "name": "KODEX 미국나스닥100",
-      "changePct": -1.71,
-      "session": "2026-10-29",
-      "reason": "같은 날 코스피가 2.50% 급락한 것과 같이 움직여, 국내 증시 전반의 약세 분위기가 영향을 준 것으로 보임.",
+      "changePct": -2.7,
+      "session": "2026-10-30",
+      "reason": "코스피가 5% 급락하는 등 글로벌 기술주 투매 분위기 속에서 나스닥100 추종 ETF로서 시장 영향을 크게 받아 하락한 것으로 보임.",
       "basis": "market",
       "sources": []
     },
     "AAPL": {
       "name": "애플",
-      "changePct": -0.94,
-      "session": "2026-10-28",
-      "reason": "애플은 전 거래일보다 0.94% 내린 343.83달러를 기록했다는 기사가 하락을 직접 보도함. 같은 날 알파벳 등 빅테크 실적 발표 영향으로 기술주 내 등락이 엇갈린 가운데 하락 대열에 합류한 것으로 설명됨.",
+      "changePct": 0.9,
+      "session": "2026-10-29",
+      "reason": "나스닥100이 1.38% 하락한 날에도 애플은 분석가들의 매수 의견 재확인과 실적 기대감 속에 오히려 상승했다.",
       "basis": "news",
       "sources": [
         {
-          "title": "[속보] 마이크론·오라클·샌디스크 급등…엔비디아·테슬라·애플은 하...",
-          "link": "https://www.cbci.co.kr/news/articleView.html?idxno=620562",
+          "title": "[월가 콜] 분석 개시·의견 재확인...팔란티어·루브릭·오라클(10/29)",
+          "link": "https://www.newspim.com/news/view/20261030000274",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-29 07:20"
+          "publishedAt": "2026-10-30 09:32"
+        },
+        {
+          "title": "[속보]美뉴욕증시 알파벳 12%대 급락…마이크론·아마존·엔비디아 하락...",
+          "link": "https://www.cbci.co.kr/news/articleView.html?idxno=621134",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-30 07:06"
+        },
+        {
+          "title": "[월가 콜] 분석 개시·의견 재확인...GE버노바·노바티스·블랙록(10/28)",
+          "link": "https://www.newspim.com/news/view/20261029000078",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-29 08:20"
         }
       ]
     },
     "SONY": {
       "name": "소니 그룹 (ADR)",
-      "changePct": -2.32,
-      "session": "2026-10-28",
-      "reason": "같은 날 S&P500·나스닥100이 소폭 상승했음에도 소니는 하락해 시장 전반과 반대로 움직였으며, 관련 기사도 없어 뚜렷한 원인은 확인되지 않음.",
+      "changePct": 1.51,
+      "session": "2026-10-29",
+      "reason": "같은 날 나스닥·S&P500은 하락했지만 소니는 블록체인 사업 확장 소식 등 개별 호재 속에 상승한 것으로 보이며, 직접적 원인을 명확히 설명하는 기사는 없어 뚜렷한 원인은 확인되지 않음.",
       "basis": "none",
       "sources": []
     },
     "PG": {
       "name": "프록터 앤드 갬블",
-      "changePct": -0.5,
-      "session": "2026-10-28",
-      "reason": "실적 발표 관련 기사(유기적 매출 4% 증가, 목표가 상향)가 있었으나 이는 직접적인 당일 하락 원인으로 보기 어렵고, 변동폭도 크지 않아 뚜렷한 원인은 확인되지 않음.",
+      "changePct": 0.49,
+      "session": "2026-10-29",
+      "reason": "시장 전반이 하락한 날 P&G는 견조한 유기적 매출 성장 소식 속에 소폭 상승했으나, 주가 변동을 직접 설명하는 기사는 없어 뚜렷한 원인은 확인되지 않음.",
       "basis": "none",
       "sources": []
     },
     "GOOGL": {
       "name": "알파벳 A",
-      "changePct": 0.41,
-      "session": "2026-10-28",
-      "reason": "3분기 매출은 25% 늘었지만 순이익이 시장 예상치를 밑돌고 AI 투자 부담이 부각되며 시간외 거래에서 급락했다는 보도가 있음. 다만 정규장 종가는 전일 대비 +0.41%로 소폭 상승 마감함.",
+      "changePct": -2.97,
+      "session": "2026-10-29",
+      "reason": "검색광고 매출 부진과 AI 투자 부담 우려로 알파벳이 상장 이후 최대 낙폭인 12.6% 폭락했다.",
       "basis": "news",
       "sources": [
         {
-          "title": "알파벳, 3분기 매출 25% 증가에도 급락…AI 투자 부담 확대",
-          "link": "https://www.etnews.com/20261029000019",
+          "title": "AI 투자 회의론 재점화…알파벳 상장 이후 최대 낙폭(종합)",
+          "link": "https://view.asiae.co.kr/article/2026103009554059771",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-29 08:13"
+          "publishedAt": "2026-10-30 10:55"
         },
         {
-          "title": "알파벳, 기대 하회 실적에 시간 외 주가 10% 폭락",
-          "link": "http://www.opinionnews.co.kr/news/articleView.html?idxno=146350",
+          "title": "알파벳 12.6% 폭락…하루 만에 시총 669조원 증발",
+          "link": "https://www.joongang.co.kr/article/25474365",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-29 08:08"
+          "publishedAt": "2026-10-30 10:50"
+        },
+        {
+          "title": "'구글' 알파벳 시총 700조원 증발…AI 투자 폭주에 주가 폭락",
+          "link": "http://www.hansbiz.co.kr/news/articleView.html?idxno=878122",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-30 10:50"
+        },
+        {
+          "title": "구글 ‘알파벳’ 12.6% 급락…시총 669조 원 증발",
+          "link": "https://news.kbs.co.kr/news/pc/view/view.do?ncd=8699661&ref=A",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-30 10:48"
         }
       ]
     },
     "CRCL": {
       "name": "서클 인터넷 그룹",
-      "changePct": 1.02,
-      "session": "2026-10-28",
-      "reason": "스테이블코인 규제 관련 SEC 제안, 수탁액 증가, 아크인베스트 매수 등 우호적 뉴스 흐름이 이어진 가운데 주가가 소폭 상승함.",
+      "changePct": -0.42,
+      "session": "2026-10-29",
+      "reason": "바이낸스 보안사고 관련 USDC 동결 소식 등 스테이블코인 관련 불안이 부각되며 소폭 하락한 것으로 보임.",
       "basis": "news",
       "sources": [
         {
-          "title": "크라켄 USDC 수탁액, 2025년 9월 제휴 후 30% 늘어",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/428790",
+          "title": "서클 CEO, 바이낸스 잠재 보안사고에 USDC 8억달러 이상 동결 밝혀",
+          "link": "https://www.tokenpost.kr/news/breaking/429782",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-29 03:36"
+          "publishedAt": "2026-10-30 10:02"
         },
         {
-          "title": "서클, 2% 차감 0% 제안…적격 스테이블코인 현금 인정 요구",
-          "link": "https://www.tokenpost.kr/news/policy/428702",
+          "title": "바이낸스 해킹에 스테이블코인 동결 조치…서클 시간외서 5%↓",
+          "link": "https://news.einfomax.co.kr/news/articleView.html?idxno=4442104",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-29 01:14"
-        },
-        {
-          "title": "서클, SEC에 GENIUS법 적격 결제 스테이블코인 현금 취급 요청",
-          "link": "https://www.tokenpost.kr/news/breaking/428700",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-29 01:12"
-        },
-        {
-          "title": "서클 아크 USDC 9억7935만달러…일주일 새 31.93% 늘었다",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/428199",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-28 18:28"
-        },
-        {
-          "title": "아크인베스트, 서클($CRCL) 6만5615주 매수…23일엔 4만2499주 매도",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/428133",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-28 18:26"
-        },
-        {
-          "title": "아크인베스트, ARKB 60만1028주 팔고 서클 6만5615주 매수",
-          "link": "https://www.tokenpost.kr/news/cryptocurrency/428175",
-          "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-28 18:26"
+          "publishedAt": "2026-10-30 09:18"
         }
       ]
     },
     "012450.KS": {
       "name": "한화에어로스페이스",
-      "changePct": -5.72,
-      "session": "2026-10-29",
-      "reason": "같은 날 코스피가 2.50% 급락하며 방산·중공업 업종 전반이 약세를 보였고(한화에어로·HD현대중공업 등 동반 약세 보도), 개별 호재성 기사는 없어 업종·시장 전반의 조정 영향으로 보임.",
-      "basis": "market",
+      "changePct": -10.42,
+      "session": "2026-10-30",
+      "reason": "3분기 영업이익이 시장 예상치를 크게 밑돈 어닝쇼크와 폴란드 수출 물량 인도 지연 여파로 10%대 급락했다.",
+      "basis": "news",
       "sources": [
         {
-          "title": "MS 호실적에 삼전·하닉 프리마켓 강세…알파벳 급락은 부담",
-          "link": "https://www.dt.co.kr/article/12091969?ref=naver",
+          "title": "폴란드 수출 지연에 어닝 쇼크…한화에어로 10%대 급락[이런주식 저런국...",
+          "link": "https://www.sedaily.com/article/20108204?ref=naver",
           "outlet": "네이버 뉴스",
-          "publishedAt": "2026-10-29 08:11"
+          "publishedAt": "2026-10-30 10:49"
+        },
+        {
+          "title": "[특징주] 한화에어로, 어닝쇼크 여파 지속…장 초반 11%대 하락",
+          "link": "https://www.ajunews.com/view/20261030104107168",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-30 10:44"
+        },
+        {
+          "title": "코스피 장중 5% 가까이 급락···11거래일 만에 매도 사이드카",
+          "link": "https://www.seoulfn.com/news/articleView.html?idxno=641432",
+          "outlet": "네이버 뉴스",
+          "publishedAt": "2026-10-30 10:37"
         }
       ]
     },
     "GPIQ": {
       "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
-      "changePct": 0.48,
-      "session": "2026-10-28",
-      "reason": "같은 날 나스닥100이 0.55% 상승한 것과 비슷한 방향으로 소폭 올라, 기초지수인 나스닥100 상승이 반영된 것으로 보임.",
+      "changePct": -0.46,
+      "session": "2026-10-29",
+      "reason": "나스닥100이 1.38% 하락한 날 이를 기초로 한 프리미엄 인컴 ETF도 같은 방향으로 소폭 하락한 것으로 보임.",
       "basis": "market",
       "sources": []
     },
     "108490.KQ": {
       "name": "로보티즈",
-      "changePct": -4.94,
-      "session": "2026-10-29",
-      "reason": "같은 날 코스피가 2.50% 급락한 것과 같이 움직였으며, 관련 기사는 없어 시장 전반의 약세 영향으로 추정됨.",
+      "changePct": -3.76,
+      "session": "2026-10-30",
+      "reason": "미국발 기술주 급락으로 코스피가 5% 폭락하는 등 시장 전반의 투자심리 악화 영향으로 동반 하락한 것으로 보임.",
       "basis": "market",
       "sources": []
     }

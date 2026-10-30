@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-10-29 10:53",
+  "updatedAt": "2026-10-30 11:03",
   "source": "Yahoo Finance 종가 (scripts/update_prices.py)",
   "baseCurrency": "KRW",
-  "fxRate": 1331.68,
-  "fxRateEUR": 1483.6,
+  "fxRate": 1337.28,
+  "fxRateEUR": 1495.8,
   "accounts": [
     {
       "id": "kiwoom",
@@ -29,10 +29,10 @@
       "name": "KODEX 미국S&P500",
       "currency": "KRW",
       "shares": 100,
-      "price": 23095.0,
+      "price": 22940.0,
       "costKRW": 2365300,
       "costNative": 2365300,
-      "prevClose": 23340.0
+      "prevClose": 23195.0
     },
     {
       "account": "kiwoom",
@@ -40,10 +40,10 @@
       "name": "KODEX 미국나스닥100",
       "currency": "KRW",
       "shares": 200,
-      "price": 25935.0,
+      "price": 25360.0,
       "costKRW": 5424800,
       "costNative": 5424800,
-      "prevClose": 26385.0
+      "prevClose": 26065.0
     },
     {
       "account": "mirae",
@@ -51,10 +51,10 @@
       "name": "애플",
       "currency": "USD",
       "shares": 15,
-      "price": 343.83,
+      "price": 348.91,
       "costKRW": 6546491,
       "costNative": 4942.2405,
-      "prevClose": 347.1077
+      "prevClose": 345.7836
     },
     {
       "account": "mirae",
@@ -62,10 +62,10 @@
       "name": "소니 그룹 (ADR)",
       "currency": "USD",
       "shares": 150,
-      "price": 25.22,
+      "price": 25.47,
       "costNative": 3587.25,
       "costKRW": 4751671,
-      "prevClose": 25.8183
+      "prevClose": 25.09
     },
     {
       "account": "mirae",
@@ -73,10 +73,10 @@
       "name": "프록터 앤드 갬블",
       "currency": "USD",
       "shares": 10,
-      "price": 158.26,
+      "price": 160.59,
       "costKRW": 1965044,
       "costNative": 1483.5,
-      "prevClose": 159.0519
+      "prevClose": 159.8
     },
     {
       "account": "mirae",
@@ -84,10 +84,10 @@
       "name": "알파벳 A",
       "currency": "USD",
       "shares": 5,
-      "price": 324.89,
+      "price": 283.82,
       "costKRW": 2306976,
       "costNative": 1741.64,
-      "prevClose": 323.57
+      "prevClose": 292.5
     },
     {
       "account": "mirae",
@@ -95,10 +95,10 @@
       "name": "서클 인터넷 그룹",
       "currency": "USD",
       "shares": 10,
-      "price": 81.71,
+      "price": 79.99,
       "costKRW": 1329064,
       "costNative": 1003.37,
-      "prevClose": 80.8865
+      "prevClose": 80.33
     },
     {
       "account": "kiwoom",
@@ -106,10 +106,10 @@
       "name": "한화에어로스페이스",
       "currency": "KRW",
       "shares": 5,
-      "price": 742000.0,
+      "price": 679000.0,
       "costKRW": 4418000,
       "costNative": 4418000,
-      "prevClose": 787000.0
+      "prevClose": 758000.0
     },
     {
       "account": "mirae",
@@ -117,10 +117,10 @@
       "name": "골드만삭스 나스닥100 프리미엄 인컴 ETF",
       "currency": "USD",
       "shares": 20,
-      "price": 56.8,
+      "price": 56.07,
       "costKRW": 1532946,
       "costNative": 1157.29,
-      "prevClose": 56.53
+      "prevClose": 56.33
     },
     {
       "account": "kiwoom",
@@ -128,10 +128,10 @@
       "name": "로보티즈",
       "currency": "KRW",
       "shares": 5,
-      "price": 260000.0,
+      "price": 256000.0,
       "costKRW": 1155000,
       "costNative": 1155000,
-      "prevClose": 273500.0
+      "prevClose": 266000.0
     }
   ],
   "risk": {
@@ -625,6 +625,6 @@
       "note": "체결일·단가 미확인(같은 근거로 전량 매도 판단). 10/23 매매일지의 2개월 합계(매수 2,631,363원, 매도 5,143,259원, 손익 −43,334원/−0.83%)는 9월 매도분이 섞여 있다."
     }
   ],
-  "fxRatePrev": 1340.83,
-  "fxRateEURPrev": 1495.6
+  "fxRatePrev": 1338.51,
+  "fxRateEURPrev": 1496.6
 }
