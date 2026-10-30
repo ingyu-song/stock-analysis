@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30 17:43",
+  "updatedAt": "2026-10-31 00:58",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple leans on AI silicon as reviewers call its Mac refresh incremental, question iPad mini pricing - digitimes",
-          "summary": "Apple leans on AI silicon as reviewers call its Mac refresh incremental, question iPad mini pricing  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0dqOEdKYk8wSVZyTjFBNmcxMTJyQlRTRmMtWGtaeTNTQjd0X09PNmlSUDFIVEtTb2JnckthZ1gyN1NCUmlrcVZ2LW9oelJLaVY5NENKR3IxMzBIZEVuV3laRjV6czZ3bm5OSjRJVmtpVVJpeW9pR1RPOXdhOWZTVy12eEpJUmVxRlZUR1o4Q0RTSDNRWG1R?oc=5",
-          "publishedAt": "2026-10-28 10:12",
-          "outlet": "DigiTimes"
+          "title": "Corporate America's Trump trap",
+          "summary": "America's corporate titans greeted President Trump's 2024 victory with open checkbooks, 12-figure investment pledges and fawning tributes to his coming \"Golden Age.\"Two years later, on the eve of a potential blue wave, Democrats are preparing to greet those same executives with a stack of subpoenas.Why it matters: The CEOs who staked their reputations and fortunes on MAGA's staying power could spe",
+          "link": "https://www.axios.com/2026/10/30/democrat-subpoenas-investigations-corporate-trump",
+          "publishedAt": "2026-10-30 18:32",
+          "outlet": "Axios"
         }
       ]
     },
@@ -22,11 +22,32 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google value plunges by $500bn as AI fears rattle Wall Street",
-          "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI search summaries were affecting ad revenue.",
+          "title": "Google Parent Alphabet Still Has the Ingredients to Win in an AI Pullback Despite Stock Price Hit - WSJ",
+          "summary": "Google Parent Alphabet Still Has the Ingredients to Win in an AI Pullback Despite Stock Price Hit  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUUgzSXRFc1hETjM5VjFRbjM1bHRhNGg1Vlc1NzAyUklCSG5IN3A1NGdINDVUYUt2dW1jTnZwQW9UQ0VNQ3FGdHc5OU9Kc1ZpLVpJS3QyeWtTaGJYMGZaLXJUSnUyb01pR096STNBY0Z6NDd6bjNCeWJzVXdSRHR6LTJCM3ZjZVlTUFAwRThXQWFLVjZDbDl3WGllUHk?oc=5",
+          "publishedAt": "2026-10-31 00:31",
+          "outlet": "WSJ Markets"
+        },
+        {
+          "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg.com",
+          "summary": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNW01QmljY0NXUFJqSjdtdmNna3VOMHNabXJLc3NDM0VranhNdWZkMnpoemVxM0FEX3FkNk91QzF5eFM0TzFvcUw4a09ncWRkdXE3bkV0dDZUSzhuRXJCSHd1ZlVnVXBHaGZnTDc2eGpaS28xb0dEZzYtM0pFRTJWQk5JNWdGT3FQVUsxU1lVcGh2RmRoUWdpcXVfQ3hoVW14ZXkyWTRxYTlxZWE5SU5N?oc=5",
+          "publishedAt": "2026-10-30 23:24",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "Google value plunges by $500bn as its own AI search hits ad sales",
+          "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
           "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-30 07:17",
+          "publishedAt": "2026-10-30 21:04",
           "outlet": "BBC Business"
+        },
+        {
+          "title": "U.S. Stocks Fall as Alphabet Slide Weighs on AI Optimism - WSJ",
+          "summary": "U.S. Stocks Fall as Alphabet Slide Weighs on AI Optimism  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdVVHMHFyMGd3YVdTZkQ3bklRNHRlQWtYU0VkcU9ibWo0dGVPTm5wcVdibDc5eElXdUZoUEtWWVQwREUyd2RCYlhxV1E2NlBkSGtUQks4Z3U2NzNTbXB6TVEzSVVCc1FpNG1aNE1iOFJiZ2ppdVpYWGdSeERMUDhXQUVZV1cxY1B0OGZnY1RKeU5RSFBPZGJnX29BU21jQ0Rz?oc=5",
+          "publishedAt": "2026-10-30 06:45",
+          "outlet": "WSJ Markets"
         },
         {
           "title": "Alphabet Sheds Half a Trillion in Market Value in Stock’s Worst Day Ever - WSJ",
@@ -36,32 +57,11 @@
           "outlet": "WSJ Markets"
         },
         {
-          "title": "U.S. Stocks Fall as Alphabet Slide Weighs on AI Optimism - WSJ",
-          "summary": "U.S. Stocks Fall as Alphabet Slide Weighs on AI Optimism  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOdVVHMHFyMGd3YVdTZkQ3bklRNHRlQWtYU0VkcU9ibWo0dGVPTm5wcVdibDc5eElXdUZoUEtWWVQwREUyd2RCYlhxV1E2NlBkSGtUQks4Z3U2NzNTbXB6TVEzSVVCc1FpNG1aNE1iOFJiZ2ppdVpYWGdSeERMUDhXQUVZV1cxY1B0OGZnY1RKeU5RSFBPZGJnX29BU21jQ0Rz?oc=5",
-          "publishedAt": "2026-10-30 05:43",
-          "outlet": "WSJ Markets"
-        },
-        {
-          "title": "Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows - Bloomberg.com",
-          "summary": "Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows  Bloomberg.com",
+          "title": "Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows - Bloomberg",
+          "summary": "Alphabet’s AI Risk Extends Beyond $1 Trillion, Filing Shows  Bloomberg",
           "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkM0azA2aUp0d2NWeXRfenFQVFZ6eEdKeFJQaXRqVVctZkJhd1NtVXczZTNiTlkxS0xaX0RtTHBlMG9GTncxY2NGdV9xaTVlTTdHMGlLTHpnbERacVJ3STNCOHN1bTJ3aWFuWVI5R1hUdlN4QmIyX1pBQWtGNjVLMDhtS1N6amxEZ0hld21NblBoVkQtbFY0SDlLRDd0c2tJQVZDRTJCY3lPbHBn?oc=5",
           "publishedAt": "2026-10-30 05:42",
           "outlet": "Bloomberg (via Google News)"
-        },
-        {
-          "title": "Alphabet Stumbles, U.S. Economy Surges | Markets P.M. for Oct. 29 - WSJ",
-          "summary": "Alphabet Stumbles, U.S. Economy Surges | Markets P.M. for Oct. 29  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxONHdoVmM4WE11TzN5YVlYMGZTWERHb0JKRzduWkxxVTJyWW9wdllHbTBheHhTQzdKVHpSWDBHSG9aVXE1R2xCaVRMRWFVMGI0a1pSMGdGODhLT3ZieU9VQW5pQVVzYjJjeXhubnVSb3FnclpCYVZhZ1VBTHdfaDZYZXYtX0ZPRDQ?oc=5",
-          "publishedAt": "2026-10-30 05:32",
-          "outlet": "WSJ Markets"
-        },
-        {
-          "title": "Reddit moves to logged-in experience as AI eats search",
-          "summary": "Reddit on Thursday said it's moving to become a primarily logged-in experience, marking one of the most significant shifts in its 21-year history.Why it matters: Reddit has long championed the open web. Now, it's pushing to build a more direct relationship with users while also protecting its data from increased scraping in the AI era. Driving the news: In an interview Thursday, Reddit co-founder ",
-          "link": "https://www.axios.com/2026/10/29/reddit-logged-in-ai-search-incognito",
-          "publishedAt": "2026-10-30 05:07",
-          "outlet": "Axios"
         },
         {
           "title": "Alphabet Loses Almost $500 Billion In Market Value, Marking Second-Largest Single-Day Drop - Forbes",
@@ -78,27 +78,6 @@
           "outlet": "Business Insider Markets"
         },
         {
-          "title": "Microsoft Up, Google Down. A Tale of Two Hyperscalers.",
-          "summary": "Investors are showing little patience for lavish spending and meager returns on companies’ artificial intelligence bets.",
-          "link": "https://www.nytimes.com/2026/10/29/business/dealbook/microsoft-google-ai-hyperscalers.html",
-          "publishedAt": "2026-10-29 21:20",
-          "outlet": "NYT Business"
-        },
-        {
-          "title": "Google Parent Alphabet Still Has the Ingredients to Win in an AI Pullback Despite Stock Price Hit - WSJ",
-          "summary": "Google Parent Alphabet Still Has the Ingredients to Win in an AI Pullback Despite Stock Price Hit  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNUUgzSXRFc1hETjM5VjFRbjM1bHRhNGg1Vlc1NzAyUklCSG5IN3A1NGdINDVUYUt2dW1jTnZwQW9UQ0VNQ3FGdHc5OU9Kc1ZpLVpJS3QyeWtTaGJYMGZaLXJUSnUyb01pR096STNBY0Z6NDd6bjNCeWJzVXdSRHR6LTJCM3ZjZVlTUFAwRThXQWFLVjZDbDl3WGllUHk?oc=5",
-          "publishedAt": "2026-10-29 18:30",
-          "outlet": "WSJ Markets"
-        },
-        {
-          "title": "Google Cloud Closes In on Azure, but Microsoft Wins the Day With Investors - The Information",
-          "summary": "Google Cloud Closes In on Azure, but Microsoft Wins the Day With Investors  The Information",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNb0oweTVqenIwbk1TUTdlWU5vZDBmVzE2M0djYlhvZlFnZ2pEOFhhVFlPcVFTUFMzS1Y3ZUN4bkUzYnd5SzNlUUpwdGNIOUNKcEh4ZXk4YkJXemNNUm50dkZnQmNfUTNRSEV3VUNIMnk2Z242eVhMdjZKRkhuYVFUVFR3eDR4RnNmbDcyTHJnTG1pUm9VeG9KelVvcEtucmF4ZUFfU3ViY0EwMlNHOXc4?oc=5",
-          "publishedAt": "2026-10-29 09:06",
-          "outlet": "The Information"
-        },
-        {
           "title": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips - The Information",
           "summary": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips  The Information",
           "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHVUUUdOMmpGd3dxdWhJS0t6c3FlVmh1eXg1ckptWEFhX2JGbVByMGozdHZRQks4YUV0dzM2dWI0Tm05cmlXcG53Q09IYXNJYlFab3BjV0NSVnNoR05TQXFLQ2thQlV0OVFWdDJyM2wzOFVCdG13X0hsSHVQNFRTQ2hGNThFeFJjeWhqMlZLTW1RQ1RUNVU4UnBtMU93eEk?oc=5",
@@ -108,15 +87,15 @@
       ]
     },
     {
-      "ticker": "COIN",
-      "name": "코인베이스 글로벌",
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
       "items": [
         {
-          "title": "Why is Coinbase stock sliding today?",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/why-is-coinbase-stock-sliding-today-93CH-4986079",
-          "publishedAt": "2026-10-30 17:32",
-          "outlet": "Investing.com"
+          "title": "The humans burning out on AI's cyber frontlines",
+          "summary": "The people at the frontlines of the ongoing barrage of AI-enabled cyberattacks are being pummeled with attacks, vulnerabilities and false alarms.Why it matters: Humans are still at the frontlines of a fight enabled largely by AI — and they're struggling to wade through mountains of threat data to determine who's been hit and which attacks pose a real danger to companies.What they're saying: \"The l",
+          "link": "https://www.axios.com/2026/10/30/cybersecurity-ai-burnout-human-workers",
+          "publishedAt": "2026-10-30 17:45",
+          "outlet": "Axios"
         }
       ]
     },
@@ -125,25 +104,53 @@
       "name": "인텔",
       "items": [
         {
-          "title": "AMD stock falls as Intel’s weak PC outlook weighs on sector",
+          "title": "Nasdaq hits near three-month low as Amazon, Intel deepen AI capex concerns",
           "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/amd-stock-falls-as-intels-weak-pc-outlook-weighs-on-sector-93CH-4986087",
-          "publishedAt": "2026-10-30 17:34",
+          "link": "https://www.investing.com/news/stock-market-news/nasdaq-futures-tumble-as-amazon-intel-results-deepen-ai-spending-woes-4986163",
+          "publishedAt": "2026-10-31 00:48",
           "outlet": "Investing.com"
+        },
+        {
+          "title": "US tech stocks see sharp falls over AI cost fears",
+          "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
+          "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-10-31 00:46",
+          "outlet": "BBC Business"
+        },
+        {
+          "title": "US tech stocks tumble as earnings stoke AI spending fears",
+          "summary": "Intel’s shares on track to plunge by the most since 1974 after chipmaker’s results spook investors",
+          "link": "https://www.ft.com/content/3ba953ae-84bb-4de4-959e-baec3e908fb3?syn-25a6b1a6=1",
+          "publishedAt": "2026-10-30 23:34",
+          "outlet": "Financial Times"
+        },
+        {
+          "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg.com",
+          "summary": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNW01QmljY0NXUFJqSjdtdmNna3VOMHNabXJLc3NDM0VranhNdWZkMnpoemVxM0FEX3FkNk91QzF5eFM0TzFvcUw4a09ncWRkdXE3bkV0dDZUSzhuRXJCSHd1ZlVnVXBHaGZnTDc2eGpaS28xb0dEZzYtM0pFRTJWQk5JNWdGT3FQVUsxU1lVcGh2RmRoUWdpcXVfQ3hoVW14ZXkyWTRxYTlxZWE5SU5N?oc=5",
+          "publishedAt": "2026-10-30 23:24",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "Amazon, Intel Earnings Add Fuel to Tech Selloff - WSJ",
+          "summary": "Amazon, Intel Earnings Add Fuel to Tech Selloff  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0dCXzNIVWRZZmZVTWM2U25pX18zb0RtZlIwYjd0RUpuYzdpRUJBdl9pT3pjQkVpa29KU043MjhLOWhaLTBkUGxFZHVIcFNzWkFKQXkyMUVUakJIVlo5X3lPTlJWMGgtNFc2WDd4OE5BNkY4UzNOdjRVTDU0ZjBHZUkybEd2RkVVbHB4c2RrSl92OW8?oc=5",
+          "publishedAt": "2026-10-30 23:14",
+          "outlet": "WSJ Markets"
         },
         {
           "title": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook - Bloomberg.com",
           "summary": "Intel Plunges After PC Slump and Supply Snags Hurt Outlook  Bloomberg.com",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
-          "publishedAt": "2026-10-30 17:16",
+          "publishedAt": "2026-10-30 22:39",
           "outlet": "Bloomberg (via Google News)"
         },
         {
-          "title": "Intel shares fall 22% as weak sales outlook dents turnaround",
-          "summary": "Chipmaker forecasts lower than expected PC chip sales and falling margins",
-          "link": "https://www.ft.com/content/d7540e89-08db-43d3-92e0-3c15dd3a60cb?syn-25a6b1a6=1",
-          "publishedAt": "2026-10-30 08:45",
-          "outlet": "Financial Times"
+          "title": "Intel increases equipment orders as server demand exceeds supply - digitimes",
+          "summary": "Intel increases equipment orders as server demand exceeds supply  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTlBhNV9GSGk2dmpzYURpQmREWWIxc29SREJnTTgxVnM2UkdVTzJxSkFMdllud3R4VUtUWUg4ZHBNemtTWUUyNU1iTVpwTFNRSnhjMEYzWVY0X1V0bkdEREp5N0pRMlZtZnlmMDUtQUlrck1CUUx4T283bjdzNWllUUlJQTJyTzZZUE9obEszZ2tTRksyc010Nw?oc=5",
+          "publishedAt": "2026-10-30 10:29",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Intel Shares Plunge More Than 20% on Weak PC-Market Outlook - WSJ",
@@ -158,13 +165,6 @@
           "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcXEzUmpkSHEwZWtxM2cwVjMwQkJXMVZqVUJrWk8xejY0TzkyZmtvN0E2Z3Q3MDJfNkRLOXRKUW5xR2QzLVM5WjQzSVp2OVBhQldOMVJKZkJ2ZC1qMm04dWFSVjExd1h2bXV2emx1dmkwTVFzT29DamloeVhPZUdwZEhuUmhvem92VG9MQzFIZU1ibDR1MWNaZ0o2ZVBOYzhodHdyQVY4T1U?oc=5",
           "publishedAt": "2026-10-30 06:03",
           "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "Nvidia CEO reportedly targeted by an alleged Chinese spy",
-          "summary": "Jensen Huang reported to have had close relationship with tech company executive suspected of passing intel to ChinaUS intelligence agencies believe the Nvidia chief executive, Jensen Huang, has been targeted by an alleged Chinese spy who had done business with him, according to a new report by the New York Times.Alice Huang or Huang Le, of no relation to the Nvidia CEO, is an executive at a Singa",
-          "link": "https://www.theguardian.com/technology/2026/oct/29/nvidia-ceo-targeted-chinese-spy",
-          "publishedAt": "2026-10-30 00:23",
-          "outlet": "The Guardian Business"
         }
       ]
     }
