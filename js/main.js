@@ -1,4 +1,5 @@
 import { initPosition } from "./position.js";
+import { initPositionLock } from "./lock.js";
 import { initPortfolioMap } from "./portfolio-map.js";
 import { initAnalysis } from "./analysis.js";
 import { initWatchlist } from "./watchlist.js";
@@ -53,6 +54,7 @@ function initTheme() {
 }
 
 initTabs();
+initPositionLock();
 initTheme();
 initPosition();
 initPortfolioMap();

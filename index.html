@@ -36,7 +36,17 @@
 <main class="page">
 
   <!-- ============ TAB 1: 내 포지션 ============ -->
-  <section class="tab-panel is-active" id="panel-position" role="tabpanel">
+  <section class="tab-panel is-active is-locked" id="panel-position" role="tabpanel">
+
+    <div class="lock-screen" id="positionLock">
+      <h1>내 포지션</h1>
+      <p class="panel-sub">비밀번호를 입력하면 열립니다.</p>
+      <form class="lock-form" id="positionLockForm" autocomplete="off">
+        <input type="password" id="positionLockInput" inputmode="numeric" aria-label="비밀번호" placeholder="비밀번호">
+        <button class="btn" type="submit">열기</button>
+      </form>
+      <p class="lock-error" id="positionLockError" role="alert" hidden>비밀번호가 틀렸어요. 다시 입력해 주세요.</p>
+    </div>
 
     <div class="panel-head">
       <h1>내 포지션</h1>

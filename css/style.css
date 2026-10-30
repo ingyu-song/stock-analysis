@@ -768,3 +768,17 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
 .holdings-table th[aria-sort="ascending"], .holdings-table th[aria-sort="descending"] { color: var(--text-primary); }
 .holdings-table th[aria-sort="ascending"]::after { content: " ▲"; font-size: 9px; }
 .holdings-table th[aria-sort="descending"]::after { content: " ▼"; font-size: 9px; }
+
+/* 내 포지션 password gate */
+.lock-screen { display: none; }
+#panel-position.is-locked > :not(.lock-screen) { display: none !important; }
+#panel-position.is-locked > .lock-screen { display: block; max-width: 340px; margin: 72px auto 56px; text-align: center; }
+.lock-screen h1 { font-size: 24px; letter-spacing: -0.4px; }
+.lock-form { display: flex; gap: 8px; margin-top: 20px; }
+.lock-form input {
+  flex: 1; min-width: 0; border: 0.5px solid var(--border-strong); border-radius: var(--radius-sm);
+  background: var(--surface-1); color: var(--text-primary);
+  padding: 8px 10px; font-size: 15px; font-family: var(--font-mono); letter-spacing: 0.2em; text-align: center;
+}
+.lock-form input:focus { outline: 1.5px solid var(--navy); outline-offset: -1px; }
+.lock-error { margin-top: 10px; font-family: var(--font-mono); font-size: 12px; color: var(--critical); }
