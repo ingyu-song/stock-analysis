@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31 05:51",
+  "updatedAt": "2026-10-31 09:51",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,25 @@
       "name": "애플",
       "items": [
         {
+          "title": "Apple Overtakes Nvidia to Become World’s Most Valuable Company - Bloomberg.com",
+          "summary": "Apple Overtakes Nvidia to Become World’s Most Valuable Company  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQemhEdzVEaEpkYUJtQ2dYN2c3MlQ1N01MR0oxMnNheDZlbXVzaEJJd2k3bksyWGZwR0stcFZUOTNJZFB5dU1jajQ3RVZZYTBodlRJQXR4TG5tbjRibWYtUk9pUVpOWFZ5UGNOQV9sNnUyR3dfZllSSm81U2FjMDJFQTBsOU9XN2ZhRkVoTVBNdWxtVmJzdEVLRElxU2dkdG1HdjU4cGp6WmhjLVVEenJqQU80aw?oc=5",
+          "publishedAt": "2026-10-31 05:28",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
           "title": "Corporate America's Trump trap",
           "summary": "America's corporate titans greeted President Trump's 2024 victory with open checkbooks, 12-figure investment pledges and fawning tributes to his coming \"Golden Age.\"Two years later, on the eve of a potential blue wave, Democrats are preparing to greet those same executives with a stack of subpoenas.Why it matters: The CEOs who staked their reputations and fortunes on MAGA's staying power could spe",
           "link": "https://www.axios.com/2026/10/30/democrat-subpoenas-investigations-corporate-trump",
           "publishedAt": "2026-10-30 18:32",
           "outlet": "Axios"
+        },
+        {
+          "title": "Apple leans on AI silicon as reviewers call its Mac refresh incremental, question iPad mini pricing - digitimes",
+          "summary": "Apple leans on AI silicon as reviewers call its Mac refresh incremental, question iPad mini pricing  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0dqOEdKYk8wSVZyTjFBNmcxMTJyQlRTRmMtWGtaeTNTQjd0X09PNmlSUDFIVEtTb2JnckthZ1gyN1NCUmlrcVZ2LW9oelJLaVY5NENKR3IxMzBIZEVuV3laRjV6czZ3bm5OSjRJVmtpVVJpeW9pR1RPOXdhOWZTVy12eEpJUmVxRlZUR1o4Q0RTSDNRWG1R?oc=5",
+          "publishedAt": "2026-10-28 10:12",
+          "outlet": "DigiTimes"
         }
       ]
     },
@@ -21,13 +35,6 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
-        {
-          "title": "Reddit shares plunge as Google's AI search squeezes traffic - Reuters",
-          "summary": "Reddit shares plunge as Google's AI search squeezes traffic  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNQks1Z3lNdGwyQnFsQ3NQTU1jWTMwNGRGV002QW5RaDhIOGRIRG9xZmFWTUpsYnpYWVhvbUE1N0ZRTXNlOVRJMjdIVE5nOU5tWEhWRGNORVZPUWxNZ2otUF9zUEQ1QkRlWjNNRm1keF95MFlJOUo3bXBmRTZJQ3ppdWxmOVlQbENUVXE3dXUwcTItTUNQTTJEQmJCdGJXeXNwckE?oc=5",
-          "publishedAt": "2026-10-31 01:15",
-          "outlet": "Reuters Business (via Google News)"
-        },
         {
           "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg.com",
           "summary": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater  Bloomberg.com",
@@ -41,20 +48,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-10-30 21:04",
           "outlet": "BBC Business"
-        },
-        {
-          "title": "Alphabet Sheds Half a Trillion in Market Value in Stock’s Worst Day Ever - WSJ",
-          "summary": "Alphabet Sheds Half a Trillion in Market Value in Stock’s Worst Day Ever  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNdGV1bXVNOXFOR1NrQndfTDlkLTlxemh6b0JkY0l0LWhZUTJIUWVadTdDOXl2aG1WZ1JVT0l2TzE4OURJMFhKSlctVmptS2UwZmpzajRHT19BaEF1dzNaWjRVcjh3YnY1MV93dkt3V2dTZXNFdEpHTHJ2T3FzSHowekRBclY0eWw2bWRrZHhnajNyNlFncy10TmdTSHBBYkMtUk1KaV8tMXc0bG8x?oc=5",
-          "publishedAt": "2026-10-30 06:20",
-          "outlet": "WSJ Markets"
-        },
-        {
-          "title": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips - The Information",
-          "summary": "OpenAI, a Longtime Nvidia Customer, Plans to Buy Google’s AI Chips  The Information",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQMHVUUUdOMmpGd3dxdWhJS0t6c3FlVmh1eXg1ckptWEFhX2JGbVByMGozdHZRQks4YUV0dzM2dWI0Tm05cmlXcG53Q09IYXNJYlFab3BjV0NSVnNoR05TQXFLQ2thQlV0OVFWdDJyM2wzOFVCdG13X0hsSHVQNFRTQ2hGNThFeFJjeWhqMlZLTW1RQ1RUNVU4UnBtMU93eEk?oc=5",
-          "publishedAt": "2026-10-28 08:59",
-          "outlet": "The Information"
         }
       ]
     },
@@ -72,28 +65,22 @@
       ]
     },
     {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "The humans burning out on AI's cyber frontlines",
-          "summary": "The people at the frontlines of the ongoing barrage of AI-enabled cyberattacks are being pummeled with attacks, vulnerabilities and false alarms.Why it matters: Humans are still at the frontlines of a fight enabled largely by AI — and they're struggling to wade through mountains of threat data to determine who's been hit and which attacks pose a real danger to companies.What they're saying: \"The l",
-          "link": "https://www.axios.com/2026/10/30/cybersecurity-ai-burnout-human-workers",
-          "publishedAt": "2026-10-30 17:45",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
       "ticker": "INTC",
       "name": "인텔",
       "items": [
         {
-          "title": "October ends with a thud for Intel, Reddit, AI stalwarts",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/october-ends-with-a-thud-for-intel-reddit-ai-stalwarts-4988666",
-          "publishedAt": "2026-10-31 05:37",
-          "outlet": "Investing.com"
+          "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling - WSJ",
+          "summary": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemJPWElvMW9JX2pxLThMQ1VVVDhyaGhjelVIZC12OFk2VjNCOVpVQy1hYkdQRUlpOERsWG9XZDk1SkVtZmxCQlB5V0M0bjZQeUNEOGJpVC1xaGFtaTN3dTJBdzVRWDUwVFZlcDFpMFByMl9zRmxhZjFMX2VrZldZaTdTSVViTThneVdweHpfOVpkUW8wekQyem9sMUFmNFE3YlJnVHJmOTJxLWc?oc=5",
+          "publishedAt": "2026-10-31 07:04",
+          "outlet": "WSJ Markets"
+        },
+        {
+          "title": "Stocks Slide, Intel Plunges, Binance Hacked | Markets P.M. for Oct. 30 - WSJ",
+          "summary": "Stocks Slide, Intel Plunges, Binance Hacked | Markets P.M. for Oct. 30  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLUZLbmQ2VnlpcS1VOVNNc05mN0I1Zmd5ZWNHb3o1b05zRklLM3ozaGhlLXhiSDVpc1d2QXUySzYxZzgyc0dHa3BVOTZYSjlwck5ucDdQQmhaOE5sdlB6ci02V0NZTFEyanlFZ1JpRTNPeUJMNFR5cE5RbXlKX3FZQW1yTmh0cmNaY0NINW1FdVVfdw?oc=5",
+          "publishedAt": "2026-10-31 05:39",
+          "outlet": "WSJ Markets"
         },
         {
           "title": "US tech stocks see sharp falls as AI spending nears $1tn",
@@ -101,20 +88,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-10-31 05:34",
           "outlet": "BBC Business"
-        },
-        {
-          "title": "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast - Bloomberg.com",
-          "summary": "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
-          "publishedAt": "2026-10-31 05:18",
-          "outlet": "Bloomberg (via Google News)"
-        },
-        {
-          "title": "Amazon, Intel Earnings Add Fuel to Tech Selloff - WSJ",
-          "summary": "Amazon, Intel Earnings Add Fuel to Tech Selloff  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOd0dCXzNIVWRZZmZVTWM2U25pX18zb0RtZlIwYjd0RUpuYzdpRUJBdl9pT3pjQkVpa29KU043MjhLOWhaLTBkUGxFZHVIcFNzWkFKQXkyMUVUakJIVlo5X3lPTlJWMGgtNFc2WDd4OE5BNkY4UzNOdjRVTDU0ZjBHZUkybEd2RkVVbHB4c2RrSl92OW8?oc=5",
-          "publishedAt": "2026-10-31 01:23",
-          "outlet": "WSJ Markets"
         },
         {
           "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg.com",
@@ -129,27 +102,6 @@
           "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPZjkyWFotUU9lZmV6dUwzMDdxZlZxWkxwODZhakdMQnhyZEhMSFItZ2ZKM3VhNGpZWlRYZjNpM1lwaGhKYTN0VmhUbzllNU9Qd2RLdDgzY0lBa1VGRDZMT1pLb05ndDNEOGd0bEVZbnl5QXdROFF2NFVvUHFTbzNmRWhudTF2Tk1VT1k0bnBEc3ZTNkIyVU1IZHZPY0xnNmdjaTJYVnR2bTlybmJGcC1aZEdGUmh4NmxsTDN3?oc=5",
           "publishedAt": "2026-10-30 23:09",
           "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Intel increases equipment orders as server demand exceeds supply - digitimes",
-          "summary": "Intel increases equipment orders as server demand exceeds supply  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTlBhNV9GSGk2dmpzYURpQmREWWIxc29SREJnTTgxVnM2UkdVTzJxSkFMdllud3R4VUtUWUg4ZHBNemtTWUUyNU1iTVpwTFNRSnhjMEYzWVY0X1V0bkdEREp5N0pRMlZtZnlmMDUtQUlrck1CUUx4T283bjdzNWllUUlJQTJyTzZZUE9obEszZ2tTRksyc010Nw?oc=5",
-          "publishedAt": "2026-10-30 10:29",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Intel Shares Plunge More Than 20% on Weak PC-Market Outlook - WSJ",
-          "summary": "Intel Shares Plunge More Than 20% on Weak PC-Market Outlook  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbEJ5MFFEaHVhdTZRSm51TUNpSVQ5MEZOVE9SQTEya011RkNRQ25aUmlQeDhFV3JIQ2YyUk1hRll0aGxXOTRNRHBSZUprNzhjMU9ueGliTTJRMkNRU0VITmdva1JmMDduczdYTmpUR1dSTmtNNXZrVHdhSnViYkZPQUlfbWo5Y1l6bTJhaEM0bUJGYjVpbzBjX2tHNWo?oc=5",
-          "publishedAt": "2026-10-30 07:33",
-          "outlet": "WSJ Markets"
-        },
-        {
-          "title": "Amazon burns cash, Intel flags weak PC demand as AI boom's costs ripple across markets - Reuters",
-          "summary": "Amazon burns cash, Intel flags weak PC demand as AI boom's costs ripple across markets  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNcXEzUmpkSHEwZWtxM2cwVjMwQkJXMVZqVUJrWk8xejY0TzkyZmtvN0E2Z3Q3MDJfNkRLOXRKUW5xR2QzLVM5WjQzSVp2OVBhQldOMVJKZkJ2ZC1qMm04dWFSVjExd1h2bXV2emx1dmkwTVFzT29DamloeVhPZUdwZEhuUmhvem92VG9MQzFIZU1ibDR1MWNaZ0o2ZVBOYzhodHdyQVY4T1U?oc=5",
-          "publishedAt": "2026-10-30 06:03",
-          "outlet": "Reuters Business (via Google News)"
         }
       ]
     }
