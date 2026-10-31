@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31 16:03",
+  "updatedAt": "2026-10-31 22:41",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -14,13 +14,6 @@
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQemhEdzVEaEpkYUJtQ2dYN2c3MlQ1N01MR0oxMnNheDZlbXVzaEJJd2k3bksyWGZwR0stcFZUOTNJZFB5dU1jajQ3RVZZYTBodlRJQXR4TG5tbjRibWYtUk9pUVpOWFZ5UGNOQV9sNnUyR3dfZllSSm81U2FjMDJFQTBsOU9XN2ZhRkVoTVBNdWxtVmJzdEVLRElxU2dkdG1HdjU4cGp6WmhjLVVEenJqQU80aw?oc=5",
           "publishedAt": "2026-10-31 05:28",
           "outlet": "Bloomberg (via Google News)"
-        },
-        {
-          "title": "Corporate America's Trump trap",
-          "summary": "America's corporate titans greeted President Trump's 2024 victory with open checkbooks, 12-figure investment pledges and fawning tributes to his coming \"Golden Age.\"Two years later, on the eve of a potential blue wave, Democrats are preparing to greet those same executives with a stack of subpoenas.Why it matters: The CEOs who staked their reputations and fortunes on MAGA's staying power could spe",
-          "link": "https://www.axios.com/2026/10/30/democrat-subpoenas-investigations-corporate-trump",
-          "publishedAt": "2026-10-30 18:32",
-          "outlet": "Axios"
         }
       ]
     },
@@ -28,6 +21,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "The AI trade's trick-or-treat earnings season",
+          "summary": "The latest wave of hyperscaler earnings is spooking Wall Street. Bulls and bears alike have evidence to validate their wildest dreams — or their worst nightmares.Why it matters: The market's AI obsession has entered its Jekyll and Hyde era, with the latest earnings from tech giants offering contrary signals about the AI boom.Driving the news: The tech-heavy Nasdaq briefly sank into correction terr",
+          "link": "https://www.axios.com/2026/10/31/tech-earnings-ai-hyperscaler-risks-trick-or-treat",
+          "publishedAt": "2026-10-31 19:45",
+          "outlet": "Axios"
+        },
         {
           "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg",
           "summary": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater  Bloomberg",
@@ -76,8 +76,8 @@
           "outlet": "Reuters Business (via Google News)"
         },
         {
-          "title": "Stocks Slide, Intel Plunges, Binance Hacked | Markets P.M. for Oct. 30 - WSJ",
-          "summary": "Stocks Slide, Intel Plunges, Binance Hacked | Markets P.M. for Oct. 30  WSJ",
+          "title": "Stocks Slide, Intel Plunges, Binance Hacked - WSJ",
+          "summary": "Stocks Slide, Intel Plunges, Binance Hacked  WSJ",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLUZLbmQ2VnlpcS1VOVNNc05mN0I1Zmd5ZWNHb3o1b05zRklLM3ozaGhlLXhiSDVpc1d2QXUySzYxZzgyc0dHa3BVOTZYSjlwck5ucDdQQmhaOE5sdlB6ci02V0NZTFEyanlFZ1JpRTNPeUJMNFR5cE5RbXlKX3FZQW1yTmh0cmNaY0NINW1FdVVfdw?oc=5",
           "publishedAt": "2026-10-31 05:37",
           "outlet": "WSJ Markets"
@@ -88,13 +88,6 @@
           "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-10-31 05:34",
           "outlet": "BBC Business"
-        },
-        {
-          "title": "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast - Bloomberg",
-          "summary": "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast  Bloomberg",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
-          "publishedAt": "2026-10-31 05:18",
-          "outlet": "Bloomberg (via Google News)"
         },
         {
           "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg",
