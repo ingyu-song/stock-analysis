@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-31 09:51",
+  "updatedAt": "2026-10-31 16:03",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,8 +9,8 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple Overtakes Nvidia to Become World’s Most Valuable Company - Bloomberg.com",
-          "summary": "Apple Overtakes Nvidia to Become World’s Most Valuable Company  Bloomberg.com",
+          "title": "Apple Overtakes Nvidia to Become World’s Most Valuable Company - Bloomberg",
+          "summary": "Apple Overtakes Nvidia to Become World’s Most Valuable Company  Bloomberg",
           "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQemhEdzVEaEpkYUJtQ2dYN2c3MlQ1N01MR0oxMnNheDZlbXVzaEJJd2k3bksyWGZwR0stcFZUOTNJZFB5dU1jajQ3RVZZYTBodlRJQXR4TG5tbjRibWYtUk9pUVpOWFZ5UGNOQV9sNnUyR3dfZllSSm81U2FjMDJFQTBsOU9XN2ZhRkVoTVBNdWxtVmJzdEVLRElxU2dkdG1HdjU4cGp6WmhjLVVEenJqQU80aw?oc=5",
           "publishedAt": "2026-10-31 05:28",
           "outlet": "Bloomberg (via Google News)"
@@ -21,13 +21,6 @@
           "link": "https://www.axios.com/2026/10/30/democrat-subpoenas-investigations-corporate-trump",
           "publishedAt": "2026-10-30 18:32",
           "outlet": "Axios"
-        },
-        {
-          "title": "Apple leans on AI silicon as reviewers call its Mac refresh incremental, question iPad mini pricing - digitimes",
-          "summary": "Apple leans on AI silicon as reviewers call its Mac refresh incremental, question iPad mini pricing  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNT0dqOEdKYk8wSVZyTjFBNmcxMTJyQlRTRmMtWGtaeTNTQjd0X09PNmlSUDFIVEtTb2JnckthZ1gyN1NCUmlrcVZ2LW9oelJLaVY5NENKR3IxMzBIZEVuV3laRjV6czZ3bm5OSjRJVmtpVVJpeW9pR1RPOXdhOWZTVy12eEpJUmVxRlZUR1o4Q0RTSDNRWG1R?oc=5",
-          "publishedAt": "2026-10-28 10:12",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -36,8 +29,8 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg.com",
-          "summary": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater  Bloomberg.com",
+          "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg",
+          "summary": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater  Bloomberg",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNW01QmljY0NXUFJqSjdtdmNna3VOMHNabXJLc3NDM0VranhNdWZkMnpoemVxM0FEX3FkNk91QzF5eFM0TzFvcUw4a09ncWRkdXE3bkV0dDZUSzhuRXJCSHd1ZlVnVXBHaGZnTDc2eGpaS28xb0dEZzYtM0pFRTJWQk5JNWdGT3FQVUsxU1lVcGh2RmRoUWdpcXVfQ3hoVW14ZXkyWTRxYTlxZWE5SU5N?oc=5",
           "publishedAt": "2026-10-30 23:24",
           "outlet": "Bloomberg (via Google News)"
@@ -76,10 +69,17 @@
           "outlet": "WSJ Markets"
         },
         {
+          "title": "Intel on course for worst day ever, triggers global chip rout - Reuters",
+          "summary": "Intel on course for worst day ever, triggers global chip rout  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQV2NqOERFZ1pGS25NV2RwTVlCSUVMbXdBQ0QxRzlmWTdWd3EzT2N6YUo4QVNHanQwUC1aRHdqcmtOeWdDUGpQcTg1X1pFWDdydHhyQWUzNnVUQk9Tc3h1Z29WbWxHa1VFZmdod3Z6bG1LNzkwQ3h2a3ZHdlA5cEF4X3d6LVdCUEVEc0RkVTNYcG5IQmlZcy10cmhDSmxDcndVeGFtUURSOXc?oc=5",
+          "publishedAt": "2026-10-31 05:50",
+          "outlet": "Reuters Business (via Google News)"
+        },
+        {
           "title": "Stocks Slide, Intel Plunges, Binance Hacked | Markets P.M. for Oct. 30 - WSJ",
           "summary": "Stocks Slide, Intel Plunges, Binance Hacked | Markets P.M. for Oct. 30  WSJ",
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLUZLbmQ2VnlpcS1VOVNNc05mN0I1Zmd5ZWNHb3o1b05zRklLM3ozaGhlLXhiSDVpc1d2QXUySzYxZzgyc0dHa3BVOTZYSjlwck5ucDdQQmhaOE5sdlB6ci02V0NZTFEyanlFZ1JpRTNPeUJMNFR5cE5RbXlKX3FZQW1yTmh0cmNaY0NINW1FdVVfdw?oc=5",
-          "publishedAt": "2026-10-31 05:39",
+          "publishedAt": "2026-10-31 05:37",
           "outlet": "WSJ Markets"
         },
         {
@@ -90,8 +90,15 @@
           "outlet": "BBC Business"
         },
         {
-          "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg.com",
-          "summary": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater  Bloomberg.com",
+          "title": "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast - Bloomberg",
+          "summary": "Intel Suffers Worst Stock Thrashing in Decades on Weak Forecast  Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaURpSDFJSVlDdjY1d0wtcmQxOVpjYmowVTBSaEZCelVCWGNoVGI2VVR2UWNVcVZDVHVyUjFIMWdvQ0FfQ1dDdkpXWmdKUXRuNG9wVnlJRjNPTzFvcTB1TFV0QjdIVHhUZEZhOHFrdGJfSGNHbF9La09hYVhrempMWm5mTHZWMlJKUElqXzNYbjJKa3ZpZ0dZTE5Kb3JHb212eEtyNUQzNkltOUhnTlVNNWlR?oc=5",
+          "publishedAt": "2026-10-31 05:18",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater - Bloomberg",
+          "summary": "Meta, Alphabet, Intel Share Sales Leave Buyers Far Underwater  Bloomberg",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNW01QmljY0NXUFJqSjdtdmNna3VOMHNabXJLc3NDM0VranhNdWZkMnpoemVxM0FEX3FkNk91QzF5eFM0TzFvcUw4a09ncWRkdXE3bkV0dDZUSzhuRXJCSHd1ZlVnVXBHaGZnTDc2eGpaS28xb0dEZzYtM0pFRTJWQk5JNWdGT3FQVUsxU1lVcGh2RmRoUWdpcXVfQ3hoVW14ZXkyWTRxYTlxZWE5SU5N?oc=5",
           "publishedAt": "2026-10-30 23:24",
           "outlet": "Bloomberg (via Google News)"
