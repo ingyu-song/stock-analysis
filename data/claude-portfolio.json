@@ -2,7 +2,7 @@
   "startDate": "2026-08-12",
   "baseCurrency": "KRW",
   "startingAUM": 46500000,
-  "cash": 2541805.4327482227,
+  "cash": 8166805.432748223,
   "holdings": [
     {
       "ticker": "MSFT",
@@ -12,19 +12,19 @@
       "avgCost": 503.80999755859375,
       "firstBought": "2026-08-12",
       "lastPrice": 521.9099731445312,
-      "lastPriceDate": "2026-10-31",
-      "marketValueKRW": 12569491.905622559
+      "lastPriceDate": "2026-11-01",
+      "marketValueKRW": 12542435.863259777
     },
     {
       "ticker": "005930.KS",
       "name": "삼성전자",
       "currency": "KRW",
-      "shares": 110,
+      "shares": 85,
       "avgCost": 255500.0,
       "firstBought": "2026-08-12",
       "lastPrice": 225000.0,
-      "lastPriceDate": "2026-10-31",
-      "marketValueKRW": 24750000.0
+      "lastPriceDate": "2026-11-01",
+      "marketValueKRW": 19125000.0
     },
     {
       "ticker": "D05.SI",
@@ -34,8 +34,8 @@
       "avgCost": 77.82937431335449,
       "firstBought": "2026-08-12",
       "lastPrice": 73.12999725341797,
-      "lastPriceDate": "2026-10-31",
-      "marketValueKRW": 2445256.493762207
+      "lastPriceDate": "2026-11-01",
+      "marketValueKRW": 2445250.003474951
     }
   ],
   "decisions": [
@@ -140,6 +140,26 @@
       ],
       "portfolioValueAfter": 47307145,
       "cashAfter": 2541805,
+      "dryRun": false
+    },
+    {
+      "date": "2026-11-01",
+      "portfolioValueBefore": 42279491,
+      "cashBefore": 2541805,
+      "marketView": "삼성전자가 지난달 리밸런싱(21주 매도) 이후에도 추가 하락(-11.9%)하며 포트폴리오 비중이 58.5%로 여전히 25% 상한을 크게 상회하고 있습니다. 메모리 반도체의 HBM/AI向 수요 확대라는 장기 논지 자체는 훼손되지 않았다고 판단하지만, 최근 주가 약세는 레거시 메모리 가격 조정 및 재고 우려 등 업황 변동성이 반영된 것으로 보이며 단일 종목 리스크가 과도한 상태를 지속하는 것은 위험 관리 원칙에 어긋납니다. MSFT는 Azure/오피스 중심의 구조적 성장과 해자가 유지되며 평가이익 상태이므로 보유를 지속하고, DBS는 안정적 ROE와 배당을 바탕으로 한 금융 코어 포지션으로 유지합니다. 이번 달은 신규 종목 편입 없이 삼성전자 비중을 추가로 낮춰 현금 및 기존 우량주 비중 균형을 맞추는 데 집중합니다.",
+      "trades": [
+        {
+          "action": "sell",
+          "ticker": "005930.KS",
+          "name": "삼성전자",
+          "shares": 25,
+          "rationale": "메모리 반도체 과점 사업자로서 HBM 등 AI 메모리向 구조적 수요 확대라는 장기 논지는 유효하나, 최근 주가가 평단 대비 -11.9%로 조정받으며 포트폴리오 비중이 58.5%까지 치솟아 25% 상한 원칙을 크게 벗어났습니다. 단일 종목 집중 리스크를 완화하기 위해 일부를 추가로 덜어내며, 이는 종목에 대한 비관적 전망이 아니라 포지션 사이징 조정입니다. 매도 후에도 85주(약 1,912만원 상당)를 보유해 여전히 포트폴리오 내 최대 비중 종목으로 남깁니다.",
+          "price": 225000.0,
+          "status": "filled"
+        }
+      ],
+      "portfolioValueAfter": 42279491,
+      "cashAfter": 8166805,
       "dryRun": false
     }
   ],
@@ -431,9 +451,15 @@
       "totalValue": 42306553.83213299,
       "cash": 2541805.4327482227,
       "equityValue": 39764748.39938477
+    },
+    {
+      "date": "2026-11-01",
+      "totalValue": 42279491,
+      "cash": 8166805,
+      "equityValue": 34112686
     }
   ],
-  "lastUpdated": "2026-10-31T10:42:52.537864+09:00",
+  "lastUpdated": "2026-11-01T05:56:34.513081+00:00",
   "cashFlows": [
     {
       "date": "2026-09-28",
