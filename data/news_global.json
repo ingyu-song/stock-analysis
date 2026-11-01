@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02 02:09",
+  "updatedAt": "2026-11-02 06:13",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,17 +9,17 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Google Energy Chief: Space Data Centers Cost Up to 100 Times More Than Those on Earth - The Information",
+          "summary": "Google Energy Chief: Space Data Centers Cost Up to 100 Times More Than Those on Earth  The Information",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR0xDbXdVMEhFa0ZfT19Oc1ZKNTFwNzRVZGlySXFBOXJxTTNwR0JKYlBWV1U1Qi1NM0RTTU1lTGJBd1FyV0pvc1IycFNTUU9MM2N0QTZGalNiQ3Q2SzhQWi1DcFFqc3AtSzU4LU96MDd6RHNBTFU0WnlzV0xrVzVnNmZpMEF2cEM1amZ5ZGh1NUFCYXQ5RE9QVlh5ekVKd0FxbmhxZFVoR1dYckQ1ZVhxX3hjTm42aU1MMzZ6Rg?oc=5",
+          "publishedAt": "2026-11-02 01:30",
+          "outlet": "The Information"
+        },
+        {
           "title": "Dems and GOP quietly bankroll dozens of third-party spoilers",
           "summary": "More than 40 third-party candidates in pivotal House and Senate races across the country are receiving support from outside super PACs, many of which have ties to the two major parties, an Axios analysis has found.Why it matters: The sums being thrown around, which total more than $16.5 million, are far greater than virtually any of those candidates have raised or spent on their own.The super PACs",
           "link": "https://www.axios.com/2026/11/01/2026-midterms-spoiler-independent-third-party",
           "publishedAt": "2026-11-01 21:15",
-          "outlet": "Axios"
-        },
-        {
-          "title": "The AI trade's trick-or-treat earnings season",
-          "summary": "The latest wave of hyperscaler earnings is spooking Wall Street. Bulls and bears alike have evidence to validate their wildest dreams — or their worst nightmares.Why it matters: The market's AI obsession has entered its Jekyll and Hyde era, with the latest earnings from tech giants offering contrary signals about the AI boom.Driving the news: The tech-heavy Nasdaq briefly sank into correction terr",
-          "link": "https://www.axios.com/2026/10/31/tech-earnings-ai-hyperscaler-risks-trick-or-treat",
-          "publishedAt": "2026-10-31 19:45",
           "outlet": "Axios"
         }
       ]
@@ -38,27 +38,14 @@
       ]
     },
     {
-      "ticker": "PG",
-      "name": "프록터 앤드 갬블",
-      "items": [
-        {
-          "title": "Insider trades: Goldman Sachs, P&G, Texas Instruments among major names",
-          "summary": "",
-          "link": "https://seekingalpha.com/news/4661856-insider-trades-goldman-sachs-pg-texas-instruments-among-major-names?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-          "publishedAt": "2026-11-01 00:03",
-          "outlet": "Business Insider Markets"
-        }
-      ]
-    },
-    {
       "ticker": "INTC",
       "name": "인텔",
       "items": [
         {
-          "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling - WSJ",
-          "summary": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemJPWElvMW9JX2pxLThMQ1VVVDhyaGhjelVIZC12OFk2VjNCOVpVQy1hYkdQRUlpOERsWG9XZDk1SkVtZmxCQlB5V0M0bjZQeUNEOGJpVC1xaGFtaTN3dTJBdzVRWDUwVFZlcDFpMFByMl9zRmxhZjFMX2VrZldZaTdTSVViTThneVdweHpfOVpkUW8wekQyem9sMUFmNFE3YlJnVHJmOTJxLWc?oc=5",
-          "publishedAt": "2026-11-01 21:25",
+          "title": "Stocks Slide, Intel Plunges, Binance Hacked - WSJ",
+          "summary": "Stocks Slide, Intel Plunges, Binance Hacked  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLUZLbmQ2VnlpcS1VOVNNc05mN0I1Zmd5ZWNHb3o1b05zRklLM3ozaGhlLXhiSDVpc1d2QXUySzYxZzgyc0dHa3BVOTZYSjlwck5ucDdQQmhaOE5sdlB6ci02V0NZTFEyanlFZ1JpRTNPeUJMNFR5cE5RbXlKX3FZQW1yTmh0cmNaY0NINW1FdVVfdw?oc=5",
+          "publishedAt": "2026-11-02 05:29",
           "outlet": "WSJ Markets"
         },
         {
