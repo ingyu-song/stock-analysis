@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01 19:34",
+  "updatedAt": "2026-11-02 02:09",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Alphabet Stock Sinks, Dragging Nasdaq Lower - WSJ",
-          "summary": "Alphabet Stock Sinks, Dragging Nasdaq Lower  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdEt3QnZYMW5WSVBNMUNqQ3pOUEV6RVVoM2xLa2RfV0VEQ1YyTzE2MFIwTnNGdTRFelljM3gtM3lORnhLYW5nT1VaSk5IVV85NlBIeGFlWlhaOHFIcHZhTm1ER1FsZzdZRElZUHl0Mm4ya04tMjZ2WV9ZbzVJLUhocktXVVFYVy1lbEJOWVF4eFVHdVNsbEQ4Tg?oc=5",
-          "publishedAt": "2026-11-01 11:21",
-          "outlet": "WSJ Markets"
+          "title": "Dems and GOP quietly bankroll dozens of third-party spoilers",
+          "summary": "More than 40 third-party candidates in pivotal House and Senate races across the country are receiving support from outside super PACs, many of which have ties to the two major parties, an Axios analysis has found.Why it matters: The sums being thrown around, which total more than $16.5 million, are far greater than virtually any of those candidates have raised or spent on their own.The super PACs",
+          "link": "https://www.axios.com/2026/11/01/2026-midterms-spoiler-independent-third-party",
+          "publishedAt": "2026-11-01 21:15",
+          "outlet": "Axios"
         },
         {
           "title": "The AI trade's trick-or-treat earnings season",
@@ -21,13 +21,6 @@
           "link": "https://www.axios.com/2026/10/31/tech-earnings-ai-hyperscaler-risks-trick-or-treat",
           "publishedAt": "2026-10-31 19:45",
           "outlet": "Axios"
-        },
-        {
-          "title": "Google value plunges by $500bn as its own AI search hits ad sales",
-          "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
-          "link": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-30 21:04",
-          "outlet": "BBC Business"
         }
       ]
     },
@@ -62,6 +55,20 @@
       "name": "인텔",
       "items": [
         {
+          "title": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling - WSJ",
+          "summary": "U.S. Stocks Slide as Amazon, Intel Earnings Spark More AI Selling  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPemJPWElvMW9JX2pxLThMQ1VVVDhyaGhjelVIZC12OFk2VjNCOVpVQy1hYkdQRUlpOERsWG9XZDk1SkVtZmxCQlB5V0M0bjZQeUNEOGJpVC1xaGFtaTN3dTJBdzVRWDUwVFZlcDFpMFByMl9zRmxhZjFMX2VrZldZaTdTSVViTThneVdweHpfOVpkUW8wekQyem9sMUFmNFE3YlJnVHJmOTJxLWc?oc=5",
+          "publishedAt": "2026-11-01 21:25",
+          "outlet": "WSJ Markets"
+        },
+        {
+          "title": "Intel Is Still ‘Too-Strategic-To-Fail’ - Forbes",
+          "summary": "Intel Is Still ‘Too-Strategic-To-Fail’  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUUM3Zm5TcFVVMWM4d1VxV1F0S2EzR1FCelFveHNZRlgtZUVyZmVkREdaS2xRSTRWYlVzX3ZNc0J5VjA0RDItb1VjYS11ZkdBVWgzWUpsc0FQRUEyNFQtcE51eEtuck9ZRUxVMHlSY1BMdTR5R04zcWdtQU40am1aNW4zeUVWanlSRUZ1RG1xN1FiRlFxb3c?oc=5",
+          "publishedAt": "2026-11-01 10:40",
+          "outlet": "Forbes Markets"
+        },
+        {
           "title": "US tech stocks see sharp falls as AI spending nears $1tn",
           "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
           "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
@@ -73,6 +80,13 @@
           "summary": "Intel increases equipment orders as server demand exceeds supply  digitimes",
           "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTlBhNV9GSGk2dmpzYURpQmREWWIxc29SREJnTTgxVnM2UkdVTzJxSkFMdllud3R4VUtUWUg4ZHBNemtTWUUyNU1iTVpwTFNRSnhjMEYzWVY0X1V0bkdEREp5N0pRMlZtZnlmMDUtQUlrck1CUUx4T283bjdzNWllUUlJQTJyTzZZUE9obEszZ2tTRksyc010Nw?oc=5",
           "publishedAt": "2026-10-30 10:29",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Intel slashes 18A costs by 40% as foundry posts US$1.9 billion loss - digitimes",
+          "summary": "Intel slashes 18A costs by 40% as foundry posts US$1.9 billion loss  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWFVfQjdSZUJkSE80ZmJnSDlzM2JSQXk4VTZTd3FBcXkwOU1YMWpVQkpKUUdQMkkyNGpDWUd0MlFucFJLQ2JwcFdIZFI5YXFid21OSEl0LVhLS3hGaTJQSXZaaEM2cDZRX2VaRHNsZmFuRDYxTG5TQ3pOWGZHRTVOM2gwN3R3Y2pMc3ZpbzFqQ2Y4QzVJbzRVLUhn?oc=5",
+          "publishedAt": "2026-10-30 09:11",
           "outlet": "DigiTimes"
         }
       ]
