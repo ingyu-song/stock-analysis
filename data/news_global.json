@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-01 11:18",
+  "updatedAt": "2026-11-01 19:34",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Alphabet Stock Sinks, Dragging Nasdaq Lower - WSJ",
+          "summary": "Alphabet Stock Sinks, Dragging Nasdaq Lower  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNdEt3QnZYMW5WSVBNMUNqQ3pOUEV6RVVoM2xLa2RfV0VEQ1YyTzE2MFIwTnNGdTRFelljM3gtM3lORnhLYW5nT1VaSk5IVV85NlBIeGFlWlhaOHFIcHZhTm1ER1FsZzdZRElZUHl0Mm4ya04tMjZ2WV9ZbzVJLUhocktXVVFYVy1lbEJOWVF4eFVHdVNsbEQ4Tg?oc=5",
+          "publishedAt": "2026-11-01 11:21",
+          "outlet": "WSJ Markets"
+        },
         {
           "title": "The AI trade's trick-or-treat earnings season",
           "summary": "The latest wave of hyperscaler earnings is spooking Wall Street. Bulls and bears alike have evidence to validate their wildest dreams — or their worst nightmares.Why it matters: The market's AI obsession has entered its Jekyll and Hyde era, with the latest earnings from tech giants offering contrary signals about the AI boom.Driving the news: The tech-heavy Nasdaq briefly sank into correction terr",
@@ -60,6 +67,26 @@
           "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-10-31 05:34",
           "outlet": "BBC Business"
+        },
+        {
+          "title": "Intel increases equipment orders as server demand exceeds supply - digitimes",
+          "summary": "Intel increases equipment orders as server demand exceeds supply  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTlBhNV9GSGk2dmpzYURpQmREWWIxc29SREJnTTgxVnM2UkdVTzJxSkFMdllud3R4VUtUWUg4ZHBNemtTWUUyNU1iTVpwTFNRSnhjMEYzWVY0X1V0bkdEREp5N0pRMlZtZnlmMDUtQUlrck1CUUx4T283bjdzNWllUUlJQTJyTzZZUE9obEszZ2tTRksyc010Nw?oc=5",
+          "publishedAt": "2026-10-30 10:29",
+          "outlet": "DigiTimes"
+        }
+      ]
+    },
+    {
+      "ticker": "SONY",
+      "name": "소니",
+      "items": [
+        {
+          "title": "Sony Refuses To Confirm 4K Blu-Ray Player Withdrawal - Forbes",
+          "summary": "Sony Refuses To Confirm 4K Blu-Ray Player Withdrawal  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR1RUellIV0lKaE9RUDlmZl9CVHcwdzdoVVNOV3ZoeTYzRU4zTm80by1DLTdoSDBBUlNwT0xxSTVDZFpWa3Uyd0ZwZV95N2RmZ01fYnJwUkZaU2QtY0VnSFpQYjlMVVBianJPckItV0RzQjBDMlhHckRWNjJ3Y3NIUk0zbnVGVWJkeGYtaFFDT0YzX21TYzhVdFlpZ1RpNE53RnVyZ2hxcw?oc=5",
+          "publishedAt": "2026-11-01 10:27",
+          "outlet": "Forbes Markets"
         }
       ]
     }
