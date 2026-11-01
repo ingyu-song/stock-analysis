@@ -1,22 +1,9 @@
 {
-  "updatedAt": "2026-11-01 07:32",
+  "updatedAt": "2026-11-01 11:18",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Apple Loop: MacBook U-Turn, iPhone Duo Problems, iPhone 18 Pro Sales - Forbes",
-          "summary": "Apple Loop: MacBook U-Turn, iPhone Duo Problems, iPhone 18 Pro Sales  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNbTYtTXU5NHAyX2JsaDdWZjBtbU5pb1ZWcHFRUGMyRTJET2xrRDBqa0U4bEluTl9ZUkkyeFQyNXlmemxvUWFjaVZRVUItajhrXzl5d1RZbHQ0aU0xQ2h4RFM2VVYwUGVFYVI2eHZfM2VnRC0zdk1jYWpvSUxSYWdQMVVKRGJZVXVaRzFqQ1phNUpYY2tSdmp5dXhJbEMtVlk1SWM3alROQVVXVklXcDB4OHNFWWNTbWZHYXdGSkUwVUVFUS1IZjk0?oc=5",
-          "publishedAt": "2026-10-31 08:23",
-          "outlet": "Forbes Markets"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
