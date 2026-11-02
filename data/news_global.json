@@ -1,20 +1,33 @@
 {
-  "updatedAt": "2026-11-02 09:50",
+  "updatedAt": "2026-11-02 16:43",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Apple's new CEO Ternus to face first earnings test as memory costs surge - Reuters",
+          "summary": "Apple's new CEO Ternus to face first earnings test as memory costs surge  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTUl3TDYxM3pONVd4QUM2TVlWdnRRY28tSnNuN1YwT3JibW1hX1hsYTByY3dJcURaLW56QXc3dVU3WlFaOXlLOXJjd09MTVZtNWxKam1WRlh2THFxSHJobUdnc1hQNVJTaDNULTNGcGhMTVg0b2piUDRNdnUwOXhpQ0U1cTI2Zzg1VV94MXhxYmhHdlBJcW04OU9mVHJGVXAxdFpPQVZVUGJNa3h1UmhGM2xTajV3bkJfQnRBeFk5bjZwNGxJ?oc=5",
+          "publishedAt": "2026-11-02 14:05",
+          "outlet": "Reuters Business (via Google News)"
+        },
+        {
+          "title": "Why rich Ireland still feels poor",
+          "summary": "Dublin is precariously reliant on corporation taxes, with half coming from Apple, Eli Lilly and Microsoft",
+          "link": "https://www.ft.com/content/637d66c0-0b2d-48b2-9d17-f2f5edb86971?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-02 14:00",
+          "outlet": "Financial Times"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
-        {
-          "title": "Alphabet’s Market Value Drops $500 Billion - WSJ",
-          "summary": "Alphabet’s Market Value Drops $500 Billion  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CdlNVWGZuakx2cUE0NTYzaHNNRXRoaUVrd1pfaVRsd0JmOS01UjNyeWxZdGQ1c0t0UVlzOE90c1M5THdkREdLM0QtU00yNGNVbGloN2NhdVJyOTczYzlXb2c2NTJzYzZmM2NHSld3RC1LZTNSdTB6aTlwaFY4N1E?oc=5",
-          "publishedAt": "2026-11-02 08:02",
-          "outlet": "WSJ Markets"
-        },
         {
           "title": "Google Energy Chief: Space Data Centers Cost Up to 100 Times More Than Those on Earth - The Information",
           "summary": "Google Energy Chief: Space Data Centers Cost Up to 100 Times More Than Those on Earth  The Information",
@@ -36,45 +49,11 @@
       "name": "인텔",
       "items": [
         {
-          "title": "Intel Is Still ‘Too-Strategic-To-Fail’ - Forbes",
-          "summary": "Intel Is Still ‘Too-Strategic-To-Fail’  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPUUM3Zm5TcFVVMWM4d1VxV1F0S2EzR1FCelFveHNZRlgtZUVyZmVkREdaS2xRSTRWYlVzX3ZNc0J5VjA0RDItb1VjYS11ZkdBVWgzWUpsc0FQRUEyNFQtcE51eEtuck9ZRUxVMHlSY1BMdTR5R04zcWdtQU40am1aNW4zeUVWanlSRUZ1RG1xN1FiRlFxb3c?oc=5",
-          "publishedAt": "2026-11-01 10:40",
-          "outlet": "Forbes Markets"
-        },
-        {
           "title": "US tech stocks see sharp falls as AI spending nears $1tn",
           "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
           "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
           "publishedAt": "2026-10-31 05:34",
           "outlet": "BBC Business"
-        },
-        {
-          "title": "Intel increases equipment orders as server demand exceeds supply - digitimes",
-          "summary": "Intel increases equipment orders as server demand exceeds supply  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQTlBhNV9GSGk2dmpzYURpQmREWWIxc29SREJnTTgxVnM2UkdVTzJxSkFMdllud3R4VUtUWUg4ZHBNemtTWUUyNU1iTVpwTFNRSnhjMEYzWVY0X1V0bkdEREp5N0pRMlZtZnlmMDUtQUlrck1CUUx4T283bjdzNWllUUlJQTJyTzZZUE9obEszZ2tTRksyc010Nw?oc=5",
-          "publishedAt": "2026-10-30 10:29",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Intel slashes 18A costs by 40% as foundry posts US$1.9 billion loss - digitimes",
-          "summary": "Intel slashes 18A costs by 40% as foundry posts US$1.9 billion loss  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWFVfQjdSZUJkSE80ZmJnSDlzM2JSQXk4VTZTd3FBcXkwOU1YMWpVQkpKUUdQMkkyNGpDWUd0MlFucFJLQ2JwcFdIZFI5YXFid21OSEl0LVhLS3hGaTJQSXZaaEM2cDZRX2VaRHNsZmFuRDYxTG5TQ3pOWGZHRTVOM2gwN3R3Y2pMc3ZpbzFqQ2Y4QzVJbzRVLUhn?oc=5",
-          "publishedAt": "2026-10-30 09:11",
-          "outlet": "DigiTimes"
-        }
-      ]
-    },
-    {
-      "ticker": "SONY",
-      "name": "소니",
-      "items": [
-        {
-          "title": "Sony Refuses To Confirm 4K Blu-Ray Player Withdrawal - Forbes",
-          "summary": "Sony Refuses To Confirm 4K Blu-Ray Player Withdrawal  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQR1RUellIV0lKaE9RUDlmZl9CVHcwdzdoVVNOV3ZoeTYzRU4zTm80by1DLTdoSDBBUlNwT0xxSTVDZFpWa3Uyd0ZwZV95N2RmZ01fYnJwUkZaU2QtY0VnSFpQYjlMVVBianJPckItV0RzQjBDMlhHckRWNjJ3Y3NIUk0zbnVGVWJkeGYtaFFDT0YzX21TYzhVdFlpZ1RpNE53RnVyZ2hxcw?oc=5",
-          "publishedAt": "2026-11-01 10:27",
-          "outlet": "Forbes Markets"
         }
       ]
     }
