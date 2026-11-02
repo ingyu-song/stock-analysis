@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02 06:13",
+  "updatedAt": "2026-11-02 09:50",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Alphabet’s Market Value Drops $500 Billion - WSJ",
+          "summary": "Alphabet’s Market Value Drops $500 Billion  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CdlNVWGZuakx2cUE0NTYzaHNNRXRoaUVrd1pfaVRsd0JmOS01UjNyeWxZdGQ1c0t0UVlzOE90c1M5THdkREdLM0QtU00yNGNVbGloN2NhdVJyOTczYzlXb2c2NTJzYzZmM2NHSld3RC1LZTNSdTB6aTlwaFY4N1E?oc=5",
+          "publishedAt": "2026-11-02 08:02",
+          "outlet": "WSJ Markets"
+        },
         {
           "title": "Google Energy Chief: Space Data Centers Cost Up to 100 Times More Than Those on Earth - The Information",
           "summary": "Google Energy Chief: Space Data Centers Cost Up to 100 Times More Than Those on Earth  The Information",
@@ -25,29 +32,9 @@
       ]
     },
     {
-      "ticker": "COIN",
-      "name": "코인베이스 글로벌",
-      "items": [
-        {
-          "title": "Coinbase Revenue Fell 35%, Partially Offset by Prediction Market - The Information",
-          "summary": "Coinbase Revenue Fell 35%, Partially Offset by Prediction Market  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNZ2VKY2JDSFk0ejJqRjhVUVZtRDdBVC13S1VtdXdqb0JDb3EtRndiZmp3ZFk3VExzOHNKOTgtbmE2Zkg2YjlMY21MNXE0dko1b2p5X1FiMlN5SEJmNnUxLXo1b2dMd0drRTZ2WFUxOGpURmdKZWNZUEJIX0RNTzVHV3hKR2FHZjUwVUhwRUZ1dWZ1WHJfMlN2c18zaWc1RVpmdkE?oc=5",
-          "publishedAt": "2026-10-30 06:23",
-          "outlet": "The Information"
-        }
-      ]
-    },
-    {
       "ticker": "INTC",
       "name": "인텔",
       "items": [
-        {
-          "title": "Stocks Slide, Intel Plunges, Binance Hacked - WSJ",
-          "summary": "Stocks Slide, Intel Plunges, Binance Hacked  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOLUZLbmQ2VnlpcS1VOVNNc05mN0I1Zmd5ZWNHb3o1b05zRklLM3ozaGhlLXhiSDVpc1d2QXUySzYxZzgyc0dHa3BVOTZYSjlwck5ucDdQQmhaOE5sdlB6ci02V0NZTFEyanlFZ1JpRTNPeUJMNFR5cE5RbXlKX3FZQW1yTmh0cmNaY0NINW1FdVVfdw?oc=5",
-          "publishedAt": "2026-11-02 05:29",
-          "outlet": "WSJ Markets"
-        },
         {
           "title": "Intel Is Still ‘Too-Strategic-To-Fail’ - Forbes",
           "summary": "Intel Is Still ‘Too-Strategic-To-Fail’  Forbes",
