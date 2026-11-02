@@ -782,3 +782,21 @@ a.btn { display: inline-flex; align-items: center; text-decoration: none; }
 }
 .lock-form input:focus { outline: 1.5px solid var(--navy); outline-offset: -1px; }
 .lock-error { margin-top: 10px; font-family: var(--font-mono); font-size: 12px; color: var(--critical); }
+
+/* ── Stock Analysis tab: report list (feed from IGS Research) ── */
+.report-list { margin-top: 18px; }
+.report-card { display: block; color: inherit; text-decoration: none; }
+.report-card:hover { border-color: var(--border-strong); }
+.report-top { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; }
+.report-type {
+  font-family: var(--font-mono); font-size: 11px; letter-spacing: 1px; text-transform: uppercase;
+  border-left: 3px solid var(--gold); padding-left: 8px; color: var(--text-primary);
+}
+.report-meta { display: flex; align-items: center; gap: 10px; }
+.report-opinion { font-family: var(--font-mono); font-size: 11px; padding: 2px 8px; border: 1px solid var(--border-strong); border-radius: 4px; }
+.report-date { font-family: var(--font-mono); font-size: 12px; color: var(--text-muted); }
+.report-title { font-size: 18px; letter-spacing: -0.3px; margin-top: 12px; }
+.report-sub { color: var(--text-secondary); font-size: 13px; margin-top: 4px; }
+.report-summary { font-size: 14px; line-height: 1.65; margin-top: 10px; }
+.report-tags { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
+.report-tag { font-family: var(--font-mono); font-size: 11px; background: var(--bg-chip); padding: 3px 8px; border-radius: 4px; }

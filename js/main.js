@@ -2,6 +2,7 @@ import { initPosition } from "./position.js";
 import { initPositionLock } from "./lock.js";
 import { initPortfolioMap } from "./portfolio-map.js";
 import { initAnalysis } from "./analysis.js";
+import { initReports } from "./reports.js";
 import { initWatchlist } from "./watchlist.js";
 import { initClaudeTab } from "./claude-tab.js";
 import { makeTableResizable } from "./table-resize.js";
@@ -59,6 +60,7 @@ initTheme();
 initPositionLock(book => initPosition(book));
 initPortfolioMap();
 initAnalysis();
+initReports();
 initWatchlist();
 initClaudeTab();
 

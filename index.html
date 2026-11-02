@@ -405,11 +405,12 @@
   <!-- ============ TAB 3: Stock Analysis (work in progress) ============ -->
   <section class="tab-panel" id="panel-analysis" role="tabpanel">
 
-    <div class="wip">
+    <div class="panel-head">
       <h1>Stock Analysis</h1>
-      <p class="wip-state">Loading<span class="wip-dots" aria-hidden="true"></span></p>
-      <p class="panel-sub">Work in progress. This tab is being rebuilt. To bring the old view back, remove the <code>hidden</code> attribute from <code>#analysisLive</code>.</p>
+      <p class="panel-sub">Research reports, published on <a href="https://ingyu-song.github.io/igs-research/#sector" target="_blank" rel="noopener">IGS Research</a>.</p>
     </div>
+    <div id="reportList" class="report-list"><p class="panel-sub">Loading reports…</p></div>
+    <!-- The old one-pager view below is kept hidden; remove `hidden` from #analysisLive to bring it back. -->
 
     <div id="analysisLive" hidden>
 
