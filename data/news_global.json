@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-02 16:43",
+  "updatedAt": "2026-11-03 03:28",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,18 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple's new CEO Ternus to face first earnings test as memory costs surge - Reuters",
-          "summary": "Apple's new CEO Ternus to face first earnings test as memory costs surge  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTUl3TDYxM3pONVd4QUM2TVlWdnRRY28tSnNuN1YwT3JibW1hX1hsYTByY3dJcURaLW56QXc3dVU3WlFaOXlLOXJjd09MTVZtNWxKam1WRlh2THFxSHJobUdnc1hQNVJTaDNULTNGcGhMTVg0b2piUDRNdnUwOXhpQ0U1cTI2Zzg1VV94MXhxYmhHdlBJcW04OU9mVHJGVXAxdFpPQVZVUGJNa3h1UmhGM2xTajV3bkJfQnRBeFk5bjZwNGxJ?oc=5",
-          "publishedAt": "2026-11-02 14:05",
-          "outlet": "Reuters Business (via Google News)"
+          "title": "Inside Apple’s Slog to Create Its First Robot - The Information",
+          "summary": "Inside Apple’s Slog to Create Its First Robot  The Information",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU1B6S2pSQVo3VG1xZGgwdnRySkNyaXozSWpJdGhtNTVBM2hxSlQ4Z1pQdFBxSzRYWXlHaWJWOVU1VVhzVG5SMmtzRzlMWGdULU1qWk9ETy00YkJKQXd2ZzN6UVRJT3o1S040aG9fbldrMnZtWTd0dWpsUFNZZjhnbUVUcw?oc=5",
+          "publishedAt": "2026-11-02 23:16",
+          "outlet": "The Information"
+        },
+        {
+          "title": "I tested Apple's $2,000 iPhone Duo. It's a fascinating experiment, but the price is hard to justify.",
+          "summary": "I've spent the past week trying to figure out whether Apple's $2,000 iPhone Duo is the future of smartphones or just an expensive way to do things I could already do on my regular iPhone.The answer, unsurprisingly, is a bit of both.Why it matters: Apple wasn't first to the folding smartphone party. Samsung, Google and others began making them years ago. But Apple's arrival in a category has a way ",
+          "link": "https://www.axios.com/2026/11/02/apple-iphone-duo-foldable-review",
+          "publishedAt": "2026-11-02 19:00",
+          "outlet": "Axios"
         },
         {
           "title": "Why rich Ireland still feels poor",
@@ -29,18 +36,39 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Alphabet’s Market Value Drops $500 Billion - WSJ",
+          "summary": "Alphabet’s Market Value Drops $500 Billion  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9CdlNVWGZuakx2cUE0NTYzaHNNRXRoaUVrd1pfaVRsd0JmOS01UjNyeWxZdGQ1c0t0UVlzOE90c1M5THdkREdLM0QtU00yNGNVbGloN2NhdVJyOTczYzlXb2c2NTJzYzZmM2NHSld3RC1LZTNSdTB6aTlwaFY4N1E?oc=5",
+          "publishedAt": "2026-11-03 01:42",
+          "outlet": "WSJ Markets"
+        },
+        {
+          "title": "Alphabet Is Paying Up for Euro Bonds in Test of AI Appetite - Bloomberg.com",
+          "summary": "Alphabet Is Paying Up for Euro Bonds in Test of AI Appetite  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTXZEZVR0eFFhajNmbHRXVldFdzBMWXlOWHo5WnhHcTJHR0t3bng5SEZNVERBU09IRW1Va0xMVVo0MlVGX3FxNHo1MTlVUHlDV0RGZ21FZVg5QjAzUGZ0MnA4UVpwWXBSdUsxTldiTHEzbEItRnVwdlVvSzM1LXJtdF9OWU94bXJnaEFMckdlRnZ6WElLeUlmYVpjUGlETzU4UkpXV2NSUFFPYmlC?oc=5",
+          "publishedAt": "2026-11-02 23:04",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "Unions gain access to thousands of Google workers after UK employment rights overhaul",
+          "summary": "Prospect to hold workplace sessions and recruit members under agreement with tech companyTrade unions are expected to make further inroads into big tech companies in the UK after new rights for unions to access workplaces came into force, with Google UK signing an agreement on Monday.The Prospect union has reached an agreement with Google to begin organising among about 7,000 workers across its UK",
+          "link": "https://www.theguardian.com/politics/2026/nov/02/unions-google-workers-uk-employment-rights",
+          "publishedAt": "2026-11-02 22:00",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "I tested Apple's $2,000 iPhone Duo. It's a fascinating experiment, but the price is hard to justify.",
+          "summary": "I've spent the past week trying to figure out whether Apple's $2,000 iPhone Duo is the future of smartphones or just an expensive way to do things I could already do on my regular iPhone.The answer, unsurprisingly, is a bit of both.Why it matters: Apple wasn't first to the folding smartphone party. Samsung, Google and others began making them years ago. But Apple's arrival in a category has a way ",
+          "link": "https://www.axios.com/2026/11/02/apple-iphone-duo-foldable-review",
+          "publishedAt": "2026-11-02 19:00",
+          "outlet": "Axios"
+        },
+        {
           "title": "Google Energy Chief: Space Data Centers Cost Up to 100 Times More Than Those on Earth - The Information",
           "summary": "Google Energy Chief: Space Data Centers Cost Up to 100 Times More Than Those on Earth  The Information",
           "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR0xDbXdVMEhFa0ZfT19Oc1ZKNTFwNzRVZGlySXFBOXJxTTNwR0JKYlBWV1U1Qi1NM0RTTU1lTGJBd1FyV0pvc1IycFNTUU9MM2N0QTZGalNiQ3Q2SzhQWi1DcFFqc3AtSzU4LU96MDd6RHNBTFU0WnlzV0xrVzVnNmZpMEF2cEM1amZ5ZGh1NUFCYXQ5RE9QVlh5ekVKd0FxbmhxZFVoR1dYckQ1ZVhxX3hjTm42aU1MMzZ6Rg?oc=5",
           "publishedAt": "2026-11-02 01:30",
           "outlet": "The Information"
-        },
-        {
-          "title": "Dems and GOP quietly bankroll dozens of third-party spoilers",
-          "summary": "More than 40 third-party candidates in pivotal House and Senate races across the country are receiving support from outside super PACs, many of which have ties to the two major parties, an Axios analysis has found.Why it matters: The sums being thrown around, which total more than $16.5 million, are far greater than virtually any of those candidates have raised or spent on their own.The super PACs",
-          "link": "https://www.axios.com/2026/11/01/2026-midterms-spoiler-independent-third-party",
-          "publishedAt": "2026-11-01 21:15",
-          "outlet": "Axios"
         }
       ]
     },
@@ -48,6 +76,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Why is Intel stock sliding today?",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-sliding-today-93CH-4992550",
+          "publishedAt": "2026-11-03 03:06",
+          "outlet": "Investing.com"
+        },
         {
           "title": "US tech stocks see sharp falls as AI spending nears $1tn",
           "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
