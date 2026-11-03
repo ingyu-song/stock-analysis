@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04 02:53",
+  "updatedAt": "2026-11-04 08:28",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,18 +9,25 @@
       "name": "애플",
       "items": [
         {
-          "title": "European shares falls as Apple margin warning triggers global tech rout",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/european-shares-slide-as-apple-margin-warning-trigger-global-tech-rout-4993704",
-          "publishedAt": "2026-11-04 02:10",
-          "outlet": "Investing.com"
+          "title": "Apple Shares Slip, Meta Debt Costs Rise - WSJ",
+          "summary": "Apple Shares Slip, Meta Debt Costs Rise  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMGhjbGhSUVc1TVpmNDVMOFNtMUgzUldVeFFkc0cwNlc4emk1R3M1TWZJSEs3VGdUYmVZM3loemdPd1RKM1NZYjB3VWRWUm1adWppSXhCM2YyYlF5RnpEMFRlYkQ5LV9NcUk1Q2R3ZEhPRndPZ2tkVVZyQm5mQWdIUDdKMmh3aEJFbUE?oc=5",
+          "publishedAt": "2026-11-04 06:21",
+          "outlet": "WSJ Markets"
         },
         {
-          "title": "Stocks Are Mixed After Apple Earnings Disappoint - WSJ",
-          "summary": "Stocks Are Mixed After Apple Earnings Disappoint  WSJ",
+          "title": "Tech Stocks Rise Despite Apple Slump - WSJ",
+          "summary": "Tech Stocks Rise Despite Apple Slump  WSJ",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZE9BRkVuT3ZjS1NnUjAtU0RRZjUwU2JQdXdLS0YtNTNYbFRTendtTTZkaDVUR1ppVThpYUtIVmJ0NkQtOVhyVVYxbzBZTlBhai1jOGh0WGpLWnhjbWV4NXVzMEFoUHFrRE9OOC1qT3BmYlhxZUNpSlJtVWlIVTBFaVZ2YUVPS0lGS1lpQi1LdzM0X2NFbnY2WHRFbGVjUGgwNG1RWlBHVGdrYk0?oc=5",
-          "publishedAt": "2026-11-04 00:01",
+          "publishedAt": "2026-11-04 04:38",
           "outlet": "WSJ Markets"
+        },
+        {
+          "title": "Nvidia Is World’s Most Valuable Company Again—After Brief Loss To Apple - Forbes",
+          "summary": "Nvidia Is World’s Most Valuable Company Again—After Brief Loss To Apple  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbkMtckNqNEtGTURaekxtSmJUNTlrRk1mallQdXhXakxZMXFrQVFLYmVuN0NxUlpUaXV1N19zM01WWmY4NmpyWnNDdGFQNmpXMmxCdUFmRUVBdG9obkZrQkdmdzI2YlRmOWxWQlBNTDNFYVY2Y0l0YnZWN3RoendOSF80TW8xeHhNekJvZm5lU0drNHUtMnVNZkhLNFpnWE9pdnhHVHltaVJWb2xiSDJfRmczQWtTcV9vbEgxbHdGTFR4TWZE?oc=5",
+          "publishedAt": "2026-11-04 01:57",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Stocks making the biggest moves premarket: Pfizer, Apple, Palantir, Zebra Technologies  & more",
@@ -56,32 +63,6 @@
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU1B6S2pSQVo3VG1xZGgwdnRySkNyaXozSWpJdGhtNTVBM2hxSlQ4Z1pQdFBxSzRYWXlHaWJWOVU1VVhzVG5SMmtzRzlMWGdULU1qWk9ETy00YkJKQXd2ZzN6UVRJT3o1S040aG9fbldrMnZtWTd0dWpsUFNZZjhnbUVUcw?oc=5",
           "publishedAt": "2026-11-02 23:16",
           "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
-        {
-          "title": "Setback for Google as EU court adviser sides with publishers against AI chatbot",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/googles-use-of-press-by-ai-chatbot-may-infringe-copyright-rules-eu-court-adviser-says-4994030",
-          "publishedAt": "2026-11-04 02:31",
-          "outlet": "Investing.com"
-        }
-      ]
-    },
-    {
-      "ticker": "COIN",
-      "name": "코인베이스 글로벌",
-      "items": [
-        {
-          "title": "Coinbase net income surges 66% in third quarter, benefiting from bitcoin investment gains",
-          "summary": "Coinbase posted better-than-expected earnings in the third quarter, largely due to a recovery in the cryptocurrency market.",
-          "link": "https://www.cnbc.com/2026/10/29/coinbase-coin-earnings-q3-2026-.html",
-          "publishedAt": "2026-10-30 06:38",
-          "outlet": "CNBC Finance"
         }
       ]
     },
