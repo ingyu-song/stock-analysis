@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-03 12:33",
+  "updatedAt": "2026-11-03 14:59",
   "note": "내 커버리지 — 보유 중이거나 보유했던 단일 종목 + 직접 지정한 종목. ETF는 제외.",
   "names": [
     {
       "ticker": "278470.KS",
       "name": "에이피알",
       "currency": "KRW",
-      "price": 251500.0,
+      "price": 245500.0,
       "prevClose": 262500.0,
       "newsQuery": "에이피알 메디큐브",
       "newsMatch": [
@@ -179,7 +179,7 @@
       "name": "코닝",
       "currency": "USD",
       "price": 123.2,
-      "prevClose": 123.69,
+      "prevClose": 123.6,
       "newsQuery": "코닝",
       "newsMatch": [
         "코닝",
@@ -212,7 +212,7 @@
       "ticker": "080220.KQ",
       "name": "제주반도체",
       "currency": "KRW",
-      "price": 64800.0,
+      "price": 63300.0,
       "prevClose": 66200.0,
       "newsQuery": "제주반도체",
       "newsMatch": [
@@ -226,7 +226,7 @@
       "ticker": "012450.KS",
       "name": "한화에어로스페이스",
       "currency": "KRW",
-      "price": 756000.0,
+      "price": 737000.0,
       "prevClose": 738000.0,
       "newsQuery": "한화에어로스페이스",
       "newsMatch": [
@@ -264,7 +264,7 @@
       "newsAliases": [
         "Robotis"
       ],
-      "price": 235000.0,
+      "price": 229500.0,
       "prevClose": 256000.0
     }
   ]
