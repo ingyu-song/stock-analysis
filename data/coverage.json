@@ -1,12 +1,12 @@
 {
-  "updatedAt": "2026-11-03 12:10",
+  "updatedAt": "2026-11-03 12:33",
   "note": "내 커버리지 — 보유 중이거나 보유했던 단일 종목 + 직접 지정한 종목. ETF는 제외.",
   "names": [
     {
       "ticker": "278470.KS",
       "name": "에이피알",
       "currency": "KRW",
-      "price": 252500.0,
+      "price": 251500.0,
       "prevClose": 262500.0,
       "newsQuery": "에이피알 메디큐브",
       "newsMatch": [
@@ -29,7 +29,6 @@
         "애플",
         "AAPL"
       ],
-      "nextEarnings": "2026-11-03",
       "newsAliases": [
         "Apple",
         "AAPL"
@@ -98,7 +97,7 @@
         "크라우드스트라이크",
         "CRWD"
       ],
-      "nextEarnings": "2026-12-02",
+      "nextEarnings": "2026-12-01",
       "newsAliases": [
         "CrowdStrike",
         "CRWD"
@@ -117,7 +116,7 @@
         "팰로 앨토",
         "PANW"
       ],
-      "nextEarnings": "2026-11-20",
+      "nextEarnings": "2026-11-19",
       "newsAliases": [
         "Palo Alto Networks",
         "PANW"
@@ -173,7 +172,7 @@
         "Intel",
         "INTC"
       ],
-      "nextEarnings": "2027-01-29"
+      "nextEarnings": "2027-01-28"
     },
     {
       "ticker": "GLW",
@@ -213,7 +212,7 @@
       "ticker": "080220.KQ",
       "name": "제주반도체",
       "currency": "KRW",
-      "price": 64500.0,
+      "price": 64800.0,
       "prevClose": 66200.0,
       "newsQuery": "제주반도체",
       "newsMatch": [
@@ -227,7 +226,7 @@
       "ticker": "012450.KS",
       "name": "한화에어로스페이스",
       "currency": "KRW",
-      "price": 757000.0,
+      "price": 756000.0,
       "prevClose": 738000.0,
       "newsQuery": "한화에어로스페이스",
       "newsMatch": [
@@ -265,7 +264,7 @@
       "newsAliases": [
         "Robotis"
       ],
-      "price": 236500.0,
+      "price": 235000.0,
       "prevClose": 256000.0
     }
   ]
