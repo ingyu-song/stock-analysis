@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03 10:38",
+  "updatedAt": "2026-11-03 18:40",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,66 +9,31 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple warns ‘unprecedented’ memory chip costs will hit margins",
-          "summary": "Hardware giant predicts robust sales in the holiday season but services outlook disappoints",
-          "link": "https://www.ft.com/content/f6ad8c32-cacb-48ad-ad85-a9a7edac3f16?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-03 10:17",
-          "outlet": "Financial Times"
-        },
-        {
-          "title": "Apple forecasts margin drop in holiday quarter as rising memory costs bite",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/apple-results-beat-wall-street-expectationson-strong-iphone-sales-4992898",
-          "publishedAt": "2026-11-03 10:12",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "Why is Apple stock falling afterhours today?",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/why-is-apple-stock-falling-afterhours-today-93CH-4993315",
-          "publishedAt": "2026-11-03 10:01",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "U.S. stock futures steady; Apple dips after mixed earnings",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/us-stock-futures-steady-apple-dips-after-mixed-earnings-4993314",
-          "publishedAt": "2026-11-03 10:01",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "Apple unsure when more foldable iPhones will be available after selling out",
-          "summary": "Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.",
-          "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-03 09:29",
-          "outlet": "BBC Business"
+          "title": "Apple warns of ‘unprecedented’ rise in memory chip prices",
+          "summary": "iPhone maker’s says decision to raise prices has offset some of impact, as revenues are stronger than expectedBusiness live – latest updatesApple has warned of an “unprecedented” rise in memory chip prices, as it battles with datacentres to lay its hands on supplies.The iPhone maker’s shares fell in after-hours trading after it told investors that the higher prices will eat into its profit margins",
+          "link": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings",
+          "publishedAt": "2026-11-03 18:01",
+          "outlet": "The Guardian Business"
         },
         {
           "title": "John Lewis Christmas ad stars Kristin Scott Thomas as glamorous granny on a gift hunt",
           "summary": "Company tugs at heartstrings with Pickles the talking toy dog as it celebrates 20 years of blockbuster festive adsJohn Lewis has turned to a celebrity best known for playing aristocrats to put a playful but rather upmarket spin on the countdown to Christmas with this year’s festive ad, which features a toy dog called Pickles and a glamorous granny.Kristin Scott Thomas, known for playing upper-crus",
           "link": "https://www.theguardian.com/media/2026/nov/03/john-lewis-christmas-advert-kristin-scott-thomas-glamorous-granny-gift-hunt",
-          "publishedAt": "2026-11-03 09:01",
+          "publishedAt": "2026-11-03 17:12",
           "outlet": "The Guardian Business"
         },
         {
-          "title": "Apple posts stronger-than-expected revenue in first earnings report for new CEO John Ternus",
-          "summary": "Result for the company, which earned $30.71bn and exceeded analysts’ expectations, bucked downward trend for tech firmsApple Inc posted stronger-than-expected revenue in the fiscal third quarter, giving John Ternus, the new CEO, an upbeat start to his tenure, which began in September. The solid results bucked a downward trend for tech giants this quarter, as companies including Alphabet, Amazon an",
-          "link": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings",
-          "publishedAt": "2026-11-03 08:07",
-          "outlet": "The Guardian Business"
+          "title": "Apple unsure when more foldable iPhones will be available after selling out",
+          "summary": "Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.",
+          "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-03 16:03",
+          "outlet": "BBC Business"
         },
         {
-          "title": "Inside Apple’s Slog to Create Its First Robot - The Information",
-          "summary": "Inside Apple’s Slog to Create Its First Robot  The Information",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU1B6S2pSQVo3VG1xZGgwdnRySkNyaXozSWpJdGhtNTVBM2hxSlQ4Z1pQdFBxSzRYWXlHaWJWOVU1VVhzVG5SMmtzRzlMWGdULU1qWk9ETy00YkJKQXd2ZzN6UVRJT3o1S040aG9fbldrMnZtWTd0dWpsUFNZZjhnbUVUcw?oc=5",
-          "publishedAt": "2026-11-02 23:16",
-          "outlet": "The Information"
-        },
-        {
-          "title": "Why rich Ireland still feels poor",
-          "summary": "Dublin is precariously reliant on corporation taxes, with half coming from Apple, Eli Lilly and Microsoft",
-          "link": "https://www.ft.com/content/637d66c0-0b2d-48b2-9d17-f2f5edb86971?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-02 14:00",
+          "title": "Apple warns ‘unprecedented’ memory chip costs will hit margins",
+          "summary": "Hardware giant predicts robust sales in the holiday season but services outlook disappoints",
+          "link": "https://www.ft.com/content/f6ad8c32-cacb-48ad-ad85-a9a7edac3f16?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-03 10:17",
           "outlet": "Financial Times"
         }
       ]
@@ -78,11 +43,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Apple posts stronger-than-expected revenue in first earnings report for new CEO John Ternus",
-          "summary": "Result for the company, which earned $30.71bn and exceeded analysts’ expectations, bucked downward trend for tech firmsApple Inc posted stronger-than-expected revenue in the fiscal third quarter, giving John Ternus, the new CEO, an upbeat start to his tenure, which began in September. The solid results bucked a downward trend for tech giants this quarter, as companies including Alphabet, Amazon an",
-          "link": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings",
-          "publishedAt": "2026-11-03 08:07",
-          "outlet": "The Guardian Business"
+          "title": "Google’s use of press by AI chatbot may infringe copyright rules, EU court adviser says",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/googles-use-of-press-by-ai-chatbot-may-infringe-copyright-rules-eu-court-adviser-says-4994030",
+          "publishedAt": "2026-11-03 18:24",
+          "outlet": "Investing.com"
         },
         {
           "title": "Scoop: Senate GOP makes massive bet on streaming",
@@ -90,20 +55,6 @@
           "link": "https://www.axios.com/2026/11/02/senate-republicans-super-pac-slf-streaming-social",
           "publishedAt": "2026-11-03 05:18",
           "outlet": "Axios"
-        },
-        {
-          "title": "Google Energy Chief: Space Data Centers Cost Up to 100 Times More Than Those on Earth - The Information",
-          "summary": "Google Energy Chief: Space Data Centers Cost Up to 100 Times More Than Those on Earth  The Information",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQR0xDbXdVMEhFa0ZfT19Oc1ZKNTFwNzRVZGlySXFBOXJxTTNwR0JKYlBWV1U1Qi1NM0RTTU1lTGJBd1FyV0pvc1IycFNTUU9MM2N0QTZGalNiQ3Q2SzhQWi1DcFFqc3AtSzU4LU96MDd6RHNBTFU0WnlzV0xrVzVnNmZpMEF2cEM1amZ5ZGh1NUFCYXQ5RE9QVlh5ekVKd0FxbmhxZFVoR1dYckQ1ZVhxX3hjTm42aU1MMzZ6Rg?oc=5",
-          "publishedAt": "2026-11-02 01:30",
-          "outlet": "The Information"
-        },
-        {
-          "title": "Stocks making the biggest moves midday: ADT, Alphabet, Caterpillar, Eli Lilly, Chipotle & more",
-          "summary": "These are the stocks posting the largest moves midday.",
-          "link": "https://www.cnbc.com/2026/10/29/stocks-making-the-biggest-moves-midday-adt-googl-cat-lly-cmg.html",
-          "publishedAt": "2026-10-30 02:10",
-          "outlet": "CNBC Finance"
         }
       ]
     },
@@ -137,27 +88,6 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
-        {
-          "title": "DIGITIMES Insight: Intel's retreat from low-margin industrial chips opens edge AI market to AMD and Arm rivals - digitimes",
-          "summary": "DIGITIMES Insight: Intel's retreat from low-margin industrial chips opens edge AI market to AMD and Arm rivals  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUpIZ0UxaGJnUWhEdnl5N2RzVXZqdjdfWkZpNjhoRzRhaUt6UFk3UjFYX1pid3RBNFZnWkY2dXZlVmtXcjNELUZFcUUtN0Rsd0VkclRpS18xNUdqWlVIWmRCd0ZlZWV4OHFSa2w0LUp6Tlk5Q19seFV0VlhvTjhSaEVIY2FoUXY4?oc=5",
-          "publishedAt": "2026-11-03 08:29",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Apple posts stronger-than-expected revenue in first earnings report for new CEO John Ternus",
-          "summary": "Result for the company, which earned $30.71bn and exceeded analysts’ expectations, bucked downward trend for tech firmsApple Inc posted stronger-than-expected revenue in the fiscal third quarter, giving John Ternus, the new CEO, an upbeat start to his tenure, which began in September. The solid results bucked a downward trend for tech giants this quarter, as companies including Alphabet, Amazon an",
-          "link": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings",
-          "publishedAt": "2026-11-03 08:07",
-          "outlet": "The Guardian Business"
-        },
-        {
-          "title": "US tech stocks see sharp falls as AI spending nears $1tn",
-          "summary": "Shares in Intel continue to fall while the tech-heavy Nasdaq opens at its lowest level in more than two months.",
-          "link": "https://www.bbc.co.uk/news/articles/cvwy72e0n72yo?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-10-31 05:34",
-          "outlet": "BBC Business"
-        },
         {
           "title": "Stocks making the biggest moves premarket: Intel, Amazon, Reddit, Chevron & more",
           "summary": "These are the stocks posting the largest moves premarket.",
