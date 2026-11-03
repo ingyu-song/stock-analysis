@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03 18:40",
+  "updatedAt": "2026-11-04 02:53",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,32 +9,53 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple warns of ‘unprecedented’ rise in memory chip prices",
-          "summary": "iPhone maker’s says decision to raise prices has offset some of impact, as revenues are stronger than expectedBusiness live – latest updatesApple has warned of an “unprecedented” rise in memory chip prices, as it battles with datacentres to lay its hands on supplies.The iPhone maker’s shares fell in after-hours trading after it told investors that the higher prices will eat into its profit margins",
-          "link": "https://www.theguardian.com/technology/2026/nov/02/apple-third-quarter-revenue-earnings",
-          "publishedAt": "2026-11-03 18:01",
-          "outlet": "The Guardian Business"
+          "title": "European shares falls as Apple margin warning triggers global tech rout",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/european-shares-slide-as-apple-margin-warning-trigger-global-tech-rout-4993704",
+          "publishedAt": "2026-11-04 02:10",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Stocks Are Mixed After Apple Earnings Disappoint - WSJ",
+          "summary": "Stocks Are Mixed After Apple Earnings Disappoint  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZE9BRkVuT3ZjS1NnUjAtU0RRZjUwU2JQdXdLS0YtNTNYbFRTendtTTZkaDVUR1ppVThpYUtIVmJ0NkQtOVhyVVYxbzBZTlBhai1jOGh0WGpLWnhjbWV4NXVzMEFoUHFrRE9OOC1qT3BmYlhxZUNpSlJtVWlIVTBFaVZ2YUVPS0lGS1lpQi1LdzM0X2NFbnY2WHRFbGVjUGgwNG1RWlBHVGdrYk0?oc=5",
+          "publishedAt": "2026-11-04 00:01",
+          "outlet": "WSJ Markets"
+        },
+        {
+          "title": "Stocks making the biggest moves premarket: Pfizer, Apple, Palantir, Zebra Technologies  & more",
+          "summary": "These are the stocks posting the largest moves premarket.",
+          "link": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html",
+          "publishedAt": "2026-11-03 21:47",
+          "outlet": "CNBC Finance"
+        },
+        {
+          "title": "Apple unsure when it will get more foldable iPhones ahead of Christmas",
+          "summary": "The tech giant reports strong sales but admits \"constraints\" are affecting supplies of the iPhone Duo.",
+          "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-03 20:10",
+          "outlet": "BBC Business"
         },
         {
           "title": "John Lewis Christmas ad stars Kristin Scott Thomas as glamorous granny on a gift hunt",
-          "summary": "Company tugs at heartstrings with Pickles the talking toy dog as it celebrates 20 years of blockbuster festive adsJohn Lewis has turned to a celebrity best known for playing aristocrats to put a playful but rather upmarket spin on the countdown to Christmas with this year’s festive ad, which features a toy dog called Pickles and a glamorous granny.Kristin Scott Thomas, known for playing upper-crus",
+          "summary": "Company tugs at heartstrings with Pickles the talking toy dog as it celebrates 20 years of blockbuster festive adsReview: Kristin Scott Thomas v Pickles the evil AI overlord puppyJohn Lewis has turned to a celebrity best known for playing aristocrats to put a playful but rather upmarket spin on the countdown to Christmas with this year’s festive ad, which features a toy dog called Pickles and a gl",
           "link": "https://www.theguardian.com/media/2026/nov/03/john-lewis-christmas-advert-kristin-scott-thomas-glamorous-granny-gift-hunt",
           "publishedAt": "2026-11-03 17:12",
           "outlet": "The Guardian Business"
         },
         {
-          "title": "Apple unsure when more foldable iPhones will be available after selling out",
-          "summary": "Apple’s foldable iPhone Duo was a hit with people willing to spend $2,000 on a new mobile.",
-          "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-03 16:03",
-          "outlet": "BBC Business"
+          "title": "Apple closes record fiscal 2026 with US$114.5 billion in 4Q revenue — but growth remains uneven - digitimes",
+          "summary": "Apple closes record fiscal 2026 with US$114.5 billion in 4Q revenue — but growth remains uneven  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZTQ3dGNMVldJSWFkRjNrQndsdkh0ZDlEal8zQUhibTJGSVQ2c1ZVdl9EREp1YW4yTmx1N3NHcTRkVkpnVVRzQWhsMTRkU2FfYUFZeHU2M0QzdHc4d0FkUkR3WkFiWjFoVHdGVDYtcVJ0eXhGMGhmUVZydTFfSktaWVpMVDRidVk?oc=5",
+          "publishedAt": "2026-11-03 10:08",
+          "outlet": "DigiTimes"
         },
         {
-          "title": "Apple warns ‘unprecedented’ memory chip costs will hit margins",
-          "summary": "Hardware giant predicts robust sales in the holiday season but services outlook disappoints",
-          "link": "https://www.ft.com/content/f6ad8c32-cacb-48ad-ad85-a9a7edac3f16?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-03 10:17",
-          "outlet": "Financial Times"
+          "title": "Inside Apple’s Slog to Create Its First Robot - The Information",
+          "summary": "Inside Apple’s Slog to Create Its First Robot  The Information",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU1B6S2pSQVo3VG1xZGgwdnRySkNyaXozSWpJdGhtNTVBM2hxSlQ4Z1pQdFBxSzRYWXlHaWJWOVU1VVhzVG5SMmtzRzlMWGdULU1qWk9ETy00YkJKQXd2ZzN6UVRJT3o1S040aG9fbldrMnZtWTd0dWpsUFNZZjhnbUVUcw?oc=5",
+          "publishedAt": "2026-11-02 23:16",
+          "outlet": "The Information"
         }
       ]
     },
@@ -43,18 +64,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google’s use of press by AI chatbot may infringe copyright rules, EU court adviser says",
+          "title": "Setback for Google as EU court adviser sides with publishers against AI chatbot",
           "summary": "",
           "link": "https://www.investing.com/news/stock-market-news/googles-use-of-press-by-ai-chatbot-may-infringe-copyright-rules-eu-court-adviser-says-4994030",
-          "publishedAt": "2026-11-03 18:24",
+          "publishedAt": "2026-11-04 02:31",
           "outlet": "Investing.com"
-        },
-        {
-          "title": "Scoop: Senate GOP makes massive bet on streaming",
-          "summary": "The top Senate GOP super PAC has nearly tripled its spending on streaming and social media platforms this election cycle to more than $200 million, Axios has learned.Why it matters: In a record cycle for ad spending, more political money is shifting to streaming, where super PACs have greater freedom to target voters, bargain and experiment — but platforms have more power to set the rules.In some ",
-          "link": "https://www.axios.com/2026/11/02/senate-republicans-super-pac-slf-streaming-social",
-          "publishedAt": "2026-11-03 05:18",
-          "outlet": "Axios"
         }
       ]
     },
@@ -88,6 +102,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "DIGITIMES Insight: Intel's retreat from low-margin industrial chips opens edge AI market to AMD and Arm rivals - digitimes",
+          "summary": "DIGITIMES Insight: Intel's retreat from low-margin industrial chips opens edge AI market to AMD and Arm rivals  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUpIZ0UxaGJnUWhEdnl5N2RzVXZqdjdfWkZpNjhoRzRhaUt6UFk3UjFYX1pid3RBNFZnWkY2dXZlVmtXcjNELUZFcUUtN0Rsd0VkclRpS18xNUdqWlVIWmRCd0ZlZWV4OHFSa2w0LUp6Tlk5Q19seFV0VlhvTjhSaEVIY2FoUXY4?oc=5",
+          "publishedAt": "2026-11-03 08:29",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Stocks making the biggest moves premarket: Intel, Amazon, Reddit, Chevron & more",
           "summary": "These are the stocks posting the largest moves premarket.",
