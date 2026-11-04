@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04 15:35",
+  "updatedAt": "2026-11-05 00:29",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -16,11 +16,11 @@
           "outlet": "WSJ Markets"
         },
         {
-          "title": "Tech Stocks Rise Despite Apple Slump - WSJ",
-          "summary": "Tech Stocks Rise Despite Apple Slump  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZE9BRkVuT3ZjS1NnUjAtU0RRZjUwU2JQdXdLS0YtNTNYbFRTendtTTZkaDVUR1ppVThpYUtIVmJ0NkQtOVhyVVYxbzBZTlBhai1jOGh0WGpLWnhjbWV4NXVzMEFoUHFrRE9OOC1qT3BmYlhxZUNpSlJtVWlIVTBFaVZ2YUVPS0lGS1lpQi1LdzM0X2NFbnY2WHRFbGVjUGgwNG1RWlBHVGdrYk0?oc=5",
-          "publishedAt": "2026-11-04 04:38",
-          "outlet": "WSJ Markets"
+          "title": "Nvidia Is World’s Most Valuable Company Again—After Brief Loss To Apple - Forbes",
+          "summary": "Nvidia Is World’s Most Valuable Company Again—After Brief Loss To Apple  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbkMtckNqNEtGTURaekxtSmJUNTlrRk1mallQdXhXakxZMXFrQVFLYmVuN0NxUlpUaXV1N19zM01WWmY4NmpyWnNDdGFQNmpXMmxCdUFmRUVBdG9obkZrQkdmdzI2YlRmOWxWQlBNTDNFYVY2Y0l0YnZWN3RoendOSF80TW8xeHhNekJvZm5lU0drNHUtMnVNZkhLNFpnWE9pdnhHVHltaVJWb2xiSDJfRmczQWtTcV9vbEgxbHdGTFR4TWZE?oc=5",
+          "publishedAt": "2026-11-04 01:57",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Stocks making the biggest moves premarket: Pfizer, Apple, Palantir, Zebra Technologies  & more",
@@ -28,13 +28,6 @@
           "link": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html",
           "publishedAt": "2026-11-03 21:47",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Apple closes record fiscal 2026 with US$114.5 billion in 4Q revenue — but growth remains uneven - digitimes",
-          "summary": "Apple closes record fiscal 2026 with US$114.5 billion in 4Q revenue — but growth remains uneven  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZTQ3dGNMVldJSWFkRjNrQndsdkh0ZDlEal8zQUhibTJGSVQ2c1ZVdl9EREp1YW4yTmx1N3NHcTRkVkpnVVRzQWhsMTRkU2FfYUFZeHU2M0QzdHc4d0FkUkR3WkFiWjFoVHdGVDYtcVJ0eXhGMGhmUVZydTFfSktaWVpMVDRidVk?oc=5",
-          "publishedAt": "2026-11-03 10:08",
-          "outlet": "DigiTimes"
         },
         {
           "title": "Inside Apple’s Slog to Create Its First Robot - The Information",
@@ -50,11 +43,18 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google Will Cut Off Search Engine Access To Schools Banning Generative AI - Forbes",
-          "summary": "Google Will Cut Off Search Engine Access To Schools Banning Generative AI  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOU9DYnFLdUJNeXVzdV9TV2hVWnhXQnZTdGk1UmVreHdOLUU4RUFnUmM4SVRGR0dDcVdDQmJvN09LRzg0eVRTOEpZTERHcU9QcGlacGxHNlZ1V0xWSEVNcEUyTTA5TmN1dDBvWHM5Q0lSWDlDX0VQdnpOSERXU2FVUms5eWVkZ1o4cjU5WEQxNjRoaF9malMyazVPaXY3cEFFWlJGLW1sUUhfZHNnRzlKM1RtcklBSEsyNkdKX3puYmh1TzdRb0E?oc=5",
-          "publishedAt": "2026-11-04 02:47",
-          "outlet": "Forbes Markets"
+          "title": "Why is Alphabet stock surging today?",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/why-is-alphabet-stock-surging-today-93CH-5000209",
+          "publishedAt": "2026-11-05 00:12",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "TeraWulf Secures Google Credit Backstop for Project Financing in Support of $19 Billion Anthropic Lease; Executes Definitive Fluor EPC Agreement",
+          "summary": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p align=\"center\" style=\"text-align:center;\"><em>Google credit support strengthens TeraWulf</em><em>’</em><em>s ability to secure competitive project financing for contracted AI infrastructure at Hawesville, Kentucky campus</em><p align=\"center\"...",
+          "link": "https://markets.businessinsider.com/news/stocks/terawulf-secures-google-credit-backstop-for-project-financing-in-support-of-19-billion-anthropic-lease-executes-definitive-fluor-epc-agreement-1036714428",
+          "publishedAt": "2026-11-04 22:15",
+          "outlet": "Business Insider Markets"
         }
       ]
     },
@@ -81,13 +81,6 @@
           "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUpIZ0UxaGJnUWhEdnl5N2RzVXZqdjdfWkZpNjhoRzRhaUt6UFk3UjFYX1pid3RBNFZnWkY2dXZlVmtXcjNELUZFcUUtN0Rsd0VkclRpS18xNUdqWlVIWmRCd0ZlZWV4OHFSa2w0LUp6Tlk5Q19seFV0VlhvTjhSaEVIY2FoUXY4?oc=5",
           "publishedAt": "2026-11-03 08:29",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Stocks making the biggest moves premarket: Intel, Amazon, Reddit, Chevron & more",
-          "summary": "These are the stocks posting the largest moves premarket.",
-          "link": "https://www.cnbc.com/2026/10/30/stocks-making-the-biggest-moves-premarket-intc-amzn-rddt-cvx.html",
-          "publishedAt": "2026-10-30 21:01",
-          "outlet": "CNBC Finance"
         }
       ]
     }
