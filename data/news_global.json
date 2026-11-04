@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04 08:28",
+  "updatedAt": "2026-11-04 15:35",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -23,32 +23,11 @@
           "outlet": "WSJ Markets"
         },
         {
-          "title": "Nvidia Is World’s Most Valuable Company Again—After Brief Loss To Apple - Forbes",
-          "summary": "Nvidia Is World’s Most Valuable Company Again—After Brief Loss To Apple  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbkMtckNqNEtGTURaekxtSmJUNTlrRk1mallQdXhXakxZMXFrQVFLYmVuN0NxUlpUaXV1N19zM01WWmY4NmpyWnNDdGFQNmpXMmxCdUFmRUVBdG9obkZrQkdmdzI2YlRmOWxWQlBNTDNFYVY2Y0l0YnZWN3RoendOSF80TW8xeHhNekJvZm5lU0drNHUtMnVNZkhLNFpnWE9pdnhHVHltaVJWb2xiSDJfRmczQWtTcV9vbEgxbHdGTFR4TWZE?oc=5",
-          "publishedAt": "2026-11-04 01:57",
-          "outlet": "Forbes Markets"
-        },
-        {
           "title": "Stocks making the biggest moves premarket: Pfizer, Apple, Palantir, Zebra Technologies  & more",
           "summary": "These are the stocks posting the largest moves premarket.",
           "link": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html",
           "publishedAt": "2026-11-03 21:47",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Apple unsure when it will get more foldable iPhones ahead of Christmas",
-          "summary": "The tech giant reports strong sales but admits \"constraints\" are affecting supplies of the iPhone Duo.",
-          "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-03 20:10",
-          "outlet": "BBC Business"
-        },
-        {
-          "title": "John Lewis Christmas ad stars Kristin Scott Thomas as glamorous granny on a gift hunt",
-          "summary": "Company tugs at heartstrings with Pickles the talking toy dog as it celebrates 20 years of blockbuster festive adsReview: Kristin Scott Thomas v Pickles the evil AI overlord puppyJohn Lewis has turned to a celebrity best known for playing aristocrats to put a playful but rather upmarket spin on the countdown to Christmas with this year’s festive ad, which features a toy dog called Pickles and a gl",
-          "link": "https://www.theguardian.com/media/2026/nov/03/john-lewis-christmas-advert-kristin-scott-thomas-glamorous-granny-gift-hunt",
-          "publishedAt": "2026-11-03 17:12",
-          "outlet": "The Guardian Business"
         },
         {
           "title": "Apple closes record fiscal 2026 with US$114.5 billion in 4Q revenue — but growth remains uneven - digitimes",
@@ -63,6 +42,19 @@
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU1B6S2pSQVo3VG1xZGgwdnRySkNyaXozSWpJdGhtNTVBM2hxSlQ4Z1pQdFBxSzRYWXlHaWJWOVU1VVhzVG5SMmtzRzlMWGdULU1qWk9ETy00YkJKQXd2ZzN6UVRJT3o1S040aG9fbldrMnZtWTd0dWpsUFNZZjhnbUVUcw?oc=5",
           "publishedAt": "2026-11-02 23:16",
           "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "Google Will Cut Off Search Engine Access To Schools Banning Generative AI - Forbes",
+          "summary": "Google Will Cut Off Search Engine Access To Schools Banning Generative AI  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOOU9DYnFLdUJNeXVzdV9TV2hVWnhXQnZTdGk1UmVreHdOLUU4RUFnUmM4SVRGR0dDcVdDQmJvN09LRzg0eVRTOEpZTERHcU9QcGlacGxHNlZ1V0xWSEVNcEUyTTA5TmN1dDBvWHM5Q0lSWDlDX0VQdnpOSERXU2FVUms5eWVkZ1o4cjU5WEQxNjRoaF9malMyazVPaXY3cEFFWlJGLW1sUUhfZHNnRzlKM1RtcklBSEsyNkdKX3puYmh1TzdRb0E?oc=5",
+          "publishedAt": "2026-11-04 02:47",
+          "outlet": "Forbes Markets"
         }
       ]
     },
