@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05 00:29",
+  "updatedAt": "2026-11-05 06:56",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,18 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple Shares Slip, Meta Debt Costs Rise - WSJ",
-          "summary": "Apple Shares Slip, Meta Debt Costs Rise  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQMGhjbGhSUVc1TVpmNDVMOFNtMUgzUldVeFFkc0cwNlc4emk1R3M1TWZJSEs3VGdUYmVZM3loemdPd1RKM1NZYjB3VWRWUm1adWppSXhCM2YyYlF5RnpEMFRlYkQ5LV9NcUk1Q2R3ZEhPRndPZ2tkVVZyQm5mQWdIUDdKMmh3aEJFbUE?oc=5",
-          "publishedAt": "2026-11-04 06:21",
-          "outlet": "WSJ Markets"
-        },
-        {
-          "title": "Nvidia Is World’s Most Valuable Company Again—After Brief Loss To Apple - Forbes",
-          "summary": "Nvidia Is World’s Most Valuable Company Again—After Brief Loss To Apple  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbkMtckNqNEtGTURaekxtSmJUNTlrRk1mallQdXhXakxZMXFrQVFLYmVuN0NxUlpUaXV1N19zM01WWmY4NmpyWnNDdGFQNmpXMmxCdUFmRUVBdG9obkZrQkdmdzI2YlRmOWxWQlBNTDNFYVY2Y0l0YnZWN3RoendOSF80TW8xeHhNekJvZm5lU0drNHUtMnVNZkhLNFpnWE9pdnhHVHltaVJWb2xiSDJfRmczQWtTcV9vbEgxbHdGTFR4TWZE?oc=5",
-          "publishedAt": "2026-11-04 01:57",
-          "outlet": "Forbes Markets"
+          "title": "Apple expects MacBook Neo shipments to double in 2027, sources say - digitimes",
+          "summary": "Apple expects MacBook Neo shipments to double in 2027, sources say  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNHJjVW9lOXJZMGlQdk5tUS02VktWdlhyY0pyNHlXTG51QXNBMHVXUXhzWlJ2WDhibVhtNkltRUFrZEVCdHRnMjIxeExhVW9KQlpPSThERVNyYjRJcDJ5UU1GazEwSjR1QjFNNjMwU2Z6eEdlcjBxS1BRSGlFWEFVNnJKNGxBMlQ2N1dMMlJybGhvdw?oc=5",
+          "publishedAt": "2026-11-04 11:35",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Stocks making the biggest moves premarket: Pfizer, Apple, Palantir, Zebra Technologies  & more",
@@ -30,31 +23,25 @@
           "outlet": "CNBC Finance"
         },
         {
+          "title": "Apple says 2nm transition is easing its advanced-node chip constraints - digitimes",
+          "summary": "Apple says 2nm transition is easing its advanced-node chip constraints  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV3dsam0yQVBJWENzaFJpd1NMcjNHOUU2REpoS3lZRGRvMFc5cmZVUGlSdURYM1U5VFdDbkV2V2NhcFJGLUNMT19STm5pRXUwOVNPMVE1LUE0cVloamZrSkhqUGFta29CLURhRG0zUFlwVWt2ckhINVp0MF94SzZCVGhjeUVSeVk?oc=5",
+          "publishedAt": "2026-11-03 12:12",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Apple closes record fiscal 2026 with US$114.5 billion in 4Q revenue — but growth remains uneven - digitimes",
+          "summary": "Apple closes record fiscal 2026 with US$114.5 billion in 4Q revenue — but growth remains uneven  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZTQ3dGNMVldJSWFkRjNrQndsdkh0ZDlEal8zQUhibTJGSVQ2c1ZVdl9EREp1YW4yTmx1N3NHcTRkVkpnVVRzQWhsMTRkU2FfYUFZeHU2M0QzdHc4d0FkUkR3WkFiWjFoVHdGVDYtcVJ0eXhGMGhmUVZydTFfSktaWVpMVDRidVk?oc=5",
+          "publishedAt": "2026-11-03 10:08",
+          "outlet": "DigiTimes"
+        },
+        {
           "title": "Inside Apple’s Slog to Create Its First Robot - The Information",
           "summary": "Inside Apple’s Slog to Create Its First Robot  The Information",
           "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU1B6S2pSQVo3VG1xZGgwdnRySkNyaXozSWpJdGhtNTVBM2hxSlQ4Z1pQdFBxSzRYWXlHaWJWOVU1VVhzVG5SMmtzRzlMWGdULU1qWk9ETy00YkJKQXd2ZzN6UVRJT3o1S040aG9fbldrMnZtWTd0dWpsUFNZZjhnbUVUcw?oc=5",
           "publishedAt": "2026-11-02 23:16",
           "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
-        {
-          "title": "Why is Alphabet stock surging today?",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/why-is-alphabet-stock-surging-today-93CH-5000209",
-          "publishedAt": "2026-11-05 00:12",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "TeraWulf Secures Google Credit Backstop for Project Financing in Support of $19 Billion Anthropic Lease; Executes Definitive Fluor EPC Agreement",
-          "summary": "<link type=\"text/css\" rel=\"stylesheet\" href=\"https://www.globenewswire.com/styles/gnw_nitf.css\" /><p align=\"center\" style=\"text-align:center;\"><em>Google credit support strengthens TeraWulf</em><em>’</em><em>s ability to secure competitive project financing for contracted AI infrastructure at Hawesville, Kentucky campus</em><p align=\"center\"...",
-          "link": "https://markets.businessinsider.com/news/stocks/terawulf-secures-google-credit-backstop-for-project-financing-in-support-of-19-billion-anthropic-lease-executes-definitive-fluor-epc-agreement-1036714428",
-          "publishedAt": "2026-11-04 22:15",
-          "outlet": "Business Insider Markets"
         }
       ]
     },
