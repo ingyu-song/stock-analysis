@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05 11:31",
+  "updatedAt": "2026-11-05 20:04",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -39,6 +39,19 @@
       ]
     },
     {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "Tech giants turn to cash, concessions for AI rebrand after voters pummeled data centers 43-1",
+          "summary": "The AI industry is scrambling to repackage a $10 trillion infrastructure buildout to appease a hostile electorate that overwhelmingly voted to restrict data center construction in ballot measures across the country.It's not just changing the name of data centers to \"compute campuses,\" but offering communities real money, including dividends, benefits for schools or cities, environmental concession",
+          "link": "https://www.axios.com/2026/11/05/ai-data-center-election-backlash-concessions",
+          "publishedAt": "2026-11-05 19:30",
+          "outlet": "Axios"
+        }
+      ]
+    },
+    {
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "items": [
@@ -55,6 +68,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Former Intel packaging chief Navid Shahriari joins MediaTek as senior vice president - digitimes",
+          "summary": "Former Intel packaging chief Navid Shahriari joins MediaTek as senior vice president  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTUthUWx3VUVTX21PU1g2cDY1T0ltT0Y5SFBXdGJ3Z01pbmliQkd5Tmx6Zk9KUHlTM09vMk9hZ1JWTjRFZGNrUFE3Ti1xRFp2YWp2LWViR1NlWk1EMHlGaGNKVloyX2kyNFVndmZ1Nmhzc1ZyWmFyX1BzQllCUHBHeUhkck11cWk3dWVvcDllb29oQW50WVhhOXNYY1hXWG5ROXdB?oc=5",
+          "publishedAt": "2026-11-04 19:43",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "DIGITIMES Insight: Intel's retreat from low-margin industrial chips opens edge AI market to AMD and Arm rivals - digitimes",
           "summary": "DIGITIMES Insight: Intel's retreat from low-margin industrial chips opens edge AI market to AMD and Arm rivals  digitimes",
