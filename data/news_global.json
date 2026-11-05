@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05 20:04",
+  "updatedAt": "2026-11-06 03:47",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple Seeks About $7 Billion From First Bond Sale in Over a Year - Bloomberg.com",
+          "summary": "Apple Seeks About $7 Billion From First Bond Sale in Over a Year  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX25fSHREY3NhWXh5ZUNNVTRrdWxVMlRDQnRneGh3N2p2dTBXalRnSUJuMkdsZDBPRWZ1WDhINVdSMEdjYUMyY2dDS29ITENRSmYyUGVMWDI1cjhCejBSMDFWRzlqR183SUhvMmhwM0JLMHdLTDdoUHlvTWNKcjJ6ejNMUE1peFlyU0p2YVI3eExrLXA4elRkTllCNUc1RW9acUp3d0RMMTZUOExQMHFR?oc=5",
+          "publishedAt": "2026-11-05 23:52",
+          "outlet": "Bloomberg (via Google News)"
+        },
         {
           "title": "Apple expects MacBook Neo shipments to double in 2027, sources say - digitimes",
           "summary": "Apple expects MacBook Neo shipments to double in 2027, sources say  digitimes",
@@ -43,6 +50,27 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Google, Meta, TikTok sue to block California youth social media law",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/google-meta-tiktok-sue-to-block-california-youth-social-media-law-5005115",
+          "publishedAt": "2026-11-06 03:25",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Parents Sue Google Over A.I. Safety Risks on School Chromebooks",
+          "summary": "A student made plans to end her life after chatting with Google’s artificial intelligence, a new lawsuit claims, amid mounting concerns about online harms to children.",
+          "link": "https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
+          "publishedAt": "2026-11-06 02:30",
+          "outlet": "NYT Business"
+        },
+        {
+          "title": "Alphabet’s Search Dominance Is at Risk From Its Own AI Success - Bloomberg.com",
+          "summary": "Alphabet’s Search Dominance Is at Risk From Its Own AI Success  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQy01RXgzZmM0aHcxVXMzRUpod3NjVDV0TVRwcDlFRDk5V1lCbWhvd29pelNTOHlzNDQ5aElPOUtueTBtNjdLcEpjYTNNclBvUEhtNHhuYkk0LVhxZkU2MFVGZ09sZ29QeFFDQkd5UUFKUnlLaFAyREtzdE43dkpmV0JlRE9Hdm5IZUJtSkZNN19OY2ZYOGlNY1E4SXZEMkMxVWNieTNqU3VibUNxUzF6NjVxbw?oc=5",
+          "publishedAt": "2026-11-05 23:46",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
           "title": "Tech giants turn to cash, concessions for AI rebrand after voters pummeled data centers 43-1",
           "summary": "The AI industry is scrambling to repackage a $10 trillion infrastructure buildout to appease a hostile electorate that overwhelmingly voted to restrict data center construction in ballot measures across the country.It's not just changing the name of data centers to \"compute campuses,\" but offering communities real money, including dividends, benefits for schools or cities, environmental concession",
           "link": "https://www.axios.com/2026/11/05/ai-data-center-election-backlash-concessions",
@@ -65,6 +93,19 @@
       ]
     },
     {
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "items": [
+        {
+          "title": "Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup - The Information",
+          "summary": "Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUTlob0JoVW9qam51VzQzV083MU1iX1VGYTQ4M0xvbGota0JraXpDNWlSb0hHQnN5S0NfSlkyNE9hRnV5Y2FjRmNqOTlZcThrV2xYWDFiU3BVX1V5eXFOdWNSZS1aUTlWZWJsU0Y2ZXhkSVJHSnlmMExLOGFMMkFvQWF5MFJLNDVIX2FlanBQYzNlMUpqdzMxV3dQeUhGSUczQXc?oc=5",
+          "publishedAt": "2026-11-05 11:52",
+          "outlet": "The Information"
+        }
+      ]
+    },
+    {
       "ticker": "INTC",
       "name": "인텔",
       "items": [
@@ -73,13 +114,6 @@
           "summary": "Former Intel packaging chief Navid Shahriari joins MediaTek as senior vice president  digitimes",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPTUthUWx3VUVTX21PU1g2cDY1T0ltT0Y5SFBXdGJ3Z01pbmliQkd5Tmx6Zk9KUHlTM09vMk9hZ1JWTjRFZGNrUFE3Ti1xRFp2YWp2LWViR1NlWk1EMHlGaGNKVloyX2kyNFVndmZ1Nmhzc1ZyWmFyX1BzQllCUHBHeUhkck11cWk3dWVvcDllb29oQW50WVhhOXNYY1hXWG5ROXdB?oc=5",
           "publishedAt": "2026-11-04 19:43",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "DIGITIMES Insight: Intel's retreat from low-margin industrial chips opens edge AI market to AMD and Arm rivals - digitimes",
-          "summary": "DIGITIMES Insight: Intel's retreat from low-margin industrial chips opens edge AI market to AMD and Arm rivals  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNeUpIZ0UxaGJnUWhEdnl5N2RzVXZqdjdfWkZpNjhoRzRhaUt6UFk3UjFYX1pid3RBNFZnWkY2dXZlVmtXcjNELUZFcUUtN0Rsd0VkclRpS18xNUdqWlVIWmRCd0ZlZWV4OHFSa2w0LUp6Tlk5Q19seFV0VlhvTjhSaEVIY2FoUXY4?oc=5",
-          "publishedAt": "2026-11-03 08:29",
           "outlet": "DigiTimes"
         }
       ]
