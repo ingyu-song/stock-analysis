@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06 03:47",
+  "updatedAt": "2026-11-06 09:22",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,10 +9,10 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple Seeks About $7 Billion From First Bond Sale in Over a Year - Bloomberg.com",
-          "summary": "Apple Seeks About $7 Billion From First Bond Sale in Over a Year  Bloomberg.com",
+          "title": "Apple Raises $7.5 Billion From Investment-Grade Debt Offering - Bloomberg.com",
+          "summary": "Apple Raises $7.5 Billion From Investment-Grade Debt Offering  Bloomberg.com",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX25fSHREY3NhWXh5ZUNNVTRrdWxVMlRDQnRneGh3N2p2dTBXalRnSUJuMkdsZDBPRWZ1WDhINVdSMEdjYUMyY2dDS29ITENRSmYyUGVMWDI1cjhCejBSMDFWRzlqR183SUhvMmhwM0JLMHdLTDdoUHlvTWNKcjJ6ejNMUE1peFlyU0p2YVI3eExrLXA4elRkTllCNUc1RW9acUp3d0RMMTZUOExQMHFR?oc=5",
-          "publishedAt": "2026-11-05 23:52",
+          "publishedAt": "2026-11-06 06:19",
           "outlet": "Bloomberg (via Google News)"
         },
         {
@@ -35,13 +35,6 @@
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV3dsam0yQVBJWENzaFJpd1NMcjNHOUU2REpoS3lZRGRvMFc5cmZVUGlSdURYM1U5VFdDbkV2V2NhcFJGLUNMT19STm5pRXUwOVNPMVE1LUE0cVloamZrSkhqUGFta29CLURhRG0zUFlwVWt2ckhINVp0MF94SzZCVGhjeUVSeVk?oc=5",
           "publishedAt": "2026-11-03 12:12",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Apple closes record fiscal 2026 with US$114.5 billion in 4Q revenue — but growth remains uneven - digitimes",
-          "summary": "Apple closes record fiscal 2026 with US$114.5 billion in 4Q revenue — but growth remains uneven  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZTQ3dGNMVldJSWFkRjNrQndsdkh0ZDlEal8zQUhibTJGSVQ2c1ZVdl9EREp1YW4yTmx1N3NHcTRkVkpnVVRzQWhsMTRkU2FfYUFZeHU2M0QzdHc4d0FkUkR3WkFiWjFoVHdGVDYtcVJ0eXhGMGhmUVZydTFfSktaWVpMVDRidVk?oc=5",
-          "publishedAt": "2026-11-03 10:08",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -50,45 +43,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google, Meta, TikTok sue to block California youth social media law",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/google-meta-tiktok-sue-to-block-california-youth-social-media-law-5005115",
-          "publishedAt": "2026-11-06 03:25",
-          "outlet": "Investing.com"
-        },
-        {
           "title": "Parents Sue Google Over A.I. Safety Risks on School Chromebooks",
           "summary": "A student made plans to end her life after chatting with Google’s artificial intelligence, a new lawsuit claims, amid mounting concerns about online harms to children.",
           "link": "https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
-          "publishedAt": "2026-11-06 02:30",
+          "publishedAt": "2026-11-06 04:27",
           "outlet": "NYT Business"
-        },
-        {
-          "title": "Alphabet’s Search Dominance Is at Risk From Its Own AI Success - Bloomberg.com",
-          "summary": "Alphabet’s Search Dominance Is at Risk From Its Own AI Success  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQy01RXgzZmM0aHcxVXMzRUpod3NjVDV0TVRwcDlFRDk5V1lCbWhvd29pelNTOHlzNDQ5aElPOUtueTBtNjdLcEpjYTNNclBvUEhtNHhuYkk0LVhxZkU2MFVGZ09sZ29QeFFDQkd5UUFKUnlLaFAyREtzdE43dkpmV0JlRE9Hdm5IZUJtSkZNN19OY2ZYOGlNY1E4SXZEMkMxVWNieTNqU3VibUNxUzF6NjVxbw?oc=5",
-          "publishedAt": "2026-11-05 23:46",
-          "outlet": "Bloomberg (via Google News)"
-        },
-        {
-          "title": "Tech giants turn to cash, concessions for AI rebrand after voters pummeled data centers 43-1",
-          "summary": "The AI industry is scrambling to repackage a $10 trillion infrastructure buildout to appease a hostile electorate that overwhelmingly voted to restrict data center construction in ballot measures across the country.It's not just changing the name of data centers to \"compute campuses,\" but offering communities real money, including dividends, benefits for schools or cities, environmental concession",
-          "link": "https://www.axios.com/2026/11/05/ai-data-center-election-backlash-concessions",
-          "publishedAt": "2026-11-05 19:30",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWD",
-      "name": "크라우드스트라이크",
-      "items": [
-        {
-          "title": "Stocks making the biggest moves premarket: CrowdStrike, Rivian, Micron & more",
-          "summary": "These are the stocks posting the largest moves in early trading.",
-          "link": "https://www.cnbc.com/2026/11/02/stocks-making-the-biggest-moves-premarket-crwd-rivn-mu.html",
-          "publishedAt": "2026-11-02 21:49",
-          "outlet": "CNBC Finance"
         }
       ]
     },
@@ -109,6 +68,20 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Nvidia, Micron, Intel Plunge In Worsening Chipmaker Selloff - Forbes",
+          "summary": "Nvidia, Micron, Intel Plunge In Worsening Chipmaker Selloff  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOelJaalRuaTgySnhJTzR4OGhTRXF0Y1R4d3pZN0lxSDZPc2l5LTdsNUM4LWoyX3JGaFNBQ2JsOE9NZW9NRmxyTjlFdTg0N0pVTE5Jd05uOEpNWEJnazM0NlNPM1F3d2xRVEw5RU1SOVJsRnNUcC1TRkNocVJib2h3RmZmUnRDN1RsU0RQQkQzM1BQb2hoMEZsWjM4amJ4cVR3Zlk1NzF3eVR2RUU1cTdEek5EUnpqWmNJLVE0Ul9hRWliM1A1VVpPNkdoTTV6dlk?oc=5",
+          "publishedAt": "2026-11-06 02:56",
+          "outlet": "Forbes Markets"
+        },
+        {
+          "title": "Buy AMD Or Intel? Buying Neither Is Fine - Forbes",
+          "summary": "Buy AMD Or Intel? Buying Neither Is Fine  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUF6RVpGek5IbEZVOUg2ZzluaUpBQVluMEI1WG1zd0dYODFNeEw5TU4yak9EWnhpVnh0UGUyakU1cFN1YTI0TS1GXzZlUE90cnQ5S19KbC1tcDBFV0lXbkNXbEljLXdwQlYzbTVxZEY1blc5emVHeXlCaW9QTl9pWGdBemRmUzVRSy1KeGh1SFQwc0hOaHBOODhR?oc=5",
+          "publishedAt": "2026-11-05 20:30",
+          "outlet": "Forbes Markets"
+        },
         {
           "title": "Former Intel packaging chief Navid Shahriari joins MediaTek as senior vice president - digitimes",
           "summary": "Former Intel packaging chief Navid Shahriari joins MediaTek as senior vice president  digitimes",
