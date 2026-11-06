@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06 09:22",
+  "updatedAt": "2026-11-06 16:58",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Apple Raises $7.5 Billion From Investment-Grade Debt Offering - Bloomberg.com",
-          "summary": "Apple Raises $7.5 Billion From Investment-Grade Debt Offering  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPX25fSHREY3NhWXh5ZUNNVTRrdWxVMlRDQnRneGh3N2p2dTBXalRnSUJuMkdsZDBPRWZ1WDhINVdSMEdjYUMyY2dDS29ITENRSmYyUGVMWDI1cjhCejBSMDFWRzlqR183SUhvMmhwM0JLMHdLTDdoUHlvTWNKcjJ6ejNMUE1peFlyU0p2YVI3eExrLXA4elRkTllCNUc1RW9acUp3d0RMMTZUOExQMHFR?oc=5",
-          "publishedAt": "2026-11-06 06:19",
-          "outlet": "Bloomberg (via Google News)"
-        },
         {
           "title": "Apple expects MacBook Neo shipments to double in 2027, sources say - digitimes",
           "summary": "Apple expects MacBook Neo shipments to double in 2027, sources say  digitimes",
@@ -28,13 +21,6 @@
           "link": "https://www.cnbc.com/2026/11/03/stocks-making-the-biggest-moves-premarket-pfe-pltr-aapl-zbra.html",
           "publishedAt": "2026-11-03 21:47",
           "outlet": "CNBC Finance"
-        },
-        {
-          "title": "Apple says 2nm transition is easing its advanced-node chip constraints - digitimes",
-          "summary": "Apple says 2nm transition is easing its advanced-node chip constraints  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPV3dsam0yQVBJWENzaFJpd1NMcjNHOUU2REpoS3lZRGRvMFc5cmZVUGlSdURYM1U5VFdDbkV2V2NhcFJGLUNMT19STm5pRXUwOVNPMVE1LUE0cVloamZrSkhqUGFta29CLURhRG0zUFlwVWt2ckhINVp0MF94SzZCVGhjeUVSeVk?oc=5",
-          "publishedAt": "2026-11-03 12:12",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -42,6 +28,20 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "\"Never heard of them\": Meet the incoming House Dems who shocked even their own party",
+          "summary": "Tuesday's blue tsunami is poised to sweep an unusually large cohort of House Democrats into office who are virtually unknown outside of their districts.Why it matters: Obscure though these incoming lawmakers may be on Capitol Hill, they are poised to play a major role in determining the direction of the Democratic Party.House Democrats' progressive and centrist wings are both looking to recruit as",
+          "link": "https://www.axios.com/2026/11/06/house-democrats-nc-tennessee-new-members-wave",
+          "publishedAt": "2026-11-06 09:43",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Google, Meta and TikTok sue California to block law protecting children from addiction risk",
+          "summary": "Law bans social media platforms from providing minors features such as autoplay that lead to compulsive useGoogle, Meta and TikTok have sued California to block enforcement of ⁠a new state law intended ⁠to limit the risk ​of addicting children under 16 to social media platforms.The law, known as Assembly Bill 1709, prohibits such platforms from offering underage children “psychologically exploitat",
+          "link": "https://www.theguardian.com/technology/2026/nov/05/california-children-social-media-lawsuit-tiktok-google-meta",
+          "publishedAt": "2026-11-06 06:10",
+          "outlet": "The Guardian Business"
+        },
         {
           "title": "Parents Sue Google Over A.I. Safety Risks on School Chromebooks",
           "summary": "A student made plans to end her life after chatting with Google’s artificial intelligence, a new lawsuit claims, amid mounting concerns about online harms to children.",
