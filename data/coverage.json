@@ -1,13 +1,13 @@
 {
-  "updatedAt": "2026-11-05 11:38",
+  "updatedAt": "2026-11-06 11:39",
   "note": "내 커버리지 — 보유 중이거나 보유했던 단일 종목 + 직접 지정한 종목. ETF는 제외.",
   "names": [
     {
       "ticker": "278470.KS",
       "name": "에이피알",
       "currency": "KRW",
-      "price": 266500.0,
-      "prevClose": 250500.0,
+      "price": 257500.0,
+      "prevClose": 267500.0,
       "newsQuery": "에이피알 메디큐브",
       "newsMatch": [
         "에이피알",
@@ -22,8 +22,8 @@
       "ticker": "AAPL",
       "name": "애플",
       "currency": "USD",
-      "price": 349.51,
-      "prevClose": 330.28,
+      "price": 344.17,
+      "prevClose": 350.0294,
       "newsQuery": "애플 AAPL",
       "newsMatch": [
         "애플",
@@ -39,8 +39,8 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "currency": "USD",
-      "price": 288.93,
-      "prevClose": 279.3985,
+      "price": 282.57,
+      "prevClose": 291.0965,
       "newsQuery": "구글 알파벳 주가",
       "newsMatch": [
         "알파벳",
@@ -57,8 +57,8 @@
       "ticker": "COIN",
       "name": "코인베이스 글로벌",
       "currency": "USD",
-      "price": 151.5,
-      "prevClose": 145.0,
+      "price": 136.82,
+      "prevClose": 151.8,
       "newsQuery": "코인베이스 COIN",
       "newsMatch": [
         "코인베이스",
@@ -73,8 +73,8 @@
       "ticker": "CRCL",
       "name": "서클 인터넷 그룹",
       "currency": "USD",
-      "price": 76.12,
-      "prevClose": 75.0725,
+      "price": 69.48,
+      "prevClose": 75.89,
       "newsQuery": "서클 CRCL",
       "newsMatch": [
         "서클",
@@ -90,8 +90,8 @@
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "currency": "USD",
-      "price": 241.0,
-      "prevClose": 246.9811,
+      "price": 217.2,
+      "prevClose": 241.4,
       "newsQuery": "크라우드스트라이크",
       "newsMatch": [
         "크라우드스트라이크",
@@ -107,8 +107,8 @@
       "ticker": "PANW",
       "name": "팰로 앨토 네트웍스",
       "currency": "USD",
-      "price": 348.04,
-      "prevClose": 348.9095,
+      "price": 314.67,
+      "prevClose": 349.5759,
       "newsQuery": "팔로알토네트웍스",
       "newsMatch": [
         "팔로알토",
@@ -126,8 +126,8 @@
       "ticker": "PG",
       "name": "프록터 앤드 갬블",
       "currency": "USD",
-      "price": 167.32,
-      "prevClose": 162.06,
+      "price": 167.1,
+      "prevClose": 167.3194,
       "newsQuery": "프록터앤드갬블 PG",
       "newsMatch": [
         "프록터",
@@ -145,8 +145,8 @@
       "ticker": "MC.PA",
       "name": "LVMH 모에헤네시",
       "currency": "EUR",
-      "price": 416.25,
-      "prevClose": 401.55,
+      "price": 418.65,
+      "prevClose": 418.0,
       "newsQuery": "LVMH 주가",
       "newsMatch": [
         "LVMH",
@@ -161,8 +161,8 @@
       "ticker": "INTC",
       "name": "인텔",
       "currency": "USD",
-      "price": 58.27,
-      "prevClose": 60.95,
+      "price": 52.25,
+      "prevClose": 58.0445,
       "newsQuery": "인텔 INTC",
       "newsMatch": [
         "인텔",
@@ -178,8 +178,8 @@
       "ticker": "GLW",
       "name": "코닝",
       "currency": "USD",
-      "price": 118.77,
-      "prevClose": 127.08,
+      "price": 103.43,
+      "prevClose": 117.6,
       "newsQuery": "코닝",
       "newsMatch": [
         "코닝",
@@ -195,14 +195,13 @@
       "ticker": "SONY",
       "name": "소니",
       "currency": "USD",
-      "price": 25.95,
-      "prevClose": 25.5,
+      "price": 27.54,
+      "prevClose": 26.0725,
       "newsQuery": "소니 SONY",
       "newsMatch": [
         "소니",
         "SONY"
       ],
-      "nextEarnings": "2026-11-05",
       "newsAliases": [
         "Sony",
         "SONY"
@@ -212,8 +211,8 @@
       "ticker": "080220.KQ",
       "name": "제주반도체",
       "currency": "KRW",
-      "price": 58800.0,
-      "prevClose": 63200.0,
+      "price": 52200.0,
+      "prevClose": 55200.0,
       "newsQuery": "제주반도체",
       "newsMatch": [
         "제주반도체"
@@ -226,8 +225,8 @@
       "ticker": "012450.KS",
       "name": "한화에어로스페이스",
       "currency": "KRW",
-      "price": 700000.0,
-      "prevClose": 730000.0,
+      "price": 649000.0,
+      "prevClose": 670000.0,
       "newsQuery": "한화에어로스페이스",
       "newsMatch": [
         "한화에어로스페이스"
@@ -250,8 +249,8 @@
         "Howmet Aerospace",
         "Howmet"
       ],
-      "price": 213.56,
-      "prevClose": 223.12
+      "price": 200.9,
+      "prevClose": 215.0
     },
     {
       "ticker": "108490.KQ",
@@ -264,8 +263,8 @@
       "newsAliases": [
         "Robotis"
       ],
-      "price": 222500.0,
-      "prevClose": 229500.0
+      "price": 228500.0,
+      "prevClose": 215500.0
     }
   ]
 }
