@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06 16:58",
+  "updatedAt": "2026-11-07 00:58",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -29,25 +29,31 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "How AI is enabling faster, more dangerous cyber warfare",
+          "summary": "Refrigerator hacks. $6.3 billion crypto heists. 14-country espionage campaigns carried out in just 11 days. All in the span of a week.Why it matters: State-backed hackers are finding new ways to launch cyberattacks at remarkable speed and scale, with AI and automation threatening to widen the gap between attackers and defenders.Driving the news: Hackers tampered with refrigeration systems at dozen",
+          "link": "https://www.axios.com/2026/11/06/ai-government-hackers-fridge-hacks",
+          "publishedAt": "2026-11-06 21:15",
+          "outlet": "Axios"
+        },
+        {
           "title": "\"Never heard of them\": Meet the incoming House Dems who shocked even their own party",
           "summary": "Tuesday's blue tsunami is poised to sweep an unusually large cohort of House Democrats into office who are virtually unknown outside of their districts.Why it matters: Obscure though these incoming lawmakers may be on Capitol Hill, they are poised to play a major role in determining the direction of the Democratic Party.House Democrats' progressive and centrist wings are both looking to recruit as",
           "link": "https://www.axios.com/2026/11/06/house-democrats-nc-tennessee-new-members-wave",
           "publishedAt": "2026-11-06 09:43",
           "outlet": "Axios"
-        },
+        }
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
+      "items": [
         {
-          "title": "Google, Meta and TikTok sue California to block law protecting children from addiction risk",
-          "summary": "Law bans social media platforms from providing minors features such as autoplay that lead to compulsive useGoogle, Meta and TikTok have sued California to block enforcement of ⁠a new state law intended ⁠to limit the risk ​of addicting children under 16 to social media platforms.The law, known as Assembly Bill 1709, prohibits such platforms from offering underage children “psychologically exploitat",
-          "link": "https://www.theguardian.com/technology/2026/nov/05/california-children-social-media-lawsuit-tiktok-google-meta",
-          "publishedAt": "2026-11-06 06:10",
-          "outlet": "The Guardian Business"
-        },
-        {
-          "title": "Parents Sue Google Over A.I. Safety Risks on School Chromebooks",
-          "summary": "A student made plans to end her life after chatting with Google’s artificial intelligence, a new lawsuit claims, amid mounting concerns about online harms to children.",
-          "link": "https://www.nytimes.com/2026/11/05/technology/ai-safety-school-chromebooks-google-lawsuit.html",
-          "publishedAt": "2026-11-06 04:27",
-          "outlet": "NYT Business"
+          "title": "How AI is enabling faster, more dangerous cyber warfare",
+          "summary": "Refrigerator hacks. $6.3 billion crypto heists. 14-country espionage campaigns carried out in just 11 days. All in the span of a week.Why it matters: State-backed hackers are finding new ways to launch cyberattacks at remarkable speed and scale, with AI and automation threatening to widen the gap between attackers and defenders.Driving the news: Hackers tampered with refrigeration systems at dozen",
+          "link": "https://www.axios.com/2026/11/06/ai-government-hackers-fridge-hacks",
+          "publishedAt": "2026-11-06 21:15",
+          "outlet": "Axios"
         }
       ]
     },
@@ -73,13 +79,6 @@
           "summary": "Nvidia, Micron, Intel Plunge In Worsening Chipmaker Selloff  Forbes",
           "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOelJaalRuaTgySnhJTzR4OGhTRXF0Y1R4d3pZN0lxSDZPc2l5LTdsNUM4LWoyX3JGaFNBQ2JsOE9NZW9NRmxyTjlFdTg0N0pVTE5Jd05uOEpNWEJnazM0NlNPM1F3d2xRVEw5RU1SOVJsRnNUcC1TRkNocVJib2h3RmZmUnRDN1RsU0RQQkQzM1BQb2hoMEZsWjM4amJ4cVR3Zlk1NzF3eVR2RUU1cTdEek5EUnpqWmNJLVE0Ul9hRWliM1A1VVpPNkdoTTV6dlk?oc=5",
           "publishedAt": "2026-11-06 02:56",
-          "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Buy AMD Or Intel? Buying Neither Is Fine - Forbes",
-          "summary": "Buy AMD Or Intel? Buying Neither Is Fine  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQcUF6RVpGek5IbEZVOUg2ZzluaUpBQVluMEI1WG1zd0dYODFNeEw5TU4yak9EWnhpVnh0UGUyakU1cFN1YTI0TS1GXzZlUE90cnQ5S19KbC1tcDBFV0lXbkNXbEljLXdwQlYzbTVxZEY1blc5emVHeXlCaW9QTl9pWGdBemRmUzVRSy1KeGh1SFQwc0hOaHBOODhR?oc=5",
-          "publishedAt": "2026-11-05 20:30",
           "outlet": "Forbes Markets"
         },
         {
