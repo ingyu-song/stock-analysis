@@ -1,9 +1,22 @@
 {
-  "updatedAt": "2026-11-08 05:16",
+  "updatedAt": "2026-11-08 08:42",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
+    {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Tech Stocks Rise Despite Apple Slump - WSJ",
+          "summary": "Tech Stocks Rise Despite Apple Slump  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZE9BRkVuT3ZjS1NnUjAtU0RRZjUwU2JQdXdLS0YtNTNYbFRTendtTTZkaDVUR1ppVThpYUtIVmJ0NkQtOVhyVVYxbzBZTlBhai1jOGh0WGpLWnhjbWV4NXVzMEFoUHFrRE9OOC1qT3BmYlhxZUNpSlJtVWlIVTBFaVZ2YUVPS0lGS1lpQi1LdzM0X2NFbnY2WHRFbGVjUGgwNG1RWlBHVGdrYk0?oc=5",
+          "publishedAt": "2026-11-07 16:13",
+          "outlet": "WSJ Markets"
+        }
+      ]
+    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -14,26 +27,6 @@
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFBQUUZob254UUQxOGhmLUd6Vm1xNThSU2RNTXVib3Rja0R3OVdMbkR4MjR0UDY4ZWRUMkZab1JaZmVaZmllSW96SkR1WmVFb1dXblU4dDg1Y05mUDlPUmlpTlI3VjBxcFpFbVIweUNhRlNxeE5ZLU93VDJzVmE4Y3c5VTByV1poaVFfRG5CUy0wNWlFeUZ6bnA3bmZhek1VOENqdWFyQ0poUzIxU016SUN3?oc=5",
           "publishedAt": "2026-11-07 08:48",
           "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "How AI is enabling faster, more dangerous cyber warfare",
-          "summary": "Refrigerator hacks. $6.3 billion crypto heists. 14-country espionage campaigns carried out in just 11 days. All in the span of a week.Why it matters: State-backed hackers are finding new ways to launch cyberattacks at remarkable speed and scale, with AI and automation threatening to widen the gap between attackers and defenders.Driving the news: Hackers tampered with refrigeration systems at dozen",
-          "link": "https://www.axios.com/2026/11/06/ai-government-hackers-fridge-hacks",
-          "publishedAt": "2026-11-06 21:15",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWD",
-      "name": "크라우드스트라이크",
-      "items": [
-        {
-          "title": "How AI is enabling faster, more dangerous cyber warfare",
-          "summary": "Refrigerator hacks. $6.3 billion crypto heists. 14-country espionage campaigns carried out in just 11 days. All in the span of a week.Why it matters: State-backed hackers are finding new ways to launch cyberattacks at remarkable speed and scale, with AI and automation threatening to widen the gap between attackers and defenders.Driving the news: Hackers tampered with refrigeration systems at dozen",
-          "link": "https://www.axios.com/2026/11/06/ai-government-hackers-fridge-hacks",
-          "publishedAt": "2026-11-06 21:15",
-          "outlet": "Axios"
         }
       ]
     }
