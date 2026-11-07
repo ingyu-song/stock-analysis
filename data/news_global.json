@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07 06:33",
+  "updatedAt": "2026-11-07 10:58",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -29,6 +29,20 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "Google executive Donald Harrison resigns from SpaceX board",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/google-executive-donald-harrison-resigns-from-spacex-board-5009426",
+          "publishedAt": "2026-11-07 08:54",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "Google executive Donald Harrison resigns from SpaceX board - Reuters",
+          "summary": "Google executive Donald Harrison resigns from SpaceX board  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFBQUUZob254UUQxOGhmLUd6Vm1xNThSU2RNTXVib3Rja0R3OVdMbkR4MjR0UDY4ZWRUMkZab1JaZmVaZmllSW96SkR1WmVFb1dXblU4dDg1Y05mUDlPUmlpTlI3VjBxcFpFbVIweUNhRlNxeE5ZLU93VDJzVmE4Y3c5VTByV1poaVFfRG5CUy0wNWlFeUZ6bnA3bmZhek1VOENqdWFyQ0poUzIxU016SUN3?oc=5",
+          "publishedAt": "2026-11-07 08:53",
+          "outlet": "Reuters Business (via Google News)"
+        },
+        {
           "title": "How AI is enabling faster, more dangerous cyber warfare",
           "summary": "Refrigerator hacks. $6.3 billion crypto heists. 14-country espionage campaigns carried out in just 11 days. All in the span of a week.Why it matters: State-backed hackers are finding new ways to launch cyberattacks at remarkable speed and scale, with AI and automation threatening to widen the gap between attackers and defenders.Driving the news: Hackers tampered with refrigeration systems at dozen",
           "link": "https://www.axios.com/2026/11/06/ai-government-hackers-fridge-hacks",
@@ -47,19 +61,6 @@
           "link": "https://www.axios.com/2026/11/06/ai-government-hackers-fridge-hacks",
           "publishedAt": "2026-11-06 21:15",
           "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup - The Information",
-          "summary": "Palo Alto Networks in Talks to Pay $500 Million for AI Security Startup  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOUTlob0JoVW9qam51VzQzV083MU1iX1VGYTQ4M0xvbGota0JraXpDNWlSb0hHQnN5S0NfSlkyNE9hRnV5Y2FjRmNqOTlZcThrV2xYWDFiU3BVX1V5eXFOdWNSZS1aUTlWZWJsU0Y2ZXhkSVJHSnlmMExLOGFMMkFvQWF5MFJLNDVIX2FlanBQYzNlMUpqdzMxV3dQeUhGSUczQXc?oc=5",
-          "publishedAt": "2026-11-05 11:52",
-          "outlet": "The Information"
         }
       ]
     },
