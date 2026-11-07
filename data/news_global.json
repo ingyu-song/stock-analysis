@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-07 10:58",
+  "updatedAt": "2026-11-07 17:52",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Apple expects MacBook Neo shipments to double in 2027, sources say - digitimes",
-          "summary": "Apple expects MacBook Neo shipments to double in 2027, sources say  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQNHJjVW9lOXJZMGlQdk5tUS02VktWdlhyY0pyNHlXTG51QXNBMHVXUXhzWlJ2WDhibVhtNkltRUFrZEVCdHRnMjIxeExhVW9KQlpPSThERVNyYjRJcDJ5UU1GazEwSjR1QjFNNjMwU2Z6eEdlcjBxS1BRSGlFWEFVNnJKNGxBMlQ2N1dMMlJybGhvdw?oc=5",
-          "publishedAt": "2026-11-04 11:35",
-          "outlet": "DigiTimes"
-        },
         {
           "title": "Stocks making the biggest moves premarket: Pfizer, Apple, Palantir, Zebra Technologies  & more",
           "summary": "These are the stocks posting the largest moves premarket.",
@@ -32,14 +25,14 @@
           "title": "Google executive Donald Harrison resigns from SpaceX board",
           "summary": "",
           "link": "https://www.investing.com/news/stock-market-news/google-executive-donald-harrison-resigns-from-spacex-board-5009426",
-          "publishedAt": "2026-11-07 08:54",
+          "publishedAt": "2026-11-07 11:18",
           "outlet": "Investing.com"
         },
         {
           "title": "Google executive Donald Harrison resigns from SpaceX board - Reuters",
           "summary": "Google executive Donald Harrison resigns from SpaceX board  Reuters",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFBQUUZob254UUQxOGhmLUd6Vm1xNThSU2RNTXVib3Rja0R3OVdMbkR4MjR0UDY4ZWRUMkZab1JaZmVaZmllSW96SkR1WmVFb1dXblU4dDg1Y05mUDlPUmlpTlI3VjBxcFpFbVIweUNhRlNxeE5ZLU93VDJzVmE4Y3c5VTByV1poaVFfRG5CUy0wNWlFeUZ6bnA3bmZhek1VOENqdWFyQ0poUzIxU016SUN3?oc=5",
-          "publishedAt": "2026-11-07 08:53",
+          "publishedAt": "2026-11-07 08:48",
           "outlet": "Reuters Business (via Google News)"
         },
         {
