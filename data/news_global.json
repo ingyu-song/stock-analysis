@@ -1,38 +1,18 @@
 {
-  "updatedAt": "2026-11-08 00:42",
+  "updatedAt": "2026-11-08 05:16",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "EXCLUSIVE: Apple's autocomplete restrictions include 'Dictator Trump' and 'Sleepy Joe,' researcher finds - Reuters",
-          "summary": "EXCLUSIVE: Apple's autocomplete restrictions include 'Dictator Trump' and 'Sleepy Joe,' researcher finds  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNTUR2UGkwV2c4dmhzNURLVE9HOFU0Vks4d3FkRzFBa1hWZXloRGtwaVVoUnl4WFVBU0ktdXl3eU1lclhVTC1xUjBPX2NWMG82V2IzdVZXZVd5dFEwSkhSUzdMV2I1VlB5a1R4czhndXdGQURaY3pzTVZoUC1UNm5OUXBRZXNFSXpBV3VOODc1UUZGV21oTkxtWW9fMGdsanBDV2NUUVNST3R3Zm5mUW5JQWtvdXRSem1ZSlJSaE93d0FtckdmX2c0MGlLT2I3Tjh5eXVlZlFpNW0?oc=5",
-          "publishedAt": "2026-11-07 03:28",
-          "outlet": "Reuters Business (via Google News)"
-        }
-      ]
-    },
-    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google executive Donald Harrison resigns from SpaceX board",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/google-executive-donald-harrison-resigns-from-spacex-board-5009426",
-          "publishedAt": "2026-11-07 11:18",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "Alphabet takes $548 million stake in partner Qualcomm in data center push - Reuters",
-          "summary": "Alphabet takes $548 million stake in partner Qualcomm in data center push  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZXlYcFdWcV9JU25ST013NGFEdWszTUFKS0xKNG5vYVhnVm1fbHFoa2lUWk16RGhqMmVXdzFkQ0NwRGcwaTdSdl82VjdUZWREdnhJZ1VIYXJUQzdWbVJCUTlySUJHVFFzc0M1QlNieFRSTU81bkF2MWpfbUlWQUxnUEhsUzdnUlBwRGo1a0hPcWh3VkFmYnJOX3E2UnE?oc=5",
-          "publishedAt": "2026-11-07 01:44",
+          "title": "Google executive Donald Harrison resigns from SpaceX board - Reuters",
+          "summary": "Google executive Donald Harrison resigns from SpaceX board  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFBQUUZob254UUQxOGhmLUd6Vm1xNThSU2RNTXVib3Rja0R3OVdMbkR4MjR0UDY4ZWRUMkZab1JaZmVaZmllSW96SkR1WmVFb1dXblU4dDg1Y05mUDlPUmlpTlI3VjBxcFpFbVIweUNhRlNxeE5ZLU93VDJzVmE4Y3c5VTByV1poaVFfRG5CUy0wNWlFeUZ6bnA3bmZhek1VOENqdWFyQ0poUzIxU016SUN3?oc=5",
+          "publishedAt": "2026-11-07 08:48",
           "outlet": "Reuters Business (via Google News)"
         },
         {
