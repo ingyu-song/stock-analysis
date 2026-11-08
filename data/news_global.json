@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08 15:12",
+  "updatedAt": "2026-11-08 22:33",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -16,11 +16,24 @@
           "outlet": "Financial Times"
         },
         {
-          "title": "Tech Stocks Rise Despite Apple Slump - WSJ",
-          "summary": "Tech Stocks Rise Despite Apple Slump  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZE9BRkVuT3ZjS1NnUjAtU0RRZjUwU2JQdXdLS0YtNTNYbFRTendtTTZkaDVUR1ppVThpYUtIVmJ0NkQtOVhyVVYxbzBZTlBhai1jOGh0WGpLWnhjbWV4NXVzMEFoUHFrRE9OOC1qT3BmYlhxZUNpSlJtVWlIVTBFaVZ2YUVPS0lGS1lpQi1LdzM0X2NFbnY2WHRFbGVjUGgwNG1RWlBHVGdrYk0?oc=5",
-          "publishedAt": "2026-11-07 16:13",
-          "outlet": "WSJ Markets"
+          "title": "Apple’s Holiday Promise Protects Every iPhone 18 Pro Deal - Forbes",
+          "summary": "Apple’s Holiday Promise Protects Every iPhone 18 Pro Deal  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONlBoN3d6TmZOS1U1VnlJNjljVTJjWms3dGg2ZzRVQkZhcF85MnktalVxOVRTQ0ZFQmtDRUIwdjhoZFlxUlpMbzloalhqZnc3MXhZcnRkTWVJZFNrSFRWTzJnaHJaOV9ab0hkTVBBOWg3OEU3dkhDa19obWdKSmF0d0ZyS3BOQmY1N29hWnNDTndBV0hCMTkyWmdseDhhcTd0WnA1b0s1OTVUWEJuU1kyUg?oc=5",
+          "publishedAt": "2026-11-08 08:46",
+          "outlet": "Forbes Markets"
+        }
+      ]
+    },
+    {
+      "ticker": "SONY",
+      "name": "소니",
+      "items": [
+        {
+          "title": "The World Can’t Get Enough Anime. Can Japan Cash In on Its Success?",
+          "summary": "Sony is building an anime empire, betting that global fandom can fuel growth for both the company and the country as foreign rivals and A.I. swarm the scene.",
+          "link": "https://www.nytimes.com/2026/11/08/business/anime-japan-sony-demonslayer.html",
+          "publishedAt": "2026-11-08 19:00",
+          "outlet": "NYT Business"
         }
       ]
     }
