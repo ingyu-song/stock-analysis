@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08 08:42",
+  "updatedAt": "2026-11-08 15:12",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,24 +9,18 @@
       "name": "애플",
       "items": [
         {
+          "title": "Apple saves $2.7bn in taxes by booking profits in Singapore",
+          "summary": "City-state overtakes Ireland as iPhone maker’s biggest tax shelter according to new disclosures",
+          "link": "https://www.ft.com/content/49453406-99f2-4f5b-8f5d-01dc8cac5ede?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-08 14:00",
+          "outlet": "Financial Times"
+        },
+        {
           "title": "Tech Stocks Rise Despite Apple Slump - WSJ",
           "summary": "Tech Stocks Rise Despite Apple Slump  WSJ",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQZE9BRkVuT3ZjS1NnUjAtU0RRZjUwU2JQdXdLS0YtNTNYbFRTendtTTZkaDVUR1ppVThpYUtIVmJ0NkQtOVhyVVYxbzBZTlBhai1jOGh0WGpLWnhjbWV4NXVzMEFoUHFrRE9OOC1qT3BmYlhxZUNpSlJtVWlIVTBFaVZ2YUVPS0lGS1lpQi1LdzM0X2NFbnY2WHRFbGVjUGgwNG1RWlBHVGdrYk0?oc=5",
           "publishedAt": "2026-11-07 16:13",
           "outlet": "WSJ Markets"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
-        {
-          "title": "Google executive Donald Harrison resigns from SpaceX board - Reuters",
-          "summary": "Google executive Donald Harrison resigns from SpaceX board  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPaFBQUUZob254UUQxOGhmLUd6Vm1xNThSU2RNTXVib3Rja0R3OVdMbkR4MjR0UDY4ZWRUMkZab1JaZmVaZmllSW96SkR1WmVFb1dXblU4dDg1Y05mUDlPUmlpTlI3VjBxcFpFbVIweUNhRlNxeE5ZLU93VDJzVmE4Y3c5VTByV1poaVFfRG5CUy0wNWlFeUZ6bnA3bmZhek1VOENqdWFyQ0poUzIxU016SUN3?oc=5",
-          "publishedAt": "2026-11-07 08:48",
-          "outlet": "Reuters Business (via Google News)"
         }
       ]
     }
