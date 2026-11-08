@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-09 03:52",
+  "updatedAt": "2026-11-09 07:56",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,6 +21,19 @@
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONlBoN3d6TmZOS1U1VnlJNjljVTJjWms3dGg2ZzRVQkZhcF85MnktalVxOVRTQ0ZFQmtDRUIwdjhoZFlxUlpMbzloalhqZnc3MXhZcnRkTWVJZFNrSFRWTzJnaHJaOV9ab0hkTVBBOWg3OEU3dkhDa19obWdKSmF0d0ZyS3BOQmY1N29hWnNDTndBV0hCMTkyWmdseDhhcTd0WnA1b0s1OTVUWEJuU1kyUg?oc=5",
           "publishedAt": "2026-11-08 08:46",
           "outlet": "Forbes Markets"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "Alphabet Acquires Qualcomm Stake Through Modular Purchase - The Information",
+          "summary": "Alphabet Acquires Qualcomm Stake Through Modular Purchase  The Information",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQjlTcXZtdTBHZTdNa2U4bk9lbWR2UTVCYjQxa1RocHBMdnZqS2w2NnlPRXZGQnVGYmZpYlJ1cHY2VVl2OXFzQldMdDdiQVhpQjlaekJSOHBkUDU3VEZ1VnpDLXBId05SSnNiZUpYZUhUSXlwVFFKSGI5NXE0QllvVXZKdFpXbXM?oc=5",
+          "publishedAt": "2026-11-07 06:15",
+          "outlet": "The Information"
         }
       ]
     },
