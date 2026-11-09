@@ -1,32 +1,60 @@
 {
-  "updatedAt": "2026-11-09 11:42",
+  "updatedAt": "2026-11-09 20:43",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Inside the Siri overhaul: Apple's performance in the AI race - digitimes",
+          "summary": "Inside the Siri overhaul: Apple's performance in the AI race  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5VVUxVNDUtajZvZy1pbTJtZ3QtTkdfMlpoOE01aWJfX3pHYU1BLU1lSGx1MmphQWl1OVh3eng3bFpMYXNzX2pPcmVIaXFHdXlPNUNuZUdlTS1aYjYzbFpITV9aLXVPSHNmM2I2aHJnbF9MRHcxeXNTZ2hnNEJSUQ?oc=5",
+          "publishedAt": "2026-11-09 11:43",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "Samsung Is Loving Apple’s Ongoing iPhone Duo Problems - Forbes",
+          "summary": "Samsung Is Loving Apple’s Ongoing iPhone Duo Problems  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNRGtUSFVkNkU3bTgtS0djTHdaNWtiWDFUSWNYSEphWjJJaW9kZGhJdUVGOG9sTlRUY2xNY3g1V3FYQkVGdWJPWVFJLV90YUtPZzNxQU1yaXA0ZWhUVFdvQ1RaeDExeERzUjliX0lkS1czRjkzV0Fjc1lLaDlNUXRaNnppcTdSNUN2MHJUak5fZlVITzhXbmxOY3Bpa01DUUNucTJNX21KanVPLWw2MUVHekpwNVVpaDlISlQw?oc=5",
+          "publishedAt": "2026-11-09 02:12",
+          "outlet": "Forbes Markets"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "AI's \"too big to fail\" CEO is facing a crisis with no backup",
+          "summary": "There is no Nvidia — nor an AI boom as we know it — without Jensen Huang. He has reassured jittery markets with his words, bankrolled a trillion-dollar buildout and put economies on his shoulders.Now, the world is wondering if he can save himself.Why it matters: Global markets must confront a terrifying reality: The AI ecosystem's first \"too big to fail\" executive is suddenly vulnerable, and there",
+          "link": "https://www.axios.com/2026/11/09/jensen-huang-nvidia-ceo-crisis",
+          "publishedAt": "2026-11-09 19:15",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Senator Tells Google to Let Schools Disable A.I. Features in Search",
+          "summary": "The request came from Senator Edward J. Markey of Massachusetts, after Google said it would not turn off artificial intelligence tools for students using its search engine.",
+          "link": "https://www.nytimes.com/2026/11/09/business/google-ai-school-features.html",
+          "publishedAt": "2026-11-09 19:04",
+          "outlet": "NYT Business"
+        },
+        {
+          "title": "Alphabet's Qualcomm stake signals deeper partnership as chipmaker targets AI data centers - digitimes",
+          "summary": "Alphabet's Qualcomm stake signals deeper partnership as chipmaker targets AI data centers  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON21CcGlKWjkyOFJ6a0xucjdUQnFkTnhGLWgtT1FTbWxYUkhXMmFldzE4MFlqQkFHX1BydWl2V3E2RmlkRTl5S3VRczhlcVJ1MWtZMXM0NnpfQnlnUktkenFwOEEzSFN3V2FOZHRQZUFFTFhlQi0xVVNGcTU3YWlUOUJMODhyek9mdHdfM3hPb0lzTWt1eHc3aGpHMFBfRHN5ZlJzc21n?oc=5",
+          "publishedAt": "2026-11-09 13:29",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Alphabet Acquires Qualcomm Stake Through Modular Purchase - The Information",
           "summary": "Alphabet Acquires Qualcomm Stake Through Modular Purchase  The Information",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOQjlTcXZtdTBHZTdNa2U4bk9lbWR2UTVCYjQxa1RocHBMdnZqS2w2NnlPRXZGQnVGYmZpYlJ1cHY2VVl2OXFzQldMdDdiQVhpQjlaekJSOHBkUDU3VEZ1VnpDLXBId05SSnNiZUpYZUhUSXlwVFFKSGI5NXE0QllvVXZKdFpXbXM?oc=5",
           "publishedAt": "2026-11-07 06:15",
           "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "SONY",
-      "name": "소니",
-      "items": [
-        {
-          "title": "The World Can’t Get Enough Anime. Can Japan Cash In on Its Success?",
-          "summary": "Sony is building an anime empire, betting that global fandom can fuel growth for both the company and the country as foreign rivals and A.I. swarm the scene.",
-          "link": "https://www.nytimes.com/2026/11/08/business/anime-japan-sony-demonslayer.html",
-          "publishedAt": "2026-11-08 19:00",
-          "outlet": "NYT Business"
         }
       ]
     }
