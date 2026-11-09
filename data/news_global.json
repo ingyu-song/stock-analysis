@@ -1,29 +1,9 @@
 {
-  "updatedAt": "2026-11-09 07:56",
+  "updatedAt": "2026-11-09 11:42",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Apple saves $2.7bn in taxes by booking profits in Singapore",
-          "summary": "City-state overtakes Ireland as iPhone maker’s biggest tax shelter according to new disclosures",
-          "link": "https://www.ft.com/content/49453406-99f2-4f5b-8f5d-01dc8cac5ede?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-08 14:00",
-          "outlet": "Financial Times"
-        },
-        {
-          "title": "Apple’s Holiday Promise Protects Every iPhone 18 Pro Deal - Forbes",
-          "summary": "Apple’s Holiday Promise Protects Every iPhone 18 Pro Deal  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxONlBoN3d6TmZOS1U1VnlJNjljVTJjWms3dGg2ZzRVQkZhcF85MnktalVxOVRTQ0ZFQmtDRUIwdjhoZFlxUlpMbzloalhqZnc3MXhZcnRkTWVJZFNrSFRWTzJnaHJaOV9ab0hkTVBBOWg3OEU3dkhDa19obWdKSmF0d0ZyS3BOQmY1N29hWnNDTndBV0hCMTkyWmdseDhhcTd0WnA1b0s1OTVUWEJuU1kyUg?oc=5",
-          "publishedAt": "2026-11-08 08:46",
-          "outlet": "Forbes Markets"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
