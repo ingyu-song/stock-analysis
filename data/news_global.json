@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10 22:32",
+  "updatedAt": "2026-11-11 05:52",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple's OLED iPad Air targets 2027, SDC leads panel supply - digitimes",
+          "summary": "Apple's OLED iPad Air targets 2027, SDC leads panel supply  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPbm15ckttVVlLeEd6NkR4WXBobUluLTVtNEEtUHFnQmRub09fTG5PRzdqYmN5alVKOWZmaU04SkFsZmpsTlZHc09ibF9SVUx4dXktdmxkMlVFZG1qTUhZbUNiYm9lQXNtcHBrVXJ3WVo2V283OFlwXzA5TDRHdDdZWDVibHZTNE0?oc=5",
+          "publishedAt": "2026-11-10 12:28",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Inside the Siri overhaul: Apple's performance in the AI race - digitimes",
           "summary": "Inside the Siri overhaul: Apple's performance in the AI race  digitimes",
@@ -22,25 +29,32 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "How Nvidia's crisis and politics could deliver the pause AI leaders want",
-          "summary": "A political backlash against AI and data centers — now compounded by a crisis facing the technology's most influential champion — could help force a slowdown that industry leaders have struggled to achieve voluntarily.Why it matters: Tapping the brakes on AI development — which frontier AI developers claim to want but have so far failed to do given the risk of offering an advantage to a competitor",
-          "link": "https://www.axios.com/2026/11/10/ai-race-politics-slowdown",
-          "publishedAt": "2026-11-10 19:15",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Google unveils new AI chip variants as cloud demand surges - Reuters",
-          "summary": "Google unveils new AI chip variants as cloud demand surges  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd1JDNDVNcnh0MU5wSzdrUVhVY3FpSklfazJZVWEtbGwyUkxydzhTcUVhV2F5aHdHV29OUE9Ea1JkZm93d2xVcU1VMEdEZE1xamt3RlktMVlqLUNGRVlIalpNd3ZRS2Z2LVN3b24yNUcyV1lkQm01MmJ3eHJLZVk3a3ZDSkhHcllvVHVxX1c1d3YtRHV3Q1g5d241UGNpLXJpSXRwTUYzcEdPcUhmN2FqdnBRNVZUYlM1WmJF?oc=5",
-          "publishedAt": "2026-11-10 00:24",
-          "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "Google Announces New TPUs It Says Are More Powerful and Secure - The Information",
-          "summary": "Google Announces New TPUs It Says Are More Powerful and Secure  The Information",
-          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjVMb2VDaERrYlJJc1RocEZiLVB2R3ZGLXJsajJPdXQ3X25nNWxKOWFhbWZfcXBQSTNZZTR5Y1ZuSThvLXVXeWt3SlRyR2Z2UjFKR0lENU9ObzAwTUl3TUp5TmRwc29Lc01wSFdnVk9fcjJBQ0s4MUV5Wi1DYmpiRVhObnpkaEZGZUQ4Y3IyT1U?oc=5",
-          "publishedAt": "2026-11-09 22:00",
+          "title": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled - The Information",
+          "summary": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY29jNmZNZkNLNElZV21RQXVOY3VCWGwzOFljUXBNRkNieEVLUmFqSG1YazBuanR1dVd1U0drbV90U2xmWEJBcXdhOW14Wk43UWIxMTlTcHZHQUo3bkJUNjdfeWYwdUhGcVI4OFNBYnpnbk5CUGVmdXE2WW1iU2ZlYVBnTm9uNkxiOThacTJ1b2g1bUgyWVl5Z2RkR3dUY1M1c1pVdjRZWUduNUFtOW1LMmR4NzlSWG5CYUw5d05lN2xkVU9BQlJuNA?oc=5",
+          "publishedAt": "2026-11-11 02:39",
           "outlet": "The Information"
+        },
+        {
+          "title": "Google Grapples With AI’s Hit to Its Ads Juggernaut - The Information",
+          "summary": "Google Grapples With AI’s Hit to Its Ads Juggernaut  The Information",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY2c2Q0hyVWdnQmZaT2xJWUxId3BsZ1pzUUpIVDFVQ0NFMnBCYU96WE9NMW41YVJnOWVlQzlTUTF0QWh4enVhQ1psTkNIdDk0M1E2UVRCOUxBT2hCSGd4OWFFTDlyOXZ6Qko2ZVZnYUsyY3ZjN3l0M19ZRlFwYXcza3U5VDI?oc=5",
+          "publishedAt": "2026-11-10 23:00",
+          "outlet": "The Information"
+        },
+        {
+          "title": "Tech’s biggest names sank a tax on billionaires’ wealth with $425m and a familiar playbook",
+          "summary": "California saw the most expensive opposition campaign in its history as funding of political campaigns broke records in the US midtermsIn the hours after polls closed on election day, tech industry players began praising Sergey Brin, the co-founder of Google, on social media.“Huge thanks to Sergey Brin here,” wrote Garry Tan, the CEO of Y Combinator. Venture capitalist Ilya Sukhar posted: “God ble",
+          "link": "https://www.theguardian.com/us-news/2026/nov/10/california-billionaire-tax-opposition",
+          "publishedAt": "2026-11-10 22:19",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Alphabet's Qualcomm stake signals deeper partnership as chipmaker targets AI data centers - digitimes",
+          "summary": "Alphabet's Qualcomm stake signals deeper partnership as chipmaker targets AI data centers  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxON21CcGlKWjkyOFJ6a0xucjdUQnFkTnhGLWgtT1FTbWxYUkhXMmFldzE4MFlqQkFHX1BydWl2V3E2RmlkRTl5S3VRczhlcVJ1MWtZMXM0NnpfQnlnUktkenFwOEEzSFN3V2FOZHRQZUFFTFhlQi0xVVNGcTU3YWlUOUJMODhyek9mdHdfM3hPb0lzTWt1eHc3aGpHMFBfRHN5ZlJzc21n?oc=5",
+          "publishedAt": "2026-11-09 13:29",
+          "outlet": "DigiTimes"
         }
       ]
     }
