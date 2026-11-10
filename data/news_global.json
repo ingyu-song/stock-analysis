@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10 13:39",
+  "updatedAt": "2026-11-10 22:32",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -22,10 +22,10 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Nvidia has no obvious successor to Jensen Huang — and that's a problem",
-          "summary": "Nvidia is coming under fire for having no clear succession plan to replace Jensen Huang in the event that something unexpected happens — like an international incident with him at the center. Why it matters: The spotlight on Huang shows the vulnerabilities of a large company being dependent on one executive — and the risks it poses to investors and customers, corporate governance experts tell Axio",
-          "link": "https://www.axios.com/2026/11/09/nvidia-jensen-huang-succession-plan",
-          "publishedAt": "2026-11-10 05:48",
+          "title": "How Nvidia's crisis and politics could deliver the pause AI leaders want",
+          "summary": "A political backlash against AI and data centers — now compounded by a crisis facing the technology's most influential champion — could help force a slowdown that industry leaders have struggled to achieve voluntarily.Why it matters: Tapping the brakes on AI development — which frontier AI developers claim to want but have so far failed to do given the risk of offering an advantage to a competitor",
+          "link": "https://www.axios.com/2026/11/10/ai-race-politics-slowdown",
+          "publishedAt": "2026-11-10 19:15",
           "outlet": "Axios"
         },
         {
@@ -41,13 +41,6 @@
           "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNZjVMb2VDaERrYlJJc1RocEZiLVB2R3ZGLXJsajJPdXQ3X25nNWxKOWFhbWZfcXBQSTNZZTR5Y1ZuSThvLXVXeWt3SlRyR2Z2UjFKR0lENU9ObzAwTUl3TUp5TmRwc29Lc01wSFdnVk9fcjJBQ0s4MUV5Wi1DYmpiRVhObnpkaEZGZUQ4Y3IyT1U?oc=5",
           "publishedAt": "2026-11-09 22:00",
           "outlet": "The Information"
-        },
-        {
-          "title": "Senator Tells Google to Let Schools Disable A.I. Features in Search",
-          "summary": "The request came from Senator Edward J. Markey of Massachusetts, after Google said it would not turn off artificial intelligence tools for students using its search engine.",
-          "link": "https://www.nytimes.com/2026/11/09/business/google-ai-school-features.html",
-          "publishedAt": "2026-11-09 19:04",
-          "outlet": "NYT Business"
         }
       ]
     }
