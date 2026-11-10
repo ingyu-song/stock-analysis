@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10 07:27",
+  "updatedAt": "2026-11-10 13:39",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -27,6 +27,13 @@
           "link": "https://www.axios.com/2026/11/09/nvidia-jensen-huang-succession-plan",
           "publishedAt": "2026-11-10 05:48",
           "outlet": "Axios"
+        },
+        {
+          "title": "Google unveils new AI chip variants as cloud demand surges - Reuters",
+          "summary": "Google unveils new AI chip variants as cloud demand surges  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOd1JDNDVNcnh0MU5wSzdrUVhVY3FpSklfazJZVWEtbGwyUkxydzhTcUVhV2F5aHdHV29OUE9Ea1JkZm93d2xVcU1VMEdEZE1xamt3RlktMVlqLUNGRVlIalpNd3ZRS2Z2LVN3b24yNUcyV1lkQm01MmJ3eHJLZVk3a3ZDSkhHcllvVHVxX1c1d3YtRHV3Q1g5d241UGNpLXJpSXRwTUYzcEdPcUhmN2FqdnBRNVZUYlM1WmJF?oc=5",
+          "publishedAt": "2026-11-10 00:24",
+          "outlet": "Reuters Business (via Google News)"
         },
         {
           "title": "Google Announces New TPUs It Says Are More Powerful and Secure - The Information",
