@@ -11,9 +11,9 @@
       "shares": 18,
       "avgCost": 503.80999755859375,
       "firstBought": "2026-08-12",
-      "lastPrice": 530.6099853515625,
-      "lastPriceDate": "2026-11-07",
-      "marketValueKRW": 12954375.855571289
+      "lastPrice": 545.1799926757812,
+      "lastPriceDate": "2026-11-10",
+      "marketValueKRW": 13190270.103995362
     },
     {
       "ticker": "005930.KS",
@@ -22,9 +22,9 @@
       "shares": 85,
       "avgCost": 255500.0,
       "firstBought": "2026-08-12",
-      "lastPrice": 188700.0,
-      "lastPriceDate": "2026-11-07",
-      "marketValueKRW": 16039500.0
+      "lastPrice": 198200.0,
+      "lastPriceDate": "2026-11-10",
+      "marketValueKRW": 16847000.0
     },
     {
       "ticker": "D05.SI",
@@ -33,9 +33,9 @@
       "shares": 32,
       "avgCost": 77.82937431335449,
       "firstBought": "2026-08-12",
-      "lastPrice": 69.72000122070312,
-      "lastPriceDate": "2026-11-07",
-      "marketValueKRW": 2368896.003076172
+      "lastPrice": 70.75,
+      "lastPriceDate": "2026-11-10",
+      "marketValueKRW": 2380596.0
     }
   ],
   "decisions": [
@@ -487,9 +487,15 @@
       "totalValue": 39529577.29139569,
       "cash": 8166805.432748223,
       "equityValue": 31362771.858647462
+    },
+    {
+      "date": "2026-11-10",
+      "totalValue": 40584671.53674358,
+      "cash": 8166805.432748223,
+      "equityValue": 32417866.10399536
     }
   ],
-  "lastUpdated": "2026-11-07T11:07:50.929897+09:00",
+  "lastUpdated": "2026-11-10T13:14:10.958729+09:00",
   "cashFlows": [
     {
       "date": "2026-09-28",
