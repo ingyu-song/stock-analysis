@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12 01:15",
+  "updatedAt": "2026-11-12 07:49",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -41,13 +41,6 @@
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY29jNmZNZkNLNElZV21RQXVOY3VCWGwzOFljUXBNRkNieEVLUmFqSG1YazBuanR1dVd1U0drbV90U2xmWEJBcXdhOW14Wk43UWIxMTlTcHZHQUo3bkJUNjdfeWYwdUhGcVI4OFNBYnpnbk5CUGVmdXE2WW1iU2ZlYVBnTm9uNkxiOThacTJ1b2g1bUgyWVl5Z2RkR3dUY1M1c1pVdjRZWUduNUFtOW1LMmR4NzlSWG5CYUw5d05lN2xkVU9BQlJuNA?oc=5",
           "publishedAt": "2026-11-11 02:39",
           "outlet": "The Information"
-        },
-        {
-          "title": "Google Grapples With AI’s Hit to Its Ads Juggernaut - The Information",
-          "summary": "Google Grapples With AI’s Hit to Its Ads Juggernaut  The Information",
-          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQY2c2Q0hyVWdnQmZaT2xJWUxId3BsZ1pzUUpIVDFVQ0NFMnBCYU96WE9NMW41YVJnOWVlQzlTUTF0QWh4enVhQ1psTkNIdDk0M1E2UVRCOUxBT2hCSGd4OWFFTDlyOXZ6Qko2ZVZnYUsyY3ZjN3l0M19ZRlFwYXcza3U5VDI?oc=5",
-          "publishedAt": "2026-11-10 23:00",
-          "outlet": "The Information"
         }
       ]
     },
@@ -56,11 +49,11 @@
       "name": "인텔",
       "items": [
         {
-          "title": "Why is Intel stock rallying today?",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-rallying-today-93CH-5019493",
-          "publishedAt": "2026-11-12 00:46",
-          "outlet": "Investing.com"
+          "title": "Intel: Robotics Is A Key Strategic Focus Going Forward - Forbes",
+          "summary": "Intel: Robotics Is A Key Strategic Focus Going Forward  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS0I0MXJtV3Z6eTc0aGNSNDZKN3dvMnUxcHdUekJGSk1rcEdEekhUUzA0eGRRTVR3V0pMOXRtV3RFa29YaWpUYTdlc19wMGUxRGtwWnBSZFlnNnJUSTBxM3F0UXlibmJha1RmMDgzU0hwOEN5OHAxR1VvSVE4Ni1lejFmRkRjanJXVlJuTVRlaGd3U3NpUEhtZTFjQy1OMm0zVVlFbDdMVnk?oc=5",
+          "publishedAt": "2026-11-11 20:30",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "Intel looks beyond 18A and 14A to reshape computing - digitimes",
