@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-11 16:50",
+  "updatedAt": "2026-11-12 01:15",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -29,6 +29,13 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "The AI industry's week from hell",
+          "summary": "A week of political upheaval, financial turmoil and salacious scandal delivered one final indignity to the AI industry Tuesday, as Anthropic's staggering IPO target fell short of expectations.Why it matters: The bubble is wobbling. Investors, businesses and governments need a spectacular success from Anthropic to stave off a crisis of confidence that could tear through the broader economy.Facing n",
+          "link": "https://www.axios.com/2026/11/11/anthropic-ipo-ai-nvidia-midterms",
+          "publishedAt": "2026-11-11 19:20",
+          "outlet": "Axios"
+        },
+        {
           "title": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled - The Information",
           "summary": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled  The Information",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY29jNmZNZkNLNElZV21RQXVOY3VCWGwzOFljUXBNRkNieEVLUmFqSG1YazBuanR1dVd1U0drbV90U2xmWEJBcXdhOW14Wk43UWIxMTlTcHZHQUo3bkJUNjdfeWYwdUhGcVI4OFNBYnpnbk5CUGVmdXE2WW1iU2ZlYVBnTm9uNkxiOThacTJ1b2g1bUgyWVl5Z2RkR3dUY1M1c1pVdjRZWUduNUFtOW1LMmR4NzlSWG5CYUw5d05lN2xkVU9BQlJuNA?oc=5",
@@ -48,6 +55,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Why is Intel stock rallying today?",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/why-is-intel-stock-rallying-today-93CH-5019493",
+          "publishedAt": "2026-11-12 00:46",
+          "outlet": "Investing.com"
+        },
         {
           "title": "Intel looks beyond 18A and 14A to reshape computing - digitimes",
           "summary": "Intel looks beyond 18A and 14A to reshape computing  digitimes",
