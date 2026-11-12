@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12 12:51",
+  "updatedAt": "2026-11-12 21:50",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Apple, Samsung reportedly developing new foldable glass for 2028 - digitimes",
+          "summary": "Apple, Samsung reportedly developing new foldable glass for 2028  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeDRWU2dZbGNLMjg2aHE4RWgwd3l6c0RhdEV0RUFFSlktUERJaEVISlBrSTlkbkZvbjhCaUxYa01QbVJXNWlSZzZLT2NsMDFFNmgxX2pRb2E2SGY3MUdCaTBCUVlvcEFJOVVqU1lCYlE3MmdBcDluTWNNQVBTemdjRWhTV3ZGcGU3Y3c?oc=5",
+          "publishedAt": "2026-11-12 12:34",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Apple's OLED iPad Air targets 2027, SDC leads panel supply - digitimes",
           "summary": "Apple's OLED iPad Air targets 2027, SDC leads panel supply  digitimes",
@@ -22,18 +29,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Alphabet sets initial price guidance for Hong Kong, Singapore bond sales, term sheet shows",
+          "title": "Alphabet raises $3.8 billion in first Hong Kong, Singapore dollar bonds",
           "summary": "",
           "link": "https://www.investing.com/news/stock-market-news/alphabet-sets-initial-price-guidance-for-hong-kong-singapore-bond-sales-term-sheet-shows-5020243",
-          "publishedAt": "2026-11-12 12:24",
+          "publishedAt": "2026-11-12 21:36",
           "outlet": "Investing.com"
-        },
-        {
-          "title": "The AI industry's week from hell",
-          "summary": "A week of political upheaval, financial turmoil and salacious scandal delivered one final indignity to the AI industry Tuesday, as Anthropic's staggering IPO target fell short of expectations.Why it matters: The bubble is wobbling. Investors, businesses and governments need a spectacular success from Anthropic to stave off a crisis of confidence that could tear through the broader economy.Facing n",
-          "link": "https://www.axios.com/2026/11/11/anthropic-ipo-ai-nvidia-midterms",
-          "publishedAt": "2026-11-11 19:20",
-          "outlet": "Axios"
         },
         {
           "title": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled - The Information",
@@ -49,11 +49,18 @@
       "name": "인텔",
       "items": [
         {
-          "title": "Intel: Robotics Is A Key Strategic Focus Going Forward - Forbes",
-          "summary": "Intel: Robotics Is A Key Strategic Focus Going Forward  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQS0I0MXJtV3Z6eTc0aGNSNDZKN3dvMnUxcHdUekJGSk1rcEdEekhUUzA0eGRRTVR3V0pMOXRtV3RFa29YaWpUYTdlc19wMGUxRGtwWnBSZFlnNnJUSTBxM3F0UXlibmJha1RmMDgzU0hwOEN5OHAxR1VvSVE4Ni1lejFmRkRjanJXVlJuTVRlaGd3U3NpUEhtZTFjQy1OMm0zVVlFbDdMVnk?oc=5",
-          "publishedAt": "2026-11-11 20:30",
-          "outlet": "Forbes Markets"
+          "title": "Democrats debate taking a page from Trump's economic playbook",
+          "summary": "President Trump is turning the federal government into an investor in dozens of private companies, and some Democrats are considering following his lead as their party emerges emboldened from the midterm elections.Why it matters: Democrats are gaining new power to scrutinize Trump's corporate investments, even as his approach gains traction within their own party.They're looking at investments and",
+          "link": "https://www.axios.com/2026/11/12/democrats-debate-trump-economic-playbook",
+          "publishedAt": "2026-11-12 19:30",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Intel China wants to turn untapped renewable energy into AI tokens with computing pods slated for 1H27 - digitimes",
+          "summary": "Intel China wants to turn untapped renewable energy into AI tokens with computing pods slated for 1H27  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcGVaWENpZjAtaHBvQzVhQlhNUGN1aHBSenhnTk9fVE1ZaU5WS3VvQURLMjl3VkJ0NG5pX0pCM0tCanJCTE12aTdlZVVyRWltSEctTklJejBoTzhEUXlrSFh2ZnQzUnJENlI4ODJtMTdZWlNLeW9EYjA0Y2E0SDktczNOSUVXRjE2LXVWclBTUTRodHAyeVJtZGVUZjFpRzAwZ2t5RDZQUDZXNFN0Vmtn?oc=5",
+          "publishedAt": "2026-11-12 14:58",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Intel targets agentic AI with GPUs and Xeon - digitimes",
