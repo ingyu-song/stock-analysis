@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12 21:50",
+  "updatedAt": "2026-11-13 05:52",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,20 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Trump pitches Apple's Tim Cook as new Nvidia CEO",
+          "summary": "President Trump is backing Apple executive chairman Tim Cook to replace tech giant Jensen Huang after Huang resigned as Nvidia CEO, though it's unclear whether he meant it as a joke.  The big picture: Trump didn't weigh in on the controversy surrounding Huang's departure following alleged affairs with a suspected Chinese spy and an Nvidia executive, instead calling Huang \"a Legend\" in his Truth So",
+          "link": "https://www.axios.com/2026/11/12/trump-jensen-huang-resign-tim-cook-apple",
+          "publishedAt": "2026-11-13 01:10",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Bracing for Nvidia's impact",
+          "summary": "Data: FactSet; Chart: Matt Phillips/AxiosNvidia CEO Jensen Huang's apparent from grace is a shock to a company at the core of the U.S. markets and the AI ecosystem that he did much to create. Why it matters: CEO scandals happen at companies. Their stocks fall. But there is no other company quite like Nvidia.Its size, financial resources and strategic position in the AI boom have made both the chip",
+          "link": "https://www.axios.com/2026/11/12/bracing-for-nvidias-impact",
+          "publishedAt": "2026-11-12 21:20",
+          "outlet": "Axios"
+        },
         {
           "title": "Apple, Samsung reportedly developing new foldable glass for 2028 - digitimes",
           "summary": "Apple, Samsung reportedly developing new foldable glass for 2028  digitimes",
@@ -25,26 +39,6 @@
       ]
     },
     {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
-        {
-          "title": "Alphabet raises $3.8 billion in first Hong Kong, Singapore dollar bonds",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/alphabet-sets-initial-price-guidance-for-hong-kong-singapore-bond-sales-term-sheet-shows-5020243",
-          "publishedAt": "2026-11-12 21:36",
-          "outlet": "Investing.com"
-        },
-        {
-          "title": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled - The Information",
-          "summary": "Anthropic Discloses Over $10 Billion in New Deals with Microsoft, Google; Says Lambda Deal May Be Cancelled  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNY29jNmZNZkNLNElZV21RQXVOY3VCWGwzOFljUXBNRkNieEVLUmFqSG1YazBuanR1dVd1U0drbV90U2xmWEJBcXdhOW14Wk43UWIxMTlTcHZHQUo3bkJUNjdfeWYwdUhGcVI4OFNBYnpnbk5CUGVmdXE2WW1iU2ZlYVBnTm9uNkxiOThacTJ1b2g1bUgyWVl5Z2RkR3dUY1M1c1pVdjRZWUduNUFtOW1LMmR4NzlSWG5CYUw5d05lN2xkVU9BQlJuNA?oc=5",
-          "publishedAt": "2026-11-11 02:39",
-          "outlet": "The Information"
-        }
-      ]
-    },
-    {
       "ticker": "INTC",
       "name": "인텔",
       "items": [
@@ -54,20 +48,6 @@
           "link": "https://www.axios.com/2026/11/12/democrats-debate-trump-economic-playbook",
           "publishedAt": "2026-11-12 19:30",
           "outlet": "Axios"
-        },
-        {
-          "title": "Intel China wants to turn untapped renewable energy into AI tokens with computing pods slated for 1H27 - digitimes",
-          "summary": "Intel China wants to turn untapped renewable energy into AI tokens with computing pods slated for 1H27  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQcGVaWENpZjAtaHBvQzVhQlhNUGN1aHBSenhnTk9fVE1ZaU5WS3VvQURLMjl3VkJ0NG5pX0pCM0tCanJCTE12aTdlZVVyRWltSEctTklJejBoTzhEUXlrSFh2ZnQzUnJENlI4ODJtMTdZWlNLeW9EYjA0Y2E0SDktczNOSUVXRjE2LXVWclBTUTRodHAyeVJtZGVUZjFpRzAwZ2t5RDZQUDZXNFN0Vmtn?oc=5",
-          "publishedAt": "2026-11-12 14:58",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Intel targets agentic AI with GPUs and Xeon - digitimes",
-          "summary": "Intel targets agentic AI with GPUs and Xeon  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMWlHQUtiTVBhRVMxYjMxZ3lHUTlxcnNJMGtYM0hGWDNWbE1SZ0JOYjNjNEw1WGNnYzhlY2hNY1pzRG9WUWM1SUt0djM4djY2NXhWTy16RVYwSnh4SVNRcnJQRlhhSmZUalk3UkF0dmhVZDZpTEd2ekRmRm5UY0pXQ3RR?oc=5",
-          "publishedAt": "2026-11-11 15:39",
-          "outlet": "DigiTimes"
         },
         {
           "title": "Intel looks beyond 18A and 14A to reshape computing - digitimes",
