@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-11-14 08:38",
+  "updatedAt": "2026-11-14 15:35",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
-  "coverage": []
+  "coverage": [
+    {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Apple, Samsung reportedly developing new foldable glass for 2028 - digitimes",
+          "summary": "Apple, Samsung reportedly developing new foldable glass for 2028  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQeDRWU2dZbGNLMjg2aHE4RWgwd3l6c0RhdEV0RUFFSlktUERJaEVISlBrSTlkbkZvbjhCaUxYa01QbVJXNWlSZzZLT2NsMDFFNmgxX2pRb2E2SGY3MUdCaTBCUVlvcEFJOVVqU1lCYlE3MmdBcDluTWNNQVBTemdjRWhTV3ZGcGU3Y3c?oc=5",
+          "publishedAt": "2026-11-12 12:34",
+          "outlet": "DigiTimes"
+        }
+      ]
+    }
+  ]
 }
