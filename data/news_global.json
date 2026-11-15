@@ -1,7 +1,21 @@
 {
-  "updatedAt": "2026-11-16 02:47",
+  "updatedAt": "2026-11-16 07:54",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
-  "coverage": []
+  "coverage": [
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
+      "items": [
+        {
+          "title": "Gucci Is Cutting Prices. Louis Vuitton Is Reluctant to Follow the Trend. - WSJ",
+          "summary": "Gucci Is Cutting Prices. Louis Vuitton Is Reluctant to Follow the Trend.  WSJ",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTWpBNTBRbHpNNDdJbjBLcWZYX1pucmpxYkx3Y0Rld0JTVkpTcjUzQ0pQU01aeG0xMUZsemxFdW1CNzdHMXlOMDZNLVZXVVJCdXc3cjg2bjZVa0NycDZkVEZMN0RwelZ5ZVFnamRlRnpLVU1nWFpjRGN1bEtOeUJWZkFUdkdIeEJxaWhZcEFBZmVyY1dWZktmVFJYYUg2NVFEMk1YZ2dBWTBna25WN0p1TmdocEtQUQ?oc=5",
+          "publishedAt": "2026-11-15 19:30",
+          "outlet": "WSJ Markets"
+        }
+      ]
+    }
+  ]
 }
