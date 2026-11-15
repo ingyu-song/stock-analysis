@@ -1,21 +1,7 @@
 {
-  "updatedAt": "2026-11-15 11:45",
+  "updatedAt": "2026-11-15 20:05",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
-  "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Evercore explains why Apple has the right assets to win the personal agents race",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/evercore-explains-why-apple-has-the-right-assets-to-win-the-personal-agents-race-5027628",
-          "publishedAt": "2026-11-15 10:38",
-          "outlet": "Investing.com"
-        }
-      ]
-    }
-  ]
+  "coverage": []
 }
