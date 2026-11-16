@@ -1,22 +1,9 @@
 {
-  "updatedAt": "2026-11-16 20:34",
+  "updatedAt": "2026-11-17 07:13",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Apple Was Late to Video Podcasts. Now It’s Trying to Catch Up.",
-          "summary": "They will soon be free to all Apple TV users and will appear on more than 1 billion devices that have the app, including Rokus and smart TVs.",
-          "link": "https://www.nytimes.com/2026/11/16/business/media/apple-tv-podcasts-youtube.html",
-          "publishedAt": "2026-11-16 19:01",
-          "outlet": "NYT Business"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
