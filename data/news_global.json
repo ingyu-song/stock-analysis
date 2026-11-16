@@ -1,19 +1,32 @@
 {
-  "updatedAt": "2026-11-16 11:48",
+  "updatedAt": "2026-11-16 20:34",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "MC.PA",
-      "name": "LVMH 모에헤네시",
+      "ticker": "AAPL",
+      "name": "애플",
       "items": [
         {
-          "title": "Gucci Is Cutting Prices. Louis Vuitton Is Reluctant to Follow the Trend. - WSJ",
-          "summary": "Gucci Is Cutting Prices. Louis Vuitton Is Reluctant to Follow the Trend.  WSJ",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPTWpBNTBRbHpNNDdJbjBLcWZYX1pucmpxYkx3Y0Rld0JTVkpTcjUzQ0pQU01aeG0xMUZsemxFdW1CNzdHMXlOMDZNLVZXVVJCdXc3cjg2bjZVa0NycDZkVEZMN0RwelZ5ZVFnamRlRnpLVU1nWFpjRGN1bEtOeUJWZkFUdkdIeEJxaWhZcEFBZmVyY1dWZktmVFJYYUg2NVFEMk1YZ2dBWTBna25WN0p1TmdocEtQUQ?oc=5",
-          "publishedAt": "2026-11-15 19:30",
-          "outlet": "WSJ Markets"
+          "title": "Apple Was Late to Video Podcasts. Now It’s Trying to Catch Up.",
+          "summary": "They will soon be free to all Apple TV users and will appear on more than 1 billion devices that have the app, including Rokus and smart TVs.",
+          "link": "https://www.nytimes.com/2026/11/16/business/media/apple-tv-podcasts-youtube.html",
+          "publishedAt": "2026-11-16 19:01",
+          "outlet": "NYT Business"
+        }
+      ]
+    },
+    {
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
+      "items": [
+        {
+          "title": "The chain-reaction era: Constant shock and awe",
+          "summary": "It was random, but related, that we were hit with a tectonic election result, an epic AI-and-spy scandal, and the dramatic FAA shutdown in just over one week.This is our new reality: constant shock and awe, igniting chain reactions across politics, media, AI, business and culture.Why it matters: This month's three shocks hit separately. But their speed and spread are our new reality.Politics, AI, ",
+          "link": "https://www.axios.com/2026/11/16/chain-reaction-nvidia-ai-politics-business",
+          "publishedAt": "2026-11-16 19:22",
+          "outlet": "Axios"
         }
       ]
     },
@@ -21,6 +34,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Intel sued by investors after PC sales slump hits share price",
+          "summary": "A proposed class action claims the firm hid the impact of slowing PC sales from shareholders.",
+          "link": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
+          "publishedAt": "2026-11-16 12:04",
+          "outlet": "BBC Business"
+        },
         {
           "title": "Intel sued by shareholders following 29% stock plunge - Reuters",
           "summary": "Intel sued by shareholders following 29% stock plunge  Reuters",
