@@ -1,32 +1,39 @@
 {
-  "updatedAt": "2026-11-17 13:35",
+  "updatedAt": "2026-11-17 23:33",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
+      "ticker": "AAPL",
+      "name": "애플",
       "items": [
         {
-          "title": "The chain-reaction era: Constant shock and awe",
-          "summary": "It was random, but related, that we were hit with a tectonic election result, an epic AI-and-spy scandal, and the dramatic FAA shutdown in just over one week.This is our new reality: constant shock and awe, igniting chain reactions across politics, media, AI, business and culture.Why it matters: This month's three shocks hit separately. But their speed and spread are our new reality.Politics, AI, ",
-          "link": "https://www.axios.com/2026/11/16/chain-reaction-nvidia-ai-politics-business",
-          "publishedAt": "2026-11-16 19:22",
-          "outlet": "Axios"
+          "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
+          "summary": "The stakes have just gotten higher for businesses navigating the U.S. and China markets.",
+          "link": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html",
+          "publishedAt": "2026-11-17 17:52",
+          "outlet": "CNBC Finance"
         }
       ]
     },
     {
-      "ticker": "INTC",
-      "name": "인텔",
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
       "items": [
         {
-          "title": "Intel sued by investors after PC sales slump hits share price",
-          "summary": "A proposed class action claims the firm hid the impact of slowing PC sales from shareholders.",
-          "link": "https://www.bbc.co.uk/news/articles/cw62p42p288do?at_medium=RSS&at_campaign=rss",
-          "publishedAt": "2026-11-16 12:04",
-          "outlet": "BBC Business"
+          "title": "Amazon, Google to Have About 28% of Anthropic Stock After IPO - Bloomberg.com",
+          "summary": "Amazon, Google to Have About 28% of Anthropic Stock After IPO  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV2pZZmdyc0t4VzZKQ21zUWRjVENMam14ZG1qQ2ludXhhSmxGbUF5NVNmX1h0a1B2SlBMNEVZWmRZRDZSbFQyTWZKMHZuZzJrNk13Z21iaV9nbGxBaVlwTmJ4cVVMdnVYSUZrRHJNcF9ObGVyZ19MbzEzeElOcmtNTmRfSGtEOUlkNGRWZENESVliWUtfd3lyQ1ZmY0FYWTNiRzduZW02QjhyOWx6UUFN?oc=5",
+          "publishedAt": "2026-11-17 22:03",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "Push to reinstate Jensen Huang tests superstar tech CEO accountability",
+          "summary": "The push to reinstate Jensen Huang is set to test whether America's most powerful CEOs can still be held accountable — or if extraordinary success and political alliances have made them untouchable.Why it matters: Silicon Valley has long treated its most successful founders as indispensable. But a new class of tech billionaires, led by figures like Elon Musk, has amplified that culture while swatt",
+          "link": "https://www.axios.com/2026/11/17/jensen-huang-nvidia-ceo-accountability-power",
+          "publishedAt": "2026-11-17 19:30",
+          "outlet": "Axios"
         }
       ]
     }
