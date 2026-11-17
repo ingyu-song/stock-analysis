@@ -1,7 +1,7 @@
 {
   "startDate": "2026-08-12",
   "note": "시작일 종가를 100으로 본 수익률. 매일 갱신.",
-  "updatedAt": "2026-11-14 11:33",
+  "updatedAt": "2026-11-17 13:40",
   "items": [
     {
       "key": "sp500",
@@ -9,9 +9,9 @@
       "ticker": "^GSPC",
       "currency": "USD",
       "startPrice": 7748.5,
-      "price": 7561.67,
-      "returnPct": -2.41,
-      "returnPctKRW": -7.83,
+      "price": 7416.59,
+      "returnPct": -4.28,
+      "returnPctKRW": -9.37,
       "startDateActual": "2026-08-12"
     },
     {
@@ -20,9 +20,9 @@
       "ticker": "^NDX",
       "currency": "USD",
       "startPrice": 29742.6,
-      "price": 27943.74,
-      "returnPct": -6.05,
-      "returnPctKRW": -11.26,
+      "price": 27197.15,
+      "returnPct": -8.56,
+      "returnPctKRW": -13.42,
       "startDateActual": "2026-08-12"
     },
     {
@@ -31,13 +31,13 @@
       "ticker": "^KS11",
       "currency": "KRW",
       "startPrice": 6579.04,
-      "price": 5290.53,
-      "returnPct": -19.59,
-      "returnPctKRW": -19.59,
+      "price": 4993.18,
+      "returnPct": -24.1,
+      "returnPctKRW": -24.1,
       "startDateActual": "2026-08-12"
     }
   ],
   "fxStart": 1412.18,
-  "fxNow": 1333.78,
-  "fxReturnPct": -5.55
+  "fxNow": 1337.08,
+  "fxReturnPct": -5.32
 }
