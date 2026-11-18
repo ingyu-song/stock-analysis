@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 07:56",
+  "updatedAt": "2026-11-18 13:29",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -12,15 +12,8 @@
           "title": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
           "summary": "The disruption followed days of unrelated problems in the past week that interrupted air travel and work at offices, schools and government.",
           "link": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html",
-          "publishedAt": "2026-11-18 06:39",
+          "publishedAt": "2026-11-18 08:17",
           "outlet": "NYT Business"
-        },
-        {
-          "title": "Jensen Huang says he'd be \"honored\" to return as Nvidia CEO",
-          "summary": "Jensen Huang acknowledged in a statement that he'd be willing to return to Nvidia as CEO.Why it matters: A push to reinstate Huang began almost as soon as he exited the company, but Nvidia's board isn't currently considering reinstating the former CEO, according to multiple reports.What they're saying: \"Since my departure, I've seen an outpouring of calls from Nvidia's employees, investors, busine",
-          "link": "https://www.axios.com/2026/11/17/jensen-huang-nvidia-ceo-return-earnings",
-          "publishedAt": "2026-11-18 02:06",
-          "outlet": "Axios"
         },
         {
           "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
@@ -36,25 +29,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "US bankruptcy judge approves Spirit Airlines data sale to Google",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/us-bankruptcy-judge-approves-spirit-airlines-data-sale-to-google-5034262",
-          "publishedAt": "2026-11-18 07:31",
-          "outlet": "Investing.com"
-        },
-        {
           "title": "AMD and Google Chip Away at Nvidia as Huang Exit Shakes Customers - The Information",
           "summary": "AMD and Google Chip Away at Nvidia as Huang Exit Shakes Customers  The Information",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWi01Y1lhbTVWSUhieWlsQ3c1eV9NUXBtcWNNNHc2TVJNMnBxVXc2NTloSXRTYlg2eU12cElub3dEZXhFVzhoZnJPMWsyVF9Ud3V4NVBrblV0aE5hcGE1WXJqWFBMd3N6Zzk2VFhPOHZISUt0SWxpdWMwWDNQVzQzLTdGdlM0NHlnMXhWOHF0YzVJVF9Xc0pHR05oUQ?oc=5",
           "publishedAt": "2026-11-17 23:00",
           "outlet": "The Information"
-        },
-        {
-          "title": "Amazon, Google to Have About 28% of Anthropic Stock After IPO - Bloomberg.com",
-          "summary": "Amazon, Google to Have About 28% of Anthropic Stock After IPO  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPV2pZZmdyc0t4VzZKQ21zUWRjVENMam14ZG1qQ2ludXhhSmxGbUF5NVNmX1h0a1B2SlBMNEVZWmRZRDZSbFQyTWZKMHZuZzJrNk13Z21iaV9nbGxBaVlwTmJ4cVVMdnVYSUZrRHJNcF9ObGVyZ19MbzEzeElOcmtNTmRfSGtEOUlkNGRWZENESVliWUtfd3lyQ1ZmY0FYWTNiRzduZW02QjhyOWx6UUFN?oc=5",
-          "publishedAt": "2026-11-17 22:03",
-          "outlet": "Bloomberg (via Google News)"
         }
       ]
     },
