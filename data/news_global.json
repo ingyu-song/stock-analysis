@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 23:09",
+  "updatedAt": "2026-11-19 07:02",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
-          "summary": "US secretary of state’s comments come as vulnerability in programming language Java highlightedThere is “zero evidence” that a wave of IT outages – which have grounded flights, cut off work access, limited bank access, affected Apple and disrupted classified communications – are related to each other or are the work of malign actors, according to the US secretary of state.Marco Rubio said the US w",
-          "link": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
-          "publishedAt": "2026-11-18 20:35",
-          "outlet": "The Guardian Business"
+          "title": "Why Are So Many Outages Happening? U.S. Official Denies Cyberattacks As NSA, Apple, Microsoft And More Hit - Forbes",
+          "summary": "Why Are So Many Outages Happening? U.S. Official Denies Cyberattacks As NSA, Apple, Microsoft And More Hit  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQWUlkNTVJYkYtSWhlZVcxdFotUHFsZHEtbkdkOFRDV2FuUnJraXBkSnNZZGFSeUNuMXdtanI2ekIyVjdjdkhRTWppRVV1dkI5UldZWHo3N05CVWlJTFlBUDJxS3gwQnN1SzVhNEdQSG9MU1N6ZERJQk5EZTFZajNxQ2tTZldvMGIwUERwZlVJcUE2c1BaOUtSMTBJc2R4cTVFb3ZyMTZhZmZ4V05MZGUyQmhfZHI2ZWl4T3VSaFJFZVVDX0Fvdk13NjRIeGNYRXg4SjFvdjlFNjY0OXdQcjZKU3NJTlFBbXdTRS1meFdCcUY1SmxKbnp3cjBYMnJEdGJjZ0tv?oc=5",
+          "publishedAt": "2026-11-19 00:29",
+          "outlet": "Forbes Markets"
         },
         {
           "title": "The terrifying rise of AI hacking tools",
@@ -35,6 +35,20 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "NYC, LA and Chicago School Districts Weigh Breaking Up With Google Search Over A.I.",
+          "summary": "Google’s refusal to unbundle A.I. features from search for students prompted a backlash. Now schools are looking for alternatives.",
+          "link": "https://www.nytimes.com/2026/11/18/technology/google-gemini-ai-search-schools-nyc-la-chicago.html",
+          "publishedAt": "2026-11-19 05:49",
+          "outlet": "NYT Business"
+        },
+        {
+          "title": "Trust, but prepare: How to make sense of AI's age of upheaval",
+          "summary": "Most Americans are baffled and alarmed by the daily, if not hourly, explosion of technical glitches hitting air travel, banks and work products like Microsoft Outlook. The outages seem genuinely scary and related.So what the hell is going on?The most likely answer: This is the first true wave of unintended consequences of increasingly powerful artificial intelligence hitting us at once. The big pi",
+          "link": "https://www.axios.com/2026/11/18/behind-curtain-outages-ai-prepare",
+          "publishedAt": "2026-11-19 05:00",
+          "outlet": "Axios"
+        },
         {
           "title": "The terrifying rise of AI hacking tools",
           "summary": "A new breed of widely available AI tools is helping hackers launch cyberattacks around the clock, breaching corporate networks in a matter of hours and overwhelming defenders.Why it matters: AI-enabled hacking is still in its infancy, but open-source tools — which are free to download — are fundamentally changing the economics of cybercrime.Hackers can launch self-adjusting attack plans, allowing ",
