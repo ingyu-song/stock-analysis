@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-18 13:29",
+  "updatedAt": "2026-11-18 23:09",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,18 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple Addresses Outages Affecting Apple Pay, iCloud and Apps",
-          "summary": "The disruption followed days of unrelated problems in the past week that interrupted air travel and work at offices, schools and government.",
-          "link": "https://www.nytimes.com/2026/11/17/technology/apple-down-outage-issues.html",
-          "publishedAt": "2026-11-18 08:17",
-          "outlet": "NYT Business"
+          "title": "‘Zero’ evidence that recent cascade of tech outages are linked, says Rubio",
+          "summary": "US secretary of state’s comments come as vulnerability in programming language Java highlightedThere is “zero evidence” that a wave of IT outages – which have grounded flights, cut off work access, limited bank access, affected Apple and disrupted classified communications – are related to each other or are the work of malign actors, according to the US secretary of state.Marco Rubio said the US w",
+          "link": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio",
+          "publishedAt": "2026-11-18 20:35",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "The terrifying rise of AI hacking tools",
+          "summary": "A new breed of widely available AI tools is helping hackers launch cyberattacks around the clock, breaching corporate networks in a matter of hours and overwhelming defenders.Why it matters: AI-enabled hacking is still in its infancy, but open-source tools — which are free to download — are fundamentally changing the economics of cybercrime.Hackers can launch self-adjusting attack plans, allowing ",
+          "link": "https://www.axios.com/2026/11/18/ai-hacking-tools-artex-cairn",
+          "publishedAt": "2026-11-18 19:20",
+          "outlet": "Axios"
         },
         {
           "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
@@ -29,6 +36,20 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "The terrifying rise of AI hacking tools",
+          "summary": "A new breed of widely available AI tools is helping hackers launch cyberattacks around the clock, breaching corporate networks in a matter of hours and overwhelming defenders.Why it matters: AI-enabled hacking is still in its infancy, but open-source tools — which are free to download — are fundamentally changing the economics of cybercrime.Hackers can launch self-adjusting attack plans, allowing ",
+          "link": "https://www.axios.com/2026/11/18/ai-hacking-tools-artex-cairn",
+          "publishedAt": "2026-11-18 19:20",
+          "outlet": "Axios"
+        },
+        {
+          "title": "US bankruptcy judge approves Spirit Airlines data sale to Google - Reuters",
+          "summary": "US bankruptcy judge approves Spirit Airlines data sale to Google  Reuters",
+          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM0NfLTdnMktRek1KYml0RlYtSmhsVE1RRXRIaXBCZDQ0SXppVF9WcnZwak1qSFRIbDVRck5iZ2FEcVVNZU9tVVY0LUlLQnItelVvZE81YUZSNW03clhtazNMTEd2SnNHQzhWQWlDVDIwVFgtSkFYVkVNYnQ4alE5S1dUX0lKcG9RUDFBWDh3eThQRWhBV2NtN3NJQ0tlVE5MZXVZVmVuc1gtQQ?oc=5",
+          "publishedAt": "2026-11-18 07:59",
+          "outlet": "Reuters Business (via Google News)"
+        },
+        {
           "title": "AMD and Google Chip Away at Nvidia as Huang Exit Shakes Customers - The Information",
           "summary": "AMD and Google Chip Away at Nvidia as Huang Exit Shakes Customers  The Information",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWi01Y1lhbTVWSUhieWlsQ3c1eV9NUXBtcWNNNHc2TVJNMnBxVXc2NTloSXRTYlg2eU12cElub3dEZXhFVzhoZnJPMWsyVF9Ud3V4NVBrblV0aE5hcGE1WXJqWFBMd3N6Zzk2VFhPOHZISUt0SWxpdWMwWDNQVzQzLTdGdlM0NHlnMXhWOHF0YzVJVF9Xc0pHR05oUQ?oc=5",
@@ -38,15 +59,28 @@
       ]
     },
     {
-      "ticker": "SONY",
-      "name": "소니",
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
       "items": [
         {
-          "title": "Foxconn plans to acquire Sony Semiconductor Solutions' automotive camera module business - Reuters",
-          "summary": "Foxconn plans to acquire Sony Semiconductor Solutions' automotive camera module business  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZGJaT3hzb2NaLWVpNEw5Z29uaXZUYkNEUTNxck1XdmpULWo3SVY0MEVZbEVHMFkyUzRlcDUtYW9OOXNaMFV6MUVzMFJ6SFJwcmdlSFNWTmxuVjJ1UEtic1dUS0tVZ3pQYkxKOW1lelZ2TkxMUWFkV1JZMXYxTmhUQUpRZ1RybmJYZ3l1ZUU5Y1RxRng1dXd0MzY1eE4xOGxRSE8yQnF6MUxhQjIxZGVGbk5NOUFiS1JlNk5QcFBnWQ?oc=5",
-          "publishedAt": "2026-11-17 20:48",
-          "outlet": "Reuters Business (via Google News)"
+          "title": "The terrifying rise of AI hacking tools",
+          "summary": "A new breed of widely available AI tools is helping hackers launch cyberattacks around the clock, breaching corporate networks in a matter of hours and overwhelming defenders.Why it matters: AI-enabled hacking is still in its infancy, but open-source tools — which are free to download — are fundamentally changing the economics of cybercrime.Hackers can launch self-adjusting attack plans, allowing ",
+          "link": "https://www.axios.com/2026/11/18/ai-hacking-tools-artex-cairn",
+          "publishedAt": "2026-11-18 19:20",
+          "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "items": [
+        {
+          "title": "The terrifying rise of AI hacking tools",
+          "summary": "A new breed of widely available AI tools is helping hackers launch cyberattacks around the clock, breaching corporate networks in a matter of hours and overwhelming defenders.Why it matters: AI-enabled hacking is still in its infancy, but open-source tools — which are free to download — are fundamentally changing the economics of cybercrime.Hackers can launch self-adjusting attack plans, allowing ",
+          "link": "https://www.axios.com/2026/11/18/ai-hacking-tools-artex-cairn",
+          "publishedAt": "2026-11-18 19:20",
+          "outlet": "Axios"
         }
       ]
     }
