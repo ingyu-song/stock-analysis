@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 12:36",
+  "updatedAt": "2026-11-19 22:21",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Exclusive: Bots amplified conspiracy theories and panic about recent tech outages",
+          "summary": "Bot accounts have helped spread conspiracy theories about a wave of major tech outages over the last week, according to new research shared exclusively with Axios.Why it matters: Purveyors of disinformation appear to be exploiting public anxiety over the cyberattacks and fragile infrastructure, amplifying suspicions of coordinated cyberattacks and government cover-ups.While it's unclear who's behi",
+          "link": "https://www.axios.com/2026/11/19/tech-outages-bots-conspiracies",
+          "publishedAt": "2026-11-19 19:00",
+          "outlet": "Axios"
+        },
         {
           "title": "Why Are So Many Outages Happening? U.S. Official Denies Cyberattacks As NSA, Apple, Microsoft And More Hit - Forbes",
           "summary": "Why Are So Many Outages Happening? U.S. Official Denies Cyberattacks As NSA, Apple, Microsoft And More Hit  Forbes",
@@ -29,6 +36,13 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "AI's great divergence: Machines accelerate as makers unravel",
+          "summary": "Anthropic will make its Wall Street debut Thursday at a moment of profound contradiction in the history of AI:The humans are embattled — bogged down by scandal, financial turmoil and political revolt.But the machines are ascendant — accelerating toward an \"intelligence explosion\" they expect will transform civilization.Why it matters: The industry's recent chaos has obscured a breathtaking surge i",
+          "link": "https://www.axios.com/2026/11/19/anthropic-ipo-ai-research-rsi-forecast",
+          "publishedAt": "2026-11-19 19:00",
+          "outlet": "Axios"
+        },
+        {
           "title": "Anthropic valued at over $1 trillion in historic IPO",
           "summary": "Anthropic on Wednesday raised over $81 billion in a long-awaited IPO that valued the Claude maker at over $1 trillion.Why it matters: Wall Street expects the AI boom to continue, despite some recent tumult.Zoom in: Anthropic priced at $83 per share, well above its planned range of $70 to $78 per share.It imputes an initial market cap of $1.08 trillion and a fully diluted value of around $1.5 trill",
           "link": "https://www.axios.com/2026/11/18/anthropic-ipo-1-trillion",
@@ -41,6 +55,19 @@
           "link": "https://www.axios.com/2026/11/18/behind-curtain-outages-ai-prepare",
           "publishedAt": "2026-11-19 05:00",
           "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Microsoft’s chip packaging deal hands Intel credibility more than revenue - digitimes",
+          "summary": "Microsoft’s chip packaging deal hands Intel credibility more than revenue  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa3pCa3puMG8tMUcyVEJjSlhLMUtseXpiRTh5RzVRREdod1M3SUR0S1dnUnJ6dVhWVmdKX1U3YjhyeVhOekltc2NqSlc4UDUzUUFPMWJ6YU1EeFhvQ2hTdlI1cE9zOWR5anh5cmtUbFNQc3NtX0pSSDhGVFJXUGZmRGdEbmtmd2hlOURWdmhuaE9MQmdwaUFlYzNkc04?oc=5",
+          "publishedAt": "2026-11-19 09:53",
+          "outlet": "DigiTimes"
         }
       ]
     }
