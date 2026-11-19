@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 07:02",
+  "updatedAt": "2026-11-19 12:36",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -16,13 +16,6 @@
           "outlet": "Forbes Markets"
         },
         {
-          "title": "The terrifying rise of AI hacking tools",
-          "summary": "A new breed of widely available AI tools is helping hackers launch cyberattacks around the clock, breaching corporate networks in a matter of hours and overwhelming defenders.Why it matters: AI-enabled hacking is still in its infancy, but open-source tools — which are free to download — are fundamentally changing the economics of cybercrime.Hackers can launch self-adjusting attack plans, allowing ",
-          "link": "https://www.axios.com/2026/11/18/ai-hacking-tools-artex-cairn",
-          "publishedAt": "2026-11-18 19:20",
-          "outlet": "Axios"
-        },
-        {
           "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
           "summary": "The stakes have just gotten higher for businesses navigating the U.S. and China markets.",
           "link": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html",
@@ -36,64 +29,17 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "NYC, LA and Chicago School Districts Weigh Breaking Up With Google Search Over A.I.",
-          "summary": "Google’s refusal to unbundle A.I. features from search for students prompted a backlash. Now schools are looking for alternatives.",
-          "link": "https://www.nytimes.com/2026/11/18/technology/google-gemini-ai-search-schools-nyc-la-chicago.html",
-          "publishedAt": "2026-11-19 05:49",
-          "outlet": "NYT Business"
+          "title": "Anthropic valued at over $1 trillion in historic IPO",
+          "summary": "Anthropic on Wednesday raised over $81 billion in a long-awaited IPO that valued the Claude maker at over $1 trillion.Why it matters: Wall Street expects the AI boom to continue, despite some recent tumult.Zoom in: Anthropic priced at $83 per share, well above its planned range of $70 to $78 per share.It imputes an initial market cap of $1.08 trillion and a fully diluted value of around $1.5 trill",
+          "link": "https://www.axios.com/2026/11/18/anthropic-ipo-1-trillion",
+          "publishedAt": "2026-11-19 07:16",
+          "outlet": "Axios"
         },
         {
           "title": "Trust, but prepare: How to make sense of AI's age of upheaval",
           "summary": "Most Americans are baffled and alarmed by the daily, if not hourly, explosion of technical glitches hitting air travel, banks and work products like Microsoft Outlook. The outages seem genuinely scary and related.So what the hell is going on?The most likely answer: This is the first true wave of unintended consequences of increasingly powerful artificial intelligence hitting us at once. The big pi",
           "link": "https://www.axios.com/2026/11/18/behind-curtain-outages-ai-prepare",
           "publishedAt": "2026-11-19 05:00",
-          "outlet": "Axios"
-        },
-        {
-          "title": "The terrifying rise of AI hacking tools",
-          "summary": "A new breed of widely available AI tools is helping hackers launch cyberattacks around the clock, breaching corporate networks in a matter of hours and overwhelming defenders.Why it matters: AI-enabled hacking is still in its infancy, but open-source tools — which are free to download — are fundamentally changing the economics of cybercrime.Hackers can launch self-adjusting attack plans, allowing ",
-          "link": "https://www.axios.com/2026/11/18/ai-hacking-tools-artex-cairn",
-          "publishedAt": "2026-11-18 19:20",
-          "outlet": "Axios"
-        },
-        {
-          "title": "US bankruptcy judge approves Spirit Airlines data sale to Google - Reuters",
-          "summary": "US bankruptcy judge approves Spirit Airlines data sale to Google  Reuters",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQM0NfLTdnMktRek1KYml0RlYtSmhsVE1RRXRIaXBCZDQ0SXppVF9WcnZwak1qSFRIbDVRck5iZ2FEcVVNZU9tVVY0LUlLQnItelVvZE81YUZSNW03clhtazNMTEd2SnNHQzhWQWlDVDIwVFgtSkFYVkVNYnQ4alE5S1dUX0lKcG9RUDFBWDh3eThQRWhBV2NtN3NJQ0tlVE5MZXVZVmVuc1gtQQ?oc=5",
-          "publishedAt": "2026-11-18 07:59",
-          "outlet": "Reuters Business (via Google News)"
-        },
-        {
-          "title": "AMD and Google Chip Away at Nvidia as Huang Exit Shakes Customers - The Information",
-          "summary": "AMD and Google Chip Away at Nvidia as Huang Exit Shakes Customers  The Information",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQWi01Y1lhbTVWSUhieWlsQ3c1eV9NUXBtcWNNNHc2TVJNMnBxVXc2NTloSXRTYlg2eU12cElub3dEZXhFVzhoZnJPMWsyVF9Ud3V4NVBrblV0aE5hcGE1WXJqWFBMd3N6Zzk2VFhPOHZISUt0SWxpdWMwWDNQVzQzLTdGdlM0NHlnMXhWOHF0YzVJVF9Xc0pHR05oUQ?oc=5",
-          "publishedAt": "2026-11-17 23:00",
-          "outlet": "The Information"
-        }
-      ]
-    },
-    {
-      "ticker": "CRWD",
-      "name": "크라우드스트라이크",
-      "items": [
-        {
-          "title": "The terrifying rise of AI hacking tools",
-          "summary": "A new breed of widely available AI tools is helping hackers launch cyberattacks around the clock, breaching corporate networks in a matter of hours and overwhelming defenders.Why it matters: AI-enabled hacking is still in its infancy, but open-source tools — which are free to download — are fundamentally changing the economics of cybercrime.Hackers can launch self-adjusting attack plans, allowing ",
-          "link": "https://www.axios.com/2026/11/18/ai-hacking-tools-artex-cairn",
-          "publishedAt": "2026-11-18 19:20",
-          "outlet": "Axios"
-        }
-      ]
-    },
-    {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "The terrifying rise of AI hacking tools",
-          "summary": "A new breed of widely available AI tools is helping hackers launch cyberattacks around the clock, breaching corporate networks in a matter of hours and overwhelming defenders.Why it matters: AI-enabled hacking is still in its infancy, but open-source tools — which are free to download — are fundamentally changing the economics of cybercrime.Hackers can launch self-adjusting attack plans, allowing ",
-          "link": "https://www.axios.com/2026/11/18/ai-hacking-tools-artex-cairn",
-          "publishedAt": "2026-11-18 19:20",
           "outlet": "Axios"
         }
       ]
