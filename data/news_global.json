@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-19 22:21",
+  "updatedAt": "2026-11-20 07:13",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,20 +8,6 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
-        {
-          "title": "Exclusive: Bots amplified conspiracy theories and panic about recent tech outages",
-          "summary": "Bot accounts have helped spread conspiracy theories about a wave of major tech outages over the last week, according to new research shared exclusively with Axios.Why it matters: Purveyors of disinformation appear to be exploiting public anxiety over the cyberattacks and fragile infrastructure, amplifying suspicions of coordinated cyberattacks and government cover-ups.While it's unclear who's behi",
-          "link": "https://www.axios.com/2026/11/19/tech-outages-bots-conspiracies",
-          "publishedAt": "2026-11-19 19:00",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Why Are So Many Outages Happening? U.S. Official Denies Cyberattacks As NSA, Apple, Microsoft And More Hit - Forbes",
-          "summary": "Why Are So Many Outages Happening? U.S. Official Denies Cyberattacks As NSA, Apple, Microsoft And More Hit  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMigwJBVV95cUxQWUlkNTVJYkYtSWhlZVcxdFotUHFsZHEtbkdkOFRDV2FuUnJraXBkSnNZZGFSeUNuMXdtanI2ekIyVjdjdkhRTWppRVV1dkI5UldZWHo3N05CVWlJTFlBUDJxS3gwQnN1SzVhNEdQSG9MU1N6ZERJQk5EZTFZajNxQ2tTZldvMGIwUERwZlVJcUE2c1BaOUtSMTBJc2R4cTVFb3ZyMTZhZmZ4V05MZGUyQmhfZHI2ZWl4T3VSaFJFZVVDX0Fvdk13NjRIeGNYRXg4SjFvdjlFNjY0OXdQcjZKU3NJTlFBbXdTRS1meFdCcUY1SmxKbnp3cjBYMnJEdGJjZ0tv?oc=5",
-          "publishedAt": "2026-11-19 00:29",
-          "outlet": "Forbes Markets"
-        },
         {
           "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
           "summary": "The stakes have just gotten higher for businesses navigating the U.S. and China markets.",
@@ -36,24 +22,17 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "AI's great divergence: Machines accelerate as makers unravel",
-          "summary": "Anthropic will make its Wall Street debut Thursday at a moment of profound contradiction in the history of AI:The humans are embattled — bogged down by scandal, financial turmoil and political revolt.But the machines are ascendant — accelerating toward an \"intelligence explosion\" they expect will transform civilization.Why it matters: The industry's recent chaos has obscured a breathtaking surge i",
-          "link": "https://www.axios.com/2026/11/19/anthropic-ipo-ai-research-rsi-forecast",
-          "publishedAt": "2026-11-19 19:00",
-          "outlet": "Axios"
+          "title": "GOOGL, GOOG DEADLINE: ROSEN, SKILLED INVESTOR COUNSEL, Encourages Alphabet Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - GOOGL, GOOG",
+          "summary": "<img src=\"https://api.newsfilecorp.com/newsinfo/324939/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px;  height: 1px;border: 0px solid;\">New York, New York--(Newsfile Corp. - November 19, 2026) - <b>WHY</b>: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Alphabet Inc. (NASDAQ: GOOGL) (NASDAQ:",
+          "link": "https://markets.businessinsider.com/news/stocks/googl-goog-deadline-rosen-skilled-investor-counsel-encourages-alphabet-inc.-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-googl-goog-1036751915",
+          "publishedAt": "2026-11-20 04:38",
+          "outlet": "Business Insider Markets"
         },
         {
-          "title": "Anthropic valued at over $1 trillion in historic IPO",
-          "summary": "Anthropic on Wednesday raised over $81 billion in a long-awaited IPO that valued the Claude maker at over $1 trillion.Why it matters: Wall Street expects the AI boom to continue, despite some recent tumult.Zoom in: Anthropic priced at $83 per share, well above its planned range of $70 to $78 per share.It imputes an initial market cap of $1.08 trillion and a fully diluted value of around $1.5 trill",
-          "link": "https://www.axios.com/2026/11/18/anthropic-ipo-1-trillion",
-          "publishedAt": "2026-11-19 07:16",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Trust, but prepare: How to make sense of AI's age of upheaval",
-          "summary": "Most Americans are baffled and alarmed by the daily, if not hourly, explosion of technical glitches hitting air travel, banks and work products like Microsoft Outlook. The outages seem genuinely scary and related.So what the hell is going on?The most likely answer: This is the first true wave of unintended consequences of increasingly powerful artificial intelligence hitting us at once. The big pi",
-          "link": "https://www.axios.com/2026/11/18/behind-curtain-outages-ai-prepare",
-          "publishedAt": "2026-11-19 05:00",
+          "title": "Meta rethinks climate goal as AI emissions soar 45%",
+          "summary": "Meta's greenhouse gas emissions surged 45% last year amid its AI infrastructure boom, prompting the tech giant to reconsider its goal of reaching net-zero emissions by 2030.Why it matters: Other tech giants have reported rising emissions as they race to build data centers, but Meta is going a step further by explicitly reconsidering its climate deadline.Driving the news: The just-released sustaina",
+          "link": "https://www.axios.com/2026/11/19/meta-ai-emissions-rise",
+          "publishedAt": "2026-11-20 02:00",
           "outlet": "Axios"
         }
       ]
