@@ -1,39 +1,26 @@
 {
-  "updatedAt": "2026-11-20 22:01",
+  "updatedAt": "2026-11-21 06:13",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Don’t blame cyber-attacks for recent outages. The real villain is the US economy | Bruce Schneier",
-          "summary": "Our tech infrastructure is riddled with problems. But they’re all downstream of the incentives baked into shareholder capitalismIt’s been a bad week for our computerized infrastructure. We’ve seen outages at Microsoft, the FAA, a handful of banks, United Airlines, an unnamed classified NSA network, and Apple. People should be forgiven for suspecting a coordinated cyber-attack, a common cause, or a",
-          "link": "https://www.theguardian.com/commentisfree/2026/nov/20/cyber-attacks-outages-blame-economy",
-          "publishedAt": "2026-11-20 20:00",
-          "outlet": "The Guardian Business"
-        },
-        {
-          "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
-          "summary": "The stakes have just gotten higher for businesses navigating the U.S. and China markets.",
-          "link": "https://www.cnbc.com/2026/11/17/us-tech-firms-china-ties-political-pressure.html",
-          "publishedAt": "2026-11-17 17:52",
-          "outlet": "CNBC Finance"
-        }
-      ]
-    },
-    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
-          "title": "GOOGL, GOOG DEADLINE: ROSEN, SKILLED INVESTOR COUNSEL, Encourages Alphabet Inc. Investors to Secure Counsel Before Important Deadline in Securities Class Action - GOOGL, GOOG",
-          "summary": "<img src=\"https://api.newsfilecorp.com/newsinfo/324939/208\" id=\"208\" width=\"2\" height=\"2\" style=\"width: 1px;  height: 1px;border: 0px solid;\">New York, New York--(Newsfile Corp. - November 19, 2026) - <b>WHY</b>: Rosen Law Firm, a global investor rights law firm, reminds purchasers of securities of Alphabet Inc. (NASDAQ: GOOGL) (NASDAQ:",
-          "link": "https://markets.businessinsider.com/news/stocks/googl-goog-deadline-rosen-skilled-investor-counsel-encourages-alphabet-inc.-investors-to-secure-counsel-before-important-deadline-in-securities-class-action-googl-goog-1036751915",
-          "publishedAt": "2026-11-20 04:38",
-          "outlet": "Business Insider Markets"
+          "title": "Jensen Huang Loses Over A Quarter Of His Wealth After Scandal—As Google Passes Nvidia In Market Cap - Forbes",
+          "summary": "Jensen Huang Loses Over A Quarter Of His Wealth After Scandal—As Google Passes Nvidia In Market Cap  Forbes",
+          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOVpSOS13U1I5OGlualgzVU9GeUxxUWhGSzFJODZhUW96YXBHRUlqN3ZDN3pwY0xNZDh2RklGdmZqSmJJQi0xMXRxU0VvaHRfemtJdHlVUGgxbkljQzZmelh6WWUydmZnRlhIZzdWSVF5bHB6NnZQbVYwOW9XM2FwVENaRFJadEZFcnpWTndtM3NCYW9wLXhzZ1pDQUVfMTl5X2VILVlFd05Yd0hQNDJQRHY0alZMNmQ5TVE?oc=5",
+          "publishedAt": "2026-11-21 05:12",
+          "outlet": "Forbes Markets"
+        },
+        {
+          "title": "Anthropic is public, now comes the hard part",
+          "summary": "Data: FactSet; Chart: Matt Phillips/AxiosWith its IPO done and dusted, Anthropic's shareholders will be watching its progress toward becoming a business that doesn't need constant capital infusions from investors and vendors. Why it matters: Anthropic — along with OpenAI — is at the heart of the industry that's dominated the equity and debt markets for the last four years. Much of the AI infrastru",
+          "link": "https://www.axios.com/2026/11/20/anthropic-public-shareholders",
+          "publishedAt": "2026-11-20 21:10",
+          "outlet": "Axios"
         },
         {
           "title": "Google Selects Bezos’ Blue Origin for Data Center Satellite Test - The Information",
