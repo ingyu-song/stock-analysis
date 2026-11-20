@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 12:27",
+  "updatedAt": "2026-11-20 22:01",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "Anthropic Shares Drop Post-Market on Apple’s AI Agent Plans - Bloomberg.com",
-          "summary": "Anthropic Shares Drop Post-Market on Apple’s AI Agent Plans  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU05IcE5RazNyajNodmVGbEJxU0g5U3FPc2IzMFlfdVdSbkxsUWRFYkxpc0JpOWxQNnVZSGlEVWpHSklHMGwyRzRmdjZXUFVYWDdxdTIwbmRGUVk0WGZ6RnB3MHFhSS1YR3VJSVUxeUtlcktQY1NDbUVWNXpfOVpXREFYY3k5bXpnMjEwM2drWTdMQldwWEFFVG9BX2cySUdmUUNOcFFURVNIa2dZal84?oc=5",
-          "publishedAt": "2026-11-20 09:40",
-          "outlet": "Bloomberg (via Google News)"
+          "title": "Don’t blame cyber-attacks for recent outages. The real villain is the US economy | Bruce Schneier",
+          "summary": "Our tech infrastructure is riddled with problems. But they’re all downstream of the incentives baked into shareholder capitalismIt’s been a bad week for our computerized infrastructure. We’ve seen outages at Microsoft, the FAA, a handful of banks, United Airlines, an unnamed classified NSA network, and Apple. People should be forgiven for suspecting a coordinated cyber-attack, a common cause, or a",
+          "link": "https://www.theguardian.com/commentisfree/2026/nov/20/cyber-attacks-outages-blame-economy",
+          "publishedAt": "2026-11-20 20:00",
+          "outlet": "The Guardian Business"
         },
         {
           "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
@@ -36,11 +36,11 @@
           "outlet": "Business Insider Markets"
         },
         {
-          "title": "Meta rethinks climate goal as AI emissions soar 45%",
-          "summary": "Meta's greenhouse gas emissions surged 45% last year amid its AI infrastructure boom, prompting the tech giant to reconsider its goal of reaching net-zero emissions by 2030.Why it matters: Other tech giants have reported rising emissions as they race to build data centers, but Meta is going a step further by explicitly reconsidering its climate deadline.Driving the news: The just-released sustaina",
-          "link": "https://www.axios.com/2026/11/19/meta-ai-emissions-rise",
-          "publishedAt": "2026-11-20 02:00",
-          "outlet": "Axios"
+          "title": "Google Selects Bezos’ Blue Origin for Data Center Satellite Test - The Information",
+          "summary": "Google Selects Bezos’ Blue Origin for Data Center Satellite Test  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUE5Bd0VHWDBQSjg3NlhjTHY4bm1xUVdXSkp2WGJCN1VzNjQwM3F2bmM2QmFfcXFsRlhSZE5jdm9rZ2N3MjM0N0ZTVXBmR19CMmg2cWhvalBHbXNHQlpQQk9FVkZMOWlPQ0lQQUwzQnZuVENuRnhzTGRyMXFmMnM5TkZCeXlWUjlra3BUUm9ENFRfTTEzLUNVeWk2emRXc1dNNmc?oc=5",
+          "publishedAt": "2026-11-20 02:17",
+          "outlet": "The Information"
         },
         {
           "title": "Google looks to bypass Broadcom with direct HBM purchases - digitimes",
