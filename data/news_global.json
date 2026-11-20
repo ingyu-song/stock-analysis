@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 07:13",
+  "updatedAt": "2026-11-20 12:27",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "Anthropic Shares Drop Post-Market on Apple’s AI Agent Plans - Bloomberg.com",
+          "summary": "Anthropic Shares Drop Post-Market on Apple’s AI Agent Plans  Bloomberg.com",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU05IcE5RazNyajNodmVGbEJxU0g5U3FPc2IzMFlfdVdSbkxsUWRFYkxpc0JpOWxQNnVZSGlEVWpHSklHMGwyRzRmdjZXUFVYWDdxdTIwbmRGUVk0WGZ6RnB3MHFhSS1YR3VJSVUxeUtlcktQY1NDbUVWNXpfOVpXREFYY3k5bXpnMjEwM2drWTdMQldwWEFFVG9BX2cySUdmUUNOcFFURVNIa2dZal84?oc=5",
+          "publishedAt": "2026-11-20 09:40",
+          "outlet": "Bloomberg (via Google News)"
+        },
         {
           "title": "U.S. companies from Nvidia to Apple face a growing China dilemma",
           "summary": "The stakes have just gotten higher for businesses navigating the U.S. and China markets.",
@@ -34,6 +41,13 @@
           "link": "https://www.axios.com/2026/11/19/meta-ai-emissions-rise",
           "publishedAt": "2026-11-20 02:00",
           "outlet": "Axios"
+        },
+        {
+          "title": "Google looks to bypass Broadcom with direct HBM purchases - digitimes",
+          "summary": "Google looks to bypass Broadcom with direct HBM purchases  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd0lUTXd3OUhmLTBaS2JYUUtIUFB2QklyQ0hrbmRXVTRrNEpmZGtIOC1RN2tsRFBHWE1RdUpteWRSUDJScXFHbDF6Si1MNXJvYlZOLS1rMnpoc0o5RTVLaGNib0hHb0dkeDd4dUZqQ3BRUVA2OTg2UlVzUkNfZ1BqUXpFYUZzLThLcFhRTQ?oc=5",
+          "publishedAt": "2026-11-19 13:01",
+          "outlet": "DigiTimes"
         }
       ]
     },
