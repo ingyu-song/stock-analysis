@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 06:13",
+  "updatedAt": "2026-11-21 11:26",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -12,7 +12,7 @@
           "title": "Jensen Huang Loses Over A Quarter Of His Wealth After Scandal—As Google Passes Nvidia In Market Cap - Forbes",
           "summary": "Jensen Huang Loses Over A Quarter Of His Wealth After Scandal—As Google Passes Nvidia In Market Cap  Forbes",
           "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOVpSOS13U1I5OGlualgzVU9GeUxxUWhGSzFJODZhUW96YXBHRUlqN3ZDN3pwY0xNZDh2RklGdmZqSmJJQi0xMXRxU0VvaHRfemtJdHlVUGgxbkljQzZmelh6WWUydmZnRlhIZzdWSVF5bHB6NnZQbVYwOW9XM2FwVENaRFJadEZFcnpWTndtM3NCYW9wLXhzZ1pDQUVfMTl5X2VILVlFd05Yd0hQNDJQRHY0alZMNmQ5TVE?oc=5",
-          "publishedAt": "2026-11-21 05:12",
+          "publishedAt": "2026-11-21 02:31",
           "outlet": "Forbes Markets"
         },
         {
@@ -21,6 +21,13 @@
           "link": "https://www.axios.com/2026/11/20/anthropic-public-shareholders",
           "publishedAt": "2026-11-20 21:10",
           "outlet": "Axios"
+        },
+        {
+          "title": "Google taps Blue Origin's New Glenn for first heavy-lift launch of space-based AI project - digitimes",
+          "summary": "Google taps Blue Origin's New Glenn for first heavy-lift launch of space-based AI project  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWJGUmVDMEJJMEFSaEJKc0QzaHpkdHZFRlZSTHBhbGtzbk9VNVBJcUhLRzRWb1BlVHlHQl9ROS1qUmdTU0NhWG16bUNBdzRXdDRpUFEzeEhRUWNKVWtrM3dNLXhCLTUwbmxfTUoyU1FERzM4aUhaWjZDb3E1Sk9VU2NQS3BSNGswanJPRHBjWHRpZw?oc=5",
+          "publishedAt": "2026-11-20 11:38",
+          "outlet": "DigiTimes"
         },
         {
           "title": "Google Selects Bezos’ Blue Origin for Data Center Satellite Test - The Information",
