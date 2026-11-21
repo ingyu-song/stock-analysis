@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-21 20:16",
+  "updatedAt": "2026-11-22 03:05",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,13 +8,6 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
-        {
-          "title": "Jensen Huang Loses Over A Quarter Of His Wealth After Scandal—As Google Passes Nvidia In Market Cap - Forbes",
-          "summary": "Jensen Huang Loses Over A Quarter Of His Wealth After Scandal—As Google Passes Nvidia In Market Cap  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxOOVpSOS13U1I5OGlualgzVU9GeUxxUWhGSzFJODZhUW96YXBHRUlqN3ZDN3pwY0xNZDh2RklGdmZqSmJJQi0xMXRxU0VvaHRfemtJdHlVUGgxbkljQzZmelh6WWUydmZnRlhIZzdWSVF5bHB6NnZQbVYwOW9XM2FwVENaRFJadEZFcnpWTndtM3NCYW9wLXhzZ1pDQUVfMTl5X2VILVlFd05Yd0hQNDJQRHY0alZMNmQ5TVE?oc=5",
-          "publishedAt": "2026-11-21 02:31",
-          "outlet": "Forbes Markets"
-        },
         {
           "title": "Anthropic is public, now comes the hard part",
           "summary": "Data: FactSet; Chart: Matt Phillips/AxiosWith its IPO done and dusted, Anthropic's shareholders will be watching its progress toward becoming a business that doesn't need constant capital infusions from investors and vendors. Why it matters: Anthropic — along with OpenAI — is at the heart of the industry that's dominated the equity and debt markets for the last four years. Much of the AI infrastru",
@@ -42,6 +35,19 @@
           "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd0lUTXd3OUhmLTBaS2JYUUtIUFB2QklyQ0hrbmRXVTRrNEpmZGtIOC1RN2tsRFBHWE1RdUpteWRSUDJScXFHbDF6Si1MNXJvYlZOLS1rMnpoc0o5RTVLaGNib0hHb0dkeDd4dUZqQ3BRUVA2OTg2UlVzUkNfZ1BqUXpFYUZzLThLcFhRTQ?oc=5",
           "publishedAt": "2026-11-19 13:01",
           "outlet": "DigiTimes"
+        }
+      ]
+    },
+    {
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
+      "items": [
+        {
+          "title": "CrowdStrike in Talks to Buy Zscaler - The Information",
+          "summary": "CrowdStrike in Talks to Buy Zscaler  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEOW9LV2VjWGNwSVdiZVd0SklBMWY5SzIzVDZpU1AzV0J0dFk2Q2ZpeFhxbml6ZU9tZng3UTZLeXB3dXA0cEpHck1DZXZLcWY1Y3dBOWUtQXVxdzBhMEVrV2NlOFZxcUl5WmJiRVRhemlTRi14dmRFYmp3?oc=5",
+          "publishedAt": "2026-11-21 07:07",
+          "outlet": "The Information"
         }
       ]
     },
