@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 00:25",
+  "updatedAt": "2026-11-23 06:52",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -28,6 +28,13 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQam5KaHY0RE1VRVJqSEZMV0xFOXloaG4tOEVONHNORFZqelJEdkk0WmozalU1dDVUYU1yRm9BaTNnVDZucGk1U0gxaUdxOWZKMlg1aXZ3R0JDdFBHSlQ3U3JLTUNreHhwZ21fR2oyZHoyMjdCMnVVNHFabWZXVk14aVNEQ0V1cVBwNVJON3l3RkkwQQ?oc=5",
           "publishedAt": "2026-11-20 11:06",
           "outlet": "DigiTimes"
+        },
+        {
+          "title": "Apple Developing AI Agent to Rival Meta and OpenAI - The Information",
+          "summary": "Apple Developing AI Agent to Rival Meta and OpenAI  The Information",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTDFnNjhGLUwyN1Z5c2ZSOWJZd19SZkV6Vl94MDhmZWtPajRKaGozV090MWx0ZkxJa2VSRUtoU19zQzZCeWFHNTlGNkxmblhFakRMQWFVSE9fY3pZUlNsTHVqRWVSbmdrTU5NV2VNZ1FDM3FLeDFkUWNRWHlNdEJBUlJiV3I5WFYwbEhJdQ?oc=5",
+          "publishedAt": "2026-11-20 07:49",
+          "outlet": "The Information"
         }
       ]
     },
@@ -55,13 +62,6 @@
           "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWJGUmVDMEJJMEFSaEJKc0QzaHpkdHZFRlZSTHBhbGtzbk9VNVBJcUhLRzRWb1BlVHlHQl9ROS1qUmdTU0NhWG16bUNBdzRXdDRpUFEzeEhRUWNKVWtrM3dNLXhCLTUwbmxfTUoyU1FERzM4aUhaWjZDb3E1Sk9VU2NQS3BSNGswanJPRHBjWHRpZw?oc=5",
           "publishedAt": "2026-11-20 11:38",
           "outlet": "DigiTimes"
-        },
-        {
-          "title": "Google Selects Bezos’ Blue Origin for Data Center Satellite Test - The Information",
-          "summary": "Google Selects Bezos’ Blue Origin for Data Center Satellite Test  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUE5Bd0VHWDBQSjg3NlhjTHY4bm1xUVdXSkp2WGJCN1VzNjQwM3F2bmM2QmFfcXFsRlhSZE5jdm9rZ2N3MjM0N0ZTVXBmR19CMmg2cWhvalBHbXNHQlpQQk9FVkZMOWlPQ0lQQUwzQnZuVENuRnhzTGRyMXFmMnM5TkZCeXlWUjlra3BUUm9ENFRfTTEzLUNVeWk2emRXc1dNNmc?oc=5",
-          "publishedAt": "2026-11-20 02:17",
-          "outlet": "The Information"
         }
       ]
     },
@@ -69,13 +69,6 @@
       "ticker": "CRWD",
       "name": "크라우드스트라이크",
       "items": [
-        {
-          "title": "CrowdStrike’s Talks with Zscaler Show AI-Led Cyber Consolidation - Bloomberg.com",
-          "summary": "CrowdStrike’s Talks with Zscaler Show AI-Led Cyber Consolidation  Bloomberg.com",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0VYZF9KRG42dkJPc2xHRUVQYWdOTjd3dWdCOEhWbzZ0dGdGWXV5c29QaXZFOURSSDJmZU9LUUgyTjc2SC1HNFNMTU53V0NCZlMya1BLQWdCWk9HZGU4RGJ4WDI3bTZHWGRobjBTYnpGSUlST2xHLWtOYjlnZy0yTUgtbWkwdjBoSHhIX01teDB0Y2JVV1BvdnNQMkFybWV2V2Z4NmE5OGF1UkRqMEpycU1LdmdVQQ?oc=5",
-          "publishedAt": "2026-11-22 04:02",
-          "outlet": "Bloomberg (via Google News)"
-        },
         {
           "title": "CrowdStrike in Talks to Buy Zscaler - The Information",
           "summary": "CrowdStrike in Talks to Buy Zscaler  The Information",
