@@ -1,9 +1,29 @@
 {
-  "updatedAt": "2026-11-22 08:25",
+  "updatedAt": "2026-11-22 15:59",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
+    {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Hacks, AI and conspiracy theories: why are we having so many outages?",
+          "summary": "After chaos at airlines, banks and companies from Microsoft to Apple, people have become convinced the world’s systems are under attackNicole Reindorf’s American Airlines flight was ready for takeoff in Phoenix when the pilot came on the intercom and announced what was to become the longest nationwide aviation shutdown since 9/11.Reindorf, 70, had seen the headlines hours before about a global Mic",
+          "link": "https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple",
+          "publishedAt": "2026-11-22 15:00",
+          "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Apple, Huawei, Garmin highlight diverging smartwatch strategies - digitimes",
+          "summary": "Apple, Huawei, Garmin highlight diverging smartwatch strategies  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQam5KaHY0RE1VRVJqSEZMV0xFOXloaG4tOEVONHNORFZqelJEdkk0WmozalU1dDVUYU1yRm9BaTNnVDZucGk1U0gxaUdxOWZKMlg1aXZ3R0JDdFBHSlQ3U3JLTUNreHhwZ21fR2oyZHoyMjdCMnVVNHFabWZXVk14aVNEQ0V1cVBwNVJON3l3RkkwQQ?oc=5",
+          "publishedAt": "2026-11-20 11:06",
+          "outlet": "DigiTimes"
+        }
+      ]
+    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -16,31 +36,38 @@
           "outlet": "Axios"
         },
         {
+          "title": "Google taps Blue Origin's New Glenn for first heavy-lift launch of space-based AI project - digitimes",
+          "summary": "Google taps Blue Origin's New Glenn for first heavy-lift launch of space-based AI project  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWJGUmVDMEJJMEFSaEJKc0QzaHpkdHZFRlZSTHBhbGtzbk9VNVBJcUhLRzRWb1BlVHlHQl9ROS1qUmdTU0NhWG16bUNBdzRXdDRpUFEzeEhRUWNKVWtrM3dNLXhCLTUwbmxfTUoyU1FERzM4aUhaWjZDb3E1Sk9VU2NQS3BSNGswanJPRHBjWHRpZw?oc=5",
+          "publishedAt": "2026-11-20 11:38",
+          "outlet": "DigiTimes"
+        },
+        {
           "title": "Google Selects Bezos’ Blue Origin for Data Center Satellite Test - The Information",
           "summary": "Google Selects Bezos’ Blue Origin for Data Center Satellite Test  The Information",
           "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPUE5Bd0VHWDBQSjg3NlhjTHY4bm1xUVdXSkp2WGJCN1VzNjQwM3F2bmM2QmFfcXFsRlhSZE5jdm9rZ2N3MjM0N0ZTVXBmR19CMmg2cWhvalBHbXNHQlpQQk9FVkZMOWlPQ0lQQUwzQnZuVENuRnhzTGRyMXFmMnM5TkZCeXlWUjlra3BUUm9ENFRfTTEzLUNVeWk2emRXc1dNNmc?oc=5",
           "publishedAt": "2026-11-20 02:17",
           "outlet": "The Information"
-        },
-        {
-          "title": "Google looks to bypass Broadcom with direct HBM purchases - digitimes",
-          "summary": "Google looks to bypass Broadcom with direct HBM purchases  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNd0lUTXd3OUhmLTBaS2JYUUtIUFB2QklyQ0hrbmRXVTRrNEpmZGtIOC1RN2tsRFBHWE1RdUpteWRSUDJScXFHbDF6Si1MNXJvYlZOLS1rMnpoc0o5RTVLaGNib0hHb0dkeDd4dUZqQ3BRUVA2OTg2UlVzUkNfZ1BqUXpFYUZzLThLcFhRTQ?oc=5",
-          "publishedAt": "2026-11-19 13:01",
-          "outlet": "DigiTimes"
         }
       ]
     },
     {
-      "ticker": "INTC",
-      "name": "인텔",
+      "ticker": "CRWD",
+      "name": "크라우드스트라이크",
       "items": [
         {
-          "title": "Microsoft’s chip packaging deal hands Intel credibility more than revenue - digitimes",
-          "summary": "Microsoft’s chip packaging deal hands Intel credibility more than revenue  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQa3pCa3puMG8tMUcyVEJjSlhLMUtseXpiRTh5RzVRREdod1M3SUR0S1dnUnJ6dVhWVmdKX1U3YjhyeVhOekltc2NqSlc4UDUzUUFPMWJ6YU1EeFhvQ2hTdlI1cE9zOWR5anh5cmtUbFNQc3NtX0pSSDhGVFJXUGZmRGdEbmtmd2hlOURWdmhuaE9MQmdwaUFlYzNkc04?oc=5",
-          "publishedAt": "2026-11-19 09:53",
-          "outlet": "DigiTimes"
+          "title": "CrowdStrike’s Talks with Zscaler Show AI-Led Cyber Consolidation - Bloomberg",
+          "summary": "CrowdStrike’s Talks with Zscaler Show AI-Led Cyber Consolidation  Bloomberg",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQb0VYZF9KRG42dkJPc2xHRUVQYWdOTjd3dWdCOEhWbzZ0dGdGWXV5c29QaXZFOURSSDJmZU9LUUgyTjc2SC1HNFNMTU53V0NCZlMya1BLQWdCWk9HZGU4RGJ4WDI3bTZHWGRobjBTYnpGSUlST2xHLWtOYjlnZy0yTUgtbWkwdjBoSHhIX01teDB0Y2JVV1BvdnNQMkFybWV2V2Z4NmE5OGF1UkRqMEpycU1LdmdVQQ?oc=5",
+          "publishedAt": "2026-11-22 04:02",
+          "outlet": "Bloomberg (via Google News)"
+        },
+        {
+          "title": "CrowdStrike in Talks to Buy Zscaler - The Information",
+          "summary": "CrowdStrike in Talks to Buy Zscaler  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEOW9LV2VjWGNwSVdiZVd0SklBMWY5SzIzVDZpU1AzV0J0dFk2Q2ZpeFhxbml6ZU9tZng3UTZLeXB3dXA0cEpHck1DZXZLcWY1Y3dBOWUtQXVxdzBhMEVrV2NlOFZxcUl5WmJiRVRhemlTRi14dmRFYmp3?oc=5",
+          "publishedAt": "2026-11-21 07:07",
+          "outlet": "The Information"
         }
       ]
     }
