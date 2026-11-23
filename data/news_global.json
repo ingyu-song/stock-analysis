@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 06:52",
+  "updatedAt": "2026-11-23 11:52",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -8,6 +8,13 @@
       "ticker": "AAPL",
       "name": "애플",
       "items": [
+        {
+          "title": "How Apple Got Caught Up in Google Search Ads Slowdown - The Information",
+          "summary": "How Apple Got Caught Up in Google Search Ads Slowdown  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRXZZU0Q2Q1VwTFg3TWJ5TDd6Rkl3RnYzQjk4aVF6RHFMUDFZSGw4QVdDNnpFbXF5RXNrdF84blBsVnRuMGZfTi0xdkF3RUg5dXVEemtjdGhDRXQwbkhpWFNLTTJpRlBrNkJuWE1lUHZVZzBMNHlxakoyeUFXTXlZb2VRYm9jUHVranJ3?oc=5",
+          "publishedAt": "2026-11-23 01:00",
+          "outlet": "The Information"
+        },
         {
           "title": "Apple iPhone 18 Release Date: Production Milestone Suggests March Launch Timeline - Forbes",
           "summary": "Apple iPhone 18 Release Date: Production Milestone Suggests March Launch Timeline  Forbes",
@@ -21,20 +28,6 @@
           "link": "https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple",
           "publishedAt": "2026-11-22 15:00",
           "outlet": "The Guardian Business"
-        },
-        {
-          "title": "Apple, Huawei, Garmin highlight diverging smartwatch strategies - digitimes",
-          "summary": "Apple, Huawei, Garmin highlight diverging smartwatch strategies  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQam5KaHY0RE1VRVJqSEZMV0xFOXloaG4tOEVONHNORFZqelJEdkk0WmozalU1dDVUYU1yRm9BaTNnVDZucGk1U0gxaUdxOWZKMlg1aXZ3R0JDdFBHSlQ3U3JLTUNreHhwZ21fR2oyZHoyMjdCMnVVNHFabWZXVk14aVNEQ0V1cVBwNVJON3l3RkkwQQ?oc=5",
-          "publishedAt": "2026-11-20 11:06",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Apple Developing AI Agent to Rival Meta and OpenAI - The Information",
-          "summary": "Apple Developing AI Agent to Rival Meta and OpenAI  The Information",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPTDFnNjhGLUwyN1Z5c2ZSOWJZd19SZkV6Vl94MDhmZWtPajRKaGozV090MWx0ZkxJa2VSRUtoU19zQzZCeWFHNTlGNkxmblhFakRMQWFVSE9fY3pZUlNsTHVqRWVSbmdrTU5NV2VNZ1FDM3FLeDFkUWNRWHlNdEJBUlJiV3I5WFYwbEhJdQ?oc=5",
-          "publishedAt": "2026-11-20 07:49",
-          "outlet": "The Information"
         }
       ]
     },
@@ -43,25 +36,18 @@
       "name": "알파벳 A",
       "items": [
         {
+          "title": "How Apple Got Caught Up in Google Search Ads Slowdown - The Information",
+          "summary": "How Apple Got Caught Up in Google Search Ads Slowdown  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRXZZU0Q2Q1VwTFg3TWJ5TDd6Rkl3RnYzQjk4aVF6RHFMUDFZSGw4QVdDNnpFbXF5RXNrdF84blBsVnRuMGZfTi0xdkF3RUg5dXVEemtjdGhDRXQwbkhpWFNLTTJpRlBrNkJuWE1lUHZVZzBMNHlxakoyeUFXTXlZb2VRYm9jUHVranJ3?oc=5",
+          "publishedAt": "2026-11-23 01:00",
+          "outlet": "The Information"
+        },
+        {
           "title": "Behind the Curtain — AI 2027: The reckoning",
           "summary": "We've talked to more than 50 leaders in government, AI, business and cyber — from let-'er-rip AI accelerationists to shut-'er-down critics — and they were unanimous on one chilling assessment:Cyberattacks on business and critical infrastructure will be constant, increasingly sophisticated and highly disruptive over the next 18 months.These leaders describe 2027 as the year cyber becomes like weath",
           "link": "https://www.axios.com/2026/11/22/behind-the-curtain-ai-2027-the-reckoning",
           "publishedAt": "2026-11-22 22:36",
           "outlet": "Axios"
-        },
-        {
-          "title": "Anthropic is public, now comes the hard part",
-          "summary": "Data: FactSet; Chart: Matt Phillips/AxiosWith its IPO done and dusted, Anthropic's shareholders will be watching its progress toward becoming a business that doesn't need constant capital infusions from investors and vendors. Why it matters: Anthropic — along with OpenAI — is at the heart of the industry that's dominated the equity and debt markets for the last four years. Much of the AI infrastru",
-          "link": "https://www.axios.com/2026/11/20/anthropic-public-shareholders",
-          "publishedAt": "2026-11-20 21:10",
-          "outlet": "Axios"
-        },
-        {
-          "title": "Google taps Blue Origin's New Glenn for first heavy-lift launch of space-based AI project - digitimes",
-          "summary": "Google taps Blue Origin's New Glenn for first heavy-lift launch of space-based AI project  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOMWJGUmVDMEJJMEFSaEJKc0QzaHpkdHZFRlZSTHBhbGtzbk9VNVBJcUhLRzRWb1BlVHlHQl9ROS1qUmdTU0NhWG16bUNBdzRXdDRpUFEzeEhRUWNKVWtrM3dNLXhCLTUwbmxfTUoyU1FERzM4aUhaWjZDb3E1Sk9VU2NQS3BSNGswanJPRHBjWHRpZw?oc=5",
-          "publishedAt": "2026-11-20 11:38",
-          "outlet": "DigiTimes"
         }
       ]
     },
