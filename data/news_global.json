@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 11:52",
+  "updatedAt": "2026-11-23 22:00",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -16,18 +16,11 @@
           "outlet": "The Information"
         },
         {
-          "title": "Apple iPhone 18 Release Date: Production Milestone Suggests March Launch Timeline - Forbes",
-          "summary": "Apple iPhone 18 Release Date: Production Milestone Suggests March Launch Timeline  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOX0dfNHFGczBNa0JnT1I1LWFqUmd3U3Eta3dIUEVZb1Rua1VabktpblhhZk1Fd2NRQzRVMVVTZGlDalBDYTU0RlRwNVVpRmwxaHNvaVZPTzJUQ1BfckJYWW15aGQtVHdmOVU0czRIVy1fVEpuZkg2eTYxRWtndlJDTUpNS2I4QlBvcVg3TU9qaDdHSE5iNHk4eWFQRktvbl9EWVVpQ1JhcGZpdm9YT2R1U0VIdDBwR2hhZ2JhLVBZLXNkVUZnVjBsaHBSZ0dydw?oc=5",
-          "publishedAt": "2026-11-22 20:16",
-          "outlet": "Forbes Markets"
-        },
-        {
-          "title": "Hacks, AI and conspiracy theories: why are we having so many outages?",
-          "summary": "After chaos at airlines, banks and companies from Microsoft to Apple, people have become convinced the world’s systems are under attackNicole Reindorf’s American Airlines flight was ready for takeoff in Phoenix when the pilot came on the intercom and announced what was to become the longest nationwide aviation shutdown since 9/11.Reindorf, 70, had seen the headlines hours before about a global Mic",
-          "link": "https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple",
-          "publishedAt": "2026-11-22 15:00",
-          "outlet": "The Guardian Business"
+          "title": "Apple's agent push turns operating-system access into AI's next battleground - digitimes",
+          "summary": "Apple's agent push turns operating-system access into AI's next battleground  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtTnB6N253UmdSd0F1V2J5cC11Xy02aUpGemNpQWEtNDkyNF9HMFZvVVRSZWNSajl6RXJNUTM5RzRaRzhxZjhLOFhmemR6RWxfTGZycTRZbzNLNkZ1ZHRLUU8wbUVUZ29rbTRVZDA1VGhmZFl0aXlUWUpWdzg?oc=5",
+          "publishedAt": "2026-11-21 13:05",
+          "outlet": "DigiTimes"
         }
       ]
     },
@@ -35,6 +28,13 @@
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
+        {
+          "title": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS - digitimes",
+          "summary": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONElwbFRYeVpObXcxUHg2cTdHWEpSWWxIV2JlR0l3c1NTVXJScnh4OWZFSzZBWUl6aDlvYjQyXzg3TTZ3Q0RSbXNlVnloNENwTUdiX29pV2xMLU5WZl9kMmh3d0U4NGNkQm12TmFPSHd6MmNQNHBfSGFwOVoydlBLRzJDdDA3RTk2RHlZeg?oc=5",
+          "publishedAt": "2026-11-23 10:50",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "How Apple Got Caught Up in Google Search Ads Slowdown - The Information",
           "summary": "How Apple Got Caught Up in Google Search Ads Slowdown  The Information",
@@ -56,6 +56,13 @@
       "name": "크라우드스트라이크",
       "items": [
         {
+          "title": "CrowdStrike to buy Zscaler in $44bn deal as cyber threats mount",
+          "summary": "All-stock acquisition comes as businesses and governments across the world grapple with wave of tech outages",
+          "link": "https://www.ft.com/content/762bd05d-8e20-4abf-9bc5-4e6f9bf628cb?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-23 20:02",
+          "outlet": "Financial Times"
+        },
+        {
           "title": "CrowdStrike in Talks to Buy Zscaler - The Information",
           "summary": "CrowdStrike in Talks to Buy Zscaler  The Information",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEOW9LV2VjWGNwSVdiZVd0SklBMWY5SzIzVDZpU1AzV0J0dFk2Q2ZpeFhxbml6ZU9tZng3UTZLeXB3dXA0cEpHck1DZXZLcWY1Y3dBOWUtQXVxdzBhMEVrV2NlOFZxcUl5WmJiRVRhemlTRi14dmRFYmp3?oc=5",
@@ -74,6 +81,19 @@
           "link": "https://www.nytimes.com/2026/11/22/business/procter-gamble-factory-automated.html",
           "publishedAt": "2026-11-22 19:02",
           "outlet": "NYT Business"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS - digitimes",
+          "summary": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONElwbFRYeVpObXcxUHg2cTdHWEpSWWxIV2JlR0l3c1NTVXJScnh4OWZFSzZBWUl6aDlvYjQyXzg3TTZ3Q0RSbXNlVnloNENwTUdiX29pV2xMLU5WZl9kMmh3d0U4NGNkQm12TmFPSHd6MmNQNHBfSGFwOVoydlBLRzJDdDA3RTk2RHlZeg?oc=5",
+          "publishedAt": "2026-11-23 10:50",
+          "outlet": "DigiTimes"
         }
       ]
     }
