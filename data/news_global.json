@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-23 22:00",
+  "updatedAt": "2026-11-24 09:58",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,18 +9,25 @@
       "name": "애플",
       "items": [
         {
+          "title": "\"Troubling and problematic\": Gov. Moore rips Trump's Nvidia actions on \"The Axios Show\"",
+          "summary": "Maryland Gov. Wes Moore criticized President Trump's involvement in Nvidia's decision to reinstate CEO Jensen Huang, calling it \"troubling and problematic\" in an interview for \"The Axios Show.\"Why it matters: Moore, chair of the National Governors Association and often seen as a 2028 presidential contender, is one of the most outspoken state leaders pushing for stronger federal oversight of AI com",
+          "link": "https://www.axios.com/2026/11/23/axios-show-moore-trump-nvidia",
+          "publishedAt": "2026-11-24 05:00",
+          "outlet": "Axios"
+        },
+        {
+          "title": "Apple enters silicon photonics race with optical packaging hires for custom chips - digitimes",
+          "summary": "Apple enters silicon photonics race with optical packaging hires for custom chips  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdEFVelR2djRid3VscWFtQTViUHlaVjZXRGIyZjJkWEVDOFU0MV9MZlUzUUFzaHJwaTAtLXhjakRCOWJYX1hKSnpTQmpnQ1BaclY4THgzS19ERUQ0N2VaRzF4STV6OUpwV1VCVlVMdGpNaHRUMmdUQTBQTFVyZEM1UldUMHhOamxZTEp4ZzN3VjJXdnZN?oc=5",
+          "publishedAt": "2026-11-23 13:29",
+          "outlet": "DigiTimes"
+        },
+        {
           "title": "How Apple Got Caught Up in Google Search Ads Slowdown - The Information",
           "summary": "How Apple Got Caught Up in Google Search Ads Slowdown  The Information",
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRXZZU0Q2Q1VwTFg3TWJ5TDd6Rkl3RnYzQjk4aVF6RHFMUDFZSGw4QVdDNnpFbXF5RXNrdF84blBsVnRuMGZfTi0xdkF3RUg5dXVEemtjdGhDRXQwbkhpWFNLTTJpRlBrNkJuWE1lUHZVZzBMNHlxakoyeUFXTXlZb2VRYm9jUHVranJ3?oc=5",
           "publishedAt": "2026-11-23 01:00",
           "outlet": "The Information"
-        },
-        {
-          "title": "Apple's agent push turns operating-system access into AI's next battleground - digitimes",
-          "summary": "Apple's agent push turns operating-system access into AI's next battleground  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBtTnB6N253UmdSd0F1V2J5cC11Xy02aUpGemNpQWEtNDkyNF9HMFZvVVRSZWNSajl6RXJNUTM5RzRaRzhxZjhLOFhmemR6RWxfTGZycTRZbzNLNkZ1ZHRLUU8wbUVUZ29rbTRVZDA1VGhmZFl0aXlUWUpWdzg?oc=5",
-          "publishedAt": "2026-11-21 13:05",
-          "outlet": "DigiTimes"
         }
       ]
     },
@@ -41,13 +48,6 @@
           "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRXZZU0Q2Q1VwTFg3TWJ5TDd6Rkl3RnYzQjk4aVF6RHFMUDFZSGw4QVdDNnpFbXF5RXNrdF84blBsVnRuMGZfTi0xdkF3RUg5dXVEemtjdGhDRXQwbkhpWFNLTTJpRlBrNkJuWE1lUHZVZzBMNHlxakoyeUFXTXlZb2VRYm9jUHVranJ3?oc=5",
           "publishedAt": "2026-11-23 01:00",
           "outlet": "The Information"
-        },
-        {
-          "title": "Behind the Curtain — AI 2027: The reckoning",
-          "summary": "We've talked to more than 50 leaders in government, AI, business and cyber — from let-'er-rip AI accelerationists to shut-'er-down critics — and they were unanimous on one chilling assessment:Cyberattacks on business and critical infrastructure will be constant, increasingly sophisticated and highly disruptive over the next 18 months.These leaders describe 2027 as the year cyber becomes like weath",
-          "link": "https://www.axios.com/2026/11/22/behind-the-curtain-ai-2027-the-reckoning",
-          "publishedAt": "2026-11-22 22:36",
-          "outlet": "Axios"
         }
       ]
     },
@@ -56,30 +56,36 @@
       "name": "크라우드스트라이크",
       "items": [
         {
-          "title": "CrowdStrike to buy Zscaler in $44bn deal as cyber threats mount",
-          "summary": "All-stock acquisition comes as businesses and governments across the world grapple with wave of tech outages",
-          "link": "https://www.ft.com/content/762bd05d-8e20-4abf-9bc5-4e6f9bf628cb?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-23 20:02",
-          "outlet": "Financial Times"
-        },
+          "title": "Two Major Cybersecurity Firms to Combine in $44 Billion Deal",
+          "summary": "CrowdStrike agreed to acquire Zscaler, bulking up as worries about hacks fueled by advances in artificial intelligence bedevil companies and governments.",
+          "link": "https://www.nytimes.com/2026/11/23/business/crowdstrike-zscaler-cybersecurity.html",
+          "publishedAt": "2026-11-23 22:08",
+          "outlet": "NYT Business"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "items": [
         {
-          "title": "CrowdStrike in Talks to Buy Zscaler - The Information",
-          "summary": "CrowdStrike in Talks to Buy Zscaler  The Information",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTFBEOW9LV2VjWGNwSVdiZVd0SklBMWY5SzIzVDZpU1AzV0J0dFk2Q2ZpeFhxbml6ZU9tZng3UTZLeXB3dXA0cEpHck1DZXZLcWY1Y3dBOWUtQXVxdzBhMEVrV2NlOFZxcUl5WmJiRVRhemlTRi14dmRFYmp3?oc=5",
-          "publishedAt": "2026-11-21 07:07",
+          "title": "Why Anthropic’s Math Breakthrough Matters; Why Palo Alto Networks Bought Applied Compute - The Information",
+          "summary": "Why Anthropic’s Math Breakthrough Matters; Why Palo Alto Networks Bought Applied Compute  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT3dRa2NpUWctNlJXb1hncDlPMGV1M29oVEp5NWQ2T3IxTi0tMGZhMHFyb3pIc00tT3c1YTFfQXg5UmR5MW5iYUhLYUNUSUpiYTUwSGVGSjVGYVpTREN6ckxrZkhCQjJ6UEhfeUFGOHhqZUpzQ0F2ZVVhNENBRVRpUkY5ek9UNTd6TmNTNUdPV1JtaFlWeHRQOUdjRHRqWHg4RHNCNjBKeUM5cWo0d055b2QxNkFDMHd2TlZFNE9zdlNvbUZQUG5oQmxscw?oc=5",
+          "publishedAt": "2026-11-24 00:01",
           "outlet": "The Information"
         }
       ]
     },
     {
-      "ticker": "PG",
-      "name": "프록터 앤드 갬블",
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
       "items": [
         {
-          "title": "Procter & Gamble to Increase Factory Shifts Without Humans to Cut Costs",
-          "summary": "The maker of Pampers and Bounty paper towels operates 15 sites capable of running shifts unattended, with plans to add more in 2027.",
-          "link": "https://www.nytimes.com/2026/11/22/business/procter-gamble-factory-automated.html",
-          "publishedAt": "2026-11-22 19:02",
+          "title": "Paolo Bulgari, Heir of Italian Jewelry Dynasty, Dies at 89",
+          "summary": "As the chairman of his family’s company, Mr. Bulgari embraced maximalist aesthetics that recalled ancient Rome. After the 2008 financial crisis, he steered the sale of the business to LVMH.",
+          "link": "https://www.nytimes.com/2026/11/23/style/paolo-bulgari-dead.html",
+          "publishedAt": "2026-11-24 00:39",
           "outlet": "NYT Business"
         }
       ]
