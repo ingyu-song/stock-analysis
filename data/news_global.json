@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-25 06:20",
+  "updatedAt": "2026-11-25 13:55",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -21,6 +21,20 @@
           "link": "https://www.axios.com/2026/11/23/axios-show-moore-trump-nvidia",
           "publishedAt": "2026-11-24 05:00",
           "outlet": "Axios"
+        },
+        {
+          "title": "Apple enters silicon photonics race with optical packaging hires for custom chips - digitimes",
+          "summary": "Apple enters silicon photonics race with optical packaging hires for custom chips  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdEFVelR2djRid3VscWFtQTViUHlaVjZXRGIyZjJkWEVDOFU0MV9MZlUzUUFzaHJwaTAtLXhjakRCOWJYX1hKSnpTQmpnQ1BaclY4THgzS19ERUQ0N2VaRzF4STV6OUpwV1VCVlVMdGpNaHRUMmdUQTBQTFVyZEM1UldUMHhOamxZTEp4ZzN3VjJXdnZN?oc=5",
+          "publishedAt": "2026-11-23 13:29",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "How Apple Got Caught Up in Google Search Ads Slowdown - The Information",
+          "summary": "How Apple Got Caught Up in Google Search Ads Slowdown  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRXZZU0Q2Q1VwTFg3TWJ5TDd6Rkl3RnYzQjk4aVF6RHFMUDFZSGw4QVdDNnpFbXF5RXNrdF84blBsVnRuMGZfTi0xdkF3RUg5dXVEemtjdGhDRXQwbkhpWFNLTTJpRlBrNkJuWE1lUHZVZzBMNHlxakoyeUFXTXlZb2VRYm9jUHVranJ3?oc=5",
+          "publishedAt": "2026-11-23 01:00",
+          "outlet": "The Information"
         }
       ]
     },
@@ -41,6 +55,46 @@
           "link": "https://www.theguardian.com/business/2026/nov/24/nhs-caterer-compass-london-listing-new-york-us-ftse-100",
           "publishedAt": "2026-11-24 22:30",
           "outlet": "The Guardian Business"
+        },
+        {
+          "title": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS - digitimes",
+          "summary": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONElwbFRYeVpObXcxUHg2cTdHWEpSWWxIV2JlR0l3c1NTVXJScnh4OWZFSzZBWUl6aDlvYjQyXzg3TTZ3Q0RSbXNlVnloNENwTUdiX29pV2xMLU5WZl9kMmh3d0U4NGNkQm12TmFPSHd6MmNQNHBfSGFwOVoydlBLRzJDdDA3RTk2RHlZeg?oc=5",
+          "publishedAt": "2026-11-23 10:50",
+          "outlet": "DigiTimes"
+        },
+        {
+          "title": "How Apple Got Caught Up in Google Search Ads Slowdown - The Information",
+          "summary": "How Apple Got Caught Up in Google Search Ads Slowdown  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRXZZU0Q2Q1VwTFg3TWJ5TDd6Rkl3RnYzQjk4aVF6RHFMUDFZSGw4QVdDNnpFbXF5RXNrdF84blBsVnRuMGZfTi0xdkF3RUg5dXVEemtjdGhDRXQwbkhpWFNLTTJpRlBrNkJuWE1lUHZVZzBMNHlxakoyeUFXTXlZb2VRYm9jUHVranJ3?oc=5",
+          "publishedAt": "2026-11-23 01:00",
+          "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "items": [
+        {
+          "title": "Why Anthropic’s Math Breakthrough Matters; Why Palo Alto Networks Bought Applied Compute - The Information",
+          "summary": "Why Anthropic’s Math Breakthrough Matters; Why Palo Alto Networks Bought Applied Compute  The Information",
+          "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNT3dRa2NpUWctNlJXb1hncDlPMGV1M29oVEp5NWQ2T3IxTi0tMGZhMHFyb3pIc00tT3c1YTFfQXg5UmR5MW5iYUhLYUNUSUpiYTUwSGVGSjVGYVpTREN6ckxrZkhCQjJ6UEhfeUFGOHhqZUpzQ0F2ZVVhNENBRVRpUkY5ek9UNTd6TmNTNUdPV1JtaFlWeHRQOUdjRHRqWHg4RHNCNjBKeUM5cWo0d055b2QxNkFDMHd2TlZFNE9zdlNvbUZQUG5oQmxscw?oc=5",
+          "publishedAt": "2026-11-24 00:01",
+          "outlet": "The Information"
+        }
+      ]
+    },
+    {
+      "ticker": "INTC",
+      "name": "인텔",
+      "items": [
+        {
+          "title": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS - digitimes",
+          "summary": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONElwbFRYeVpObXcxUHg2cTdHWEpSWWxIV2JlR0l3c1NTVXJScnh4OWZFSzZBWUl6aDlvYjQyXzg3TTZ3Q0RSbXNlVnloNENwTUdiX29pV2xMLU5WZl9kMmh3d0U4NGNkQm12TmFPSHd6MmNQNHBfSGFwOVoydlBLRzJDdDA3RTk2RHlZeg?oc=5",
+          "publishedAt": "2026-11-23 10:50",
+          "outlet": "DigiTimes"
         }
       ]
     }
