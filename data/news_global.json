@@ -1,19 +1,26 @@
 {
-  "updatedAt": "2026-11-26 18:37",
+  "updatedAt": "2026-11-27 04:41",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
-      "ticker": "AAPL",
-      "name": "애플",
+      "ticker": "GOOGL",
+      "name": "알파벳 A",
       "items": [
         {
-          "title": "Huawei's HarmonyOS crosses 100 million devices, taking on Apple beyond smartphones - digitimes",
-          "summary": "Huawei's HarmonyOS crosses 100 million devices, taking on Apple beyond smartphones  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX09rSlBHMVZ6bnhTYWppb3NIb0hDOHBfUGpjdzVBZ01JdjNYLXlYM3JXYWdMWGplWHNOTWxHeDVoQ3hSVURMSTMzMHQ4R2ZBREViNVhteEstemJoMmVnQnM2ekhPS1EtVXhOYnNJUDI4X3hsQWYzVWxONTVqbDlWNG5sYjBwQkFzYXlIRldRWFFlTXliTUhqOHZfWQ?oc=5",
-          "publishedAt": "2026-11-24 16:07",
-          "outlet": "DigiTimes"
+          "title": "YieldMax™ GOOGL Option Income Strategy ETF declares $0.0648 dividend",
+          "summary": "",
+          "link": "https://seekingalpha.com/news/4676898-yieldmax-googl-option-income-strategy-etf-declares-0_0648-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
+          "publishedAt": "2026-11-27 02:02",
+          "outlet": "Business Insider Markets"
+        },
+        {
+          "title": "Cookbook GPT: When AI becomes a Thanksgiving sous-chef",
+          "summary": "From cookbooks to YouTube to ChatGPT, the way Americans plan their holiday menus has evolved.The big picture: But there's something uniquely human about building a recipe, and chefs warn we risk fracturing personal connections and family history by reducing culinary traditions to chatbot prompts.\"Recipes can have tradition and ritual,\" says Melanie Underwood, a culinary educator and founder of Nou",
+          "link": "https://www.axios.com/2026/11/26/ai-thanksgiving-meals-chefs",
+          "publishedAt": "2026-11-26 20:00",
+          "outlet": "Axios"
         }
       ]
     },
@@ -21,6 +28,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "YieldMax INTC Option Income Strategy ETF declares $0.2391 dividend",
+          "summary": "",
+          "link": "https://seekingalpha.com/news/4676896-yieldmax-intc-option-income-strategy-etf-declares-0_2391-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
+          "publishedAt": "2026-11-27 02:01",
+          "outlet": "Business Insider Markets"
+        },
         {
           "title": "Intel 18A yield hits 70%, targets AMD with 14A process - digitimes",
           "summary": "Intel 18A yield hits 70%, targets AMD with 14A process  digitimes",
