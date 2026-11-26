@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 00:43",
+  "updatedAt": "2026-11-26 09:29",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -34,6 +34,13 @@
       "ticker": "INTC",
       "name": "인텔",
       "items": [
+        {
+          "title": "Intel 18A yield hits 70%, targets AMD with 14A process - digitimes",
+          "summary": "Intel 18A yield hits 70%, targets AMD with 14A process  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYmNpaDVSaWhvNVBtNncxckw2LXp2SlA1cUJZNGFJRUp6cnRmMDZGaVVnZ2dlZXNBQVR4RTN0YmpPcWRsdkdZMzF0ay1kQmdUMDRLcG9oVmp5ODhsNnpxSlVSN2E4S0FSMUhyc0p0UGthaFVJc2VNV3VJZVFqSl95M3BJenBKdFk?oc=5",
+          "publishedAt": "2026-11-25 09:42",
+          "outlet": "DigiTimes"
+        },
         {
           "title": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS - digitimes",
           "summary": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS  digitimes",
