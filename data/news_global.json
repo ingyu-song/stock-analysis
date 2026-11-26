@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-26 09:29",
+  "updatedAt": "2026-11-26 18:37",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,23 +9,10 @@
       "name": "애플",
       "items": [
         {
-          "title": "Apple enters silicon photonics race with optical packaging hires for custom chips - digitimes",
-          "summary": "Apple enters silicon photonics race with optical packaging hires for custom chips  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdEFVelR2djRid3VscWFtQTViUHlaVjZXRGIyZjJkWEVDOFU0MV9MZlUzUUFzaHJwaTAtLXhjakRCOWJYX1hKSnpTQmpnQ1BaclY4THgzS19ERUQ0N2VaRzF4STV6OUpwV1VCVlVMdGpNaHRUMmdUQTBQTFVyZEM1UldUMHhOamxZTEp4ZzN3VjJXdnZN?oc=5",
-          "publishedAt": "2026-11-23 13:29",
-          "outlet": "DigiTimes"
-        }
-      ]
-    },
-    {
-      "ticker": "GOOGL",
-      "name": "알파벳 A",
-      "items": [
-        {
-          "title": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS - digitimes",
-          "summary": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONElwbFRYeVpObXcxUHg2cTdHWEpSWWxIV2JlR0l3c1NTVXJScnh4OWZFSzZBWUl6aDlvYjQyXzg3TTZ3Q0RSbXNlVnloNENwTUdiX29pV2xMLU5WZl9kMmh3d0U4NGNkQm12TmFPSHd6MmNQNHBfSGFwOVoydlBLRzJDdDA3RTk2RHlZeg?oc=5",
-          "publishedAt": "2026-11-23 10:50",
+          "title": "Huawei's HarmonyOS crosses 100 million devices, taking on Apple beyond smartphones - digitimes",
+          "summary": "Huawei's HarmonyOS crosses 100 million devices, taking on Apple beyond smartphones  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX09rSlBHMVZ6bnhTYWppb3NIb0hDOHBfUGpjdzVBZ01JdjNYLXlYM3JXYWdMWGplWHNOTWxHeDVoQ3hSVURMSTMzMHQ4R2ZBREViNVhteEstemJoMmVnQnM2ekhPS1EtVXhOYnNJUDI4X3hsQWYzVWxONTVqbDlWNG5sYjBwQkFzYXlIRldRWFFlTXliTUhqOHZfWQ?oc=5",
+          "publishedAt": "2026-11-24 16:07",
           "outlet": "DigiTimes"
         }
       ]
@@ -39,13 +26,6 @@
           "summary": "Intel 18A yield hits 70%, targets AMD with 14A process  digitimes",
           "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPYmNpaDVSaWhvNVBtNncxckw2LXp2SlA1cUJZNGFJRUp6cnRmMDZGaVVnZ2dlZXNBQVR4RTN0YmpPcWRsdkdZMzF0ay1kQmdUMDRLcG9oVmp5ODhsNnpxSlVSN2E4S0FSMUhyc0p0UGthaFVJc2VNV3VJZVFqSl95M3BJenBKdFk?oc=5",
           "publishedAt": "2026-11-25 09:42",
-          "outlet": "DigiTimes"
-        },
-        {
-          "title": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS - digitimes",
-          "summary": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxONElwbFRYeVpObXcxUHg2cTdHWEpSWWxIV2JlR0l3c1NTVXJScnh4OWZFSzZBWUl6aDlvYjQyXzg3TTZ3Q0RSbXNlVnloNENwTUdiX29pV2xMLU5WZl9kMmh3d0U4NGNkQm12TmFPSHd6MmNQNHBfSGFwOVoydlBLRzJDdDA3RTk2RHlZeg?oc=5",
-          "publishedAt": "2026-11-23 10:50",
           "outlet": "DigiTimes"
         }
       ]
