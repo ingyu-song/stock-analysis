@@ -448,6 +448,10 @@ function computeDerived() {
   const rows = inScope.map(h => ({
     ...h,
     costPerShare: Number(h.shares) ? (Number(h.costNative) || 0) / Number(h.shares) : 0,
+    // price vs average cost in the holding's own currency (what the broker app shows; FX not included)
+    retPct: Number(h.shares) && Number(h.costNative) > 0
+      ? (Number(h.price) / ((Number(h.costNative) || 0) / Number(h.shares)) - 1) * 100
+      : NaN,
     weightPct: scoped.totalBase > 0 ? (h.valueBase / scoped.totalBase) * 100 : 0,
   }));
 
@@ -707,7 +711,7 @@ function sortValue(row, key) {
     case "currency": return h.currency || "";
     case "shares": return Number(h.shares) || 0;
     case "price": return Number(h.price) || 0;
-    default: return Number(row[key]) || 0;   // costPerShare, valueBase, pnlBase, weightPct
+    default: return Number(row[key]) || 0;   // costPerShare, valueBase, pnlBase, retPct, weightPct
   }
 }
 
@@ -766,7 +770,7 @@ function renderHoldingsTable(d) {
     const msg = state.holdings.length === 0
       ? `아직 보유 종목이 없어요. "+ 종목 추가"로 시작하세요.`
       : `"${escapeHtml(scopeLabel())}" 계좌에는 보유 종목이 없어요.`;
-    tr.innerHTML = `<td colspan="11" style="text-align:center;color:var(--text-muted);padding:18px 8px;">${msg}</td>`;
+    tr.innerHTML = `<td colspan="12" style="text-align:center;color:var(--text-muted);padding:18px 8px;">${msg}</td>`;
     tbody.appendChild(tr);
     return;
   }
@@ -800,6 +804,7 @@ function renderHoldingsTable(d) {
       <td><input class="cell-num" type="text" inputmode="decimal" autocomplete="off" data-num data-field="price" data-i="${i}" value="${commaNum(h.price)}"></td>
       <td class="cell-computed">${fmtMoney(row.valueBase, state.baseCurrency)}</td>
       <td class="cell-computed ${pnlClass(row.pnlBase)}">${row.costBase > 0 ? fmtSignedMoney(row.pnlBase) : "–"}</td>
+      <td class="cell-computed ${pctClass(row.retPct)}">${Number.isFinite(row.retPct) ? fmtSignedPct(row.retPct) : "–"}</td>
       <td class="cell-computed">${fmtPct(row.weightPct)}</td>
       <td><button class="row-remove-btn" data-remove="${i}" title="삭제">✕</button></td>
     `;
@@ -944,7 +949,9 @@ function refreshAfterEdit() {
     tr.children[7].textContent = fmtMoney(row.valueBase, state.baseCurrency);
     tr.children[8].textContent = row.costBase > 0 ? fmtSignedMoney(row.pnlBase) : "–";
     tr.children[8].className = `cell-computed ${pnlClass(row.pnlBase)}`;
-    tr.children[9].textContent = fmtPct(row.weightPct);
+    tr.children[9].textContent = Number.isFinite(row.retPct) ? fmtSignedPct(row.retPct) : "–";
+    tr.children[9].className = `cell-computed ${pctClass(row.retPct)}`;
+    tr.children[10].textContent = fmtPct(row.weightPct);
   });
   notifyBookChange();
 }
