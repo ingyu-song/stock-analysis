@@ -1,22 +1,9 @@
 {
-  "updatedAt": "2026-11-27 11:54",
+  "updatedAt": "2026-11-27 21:36",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
-    {
-      "ticker": "AAPL",
-      "name": "애플",
-      "items": [
-        {
-          "title": "Huawei's HarmonyOS crosses 100 million devices, taking on Apple beyond smartphones - digitimes",
-          "summary": "Huawei's HarmonyOS crosses 100 million devices, taking on Apple beyond smartphones  digitimes",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX09rSlBHMVZ6bnhTYWppb3NIb0hDOHBfUGpjdzVBZ01JdjNYLXlYM3JXYWdMWGplWHNOTWxHeDVoQ3hSVURMSTMzMHQ4R2ZBREViNVhteEstemJoMmVnQnM2ekhPS1EtVXhOYnNJUDI4X3hsQWYzVWxONTVqbDlWNG5sYjBwQkFzYXlIRldRWFFlTXliTUhqOHZfWQ?oc=5",
-          "publishedAt": "2026-11-24 16:07",
-          "outlet": "DigiTimes"
-        }
-      ]
-    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
@@ -34,6 +21,19 @@
           "link": "https://www.axios.com/2026/11/26/ai-thanksgiving-meals-chefs",
           "publishedAt": "2026-11-26 20:00",
           "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "PANW",
+      "name": "팰로 앨토 네트웍스",
+      "items": [
+        {
+          "title": "Why is Palo Alto Networks stock sliding today?",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/why-is-palo-alto-networks-stock-sliding-today-93CH-5053363",
+          "publishedAt": "2026-11-27 20:57",
+          "outlet": "Investing.com"
         }
       ]
     },
