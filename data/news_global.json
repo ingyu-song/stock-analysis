@@ -1,9 +1,22 @@
 {
-  "updatedAt": "2026-11-27 04:41",
+  "updatedAt": "2026-11-27 11:54",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
+    {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "Huawei's HarmonyOS crosses 100 million devices, taking on Apple beyond smartphones - digitimes",
+          "summary": "Huawei's HarmonyOS crosses 100 million devices, taking on Apple beyond smartphones  digitimes",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNX09rSlBHMVZ6bnhTYWppb3NIb0hDOHBfUGpjdzVBZ01JdjNYLXlYM3JXYWdMWGplWHNOTWxHeDVoQ3hSVURMSTMzMHQ4R2ZBREViNVhteEstemJoMmVnQnM2ekhPS1EtVXhOYnNJUDI4X3hsQWYzVWxONTVqbDlWNG5sYjBwQkFzYXlIRldRWFFlTXliTUhqOHZfWQ?oc=5",
+          "publishedAt": "2026-11-24 16:07",
+          "outlet": "DigiTimes"
+        }
+      ]
+    },
     {
       "ticker": "GOOGL",
       "name": "알파벳 A",
