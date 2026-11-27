@@ -1,19 +1,39 @@
 {
-  "updatedAt": "2026-11-27 21:36",
+  "updatedAt": "2026-11-28 07:02",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
   "coverage": [
     {
+      "ticker": "AAPL",
+      "name": "애플",
+      "items": [
+        {
+          "title": "AI Chip Stocks Swung Wildly—While Warren Buffett’s Apple Climbed 26%",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/ai-chip-stocks-swung-wildlywhile-warren-buffetts-apple-climbed-26-5053436",
+          "publishedAt": "2026-11-28 05:11",
+          "outlet": "Investing.com"
+        },
+        {
+          "title": "OpenAI countersues Apple for stealing trade secrets",
+          "summary": "The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates",
+          "link": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
+          "publishedAt": "2026-11-28 03:20",
+          "outlet": "Financial Times"
+        }
+      ]
+    },
+    {
       "ticker": "GOOGL",
       "name": "알파벳 A",
       "items": [
         {
-          "title": "YieldMax™ GOOGL Option Income Strategy ETF declares $0.0648 dividend",
-          "summary": "",
-          "link": "https://seekingalpha.com/news/4676898-yieldmax-googl-option-income-strategy-etf-declares-0_0648-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-          "publishedAt": "2026-11-27 02:02",
-          "outlet": "Business Insider Markets"
+          "title": "Google told to halt Belgium datacentre construction over lack of planning permit",
+          "summary": "Greenpeace publishes report showing tech firm is continuing to build despite planning appeal still unresolvedBelgian authorities have ordered Google to halt construction work on a large datacentre in the south of the country because the US tech firm’s requests to modify the original terms of the planning permission did not have approval.“Inspectors visited the site and observed that the building w",
+          "link": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
+          "publishedAt": "2026-11-28 02:21",
+          "outlet": "The Guardian Business"
         },
         {
           "title": "Cookbook GPT: When AI becomes a Thanksgiving sous-chef",
@@ -25,29 +45,9 @@
       ]
     },
     {
-      "ticker": "PANW",
-      "name": "팰로 앨토 네트웍스",
-      "items": [
-        {
-          "title": "Why is Palo Alto Networks stock sliding today?",
-          "summary": "",
-          "link": "https://www.investing.com/news/stock-market-news/why-is-palo-alto-networks-stock-sliding-today-93CH-5053363",
-          "publishedAt": "2026-11-27 20:57",
-          "outlet": "Investing.com"
-        }
-      ]
-    },
-    {
       "ticker": "INTC",
       "name": "인텔",
       "items": [
-        {
-          "title": "YieldMax INTC Option Income Strategy ETF declares $0.2391 dividend",
-          "summary": "",
-          "link": "https://seekingalpha.com/news/4676896-yieldmax-intc-option-income-strategy-etf-declares-0_2391-dividend?utm_source=businessinsider&utm_medium=referral&feed_item_type=news",
-          "publishedAt": "2026-11-27 02:01",
-          "outlet": "Business Insider Markets"
-        },
         {
           "title": "Intel 18A yield hits 70%, targets AMD with 14A process - digitimes",
           "summary": "Intel 18A yield hits 70%, targets AMD with 14A process  digitimes",
