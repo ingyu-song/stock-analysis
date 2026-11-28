@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-28 12:57",
+  "updatedAt": "2026-11-28 22:09",
   "windowDays": 5,
   "source": "글로벌 매체 RSS",
   "sourceCount": 18,
@@ -9,11 +9,11 @@
       "name": "애플",
       "items": [
         {
-          "title": "OpenAI countersues Apple for stealing trade secrets",
-          "summary": "The ChatGPT maker also accuses the tech giant of ‘coercing and threatening’ suppliers who work with both companies, as legal battle escalates",
-          "link": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
-          "publishedAt": "2026-11-28 08:00",
-          "outlet": "Financial Times"
+          "title": "OpenAI countersues Apple for allegedly stealing trade secrets",
+          "summary": "Lawsuit also alleging pressure on hardware suppliers comes after Apple sued OpenAI for allegedly poaching employeesOpenAI sued Apple on Friday, accusing the company of ⁠stealing its trade secrets ​and discouraging hardware suppliers from working on future OpenAI devices.The suit, filed in northern California federal court, comes after Apple sued OpenAI for allegedly poaching its employees to gain ",
+          "link": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+          "publishedAt": "2026-11-28 08:28",
+          "outlet": "The Guardian Business"
         },
         {
           "title": "OpenAI Countersues Apple In Trade Secrets Battle - The Information",
@@ -21,13 +21,6 @@
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWElkVUZWcHdsdnJUVHBvd0ZzeTNRbGhQeUM5ZnJzbGdQQzVCYTNIcFdMQzZYNTZ5Z2VTUmlqUUtFdjV4a2NBRXNuVVJCV0xCTmwxVU5xejMxZDllaktNSkx4YTNQVE5EQVM3eHMyM3Nnb3Q5NTZmZ0hZTjZlUVE1VDc5aXRBTkFMWE9tazMxaw?oc=5",
           "publishedAt": "2026-11-28 04:06",
           "outlet": "The Information"
-        },
-        {
-          "title": "Apple iPhone 18 And iPhone Air 2 Designs Revealed In New Images - Forbes",
-          "summary": "Apple iPhone 18 And iPhone Air 2 Designs Revealed In New Images  Forbes",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSXB0TlRTRDRRTUVhOTN0Zi16VEN1VnZ2cWttcURPM2lsekhXOW9BWmtmUklnRW1ZelNIa0tkN1NzX2diam9RRUhnQjIyRFFSMEU0Qi04cFMtTHNmTERyVnIwR20wQ2FlSUppV3hUUmxuSUotU1phbkxFWjNCS0w4Ukh6MlRrUi1yYWxmZjFRUUViTXNxcXhFM2tfN09TN0J6MGdmNHRXVDJIbU9PM09nWUNjWFVLLXc?oc=5",
-          "publishedAt": "2026-11-27 23:08",
-          "outlet": "Forbes Markets"
         },
         {
           "title": "Apple Pulls MiniMax Chatbot from App Store After Report of Sexualized Content - The Information",
@@ -43,11 +36,11 @@
       "name": "알파벳 A",
       "items": [
         {
-          "title": "Google told to halt Belgium datacentre construction over lack of planning permit",
-          "summary": "Greenpeace publishes report showing tech firm is continuing to build despite planning appeal still unresolvedBelgian authorities have ordered Google to halt construction work on a large datacentre in the south of the country because the US tech firm’s requests to modify the original terms of the planning permission did not have approval.“Inspectors visited the site and observed that the building w",
-          "link": "https://www.theguardian.com/world/2026/nov/27/belgian-authorities-order-google-to-halt-datacentre-construction-over-lack-of-permits",
-          "publishedAt": "2026-11-28 02:21",
-          "outlet": "The Guardian Business"
+          "title": "Musk says Google is interested in renting more computing capacity from SpaceX",
+          "summary": "",
+          "link": "https://www.investing.com/news/stock-market-news/musk-says-google-is-interested-in-renting-more-computing-capacity-from-spacex-5054241",
+          "publishedAt": "2026-11-28 18:24",
+          "outlet": "Investing.com"
         },
         {
           "title": "Cookbook GPT: When AI becomes a Thanksgiving sous-chef",
@@ -55,6 +48,19 @@
           "link": "https://www.axios.com/2026/11/26/ai-thanksgiving-meals-chefs",
           "publishedAt": "2026-11-26 20:00",
           "outlet": "Axios"
+        }
+      ]
+    },
+    {
+      "ticker": "MC.PA",
+      "name": "LVMH 모에헤네시",
+      "items": [
+        {
+          "title": "La succession: France’s wealthiest family said to be battling over who will take over LVMH",
+          "summary": "Bernard Arnault’s children – described as ‘modern-day French royals’ – are subject of rivalry rumours over who will succeed himThey are France’s richest family, leading the world’s biggest luxury goods empire, dressed in matching Dior suits – a clan so powerful they have been described as modern-day French royals.But in recent months, the family dynasty of Bernard Arnault, 77, the billionaire head",
+          "link": "https://www.theguardian.com/business/2026/nov/28/french-succession-bernard-arnault-lvmh",
+          "publishedAt": "2026-11-28 14:00",
+          "outlet": "The Guardian Business"
         }
       ]
     }
